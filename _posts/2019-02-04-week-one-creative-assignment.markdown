@@ -6,7 +6,9 @@ published: true
 
 ### Jam Master
 
-The line "*As long as we have each other we will never run out of problems*" seems to resonate with something I have experience with, i.e. music. This phrase could easily have been written about music itself, which can be easily seen as the presentation and attempted resolution of a series of problems. Apart from some very determined attempts in the realm of the avant-garde to detach musical production from its human-centred origins, much of what drives this production is our social nature and our determination to move forward with new ideas and to formulate responses to what has come before.
+"*As long as we have each other we will never run out of problems*"
+
+The line seems to resonate with something I have some experience with, i.e. music. This phrase could easily have been written about music itself, which can be easily seen as the presentation and attempted resolution of a series of problems. Apart from some very determined attempts in the realm of the avant-garde to detach musical production from its human-centred origins, much of what drives this production is our social nature and our determination to move forward with new ideas and to formulate responses to what has come before.
 
 
 I began to think of how this process may be formalised into actions that could be crystallised into the medium of an app. I focused on the idea of multiple musicians creating musical ideas that pose questions that demand responses from their peers.
