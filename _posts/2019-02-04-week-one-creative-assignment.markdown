@@ -4,30 +4,58 @@ title: Week 1 - The Creative Piece
 published: true
 ---
 
-### Jam Master
+### Master Jammer
 
 "*As long as we have each other we will never run out of problems*"
 
 The line seems to resonate with something I have some experience with, i.e. music. This phrase could easily have been written about music itself, which can be easily seen as the presentation and attempted resolution of a series of problems. Apart from some very determined attempts in the realm of the avant-garde to detach musical production from its human-centred origins, much of what drives this production is our social nature and our determination to move forward with new ideas and to formulate responses to what has come before.
 
+**_I began to think of how this process may be formalised into actions that could be crystallised within the medium of an app._** <br>
 
-I began to think of how this process may be formalised into actions that could be crystallised into the medium of an app. I focused on the idea of multiple musicians creating musical ideas that pose questions that demand responses from their peers.
+**Musical collaboration and how it (sometimes) works**<br>
+I focused on the idea of multiple musicians creating musical ideas that pose questions that demand responses from their peers.  Looking at how musicians in a band often write songs together, whether this is via a relatively loose process of ‘jamming’ or by sitting down and meticulously working through and developing ideas, I began to see it as essentially a process whereby **_possible musical solutions are developed as a response to being confronted by a series of musical problems_**.  In this case, the chosen, ‘successful’ solution, is the one that wins through on consensus.  It is the one that draws the most admiration from those participating. Essentially, it is a form of democracy.<br>
 
+**Not just a jam**<br>
+I started by trying to find a formal solution to the problem of musicians, potentially dispersed across great distances, coming together in order to make music collaboratively. Rather than simply providing an open channel on the internet and facilitating musicians 'jamming' their ideas across what would, in essence, be a high-quality telephone line, I wanted to formalise the ***actual processes of producing collaborative music*** and to bake them into something that is ***interesting and unique in its own right***.  As the idea developed, I began to see how this process could be structured along workflow line that are similar to a game.  The graphic below provides an attempt at mapping out one way of achieving this.
 
-Looking at how musicians in a band often write songs together, whether this is via a relatively loose process of ‘jamming’ or by sitting down and meticulously working through and developing ideas, I began to see it as essentially a process whereby possible solutions are developed in response to being confronted with a series of musical problems.  In this case, the chosen, ‘successful’ solution, is the one that wins through on consensus.  It is the one that draws the most admiration from those participating. Essentially, it is a form of democracy.
+**A game of musical collaboration**<br>
+I am sure that there are many ways and directions this concept could be developed. However, I decided to adhere to one of these possible avenues and see where it leads:-
 
-Working through this idea, I began with a formal, solution-based concept to the problem of bringing dispersed musicians together in order to collaborate on writing musical pieces together, that is working together from across distances that would not normally allow such activity.  As the idea developed, I began to see how it could be developed and structured along similar workflow lines as a game.  Below is an attempt at mapping this out.
+* The game could be initialised by agreeing, at the outset, the constraints of a recognisable song structure. For example, *ABABCBD* – or *verse, chorus, verse, chorus, middle eight, chorus, outro*. Then additional formal structures could also be agreed upon, such as measure and tempo, say *4/4 time at 120bpm*. These need not be set in stone and could potentially be amended during the game (see the graphic outline below). Drum beats could be provided as an option, along with a backing track or a chord progression, thus providing over-arching music constraints, or a restrictive 'template'. 
 
-The game would be initialised by providing, at the outset, the limits of a simple, widely-recognised, song structure, such as *ABABCBD* – or *verse, chorus, verse, chorus, middle eight, chorus, outro*. This structure could potentially be amended during the game – see the more detailed outline below.
+* The musicians – or ‘players’ - would decide who is to kick-start the process and provide the first phrase, theme or ‘riff’.  Alternatively, the app itself could kick start proceedings with an internally-generated or pre-recorded theme.
 
-Other formal structure could be agreed upon – this is highly likely under most circumstances – such as measure and tempo – e.g. *4/4 time at 120bpm*. Drum beats could be provided if requested, or a backing track or chord progression. Otherwise a metronome will do. The players will select their instruments and a simple interface provided to allow playing and musical data entry. It’s likely that this would be via a piano-style keyboard.  As there are obvious limitations with this approach for some musicians, for instance a guitarist may not be happy about the unfamiliarity of a keyboard, then a welcome enhancement could be to allow real instruments to be played and recorded via a microphone and digitised raw audio data used instead of MIDI data.
+* Each player would then have the opportunity to play their response to that theme. Once all players have submitted their responses, everyone will vote on their favourite. Players would be prevented from voting for their own. The winning phrase would then be appended to the track and the others put into a ‘theme pot’.
 
-The musicians – or ‘players’ - would decide if one of them is to start the process by providing the first phrase, theme or ‘riff’, or to allow the computer to kick start proceedings with an internally-generated or a pre-recorded theme.
+* Points would be accumulated when a player's idea is voted in.  The build-up of points would allow successful players to replace phrases or themes with their prefered options, or even to suggest amendments to the arrangement itself.
 
-Each player will then be given the opportunity to play their response to that theme. Once all players have submitted their responses, everyone will vote on their favourite. Players cannot vote for their own. The winner will be appended to the track and the other put into a ‘Theme Pot’.
+* The game would end when the arrangement plan put forward at the start (and potentially amended during game-play) has been completed. The winner will have the most points and will have had the biggest influence on the resulting song / track / masterpiece!
 
-Players build up points when their idea is voted in.  Game-play could build on the points system by allowing players with sufficient points to replace phrases/themes with ones they favour from the Theme Pot, or to suggest changes to the arrangement itself. They could even build enough points to replace existing phrases with new ones of their own.
+**Musicality at a premium?**<br>
+A significant challenge would be to make the app responsive in a way that is acceptable to musicians. If the game is to be jam-like in its ambitions, then a live feel must be maintained with a fast-paced and relatively immediate 'question / response' flow.  A more studious approach could be adopted where musicians work through their ideas in a more considered and controlled manner, but this would be a marked departure from the original concept of a live 'question / response' facilitation.
 
-The game would end when the arrangement plan put forward at the start (and potentially amended during game-play) has been completed. The winner will have the most points and will have had the biggest influence on the resulting song / track / masterpiece!
+**Audio streaming, virtual instruments or MIDI?**<br>
+Game-play is one thing - the medium is quite another.  I envisaged this as being a live play-along / play-together concept using live audio streaming via a microphone. However, it could be that virtual instruments, or even MIDI, be used instead of real instruments.  In this scenario, players would select their chosen instrument and a graphical interactive interface would facilitate live playing.  This would likely be a piano-style keyboard but there is potential to experiment with different and unique methods of converting musical gestures into musical reality. The technologiy required for each of these options would be very different and each has its own appeals, advantages and shortcomings.
 
 ![jam-master-map](\images\jam-master-map.jpg)
+
+**Market research**<br>
+There are a number of website / app-based options facilitating musicians playing 'live' over an internet connection. There is an issue with latency / real-time lag that has not genuinely been overcome, although various efforts have been made.  Generally, though, they current offerings appear to be fairly similar in their scope and ambition.  
+
+Examples are:-
+
+* http://www.ejamming.com<br>
+Jamming over the internet.  A  simple concept that seems to work, although the demo on YouTube, to my ears, suffers from latency (lag), albeit small.
+
+* https://www.jamkazam.com/<br>
+Another jamming tool, but is a hardware rather than software solution? The website does not make it very clear how this works. It appears that the idea is that musicians play along to backing tracks.
+
+* https://jammr.net/<br>
+Yet another jamming tool - currently in beta. Looks simple and straightforward and claims zero latency. I have not been able to test the claim of achieving zero latency, but I have doubts as to whether this is currently possible, particularly as no rivals appear to make such a claim.
+
+* http://jamulus.drealm.info/jamulus
+Open source. Requires 200 kbps for up- and downstream. 40ms average latency.
+
+There are also a number of social media-style music affirmation and collaboration apps available on Google playstore.
+
+
