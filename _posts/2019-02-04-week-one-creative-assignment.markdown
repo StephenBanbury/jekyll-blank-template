@@ -27,7 +27,7 @@ I am sure that there are many ways and directions this concept could be develope
 
 * Each player would then have the opportunity to play their response to that theme. Once all players have submitted their responses, everyone will vote on their favourite. Players would be prevented from voting for their own. The winning phrase would then be appended to the track and the others put into a ‘theme pot’.
 
-* Points would be accumulated when a player's idea is voted in.  The build-up of points would allow successful players to replace phrases or themes with their prefered options, or even to suggest amendments to the arrangement itself.
+* Points would be accumulated when a player's idea is voted in.  The build-up of points would allow successful players to replace phrases or themes with their preferred options, or even to suggest amendments to the arrangement itself.
 
 * The game would end when the arrangement plan put forward at the start (and potentially amended during game-play) has been completed. The winner will have the most points and will have had the biggest influence on the resulting song / track / masterpiece!
 
@@ -35,7 +35,7 @@ I am sure that there are many ways and directions this concept could be develope
 A significant challenge would be to make the app responsive in a way that is acceptable to musicians. If the game is to be jam-like in its ambitions, then a live feel must be maintained with a fast-paced and relatively immediate 'question / response' flow.  A more studious approach could be adopted where musicians work through their ideas in a more considered and controlled manner, but this would be a marked departure from the original concept of a live 'question / response' facilitation.
 
 **Audio streaming, virtual instruments or MIDI?**<br>
-Game-play is one thing - the medium is quite another.  I envisaged this as being a live play-along / play-together concept using live audio streaming via a microphone. However, it could be that virtual instruments, or even MIDI, be used instead of real instruments.  In this scenario, players would select their chosen instrument and a graphical interactive interface would facilitate live playing.  This would likely be a piano-style keyboard but there is potential to experiment with different and unique methods of converting musical gestures into musical reality. The technologiy required for each of these options would be very different and each has its own appeals, advantages and shortcomings.
+Game-play is one thing - the medium is quite another.  I envisaged this as being a live play-along / play-together concept using live audio streaming via a microphone. However, it could be that virtual instruments, or even MIDI, be used instead of real instruments.  In this scenario, players would select their chosen instrument and a graphical interactive interface would facilitate live playing.  This would likely be a piano-style keyboard but there is potential to experiment with different and unique methods of converting musical gestures into musical reality. The technology required for each of these options would be very different and each has its own appeals, advantages and shortcomings.
 
 ![jam-master-map](\images\jam-master-map.jpg)
 
