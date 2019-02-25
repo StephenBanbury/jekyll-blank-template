@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 3 - The App Jam (making a start)
-published: true
+published: false
 ---
 
 ### **<center>Three Little Words</center>** ###
@@ -72,7 +72,7 @@ Perhaps I can produce some quotes and phrases through some kind of AI, using som
 <br><br>
 
 **Formulating ideas for games**<br>
-**..how could I make use of such an API?**<br>
+..how could I make use of such an API?<br>
 
 **A suite of simple games for bored car passengers**<br>
 _Looking for a reasonable and achievable use of the time I have left on the App Jam._<br>
@@ -99,8 +99,16 @@ The opponent will make a guess and, if wrong will be presented with the next clu
 **One small step forwards, but the treasure in sight is starting to lose its lustre**<br>
 Having reviewed this process after making a start on mapping an idea for one of the possible games, I decided it would be appear to be too much to try to build a suite of games at this stage. I believe that simply showing the possibility of creating a suite, for now, is enough. I have found that it doesn't take long to confirm the suspicion that it would be easy to underestimate the amount of work involved in realising such an ambitious target.<br> 
 The main reason for trying to take on several small apps in a suite, is a concern that the single idea I've spent most of the time on is actually not as interesting as I'd like it to be, or thought it would be. It may be neither **exciting** enough as a game nor **interesting** enough as an intellectual excercise. However, it is difficult to know, at this stage, if this will ultimately turn out to be true. Perhaps, if the relatively simple idea behind the games are embellished by clever game-play that graphically represents the progress players are making in an interesting, creative and aesthetically-pleasing way, then the game will be bestowed with more appeal, appearing to be more unique and able to stand on their own. 
-
-
+<br><br>
+**Making the game-play more interesting**<br>
+A selection of ideas for making a fairly stayed intellectual game into something that may have a bit more of a buzz about it..<br>
+* Build a tower
+* Fill a grid
+* Knock down a wall
+* Cross a river / road / lake / island
+* Climb a mountain
+* Destroy
+* Be destroyed
 
 
 
