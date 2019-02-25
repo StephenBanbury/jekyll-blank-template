@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-12T23:09:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week 2 - Considering progamming languages</title><link href="http://localhost:4000/2019/02/09/week-two-programming-languages.html" rel="alternate" type="text/html" title="Week 2 - Considering progamming languages" /><published>2019-02-09T00:00:00+00:00</published><updated>2019-02-09T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/09/week-two-programming-languages</id><content type="html" xml:base="http://localhost:4000/2019/02/09/week-two-programming-languages.html">&lt;p&gt;Having spent a not insignificant  amount time working with SQL Server and other database technologies, whilst also dipping my toes into PHP, Visual Basic, HTML and basic JavaScript, it was refreshing and satisfying to find myself fortuitously thrust into a new team, assembled for the purpose of designing and implementing a brand new database-connected web application, built on SQL Server and extensively utilising the classic and celebrated web dev triumvirate of .NET MVC, WCF and HTML5 (as in the full definition of HTML5, which somehow modestly includes JavaScript/jQuery and CSS3). It was very much ‘in at the deep end’, but a fantastic platform for learning – not just about the bleeding edge languages, frameworks and platforms, but also development practice. Agile was part of this new, exciting world, as was working with a team of experienced contractors whose experience and knowledge were available on tap. I found myself immersed in full-stack dev heaven!&lt;br /&gt;&lt;br /&gt; 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-25T22:42:46+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week 3 - The App Jam (making a start)</title><link href="http://localhost:4000/2019/02/17/week-three-app-jam.html" rel="alternate" type="text/html" title="Week 3 - The App Jam (making a start)" /><published>2019-02-17T00:00:00+00:00</published><updated>2019-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/17/week-three-app-jam</id><content type="html" xml:base="http://localhost:4000/2019/02/17/week-three-app-jam.html">&lt;h3 id=&quot;three-little-words&quot;&gt;&lt;strong&gt;&lt;center&gt;Three Little Words&lt;/center&gt;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;guide--opponent--restricted&quot;&gt;&lt;em&gt;&lt;center&gt;Guide : Opponent : Restricted&lt;/center&gt;&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;As well as deciding to use at least one of these three words to help define what my app will be, I also started looking at them, not so much for their individual or collective literal meanings, as for the fact that they, as do all words, have the ability to be transformed and reinterpretted. This can be via, for example, context, order or re-assignment of grammatical useage such as between, for instance, verb, noun, adjective etc.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;center&gt;Verb&lt;/center&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;center&gt;Noun&lt;/center&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;center&gt;Adjective&lt;/center&gt;&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;&lt;center&gt;Adverb&lt;/center&gt;&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Guide&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Guide&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Guidable&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Guidingly&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Oppose&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Opponent&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Opposing&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Opposingly&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Restrict&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Restrictiveness&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Restricted&lt;/center&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;em&gt;&lt;center&gt;Restrictedly&lt;/center&gt;&lt;/em&gt;&lt;br /&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Using our words in different sentences transformed by their grammatical useage: -&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;She restricts but guides her opponent&lt;br /&gt;
+The guide opposes being restricted&lt;br /&gt;
+She is restricted by her opposition&lt;br /&gt;
+His opponent is guided by her restrictiveness&lt;br /&gt;
+They offer her guidance but in a restricted way&lt;br /&gt;
+His opposition to the guide was being restricted&lt;br /&gt;
+She is being restricted by the guide&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;I looked into the concepts that come to mind when considering how meanings can be transformed&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\app-jam-mind-map-1.jpg&quot; alt=&quot;app-jam-mind-map-1&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+.. a path that led me on to thoughts of understanding and mis-understanding, interpretation, translation, encoding and decoding, encrypting and decrypting, symbols, signs, perception and the idea of the actual &lt;strong&gt;medium itself&lt;/strong&gt; being the message (&lt;em&gt;Marshall McLuhan, 1967&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;The thesaurus&lt;/strong&gt;&lt;br /&gt;
+The thesaurus is used, usually, to find similar (synonym) or opposite (antonym) words. However, a synonym can sometimes stretch the original meaning so far from its origin that the connection breaks. This can be interesting to explore in itself - the point where meaning is lost in translation and new meanings - or a lack of - unfold. The image below shows the result of playing with a thesaurus in attempting to create sentences similar in meaning to the original but using completely different words. Each word is replaced by a synonym, then the new word replaced with a synonym of its own, and so on. The most synificant disconnects have been highlighted in red. The most stark disconnections are where there are multiple meanings for a word, particularly where each of those meanings are relatively sparce in terms of their own synonyms. For example, ‘brown’ is very specific - it has few alternatives - but ‘fawn’ is one of them. However, there are more meanings than those associated with ‘brown’ only. We can therefore easily get words, such as ‘baby-buck’ which have nothing whatsover to do with the colour brown and ends up providing potential new sentences with totally new meanings.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\app-jam-mind-map-2.jpg&quot; alt=&quot;app-jam-mind-map-2&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+A startling result of this break-down can be seen in the difference betwen the first and last sentences: -&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The quick brown fox jumps over the lazy dog
+&lt;br /&gt;
+The bountiful angelic phony promenades facing the baffled assistant&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+I began to imagine this effect being played out in some kind of animated graphical representation similar to a &lt;strong&gt;fruit machine&lt;/strong&gt; or a &lt;strong&gt;tombola&lt;/strong&gt;, where sentences are constructed from the results of thesaurus lookups for each of their composite words.&lt;br /&gt;&lt;br /&gt;
+Another possible direction is to replace words with images - a full change of media adding further to the abstraction. This could be an interesting way to move forward. A major challenge is finding a convincing way that these ideas can be converted into an interesting and usable game. I decided to let the ideas develop as I played with the materials and mechanisms I found during research and experimentation - it seems there must be a rich source of possibilities that lie in this direction, waiting to be discovered and manipulated as they are uncovered.
+&lt;br /&gt;&lt;br /&gt;
+I began a search for an online thesaurus with API endpoints I can access for the purpose of abstracting words.
+I found a number of thesaurus APIs - some are fully open and free whilst others either require an account to be created in order to access an authentication key or will only allow paid access. Most ask for a creditation and a link on any web application or site produced using their service.  I signed up to the free services where appropriate.:&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.programmableweb.com&quot;&gt;ProgrammableWeb&lt;/a&gt; - API directory&lt;br /&gt;
+&lt;a href=&quot;https://words.bighugelabs.com/api.php&quot;&gt;Big Huge Thesaurus&lt;/a&gt; - thesaurus&lt;br /&gt;
+&lt;a href=&quot;https://www.datamuse.com/api/&quot;&gt;Datamuse API&lt;/a&gt; - word-finding query engine for developers&lt;br /&gt;
+&lt;a href=&quot;https://www.phrases.net/phrases_api.php&quot;&gt;STANDS4 Web Services&lt;/a&gt; - phrases, lyrics, quotes etc.&lt;br /&gt;
+&lt;a href=&quot;https://www.wordsapi.com/&quot;&gt;WordsAPI&lt;/a&gt; - some services free&lt;br /&gt;
+&lt;a href=&quot;https://opinionated-quotes-api.gigalixirapp.com/&quot;&gt;Opinionated Quotes&lt;/a&gt; - quotations API&lt;br /&gt;
+&lt;a href=&quot;https://pixabay.com/api/docs/&quot;&gt;pixabay&lt;/a&gt; - picture gallery API&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;A problem&lt;/strong&gt;&lt;br /&gt;
+After a little while exploring what these kind of APIs could offer, I was presented with a problem: none of these, except maybe one, can provide a random selection of words, phrases, quotations, or any other form of language output that can be used to drive a game such as those I had in mind. The one API I could find that will generate anything random is &lt;a href=&quot;https://opinionated-quotes-api.gigalixirapp.com/&quot;&gt;Opinionated Quotes&lt;/a&gt;, which produces random quotations that are generally so obscure and specialised within a particular subject, interest or market, that any use of these would would expect users to have an extensive, wide and varied knowledge of some fairly ‘niche’ subjects.&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;How to proceed..&lt;/strong&gt;&lt;br /&gt;
+So I find myself with a delema: -&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;how to produce interesting and useful words, in the sense of their not being too prescriptive in their raw form and useful in this current context.&lt;/li&gt;
+  &lt;li&gt;considering the formats these words appear to be available to me, how am I going to use them?
+Hopefully solutions will come as I work through these issues step by step.
+Perhaps I can produce some quotes and phrases through some kind of AI, using something like Amazon Alexa to generate texts. Or perhaps I could look into &lt;strong&gt;web scraping / crawling&lt;/strong&gt; and find useable text by actually going and looking for it. Scaping is actually something that appeals to me - I hope to come back to at some point in the future. Would I need to develop a database of my own or can I access an existing one using an intelligent search facility?&lt;br /&gt;
+&lt;strong&gt;Here’s one:&lt;/strong&gt; &lt;a href=&quot;https://commoncrawl.org/&quot;&gt;Common Crawl&lt;/a&gt; - &lt;em&gt;“We build and maintain an open repository of web crawl data that can be accessed and analyzed by anyone.”&lt;/em&gt;.&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;A possible solution?&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.datamuse.com/api/&quot;&gt;Datamuse API&lt;/a&gt; provides varied ways of searching for words - e.g. ‘sounds like’, ‘means like’, ‘spelled like’, ‘related word’, ‘starts with letter’, ‘contains letter’ etc. This could be very useful in a game led more by the players themselves, rather than the by the capabilities of API itself. The random aspect problem will still be there to be solved, but perhaps it is something that can be added at a later date, but for now this should not detract from moving forward and allowing a general idea of an app or game from developing.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Formulating ideas for games&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;..how could I make use of such an API?&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A suite of simple games for bored car passengers&lt;/strong&gt;&lt;br /&gt;
+&lt;em&gt;Looking for a reasonable and achievable use of the time I have left on the App Jam.&lt;/em&gt;&lt;br /&gt;
+Perhaps I could develop a suite of word games or activities of the type that families use to pass the time on long car journeys.&lt;br /&gt;
+There are a number of possibilities that Datamuse API can be used for, if it is used creatively. I could also make use of a thesaurus API if required. &lt;br /&gt;
+I have potentially around forty hours left on this project - if I set myself the goal of producing concepts for four games in quick succession, giving myself two hours on each one, I will have around thirty-two hours left in which to put together wire-frame representations of the concepts. If I again give myself two hours for each game, then I will have approximately twenty-eight hours in which to make a stab at coding them. I may find that time slips here and there, or that I have given myself too much to do. I will allow for a small amount of lee-way, but will force myself to cut off short rather than eat into the next phase.&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;I Spy&lt;/strong&gt; : using ‘sounds like’, ‘begins with’ etc.&lt;br /&gt;
+&lt;strong&gt;Chinese Whispers&lt;/strong&gt; - developed from the concept outlined earlier, where meanings change through small incremental ‘misunderstandings’ introduced via the thesaurus.&lt;br /&gt;
+&lt;strong&gt;Guess the word&lt;/strong&gt; : present player with text with certain words replaced with synonyms or antonyms - the player must guess the real word.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;any-word---a-word-guessing-game&quot;&gt;&lt;strong&gt;Any Word&lt;/strong&gt; - a word-guessing game&lt;/h2&gt;
+&lt;p&gt;..similar to &lt;strong&gt;&lt;em&gt;‘I Spy..’&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;“Think of a word, any word”&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\any-word-1.jpg&quot; alt=&quot;Any Word 1&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+The idea is that players (showing two here, but could be more) present their &lt;strong&gt;opponent&lt;/strong&gt; with a series of &lt;strong&gt;guiding&lt;/strong&gt; questions about a word they have in mind. Datamuse API provides facilities for producing answers that could fit these kinds of questions - ‘sounds like’, ‘begins with’, ‘related to’ etc. &lt;br /&gt;
+The opponent will make a guess and, if wrong will be presented with the next clue. &lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\any-word-2.jpg&quot; alt=&quot;Any Word 2&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The game will be between two or more players: &lt;strong&gt;Opponent&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;The game will be constrained by the capabilities of the API: &lt;strong&gt;Restricted&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;The first player leads the second player towards the correct word: &lt;strong&gt;Guide&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;One small step forwards, but the treasure in sight is starting to lose its lustre&lt;/strong&gt;&lt;br /&gt;
+Having reviewed this process after making a start on mapping an idea for one of the possible games, I decided it would be appear to be too much to try to build a suite of games at this stage. I believe that simply showing the possibility of creating a suite, for now, is enough. I have found that it doesn’t take long to confirm the suspicion that it would be easy to underestimate the amount of work involved in realising such an ambitious target.&lt;br /&gt; 
+The main reason for trying to take on several small apps in a suite, is a concern that the single idea I’ve spent most of the time on is actually not as interesting as I’d like it to be, or thought it would be. It may be neither &lt;strong&gt;exciting&lt;/strong&gt; enough as a game nor &lt;strong&gt;interesting&lt;/strong&gt; enough as an intellectual excercise. However, it is difficult to know, at this stage, if this will ultimately turn out to be true. Perhaps, if the relatively simple idea behind the games are embellished by clever game-play that graphically represents the progress players are making in an interesting, creative and aesthetically-pleasing way, then the game will be bestowed with more appeal, appearing to be more unique and able to stand on their own.&lt;/p&gt;</content><author><name></name></author><summary type="html">Three Little Words</summary></entry><entry><title type="html">Week 2 - Considering progamming languages</title><link href="http://localhost:4000/2019/02/09/week-two-programming-languages.html" rel="alternate" type="text/html" title="Week 2 - Considering progamming languages" /><published>2019-02-09T00:00:00+00:00</published><updated>2019-02-09T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/09/week-two-programming-languages</id><content type="html" xml:base="http://localhost:4000/2019/02/09/week-two-programming-languages.html">&lt;p&gt;Having spent a not insignificant  amount time working with SQL Server and other database technologies, whilst also dipping my toes into PHP, Visual Basic, HTML and basic JavaScript, it was refreshing and satisfying to find myself fortuitously thrust into a new team, assembled for the purpose of designing and implementing a brand new database-connected web application, built on SQL Server and extensively utilising the classic and celebrated web dev triumvirate of .NET MVC, WCF and HTML5 (as in the full definition of HTML5, which somehow modestly includes JavaScript/jQuery and CSS3). It was very much ‘in at the deep end’, but a fantastic platform for learning – not just about the bleeding edge languages, frameworks and platforms, but also development practice. Agile was part of this new, exciting world, as was working with a team of experienced contractors whose experience and knowledge were available on tap. I found myself immersed in full-stack dev heaven!&lt;br /&gt;&lt;br /&gt; 
 It’s interesting, looking back, at how time can actually appear to move slower than changes in must-have developmental knowledge and practice, tools, languages and platforms. In many ways, trends that are current in early 2019 could be seen appearing on the horizon way back in 2013 when I embarked on this journey. The power of web-based development was firmly establishing itself in the browser – &lt;a href=&quot;https://javascript.info/&quot;&gt;&lt;strong&gt;JavaScript&lt;/strong&gt;&lt;/a&gt;, being the language of the browser, was becoming a necessity and, to me, a very exciting one at that. Functional programming in JavaScript – as close to object-oriented programming for the very front-end web as you were ever to find, was the need-to-learn paradigm. Some of the frameworks that were appearing, such as &lt;a href=&quot;https://knockoutjs.com/&quot;&gt;&lt;strong&gt;Knockout.js&lt;/strong&gt;&lt;/a&gt; seemed to allow ‘magic’ to happen when building interactive and responsive user interfaces in the browser. This, combined with Ajax calls to the database, with data being returned to the browser as JSON objects and used by JavaScript, often via one of these aforementioned frameworks, to immediately update the waiting web-page, seemed to me to be a direction I simply had to follow. The age-old idea of building everything server-side before rendering it in the client was fast becoming the proverbial dinosaur of web development.
 Moving into current times, frameworks based on JavaScript are now appearing at quite a rate.  The ‘single-page’ app is the mecca for web-devs. To this end, I’ve begun to immerse myself in &lt;a href=&quot;https://angular.io/&quot;&gt;&lt;strong&gt;Angular&lt;/strong&gt;&lt;/a&gt; – which heavily uses &lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;&lt;strong&gt;TypeScript&lt;/strong&gt;&lt;/a&gt; (a strongly-typed class-based superset of JavaScript) and its own style of developmental structural ‘scaffolding’ to provide an environment for developing fully-fledged client-side web applications. Other options for obtaining similar ends also exist, such as &lt;a href=&quot;https://reactjs.org/&quot;&gt;&lt;strong&gt;React&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&quot;https://vuejs.org/&quot;&gt;&lt;strong&gt;Vue.js&lt;/strong&gt;&lt;/a&gt;, each with its own take on ways of creating JavaScript apps that work and provide reactive and responsive solutions within the browser.&lt;/p&gt;
 
@@ -59,6 +184,11 @@ Game-play is one thing - the medium is quite another.  I envisaged this as being
 
 &lt;p&gt;&lt;strong&gt;Technical issues&lt;/strong&gt;&lt;br /&gt;
 Live streaming over the internet is inherently compromised by the inevitability of time-lag, or latency. This would clearly be a problem when streaming live audio. However, it may be possible to avoid most, if not all, such problems if the game-play is such that no actual live streaming is used. For example, players would not necessary need to play in real-time with other players. Instead, it may be that they would each play along with the recorded arrangement as it exists &lt;em&gt;thus far&lt;/em&gt;, adding their own part to submit for peer voting. If it is not possible to totally avoid playing together live, then it seems that the &lt;strong&gt;best latency avoidance (i.e. ping time) currently achieved averages around 40ms&lt;/strong&gt;, which may be perfectly serviceable in the context of this app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Addressing challenges and obstaces&lt;/strong&gt;&lt;br /&gt;
+Aside from the above-outlined issues surrounding the physical limitations of the available technology - prodeminantly internet speed - how could this app be brought into being? This is clearly something that presents a wide set of problems and requires considerable thought and planning, backed up by a good knowledge of not only the technologies that need to be brought into play but of how they can be made to work together, with each playing their own necessary part in the attainment of a single goal. In terms of technological know-how and experience, for some time my strength has been in database and middle-to-front-end web development. Due to a desire to work more on the client-side and an interest in the user-interface, I have recently been making inroads in this direction.&lt;br /&gt;&lt;br /&gt;
+Creating an app such as this, from initial ideas and concept, through planning, prototyping and building, to deployment/hosting and marketing, will inevitably require a significant grasp of most, if not all, of the full stack of technologies. Once the prototyping phase is well underway I would expect to have a fairly comprehensive idea of what technologies and knowledge will be required and at which point a programme of research and self-learning can be put into place. At this stage I can anticipate certain areas I’d need to start to explore: for example, working with sound is something I’ve not done up to this point, in any form, as is streaming and web-socket technology. I have also begun to explore cloud technologies, such as those offered by AWS and Firebase, which I would expect to play a large part.&lt;br /&gt;&lt;br /&gt;
+So it’s fair to say there are plenty of areas that would need to be explored and questions asked to find suitable solutions. However, I believe I have enough knowledge to know where to look for advice and answers. Such a project is one that I would commence with the certain knowledge that it will be an interesting, albeit steep, learning curve.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;What’s already available on the market?&lt;/strong&gt;&lt;br /&gt;
 There are a number of website / app-based options facilitating musicians playing live over an internet connection. There tends to be an issue with latency / real-time lag that has not genuinely been overcome, although various efforts have been made.  Generally, though, they current offerings appear to be similar in terms of scope and ambition, offering from one or all of a selection of live jamming, online recording, social interaction &amp;amp; affirmation, collaboration and cloud-based sharing. 
