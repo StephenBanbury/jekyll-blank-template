@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 3 - The App Jam (making a start)
+title: Week 4 - The App Jam (moving on)
 published: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 3 - The App Jam (making a start)
-published: false
+published: true
 ---
 
 ### **<center>Three Little Words</center>** ###
