@@ -4,11 +4,15 @@ title: Week 3 - The App Jam (making a start)
 published: true
 ---
 
-### **<center>Three Little Words</center>** ###
+### **<center>Three Little Words</center>** 
+<br>
+**Three words**: selected randomly using VNA (_**v**erb, **n**oun, **a**djective_) cards form the basis of the App Jam activity - an intensive period of development and reflective practice.<br><br>
+**48 hours**: the time allocated for this activity. Although it has been suggested that we should try to use the full 48 hours, it is also recognised that we may not be able to find such an amount - after all, it is time which has to exist alongside the usual course study, reading, learning, journal-writing and, of course, everyday life. In my case, the latter is particularly time-consuming in itself, being as it involves a working life and a young and demanding family. At this stage I find I really have little idea of how much time 48 hours is - at least in the sense of finding despersed pockets here and there in which to allocate time both for pure development and for reflection. This is uncharted territory for me. This being the case, I have decided not to try to plan too much in advance but to move forward for short periods before pausing and evaluating what I have done. Hopefully, these moments of reflection will provide the basis and knowledge from which I can plan my next steps.<br><br>
 
-### _<center>Guide : Opponent : Restricted</center>_ ###
 
-As well as deciding to use at least one of these three words to help define what my app will be, I also started looking at them, not so much for their individual or collective literal meanings, as for the fact that they, as do all words, have the ability to be transformed and reinterpretted. This can be via, for example, context, order or re-assignment of grammatical useage such as between, for instance, verb, noun, adjective etc.
+### _<center>Guide : Opponent : Restricted</center>_ 
+
+As well as deciding to use at least one of these three words to help define the nature of my app, I also started looking at them, not so much for their individual or collective literal meanings, as for the fact that they, as do all words, have the ability to be transformed and reinterpretted. This can be via, for example, context, order or re-assignment of grammatical useage such as between, for instance, verb, noun, adjective etc.
 <br>
 
 **<center>Verb</center>** | **<center>Noun</center>** | **<center>Adjective</center>** | **<center>Adverb</center>**
@@ -78,7 +82,7 @@ Perhaps I can produce some quotes and phrases through some kind of AI, using som
 _Looking for a reasonable and achievable use of the time I have left on the App Jam._<br>
 Perhaps I could develop a suite of word games or activities of the type that families use to pass the time on long car journeys.<br>
 There are a number of possibilities that Datamuse API can be used for, if it is used creatively. I could also make use of a thesaurus API if required. <br>
-I have potentially around forty hours left on this project - if I set myself the goal of producing concepts for four games in quick succession, giving myself two hours on each one, I will have around thirty-two hours left in which to put together wire-frame representations of the concepts. If I again give myself two hours for each game, then I will have approximately twenty-eight hours in which to make a stab at coding them. I may find that time slips here and there, or that I have given myself too much to do. I will allow for a small amount of lee-way, but will force myself to cut off short rather than eat into the next phase.<br><br>
+At this point, I have potentially around forty hours left - if I set myself the goal of producing concepts for four games in quick succession, giving myself two hours on each one, I will have around thirty-two hours left in which to put together wire-frame representations of the concepts. If I again give myself two hours for each game, then I will have approximately twenty-eight hours in which to make a stab at coding them. I may find that time slips here and there, or that I have given myself too much to do. I will allow for a small amount of lee-way, but will force myself to cut off short rather than eat into the next phase.<br><br>
 **I Spy** : using 'sounds like', 'begins with' etc.<br>
 **Chinese Whispers** - developed from the concept outlined earlier, where meanings change through small incremental 'misunderstandings' introduced via the thesaurus.<br>
 **Guess the word** : present player with text with certain words replaced with synonyms or antonyms - the player must guess the real word.<br><br>
@@ -97,8 +101,14 @@ The opponent will make a guess and, if wrong will be presented with the next clu
 
 
 **One small step forwards, but the treasure in sight is starting to lose its lustre**<br>
-Having reviewed this process after making a start on mapping an idea for one of the possible games, I decided it would be appear to be too much to try to build a suite of games at this stage. I believe that simply showing the possibility of creating a suite, for now, is enough. I have found that it doesn't take long to confirm the suspicion that it would be easy to underestimate the amount of work involved in realising such an ambitious target.<br> 
-The main reason for trying to take on several small apps in a suite, is a concern that the single idea I've spent most of the time on is actually not as interesting as I'd like it to be, or thought it would be. It may be neither **exciting** enough as a game nor **interesting** enough as an intellectual excercise. However, it is difficult to know, at this stage, if this will ultimately turn out to be true. Perhaps, if the relatively simple idea behind the games are embellished by clever game-play that graphically represents the progress players are making in an interesting, creative and aesthetically-pleasing way, then the game will be bestowed with more appeal, appearing to be more unique and able to stand on their own. 
+Having reviewed this process after making a start on mapping an idea for one of the possible games, I have decided it would be appear to be too much to try to build a suite of games at this stage. I believe that, for now, simply showing the _possibility_ of creating a suite is enough. I have found that it hasn't taken long to confirm the suspicion that it would be all too easy to underestimate the amount of work involved in realising such an ambitious target.  At least, it is ambitious for me. With more experience of this kind of creative development activity and, of course, the app jam concept itself, I would hope to be 
+ 1. able to work faster
+ 2. have a better idea of what I will need to do next
+ 3. know how to manage my own expectations
+
+The main reason for trying to take on several small apps in a suite, stems from my concern that the single idea I've spent most of the time on is actually _not as interesting as I'd like or thought it would be_. Maybe it is neither _exciting_ enough as a game nor _interesting_ enough as an intellectual excercise. However, it is difficult to know, at this stage, if this will ultimately turn out to be true. 
+
+Perhaps, if the relatively simple idea behind the games are embellished by clever game-play that graphically represents the progress players are making in an interesting, creative and aesthetically-pleasing way, then the game will be bestowed with more appeal, appearing to be more unique and able to stand on their own. 
 <br><br>
 **Making the game-play more interesting**<br>
 A selection of ideas for making a fairly stayed intellectual game into something that may have a bit more of a buzz about it..<br>
@@ -110,5 +120,5 @@ A selection of ideas for making a fairly stayed intellectual game into something
 * Destroy
 * Be destroyed
 
-
+At this stage I feel I am moving away from my initial ideas and towards something that could be considered challenging in a more 'gamic', rather than purely intellectual, sense. For the player, a sense of progress and achievement can maybe be gained not just from the ability to solve puzzles, but from being able to do so in a more challenging environment, that is more immersive, interactive and ultimately... **fun!**
 
