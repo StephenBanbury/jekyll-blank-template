@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 1 - The Creative Piece
-published: true
+published: false
 ---
 
 ### Master Jammer
