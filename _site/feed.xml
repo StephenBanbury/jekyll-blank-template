@@ -1,22 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-02-26T21:44:13+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week 4 - The App Jam (moving on)</title><link href="http://localhost:4000/2019/02/25/week-four-app-jam.html" rel="alternate" type="text/html" title="Week 4 - The App Jam (moving on)" /><published>2019-02-25T00:00:00+00:00</published><updated>2019-02-25T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/25/week-four-app-jam</id><content type="html" xml:base="http://localhost:4000/2019/02/25/week-four-app-jam.html">&lt;h3 id=&quot;three-little-words&quot;&gt;&lt;strong&gt;&lt;center&gt;Three Little Words&lt;/center&gt;&lt;/strong&gt;&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-02T14:18:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week 3 - AppJam 2 - The Odd Word Out</title><link href="http://localhost:4000/2019/02/25/week-three-appjam-2.html" rel="alternate" type="text/html" title="Week 3 - AppJam 2 - The Odd Word Out" /><published>2019-02-25T00:00:00+00:00</published><updated>2019-02-25T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/25/week-three-appjam-2</id><content type="html" xml:base="http://localhost:4000/2019/02/25/week-three-appjam-2.html">&lt;h3 id=&quot;odd-word-out&quot;&gt;&lt;strong&gt;&lt;center&gt;&lt;span style=&quot;color:darkblue&quot;&gt;Odd Word Out&lt;/span&gt;&lt;/center&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;line-up-the-words-in-your-cross-hair&quot;&gt;&lt;center&gt;Line up the words in your cross-hair&lt;/center&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;but-only-shoot-if-your-target-is-stinking-up-the-place&quot;&gt;&lt;center&gt;But only shoot if your target is stinking up the place&lt;/center&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;only-shoot-if-your-target-is-the-odd-word-out&quot;&gt;&lt;center&gt;Only shoot if your target is the Odd Word Out!&lt;/center&gt;&lt;br /&gt;&lt;br /&gt;&lt;/h4&gt;
 
-&lt;h3 id=&quot;guide--opponent--restricted&quot;&gt;&lt;em&gt;&lt;center&gt;Guide : Opponent : Restricted&lt;/center&gt;&lt;/em&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;The Odd Word Out&lt;/strong&gt;&lt;br /&gt;
-Line up the words in your cross-hair&lt;br /&gt;
-But only shoot if your target is the &lt;strong&gt;odd word out&lt;/strong&gt;!&lt;br /&gt;
-Only shoot if your target is stinking up the place!&lt;br /&gt;&lt;br /&gt;
+&lt;p&gt;This is the embionic idea of a more arcade-influenced version of the word-games discussed in my previous journal entry.
+&lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;\images\the-odd-word-out-1.jpg&quot; alt=&quot;The Odd Word Out 1&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-The idea of this game is to single out the word that is not related to the &lt;em&gt;main&lt;/em&gt; word, or, naturally, to any of the other words that appear and disappear.&lt;br /&gt;
-The effect of the words shimmering into existence for a short while before disappearing into the ether, shouldb be mesmerasing, hypnotic, thythmic, pulsating - like a light-house, punctually sending out its message of warning to those in potential jeopardy.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+My initial idea for such a game was for the player to single out the word that is not related to any of the other words that appear on screen. The effect of the words shimmering into existence for a short while before disappearing into the ether should be mesmeric, hypnotic, rhythmic, pulsating - like light-houses. The speed could increase and the time the words appear shortened as the game progresses. As a starting point I liked the potential of this idea. &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;The mechanics&lt;/strong&gt; &lt;br /&gt;
+Using ideas outlined earlier surrounding the use of online Web API services for generating words and related meanings, I imagined a random word being taken as a ‘seed’ and used to generate multiple related words. Added to this list of &lt;em&gt;synonyms&lt;/em&gt; would be another, completely unrelated word - this would be the &lt;em&gt;target&lt;/em&gt;. For the unrelated word I had hoped to use an &lt;strong&gt;API service with a facility dedicated to producing random words&lt;/strong&gt;. Finding one that is free and available and that produces usable results proved, given the time limitations, to be not possible. A point was reached where I needed to make a decision - continue looking for such an API or continue, in the knowledge that I could use ‘dummy’ data for the purpose of development. Understanding how easy it could be to get caught stuck trying to solve a problem that is summountable in the short term, I decided to move forward without the API during this phase.&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\the-odd-word-out-2.jpg&quot; alt=&quot;The Odd Word Out 2&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;Arcade-style word games&lt;/strong&gt;&lt;br /&gt;
+These same basic mechanical principles could potentially underpin numerous game ideas and strategies. Armed with this knowledge, in a fairly whimsical moment I was taken back to the now relatively simple, but hugely enjoyable, games of my youth. I found myself entertaining thoughts of thesaurus-generated aliens being shot down, eaten or knocked out by ping-pong balls. I decided this was a relatively fertile territory and the direction I should continue to explore. I realised that even if I was ultimately not able to recreate or, perhaps more accurately, plunder from such a unique and timeless classic as &lt;strong&gt;Asteroids&lt;/strong&gt;, at least I could maybe make use of the simple ideas underpinning this game as the inspiration for something new.
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\word-arcade-1.jpg&quot; alt=&quot;Word Arcade Games&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\images\the-odd-word-out-2.jpg&quot; alt=&quot;The Odd Word Out 2&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\word-arcade-1.jpg&quot; alt=&quot;Word Arcade Games&quot; /&gt;&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Three Little Words</summary></entry><entry><title type="html">Week 3 - The App Jam (making a start)</title><link href="http://localhost:4000/2019/02/17/week-three-app-jam.html" rel="alternate" type="text/html" title="Week 3 - The App Jam (making a start)" /><published>2019-02-17T00:00:00+00:00</published><updated>2019-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/17/week-three-app-jam</id><content type="html" xml:base="http://localhost:4000/2019/02/17/week-three-app-jam.html">&lt;h3 id=&quot;three-little-words&quot;&gt;&lt;strong&gt;&lt;center&gt;Three Little Words&lt;/center&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;The game&lt;/strong&gt; - need to work on this:-&lt;br /&gt;
+Ended up with a game that uses thesaurus via a web API, random word as seed, returns related words, mixes with unrelated words. YOu need to knock out those that are related (could be other way around) to win.
+Inertia and movement around screen is inspired by Asteroids. There’s also a bit of Ping Pong in there.
+Could refine and change game-play. 
+Education possibilities. Take into classroom - English lessons. Also could have legs in maths, geography etc. 
+Successful in moving away from the ‘intellectual’ excercise that was a bit boring.&lt;/p&gt;
+
+&lt;p&gt;asteroids - moving off screen and back on other side.  bouncing off each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Using the 48 hours&lt;/strong&gt;&lt;br /&gt;
+I had no idea at the start how long 48 hours actually is - or more accurately, how much time it would &lt;em&gt;feel like&lt;/em&gt; during the progression of the project. Although 48 sets of 60 minutes is clearly measureable, in terms of dev-time I was not completely sure where I should expect myself to be at particular points, or how I would feel in terms of my own progress. I can at least partly explain this as due to total unfamiliarity with app-jamming. Although day-jobs have seen me working as part of a development team, the AppJam has provided a whole new experience and many variables that were unfamiliar; this took me outside my comfort zone. I found myself working &lt;em&gt;as an individual&lt;/em&gt; on an unfamilar type of application (i.e. ‘gamic’, graphically-interactive and animation-heavy) within an unfamiliar development environment (Angular), using an unfamiliar language (Typescript). My past experience working on browser-fronted applications also belies the fact that I have not always been fully confident as a programmer; I have not had any formal training to speak of and have been predominantly learning my trade on the job. Whilst this has, in many respects, provided me with a solid grounding, it certainly does not induce a great sense of confidence that &lt;em&gt;what one does know&lt;/em&gt; is what one &lt;em&gt;needs to know&lt;/em&gt;, or that any gaps that exist in ones knowledge are actually not significant enough to worry about.
+&lt;br /&gt;&lt;br /&gt;
+So, I made a start thinking about the topic, mapping ideas in a fairly immediate and sketchy way, and continually assessed what I found myself doing and the thoughts and ideas I had. I started with very little in the way of an initial plan, but I responded to my developing ideas as they arose and from there I planned my next immediate move. This did allow me to be fairly &lt;strong&gt;agile&lt;/strong&gt; in my approach; I did not, at least for very long, find myself following a path I felt I may regret. That is not to suggest I did not think about outcomes - this would have been unavoidable and, in any case, imagining where this may all lead drives the process by providing a purpose for it - but I did not allow myself to become fixated on a goal.
+&lt;br /&gt;&lt;br /&gt;
+This approach worked for me in this project. However, feel that it will be necessary to develop my planning process to such an extent that there will be times when I need to be more specific in setting myself realistic and attainable goals. SMART objectives provide a framework for this. And Agile practice allows for reflection and for responding to outcomes of reflection.  This, to me means that you can set out a structured approach which gives you the framework to work towards your goal, but does not let this become too prescriptive and prohibitive by encouraging continual re-evaluation of the process as it progresses.
+Actually, I think this is what I did to a great extent without it being fully formalised:&lt;br /&gt; 
+&lt;br /&gt; SMART &lt;br /&gt;
+S - “I will create an interesting word-based game that is engaging and forces players to think about relationships between words through their meanings. I will do this by creating an Angular app and making use of one or more publicly-avaiable RESTful APIs such as a thesaurus. “
+M - “I will research such APIs and find at least one that is able to provide on-demand a list of synonyms for any given word.”
+A - “The word API will be free, available, easy to access and provide at least enough results for development purposes”
+R - “The kind of result returned by the API will lend itself to the generation of more words or the sort that word games can make use of”
+T - “I will use a maximum of 48 hours to create a working and playable proof-of-concept or slice of the app”
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video controls=&quot;&quot; autoplay=&quot;&quot; poster=&quot;\images\game-image.png&quot;&gt;
+    &lt;source src=&quot;\media\odd-word-out.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;br /&gt;&lt;br /&gt;
+It's been fascinating to look back at the AppJam as a whole and at what has been achieved. From being unsure about how it would progress and what the outcome would be, to having a working product and being able to quantify the time and understand hows and whys etc. To see that goals have been achieved, and how they were achieved, along with where this can be built upon in the context of what has been learned about reflective and deliberate practice, has been remarkable for a 5 week period.&lt;br /&gt;
+The initial expectation of stress, and subsequent difficulties faced, have actually allowed me to gain a huge amount of confidence in the light of the actual outcomes when looking at how problems were overcome and, as they say, it will be alright on the night!
+&lt;br /&gt;&lt;br /&gt;
+
+
+
+
+----
+10-12 hours drawing thinking it through, writing and drawing ideas, and mapping out ideas. after 12 hours i decided I had enough to start coding. From there is was one step at a time towards something along the lines of my earlier contemplations. No absolute finished and tightly-defined product known from the start, but the idea gradually developed along lines I'd been considering, as I progressed.
+Ultimately the time available was plenty for what I wanted to do. 
+Each problem dealt with one at a time - one bounding ball. dummy data. then more bouncing balls, each as object, collisions. Add in use of the API.
+
+[from around 36 mins] &quot;really cool. I really like it&quot; &quot;take into classroom&quot;
+[see from about 39 mins]
+Enjoyable experience.
+Positive experience. Got a finished product in place. Looked at difference APIs along the way. 
+[41 mins] 48 hours not that long. Thought it may not be long enough, but it was actually plenty. Thought I should probably spend more time planning, wire-framing etc But thought whats the point when I know what I'm going to do?
+Lucky to come up with something do-able. Was this within my comfort zone and is this a good or bad thing? Should I push myself more or is this necessary? 
+
+----
+How did my experience of the AppJam relate to what I've understood and learned about Reflective Practice? 
+How did my experience of the AppJam relate to what I've understood and learned about Deliberate Practice? 
+How did what I've understood about these concepts get implemented or inform my practice?
+What have I learned from this?
+
+----
+SMART
+
+
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Odd Word Out Line up the words in your cross-hair But only shoot if your target is stinking up the place Only shoot if your target is the Odd Word Out!</summary></entry><entry><title type="html">Week 3 - AppJam 1 - Three Little Words</title><link href="http://localhost:4000/2019/02/17/week-three-appjam-1.html" rel="alternate" type="text/html" title="Week 3 - AppJam 1 - Three Little Words" /><published>2019-02-17T00:00:00+00:00</published><updated>2019-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2019/02/17/week-three-appjam-1</id><content type="html" xml:base="http://localhost:4000/2019/02/17/week-three-appjam-1.html">&lt;h3 id=&quot;three-little-words&quot;&gt;&lt;strong&gt;&lt;center&gt;&lt;span style=&quot;color:darkblue&quot;&gt;Three Little Words&lt;/span&gt;&lt;/center&gt;&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;Three words&lt;/strong&gt;: selected randomly using VNA (&lt;em&gt;&lt;strong&gt;v&lt;/strong&gt;erb, &lt;strong&gt;n&lt;/strong&gt;oun, &lt;strong&gt;a&lt;/strong&gt;djective&lt;/em&gt;) cards form the basis of the App Jam activity - an intensive period of development and reflective practice.&lt;br /&gt;&lt;br /&gt;
 &lt;strong&gt;48 hours&lt;/strong&gt;: the time allocated for this activity. Although it has been suggested that we should try to use the full 48 hours, it is also recognised that we may not be able to find such an amount - after all, it is time which has to exist alongside the usual course study, reading, learning, journal-writing and, of course, everyday life. In my case, the latter is particularly time-consuming in itself, being as it involves a working life and a young and demanding family. At this stage I find I really have little idea of how much time 48 hours is - at least in the sense of finding despersed pockets here and there in which to allocate time both for pure development and for reflection. This is uncharted territory for me. This being the case, I have decided not to try to plan too much in advance but to move forward for short periods before pausing and evaluating what I have done. Hopefully, these moments of reflection will provide the basis and knowledge from which I can plan my next steps.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;guide--opponent--restricted&quot;&gt;&lt;em&gt;&lt;center&gt;Guide : Opponent : Restricted&lt;/center&gt;&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;guide--opponent--restricted&quot;&gt;&lt;em&gt;&lt;center&gt;&lt;span style=&quot;color:darkblue&quot;&gt;Guide : Opponent : Restricted&lt;/span&gt;&lt;/center&gt;&lt;/em&gt;&lt;/h3&gt;
 
 &lt;p&gt;As well as deciding to use at least one of these three words to help define the nature of my app, I also started looking at them, not so much for their individual or collective literal meanings, as for the fact that they, as do all words, have the ability to be transformed and reinterpretted. This can be via, for example, context, order or re-assignment of grammatical useage such as between, for instance, verb, noun, adjective etc.
 &lt;br /&gt;&lt;/p&gt;
@@ -123,7 +186,7 @@ At this point, I have potentially around forty hours left - if I set myself the 
 &lt;strong&gt;Chinese Whispers&lt;/strong&gt; - developed from the concept outlined earlier, where meanings change through small incremental ‘misunderstandings’ introduced via the thesaurus.&lt;br /&gt;
 &lt;strong&gt;Guess the word&lt;/strong&gt; : present player with text with certain words replaced with synonyms or antonyms - the player must guess the real word.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;any-word---a-word-guessing-game&quot;&gt;&lt;strong&gt;Any Word&lt;/strong&gt; - a word-guessing game&lt;/h2&gt;
+&lt;h2 id=&quot;any-word---a-word-guessing-game&quot;&gt;&lt;span style=&quot;color:darkblue&quot;&gt;&lt;strong&gt;Any Word&lt;/strong&gt; - a word-guessing game&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;..similar to &lt;strong&gt;&lt;em&gt;‘I Spy..’&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;em&gt;“Think of a word, any word”&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
 &lt;img src=&quot;\images\any-word-1.jpg&quot; alt=&quot;Any Word 1&quot; /&gt;&lt;br /&gt;&lt;br /&gt;
