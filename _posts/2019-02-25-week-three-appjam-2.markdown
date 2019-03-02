@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 3 - AppJam 2 - The Odd Word Out
-published: true
+published: false
 ---
 
 ### **<center><span style="color:darkblue">Odd Word Out</span></center>**

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Week 3 - AppJam 1 - Three Little Words
-published: false
+published: true
 ---
 
 ### **<center><span style="color:darkblue">Three Little Words</span></center>** 
