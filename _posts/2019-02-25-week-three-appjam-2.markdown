@@ -35,13 +35,18 @@ I created a service that calls one of the thesaurus APIs I'd found.  As a seed f
 <br><br>
 
 <figure class="video_container">
-  <video controls autoplay poster="\images\game-image.png">
+  <video style="width:1120px;" autoplay loop>
     <source src="\media\odd-word-out.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
 
 <br><br>
+
+[Click here to play the game](https://stephenbanbury.com/)
+
+Use the _arrow keys_ to navigate your player
+
 **Summing up**<br>
 Once I'd reached this point I decided to halt development - at least, for the purpose of the AppJam project. Close to **thirty-two hours** had passed since I began - approximately **twelve hours planning** followed by **twenty hours coding**. There had not been an absolute and tightly-defined product known from the start, but as the project progressed, the idea gradually developed and took shape along lines that evolved over time. Perhaps I could have spent more time planning and creating wire-frames, but I reached a point where I thought _what's the point when I know what I'm going to do?_ - I just wanted to start putting the idea into code. This approach worked on this occasion, but I realise I may need to spend more time on at the planning stage on future projects.
 
