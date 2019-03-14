@@ -4,6 +4,13 @@ title: Personal Case Study
 published: true
 ---
 
+Keeping my Personal Case Study under five minutes was not easy. I look at the content, watch the video, and cannot help but think it's too light, in particular, on _depth of analysis_ and _self-criticism_. This was, in large part, down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. If I had spoken faster then I could have fit more in without losing too much in terms of it being comfortable to listen to, assuming this has some importance. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness.  I've certainly learned a lot about how to approach - or how **not** to approach - such a task and will be better for it next time.
+
+Below is a version embellished with a little extra contenct. The original can be seen [here](https://www.youtube.com/watch?v=vlmEWzEE1oU).
+<br>
+
+------
+<br>
 **The reason I am on the Creative App Development MA course** is due to my interests in both creative practice, particularly music and sound, and software development. I am excited by the sense of exploration and discovery associated with continual technological advancements, particularly in the areas of web and mobile development, inter-connectivity, virtual and augmented reality and sound creation.
 
 **Why my first two projects have been games, and why I am enjoying it**<br>

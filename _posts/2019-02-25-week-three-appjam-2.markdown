@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 3 - AppJam 2 - The Odd Word Out
+title: Week Three - AppJam 2 - The Odd Word Out
 published: true
 ---
 

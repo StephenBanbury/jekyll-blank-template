@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 2 - Considering progamming languages
+title: Week Two - Considering progamming languages
 published: true
 ---
 

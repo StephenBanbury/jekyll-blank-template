@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 1 - The Creative Piece
+title: Week One - The Creative Piece
 published: true
 ---
 

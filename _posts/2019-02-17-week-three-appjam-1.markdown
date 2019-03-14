@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 3 - AppJam 1 - Three Little Words
+title: Week Three - AppJam 1 - Three Little Words
 published: true
 ---
 
