@@ -1,15 +1,18 @@
 ---
 layout: post
 title: Week Five - Types of App
-published: false
+published: true
 ---
 
-This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I've come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorised them and understand their placement within the existing markets.
+This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I've come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.
 
-As mentioned in my [Personal Case Study]({% link _posts/2019-03-10-week-six-personal-case-study.markdown %}), my intention was not necessarily to follow a path of game development. However, on the back of some game-like efforts as a response to the course assignments thus far, I have been analysing the meaning of the term, and whether this may be an area for exploration. Two types of app seem to stand out here - Serious Games and Gamification. The first relating to education apps, the second to what can be learned from game design and applied to non-game apps. Also, I find myself drawn to the idea of the Casual Creator App and the Experimental Art App. I believe there could be some interesting potential for exploration of the cross-overs between all these categories.
+As mentioned in my in my week four post on [Critical Reflection]({% link _posts/2019-03-10-week-four-critical-reflection.markdown %}), my intention on coming onto the course was not necessarily to follow a path of game development. However, on the back of some game-like efforts as responses to the course assignments thus far, I have been finding it necessary to start considering exactly what a game is. With this in mind, of the types of app suggested by this week's course material, for me three stand out - i.e. `Serious Games`, `Gamification` and the `Experimental Art App`.<br><br>
+In the context of my own interests, Serious Games relates to the games that support an educational intent. The highlighted app `Dragon Box` certainly applies here. I particularly enjoy the way that the app introduces the concept of algebra, without actually mentioning algebra, or making it in any way clear that it is algebra that the player is actually engaging with. The idea of learning-made-fun is very useful and has to be a very successful way of achieving its aims. The same can be said for those Serious Game apps that fall more into the _simulator_ category where, for instance, a professional can practice the tools of their trade in a virual environment with an emphasis on the fun element.<br><br>
+Gamification takes techniques used in and learned from game design and applies them to apps that are not, first and foremost, games. The app `Habitica` takes what would normally be a fairly mundane activity - organisation ones chores and to-do lists - and adds gamic concepts such as unlocking new features, 'powering-up' your avatar and earning rewards.<br><br>
+I find myself drawn to the idea of the Experimental Art App, in which the enjoyment of engaging in creativity in a new, interesting and often effortless way, shows an area where creative arts and app development can combine in a sense that is pure and uncompromised by having to be something that is decided for it, outside of itself and its own unique existence. The `Solstice` collaboration by Bjork, Mac Visio, and Digital Agency MM (Paris) is not just an object of aesthetic beauty in its own right, it is also a new type of musical instrument, a gadget that calls you to engage and play with, whilst it encourages a kind of meditative disposition. Coming from an arts background myself, in which I've always enjoyed an experimental approach, I'm not surprised that I find this a particularly interesting area. And I certainly believe there could be some fascinating potential for exploration of the cross-overs between all these categories.
 
 # **Market research**
-The week's source material suggested some categories for consideration.  As I start to really think about the types of application that I may end up making as a Creative App Developer, I realise that understanding the **segmentation** of the market will be more than helpful in defining how and where my own products will fit. In a **saturated market**, it's all about engaging your audience and making your product distinguishable from other apps. **Trends** are ephemeral, fleeting, they come and go; but it was pointed out that some ideas can have a **'disruptive' effect**, bringing about permanent change and re-thinking of established patterns.
+The week's source material suggested some categories for consideration.  As I start to really think about the types of application that I may end up making as a Creative App Developer, I realise that understanding the `segmentation` of the market will be more than helpful in defining how and where my own products will fit. In a `saturated market`, it's all about engaging your audience and making your product distinguishable from other apps. `Trends` are ephemeral, fleeting, they come and go; but it was pointed out that some ideas can have a `'disruptive' effect`, bringing about permanent change and re-thinking of established patterns.
 
 At this point, I will start considering the how the markets work and the ways in which finding a possible place in the market for a potential product - or realising it is actually best avoided altogether - should be approached. 
 
@@ -53,6 +56,10 @@ As was pointed out, there is a wholehearted need for objectivity and honesty, of
 * **Quantified Self Apps**
     * Fitbit, garmin, jawbone etc.<br>
     * [Quantified Self](http://quantifiedself.com/)<br><br>
+* **Experimental Art App**
+    * _Solstice_ -  Bjork, Mac Visio, and Digital Agency MM (Paris).
+    * [on YouTube](https://www.youtube.com/watch?v=Pm9g-SyvJRU)<br>
+    * Cultural-creator, art/cultural app<br>
 
 # **Some interesting apps**<br>
 * [Circa 1948 - Stan Douglas / NFB Digital Studios](https://www.nfb.ca/interactive/circa_1948/)<br>
@@ -72,17 +79,21 @@ It is installation art as app, or app as installation art.
 I have been struggling to find a link to this very interesting BBC children's (I think) TV programme, where school-age kids were trying out the VR app. The total immersiveness in the VR world recreated from actual recordings by a journalist accompanying the WW2 bombers on a raid over Berlin, was an incredible experience _in itself_ and brought into _reality_ a time and event that was hitherto unreachable and almost unimaginable for the young people. This could also be classed as a _serious game_: <br>
 like _Circa 1948_, in as much as it is an experience, it is also a _game_; it is real and it is fabrication; it fires the imagination and teaches about past experience and of other times and other people; it is educational. 
 
-These really forces one to consider, **what exactly is a game?!!**<br>
+These really force one to consider, `what exactly is a game?!!`<br>
 
-**Experimental Art App**<br>
-‘Solstice’ – Bjork<br>
-Biophilia app – not available any longer on Android? Can’t find it – is it too old?<br>
-[on YouTube](https://www.youtube.com/watch?v=Pm9g-SyvJRU)<br>
-Cultural-creator,  art/cultural app<br>
-I find this idea to be lots of fun!
+**What did I get out of this?**<br>
+I was encouraged to think about the types / categories of app that exist and how / where they fit within the existing market. 
+Understanding the market is all-important - how it is segmented and affected by trends.
+Understanding your audience - what are their demographics and technographics?
+Finding a niche
+Types of app - good to break down the categories as it helps to make sense of the market itself. Of course, these types are subjective and liable to change over time.  There will also always be those that do not easily fit within a single category  or grouping. 
+<br>
 
+# **SMART goal**
 
-SMART goal
+* **Make it specific**: I would like to understand how the three types of game, outlined in this week's course material that I find particularly interesting - serious games, gamification, experimental art app - fit within existing markets; what kind of niche have they found for themselves, what is their competition, who is their audience?.
+* **Make it measureable**: I will research three apps - one each of the three types outlined above and write a short piece of 200-400 words for each.
+* **Make it attainable**: I think one of each type and a brief overview is entirely do-able within a few hours.
+* **Make it Relevant**: The information I gain from the exercise will be extremely useful in understanding the kinds of markets that I am likely to be intering myself. I will reflect on how I feel about the respective niches once I understand them better.
+* **Make it Time-based**: I will spend aproximately one hour on each app and no more than two on any one.<br>
 
-consider each of my 'interesting' areas above and find an example of each. 
-take an idea and form an ealy concept - consider its place in the market, laying out its strengths and weaknesses and how it could make money.

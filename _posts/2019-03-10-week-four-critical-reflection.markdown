@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Personal Case Study
+title: Week four - Critical Reflection
 published: true
 ---
 
-Keeping my Personal Case Study under five minutes was not easy. I look at the content, watch the video, and cannot help but think it's too light, in particular, on _depth of analysis_ and _self-criticism_. This was, in large part, down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. If I had spoken faster then I could have fit more in without losing too much in terms of it being comfortable to listen to, assuming this has some importance. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness.  I've certainly learned a lot about how to approach - or how **not** to approach - such a task and will be better for it next time.
+Keeping my Personal Case Study under five minutes was not easy. I now look at the content, watch the video, and cannot help but think it's perhaps too light, in particular, on _depth of analysis_ and _self-criticism_. This was in large part down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. Of course, if I had spoken faster then I could have fit more in, possibly without losing too much in terms of it being comfortable to listen to. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness.  However, I certainly have learned a lot about how to approach - or how **not** to approach - such a task and will be better for it next time.
 
-Below is a version embellished with a little extra contenct. The original can be seen [here](https://www.youtube.com/watch?v=vlmEWzEE1oU).
+Below is the essence of my Personal Case Study. The video can be seen [here](https://www.youtube.com/watch?v=vlmEWzEE1oU).
 <br>
 
 ------
@@ -27,7 +27,7 @@ Over the past few years, the power of web-based applications has been moving fro
 
 In terms of the kind of apps I would like to produce, I did not start the course with any specific goals in mind. I would like to maintain an experimental and explorative approach, but I need to begin focusing on actual ideas that I can consider taking forward. During the App Jam I was surprised how quickly I was able to move from a simple idea to putting a concept into actual code. A moment came where it dawned on me that _I had exhausted the process of ideation and I just needed to get on with building the app._ 
 
-The concept of the _SMART_ goal acronym has actually been slightly surprising, in that it is more useful than I initially realised. The concept has helped me to focus and clarfy the means by which I hope to achieve my goals.  In fact, more than that, I am finding it actually helps to define those goals in the first place. I suppose, it is only logical that **it is not really possible to analyse how you will achieve something if at first you have not analysed what it is you wish to achieve!**
+The concept of the _SMART_ goal acronym has actually been slightly surprising, in that it is more useful than I initially realised. The concept has helped me to focus and clarfy the means by which I hope to achieve my goals.  In fact, more than that, I am finding it actually helps to define those goals in the first place. I suppose, it is only logical that **it is not really possible to analyse _how_ you will achieve something if at first you have not worked out _what it is_ you wish to achieve!**
 <br><br>
 
 <span style="color:darkblue">**Goal One**</span>
@@ -60,7 +60,7 @@ Another goal surrounds the research of technologies to fill holes in my knowledg
 
 <span style="color:darkblue">**Future goals**</span>
 
-The act of putting together SMART goals has helped me focus on other goals that I intend to characterise in a similar way. Briefly they include: -
+The act of putting together SMART goals has helped me focus on other goals that I would like to characterise in a similar way. Briefly they include: -
 * Bringing myself up to a good confident speed with 
   - Angular and TypeScript
   - HTML5 and CSS
@@ -73,3 +73,5 @@ The act of putting together SMART goals has helped me focus on other goals that 
   - virtual and augmented reality, particularly, where possible, in the browser and in combination with web technology
   - open web-socket technology
   - cloud and microservice technology
+
+  These do seem to be big topics though, so making them attainable and relevant in this form will likely prove tricky. I am aware there will need to be some breaking down of these into smaller component parts in order to be able to quantify them in a useful and managable way. 
