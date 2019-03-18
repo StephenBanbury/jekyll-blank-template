@@ -73,5 +73,6 @@ The act of putting together SMART goals has helped me focus on other goals that 
   - virtual and augmented reality, particularly, where possible, in the browser and in combination with web technology
   - open web-socket technology
   - cloud and microservice technology
+<br>
 
-  These do seem to be big topics though, so making them attainable and relevant in this form will likely prove tricky. I am aware there will need to be some breaking down of these into smaller component parts in order to be able to quantify them in a useful and managable way. 
+These do seem to be big topics though, so making them attainable and relevant in this form will likely prove tricky. I am aware there will need to be some breaking down of these into smaller component parts in order to be able to quantify them in a useful and managable way. 
