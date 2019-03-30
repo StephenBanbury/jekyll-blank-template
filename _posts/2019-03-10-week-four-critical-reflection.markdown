@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week four - Critical Reflection
+title: Week Four - Critical Reflection
 published: true
 ---
 

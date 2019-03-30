@@ -1,19 +1,327 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-18T21:54:01+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week Five - Types of App</title><link href="http://localhost:4000/2019/03/14/week-five-types-of-app.html" rel="alternate" type="text/html" title="Week Five - Types of App" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/14/week-five-types-of-app</id><content type="html" xml:base="http://localhost:4000/2019/03/14/week-five-types-of-app.html">&lt;p&gt;This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I’ve come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-30T09:54:58+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Graphics and animation research</title><link href="http://localhost:4000/2019/03/28/graphics-animation.html" rel="alternate" type="text/html" title="Graphics and animation research" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/28/graphics-animation</id><content type="html" xml:base="http://localhost:4000/2019/03/28/graphics-animation.html">&lt;h1 id=&quot;outcomes-from-week-four-smart-goal&quot;&gt;Outcomes from week four SMART goal&lt;/h1&gt;
+&lt;h2 id=&quot;the-sprint&quot;&gt;The &lt;em&gt;sprint&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;User story&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;As an aspiring developer of game and game-like web-based apps , I would like to have the tools and know-how in order to create and animate interesting 2D graphics within a web browser.
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Research graphics and animation software, languages, libraries and techniques - predominently 2D but taking in 3D if interesting and/or relevant.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The process&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Firstly, as I have no firm idea of where to start, I will take a somewhat &lt;em&gt;scattershot&lt;/em&gt; approach. Below I will firstly show a brief indication - not much more than a list - of what I found during my initial research. Following this, I will delve a little further into a selection of the results from which, given I am now coming from a more informed position, I will have begun forming an idea of any potential for my purpose.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;animation&quot;&gt;Animation&lt;br /&gt;&lt;/h1&gt;
+&lt;p&gt;Whist researching browser-based animation solutions, I innevitably came across some that are more specificially oriented towards games or that are probably more suitable for attractive and interactive website design.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://animejs.com/&quot;&gt;anime.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;open source&lt;/li&gt;
+  &lt;li&gt;fast&lt;/li&gt;
+  &lt;li&gt;lightweight
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://threejs.org/&quot;&gt;three.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;3D rendering engine&lt;/li&gt;
+  &lt;li&gt;Been around a while - well established but maybe being superceded.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://velocityjs.org/&quot;&gt;velocity.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Not the best for games&lt;/li&gt;
+  &lt;li&gt;Used in WhatsApp
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://popmotion.io/&quot;&gt;popmotion.js&lt;/a&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/mojs/mojs/&quot;&gt;mojs&lt;/a&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://phaser.io/&quot;&gt;phaser&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Game engine&lt;/li&gt;
+  &lt;li&gt;Very popular&lt;/li&gt;
+  &lt;li&gt;Good with typescript&lt;/li&gt;
+  &lt;li&gt;Looks good for 2D games especially&lt;/li&gt;
+  &lt;li&gt;Did come across some complaints about its architecture and how well-written it is
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://greensock.com/&quot;&gt;Greensock GSAP&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Been around a long time and is very well supported&lt;/li&gt;
+  &lt;li&gt;large community&lt;/li&gt;
+  &lt;li&gt;Works well with pure JavaScript, of course, and with Vue, React and Angular.&lt;/li&gt;
+  &lt;li&gt;The Angular angle (!) I need to investigate further.&lt;/li&gt;
+  &lt;li&gt;But.. it is perhaps a bit corporate? Logos, business website animations?&lt;/li&gt;
+  &lt;li&gt;Some of the libraries, such as Draggable, could be very useful for more simple games&lt;/li&gt;
+  &lt;li&gt;Autism games / apps come to mind.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.goodboydigital.com/case-study/star-wars-arcade&quot;&gt;An example of GASP with Pixi.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.pixijs.com/&quot;&gt;pixi.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open source&lt;/li&gt;
+  &lt;li&gt;Rendering engine&lt;/li&gt;
+  &lt;li&gt;demos on website look impressive&lt;/li&gt;
+  &lt;li&gt;above example of Pixi.js with GASP is impressive&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://p5js.org/&quot;&gt;p5.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;p5.js is a JavaScript library. It is not a port or emulation of the original Processing but is a re-imagining in native JavaScript. … Processing.js was used to convert &amp;amp; run Processing .pde files in a web browser, whilst when using p5.js you will be writing your code directly in JavaScript - &lt;a href=&quot;https://teamtreehouse.com/community/what-is-the-difference-between-p5js-and-processingjs&quot;&gt;What is the difference between p5.js and processing.js&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drawing library&lt;/li&gt;
+  &lt;li&gt;Looks good for sound / animation in the browser
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://p5js.org/reference/#/libraries/p5.sound&quot;&gt;p5.sound library reference&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://discourse.processing.org/t/based-on-what-i-want-to-do-should-i-learn-processing-or-p5-js/1425/8&quot;&gt;a discussion&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://cycleblob.com/&quot;&gt;Some impressive browser-based animation games&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa&quot;&gt;Making an animated sprite image in JavaScript&lt;/a&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;game-frameworks-and-rendering-engines&quot;&gt;&lt;strong&gt;Game&lt;/strong&gt; frameworks and rendering engines&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://html5gameengine.com/&quot;&gt;List of HTML5 game engines&lt;/a&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2D engines&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/GoodBoyDigital/pixi.js&quot;&gt;pixi.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gdevelop-app.com/&quot;&gt;GDevelop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kiwijs.org&quot;&gt;kiwi.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://phaser.io/&quot;&gt;Phaser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://melonjs.org/&quot;&gt;melon.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://craftyjs.com/&quot;&gt;Crafty&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3D engines&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.babylonjs.com/&quot;&gt;BabylonJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://threejs.org/&quot;&gt;Three.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://playcanvas.com/&quot;&gt;PlayCanvas&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Adobe Creative Cloud - a suite of creative tools&lt;/strong&gt;
+&lt;a href=&quot;https://www.adobe.com/uk/products/animate.html&quot;&gt;Adobe Animate CC&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;webvr---this-i-intend-to-explore-later-on-the-course&quot;&gt;&lt;strong&gt;WebVR&lt;/strong&gt; - this I intend to explore later on the course.&lt;/h1&gt;
+
+&lt;h1 id=&quot;one-of-the-most-useful-articles-i-have-found--&quot;&gt;One of the most useful articles I have found: -&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@evejweinberg/web-animation-everything-you-need-to-know-in-too-much-detail-91bf5d48f980&quot;&gt;Web Animation — A comprehensive overview&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;For more complex animations and interactions, you’ll want javascript. There are two libraries I would start with (and a thousands more out there). I recommend &lt;a href=&quot;https://greensock.com/&quot;&gt;greensock&lt;/a&gt; for manipulating DOM elements, and &lt;a href=&quot;http://mojs.io/&quot;&gt;mo.js&lt;/a&gt; for making animations from scratch in javascript.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;a-great-comprehensive-list-of-the-best-javascript-games-engines&quot;&gt;A great comprehensive list of the best JavaScript games engines&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://colorlib.com/wp/javascript-engines-for-building-games/&quot;&gt;colorlib&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Truly it has been a wonderful sight to watch the online gaming industry go from using Flash and Java to power their games, to using powerful 2D and 3D gaming engines that mostly are run through JavaScript and HTML5.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;another-top-10-list-of-javascript-game-engines&quot;&gt;Another Top 10 list of JavaScript game engines&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.jscrambler.com/10-javascript-engines-to-develop-your-own-mobile-and-web-games/&quot;&gt;jscrambler blog&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;JavaScript has already proved its capacity when it comes to developing top-quality games. And as you might expect from a language that counts with so many frameworks and libraries, there are tons of game engine options that can fit your programming skills and needs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ihatetomatoes.net/get-greensock-101/&quot;&gt;GreenSock 101 course&lt;/a&gt;&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;further-research&quot;&gt;Further research&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;To greater or lesser extents, I would like to take a slightly deeper look at: -&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CSS transformations / animations&lt;/li&gt;
+  &lt;li&gt;Canvas&lt;/li&gt;
+  &lt;li&gt;pixi.js (rendering engine)&lt;/li&gt;
+  &lt;li&gt;p5.js (graphics/drawing)&lt;/li&gt;
+  &lt;li&gt;phaser.js (game framework)&lt;/li&gt;
+  &lt;li&gt;Babylon / PlayCanvas (3D rendering)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;A potential complication&lt;/strong&gt; - and I am currently not sure how big a complication it may be - is that I have been working in &lt;strong&gt;Angular&lt;/strong&gt; and would not like to deviate from this framework. As these are JavaScript libraries they should be able to integrate, but the tutorials will no doubt make use of &lt;em&gt;pure&lt;/em&gt; JavaScript. There will undoubtedly be some fildding about and further research to bring them into an Angular environment.&lt;/p&gt;
+
+&lt;h1 id=&quot;css&quot;&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;The staple of the world wide web, the DOM, and all web design. 
+I need to get to know at least its capabilities before getting to know what the various JavaScript libraries and rendering engines can provide that is different, i.e. that cannot be done with CSS, or could be done in an easier, quicker or more efficient way.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I will attempt to pick up the basics of what I think I will need from CSS, and fill in any gaps as I learn the libraries, frameworks and engines. I may find that I do not need everying, so I will not set out to attempt to understand everything. Ultimately, it about getting enough information to start using it in my apps (currently I’m working on my AppJam project, The Odd Word Out).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What can CSS do?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ability to create client-interactive effects.&lt;br /&gt;
+Can produce some complex effects. Best used directly for interesting visual and interactive&lt;br /&gt;
+web pages. Games etc?.. probably less so.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties&quot;&gt;Animatable CSS properties&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Turorials&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Apply-CSS-transitions/674608/739908-4.html&quot;&gt;lynda - transitions&lt;/a&gt;&lt;br /&gt;
+Transition from initial to final state.&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Manage-transition-timing/674608/739909-4.html&quot;&gt;lynda - transition timing&lt;/a&gt;&lt;br /&gt;
+The &lt;em&gt;way&lt;/em&gt; the transition happens, over time.&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Steps-delays/674608/739910-4.html&quot;&gt;lynda - transition steps and delays&lt;/a&gt;&lt;br /&gt;
+The transition always happens &lt;em&gt;moving towards&lt;/em&gt; the state set in CSS. So different transitions can be set in initial and end states, so transition is different in one direction to when returning to original state.&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Create-asymmetric-transition/674608/739911-4.html&quot;&gt;lynda - asymmetric transition&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/2D-transformation-styles/674608/739913-4.html&quot;&gt;2D Transformation styles&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Combine-transformations/674608/739914-4.html&quot;&gt;Combining translations&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/matrix-transformation/674608/739915-4.html&quot;&gt;Matrix Transformations&lt;/a&gt; - can be used to do all these transformations.&lt;br /&gt;
+&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Multiply-matrix-transformations/674608/739916-4.html&quot;&gt;Multiple matrix transforms&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Matrix transformations are used by most computer imaging programs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.lynda.com/CSS-tutorials/Translations-3D-space/674608/739918-4.html&quot;&gt;Translations in 3D space&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;This Lynda course also covers rotation and perspective in 3D.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;pixijs&quot;&gt;&lt;strong&gt;PixiJS&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;What is Pixi?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;March 23rd 2019&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kittykatattack/learningPixi#introduction&quot;&gt;From PixiJS tutorial&lt;/a&gt;:&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Pixi is an extremely fast 2D sprite rendering engine. What does that mean? It means that it helps you to display, animate and manage interactive graphics so that it’s easy for you to make games and applications using JavaScript and other HTML5 technologies. It has a sensible, uncluttered API and includes many useful features, like supporting texture atlases and providing a streamlined system for animating sprites (interactive images). It also gives you a complete scene graph so that you can create hierarchies of nested sprites (sprites inside sprites), as well as letting you attach mouse and touch events directly to sprites. And, most importantly, Pixi gets out of your way so that you can use as much or as little of it as you want to, adapt it to your personal coding style, and integrate it seamlessly with other useful frameworks…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The strength of Pixi’s API is that it’s general-purpose: it’s not a game engine. That’s good because it gives you total expressive freedom to make anything you like, and wrap your own custom game engine around it.&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The tutorial suggests learning Unix. A webserver needs to be run in the root project directory and &lt;a href=&quot;https://github.com/nodeapps/http-server&quot;&gt;http-server&lt;/a&gt; is suggested for this purpose. Of course, I’d love to follow this option, as I’d love to follow all options ever given to me, in order to become the most knowledgable and versatile developer ever to have lived. However, I would like to pick up as much as I can in as short a time as I can. As I said earlier, I will fill in holes that need to be filled, later.&lt;/p&gt;
+
+&lt;p&gt;So I am going to use &lt;em&gt;Brackets&lt;/em&gt; for now. Mongoose webserver may be the next optpion to take, but just to learn and to try some coding, &lt;em&gt;Brackets&lt;/em&gt; will do. Actually, as I’m going to be working in Angular, I don’t think I will need a separate webserver as importing the libraries into the Angular project and then hosting the dev project with &lt;em&gt;$ ng serve&lt;/em&gt; should do the trick. But it’s &lt;em&gt;Brackets&lt;/em&gt; for now.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;March 24th 2019&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This wasn’t a problem at all. I installed http-server:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-cmd&quot; data-lang=&quot;cmd&quot;&gt;npm install http-server -g&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;and used VSCode. Simple!&lt;/p&gt;
+
+&lt;p&gt;Incentally, Brackets is a very useful tool as it it does not require a server and is very immediate. VSCode is still my IDE of choice, but Brackets has found a place in my heart.&lt;/p&gt;
+
+&lt;p&gt;To kick start my foray into PixiJS I followed a short four-part series of videos on YouTube &lt;a href=&quot;https://www.youtube.com/watch?v=GuY_PROTr0I&quot;&gt;CJGammon Pixi course&lt;/a&gt; being the first. It was very useful in terms of getting started with no prior knowledge.  I’ve since started looking at the official documentation with a much better idea of what is involved. Sometimes, the visual ‘taught’, ‘hold-my-hand’ method is the best way to get into a new subject.  Once given a foot-hold, further subjects are much more easily tackled.&lt;/p&gt;
+
+&lt;p&gt;I do want to start using this in my Angular project as soon as possible. All the courses and documentation use pure JavaScrip.  However, I am going to see how easy it is to follow and learn the subject whilst simultaneously ‘translating’ into TypeScipt and, with possibly more difficulty, the Angular framework.&lt;/p&gt;
+
+&lt;p&gt;This means ensuring my Odd Word Out project is safe in source control and I’m happy to hack away in order to replace the current methods with Pixi.&lt;/p&gt;
+
+&lt;p&gt;Advantages of Pixi (and this could be said of other options): -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Uses WebGL as standard and if not available will use Canvas&lt;/li&gt;
+  &lt;li&gt;Hardware acceleration&lt;/li&gt;
+  &lt;li&gt;Built-in methods and classes that make working with graphical animation accessible without having to build everything from scratch.&lt;/li&gt;
+  &lt;li&gt;Integration with Game Engines, such as Phaser, GDevelop etc.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;March 27th 2019&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ive-been-using-pixijs---what-are-my-thoughts&quot;&gt;&lt;strong&gt;I’ve been using PixiJS - what are my thoughts?&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;In terms of what I think I need for my app / game development, PixiJS does not really feel &lt;em&gt;‘right’&lt;/em&gt; (&lt;span style=&quot;color:red&quot;&gt;* but see notes below&lt;/span&gt;). I don’t feel comfortable with it as a way of achieving what I have already managed to do with ‘pure’ JavaScript (via TypeScript, if you can call this methodology ‘pure JavaScript’). In particular, I have not found any accessible way into creating individual graphic objects that have their own unique properties, such as the word they carry, their direction of movement and their speed. I’m sure that this must be possible, but I want to find out how to do this quickly, and the available documentation does not make this information easily available.&lt;/p&gt;
+
+&lt;p&gt;I am considering looking at p5.js because, from what I’ve seen in the many youtube videos available, it may be a better fit to my current knowledge and pattern of coding more comfortably.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;March 28th 2019&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;It’s amazing how much can change in a day!&lt;/strong&gt; Through perseverance and persistence I’ve found out how to 
+add objects and any number of properties to a Sprite (or any kind of graphic) object. It now seems obvious - as this is a JavaScript library it makes sense that, as with JavaScript, properties can be created and attached to an object by just refering to them! In TypeScript: -&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-typescript&quot; data-lang=&quot;typescript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Sprite&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Sprite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'my text'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//adds properties id and text to player object and gives them values&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;So easy!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ve managed to transfer the methods employed in my existing code onto to the new requirements of PixiJS and a new way of working. The movement is smooth and controllable, e.g. velocity, and collisions are easy to detect. There’s plenty still for me to get my teeth into and to learn, but I’ve satisfied myself that I have chosen a useful new way of exploring browser-based graphics and animation.
+&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;The video below shows my appjam project after converting to use PixiJS.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Two things worth mentioning: -&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;I had to turn off hardware acceleration in Chrome in order to capture the video (the software I use - &lt;em&gt;Open Broadcast Software (OBS)&lt;/em&gt; - will not work with it switched on). As Pixi makes use of hardware acceleration, the result is slower,less smooth and tends to stutter.&lt;/li&gt;
+  &lt;li&gt;I grabbed any image I could find to use for the sprite - this would clearly be something different - possibly a balloon - as I continue to develop the game and will likely use sprite sheets for individual sprite animations.&lt;/li&gt;
+  &lt;li&gt;I changed the gameplay so that characters wrap around the screen rather than bounce of the edges. I’m not sure which I prefer, but it could be possible to use both options for different levels as the game progresses.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\odd-word-out-pixi.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;I’ve learned a lot from this sprint: -&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;CSS transformations&lt;/strong&gt;: I knew little to speak of about this subject, but now I have enough of a knowledge to be feel confident I can, or at least know it is possible and, therefore, I can find out how to, make some interesting effects in order to add greater levels of interaction and interest to my apps and websites.&lt;/li&gt;
+  &lt;li&gt;In &lt;strong&gt;PixiJS&lt;/strong&gt;, I have engaged with a popular JavaScript animation library / rendering engine, with good support and a good community, and have a pretty firm grounding from which to further explore and integrate animations in my future work.&lt;/li&gt;
+  &lt;li&gt;I have researched other JavaScript animation libraries and know there are options other than PixiJS that will have their own advantages for specific uses, and &lt;strong&gt;I am looking forward to further exploration of these&lt;/strong&gt; in due course.&lt;/li&gt;
+  &lt;li&gt;I have become more aware of the existence of &lt;strong&gt;JavaScript Game Engines&lt;/strong&gt; and know I can call on these if needs arise.&lt;/li&gt;
+  &lt;li&gt;I have become aware of the exciting possiblities of the &lt;strong&gt;3D graphics libraries and frameworks&lt;/strong&gt; which, in particular, are at the forefront of developing the possibilities of &lt;strong&gt;WebVR&lt;/strong&gt; in the web browser.
+    &lt;h1 id=&quot;these-i-must-explore-in-due-course&quot;&gt;These I &lt;strong&gt;must&lt;/strong&gt; explore in due course!!&lt;/h1&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Outcomes from week four SMART goal The sprint</summary></entry><entry><title type="html">Week Five - Types of App</title><link href="http://localhost:4000/2019/03/14/week-five-types-of-app.html" rel="alternate" type="text/html" title="Week Five - Types of App" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/14/week-five-types-of-app</id><content type="html" xml:base="http://localhost:4000/2019/03/14/week-five-types-of-app.html">&lt;p&gt;This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I’ve come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.&lt;/p&gt;
 
 &lt;p&gt;As mentioned in my in my week four post on &lt;a href=&quot;/2019/03/10/week-four-critical-reflection.html&quot;&gt;Critical Reflection&lt;/a&gt;, my intention on coming onto the course was not necessarily to follow a path of game development. However, on the back of some game-like efforts as responses to the course assignments thus far, I have been finding it necessary to start considering exactly what a game is. With this in mind, of the types of app suggested by this week’s course material, for me three stand out - i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;Serious Games&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Gamification&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;Experimental Art App&lt;/code&gt;.&lt;br /&gt;&lt;br /&gt;
 In the context of my own interests, Serious Games relates to the games that support an educational intent. The highlighted app &lt;code class=&quot;highlighter-rouge&quot;&gt;Dragon Box&lt;/code&gt; certainly applies here. I particularly enjoy the way that the app introduces the concept of algebra, without actually mentioning algebra, or making it in any way clear that it is algebra that the player is actually engaging with. The idea of learning-made-fun is very useful and has to be a very successful way of achieving its aims. The same can be said for those Serious Game apps that fall more into the &lt;em&gt;simulator&lt;/em&gt; category where, for instance, a professional can practice the tools of their trade in a virual environment with an emphasis on the fun element.&lt;br /&gt;&lt;br /&gt;
-Gamification takes techniques used in and learned from game design and applies them to apps that are not, first and foremost, games. The app &lt;code class=&quot;highlighter-rouge&quot;&gt;Habitica&lt;/code&gt; takes what would normally be a fairly mundane activity - organisation ones chores and to-do lists - and adds gamic concepts such as unlocking new features, ‘powering-up’ your avatar and earning rewards.&lt;br /&gt;&lt;br /&gt;
-I find myself drawn to the idea of the Experimental Art App, in which the enjoyment of engaging in creativity in a new, interesting and often effortless way, shows an area where creative arts and app development can combine in a sense that is pure and uncompromised by having to be something that is decided for it, outside of itself and its own unique existence. The &lt;code class=&quot;highlighter-rouge&quot;&gt;Solstice&lt;/code&gt; collaboration by Bjork, Mac Visio, and Digital Agency MM (Paris) is not just an object of aesthetic beauty in its own right, it is also a new type of musical instrument, a gadget that calls you to engage and play with, whilst it encourages a kind of meditative disposition. Coming from an arts background myself, in which I’ve always enjoyed an experimental approach, I’m not surprised that I find this a particularly interesting area. And I certainly believe there could be some fascinating potential for exploration of the cross-overs between all these categories.&lt;/p&gt;
+Gamification takes techniques used in and learned from game design and applies them to apps that are not, first and foremost, games. The app &lt;code class=&quot;highlighter-rouge&quot;&gt;Habitica&lt;/code&gt; takes what would normally be a fairly mundane activity - organisation ones chores and to-do lists - and adds gamic concepts such as unlocking new features, ‘powering-up’ your avatar and earning rewards.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I find myself drawn to the idea of the Experimental Art App, in which the enjoyment of engaging in creativity in a new, interesting and often effortless way, shows an area where creative arts and app development can combine in a sense that is pure and uncompromised by having to be something that is decided for it, outside of itself and its own unique existence.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Solstice&lt;/code&gt; collaboration by Bjork, Mac Visio, and Digital Agency MM (Paris) is not just an object of aesthetic beauty in its own right, it is also a new type of musical instrument, a gadget that calls you to engage and play with, whilst it encourages a kind of meditative disposition. Coming from an arts background myself, in which I’ve always enjoyed an experimental approach, I’m not surprised that I find this a particularly interesting area. And I certainly believe there could be some fascinating potential for exploration of the cross-overs between all these categories.&lt;/p&gt;
 
 &lt;h1 id=&quot;market-research&quot;&gt;&lt;strong&gt;Market research&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;The week’s source material suggested some categories for consideration.  As I start to really think about the types of application that I may end up making as a Creative App Developer, I realise that understanding the &lt;code class=&quot;highlighter-rouge&quot;&gt;segmentation&lt;/code&gt; of the market will be more than helpful in defining how and where my own products will fit. In a &lt;code class=&quot;highlighter-rouge&quot;&gt;saturated market&lt;/code&gt;, it’s all about engaging your audience and making your product distinguishable from other apps. &lt;code class=&quot;highlighter-rouge&quot;&gt;Trends&lt;/code&gt; are ephemeral, fleeting, they come and go; but it was pointed out that some ideas can have a &lt;code class=&quot;highlighter-rouge&quot;&gt;'disruptive' effect&lt;/code&gt;, bringing about permanent change and re-thinking of established patterns.&lt;/p&gt;
 
-&lt;p&gt;At this point, I will start considering the how the markets work and the ways in which finding a possible place in the market for a potential product - or realising it is actually best avoided altogether - should be approached.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;At this point, I will start considering the how the markets work and the ways in which finding a possible place in the market for a potential product - or realising it is actually best avoided altogether - should be approached.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;As a developer, at the forefront of your mind needs to be how best to engage your audience and to make your product distinguishable from others within the same field. For some time I’ve been considering the pros and cons of producing something that is entirely unique, as compared with something that would slot comfortably within an already established market. This is where Market Research really becomes so important. Taking time to understand the saturated markets we are faced with, analysing trends and patterns and getting to understand the type of apps that have been successes or failures, and the reasons for this, is vital. Central to this must be understanding your potential audience and whether or not, and how, their needs are being met. It seems to me that there is a risk in going out on a limb, but if you get it right there could be huge benefits. On the flip-side, it may seem safe to find and join a fairly established sector, but then you are running the risk of finding that your audience’s needs are already being adequately catered for.&lt;/p&gt;
 
-&lt;p&gt;As was pointed out, there is a wholehearted need for objectivity and honesty, of being realistic and not too precious about your idea. It is all to easy to be tempted to sway market research in favour of your idea. Instead, it is good practice to seek advice from others, such as end users and developers.
+&lt;blockquote&gt;
+  &lt;p&gt;As was pointed out, there is a wholehearted need for objectivity and honesty, of being realistic and not too precious about your idea. It is all to easy to be tempted to sway market research in favour of your idea. Instead, it is good practice to seek advice from others, such as end users and developers.
 &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Some useful tools for market research&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -120,7 +428,7 @@ Types of app - good to break down the categories as it helps to make sense of th
   &lt;li&gt;&lt;strong&gt;Make it attainable&lt;/strong&gt;: I think one of each type and a brief overview is entirely do-able within a few hours.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Relevant&lt;/strong&gt;: The information I gain from the exercise will be extremely useful in understanding the kinds of markets that I am likely to be intering myself. I will reflect on how I feel about the respective niches once I understand them better.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Time-based&lt;/strong&gt;: I will spend aproximately one hour on each app and no more than two on any one.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I’ve come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.</summary></entry><entry><title type="html">Week four - Critical Reflection</title><link href="http://localhost:4000/2019/03/10/week-four-critical-reflection.html" rel="alternate" type="text/html" title="Week four - Critical Reflection" /><published>2019-03-10T00:00:00+00:00</published><updated>2019-03-10T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/10/week-four-critical-reflection</id><content type="html" xml:base="http://localhost:4000/2019/03/10/week-four-critical-reflection.html">&lt;p&gt;Keeping my Personal Case Study under five minutes was not easy. I now look at the content, watch the video, and cannot help but think it’s perhaps too light, in particular, on &lt;em&gt;depth of analysis&lt;/em&gt; and &lt;em&gt;self-criticism&lt;/em&gt;. This was in large part down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. Of course, if I had spoken faster then I could have fit more in, possibly without losing too much in terms of it being comfortable to listen to. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness.  However, I certainly have learned a lot about how to approach - or how &lt;strong&gt;not&lt;/strong&gt; to approach - such a task and will be better for it next time.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I’ve come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.</summary></entry><entry><title type="html">Week Four - Critical Reflection</title><link href="http://localhost:4000/2019/03/10/week-four-critical-reflection.html" rel="alternate" type="text/html" title="Week Four - Critical Reflection" /><published>2019-03-10T00:00:00+00:00</published><updated>2019-03-10T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/10/week-four-critical-reflection</id><content type="html" xml:base="http://localhost:4000/2019/03/10/week-four-critical-reflection.html">&lt;p&gt;Keeping my Personal Case Study under five minutes was not easy. I now look at the content, watch the video, and cannot help but think it’s perhaps too light, in particular, on &lt;em&gt;depth of analysis&lt;/em&gt; and &lt;em&gt;self-criticism&lt;/em&gt;. This was in large part down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. Of course, if I had spoken faster then I could have fit more in, possibly without losing too much in terms of it being comfortable to listen to. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness.  However, I certainly have learned a lot about how to approach - or how &lt;strong&gt;not&lt;/strong&gt; to approach - such a task and will be better for it next time.&lt;/p&gt;
 
 &lt;p&gt;Below is the essence of my Personal Case Study. The video can be seen &lt;a href=&quot;https://www.youtube.com/watch?v=vlmEWzEE1oU&quot;&gt;here&lt;/a&gt;.
 &lt;br /&gt;&lt;/p&gt;
