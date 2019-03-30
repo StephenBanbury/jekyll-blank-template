@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-30T09:54:58+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Graphics and animation research</title><link href="http://localhost:4000/2019/03/28/graphics-animation.html" rel="alternate" type="text/html" title="Graphics and animation research" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/28/graphics-animation</id><content type="html" xml:base="http://localhost:4000/2019/03/28/graphics-animation.html">&lt;h1 id=&quot;outcomes-from-week-four-smart-goal&quot;&gt;Outcomes from week four SMART goal&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-30T15:18:20+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week Six - Creative App Commerce</title><link href="http://localhost:4000/2019/03/30/week-six-creative-app-commerce.html" rel="alternate" type="text/html" title="Week Six - Creative App Commerce" /><published>2019-03-30T00:00:00+00:00</published><updated>2019-03-30T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/30/week-six-creative-app-commerce</id><content type="html" xml:base="http://localhost:4000/2019/03/30/week-six-creative-app-commerce.html">&lt;p&gt;This week’s subject matter focuses on commerse and, within this broad subject, the importance of funding, monetiztion models, pitching your product, and understanding the importance and nuances of a good business plan.&lt;/p&gt;
+
+&lt;p&gt;From my own perspective, although I have little experience of these issues personally and it is admittedly a little daunting, it is also tinged with excitement due to the possibilities of getting it right. Many years ago I was involved in assessing small-scale funding applications whilst working for the &lt;em&gt;Arts Council of England&lt;/em&gt;, so I do have something of an idea of the importance of a good pitch and an understanding of what it is that will make those with money likely to be open to investing in a product. I have also worked in a self-employed capacity and, as such, I also know the importance of a good business plan. However, at the time I did not fully engage myself in this process and, at least partly as a result, I found myself unable to continue in this vein and instead ended up working as an employee for a company. Notwithstanding the huge amount I learned in technical terms during my time with this organisation, I have always regretted not giving the process of running my own business a better shot. This makes the subject this week particularly poignant and of great interest to me.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-great-product&quot;&gt;A great product&lt;/h1&gt;
+
+&lt;p&gt;In his video, Rich Barham of Round Table Games firstly emphasizes the importance of a great product to start with. In the competitive world of creative app development - in his case, specifically games - the need for an extremely polished, well-tested product is paramount. This is the first aspect that your monetization model should be build on - clearly you need your audience, users or players to keep coming back to your product and to recommend it to their friends. The team working on the product must be all on the same page and share a collective understanding, vision and feel for exactly what is being created.&lt;/p&gt;
+
+&lt;h1 id=&quot;monetization&quot;&gt;Monetization&lt;/h1&gt;
+
+&lt;p&gt;Not really considered here, although it is mentioned, is &lt;em&gt;monetization&lt;/em&gt;, i.e. the ways in which an app itself can generate money. One article, &lt;a href=&quot;https://tech.co/news/6-app-monetization-models-make-money-2015-08&quot;&gt;tech.co&lt;/a&gt;, lists six possible models: In-app advertising, in-app purchasing, freemium (some features locked in free version), paywalls (subscriptions), paid apps, sponsorship.&lt;/p&gt;
+
+&lt;h1 id=&quot;business-plan&quot;&gt;Business plan&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;A good business plan is needed for getting investors on board.  Depending on the type of product you are selling and the type of investors you hope to attract, there is a need to create a taylored business plan. Lists of categories that need to be covered can be obtained from the various business plan templates available - &lt;a href=&quot;https://canvanizer.com/new/business-model-canvas&quot;&gt;Canvas&lt;/a&gt;, for example. Templates differ depending on the type of audience you are aiming for, as will advice given from the various business advisor companies. If the given plan is not suitable for your own audience, than it should be changed accordingly.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is important to know what you’re looking for in terms of investment, what it needs to cover, the specifics of your own particular situation. As an example, Rich Barham suggested that, if you want to bring in a great developer into your team it may be considered a selling point, but won’t be cheap. The importance is that the plan is build for what will work for you.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;funding&quot;&gt;Funding&lt;/h1&gt;
+
+&lt;p&gt;Funding is very personal, in terms of how much money is required, the way funding will be provided and for what purpose - personnel, software, hardware, the size of the organisation, the type of project and how long it will take etc.&lt;/p&gt;
+
+&lt;p&gt;Examples of different types of funding: -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Grant funding - government or Arts Council grants, chritable organisations etc. Sometimes &lt;strong&gt;match funding&lt;/strong&gt; is required, in which case the fundee needs to put their own funding in to get funding out.&lt;/li&gt;
+  &lt;li&gt;Venture Capitalists - companies&lt;/li&gt;
+  &lt;li&gt;Angel investors - individuals&lt;/li&gt;
+  &lt;li&gt;Loans - can be dangerous because of personal liability. Small companies sometimes may take a small loan along with other forms of funding.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Sweat equity&lt;/strong&gt;: if you have no money of your own to put in, it may be possible to put a value on actual work, depending on your value as a team.&lt;/p&gt;
+
+&lt;h2 id=&quot;pitching&quot;&gt;Pitching&lt;/h2&gt;
+
+&lt;p&gt;This is something that is difficult for many people and is something that takes is lots of practice. Public speaking, essentially what this is, is something that is learned. &lt;a href=&quot;https://www.toastmasters.org/&quot;&gt;Toastmasters International&lt;/a&gt; is an example of a resource to aid this process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Different ways of pitching&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Elevator pitch - about two minutes maximum. In this time you need to interest your audience by showing them the potential to make large sums of money. You do not have the opportunity to use slides or materials. It is important to judge these well, as you could potentially annoy or even alienate a potential investor by catching them at the wrong moment or with the wrong type of message.&lt;/li&gt;
+  &lt;li&gt;Time or competition pitch - three minutes and a single slide. These are run as a kind of competition, usually with a prize. The pressure is high and they can be terrifying, but are great practice.&lt;/li&gt;
+  &lt;li&gt;Creative pitch - selling the creative side of your idea to a creative audience.&lt;/li&gt;
+  &lt;li&gt;Business pitch - showing figures and not much else.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sometimes a pitch can be a combination of both creative and business pitches.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, a pitch needs to be right for the audience.  It needs to be taylored to the particular investor. The most important thing is that you do your research in order to get this absolutely right.&lt;/p&gt;
+
+&lt;h1 id=&quot;unique-selling-point-usp&quot;&gt;Unique Selling Point (USP)&lt;/h1&gt;
+
+&lt;p&gt;These really do need to be unique - often they are not - and this is a big challenge. If you believe you have a USP make absolutely certain that is really is truly unique - it can be an embarrassing disaster to be ‘called out’ on this. Again, research is vital. It is important you can explain why it is unique and, if it has not been done before, what is the reason for this? Make sure the unique aspect is actually desirable.  If it is not unique, do not pitch it as unique, but state why it is better than the other available options.&lt;/p&gt;
+
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;There is a much to consider when it comes to commerse, starting with a great product, a suitable business plan, exploring opportunities for funding and the ability to pitch ideas to potential investors. All of this requires a great deal of diligence, research, effort and confidence in what you are doing and how you are doing it. I see this as making sure a huge amount of attention is paid to the detail, ensuring that all avenues are being explored and nothing is going amiss. It was mainly down to a lack of this, along with my own naievity and ignorance, that in the past I missed an opportunity.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week’s subject matter focuses on commerse and, within this broad subject, the importance of funding, monetiztion models, pitching your product, and understanding the importance and nuances of a good business plan.</summary></entry><entry><title type="html">Graphics and animation research</title><link href="http://localhost:4000/2019/03/28/graphics-animation.html" rel="alternate" type="text/html" title="Graphics and animation research" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/28/graphics-animation</id><content type="html" xml:base="http://localhost:4000/2019/03/28/graphics-animation.html">&lt;h1 id=&quot;outcomes-from-week-four-smart-goal&quot;&gt;Outcomes from week four SMART goal&lt;/h1&gt;
 &lt;h2 id=&quot;the-sprint&quot;&gt;The &lt;em&gt;sprint&lt;/em&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;User story&lt;/strong&gt;&lt;/p&gt;
