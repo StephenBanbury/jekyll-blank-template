@@ -4,7 +4,7 @@ title: Week Eight - What is Creativity?
 published: true
 ---
 
-This week’s subject is Creativity. The idea of bringing a truly creative approach to app development is, to me, an extremely exciting one. In fact, the use of the word 'creative' in the title of this MA was probably the biggest draw, particularly seeing it used together with the words ‘app’ and ‘development’! This is an unusual conjunction but, I believe, it should not be so; I have long viewed coding as an inherently creative process and my growth as a programmer has occurred alongside my development as an artist.
+This week’s subject is Creativity. The idea of bringing a truly creative approach to app development is, to me, an exciting one. In fact, the use of the word 'creative' in the title of this MA was, for me, probably the biggest draw, particularly seeing it used in conjunction with the words ‘app’ and ‘development’. At the time, when viewed in context of the plethora of computing courses positioned within the realm of the sciences, the bringing together of these words seemed unusual. But to me it seemed a perfectly natural fit. Perhaps the word 'app' conjures up something of the current zeitgeist, as the past decade has seen apps become a staple of a modern life, often in playful and entertaining ways. But, even aside from this kind of creative intent, I have long viewed coding _itself_ as an inherently creative process, and my growth as a programmer has occurred alongside my development as an artist.
 
 # Disruption
 
@@ -18,7 +18,7 @@ As Prof. Tanya Krzywinska notes, many of the ‘hooks tactics’ that provide �
 
 # The benefits to education
 
-I am particularly interested to note that, as suggested by Prof. Krzywinska, games are not purely about entertainment, but can also be powerful tools for learning; that the feedback that games can provide and the stickiness that keep players engaged can also be used to help learn new skills and to motivate users to do so. This has a particular resonance in terms of my own ideas for game-focused education apps, and I am encouraged to home in on these aspects and utilise them for the purpose of concentrating the learning process, whilst simultaneously inhancing the fun aspects of the learning experience.     
+I am interested to note that, as suggested by Prof. Krzywinska, games are not purely about entertainment, but can also be powerful tools for learning; that the feedback that games can provide and the stickiness that keep players engaged can also be used to help learn new skills and to motivate users to do so. This has a particular resonance in terms of my own ideas for game-focused education apps, and I am encouraged to home in on these aspects and utilise them for the purpose of concentrating the learning process, whilst simultaneously inhancing the fun aspects of the learning experience.     
 
 ## Creating stickiness for the App Jam word game
 
@@ -32,6 +32,6 @@ My word game currently does just one thing. There is no means for progression or
 
 ## Summary
 
-I have been excited by this week's content. Closing the gap between _creativity_ and _app development_ is one of the main reasons I am on the course. I am keen to start trying to develop a way of working that incorporates, at a fundamental level, a creative approach into the developmental process; that instils a sense of risk-taking and discomfort, which I hope will add excitement to the end result. 
+I have been excited by this week's content. Closing the gap between _creativity_ and _app development_ is one of the main reasons I am on the course. I am keen to start trying to develop a way of working that incorporates, at a fundamental level, a creative approach into the developmental process; one that instils a sense of risk-taking and discomfort, which I hope will add excitement to the end result. 
 
 Following the Audience Research lecture and activities from [week seven]({% link _posts/2019-04-15-week-seven-audience-research.markdown %}) I am also looking forward to thinking about and developing hook structures that add interest and stickiness for my audience, that will encourage them to continue to participate, entice them to return and develop a loyalty to my brand.  In particular, in the case of my education game ideas, I hope that such techniques will aid the process of learning.
