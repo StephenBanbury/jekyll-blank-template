@@ -4,7 +4,7 @@ title: Week Nine - Which Technologies Can Empower Creativity?
 published: true
 ---
 
-This week we are looking at emerging technologies - i.e. technologies that have not yet appeared in the markets or are in the stages of early adoption. In particular, we were are interested in how they can drive and empower the creative process and facilitate _Disruptive Practice_ - i.e. the shaking-up of the market by forcing a divergance from established genres patterns.  
+This week we are looking at emerging technologies - i.e. technologies that have not yet appeared in the markets or are in the stages of early adoption. In particular, we were are interested in how they can drive and empower the creative process and facilitate _Disruptive Practice_ - i.e. the shaking-up of the market by forcing a divergence from established genres patterns.  
 
 In a series of video interviews comprising viewpoints from a selection of academic practitioners who are undergoing research and practical work within areas being opened up by new technologies, we are provided with a fascinating insight into the kind of work being done when investigating and exploring the creative possibilities facilitated by such technologies.
 
@@ -34,46 +34,72 @@ The six topics discussed are: -
 
     Working with AI for the automatic creation and generation of games. The Monte Carlo Tree Search is a ‘black box’ AI algorithm that, in order to learn how to play a previously unknown game, starts with randomness and gradually sorts out the ‘good’ outcomes. The speed of modern computers allows the repetition of successful outcomes and the discarding of those that fail to happen very quickly. The algorithm is part of the ‘re-enforcement learning’ family, along with ‘Neuro-networks’ and [‘Google Deep Mind’]( https://deepmind.com/blog/alphago-zero-learning-scratch/), which famously had success with the [‘Go’ board game]( https://www.newscientist.com/article/2132086-deepminds-ai-beats-worlds-best-go-player-in-latest-face-off/).
 
-For me, the videos give a sense of how, through the process of getting to know and understanding the capabilities of emerging technologies and exploring the breadths of possibilities, new space opens up for the development of creative ideas. In this way, creativity itself can be seen to be driven by the resulting process of experimentation and the charting of previously unknown territories.  The pursuit of new creative ideas can influence the creative technology markets and lead to disruptive practice, as the benefits, improvements and a general desire for new ideas, are embraced and allowed to evolve. 
+## My response to this week's material
+
+For me, the videos give a sense of how, through the process of probing the boundaries of emerging technologies and exploring the potential breadth of possibilities, new space can be opened up for the development of creative ideas. In this way, creativity itself can be seen to be driven by the process of experimentation, the charting of previously unexplored territory revealing fertile ground for creative ideas to flourish. Potentially, the markets can be influenced to such an extent - as any benefits, improvements and a general desire for novelty and new ideas are embraced - that established norms and patterns are questioned, _disrupted_. 
+ 
+Technology increases to be part of our daily lives and everyday existence. I suppose this is a continuation of the course of our on-going relationship with technology ever since its history began; from the advent of the earliest tools, we have surrounded ourselves with technologies and devices that not only make our lives easier, but increasingly define our world and influence our understanding of our place within it; through a constant process of scientific discovery and creative experimentation, the lines between what may be considered to be 'natural' and the world we have fabricated for ourselves, seem to be increasingly blurred. Recent developments and our subsequent reliance on connectivity, mobile and wearable technology and the increasingly significant part played in everyday life by artificial intelligence, machine learning, data mining and robotics, appear to reinforce this impression.
 
 >social robotics.. are going to account for about 70 percent of the robots in the world within the next 10 to 20 years. We’re looking at a lot of robots coming into the home - 
 Rob Saunders
- 
-Technology has become, and increases to be, part of our daily lives and everyday existence. I suppose this is a continuation of the course of our on-going relationship with technology ever since the history of technology began - from the earliest tools and mechanical devices and including the advent of electronic domestic 'labour-saving' devices introduced to the home. What is new is the 'intelligent' interactions with technology, and the ever-closer relationship with our human-created world. With mobile technology in particular - and now wearable technology - our relationship with our world is being re-worked with every new 'gadget' on the market.
 
-# Virtual Reality & Augmented Reality
-One question that may be worth considering is, when does an emerging technology stop being an emerging technology? I began thinking this when considering the cases of Virtual Reality and Augmented Reality. Conceptually, they have both been around in some form or other for a while now, but then, so has Artificial Intelligence.  
+## Virtual Reality & Augmented Reality
+One question that may be worth considering is, when does an emerging technology stop being an emerging technology? I began thinking this when considering the cases of Virtual Reality and Augmented Reality. Conceptually, they have both been around in some form or other for a while now. But then, so has Artificial Intelligence.  
 
 > Today’s virtual reality technologies build upon ideas that date back to the 1800s, almost to the very beginning of practical photography... The use of the term “virtual reality,” however, was first used in the mid-1980s when Jaron Lanier, founder of VPL Research, began to develop the gear, including goggles and gloves, needed to experience what he called “virtual reality.” <br> - 
 [Frankin Institute](https://www.fi.edu/virtual-reality/history-of-virtual-reality)
 
-There have been various milestones along the way, but VR has been an emerging technology for some time. That said, with product such as Google Cardboard and Samsung Gear, VR is now beginning to realise its potential and to [_finally answer the unfulfilled  promises made by virtual reality in the 1990s_](https://www.vrs.org.uk/virtual-reality/history.html). Anecdotally, it is possible that interest in VR has reached a lull, but it can be expected to increase as new uses are discovered and the markets respond by investing in them: -
+In some respects, VR has been an 'emerging technology' for some time, and there have been various milestones along the way. That said, with product such as Google Cardboard and Samsung Gear, VR is now beginning to realise its potential and to [_finally answer the unfulfilled  promises made by virtual reality in the 1990s_](https://www.vrs.org.uk/virtual-reality/history.html). It is possible that interest in VR has lulled on occasion, but it can be expected to increase as new uses are discovered and the markets respond by investing in them: -
 
 > New technologies need to go through several releases before the average person is attracted to them. It starts with the tech enthusiasts that need to have the latest and greatest gadget. Then businesses invest heavily, as they see strong early use cases. All that business investment creates a market demand, which brings more entrants into the field. And finally, there is a release good enough for the average person <br> -
-[www.medium.com](https://medium.com/our-future/why-virtual-reality-is-the-most-impactful-emerging-technology-f208ab0f14fe)
+[medium.com](https://medium.com/our-future/why-virtual-reality-is-the-most-impactful-emerging-technology-f208ab0f14fe)
 
 # How could VR & AR relate to my own work?
 
-I have been considering the use of Virtual Reality and, possibly to a lesser extent, Augmented Reality, with regard to the potential of apps related to autism, in terms of understanding the condition and helping in areas such as learning to relate to the world in a way that can be understood without the common issues of anxiety and stress. 
+I have been considering the potential use of Virtual Reality and, maybe to a lesser extent, Augmented Reality, with regard to apps related to autism; both in terms of attempting to gain an understand of the condition and also  'therapeutically' by, for instance, helping to find a way of relating to the world in a way that can be understood without the common issues of anxiety and stress. 
 
-In his article [_How virtual reality is transforming autism studies_](https://www.spectrumnews.org/features/deep-dive/virtual-reality-transforming-autism-studies/), George Musser discusses the use of VR for autism. A specific therapeutic use for VR - _Social Cognition_ - is discussed by Nathan Caruana and Jon Brock of Macquarie University : -
+In his article [_How virtual reality is transforming autism studies_](https://www.spectrumnews.org/features/deep-dive/virtual-reality-transforming-autism-studies/), George Musser discusses the use of VR for addressing autism, including practical issues and ethical dilemmas: -
 
->Until the past few years, research into social cognition — the psychology of human interaction — has been decidedly non-interactive. Participants looked at images of faces, read short stories about social scenarios, or watched videos of other people interacting. They didn’t actually interact with another person.. We need tests that allow us to precisely measure behavior in complex, reciprocal social interactions. To achieve this goal, we and others are investigating the use of virtual-reality technology as a tool for research and, potentially, therapy. <br> - 
+>Proponents of VR argue that no other medium comes as close to putting you in someone else’s shoes.
+
+A specific therapeutic use for VR - _Social Cognition_ - is discussed by Nathan Caruana and Jon Brock of Macquarie University : -
+
+>Until the past few years, research into social cognition — the psychology of human interaction — has been decidedly non-interactive. Participants looked at images of faces, read short stories about social scenarios, or watched videos of other people interacting. They didn’t actually interact with another person.. We need tests that allow us to precisely measure behaviour in complex, reciprocal social interactions. To achieve this goal, we and others are investigating the use of virtual-reality technology as a tool for research and, potentially, therapy. <br> - 
 [How VR yields clues to social difficulties with autism](https://www.spectrumnews.org/opinion/viewpoint/virtual-reality-yields-clues-social-difficulties-autism/). 
 
 These researchers use facial recognition to track eye movement in order to study eye and related social activity within a setting that has been artificially set up, that suits a pre-defined set of parameters and is used to inform an empirical test in order to better understand a specific area of cognitive behaviour. 
 
-Recreating social interactions, creating a safe and controlled environment that reduces anxiety and sensory overload.
+It could also be worth exploring the potential of VR to recreate social interactions within a safe and controlled environment that reduces anxiety and sensory overload.
 
-As this appears to be a use for VR that has not yet been fully adopted, questions will need to be asked about the rediness and viability of the markets as they currently stand and, consequently, whether it is a market that can be unearthed or created. 
+Aside from therapeutic uses for VR, perhaps software can help understand the 'autistic mind' and create **stimulatory experiences** to suit?
+
+# Potential for adoption of VR 
+
+As the use of VR in autism appears to have not yet been fully adopted, questions will need to be asked about the readiness and viability of the markets as they currently stand and, consequently, whether it is a market that can be unearthed or created. 
 
 >For all its apparent advantages, however, VR has yet to be rigorously tested as a therapeutic or research tool for autism. Several meta-analyses this year turned up comparatively few studies, and most had only a handful of participants and no control group. Newbutt and a colleague, for instance, found a total of six studies since 1990 that have tested head-mounted VR displays in students with autism. “There isn’t that much evidence to support the use of this yet” <br> - 
 [_How virtual reality is transforming autism studies_](https://www.spectrumnews.org/features/deep-dive/virtual-reality-transforming-autism-studies/)
 
-Aside from therapeutic uses for VR, perhaps software can help understand the 'autistic mind' and create stimulatory experiences to suit?
+Ideally, one would work and developing alongside someone who has first hand experience of autism, i.e. an autistic person: -
 
-Also worth considering is the use of AI: can AI gather response from experiments in this area and generate new experiences accordingly? Perhaps this could involve delving into **biometrics** and overlapping with the [Quantified Self](https://quantifiedself.com/) project. In this way, maybe the measurement of stress levels, in conjunction with VR, could be an area worth exploring.
-
-Working and developing alongside someone for some the app is intended.
+>Involving people with autism in research is key to its success. As virtual-reality technology improves and becomes increasingly affordable, the possibilities may be limited only by our collective imagination.<br> - 
+[How VR yields clues to social difficulties with autism](https://www.spectrumnews.org/opinion/viewpoint/virtual-reality-yields-clues-social-difficulties-autism/). 
 
 With VR becoming ever-more available and affordable - e.g. Google Cardboard - then this kind of experimentation with VR is becoming more realistic. However the difficulty is how to build and work with a market / audience?  So far, this work appears to be academic research only.
+
+## Artificial intelligence and biometrics
+
+Also worth considering is the use of **artificial intelligence**: can AI gather response from experiments in this area and generate new experiences accordingly? Perhaps this could involve delving into **biometrics** and overlapping with the [Quantified Self](https://quantifiedself.com/) project. In this way, maybe the measurement of stress levels, in conjunction with VR, could be an area worth exploring.
+
+
+## Researching VR for Autism 
+Having taken a cursory look at the potential of VR for autism-related apps, I would like to take a deeper dive into the current use of VR and other emerging technologies, including researching any articles or papers I can find that consider its potential. I would then like to explore and sketch out some ideas of my own, including my initial thoughts in terms of feasibility, practical issues, audience characteristics and potential markets.
+
+* **Make it Specific:** The goal is to research VR and other emerging technologies in relation to their use in apps that in some way address issues related to autism. From this research, I will begin assembling some ideas of my own for possible future development.
+* **Make it Measurable:** I will collate my research in to a single document, and my own ideas I will put into a sketch-book format that I can easily return to and pick up at a future date.
+* **Make it Attainable:** This will be achieved within a single week.
+* **Make it Relevant:** At the end of this process I will have gathered knowledge of existing work and of current thinking and research in the field. I will have begun to develop some ideas of my own which can be possibly be drawn upon at a later date.
+* **Make it Time-Based:** I will achieve this over two sessions on consecutive days - the first for research, the second for sketching ideas.
+
+## Summary
+I have briefly summarised the content of the week's source material and included some of my own thoughts on the subjects raised. I have then outlined how I understand creativity to naturally exist as part of an exploritative approach, filling the space made available by pushing boundaries beyond current knowledge, normalities and established patterns. I've indicated how I view Virtual and Augmented Reality as potentially having a place within an area of interest to me, i.e. apps relating to issue surrounding autism, and touched on issues that may exist for related development. Following this, I have set myself a goal to undertake further research into this area and to begin sketching some possible ideas that I may wish to take forward at a future date.
