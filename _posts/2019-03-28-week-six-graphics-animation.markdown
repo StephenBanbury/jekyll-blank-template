@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphics and animation research
+title: Week Six - Graphics and Animation Research
 published: true
 ---
 
