@@ -23,7 +23,7 @@ A _scrum_ methodology would have avoided this extremely awkward situation becaus
 
 As it was, the board agreed an extension and an increased budget, but I was still left knowing that I never want to find myself in this position again. 
 
-Years later, when working as part of an Agile team using the scrum methodology, I saw at first-hand how a project can be developed from an initial plan to a released product via a process that allows unexpected hitches and changes to client requirements to be dealt with, by the team, as they arise. Rather than being subject to, and potentially adversely affected by, changes to requirements, expectations or the pre-determined costs of a monolithic end product, individual sprints facilitate the ability to react to events and situations as they arise, and projects can be designed in such a way as to allow any potential blows to be greatly lessened or removed entirely.
+Years later, when working as part of an Agile team using the scrum methodology, I saw at first-hand how a project can be developed from an initial plan and realised as a released product, over any number of continual iterations, via a process that allows unexpected hitches and changes of client requirements to be dealt with as they arise. Rather than being subject to updated requirements at the **end** of the project's development lifecycle, and potentially being adversely affected by such changes to, as in this case's example, a pre-determined costs of a monolithic end product, individual sprints facilitate the ability to react to events and situations as they arise, and projects can be designed in such a way as to allow any potential blows to be greatly lessened or removed entirely.
 
 ## Planning an Agile Project Using Scrum
 
