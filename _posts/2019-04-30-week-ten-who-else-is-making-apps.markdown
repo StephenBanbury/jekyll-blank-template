@@ -55,7 +55,7 @@ This is unlikely to have happened without coming to 'belong' to a group that sha
 
 As I do not have much knowledge or experience of the various communities and associated events or activities associated with the Hacker and Maker movements, I would like to find out more and get some idea of those I may be interested in involving myself with. 
 
-I also find myself drawn to the interests and ethea inherent in the maker movement.  Although I have no direct experience, I find the potential of playing with the Arduino and Raspberry Pi platforms and, in particular, getting involved with electronics and robotics, to be very appealing. To this end, I will create a SMART goal to undergo research into relevant and interesting Hacker and Maker communities.
+I also find myself drawn to the interests and ethos inherent in the maker movement.  Although I have no direct experience, I find the potential of playing with the Arduino and Raspberry Pi platforms and, in particular, getting involved with electronics and robotics, to be very appealing. To this end, I will create a SMART goal to undergo research into relevant and interesting Hacker and Maker communities.
 
 * **Make it Specific:** The goal is to research Hacker and Maker movement communities and select those that appear to be aligned with my own interests and goals, as well as offering potential for expanding into new personal territories.
 * **Make it Measurable:** I will document my research and my conclusions and create a journal entry. Where necessary, I will contact the most interesting groups for further information.
