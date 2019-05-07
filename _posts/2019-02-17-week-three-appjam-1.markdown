@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Week Three - AppJam 1 - Three Little Words
+title: Week Three - App Jam 1 - Three Little Words
 published: true
 ---
 
 ### **<center><span style="color:darkblue">Three Little Words</span></center>** 
 <br>
 **Three words**: selected randomly using VNA (_**v**erb, **n**oun, **a**djective_) cards form the basis of the App Jam activity - an intensive period of development and reflective practice.<br><br>
-**48 hours**: the time allocated for this activity. Although it has been suggested that we should try to use the full 48 hours, it is also recognised that we may not be able to find such an amount - after all, it is time which has to exist alongside the usual course study, reading, learning, journal-writing and, of course, everyday life. In my case, the latter is particularly time-consuming in itself, being as it involves a working life and a young and demanding family. At this stage I find I really have little idea of how much time 48 hours is - at least in the sense of finding despersed pockets here and there in which to allocate time both for pure development and for reflection. This is uncharted territory for me. This being the case, I have decided not to try to plan too much in advance but to move forward for short periods before pausing and evaluating what I have done. Hopefully, these moments of reflection will provide the basis and knowledge from which I can plan my next steps.<br><br>
+**48 hours**: the time allocated for this activity. Although it has been suggested that we should try to use the full 48 hours, it is also recognised that we may not be able to find such an amount - after all, it is time which has to exist alongside the usual course study, reading, learning, journal-writing and, of course, everyday life. In my case, the latter is particularly time-consuming in itself, being as it involves a working life and a young and demanding family. At this stage I find I really have little idea of how much time 48 hours is - at least in the sense of finding dispersed pockets here and there in which to allocate time both for pure development and for reflection. This is uncharted territory for me. This being the case, I have decided not to try to plan too much in advance but to move forward for short periods before pausing and evaluating what I have done. Hopefully, these moments of reflection will provide the basis and knowledge from which I can plan my next steps.<br><br>
 
 
 ### _<center><span style="color:darkblue">Guide : Opponent : Restricted</span></center>_ 
 
-As well as deciding to use at least one of these three words to help define the nature of my app, I also started looking at them, not so much for their individual or collective literal meanings, as for the fact that they, as do all words, have the ability to be transformed and reinterpretted. This can be via, for example, context, order or re-assignment of grammatical useage such as between, for instance, verb, noun, adjective etc.
+As well as deciding to use at least one of these three words to help define the nature of my app, I also started looking at them, not so much for their individual or collective literal meanings, as for the fact that they, as do all words, have the ability to be transformed and reinterpreted. This can be via, for example, context, order or re-assignment of grammatical usage such as between, for instance, verb, noun, adjective etc.
 <br>
 
 **<center>Verb</center>** | **<center>Noun</center>** | **<center>Adjective</center>** | **<center>Adverb</center>**
@@ -20,7 +20,7 @@ _<center>Guide</center>_ | _<center>Guide</center>_ | _<center>Guidable</center>
 _<center>Oppose</center>_ | _<center>Opponent</center>_ | _<center>Opposing</center>_ | _<center>Opposingly</center>_
 _<center>Restrict</center>_ | _<center>Restrictiveness</center>_ | _<center>Restricted</center>_ | _<center>Restrictedly</center>_<br>
 
-**Using our words in different sentences transformed by their grammatical useage: -**<br>
+**Using our words in different sentences transformed by their grammatical usage: -**<br>
 >She restricts but guides her opponent<br>
 >The guide opposes being restricted<br>
 >She is restricted by her opposition<br>
@@ -37,11 +37,11 @@ _<center>Restrict</center>_ | _<center>Restrictiveness</center>_ | _<center>Rest
 
 <br>
 **The thesaurus**<br>
-The thesaurus is used, usually, to find similar (synonym) or opposite (antonym) words. However, a synonym can sometimes stretch the original meaning so far from its origin that the connection breaks. This can be interesting to explore in itself - the point where meaning is lost in translation and new meanings - or a lack of - unfold. The image below shows the result of playing with a thesaurus in attempting to create sentences similar in meaning to the original but using completely different words. Each word is replaced by a synonym, then the new word replaced with a synonym of its own, and so on. The most synificant disconnects have been highlighted in red. The most stark disconnections are where there are multiple meanings for a word, particularly where each of those meanings are relatively sparce in terms of their own synonyms. For example, 'brown' is very specific - it has few alternatives - but 'fawn' is one of them. However, there are more meanings than those associated with 'brown' only. We can therefore easily get words, such as 'baby-buck' which have nothing whatsover to do with the colour brown and ends up providing potential new sentences with totally new meanings.
+The thesaurus is used, usually, to find similar (synonym) or opposite (antonym) words. However, a synonym can sometimes stretch the original meaning so far from its origin that the connection breaks. This can be interesting to explore in itself - the point where meaning is lost in translation and new meanings - or a lack of - unfold. The image below shows the result of playing with a thesaurus in attempting to create sentences similar in meaning to the original but using completely different words. Each word is replaced by a synonym, then the new word replaced with a synonym of its own, and so on. The most significant disconnects have been highlighted in red. The most stark disconnections are where there are multiple meanings for a word, particularly where each of those meanings are relatively sparse in terms of their own synonyms. For example, 'brown' is very specific - it has few alternatives - but 'fawn' is one of them. However, there are more meanings than those associated with 'brown' only. We can therefore easily get words, such as 'baby-buck' which have nothing whatsoever to do with the colour brown and ends up providing potential new sentences with totally new meanings.
 <br><br>
 ![app-jam-mind-map-2](\images\app-jam-mind-map-2.jpg)<br><br>
 <br>
-A startling result of this break-down can be seen in the difference betwen the first and last sentences: -
+A startling result of this break-down can be seen in the difference between the first and last sentences: -
 >The quick brown fox jumps over the lazy dog
 <br>
 >The bountiful angelic phony promenades facing the baffled assistant
@@ -51,7 +51,7 @@ I began to imagine this effect being played out in some kind of animated graphic
 Another possible direction is to replace words with images - a full change of media adding further to the abstraction. This could be an interesting way to move forward. A major challenge is finding a convincing way that these ideas can be converted into an interesting and usable game. I decided to let the ideas develop as I played with the materials and mechanisms I found during research and experimentation - it seems there must be a rich source of possibilities that lie in this direction, waiting to be discovered and manipulated as they are uncovered.
 <br><br>
 I began a search for an online thesaurus with API endpoints I can access for the purpose of abstracting words.
-I found a number of thesaurus APIs - some are fully open and free whilst others either require an account to be created in order to access an authentication key or will only allow paid access. Most ask for a creditation and a link on any web application or site produced using their service.  I signed up to the free services where appropriate.:<br><br>
+I found a number of thesaurus APIs - some are fully open and free whilst others either require an account to be created in order to access an authentication key or will only allow paid access. Most ask for accreditation and a link on any web application or site produced using their service.  I signed up to the free services where appropriate.:<br><br>
 [ProgrammableWeb](https://www.programmableweb.com) - API directory<br>
 [Big Huge Thesaurus](https://words.bighugelabs.com/api.php) - thesaurus<br>
 [Datamuse API](https://www.datamuse.com/api/) - word-finding query engine for developers<br>
@@ -61,14 +61,14 @@ I found a number of thesaurus APIs - some are fully open and free whilst others 
 [pixabay](https://pixabay.com/api/docs/) - picture gallery API<br>
 <br>
 **A problem**<br>
-After a little while exploring what these kind of APIs could offer, I was presented with a problem: none of these, except maybe one, can provide a random selection of words, phrases, quotations, or any other form of language output that can be used to drive a game such as those I had in mind. The one API I could find that will generate anything random is [Opinionated Quotes](https://opinionated-quotes-api.gigalixirapp.com/), which produces random quotations that are generally so obscure and specialised within a particular subject, interest or market, that any use of these would would expect users to have an extensive, wide and varied knowledge of some fairly 'niche' subjects.<br><br>
+After a little while exploring what these kind of APIs could offer, I was presented with a problem: none of these, except maybe one, can provide a random selection of words, phrases, quotations, or any other form of language output that can be used to drive a game such as those I had in mind. The one API I could find that will generate anything random is [Opinionated Quotes](https://opinionated-quotes-api.gigalixirapp.com/), which produces random quotations that are generally so obscure and specialised within a particular subject, interest or market, that any use of these would expect users to have an extensive, wide and varied knowledge of some fairly 'niche' subjects.<br><br>
 **How to proceed..**<br>
-So I find myself with a delema: -
+So I find myself with a dilemma: -
 1. how to produce interesting and useful words, in the sense of their not being too prescriptive in their raw form and useful in this current context. 
 2. considering the formats these words appear to be available to me, how am I going to use them?
 Hopefully solutions will come as I work through these issues step by step.
-Perhaps I can produce some quotes and phrases through some kind of AI, using something like Amazon Alexa to generate texts. Or perhaps I could look into **web scraping / crawling** and find useable text by actually going and looking for it. Scaping is actually something that appeals to me - I hope to come back to at some point in the future. Would I need to develop a database of my own or can I access an existing one using an intelligent search facility?<br>
-**Here's one:** [Common Crawl](https://commoncrawl.org/) - _"We build and maintain an open repository of web crawl data that can be accessed and analyzed by anyone."_.  
+Perhaps I can produce some quotes and phrases through some kind of AI, using something like Amazon Alexa to generate texts. Or perhaps I could look into **web scraping / crawling** and find useable text by actually going and looking for it. Scraping is actually something that appeals to me - I hope to come back to at some point in the future. Would I need to develop a database of my own or can I access an existing one using an intelligent search facility?<br>
+**Here's one:** [Common Crawl](https://commoncrawl.org/) - _"We build and maintain an open repository of web crawl data that can be accessed and analysed by anyone."_.  
 <br>
 
 **A possible solution?**<br>
@@ -106,7 +106,7 @@ Having reviewed this process after making a start on mapping an idea for one of 
  2. have a better idea of what I will need to do next
  3. know how to manage my own expectations
 
-The main reason for trying to take on several small apps in a suite, stems from my concern that the single idea I've spent most of the time on is actually _not as interesting as I'd like or thought it would be_. Maybe it is neither _exciting_ enough as a game nor _interesting_ enough as an intellectual excercise. However, it is difficult to know, at this stage, if this will ultimately turn out to be true. 
+The main reason for trying to take on several small apps in a suite, stems from my concern that the single idea I've spent most of the time on is actually _not as interesting as I'd like or thought it would be_. Maybe it is neither _exciting_ enough as a game nor _interesting_ enough as an intellectual exercise. However, it is difficult to know, at this stage, if this will ultimately turn out to be true. 
 
 Perhaps, if the relatively simple idea behind the games are embellished by clever game-play that graphically represents the progress players are making in an interesting, creative and aesthetically-pleasing way, then the game will be bestowed with more appeal, appearing to be more unique and able to stand on their own. 
 <br><br>
