@@ -9,12 +9,12 @@ This week we have been considering the different types of app and the importance
 As mentioned in my week four post on [Critical Reflection]({% link _posts/2019-03-10-week-four-critical-reflection.markdown %}), my intention on coming onto the course was not necessarily to follow a path of game development. However, on the back of some game-like efforts as responses to the course assignments thus far, I have been finding it necessary to start considering exactly what a game is. With this in mind, of the types of app suggested by this week's course material, for me three stand out - i.e. `Serious Games`, `Gamification` and the `Experimental Art App`.
 <br><br>
 
-![DragonBox](\images\dragonbox.jpg\) ![DragonBox Game Action](\images\dragonbox-action.jpg\) 
+![DragonBox](\images\dragonbox.jpg) ![DragonBox Game Action](\images\dragonbox-action.jpg) 
 
 In the context of my own interests, Serious Games relates to the games that support an educational intent. The highlighted app `DragonBox` certainly applies here. I particularly enjoy the way that the app introduces the concept of algebra, without actually mentioning algebra, or making it in any way clear that it is algebra that the player is actually engaging with. The idea of learning-made-fun is very useful and has to be a very successful way of achieving its aims. The same can be said for those Serious Game apps that fall more into the _simulator_ category where, for instance, a professional can practice the tools of their trade in a virual environment with an emphasis on the fun element.
 <br><br>
 
-![Hibitica 1](\images\habitica-1.jpg\) ![Habitica 2](\images\habitica-2.jpg\) 
+![Hibitica 1](\images\habitica-1.jpg) ![Habitica 2](\images\habitica-2.jpg) 
 
 Gamification takes techniques used in and learned from game design and applies them to apps that are not, first and foremost, games. The app `Habitica` takes what would normally be a fairly mundane activity - organisation ones chores and to-do lists - and adds gamic concepts such as unlocking new features, 'powering-up' your avatar and earning rewards.
 
