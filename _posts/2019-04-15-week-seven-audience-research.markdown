@@ -53,7 +53,7 @@ As we are working within an international market place, and cannot meet our audi
 
 # Advice on qualitative analysis 
 
-It is qualitative analysis that most likely will be used used - this is not necessarily so different from quantitative methods. 
+It is qualitative analysis that most likely will be used - this is not necessarily so different from quantitative methods. 
 * During the **interviewing** process (often called in-depth interview), be yourself. The interview is only as good as your questions, so know what you want to find out. Chose subjects who are representative of your target population. Maybe ask friends or family if they are in some small way representative. Make sure both parties sign a consent form.
 * **Analysis** is time demanding and time consuming. Do the transcription of the data collected yourself, getting a good feel for the data. Mark the interviews with comments, classify them, categorise them, then write a report. Transcribing should preferably be verbatim (incl. ‘eh’, ‘aaahh’ etc). Maybe use an audio editor and repeatedly loop short sections. The questions themselves **are** the categories for analysis, but you can add more. Write up the analysis and use quotes as illustration.
 
