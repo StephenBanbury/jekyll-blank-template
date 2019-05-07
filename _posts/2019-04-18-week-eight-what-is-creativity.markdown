@@ -22,7 +22,7 @@ As Prof. Tanya Krzywinska notes, many of the ‘hooks tactics’ that provide �
 
 # The benefits to education
 
-I am interested to note that, as suggested by Prof. Krzywinska, games are not purely about entertainment, but can also be powerful tools for learning; that the feedback that games can provide and the stickiness that keep players engaged can also be used to help learn new skills and to motivate users to do so. This has a particular resonance in terms of my own ideas for game-focused education apps, and I am encouraged to home in on these aspects and utilise them for the purpose of concentrating the learning process, whilst simultaneously inhancing the fun aspects of the learning experience.     
+I am interested to note that, as suggested by Prof. Krzywinska, games are not purely about entertainment, but can also be powerful tools for learning; that the feedback that games can provide and the stickiness that keep players engaged can also be used to help learn new skills and to motivate users to do so. This has a particular resonance in terms of my own ideas for game-focused education apps, and I am encouraged to home in on these aspects and utilise them for the purpose of concentrating the learning process, whilst simultaneously enhancing the fun aspects of the learning experience.     
 
 ## Creating stickiness for the App Jam word game
 
