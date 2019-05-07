@@ -17,11 +17,11 @@ Below is the essence of my Personal Case Study. The video can be seen [here](htt
 Although I did not embark on the MA in order to become a game developer, I am surprised to have concluded that games can be a useful vehicle for trying out ideas, techniques and technologies. They encourage thinking about how apps can work in terms of engaging people and holding their interest. I believe the interactive and compulsive nature of good game design has much to offer the non-gaming world; in short, cross-overs exist, and these  I would like to explore.  
 <br><br>
 
-![Reflective Practice](\images\reflective-practice-small.jpg\)
+![Reflective Practice](\images\reflective-practice-small.JPG\)
 
 I formed this opinion through a process of reflection during both the Rapid Ideation and the App Jam activities. The importance of reflection is becoming clear to me – that is, that technical and creative skills alone are not enough. For example, during the App Jam, by continually questioning my progress and adjusting my goals, I was encouraged to move away from my early ideas, which I ultimately decided were quite dull. Instead, I sensed that an animated, arcade-style game play and sense of jeopardy would add a new level of interest to what had hitherto been an intellectual exercise played out in the browser. I now see a huge potential for developing arcade-style word games. 
 
-![Angular Framework](\images\angular-logo-full-word.png\)
+![Angular Framework](\images\angular-logo-full-word.PNG\)
 
 **My JavaScript framework of choice**<br>
 Over the past few years, the power of web-based applications has been moving from the server and into the browser, leading to more reactive and dynamic applications, such as single page apps, and I have developed an interest in JavaScript, the language of the browser, but I have limited experience and confidence in client-side development. Of the existing JavaScript frameworks and libraries, I decided to learn Angular.  From my own background in Microsoft .NET, C# and SQL Server, I find the structured, strongly-typed and object-oriented nature of **TypeScript** to be more approachable than pure JavaScript. Angular is also more _suitable for complex applications that use services and data connections_.

@@ -18,7 +18,7 @@ One thing I did not expect to become involved with is games. However, it did not
 
 The course material for week five - [**_Types of App_**]({% link _posts/2019-03-14-week-five-types-of-app.markdown %}) - had allowed me to begin finding a context for these ideas and to start thinking about existing markets, such as those for _Gamification_ and _Serious Games_. The latter had started to draw me into thinking about the immersive nature and educational potential of _Virtual Reality_ - for instance, its ability to place its audience within an environment created such that they would be empowered to experience something close to the reality of a particular place, situation or event from history. An example is the [**_BBC 1943 Berlin Blitz_**](http://www.bbc.co.uk/guides/zk3cmfr) virtual reality experience, in which the audience is taken in a Lancaster bomber on a blitz raid over Berlin during the Second World War. 
 
-![BBC 1943 Berlin Blitz](\images\bbc-berlin-blitz.jpg)
+![BBC 1943 Berlin Blitz](\images\bbc-berlin-blitz.JPG)
 
 This piece is particularly powerful because it is a recreation of a real-life event based on the voice-recorded narrative of a contemporary WW2 journalist, [Wynford Vaughan-Thomas](https://en.wikipedia.org/wiki/Wynford_Vaughan-Thomas), who risked his own life (and that of his recording engineer) in order to accompany the mission. I accidentally and fortuitously encountered a BBC television documentary - unfortunately I have not since been able to find a copy or any documentation of it - where the Berlin Blitz experience was tried out by a group of school pupils - it was notable how the learning process was found to be more intense and more valuable to the pupils when history was experienced as if they had been actual participants, rather than reading about disconnected facts in a text book. 
 
@@ -38,7 +38,7 @@ Since then, I have come across a company in the United States - [Floreo](https:/
 
 > is based on established social and communication techniques intended to help individuals with ASD build real world skills. Specifically, we are developing content for learning discrete social behaviors, managing planned and unplanned events, and improving sensory and emotional regulation.
 
-![Floreo VR](\images\floreo-vr.jpg)
+![Floreo VR](\images\floreo-vr.JPG)
 
 So it does, after all, appear that a market has opened up for VR and ASD. That said, I intend to continue to research this area as it is clearly in its infancy and there could be scope for plenty more research. ASD is [not a straight-forward condition to define](https://www.autism.org.uk/about/what-is.aspx?gclid=Cj0KCQjwtr_mBRDeARIsALfBZA5u4OYairNw0bC7U8shJ6QqZbkosfAnPRfVHgz3LcZRpr2AexDurpwaArFAEALw_wcB); it encompasses widely varying levels of 'functional' abilities - for example cognitive, physical, social, spatial etc - as well as many [related conditions](https://www.autism.org.uk/about/what-is/related-conditions.aspx) such as _Attention Deficit Hyperactivity Disorder (ADHD)_, _Dyslexia_ and _Dyspraxia_.
 
