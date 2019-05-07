@@ -1,30 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-02T22:11:38+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week Eleven - How Do We Plan and Manage Larger Creative App Development Projects?</title><link href="http://localhost:4000/2019/05/01/week-eleven-project-planning.html" rel="alternate" type="text/html" title="Week Eleven - How Do We Plan and Manage Larger Creative App Development Projects?" /><published>2019-05-01T00:00:00+01:00</published><updated>2019-05-01T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/01/week-eleven-project-planning</id><content type="html" xml:base="http://localhost:4000/2019/05/01/week-eleven-project-planning.html">&lt;p&gt;This week we look at the two main methods used for managing large creative development projects: the age-old &lt;em&gt;Waterfall&lt;/em&gt; model and the more modern &lt;em&gt;Scrum&lt;/em&gt; methodology, which is one of a number of approaches that sit under the umbrella philosophy, &lt;em&gt;Agile&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-07T01:43:41+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.</subtitle><entry><title type="html">Week Twelve - What Next?</title><link href="http://localhost:4000/2019/05/04/week-twelve-1-what-next.html" rel="alternate" type="text/html" title="Week Twelve - What Next?" /><published>2019-05-04T00:00:00+01:00</published><updated>2019-05-04T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/04/week-twelve-1-what-next</id><content type="html" xml:base="http://localhost:4000/2019/05/04/week-twelve-1-what-next.html">&lt;h2 id=&quot;in-the-beginning&quot;&gt;In The Beginning&lt;/h2&gt;
+
+&lt;p&gt;When I started the MA, I had been working for a decade with databases and data analysis, and for the following six years on a web-based database-connected application, using the Microsoft .NET MVC platform with HTML and JavaScript for the front-end. I held the assumption that I’d naturally continue down the path of web-based development, but I also wanted to explore the creative possibilities of mobile development. Anything beyond this was a little vague. However, the one thing I was certain about was that I’d like to start working to a much greater extent with the user-facing, interactive side of app development (this excites me far more than working further back in the stack with databases and business intelligence) making apps that are useful, interesting, look good, sound good and importantly, are fun to use. I also started out with a desire to explore the potential of emerging technologies such as Artificial Intelligence and Virtual and Augmented Reality.&lt;/p&gt;
+
+&lt;h2 id=&quot;games-and-learning&quot;&gt;Games and Learning&lt;/h2&gt;
+
+&lt;p&gt;One thing I did not expect to become involved with is games. However, it did not take long, after starting the course, to find myself considering education-focused games as a possible avenue to explore. My App Jam project, an education-focused arcade-style game, started me thinking about the value of games in a wider context than I had previously, particularly as a means of drawing in the user and holding their attention in order to facilitate learning via a fun activity and playful environment. For me, this idea was confirmed and developed in week eight’s course material - &lt;a href=&quot;/2019/04/18/week-eight-what-is-creativity.html&quot;&gt;&lt;strong&gt;&lt;em&gt;What is Creativity?&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; - where it was noted that&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;games are not purely about entertainment, but can also be powerful tools for learning&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;the-potential-for-vr-in-education-games&quot;&gt;The potential for VR in education games&lt;/h1&gt;
+
+&lt;p&gt;The course material for week five - &lt;a href=&quot;/2019/03/14/week-five-types-of-app.html&quot;&gt;&lt;strong&gt;&lt;em&gt;Types of App&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; - had allowed me to begin finding a context for these ideas and to start thinking about existing markets, such as those for &lt;em&gt;Gamification&lt;/em&gt; and &lt;em&gt;Serious Games&lt;/em&gt;. The latter had started to draw me into thinking about the immersive nature and educational potential of &lt;em&gt;Virtual Reality&lt;/em&gt; - for instance, its ability to place its audience within an environment created such that they would be empowered to experience something close to the reality of a particular place, situation or event from history. An example is the &lt;a href=&quot;http://www.bbc.co.uk/guides/zk3cmfr&quot;&gt;&lt;strong&gt;&lt;em&gt;BBC 1943 Berlin Blitz&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; virtual reality experience, in which the audience is taken in a Lancaster bomber on a blitz raid over Berlin during the Second World War.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\bbc-berlin-blitz.jpg&quot; alt=&quot;BBC 1943 Berlin Blitz&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This piece is particularly powerful because it is a recreation of a real-life event based on the voice-recorded narrative of a contemporary WW2 journalist, &lt;a href=&quot;https://en.wikipedia.org/wiki/Wynford_Vaughan-Thomas&quot;&gt;Wynford Vaughan-Thomas&lt;/a&gt;, who risked his own life (and that of his recording engineer) in order to accompany the mission. I accidentally and fortuitously encountered a BBC television documentary - unfortunately I have not since been able to find a copy or any documentation of it - where the Berlin Blitz experience was tried out by a group of school pupils - it was notable how the learning process was found to be more intense and more valuable to the pupils when history was experienced as if they had been actual participants, rather than reading about disconnected facts in a text book.&lt;/p&gt;
+
+&lt;h2 id=&quot;virtual-reality-and-autism-spectrum-disorder&quot;&gt;Virtual Reality and Autism Spectrum Disorder&lt;/h2&gt;
+
+&lt;p&gt;Thinking further about VR, I came to consider its potential to create an environment that can be comfortably explored by autistic people. I should explain at this point that my younger son, who is now eight years old, was provided with an early diagnosis of Autism Spectrum Disorder (ASD) as a toddler. His mother and I have spent a significant amount of time concerning ourselves with his education and development and have put together a predominantly home-schooled programme based on &lt;a href=&quot;https://en.wikipedia.org/wiki/Applied_behavior_analysis&quot;&gt;Applied Behaviour Analysis (ABA)&lt;/a&gt;: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a scientific discipline concerned with applying techniques based upon the principles of learning to change behaviour of social significance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think there is a lot of potential with autism and VR. Autism is very much about difficulties of socialisation and how one relates to the world and communicates with other people. This can be a very difficult thing for autistic people to deal with. The world that most of us take for granted, in which we spend a large proportion of our lives socialising and interacting with others, can often cause confusion, intense anxiety and feelings of isolation for autistic people. If it is possible for Virtual Reality to create environments in which people with autism feel comfortable and are able to communicate with others whilst circumventing problems associated with an inability to read and understand the subtleties of expression and social interaction, then VR could be an extremely useful and potentially important tool.&lt;/p&gt;
+
+&lt;p&gt;My week nine journal entry on &lt;a href=&quot;/2019/04/19/week-nine-emerging-tech.html&quot;&gt;&lt;strong&gt;&lt;em&gt;emerging technology&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; shows some of the research I have begun in this area. I came across practitioners in the field of autism research who appear to be quite excited about the possibilities of VR and are thinking about it in a similar way to me. Most appear to be academics within the field of autistic research, rather than working within software development or technology. I’ve read of people doing research into the use of VR in autism and finding very little, and at the time I found very little myself. I recognised that I needed to do more thorough research into this, but I believed there to be a potential market for the use of VR and AR in autism.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-market-emerges&quot;&gt;A market emerges&lt;/h1&gt;
+
+&lt;p&gt;Since then, I have come across a company in the United States - &lt;a href=&quot;https://floreotech.com/&quot;&gt;Floreo&lt;/a&gt; - who have created a VR product that&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;is based on established social and communication techniques intended to help individuals with ASD build real world skills. Specifically, we are developing content for learning discrete social behaviors, managing planned and unplanned events, and improving sensory and emotional regulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\floreo-vr.jpg&quot; alt=&quot;Floreo VR&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So it does, after all, appear that a market has opened up for VR and ASD. That said, I intend to continue to research this area as it is clearly in its infancy and there could be scope for plenty more research. ASD is &lt;a href=&quot;https://www.autism.org.uk/about/what-is.aspx?gclid=Cj0KCQjwtr_mBRDeARIsALfBZA5u4OYairNw0bC7U8shJ6QqZbkosfAnPRfVHgz3LcZRpr2AexDurpwaArFAEALw_wcB&quot;&gt;not a straight-forward condition to define&lt;/a&gt;; it encompasses widely varying levels of ‘functional’ abilities - for example cognitive, physical, social, spatial etc - as well as many &lt;a href=&quot;https://www.autism.org.uk/about/what-is/related-conditions.aspx&quot;&gt;related conditions&lt;/a&gt; such as &lt;em&gt;Attention Deficit Hyperactivity Disorder (ADHD)&lt;/em&gt;, &lt;em&gt;Dyslexia&lt;/em&gt; and &lt;em&gt;Dyspraxia&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;furthering-the-opportunities-for-research-into-virtual-reality-and-autism-the-falmouth-creative-app-development-ma-community-steps-in&quot;&gt;Furthering the opportunities for research into virtual reality and autism (the Falmouth &lt;em&gt;Creative App Development MA&lt;/em&gt; community steps in)&lt;/h1&gt;
+
+&lt;p&gt;As if to demonstrate the importance to the lone creative app developer of &lt;em&gt;community&lt;/em&gt;, as discussed in week ten - &lt;a href=&quot;/2019/04/30/week-ten-who-else-is-making-apps.html&quot;&gt;&lt;strong&gt;&lt;em&gt;who else is making apps?&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;, my peers offered some food for thought and some useful advice.&lt;/p&gt;
+
+&lt;p&gt;Dr Jamie White enquired as to whether I would consider doing a PHD in order to do further research in the field. My answer is that, whilst it is not something I have seriously considered up to now, it does have an appeal. A major concern would be how it would be funded but, if I am able to do so satisfactorily, it could be something that I would give full due consideration. I was suggested by one of my peers that, in the meantime, if I were able to identify a market and start producing products that I am capable of creating now, I could focus on that market, getting to know it intimately whilst supplying and developing it.&lt;/p&gt;
+
+&lt;p&gt;This is now something I am thinking about. Potentially, I could begin planning now and start putting out small-scale apps into the existing autism apps market. Over time this market would become one that I get to know and understand and whose needs I could attempt to satisfy. If virtual reality really does have a future in the field of autism, I would be in a strong position to find out and formulate a plan to enter into it, maybe even to play a part in its creation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\webvr-logo-square-small.png&quot; alt=&quot;WebVR Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As part of my interest in Virtual Reality, I intend exploring its potential as a web-based technology. I understand this is some way off being a common and well-supported platform for VR - &lt;a href=&quot;https://webvr.info/&quot;&gt;&lt;strong&gt;WebVR&lt;/strong&gt;&lt;/a&gt; is currently not available on all browsers and mobile device screens do not yet have the framerates or high resolution associated with more powerful platforms. But, as an emerging technology, it’s something I believe is worth following. The power of the web is partly its ability to democratise technology and make it available to more people - something that could seriously help VR find a place within autism therapy and research.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\pe-pyramid.png&quot; alt=&quot;WebVR in action&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;In the twelve weeks of my MA journey so far, with sincerity I feel able to say I have ‘travelled a long way’. The course lectures, interviews and the subjects they have introduced have provided information and context for me to reflect on and to develop my ideas. Material provided in order to inform and encourage the consideration of commercial aspects, potential markets, the types of app that exist in these markets, and audience development, has been very interesting. I have begun to gain a much more developed sense of the kind of work being done in different areas of app development, such as with emerging technologies, and have thoroughly enjoyed discussing creative practice, management of the creative process and the concept of creativity itself.&lt;/p&gt;
+
+&lt;p&gt;I suppose the most pertinent aspect of my journey so far has been that I have begun forming an idea of potential pathways for myself. I have identified education gaming as an interesting way of enhancing the learning process with fun and creativity and found the prospect of using VR and AR in educational games and experience to be thought provoking. In particular, I have identified the use of VR in the field of ASD research and therapy as an exciting and personally-interesting area for possible further research, with a view to entering the market and maybe playing a role in its development.&lt;/p&gt;</content><author><name></name></author><summary type="html">In The Beginning</summary></entry><entry><title type="html">Week Twelve - Pre-history (from there to here)</title><link href="http://localhost:4000/2019/05/04/week-twelve-2-pre-history.html" rel="alternate" type="text/html" title="Week Twelve - Pre-history (from there to here)" /><published>2019-05-04T00:00:00+01:00</published><updated>2019-05-04T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/04/week-twelve-2-pre-history</id><content type="html" xml:base="http://localhost:4000/2019/05/04/week-twelve-2-pre-history.html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:center&quot;&gt;
+&lt;img src=&quot;\images\pathway-2.png&quot; alt=&quot;Pathway&quot; /&gt;
+&lt;/span&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;on-commencing-the-ma-in-creative-app-development&quot;&gt;On commencing the MA in Creative App Development…&lt;/h1&gt;
+
+&lt;h1 id=&quot;i-did-not-know-exactly-what-path-i-was-going-to-follow&quot;&gt;      I did not know exactly what path I was going to follow…&lt;/h1&gt;
+
+&lt;h1 id=&quot;i-did-not-have-a-well-formed-idea-of-a-destination&quot;&gt;            I did not have a well-formed idea of a destination…&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I did know something about the new technologies driving the industry, of web development.. and beyond.. and wished to &lt;strong&gt;know them all&lt;/strong&gt;: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;real-time push capabilities provided by the advent of node.js&lt;/li&gt;
+  &lt;li&gt;client-powered single page websites&lt;/li&gt;
+  &lt;li&gt;native and cross-platform mobile development&lt;/li&gt;
+  &lt;li&gt;artificial intelligence&lt;/li&gt;
+  &lt;li&gt;machine learning&lt;/li&gt;
+  &lt;li&gt;cloud storage and related technologies&lt;/li&gt;
+  &lt;li&gt;Big Data&lt;/li&gt;
+  &lt;li&gt;Virtual Reality / Augmented Reality&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;and so on…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I felt the need to get to know more about these&lt;/strong&gt; – and still do – but I was not part of an environment in which I was easily able to do so.&lt;/p&gt;
+
+&lt;p&gt;I also have no formal qualifications in the area of computers, software development, mathematics or science. Most of my colleagues seemed to come from one of these areas and I felt I would benefit from learning and solidifying my knowledge and skills, as well as providing a boost for my CV.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-ealy-years&quot;&gt;My ealy years&lt;/h1&gt;
+
+&lt;p&gt;My background, academically at least, is in the arts – particularly music – although I have always been interested in technology generally and computers specifically. I taught myself to code back in the early 80s through studying listings in magazines and trying simple ideas out on the ZX81 on display in my local WHSmiths. Progress continued on my ZX Spectrum and later a BBC Micro, which I regard as the greatest learning tool in history!&lt;/p&gt;
+
+&lt;p&gt;Music played a massive part in my life growing up, but I appeared to be following a likely career path in software development, until a late and protracted period of uncertainty ended with me throwing my energy into the arts. Firstly, I studied A level art in night-class, followed by a foundation year at art college. I then moved into music, working in a recording studio, managing a jazz club, playing in bands and completing a BA (hons) in Music, specialising in Performance Technology.&lt;/p&gt;
+
+&lt;h1 id=&quot;my-professional-life&quot;&gt;My professional life&lt;/h1&gt;
+
+&lt;p&gt;Since finishing my degree, I have found my computer-related hobby gradually increasing to become my profession, whilst my career in the arts has conversely become an impassioned hobby. Post-BA, I began work assessing small-scale funding applications for the Arts Council of England’s lottery-funded &lt;em&gt;Arts 4 Everyone&lt;/em&gt; scheme. During this time, I took on the administration of the scheme’s database, eventually moving fully into database development as a freelancer, the intention being to fund my main career as a creator of music and art. Over time, it became easier to find work as a developer than commissions as a composer, and the respective levels of remuneration caused the proportion of my time spent on these areas to increase in favour of development.&lt;/p&gt;
+
+&lt;h1 id=&quot;here-i-am&quot;&gt;Here I am&lt;/h1&gt;
+
+&lt;p&gt;In 2017, when I first saw the title of the this MA - &lt;em&gt;Creative App Development&lt;/em&gt; - I was immediately struck by the way the combination of these words seemed to encompass everything I wished to learn and achieve in my professional life; they instilled in me a deep-seated desire to somehow find a way on to the course. If I was not able to do so, at least I knew that such things exist. A spark had been ignited.&lt;/p&gt;
+
+&lt;p&gt;Luckily, with perfect timing, I was made redundant! I was given enough money by my former employer to fund my place on the MA and to tide me over for a while until I found my next day job; this I began exactly two weeks before I embarked on my new life as a Falmouth distance-learning MA student. I could not have been happier!&lt;/p&gt;</content><author><name></name></author><summary type="html">On commencing the MA in Creative App Development…</summary></entry><entry><title type="html">Week Eleven - How Do We Plan and Manage Larger Creative App Development Projects?</title><link href="http://localhost:4000/2019/05/01/week-eleven-project-planning.html" rel="alternate" type="text/html" title="Week Eleven - How Do We Plan and Manage Larger Creative App Development Projects?" /><published>2019-05-01T00:00:00+01:00</published><updated>2019-05-01T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/01/week-eleven-project-planning</id><content type="html" xml:base="http://localhost:4000/2019/05/01/week-eleven-project-planning.html">&lt;p&gt;This week we look at the two main methods used for managing large creative development projects: the age-old &lt;em&gt;Waterfall&lt;/em&gt; model and the more modern &lt;em&gt;Scrum&lt;/em&gt; methodology, which is one of a number of approaches that sit under the umbrella philosophy, &lt;em&gt;Agile&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;As a term, the &lt;em&gt;Waterfall&lt;/em&gt; methodology is something I’ve only recently come across, although it describes the way things were generally done from at least the 1970s (&lt;a href=&quot;https://en.wikipedia.org/wiki/Waterfall_model&quot;&gt;&lt;em&gt;‘waterfall model’&lt;/em&gt;, wikipedia&lt;/a&gt;). Things began to change after the authoring, in 2001, of the Agile Manifesto (&lt;a href=&quot;https://www.agilealliance.org/agile101/&quot;&gt;&lt;em&gt;‘what is agile?’&lt;/em&gt;, agile alliance&lt;/a&gt;).&lt;/p&gt;
 
-&lt;h2 id=&quot;personal-experience&quot;&gt;Personal experience:&lt;/h2&gt;
+&lt;h2 id=&quot;personal-experience&quot;&gt;Personal experience&lt;/h2&gt;
 
 &lt;h1 id=&quot;waterfall&quot;&gt;Waterfall&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\waterfall.png&quot; alt=&quot;waterfall&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;My earliest development projects were extremely loose in their definition – I was the sole developer and did not really embrace any particular methodology; in many respects, I was really just &lt;em&gt;making it up&lt;/em&gt; as I went along. However, the way I worked was probably closer to the Waterfall model than an Agile one as, in extremely simplified terms, I would agree with my client an initial and reasonably coherent idea of how we envisaged the end result and I would go away and build it. When the product was ready it would be presented to the client, it would be accepted, my invoice would be honoured, and that was pretty much the end of the matter. Admittedly, it wasn’t quite as simple as that and there would have been plenty of dialogue and contact with the client during the development process, as well as bugs to iron out after deployment, but it was essentially a process that followed a direct linear route from initial planning to finished product.&lt;/p&gt;
 
 &lt;p&gt;However, one of my projects - a subscriptions management system for a religious magazine - encountered a problem - one that I imagine could typically be associated with the Waterfall approach but should never happen under an Agile model: the product was taking longer than had initially been estimated and the budget had long since been used up! Either I starved, defaulted on my extortionate London-size rent, or I would have to approach my client and ask for more money so as to produce a finished product. I chose that latter option.&lt;/p&gt;
 
-&lt;p&gt;I had agreed a budget with my client, a company director, which had been approved by the board. But now he now had to re-approach the board, cap in hand, asking for more money to be released. I distinctly remember the embarrassment of having to admit we’d - &lt;em&gt;I’d&lt;/em&gt; - made a mistake and that the only way round this was for me to either finish the project by working on the latter stages for free, or for us to agree a way forward that involved some re-working of the budget on the part of the client. Issues of trust and reputation were at stake.&lt;/p&gt;
+&lt;p&gt;I had agreed a budget with my client, a company director, which had been approved by the board. But he now had to re-approach the board, cap in hand, asking for more money to be released. I distinctly remember the embarrassment of having to admit we’d - &lt;em&gt;I’d&lt;/em&gt; - made a mistake and that the only way round this was for me to either finish the project by working on the latter stages for free, or for us to agree a way forward that involved some re-working of the budget on the part of the client. Issues of trust and reputation were at stake.&lt;/p&gt;
 
 &lt;h1 id=&quot;scrum&quot;&gt;Scrum&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\scrum.jpg&quot; alt=&quot;Scrum&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;A &lt;em&gt;scrum&lt;/em&gt; methodology would have avoided this extremely awkward situation because we would have continually been assessing and re-evaluating progress, addressing issues as the product developed, iteratively, over a sequence of manageable sprints. It may still have been the case that we had got the initial estimated budget wrong, and this would have remained an issue that needed dealing with, but it would have been highly unlikely that we would have arrived at a point where a bombshell had to be dropped and the only two possible resolutions were almost unpalatable, either to the developer or the client. Instead, under an agile approach, decisions could have been made either to reflect the changing situation with amendments and actions at the sprint-planning stage, or revisions to budgets and management of expectations could have been controlled more easily, sensitively and democratically.&lt;/p&gt;
 
 &lt;p&gt;As it was, the board agreed an extension and an increased budget, but I was still left knowing that I never want to find myself in this position again.&lt;/p&gt;
 
-&lt;p&gt;Years later, when working as part of an Agile team using the scrum methodology, I saw at first-hand how a project can be developed from an initial plan to a released product via a process that allows unexpected hitches and changes to client requirements to be dealt with, by the team, as they arise. Rather than being subject to, and potentially adversely affected by, changes to requirements, expectations or the pre-determined costs of a monolithic end product, individual sprints facilitate the ability to react to events and situations as they arise, and projects can be designed in such a way as to allow any potential blows to be greatly lessened or removed entirely.&lt;/p&gt;
+&lt;p&gt;Years later, when working as part of an Agile team using the scrum methodology, I saw at first-hand how a project can be developed from an initial plan and realised as a released product, over any number of continual iterations, via a process that allows unexpected hitches and changes of client requirements to be dealt with as they arise. Rather than being subject to updated requirements at the &lt;em&gt;end&lt;/em&gt; of the project’s development lifecycle, and potentially being adversely affected by changes to, as in this case for example, the pre-determined budget set for a monolithic end product, individual sprints facilitate the ability to react to events and situations as they arise, and projects can be designed in such a way as to allow any potential blows to be greatly lessened or removed entirely.&lt;/p&gt;
 
 &lt;h2 id=&quot;planning-an-agile-project-using-scrum&quot;&gt;Planning an Agile Project Using Scrum&lt;/h2&gt;
 
 &lt;p&gt;As outlined above, being aware of the benefits of Agile and the pitfalls of a non-agile approach, I am keen to embrace this approach, in particular &lt;em&gt;scrum&lt;/em&gt;, as a model for planning my projects. I will create a SMART goal to begin planning the continuing progress of my App Jam word-game project using scrum as the template for defining a Product Backlog and the first Sprint Backlog. This will form the basis from which the project will continue as I move forward.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; The goal is to set up my App Jam word game project using the Scrum methodology so that I can continue to work on its development in a flexible, iterative way in line with Agile practice and ideology.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; So that I can continue to work on its development in a flexible, iterative way in line with Agile practice and ideology, my goal is to set up my App Jam word game project using the Scrum methodology.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Measurable:&lt;/strong&gt; I will create Product Backlog items (as User Stories) for the work I know I need to get done and set up my first sprint in a ready-to-go state.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; This will be achieved within a single sprint planning session.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; I will be able to make an immediate start on continuing my project work as soon as I am able to do so.&lt;/li&gt;
@@ -33,7 +145,9 @@
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;I have used my experience of working under a model similar to a &lt;em&gt;Waterfall&lt;/em&gt; methodology in order to contrast it with my experience of working in an &lt;em&gt;Agile Scrum&lt;/em&gt; environment. In so doing, I have shown how the kind of problems I experienced, that are associated with the older model, should not be possible under the more modern Agile approach. I’ve then created a SMART goal to define the development of my App Jam word game project using Scrum methodologies. When I am in a position to do so, I will use this plan as I move forward with my project.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week we look at the two main methods used for managing large creative development projects: the age-old Waterfall model and the more modern Scrum methodology, which is one of a number of approaches that sit under the umbrella philosophy, Agile.</summary></entry><entry><title type="html">Week Ten - Who Else is Making Apps and What Approaches Do they Use?</title><link href="http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps.html" rel="alternate" type="text/html" title="Week Ten - Who Else is Making Apps and What Approaches Do they Use?" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps</id><content type="html" xml:base="http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps.html">&lt;h2 id=&quot;communities-of-practice&quot;&gt;Communities of Practice&lt;/h2&gt;
+&lt;p&gt;I have used my experience of working under a model similar to a &lt;em&gt;Waterfall&lt;/em&gt; methodology in order to contrast it with my experience of working in an &lt;em&gt;Agile Scrum&lt;/em&gt; environment. In so doing, I have shown how the kind of problems I experienced, that are associated with the older model, should not be possible under the more modern Agile approach. I’ve then created a SMART goal to define the development of my App Jam word game project using Scrum methodologies. When I am in a position to do so, I will use this plan as I move forward with my project.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week we look at the two main methods used for managing large creative development projects: the age-old Waterfall model and the more modern Scrum methodology, which is one of a number of approaches that sit under the umbrella philosophy, Agile.</summary></entry><entry><title type="html">Week Ten - Who Else is Making Apps and What Approaches Do they Use?</title><link href="http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps.html" rel="alternate" type="text/html" title="Week Ten - Who Else is Making Apps and What Approaches Do they Use?" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps</id><content type="html" xml:base="http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps.html">&lt;p&gt;&lt;img src=&quot;\images\communities-1.png&quot; alt=&quot;Communities of Practice&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;communities-of-practice&quot;&gt;Communities of Practice&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Movements and Professional Bodies&lt;/strong&gt;&lt;/p&gt;
 
@@ -41,7 +155,7 @@
 
 &lt;p&gt;&lt;strong&gt;Movements&lt;/strong&gt; are quite different in my view, as they have come about through a genuine shared aspiration to drive a particular passion or practice in a particular direction, to use the collective will of multiple like-minded people to further ideas and make a genuine and recognisable difference.&lt;/p&gt;
 
-&lt;h1 id=&quot;the-hacker-and-maker-movements&quot;&gt;The Hacker and Maker Movements&lt;/h1&gt;
+&lt;h2 id=&quot;the-hacker-and-maker-movements&quot;&gt;The Hacker and Maker Movements&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming limitations of software systems to achieve novel and clever outcomes. The act of engaging in activities (such as programming or other media) in a spirit of playfulness and exploration is termed “hacking”.&lt;br /&gt;
@@ -53,11 +167,14 @@
 – &lt;a href=&quot;http://time.com/104210/maker-faire-maker-movement/&quot;&gt;time.com&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\maker-movement-1.jpg&quot; alt=&quot;Maker Movement&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;em&gt;Maker culture&lt;/em&gt; intersects with &lt;em&gt;hacker culture&lt;/em&gt;. Both share a DIY, &lt;a href=&quot;https://opensource.org/&quot;&gt;open-source&lt;/a&gt; ethos but, whereas hacker culture is concerned primarily with software, maker culture is more engineering-oriented, interested in such pursuits as electronics, robotics and 3D printing [&lt;a href=&quot;https://en.wikipedia.org/wiki/Maker_culture&quot;&gt;‘maker culture’ - wikipedia&lt;/a&gt;].&lt;/p&gt;
 
-&lt;p&gt;Communities of practice and communities of interest tend to pop up around such movements. Without making much of a real effort to associate myself with a specific community, it’s fair to say that at various times I have existed on the fringes of several - &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;, &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://www.sqlservercentral.com/&quot;&gt;SQLServerCentral&lt;/a&gt; spring to mind. This has been generally unintentional and borne out of necessity, for, without the knowledge, advice and support they can provide, I would have struggled to achieve much.&lt;/p&gt;
+&lt;p&gt;Communities of practice and communities of interest tend to pop up around such movements. Without making much of a real effort to associate myself with a specific community, it’s fair to say that at various times I have existed on the fringes of several - &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;, &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://www.sqlservercentral.com/&quot;&gt;SQLServerCentral&lt;/a&gt; spring to mind. This has been generally unintentional and borne out of necessity, for, without the knowledge, advice and support they can provide, I would have struggled to achieve much.
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;stack-overflow&quot;&gt;Stack Overflow&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;\images\stackoverflow.png&quot; alt=&quot;Stack Overflow&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;… by programmers, for programmers, with the ultimate intent of collectively increasing the sum total of good programming knowledge in the world. No matter what programming language you use, or what operating system you call home. Better programming is our goal.&lt;br /&gt;
@@ -75,13 +192,15 @@
 
 &lt;p&gt;The result is a community that plays an important part in making information available and providing support along with the benefit of experience. The sense of community and of belonging is vital in achieving its inherently altruistic aims, which are borne of a desire to share and constantly improve the quality of knowledge and developmental practice generally.&lt;/p&gt;
 
-&lt;h1 id=&quot;the-falmouth-creative-app-development-community&quot;&gt;The Falmouth ‘Creative App Development’ Community&lt;/h1&gt;
+&lt;h2 id=&quot;the-falmouth-creative-app-development-community&quot;&gt;The Falmouth ‘Creative App Development’ Community&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\falmouth-banner.jpg&quot; alt=&quot;The Falmouth 'Creative App Development' Community&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Reflecting on how my own ideas have developed and expanded in the short time I’ve been on this MA course, I can see that I have moved from a fairly narrow idea of the possible direction of my personal development, towards one that is beginning to encompass a wider set of possibilities. This is partly due to the sharing of knowledge and experience between practitioners - students, academic staff, external or loosely-affiliated contributors - who are, in their own ways, following personal, loosely-related paths and have come to form a community of sorts, at least partly unintentionally. As I have become less isolated from outside and diversified influences, my general outlook has begun moving away from the idea that my creative future lies almost solely in web development and, although the web is very likely to remain important to me, I have been increasingly made aware of other attractions and areas of potential interest.&lt;/p&gt;
 
 &lt;p&gt;This is unlikely to have happened without coming to ‘belong’ to a group that share interests and ambitions as creative app developers. Following this train of thought, I can see that intentionally associating myself with groups, communities and movements, with similar interests, goals and aspirations, can potentially provide fuel for driving the further development of ideas and skills, whilst providing the support that can be vital when following a path that is actually quite personal.&lt;/p&gt;
 
-&lt;h1 id=&quot;researching-communities&quot;&gt;Researching communities&lt;/h1&gt;
+&lt;h2 id=&quot;researching-communities&quot;&gt;Researching communities&lt;/h2&gt;
 
 &lt;p&gt;As I do not have much knowledge or experience of the various communities and associated events or activities associated with the Hacker and Maker movements, I would like to find out more and get some idea of those I may be interested in involving myself with.&lt;/p&gt;
 
@@ -97,7 +216,9 @@
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;I have discussed my interest in the Hacker and Maker movements and the kinds of communities that are associated with them. I have used my experience with &lt;em&gt;Stack Overflow&lt;/em&gt; as an example of how such a community can operate and achieve its aims. I’ve also looked at how a &lt;em&gt;creative app development&lt;/em&gt; community has emerged from the shared interests of my fellow students, academic staff and contributors at Falmouth and seen how this has begun to change and expand my interests and horizons in terms of my own developmental pathway. Finally, I have created a SMART goal to undergo research into relevant communities of practice and to begin getting involved with any that are of particular interest to me.&lt;/p&gt;</content><author><name></name></author><summary type="html">Communities of Practice</summary></entry><entry><title type="html">Week Ten - Report on Continuing Personal and Professional Development</title><link href="http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development.html" rel="alternate" type="text/html" title="Week Ten - Report on Continuing Personal and Professional Development" /><published>2019-04-29T00:00:00+01:00</published><updated>2019-04-29T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development</id><content type="html" xml:base="http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development.html">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I have discussed my interest in the Hacker and Maker movements and the kinds of communities that are associated with them. I have used my experience with &lt;em&gt;Stack Overflow&lt;/em&gt; as an example of how such a community can operate and achieve its aims. I’ve also looked at how a &lt;em&gt;creative app development&lt;/em&gt; community has emerged from the shared interests of my fellow students, academic staff and contributors at Falmouth and seen how this has begun to change and expand my interests and horizons in terms of my own developmental pathway. Finally, I have created a SMART goal to undergo research into relevant communities of practice and to begin getting involved with any that are of particular interest to me.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Ten - Report on Continuing Personal and Professional Development</title><link href="http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development.html" rel="alternate" type="text/html" title="Week Ten - Report on Continuing Personal and Professional Development" /><published>2019-04-29T00:00:00+01:00</published><updated>2019-04-29T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development</id><content type="html" xml:base="http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development.html">&lt;p&gt;&lt;img src=&quot;\images\personal-development-2.jpg&quot; alt=&quot;Personal Development&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;I embarked on the MA with no formal qualifications in software development. Although I am in possession of a reasonably wide-ranging experience, having built up a ‘full stack’ of internet development skills, including database development, data analysis, business intelligence, .NET MVC, C# and JavaScript, this has been gained through experience whilst working in the field of education data analysis. Of these skills, it is the front-end, client-side, user-interactive variety with which I am less familiar or confident, but they are the ones I am most interested in pursuing: I want to make web-based apps that are engaging, visual and experientially-stimulating.&lt;/p&gt;
 
@@ -117,6 +238,8 @@
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;time-and-project-management&quot;&gt;Time and Project Management&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\time-management.png&quot; alt=&quot;Time Management&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The goal I outlined in my PCS referred to problems I have finding periods of quality, uninterrupted time, and my desire to ‘negotiate’ such periods with my family.  Reflecting on this, I am somewhat resigned to working around and within the activity and mechanics of everyday family life. My situation has made me think about how I can reduce the importance of the actual amount of time available.  I do not view project and time management as a strength and understand it would be extremely beneficial to work at this.&lt;/p&gt;
 
@@ -148,6 +271,8 @@
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;market-research&quot;&gt;Market Research&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\market-research.jpg&quot; alt=&quot;Market Research&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;From not having a firm idea of my direction at the start of the course, as a main driving force I am becoming interested in &lt;strong&gt;education apps&lt;/strong&gt;, with Autism as a possible area for specialism.&lt;/p&gt;
 
 &lt;p&gt;Understanding how someone with autism views and responds to the world is quite a challenge, as is teaching a child to learn what everyone else takes for granted as part of normal development and learned behaviour.  Areas that can be identified as requiring specific and targeted input, such as understanding facial expressions or developing fine motor skills, could potentially be addressed in interesting and playful ways through the medium of an app. Some interesting work has been done in these areas: for example, an app to help practice &lt;a href=&quot;https://www.educationalappstore.com/app/training-faces-1&quot;&gt;emotion and facial recognition&lt;/a&gt;, reading facial expressions using &lt;a href=&quot;https://www.medscape.com/viewarticle/900519&quot;&gt;Google Glass&lt;/a&gt;, practicing &lt;a href=&quot;http://www.eastersealstech.com/2015/04/01/10-apps-for-practicing-motor-skills/&quot;&gt;motor skills&lt;/a&gt;.&lt;/p&gt;
@@ -174,6 +299,8 @@
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;2d-animation&quot;&gt;2D Animation&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\2d-animation.jpg&quot; alt=&quot;2D Animation&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;From the outset, I was interested in user-experience and, considering my interest in game-focused, interactive education apps, I see game-oriented animation as an integral part of a skill-set necessary to create polished, professional looking and highly playable games in order to move into these markets.&lt;/p&gt;
 
 &lt;p&gt;I intend to use my app jam word game project, which is essentially a two-dimensional arcade-style game with an educational leaning, as a vehicle to experiment with specifically game-focused animation rendering. My work using the &lt;a href=&quot;http://www.pixijs.com&quot;&gt;pixijs.com&lt;/a&gt; animation library has been a useful point of entry into the use of JavaScript animation libraries, and I wish to continue the process of familiarising myself with game development, through integrating graphics rendered using a tool designed specifically for building games, and which leverage the power of &lt;strong&gt;Canvas&lt;/strong&gt; and &lt;strong&gt;WebGL&lt;/strong&gt; in the browser.&lt;/p&gt;
@@ -194,6 +321,8 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;websockets-and-cloud-technologies&quot;&gt;WebSockets and Cloud Technologies&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\websockets.png&quot; alt=&quot;WebSockets&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Having grown up with computers existing largely as separate entities and then the promise of the internet frustrated by the laborious request/response paradigm of HTTP, I was excited when I first became aware of the prospect of almost instantaneous interactions between people, computers and software.&lt;/p&gt;
 
@@ -222,6 +351,8 @@
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;music-and-sound&quot;&gt;Music and Sound&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\computer-music.jpg&quot; alt=&quot;Music and Sound&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;It seems to me that the part played by sound in media experiences is often under-valued. As a musician and creator of music and sound art, I would like to see sound placed on an equal footing with visual aspects. At some point I would like to make creative apps where sound is the main driving force. Such apps could be in the form of sound-led &lt;strong&gt;experimental art apps&lt;/strong&gt;, such as &lt;em&gt;Bjork’s Biophilia&lt;/em&gt; or &lt;em&gt;synthPond&lt;/em&gt; by &lt;em&gt;Zach Gage&lt;/em&gt;, or &lt;strong&gt;music education&lt;/strong&gt; and &lt;strong&gt;music-game&lt;/strong&gt; apps, such as &lt;em&gt;Dust Buster app for Piano&lt;/em&gt; or music puzzle games like &lt;em&gt;Tapt&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;I have extensive experience of creating music, both acoustically and electronically and, having also flirted with being a visual artist, I am particularly interested in the &lt;strong&gt;cross-overs&lt;/strong&gt; that can flourish between sonic and other creative activities, as demonstrated in my BA degree in Music, in which I minored in Visual Performance, and having since worked collaboratively in the production of multi-disciplinary installation, contemporary dance, film and theatre.&lt;/p&gt;
@@ -249,13 +380,16 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;One of the most useful things I have learned has been the importance of constantly reacting to my achievements and failures and assessing what I have learned from them.  This has led me to continually re-appraise the goals I have set myself and helped me move forward in terms of my ideas, expectations and ambitions.  As a result, rather than tie my goals down to their initial incarnations, I have allowed them to evolve naturally so that they can better suit what I have learned since they were first put onto paper.&lt;/p&gt;
 
 &lt;p&gt;Through reflection, I have also found that game-focused education apps and, specifically, autism related apps have become interesting to me. In particular due to my personal interests due to having an autistic son.&lt;/p&gt;
 
-&lt;p&gt;I feel confident that continuing to take this approach will ultimately lead me to success in my chosen fields.&lt;/p&gt;</content><author><name></name></author><summary type="html">Introduction</summary></entry><entry><title type="html">Week Nine - Which Technologies Can Empower Creativity?</title><link href="http://localhost:4000/2019/04/19/week-nine-emerging-tech.html" rel="alternate" type="text/html" title="Week Nine - Which Technologies Can Empower Creativity?" /><published>2019-04-19T00:00:00+01:00</published><updated>2019-04-19T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/19/week-nine-emerging-tech</id><content type="html" xml:base="http://localhost:4000/2019/04/19/week-nine-emerging-tech.html">&lt;p&gt;This week we are looking at emerging technologies - i.e. technologies that have not yet appeared in the markets or are in the stages of early adoption. In particular, we were are interested in how they can drive and empower the creative process and facilitate &lt;em&gt;Disruptive Practice&lt;/em&gt; - i.e. the shaking-up of the market by forcing a divergence from established genres patterns.&lt;/p&gt;
+&lt;p&gt;I feel confident that continuing to take this approach will ultimately lead me to success in my chosen fields.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Nine - Which Technologies Can Empower Creativity?</title><link href="http://localhost:4000/2019/04/19/week-nine-emerging-tech.html" rel="alternate" type="text/html" title="Week Nine - Which Technologies Can Empower Creativity?" /><published>2019-04-19T00:00:00+01:00</published><updated>2019-04-19T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/19/week-nine-emerging-tech</id><content type="html" xml:base="http://localhost:4000/2019/04/19/week-nine-emerging-tech.html">&lt;p&gt;&lt;img src=&quot;\images\creativity-1.jpg&quot; alt=&quot;Creativity&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week we are looking at emerging technologies - i.e. technologies that have not yet appeared in the markets or are in the stages of early adoption. In particular, we were are interested in how they can drive and empower the creative process and facilitate &lt;em&gt;Disruptive Practice&lt;/em&gt; - i.e. the shaking-up of the market by forcing a divergence from established genres patterns.&lt;/p&gt;
 
 &lt;p&gt;In a series of video interviews comprising viewpoints from a selection of academic practitioners who are undergoing research and practical work within areas being opened up by new technologies, we are provided with a fascinating insight into the kind of work being done when investigating and exploring the creative possibilities facilitated by such technologies.&lt;/p&gt;
 
@@ -306,6 +440,8 @@ Rob Saunders&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;virtual-reality--augmented-reality&quot;&gt;Virtual Reality &amp;amp; Augmented Reality&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;\images\vr-2.jpg&quot; alt=&quot;Virtual Reality&quot; height=&quot;200px&quot; /&gt; &lt;img src=&quot;\images\ar-1.jpg&quot; alt=&quot;Augmented Reality&quot; height=&quot;200px&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;One question that may be worth considering is, when does an emerging technology stop being an emerging technology? I began thinking this when considering the cases of Virtual Reality and Augmented Reality. Conceptually, they have both been around in some form or other for a while now. But then, so has Artificial Intelligence.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -313,7 +449,7 @@ Rob Saunders&lt;/p&gt;
 &lt;a href=&quot;https://www.fi.edu/virtual-reality/history-of-virtual-reality&quot;&gt;Frankin Institute&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In some respects, VR has been an ‘emerging technology’ for some time, and there have been various milestones along the way. That said, with product such as Google Cardboard and Samsung Gear, VR is now beginning to realise its potential and to &lt;a href=&quot;https://www.vrs.org.uk/virtual-reality/history.html&quot;&gt;&lt;em&gt;finally answer the unfulfilled  promises made by virtual reality in the 1990s&lt;/em&gt;&lt;/a&gt;. It is possible that interest in VR has lulled on occasion, but it can be expected to increase as new uses are discovered and the markets respond by investing in them: -&lt;/p&gt;
+&lt;p&gt;In some respects, VR has been an ‘emerging technology’ for some time, and there have been various milestones along the way. That said, with products such as Google Cardboard and Samsung Gear, VR is now beginning to realise its potential and to &lt;a href=&quot;https://www.vrs.org.uk/virtual-reality/history.html&quot;&gt;&lt;em&gt;finally answer the unfulfilled  promises made by virtual reality in the 1990s&lt;/em&gt;&lt;/a&gt;. It is possible that interest in VR has lulled on occasion, but it can be expected to increase as new uses are discovered and the markets respond by investing in them: -&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;New technologies need to go through several releases before the average person is attracted to them. It starts with the tech enthusiasts that need to have the latest and greatest gadget. Then businesses invest heavily, as they see strong early use cases. All that business investment creates a market demand, which brings more entrants into the field. And finally, there is a release good enough for the average person &lt;br /&gt; -
@@ -322,7 +458,7 @@ Rob Saunders&lt;/p&gt;
 
 &lt;h1 id=&quot;how-could-vr--ar-relate-to-my-own-work&quot;&gt;How could VR &amp;amp; AR relate to my own work?&lt;/h1&gt;
 
-&lt;p&gt;I have been considering the potential use of Virtual Reality and, maybe to a lesser extent, Augmented Reality, with regard to apps related to autism; both in terms of attempting to gain an understand of the condition and also  ‘therapeutically’ by, for instance, helping to find a way of relating to the world in a way that can be understood without the common issues of anxiety and stress.&lt;/p&gt;
+&lt;p&gt;I have been considering the potential use of Virtual Reality and, maybe to a lesser extent, Augmented Reality, with regard to apps related to autism; both in terms of attempting to gain an understanding of the condition and also ‘therapeutically’ by, for instance, helping to find a way of relating to the world in a way that can be understood without the common issues of anxiety and stress.&lt;/p&gt;
 
 &lt;p&gt;In his article &lt;a href=&quot;https://www.spectrumnews.org/features/deep-dive/virtual-reality-transforming-autism-studies/&quot;&gt;&lt;em&gt;How virtual reality is transforming autism studies&lt;/em&gt;&lt;/a&gt;, George Musser discusses the use of VR for addressing autism, including practical issues and ethical dilemmas: -&lt;/p&gt;
 
@@ -369,7 +505,7 @@ Rob Saunders&lt;/p&gt;
 &lt;p&gt;Having taken a cursory look at the potential of VR for autism-related apps, I would like to take a deeper dive into the current use of VR and other emerging technologies, including researching any articles or papers I can find that consider its potential. I would then like to explore and sketch out some ideas of my own, including my initial thoughts in terms of feasibility, practical issues, audience characteristics and potential markets.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; The goal is to research VR and other emerging technologies in relation to their use in apps that in some way address issues related to autism. From this research, I will begin assembling some ideas of my own for possible future development.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; For possible future development I would like to begin sketching out ideas for apps that use VR and other emerging technologies that in some way address issues in relation to autism. The goal is to undertake in-depth research this area.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Measurable:&lt;/strong&gt; I will collate my research in to a single document, and my own ideas I will put into a sketch-book format that I can easily return to and pick up at a future date.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; This will be achieved within a single week.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; At the end of this process I will have gathered knowledge of existing work and of current thinking and research in the field. I will have begun to develop some ideas of my own which can be possibly be drawn upon at a later date.&lt;/li&gt;
@@ -377,15 +513,19 @@ Rob Saunders&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;I have briefly summarised the content of the week’s source material and included some of my own thoughts on the subjects raised. I have then outlined how I understand creativity to naturally exist as part of an exploritative approach, filling the space made available by pushing boundaries beyond current knowledge, normalities and established patterns. I’ve indicated how I view Virtual and Augmented Reality as potentially having a place within an area of interest to me, i.e. apps relating to issue surrounding autism, and touched on issues that may exist for related development. Following this, I have set myself a goal to undertake further research into this area and to begin sketching some possible ideas that I may wish to take forward at a future date.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week we are looking at emerging technologies - i.e. technologies that have not yet appeared in the markets or are in the stages of early adoption. In particular, we were are interested in how they can drive and empower the creative process and facilitate Disruptive Practice - i.e. the shaking-up of the market by forcing a divergence from established genres patterns.</summary></entry><entry><title type="html">Week Eight - What is Creativity?</title><link href="http://localhost:4000/2019/04/18/week-eight-what-is-creativity.html" rel="alternate" type="text/html" title="Week Eight - What is Creativity?" /><published>2019-04-18T00:00:00+01:00</published><updated>2019-04-18T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/18/week-eight-what-is-creativity</id><content type="html" xml:base="http://localhost:4000/2019/04/18/week-eight-what-is-creativity.html">&lt;p&gt;This week’s subject is Creativity. The idea of bringing a truly creative approach to app development is, to me, an exciting one. In fact, the use of the word ‘creative’ in the title of this MA was, for me, probably the biggest draw, particularly seeing it used in conjunction with the words ‘app’ and ‘development’. At the time, when viewed in context of the plethora of computing courses positioned within the realm of the sciences, the bringing together of these words seemed unusual. But to me it seemed a perfectly natural fit. Perhaps the word ‘app’ conjures up something of the current zeitgeist, as the past decade has seen apps become a staple of a modern life, often in playful and entertaining ways. But, even aside from this kind of creative intent, I have long viewed coding &lt;em&gt;itself&lt;/em&gt; as an inherently creative process, and my growth as a programmer has occurred alongside my development as an artist.&lt;/p&gt;
+&lt;p&gt;I have briefly summarised the content of the week’s source material and included some of my own thoughts on the subjects raised. I have then outlined how I understand creativity to naturally exist as part of an exploritative approach, filling the space made available by pushing boundaries beyond current knowledge, normalities and established patterns. I’ve indicated how I view Virtual and Augmented Reality as potentially having a place within an area of interest to me, i.e. apps relating to issue surrounding autism, and touched on issues that may exist for related development. Following this, I have set myself a goal to undertake further research into this area and to begin sketching some possible ideas that I may wish to take forward at a future date.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Eight - What is Creativity?</title><link href="http://localhost:4000/2019/04/18/week-eight-what-is-creativity.html" rel="alternate" type="text/html" title="Week Eight - What is Creativity?" /><published>2019-04-18T00:00:00+01:00</published><updated>2019-04-18T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/18/week-eight-what-is-creativity</id><content type="html" xml:base="http://localhost:4000/2019/04/18/week-eight-what-is-creativity.html">&lt;p&gt;&lt;img src=&quot;\images\creativity-7.jpg&quot; alt=&quot;Creativity&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;disruption&quot;&gt;Disruption&lt;/h1&gt;
+&lt;p&gt;This week’s subject is Creativity. The idea of bringing a truly creative approach to app development is, to me, an exciting one. In fact, the use of the word ‘creative’ in the title of this MA was, for me, probably the biggest draw, particularly seeing it used in conjunction with the words ‘app’ and ‘development’. At the time, when viewed in context of the plethora of computing courses positioned within the realm of the sciences, the bringing together of these words seemed unusual. But to me it seemed a perfectly natural fit. Perhaps the word ‘app’ conjures up something of the current zeitgeist, as the past decade has seen apps become a staple of a modern life, often in playful and entertaining ways. But, even aside from this kind of creative intent, I have long viewed coding &lt;em&gt;itself&lt;/em&gt; as an inherently creative process, and my growth as a programmer has occurred alongside my development as an artist.&lt;/p&gt;
+
+&lt;h2 id=&quot;disruption&quot;&gt;Disruption&lt;/h2&gt;
 
 &lt;p&gt;The main thrust of this week’s lecture, by Prof. Tanya Krzywinska, introduces the analysis of &lt;em&gt;productive creativity&lt;/em&gt; as an academic discipline, examining how building a creative approach directly into the development process, at a fundamental level, and making apps that are exciting for their users, is itself highly effective in generating commercial leverage and monetising the product. In a crowded marketplace, creativity can make an app distinctive and set it apart from the mainstream.  Discussing the nature of creativity itself, Prof. Krzywinska highlights it as a source of ‘disruption’, of de-familiarisation, forcing us to see things differently. It makes things exciting and, consequently, it is a highly marketable commodity.&lt;/p&gt;
 
 &lt;p&gt;In terms of the progression of my own ideas for app development, I intend to hold on to the thoughts and ideas generated by this lecture and to ensure I bring an approach to my own work that embraces them. The idea of risk and creativity going hand-in-hand, is one that I am very familiar with, as a music-creator (‘composer’ seems a little proscriptive of a particular type of music-creator) and artist. I started the course stating that I was interested in innovation and creativity within app development, and this way of thinking about and approaching the process of building apps chimes with my view of app development as being not dissimilar to any other kind of creative or artistic production.  Indeed, the term ‘creative industries’ is now fully accepted, and there appears to be an increasingly close relationship between commercial creative production, and the output produced within the creative app markets.&lt;/p&gt;
 
-&lt;h1 id=&quot;hooks-and-stickiness&quot;&gt;Hooks and stickiness&lt;/h1&gt;
+&lt;h2 id=&quot;hooks-and-stickiness&quot;&gt;Hooks and stickiness&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\stickiness-1.jpg&quot; alt=&quot;Stickiness&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As Prof. Tanya Krzywinska notes, many of the ‘hooks tactics’ that provide ‘stickiness’ to an app have been influenced by the strategies used by soap operas and long-running narratives like Game Of Thrones.  These hooks are used to engage viewers and hold their interest in order to continually bring them back to the show. In games, stickiness has mostly been generated through allowing the player to become more powerful or skilful, but the kind of episodic approach of the soap opera is increasingly being seen in games. This allows cost and risk to be evened out, for instance, by sales of &lt;em&gt;Episode 1&lt;/em&gt; paying for &lt;em&gt;Episode 2&lt;/em&gt;, and so on. In so doing, a brand or franchise becomes more sustainable.&lt;/p&gt;
 
@@ -398,7 +538,7 @@ Rob Saunders&lt;/p&gt;
 &lt;p&gt;My word game currently does just one thing. There is no means for progression or to develop the player’s powers. There is just one moment of jeopardy, where the game simply ends with either a ‘you win’ or ‘you lose’. I would like to build some ‘stickiness’ into the game in order for my players to want to continue to play and to come back to the game at a later date. I have created a SMART goal to test out ideas for hooks and to add stickiness: -&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; The goal is to design hooks that will add stickiness to my App Jam word game.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; I would like to encourage the players of my App Jam word game to want to continue to play and to come back to it later, so my goal is to design hooks that will add stickiness to the game.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Measurable:&lt;/strong&gt; I would like to identify two hooks – one being of a ‘power-up’ type and the other a ‘game progression / episode’ type.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; This will be achieved over a single week.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; I will apply my hook features to my word game app.&lt;/li&gt;
@@ -409,7 +549,9 @@ Rob Saunders&lt;/p&gt;
 
 &lt;p&gt;I have been excited by this week’s content. Closing the gap between &lt;em&gt;creativity&lt;/em&gt; and &lt;em&gt;app development&lt;/em&gt; is one of the main reasons I am on the course. I am keen to start trying to develop a way of working that incorporates, at a fundamental level, a creative approach into the developmental process; one that instils a sense of risk-taking and discomfort, which I hope will add excitement to the end result.&lt;/p&gt;
 
-&lt;p&gt;Following the Audience Research lecture and activities from &lt;a href=&quot;/2019/04/15/week-seven-audience-research.html&quot;&gt;week seven&lt;/a&gt; I am also looking forward to thinking about and developing hook structures that add interest and stickiness for my audience, that will encourage them to continue to participate, entice them to return and develop a loyalty to my brand.  In particular, in the case of my education game ideas, I hope that such techniques will aid the process of learning.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week’s subject is Creativity. The idea of bringing a truly creative approach to app development is, to me, an exciting one. In fact, the use of the word ‘creative’ in the title of this MA was, for me, probably the biggest draw, particularly seeing it used in conjunction with the words ‘app’ and ‘development’. At the time, when viewed in context of the plethora of computing courses positioned within the realm of the sciences, the bringing together of these words seemed unusual. But to me it seemed a perfectly natural fit. Perhaps the word ‘app’ conjures up something of the current zeitgeist, as the past decade has seen apps become a staple of a modern life, often in playful and entertaining ways. But, even aside from this kind of creative intent, I have long viewed coding itself as an inherently creative process, and my growth as a programmer has occurred alongside my development as an artist.</summary></entry><entry><title type="html">Week Seven - Audience Research</title><link href="http://localhost:4000/2019/04/15/week-seven-audience-research.html" rel="alternate" type="text/html" title="Week Seven - Audience Research" /><published>2019-04-15T00:00:00+01:00</published><updated>2019-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/15/week-seven-audience-research</id><content type="html" xml:base="http://localhost:4000/2019/04/15/week-seven-audience-research.html">&lt;p&gt;This week’s subject is one that is frustratingly important; ‘frustratingly’, because this is a subject that describes an activity that is close to being absolutely essential whilst, at the same time, a prospect that I do not find to be particularly stimulating. Of course, I recognise the importance of attempting to understand the people that I would like to use my apps and, in so doing, help finance the future of my business. But, to be brutally honest, it is an activity that I would hope could be done by someone for whom marketing is a passion and a talent. I realise that, in all likelihood, I will need to involve myself in audience research at some level if I am to be successful as a creative app developer.&lt;/p&gt;
+&lt;p&gt;Following the Audience Research lecture and activities from &lt;a href=&quot;/2019/04/15/week-seven-audience-research.html&quot;&gt;week seven&lt;/a&gt; I am also looking forward to thinking about and developing hook structures that add interest and stickiness for my audience, that will encourage them to continue to participate, entice them to return and develop a loyalty to my brand.  In particular, in the case of my education game ideas, I hope that such techniques will aid the process of learning.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Seven - Audience Research</title><link href="http://localhost:4000/2019/04/15/week-seven-audience-research.html" rel="alternate" type="text/html" title="Week Seven - Audience Research" /><published>2019-04-15T00:00:00+01:00</published><updated>2019-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/15/week-seven-audience-research</id><content type="html" xml:base="http://localhost:4000/2019/04/15/week-seven-audience-research.html">&lt;p&gt;&lt;img src=&quot;\images\audience-research.jpg&quot; alt=&quot;Audience Research&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week’s subject is one that is frustratingly important; ‘frustratingly’, because this is a subject that describes an activity that is close to being absolutely essential whilst, at the same time, a prospect that I do not find to be particularly stimulating. Of course, I recognise the importance of attempting to understand the people that I would like to use my apps and, in so doing, help finance the future of my business. But, to be brutally honest, it is an activity that I would hope could be done by someone for whom marketing is a passion and a talent. I realise that, in all likelihood, I will need to involve myself in audience research at some level if I am to be successful as a creative app developer.&lt;/p&gt;
 
 &lt;p&gt;That said, I do recognise that Audience Research could potentially be a rewarding experience; getting to know my audience could perhaps lead to a sense of fulfilment and, at best, instil a sense of commonality and shared experience. Of course, the ultimate reward would probably be in witnessing the success of my creation, the people using it having been identified, understood, nurtured and encouraged to invest in my work because it is something they desire, enjoy or simply need.&lt;/p&gt;
 
@@ -430,7 +572,13 @@ Rob Saunders&lt;/p&gt;
 
 &lt;p&gt;As we are working within an international market place, and cannot meet our audience in person, investigating one’s audience is a challenge, but there are a number of tools and techniques available to us for this purpose. Two important, complimentary approaches are: -&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\qualitative-quantitative.png&quot; alt=&quot;Qualitative and Quantitative methods&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h1 id=&quot;1-qualitative-methods&quot;&gt;1. Qualitative methods&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\keep-calm-and-ask-the-audience.png&quot; alt=&quot;Qualitative Audience Research&quot; width=&quot;240px&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Cognitive walkthrough / thinking aloud - asking the user to use the app and think aloud&lt;/li&gt;
   &lt;li&gt;Interview - asking the right questions&lt;/li&gt;
@@ -442,6 +590,9 @@ Rob Saunders&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;2-quantitative-methods&quot;&gt;2. Quantitative methods&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\quantitative-research-1.jpg&quot; alt=&quot;Quantitative Audience Research&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Obtaining numbers, statistics, for analysis&lt;/li&gt;
   &lt;li&gt;Questionnaires&lt;/li&gt;
@@ -461,10 +612,12 @@ Rob Saunders&lt;/p&gt;
 
 &lt;h2 id=&quot;creating-a-persona-for-the-app-jam-word-game&quot;&gt;Creating a ‘persona’ for the App Jam word game&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\persona.jpg&quot; alt=&quot;Persona&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;My App Jam project - an arcade-style word game - is something that I view as having educational value in the sense that it could potentially be helpful in sharpening the ability to understand the meaning of words and their meaningful relationships with other words.
 In order to better understand my potential audience for this app, it would be an interesting exercise to create a ‘persona’, i.e. &lt;em&gt;a fictional character that represents a user of the application&lt;/em&gt;, that would represent my target audience. I have created a SMART goal to support this: -&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; The goal is to create a fictional persona, who will represent a typical user of my App Jam word game app.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; In order to better understand my potential audience for my App Jam word game app, my goal is to create a fictional persona, who will represent a typical user.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Measurable:&lt;/strong&gt; I will create one persona and post the results on the Personas forum on Canvas.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; I will learn about creating personas by following the Pluralsight course &lt;a href=&quot;https://app.pluralsight.com/library/courses/creating-effective-user-stories/table-of-contents&quot;&gt;Creating Effective User Stories&lt;/a&gt;, with particular attention to the &lt;em&gt;Personas&lt;/em&gt; section.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; The research and the resulting persona will help my understand a potential typical user of my app and, therefore, some of the characteristics of the audience I intend to target.&lt;/li&gt;
@@ -479,30 +632,40 @@ In order to better understand my potential audience for this app, it would be an
 
 &lt;p&gt;I have summarised the main points from Erik Geelhoed’s lecture on Audience Research.&lt;/p&gt;
 
-&lt;p&gt;I have then created a SMART goal in order to form an image of the kind of potential audience ‘persona’ that may exist for my App Jam word game.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week’s subject is one that is frustratingly important; ‘frustratingly’, because this is a subject that describes an activity that is close to being absolutely essential whilst, at the same time, a prospect that I do not find to be particularly stimulating. Of course, I recognise the importance of attempting to understand the people that I would like to use my apps and, in so doing, help finance the future of my business. But, to be brutally honest, it is an activity that I would hope could be done by someone for whom marketing is a passion and a talent. I realise that, in all likelihood, I will need to involve myself in audience research at some level if I am to be successful as a creative app developer.</summary></entry><entry><title type="html">Week Six - Creative App Commerce</title><link href="http://localhost:4000/2019/03/30/week-six-creative-app-commerce.html" rel="alternate" type="text/html" title="Week Six - Creative App Commerce" /><published>2019-03-30T00:00:00+00:00</published><updated>2019-03-30T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/30/week-six-creative-app-commerce</id><content type="html" xml:base="http://localhost:4000/2019/03/30/week-six-creative-app-commerce.html">&lt;p&gt;This week’s subject matter focuses on commerce and, within this broad subject, the importance of funding, monetization models, pitching your product, and understanding the importance and nuances of a good business plan.&lt;/p&gt;
+&lt;p&gt;I have then created a SMART goal in order to form an image of the kind of potential audience ‘persona’ that may exist for my App Jam word game.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Six - Creative App Commerce</title><link href="http://localhost:4000/2019/03/30/week-six-creative-app-commerce.html" rel="alternate" type="text/html" title="Week Six - Creative App Commerce" /><published>2019-03-30T00:00:00+00:00</published><updated>2019-03-30T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/30/week-six-creative-app-commerce</id><content type="html" xml:base="http://localhost:4000/2019/03/30/week-six-creative-app-commerce.html">&lt;p&gt;&lt;img src=&quot;\images\commerce-1.jpg&quot; alt=&quot;App Commerce&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This week’s subject matter focuses on commerce and, within this broad subject, the importance of funding, monetization models, pitching your product, and understanding the importance and nuances of a good business plan.&lt;/p&gt;
 
 &lt;p&gt;From my own perspective, although I have little experience of these issues personally and it is admittedly a little daunting, it is also tinged with excitement due to the possibilities of getting it right. Many years ago I was involved in assessing small-scale funding applications whilst working for the &lt;em&gt;Arts Council of England&lt;/em&gt;, so I do have something of an idea of the importance of a good pitch and an understanding of what it is that will make those with money likely to be open to investing in a product. I have also worked in a self-employed capacity and, as such, I also know the importance of a good business plan. However, at the time I did not fully engage myself in this process and, at least partly as a result, I found myself unable to continue in this vein and instead ended up working as an employee for a company. Notwithstanding the huge amount I learned in technical terms during my time with this organisation, I have always regretted not giving the process of running my own business a better shot. This makes the subject this week particularly poignant and of great interest to me.&lt;/p&gt;
 
 &lt;h2 id=&quot;a-great-product&quot;&gt;A great product&lt;/h2&gt;
 
+&lt;p&gt;&lt;img src=&quot;\images\great-product-1.jpg&quot; alt=&quot;A great product&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;In his video, Rich Barham of Round Table Games firstly emphasizes the importance of a great product to start with. In the competitive world of creative app development - in his case, specifically games - the need for an extremely polished, well-tested product is paramount. This is the first aspect that your monetization model should be built on - clearly you need your audience, users or players to keep coming back to your product and to recommend it to their friends. The team working on the product must be all on the same page and share a collective understanding, vision and feel for exactly what is being created.&lt;/p&gt;
 
-&lt;h2 id=&quot;monetization&quot;&gt;Monetization&lt;/h2&gt;
+&lt;h2 id=&quot;monetisation&quot;&gt;Monetisation&lt;/h2&gt;
 
-&lt;p&gt;Not really considered here, although it is mentioned, is &lt;em&gt;monetization&lt;/em&gt;, i.e. the ways in which an app itself can generate money. There are many articles on the subject to be found on the internet. One, &lt;a href=&quot;https://tech.co/news/6-app-monetization-models-make-money-2015-08&quot;&gt;tech.co&lt;/a&gt;, lists six possible models: In-app advertising, in-app purchasing, freemium (some features locked in free version), paywalls (subscriptions), paid apps, sponsorship. Other articles include &lt;a href=&quot;https://www.adperio.com/blog/top-5-app-monetization-trends-in-2019/&quot;&gt;adperio&lt;/a&gt;, &lt;a href=&quot;http://www.businessofapps.com/marketplace/app-marketing/research/app-monetization-models/&quot;&gt;BusinessOfApps&lt;/a&gt;, &lt;a href=&quot;https://www.mobiloud.com/blog/app-monetization/&quot;&gt;mobiloud&lt;/a&gt;. This list goes on..&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;\images\monetisation.png&quot; alt=&quot;Monetisation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Not really considered here, although it is mentioned, is &lt;em&gt;monetisation&lt;/em&gt;, i.e. the ways in which an app itself can generate money. There are many articles on the subject to be found on the internet. One, &lt;a href=&quot;https://tech.co/news/6-app-monetization-models-make-money-2015-08&quot;&gt;tech.co&lt;/a&gt;, lists six possible models: In-app advertising, in-app purchasing, freemium (some features locked in free version), paywalls (subscriptions), paid apps, sponsorship. Other articles include &lt;a href=&quot;https://www.adperio.com/blog/top-5-app-monetization-trends-in-2019/&quot;&gt;adperio&lt;/a&gt;, &lt;a href=&quot;http://www.businessofapps.com/marketplace/app-marketing/research/app-monetization-models/&quot;&gt;BusinessOfApps&lt;/a&gt;, &lt;a href=&quot;https://www.mobiloud.com/blog/app-monetization/&quot;&gt;mobiloud&lt;/a&gt;. This list goes on..&lt;/p&gt;
 
 &lt;h2 id=&quot;business-plan&quot;&gt;Business plan&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\business-plan.jpg&quot; alt=&quot;Business plan&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;A good business plan is needed for getting investors on board.  Depending on the type of product you are selling and the type of investors you hope to attract, there is a need to create a tailored business plan. Lists of categories that need to be covered can be obtained from the various business plan templates available - &lt;a href=&quot;https://canvanizer.com/new/business-model-canvas&quot;&gt;Canvas&lt;/a&gt;, for example. Templates differ depending on the type of audience you are aiming for, as will advice from the various business advisor companies. If the given plan is not suitable for your own audience, then it should be changed accordingly.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;It is important to know what you’re looking for in terms of investment, what it needs to cover, the specifics of your own particular situation. As an example, Rich Barham suggested that, if you want to bring in a great developer into your team it may be considered a selling point, but won’t be cheap. The importance is that the plan is build for what will work for you.&lt;/p&gt;
+    &lt;p&gt;It is important to know what you’re looking for in terms of investment, what it needs to cover, the specifics of your own particular situation. As an example, Rich Barham suggested that, if you want to bring in a great developer into your team it may be considered a selling point, but won’t be cheap. The importance is that the plan is built for what will work for you.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;funding&quot;&gt;Funding&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\funding.jpg&quot; alt=&quot;Funding&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Funding is very personal, in terms of how much money is required, the way funding will be provided and for what purpose - personnel, software, hardware, the size of the organisation, the type of project and how long it will take etc.&lt;/p&gt;
 
@@ -517,6 +680,8 @@ In order to better understand my potential audience for this app, it would be an
 &lt;p&gt;&lt;strong&gt;Sweat equity&lt;/strong&gt;: if you have no money of your own to put in, it may be possible to put a value on actual work, depending on your value as a team.&lt;/p&gt;
 
 &lt;h2 id=&quot;pitching&quot;&gt;Pitching&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\pitching.jpg&quot; alt=&quot;Pitching&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is something that is difficult for many people and is something that takes is lots of practice. Public speaking, essentially what this is, is something that is learned. &lt;a href=&quot;https://www.toastmasters.org/&quot;&gt;Toastmasters International&lt;/a&gt; is an example of a resource to aid this process.&lt;/p&gt;
 
@@ -535,11 +700,37 @@ In order to better understand my potential audience for this app, it would be an
 
 &lt;h2 id=&quot;unique-selling-point-usp&quot;&gt;Unique Selling Point (USP)&lt;/h2&gt;
 
-&lt;p&gt;These really do need to be unique - often they are not - and this is a big challenge. If you believe you have a USP make absolutely certain that is really is truly unique - it can be an embarrassing disaster to be ‘called out’ on this. Again, research is vital. It is important you can explain why it is unique and, if it has not been done before, what is the reason for this? Make sure the unique aspect is actually desirable.  If it is not unique, do not pitch it as unique, but state why it is better than the other available options.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;\images\usp.jpg&quot; alt=&quot;Unique Selling Point&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These really do need to be unique - often they are not - and this is a big challenge. If you believe you have a USP make absolutely certain that is really is truly unique - it can be an embarrassing disaster to be ‘called out’ on this. Again, research is vital. It is important you can explain why it is unique and, if it has not been done before, what is the reason for this? Make sure the unique aspect is actually desirable.  If it is not unique, do not pitch it as unique, but state why it is better than the other available options.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;learning-to-write-a-business-plan&quot;&gt;Learning to write a business plan&lt;/h2&gt;
+
+&lt;p&gt;I will create a SMART goal to complete a course on writing a Business Plan so that I feel confident I have the knowledge required in order to approach the task when required to do so.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make it specific:&lt;/strong&gt; I need to build my knowledge and confidence in my ability to write a strong business plan. So my goal is to complete the Udemy course, &lt;a href=&quot;https://www.udemy.com/how-to-write-a-winning-business-plan-in-2-hours/learn/v4/overview&quot;&gt;How to Write a Winning Business Plan in 2 Hours&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make it Measureable:&lt;/strong&gt; The course will provide me with the foundation and knowledge to create a business plan which will help my chances of starting a successful business.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; I have already purchased the course on the Udemy website.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; I will need to create robust business plans for the business I intend to start after completing the MA.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Make it Time-based:&lt;/strong&gt; I will complete the course in a single session and write a practice plan in another session.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;There is a much to consider when it comes to commerce, starting with a great product, a suitable business plan, exploring opportunities for funding and the ability to pitch ideas to potential investors. All of this requires a great deal of diligence, research, effort and confidence in what you are doing and how you are doing it. I see this as making sure a huge amount of attention is paid to the detail, ensuring that all avenues are being explored and nothing is going amiss. It was mainly down to a lack of this, along with my own naivety and ignorance, that in the past I missed an opportunity.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week’s subject matter focuses on commerce and, within this broad subject, the importance of funding, monetization models, pitching your product, and understanding the importance and nuances of a good business plan.</summary></entry><entry><title type="html">Week Six - Graphics and Animation Research</title><link href="http://localhost:4000/2019/03/28/week-six-graphics-animation.html" rel="alternate" type="text/html" title="Week Six - Graphics and Animation Research" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/28/week-six-graphics-animation</id><content type="html" xml:base="http://localhost:4000/2019/03/28/week-six-graphics-animation.html">&lt;h1 id=&quot;outcomes-from-week-four-smart-goal&quot;&gt;Outcomes from week four SMART goal&lt;/h1&gt;
+&lt;p&gt;There is a much to consider when it comes to commerce, starting with a great product, a suitable business plan, exploring opportunities for funding and the ability to pitch ideas to potential investors. All of this requires a great deal of diligence, research, effort and confidence in what you are doing and how you are doing it. I see this as making sure a huge amount of attention is paid to the detail, ensuring that all avenues are being explored and nothing is going amiss. It was mainly down to a lack of this, along with my own naivety and ignorance, that in the past I missed an opportunity. I have created a SMART goal to complete an online business plan writing course and to practice writing a plan in order to consolidate my new knowledge.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Six - Graphics and Animation Research</title><link href="http://localhost:4000/2019/03/28/week-six-graphics-animation.html" rel="alternate" type="text/html" title="Week Six - Graphics and Animation Research" /><published>2019-03-28T00:00:00+00:00</published><updated>2019-03-28T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/28/week-six-graphics-animation</id><content type="html" xml:base="http://localhost:4000/2019/03/28/week-six-graphics-animation.html">&lt;h1 id=&quot;outcomes-from-week-four-smart-goal&quot;&gt;Outcomes from week four SMART goal&lt;/h1&gt;
 &lt;h2 id=&quot;the-sprint&quot;&gt;The &lt;em&gt;sprint&lt;/em&gt;&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;User story&lt;/strong&gt;&lt;/p&gt;
@@ -560,10 +751,13 @@ In order to better understand my potential audience for this app, it would be an
 &lt;p&gt;Firstly, as I have no firm idea of where to start, I will take a somewhat &lt;em&gt;scattershot&lt;/em&gt; approach. Below I will firstly show a brief indication - not much more than a list - of what I found during my initial research. Following this, I will delve a little further into a selection of the results from which, given I am now coming from a more informed position, I will have begun forming an idea of any potential for my purpose.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;animation&quot;&gt;Animation&lt;br /&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;animation&quot;&gt;Animation&lt;br /&gt;&lt;/h2&gt;
 &lt;p&gt;Whist researching browser-based animation solutions, I innevitably came across some that are more specificially oriented towards games or that are probably more suitable for attractive and interactive website design.&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://animejs.com/&quot;&gt;anime.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\animejs.gif&quot; alt=&quot;Anime JS&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;open source&lt;/li&gt;
   &lt;li&gt;fast&lt;/li&gt;
@@ -572,6 +766,9 @@ In order to better understand my potential audience for this app, it would be an
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://threejs.org/&quot;&gt;three.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\threejs.jpg&quot; alt=&quot;Three JS&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;3D rendering engine&lt;/li&gt;
   &lt;li&gt;Been around a while - well established but maybe being superceded.
@@ -579,19 +776,29 @@ In order to better understand my potential audience for this app, it would be an
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://velocityjs.org/&quot;&gt;velocity.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\velocityjs.png&quot; alt=&quot;Velocity JS&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Not the best for games&lt;/li&gt;
   &lt;li&gt;Used in WhatsApp
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://popmotion.io/&quot;&gt;popmotion.js&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://popmotion.io/&quot;&gt;popmotion.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\popmotion.png&quot; alt=&quot;Popmotion&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/mojs/mojs/&quot;&gt;mojs&lt;/a&gt;&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/mojs/mojs/&quot;&gt;mojs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\mojs.png&quot; alt=&quot;MoJS&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://phaser.io/&quot;&gt;phaser&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\phaser.jpg&quot; alt=&quot;Phaser&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Game engine&lt;/li&gt;
   &lt;li&gt;Very popular&lt;/li&gt;
@@ -602,6 +809,9 @@ In order to better understand my potential audience for this app, it would be an
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://greensock.com/&quot;&gt;Greensock GSAP&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\greensock.png&quot; alt=&quot;Greensock GSAP&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Been around a long time and is very well supported&lt;/li&gt;
   &lt;li&gt;large community&lt;/li&gt;
@@ -612,9 +822,12 @@ In order to better understand my potential audience for this app, it would be an
   &lt;li&gt;Autism games / apps come to mind.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.goodboydigital.com/case-study/star-wars-arcade&quot;&gt;An example of GASP with Pixi.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.goodboydigital.com/case-study/star-wars-arcade&quot;&gt;Starwars Arcade - an example of GASP with Pixi.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.pixijs.com/&quot;&gt;pixi.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\pixijs.jpg&quot; alt=&quot;Pixi JS&quot; /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Open source&lt;/li&gt;
   &lt;li&gt;Rendering engine&lt;/li&gt;
@@ -623,9 +836,8 @@ In order to better understand my potential audience for this app, it would be an
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://p5js.org/&quot;&gt;p5.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;p5.js is a JavaScript library. It is not a port or emulation of the original Processing but is a re-imagining in native JavaScript. … Processing.js was used to convert &amp;amp; run Processing .pde files in a web browser, whilst when using p5.js you will be writing your code directly in JavaScript - &lt;a href=&quot;https://teamtreehouse.com/community/what-is-the-difference-between-p5js-and-processingjs&quot;&gt;What is the difference between p5.js and processing.js&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\p5js.png&quot; alt=&quot;p5.js&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Drawing library&lt;/li&gt;
@@ -640,10 +852,11 @@ In order to better understand my potential audience for this app, it would be an
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://cycleblob.com/&quot;&gt;Some impressive browser-based animation games&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa&quot;&gt;Making an animated sprite image in JavaScript&lt;/a&gt;&lt;/strong&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa&quot;&gt;Making an animated sprite image in JavaScript&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;game-frameworks-and-rendering-engines&quot;&gt;&lt;strong&gt;Game&lt;/strong&gt; frameworks and rendering engines&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;game-frameworks-and-rendering-engines&quot;&gt;&lt;strong&gt;Game&lt;/strong&gt; frameworks and rendering engines&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://html5gameengine.com/&quot;&gt;List of HTML5 game engines&lt;/a&gt;&lt;/strong&gt;
 &lt;br /&gt;&lt;/p&gt;
 
@@ -668,9 +881,12 @@ In order to better understand my potential audience for this app, it would be an
 
 &lt;p&gt;&lt;strong&gt;Adobe Creative Cloud - a suite of creative tools&lt;/strong&gt;
 &lt;a href=&quot;https://www.adobe.com/uk/products/animate.html&quot;&gt;Adobe Animate CC&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;webvr---this-i-intend-to-explore-later-on-the-course&quot;&gt;&lt;strong&gt;WebVR&lt;/strong&gt; - this I intend to explore later on the course.&lt;/h1&gt;
+&lt;h2 id=&quot;webvr---this-i-intend-to-explore-later-on-the-course&quot;&gt;&lt;strong&gt;WebVR&lt;/strong&gt; - this I intend to explore later on the course.&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\webvr-logo-square-small.png&quot; alt=&quot;WebVR&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;one-of-the-most-useful-articles-i-have-found--&quot;&gt;One of the most useful articles I have found: -&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@evejweinberg/web-animation-everything-you-need-to-know-in-too-much-detail-91bf5d48f980&quot;&gt;Web Animation — A comprehensive overview&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
@@ -691,7 +907,7 @@ In order to better understand my potential audience for this app, it would be an
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ihatetomatoes.net/get-greensock-101/&quot;&gt;GreenSock 101 course&lt;/a&gt;&lt;/strong&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;further-research&quot;&gt;Further research&lt;/h2&gt;
 
@@ -838,233 +1054,4 @@ add objects and any number of properties to a Sprite (or any kind of graphic) ob
   &lt;li&gt;I have become aware of the exciting possiblities of the &lt;strong&gt;3D graphics libraries and frameworks&lt;/strong&gt; which, in particular, are at the forefront of developing the possibilities of &lt;strong&gt;WebVR&lt;/strong&gt; in the web browser.
     &lt;h1 id=&quot;these-i-must-explore-in-due-course&quot;&gt;These I &lt;strong&gt;must&lt;/strong&gt; explore in due course!!&lt;/h1&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Outcomes from week four SMART goal The sprint</summary></entry><entry><title type="html">Week Five - Types of App</title><link href="http://localhost:4000/2019/03/14/week-five-types-of-app.html" rel="alternate" type="text/html" title="Week Five - Types of App" /><published>2019-03-14T00:00:00+00:00</published><updated>2019-03-14T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/14/week-five-types-of-app</id><content type="html" xml:base="http://localhost:4000/2019/03/14/week-five-types-of-app.html">&lt;p&gt;This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I’ve come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.&lt;/p&gt;
-
-&lt;p&gt;As mentioned in my in my week four post on &lt;a href=&quot;/2019/03/10/week-four-critical-reflection.html&quot;&gt;Critical Reflection&lt;/a&gt;, my intention on coming onto the course was not necessarily to follow a path of game development. However, on the back of some game-like efforts as responses to the course assignments thus far, I have been finding it necessary to start considering exactly what a game is. With this in mind, of the types of app suggested by this week’s course material, for me three stand out - i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;Serious Games&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Gamification&lt;/code&gt; and the &lt;code class=&quot;highlighter-rouge&quot;&gt;Experimental Art App&lt;/code&gt;.&lt;br /&gt;&lt;br /&gt;
-In the context of my own interests, Serious Games relates to the games that support an educational intent. The highlighted app &lt;code class=&quot;highlighter-rouge&quot;&gt;Dragon Box&lt;/code&gt; certainly applies here. I particularly enjoy the way that the app introduces the concept of algebra, without actually mentioning algebra, or making it in any way clear that it is algebra that the player is actually engaging with. The idea of learning-made-fun is very useful and has to be a very successful way of achieving its aims. The same can be said for those Serious Game apps that fall more into the &lt;em&gt;simulator&lt;/em&gt; category where, for instance, a professional can practice the tools of their trade in a virual environment with an emphasis on the fun element.&lt;br /&gt;&lt;br /&gt;
-Gamification takes techniques used in and learned from game design and applies them to apps that are not, first and foremost, games. The app &lt;code class=&quot;highlighter-rouge&quot;&gt;Habitica&lt;/code&gt; takes what would normally be a fairly mundane activity - organisation ones chores and to-do lists - and adds gamic concepts such as unlocking new features, ‘powering-up’ your avatar and earning rewards.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I find myself drawn to the idea of the Experimental Art App, in which the enjoyment of engaging in creativity in a new, interesting and often effortless way, shows an area where creative arts and app development can combine in a sense that is pure and uncompromised by having to be something that is decided for it, outside of itself and its own unique existence.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Solstice&lt;/code&gt; collaboration by Bjork, Mac Visio, and Digital Agency MM (Paris) is not just an object of aesthetic beauty in its own right, it is also a new type of musical instrument, a gadget that calls you to engage and play with, whilst it encourages a kind of meditative disposition. Coming from an arts background myself, in which I’ve always enjoyed an experimental approach, I’m not surprised that I find this a particularly interesting area. And I certainly believe there could be some fascinating potential for exploration of the cross-overs between all these categories.&lt;/p&gt;
-
-&lt;h1 id=&quot;market-research&quot;&gt;&lt;strong&gt;Market research&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;The week’s source material suggested some categories for consideration.  As I start to really think about the types of application that I may end up making as a Creative App Developer, I realise that understanding the &lt;code class=&quot;highlighter-rouge&quot;&gt;segmentation&lt;/code&gt; of the market will be more than helpful in defining how and where my own products will fit. In a &lt;code class=&quot;highlighter-rouge&quot;&gt;saturated market&lt;/code&gt;, it’s all about engaging your audience and making your product distinguishable from other apps. &lt;code class=&quot;highlighter-rouge&quot;&gt;Trends&lt;/code&gt; are ephemeral, fleeting, they come and go; but it was pointed out that some ideas can have a &lt;code class=&quot;highlighter-rouge&quot;&gt;'disruptive' effect&lt;/code&gt;, bringing about permanent change and re-thinking of established patterns.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;At this point, I will start considering the how the markets work and the ways in which finding a possible place in the market for a potential product - or realising it is actually best avoided altogether - should be approached.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;As a developer, at the forefront of your mind needs to be how best to engage your audience and to make your product distinguishable from others within the same field. For some time I’ve been considering the pros and cons of producing something that is entirely unique, as compared with something that would slot comfortably within an already established market. This is where Market Research really becomes so important. Taking time to understand the saturated markets we are faced with, analysing trends and patterns and getting to understand the type of apps that have been successes or failures, and the reasons for this, is vital. Central to this must be understanding your potential audience and whether or not, and how, their needs are being met. It seems to me that there is a risk in going out on a limb, but if you get it right there could be huge benefits. On the flip-side, it may seem safe to find and join a fairly established sector, but then you are running the risk of finding that your audience’s needs are already being adequately catered for.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As was pointed out, there is a wholehearted need for objectivity and honesty, of being realistic and not too precious about your idea. It is all to easy to be tempted to sway market research in favour of your idea. Instead, it is good practice to seek advice from others, such as end users and developers.
-&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Some useful tools for market research&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://play.google.com/store?hl=en_GB&quot;&gt;Google Play Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/gp/feature.html?ie=UTF8&amp;amp;docId=1000644603&quot;&gt;Amazon App Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.apple.com/uk/ios/app-store/&quot;&gt;Apple App Store&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://trends.google.co.uk/trends&quot;&gt;Google Trends&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.apptrace.com/&quot;&gt;AppTrace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pewglobal.org/&quot;&gt;Pew Research Centre&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Further reading&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/Pocket-Universal-Methods-Design-Innovative/dp/1631593749/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1552603215&amp;amp;sr=1-1&amp;amp;keywords=9781631593741&quot;&gt;&lt;em&gt;Universal methods of design&lt;/em&gt;&lt;/a&gt; by Bela Martin and Bruce Harrington 
-(&lt;a href=&quot;https://books.google.co.uk/books?id=bnw6DwAAQBAJ&amp;amp;pg=PT209&amp;amp;lpg=PT209&amp;amp;dq=book+%E2%80%9CUniversal+methods+of+design%E2%80%9D+Bella+Martin+and+Bruce+Harrington&amp;amp;source=bl&amp;amp;ots=xeqmjPlT-h&amp;amp;sig=ACfU3U1o48RsgY7AHvSCSF--1kypVJ6z4g&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ved=2ahUKEwjakI-r2YLhAhWRqHEKHTyyDOEQ6AEwAnoECAgQAQ#v=onepage&amp;amp;q=book%20%E2%80%9CUniversal%20methods%20of%20design%E2%80%9D%20Bella%20Martin%20and%20Bruce%20Harrington&amp;amp;f=false&quot;&gt;free &lt;em&gt;google books&lt;/em&gt; edition&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://spurstartup.com/blog/2017/08/08/broad-or-narrow-defining-the-breadth-of-your-market-niche&quot;&gt;&lt;em&gt;Broad or Narrow? Defining the Breadth of Your Market Niche&lt;/em&gt;&lt;/a&gt; by Joseph Long&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.designkit.org/resources/1&quot;&gt;&lt;em&gt;The Field Guide to Human-Centred Design&lt;/em&gt;&lt;/a&gt; by IDEO.org
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;types-of-app&quot;&gt;&lt;strong&gt;Types of App&lt;/strong&gt;&lt;br /&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;briefly..&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Serious Games&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Beyond &lt;em&gt;pure&lt;/em&gt; entertainment.&lt;/li&gt;
-      &lt;li&gt;‘&lt;em&gt;Can disrupt&lt;/em&gt;’ and ‘&lt;em&gt;bring about social change&lt;/em&gt;’ - Ian Bogost&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gamification&lt;/strong&gt; &lt;em&gt;(and alternate reality games)&lt;/em&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Incentivise user to upskill&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;Add excitement to everyday chores&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;Example: &lt;a href=&quot;https://habitica.com/static/home&quot;&gt;Habitica&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;See &lt;a href=&quot;https://en.wikipedia.org/wiki/Jane_McGonigal&quot;&gt;Jane McGonigal&lt;/a&gt;: an exponent and designer of such apps&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;eHealth&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;e.g. &lt;a href=&quot;https://www.nhs.uk/change4life/food-facts/sugar&quot;&gt;Sugar Smart&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Casual Creator Apps&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Creativity apps without the steep learning curve&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://metamakersinstitute.com/&quot;&gt;Metamakers&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Quantified Self Apps&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Fitbit, garmin, jawbone etc.&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://quantifiedself.com/&quot;&gt;Quantified Self&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Experimental Art App&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;em&gt;Solstice&lt;/em&gt; -  Bjork, Mac Visio, and Digital Agency MM (Paris).&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Pm9g-SyvJRU&quot;&gt;on YouTube&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-      &lt;li&gt;Cultural-creator, art/cultural app&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;some-interesting-apps&quot;&gt;&lt;strong&gt;Some interesting apps&lt;/strong&gt;&lt;br /&gt;&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.nfb.ca/interactive/circa_1948/&quot;&gt;Circa 1948 - Stan Douglas / NFB Digital Studios&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Stan_Douglas&quot;&gt;Stan Douglas Wikipdia page&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.tate.org.uk/art/artists/stan-douglas-3038&quot;&gt;Stan Douglas on the Tate site&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Question: What type of app do you think Circa 1948 could be classified as?&lt;br /&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-I would call this a &lt;strong&gt;&lt;em&gt;Serious Game&lt;/em&gt;&lt;/strong&gt;. It immerses the ‘player’ in a by-gone, real, but unavoidably imaginary world.
-Experience is created by the imagination - both of the designer and of the player. 
-It must, by its very nature, involve a certain nostalgia for something that is now unobtainable. 
-It is sublimation of the &lt;em&gt;ordinary&lt;/em&gt; experience of the past.
-The experience nurtures a desire for something recognisable but unreachable.
-It is installation art as app, or app as installation art.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Circa 1948&lt;/strong&gt; reminds me of a TV programme about the &lt;a href=&quot;http://www.bbc.co.uk/guides/zk3cmfr&quot;&gt;&lt;strong&gt;BBC Berlin Blitz VR&lt;/strong&gt;&lt;/a&gt; I came across recently.&lt;br /&gt;
-I have been struggling to find a link to this very interesting BBC children’s (I think) TV programme, where school-age kids were trying out the VR app. The total immersiveness in the VR world recreated from actual recordings by a journalist accompanying the WW2 bombers on a raid over Berlin, was an incredible experience &lt;em&gt;in itself&lt;/em&gt; and brought into &lt;em&gt;reality&lt;/em&gt; a time and event that was hitherto unreachable and almost unimaginable for the young people. This could also be classed as a &lt;em&gt;serious game&lt;/em&gt;: &lt;br /&gt;
-like &lt;em&gt;Circa 1948&lt;/em&gt;, in as much as it is an experience, it is also a &lt;em&gt;game&lt;/em&gt;; it is real and it is fabrication; it fires the imagination and teaches about past experience and of other times and other people; it is educational.&lt;/p&gt;
-
-&lt;p&gt;These really force one to consider, &lt;code class=&quot;highlighter-rouge&quot;&gt;what exactly is a game?!!&lt;/code&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What did I get out of this?&lt;/strong&gt;&lt;br /&gt;
-I was encouraged to think about the types / categories of app that exist and how / where they fit within the existing market. 
-Understanding the market is all-important - how it is segmented and affected by trends.
-Understanding your audience - what are their demographics and technographics?
-Finding a niche
-Types of app - good to break down the categories as it helps to make sense of the market itself. Of course, these types are subjective and liable to change over time.  There will also always be those that do not easily fit within a single category  or grouping. 
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;smart-goal&quot;&gt;&lt;strong&gt;SMART goal&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it specific&lt;/strong&gt;: I would like to understand how the three types of game, outlined in this week’s course material that I find particularly interesting - serious games, gamification, experimental art app - fit within existing markets; what kind of niche have they found for themselves, what is their competition, who is their audience?.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it measureable&lt;/strong&gt;: I will research three apps - one each of the three types outlined above and write a short piece of 200-400 words for each.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it attainable&lt;/strong&gt;: I think one of each type and a brief overview is entirely do-able within a few hours.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Relevant&lt;/strong&gt;: The information I gain from the exercise will be extremely useful in understanding the kinds of markets that I am likely to be intering myself. I will reflect on how I feel about the respective niches once I understand them better.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Time-based&lt;/strong&gt;: I will spend aproximately one hour on each app and no more than two on any one.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I’ve come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.</summary></entry><entry><title type="html">Week Four - Critical Reflection</title><link href="http://localhost:4000/2019/03/10/week-four-critical-reflection.html" rel="alternate" type="text/html" title="Week Four - Critical Reflection" /><published>2019-03-10T00:00:00+00:00</published><updated>2019-03-10T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/10/week-four-critical-reflection</id><content type="html" xml:base="http://localhost:4000/2019/03/10/week-four-critical-reflection.html">&lt;p&gt;Keeping my Personal Case Study under five minutes was not easy. I now look at the content, watch the video, and cannot help but think it’s perhaps too light, in particular, on &lt;em&gt;depth of analysis&lt;/em&gt; and &lt;em&gt;self-criticism&lt;/em&gt;. This was in large part down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. Of course, if I had spoken faster then I could have fit more in, possibly without losing too much in terms of it being comfortable to listen to. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness.  However, I certainly have learned a lot about how to approach - or how &lt;strong&gt;not&lt;/strong&gt; to approach - such a task and will be better for it next time.&lt;/p&gt;
-
-&lt;p&gt;Below is the essence of my Personal Case Study. The video can be seen &lt;a href=&quot;https://www.youtube.com/watch?v=vlmEWzEE1oU&quot;&gt;here&lt;/a&gt;.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;The reason I am on the Creative App Development MA course&lt;/strong&gt; is due to my interests in both creative practice, particularly music and sound, and software development. I am excited by the sense of exploration and discovery associated with continual technological advancements, particularly in the areas of web and mobile development, inter-connectivity, virtual and augmented reality and sound creation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why my first two projects have been games, and why I am enjoying it&lt;/strong&gt;&lt;br /&gt;
-Although I did not embark on the MA in order to become a game developer, I am surprised to have concluded that games can be a useful vehicle for trying out ideas, techniques and technologies. They encourage thinking about how apps can work in terms of engaging people and holding their interest. I believe the interactive and compulsive nature of good game design has much to offer the non-gaming world; in short, cross-overs exist, and these  I would like to explore.&lt;/p&gt;
-
-&lt;p&gt;I formed this opinion through a process of reflection during both the Rapid Ideation and the App Jam activities. The importance of reflection is becoming clear to me – that is, that technical and creative skills alone are not enough. For example, during the App Jam, by continually questioning my progress and adjusting my goals, I was encouraged to move away from my early ideas, which I ultimately decided were quite dull. Instead, I sensed that an animated, arcade-style game play and sense of jeopardy would add a new level of interest to what had hitherto been an intellectual exercise played out in the browser. I now see a huge potential for developing arcade-style word games.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Angular - my JavaScript framework of choice&lt;/strong&gt;&lt;br /&gt;
-Over the past few years, the power of web-based applications has been moving from the server and into the browser, leading to more reactive and dynamic applications, such as single page apps, and I have developed an interest in JavaScript, the language of the browser, but I have limited experience and confidence in client-side development. Of the existing JavaScript frameworks and libraries, I decided to learn Angular.  From my own background in Microsoft .NET, C# and SQL Server, I find the structured, strongly-typed and object-oriented nature of &lt;strong&gt;TypeScript&lt;/strong&gt; to be more approachable than pure JavaScript. Angular is also more &lt;em&gt;suitable for complex applications that use services and data connections&lt;/em&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;making-my-goals-smart&quot;&gt;Making my goals &lt;strong&gt;SMART&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;span style=&quot;color:darkblue&quot;&gt;&lt;strong&gt;S&lt;/strong&gt;pecific, &lt;strong&gt;M&lt;/strong&gt;easurable, &lt;strong&gt;A&lt;/strong&gt;ttainable, &lt;strong&gt;R&lt;/strong&gt;elevant, &lt;strong&gt;T&lt;/strong&gt;ime-based&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;In terms of the kind of apps I would like to produce, I did not start the course with any specific goals in mind. I would like to maintain an experimental and explorative approach, but I need to begin focusing on actual ideas that I can consider taking forward. During the App Jam I was surprised how quickly I was able to move from a simple idea to putting a concept into actual code. A moment came where it dawned on me that &lt;em&gt;I had exhausted the process of ideation and I just needed to get on with building the app.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The concept of the &lt;em&gt;SMART&lt;/em&gt; goal acronym has actually been slightly surprising, in that it is more useful than I initially realised. The concept has helped me to focus and clarfy the means by which I hope to achieve my goals.  In fact, more than that, I am finding it actually helps to define those goals in the first place. I suppose, it is only logical that &lt;strong&gt;it is not really possible to analyse &lt;em&gt;how&lt;/em&gt; you will achieve something if at first you have not worked out &lt;em&gt;what it is&lt;/em&gt; you wish to achieve!&lt;/strong&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkblue&quot;&gt;&lt;strong&gt;Goal One&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it specific:&lt;/strong&gt; In the knowledge that this can be a rapid process, I intend to set myself a SMART goal to spend several hours each week exploring ideas, one of which I will take forward as a development concept for the next suitable project.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Measureable:&lt;/strong&gt; I will set aside regular times leading up to Easter, i.e. six weeks, in order to create one idea per week.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; A problem I must overcome is the quality of my working environment.  Due to the demands and noise levels produced by a young family, I often need to work at unsociable hours, with all the associated issues of tiredness and concentration levels. Therefore, it is important for me to find periods of quality development time. So, in consultation with my family, at the start of each week I will schedule two, two-hour slots, at a premium time of the day, that can be guaranteed to be distraction-free.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; At the end of the period I will pick one idea that I can take forward for my next project&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Time-based:&lt;/strong&gt; I will have achieved this outcome at the successful conclusion of the six-week period.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkblue&quot;&gt;&lt;strong&gt;Goal Two&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Another goal surrounds the research of technologies to fill holes in my knowledge and help me develop the gamic qualities I mentioned earlier.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it specific:&lt;/strong&gt; I would like to explore available technologies and techniques towards animating graphics and moving user-controlled game-style characters around the browser page.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Measureable:&lt;/strong&gt; For this, I will undertake weekly research and follow relevant courses. Each week’s findings I will document in my weekly journal, where I will discuss their relevance to my work and goals.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; I have access to many resources, including Pluralsight, Udemy, Lynda and YouTube, which I will use as and when required.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; I will begin using this research during the first development project after Easter.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Make it Time-based:&lt;/strong&gt; This I will do over the six weeks available leading up to Week 12.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;span style=&quot;color:darkblue&quot;&gt;&lt;strong&gt;Future goals&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;The act of putting together SMART goals has helped me focus on other goals that I would like to characterise in a similar way. Briefly they include: -&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Bringing myself up to a good confident speed with
-    &lt;ul&gt;
-      &lt;li&gt;Angular and TypeScript&lt;/li&gt;
-      &lt;li&gt;HTML5 and CSS&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Spend time investigating
-    &lt;ul&gt;
-      &lt;li&gt;mobile platforms: -
-        &lt;ul&gt;
-          &lt;li&gt;cross-platform: NativeScript, Ionic, Flutter&lt;/li&gt;
-          &lt;li&gt;iOS - Swift&lt;/li&gt;
-          &lt;li&gt;Android - Java&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;sound generation: I would like to work with sound like animators work with visuals&lt;/li&gt;
-      &lt;li&gt;virtual and augmented reality, particularly, where possible, in the browser and in combination with web technology&lt;/li&gt;
-      &lt;li&gt;open web-socket technology&lt;/li&gt;
-      &lt;li&gt;cloud and microservice technology
-&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These do seem to be big topics though, so making them attainable and relevant in this form will likely prove tricky. I am aware there will need to be some breaking down of these into smaller component parts in order to be able to quantify them in a useful and managable way.&lt;/p&gt;</content><author><name></name></author><summary type="html">Keeping my Personal Case Study under five minutes was not easy. I now look at the content, watch the video, and cannot help but think it’s perhaps too light, in particular, on depth of analysis and self-criticism. This was in large part down to having to continually cut my content in order to fit within the time limit, and maybe not cutting as well as I could have. Of course, if I had spoken faster then I could have fit more in, possibly without losing too much in terms of it being comfortable to listen to. In the end my video editing skills, which were non-existent before this, and not much better now, have prevented me from finding the perfect level of conciseness. However, I certainly have learned a lot about how to approach - or how not to approach - such a task and will be better for it next time.</summary></entry></feed>
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Outcomes from week four SMART goal The sprint</summary></entry></feed>

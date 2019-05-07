@@ -4,6 +4,8 @@ title: Week Nine - Which Technologies Can Empower Creativity?
 published: true
 ---
 
+![Creativity](\images\creativity-1.jpg)
+
 This week we are looking at emerging technologies - i.e. technologies that have not yet appeared in the markets or are in the stages of early adoption. In particular, we were are interested in how they can drive and empower the creative process and facilitate _Disruptive Practice_ - i.e. the shaking-up of the market by forcing a divergence from established genres patterns.  
 
 In a series of video interviews comprising viewpoints from a selection of academic practitioners who are undergoing research and practical work within areas being opened up by new technologies, we are provided with a fascinating insight into the kind of work being done when investigating and exploring the creative possibilities facilitated by such technologies.
@@ -44,19 +46,21 @@ Technology increases to be part of our daily lives and everyday existence. I sup
 Rob Saunders
 
 ## Virtual Reality & Augmented Reality
+<img src="\images\vr-2.jpg" alt="Virtual Reality" height="200px"> <img src="\images\ar-1.jpg" alt="Augmented Reality" height="200px"> 
+
 One question that may be worth considering is, when does an emerging technology stop being an emerging technology? I began thinking this when considering the cases of Virtual Reality and Augmented Reality. Conceptually, they have both been around in some form or other for a while now. But then, so has Artificial Intelligence.  
 
 > Today’s virtual reality technologies build upon ideas that date back to the 1800s, almost to the very beginning of practical photography... The use of the term “virtual reality,” however, was first used in the mid-1980s when Jaron Lanier, founder of VPL Research, began to develop the gear, including goggles and gloves, needed to experience what he called “virtual reality.” <br> - 
 [Frankin Institute](https://www.fi.edu/virtual-reality/history-of-virtual-reality)
 
-In some respects, VR has been an 'emerging technology' for some time, and there have been various milestones along the way. That said, with product such as Google Cardboard and Samsung Gear, VR is now beginning to realise its potential and to [_finally answer the unfulfilled  promises made by virtual reality in the 1990s_](https://www.vrs.org.uk/virtual-reality/history.html). It is possible that interest in VR has lulled on occasion, but it can be expected to increase as new uses are discovered and the markets respond by investing in them: -
+In some respects, VR has been an 'emerging technology' for some time, and there have been various milestones along the way. That said, with products such as Google Cardboard and Samsung Gear, VR is now beginning to realise its potential and to [_finally answer the unfulfilled  promises made by virtual reality in the 1990s_](https://www.vrs.org.uk/virtual-reality/history.html). It is possible that interest in VR has lulled on occasion, but it can be expected to increase as new uses are discovered and the markets respond by investing in them: -
 
 > New technologies need to go through several releases before the average person is attracted to them. It starts with the tech enthusiasts that need to have the latest and greatest gadget. Then businesses invest heavily, as they see strong early use cases. All that business investment creates a market demand, which brings more entrants into the field. And finally, there is a release good enough for the average person <br> -
 [medium.com](https://medium.com/our-future/why-virtual-reality-is-the-most-impactful-emerging-technology-f208ab0f14fe)
 
 # How could VR & AR relate to my own work?
 
-I have been considering the potential use of Virtual Reality and, maybe to a lesser extent, Augmented Reality, with regard to apps related to autism; both in terms of attempting to gain an understand of the condition and also  'therapeutically' by, for instance, helping to find a way of relating to the world in a way that can be understood without the common issues of anxiety and stress. 
+I have been considering the potential use of Virtual Reality and, maybe to a lesser extent, Augmented Reality, with regard to apps related to autism; both in terms of attempting to gain an understanding of the condition and also 'therapeutically' by, for instance, helping to find a way of relating to the world in a way that can be understood without the common issues of anxiety and stress. 
 
 In his article [_How virtual reality is transforming autism studies_](https://www.spectrumnews.org/features/deep-dive/virtual-reality-transforming-autism-studies/), George Musser discusses the use of VR for addressing autism, including practical issues and ethical dilemmas: -
 
@@ -95,7 +99,7 @@ Also worth considering is the use of **artificial intelligence**: can AI gather 
 ## Researching VR for Autism 
 Having taken a cursory look at the potential of VR for autism-related apps, I would like to take a deeper dive into the current use of VR and other emerging technologies, including researching any articles or papers I can find that consider its potential. I would then like to explore and sketch out some ideas of my own, including my initial thoughts in terms of feasibility, practical issues, audience characteristics and potential markets.
 
-* **Make it Specific:** The goal is to research VR and other emerging technologies in relation to their use in apps that in some way address issues related to autism. From this research, I will begin assembling some ideas of my own for possible future development.
+* **Make it Specific:** For possible future development I would like to begin sketching out ideas for apps that use VR and other emerging technologies that in some way address issues in relation to autism. The goal is to undertake in-depth research this area.
 * **Make it Measurable:** I will collate my research in to a single document, and my own ideas I will put into a sketch-book format that I can easily return to and pick up at a future date.
 * **Make it Attainable:** This will be achieved within a single week.
 * **Make it Relevant:** At the end of this process I will have gathered knowledge of existing work and of current thinking and research in the field. I will have begun to develop some ideas of my own which can be possibly be drawn upon at a later date.

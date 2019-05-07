@@ -4,6 +4,8 @@ title: Week Seven - Audience Research
 published: true
 ---
 
+![Audience Research](\images\audience-research.jpg)
+
 This week's subject is one that is frustratingly important; 'frustratingly', because this is a subject that describes an activity that is close to being absolutely essential whilst, at the same time, a prospect that I do not find to be particularly stimulating. Of course, I recognise the importance of attempting to understand the people that I would like to use my apps and, in so doing, help finance the future of my business. But, to be brutally honest, it is an activity that I would hope could be done by someone for whom marketing is a passion and a talent. I realise that, in all likelihood, I will need to involve myself in audience research at some level if I am to be successful as a creative app developer.
 
 That said, I do recognise that Audience Research could potentially be a rewarding experience; getting to know my audience could perhaps lead to a sense of fulfilment and, at best, instil a sense of commonality and shared experience. Of course, the ultimate reward would probably be in witnessing the success of my creation, the people using it having been identified, understood, nurtured and encouraged to invest in my work because it is something they desire, enjoy or simply need.
@@ -23,7 +25,13 @@ During this week's video, **Erik Geelhoed**, who has a background in _Psychology
 
 As we are working within an international market place, and cannot meet our audience in person, investigating one's audience is a challenge, but there are a number of tools and techniques available to us for this purpose. Two important, complimentary approaches are: -
 
+![Qualitative and Quantitative methods](\images\qualitative-quantitative.png)
+<br><br>
+
 # 1. Qualitative methods
+
+<img src="\images\keep-calm-and-ask-the-audience.png" alt="Qualitative Audience Research" width="240px">
+
 * Cognitive walkthrough / thinking aloud - asking the user to use the app and think aloud
 * Interview - asking the right questions
 * Group interview - researcher-led
@@ -33,6 +41,9 @@ As we are working within an international market place, and cannot meet our audi
 * Self-reflections of the researcher (i.e. yourself)
 
 # 2. Quantitative methods
+
+![Quantitative Audience Research](\images\quantitative-research-1.jpg)
+
 * Obtaining numbers, statistics, for analysis
 * Questionnaires
 * Physiological measurements - e.g. levels of attention (EEG: electroencephalogram - a test used to evaluate the electrical activity in the brain), sweat secretion (GSR: galvanic skin response - a change in the electrical resistance of the skin that is a physiochemical response to emotional arousal which increases sympathetic nervous system activity)
@@ -48,9 +59,11 @@ It is qualitative analysis that most likely will be used used - this is not nece
 
 ## Creating a 'persona' for the App Jam word game
 
+![Persona](\images\persona.jpg)
+
 My App Jam project - an arcade-style word game - is something that I view as having educational value in the sense that it could potentially be helpful in sharpening the ability to understand the meaning of words and their meaningful relationships with other words.
 In order to better understand my potential audience for this app, it would be an interesting exercise to create a 'persona', i.e. _a fictional character that represents a user of the application_, that would represent my target audience. I have created a SMART goal to support this: -
-* **Make it Specific:** The goal is to create a fictional persona, who will represent a typical user of my App Jam word game app. 
+* **Make it Specific:** In order to better understand my potential audience for my App Jam word game app, my goal is to create a fictional persona, who will represent a typical user. 
 * **Make it Measurable:** I will create one persona and post the results on the Personas forum on Canvas.
 * **Make it Attainable:** I will learn about creating personas by following the Pluralsight course [Creating Effective User Stories](https://app.pluralsight.com/library/courses/creating-effective-user-stories/table-of-contents), with particular attention to the _Personas_ section.
 * **Make it Relevant:** The research and the resulting persona will help my understand a potential typical user of my app and, therefore, some of the characteristics of the audience I intend to target.

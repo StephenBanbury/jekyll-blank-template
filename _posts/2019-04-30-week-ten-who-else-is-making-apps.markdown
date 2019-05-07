@@ -4,6 +4,8 @@ title: Week Ten - Who Else is Making Apps and What Approaches Do they Use?
 published: true
 ---
 
+![Communities of Practice](\images\communities-1.png)
+
 ## Communities of Practice
 
 **Movements and Professional Bodies** 
@@ -12,7 +14,7 @@ Over the years I have been slightly reluctant to entertain the idea of hitching 
 
 **Movements** are quite different in my view, as they have come about through a genuine shared aspiration to drive a particular passion or practice in a particular direction, to use the collective will of multiple like-minded people to further ideas and make a genuine and recognisable difference. 
 
-# The Hacker and Maker Movements
+## The Hacker and Maker Movements
 
 >The hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming limitations of software systems to achieve novel and clever outcomes. The act of engaging in activities (such as programming or other media) in a spirit of playfulness and exploration is termed "hacking".<br>
 &ndash; ['hacker culture' - wikipedia](https://en.wikipedia.org/wiki/Hacker_culture)
@@ -20,11 +22,14 @@ Over the years I have been slightly reluctant to entertain the idea of hitching 
 >The maker movement ... is the umbrella term for independent inventors, designers and tinkerers. A convergence of computer hackers and traditional artisans, the niche is established enough to have its own magazine, Make, as well as hands-on Maker Faires that are catnip for DIYers who used to toil in solitude.<br>
 &ndash; [time.com](http://time.com/104210/maker-faire-maker-movement/)
 
+![Maker Movement](\images\maker-movement-1.jpg)
+
 _Maker culture_ intersects with _hacker culture_. Both share a DIY, [open-source](https://opensource.org/) ethos but, whereas hacker culture is concerned primarily with software, maker culture is more engineering-oriented, interested in such pursuits as electronics, robotics and 3D printing [['maker culture' - wikipedia](https://en.wikipedia.org/wiki/Maker_culture)].
 
 Communities of practice and communities of interest tend to pop up around such movements. Without making much of a real effort to associate myself with a specific community, it's fair to say that at various times I have existed on the fringes of several - [StackOverflow](https://stackoverflow.com/), [GitHub](https://github.com/) and [SQLServerCentral](https://www.sqlservercentral.com/) spring to mind. This has been generally unintentional and borne out of necessity, for, without the knowledge, advice and support they can provide, I would have struggled to achieve much.
+<br>
 
-# Stack Overflow
+![Stack Overflow](\images\stackoverflow.png)
 
 >... by programmers, for programmers, with the ultimate intent of collectively increasing the sum total of good programming knowledge in the world. No matter what programming language you use, or what operating system you call home. Better programming is our goal.<br>
 &ndash; [codinghorror](http://blog.codinghorror.com/introducing-stackoverflow-com/)
@@ -38,13 +43,15 @@ In this week's article on Communities of Practice, Alcwyn Parker advises identif
 
 The result is a community that plays an important part in making information available and providing support along with the benefit of experience. The sense of community and of belonging is vital in achieving its inherently altruistic aims, which are borne of a desire to share and constantly improve the quality of knowledge and developmental practice generally.
 
-# The Falmouth 'Creative App Development' Community 
+## The Falmouth 'Creative App Development' Community 
+
+![The Falmouth 'Creative App Development' Community](\images\falmouth-banner.jpg)
 
 Reflecting on how my own ideas have developed and expanded in the short time I've been on this MA course, I can see that I have moved from a fairly narrow idea of the possible direction of my personal development, towards one that is beginning to encompass a wider set of possibilities. This is partly due to the sharing of knowledge and experience between practitioners - students, academic staff, external or loosely-affiliated contributors - who are, in their own ways, following personal, loosely-related paths and have come to form a community of sorts, at least partly unintentionally. As I have become less isolated from outside and diversified influences, my general outlook has begun moving away from the idea that my creative future lies almost solely in web development and, although the web is very likely to remain important to me, I have been increasingly made aware of other attractions and areas of potential interest. 
 
 This is unlikely to have happened without coming to 'belong' to a group that share interests and ambitions as creative app developers. Following this train of thought, I can see that intentionally associating myself with groups, communities and movements, with similar interests, goals and aspirations, can potentially provide fuel for driving the further development of ideas and skills, whilst providing the support that can be vital when following a path that is actually quite personal. 
 
-# Researching communities
+## Researching communities
 
 As I do not have much knowledge or experience of the various communities and associated events or activities associated with the Hacker and Maker movements, I would like to find out more and get some idea of those I may be interested in involving myself with. 
 

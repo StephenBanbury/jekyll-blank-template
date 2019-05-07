@@ -4,6 +4,8 @@ title: Week Ten - Report on Continuing Personal and Professional Development
 published: true
 ---
 
+![Personal Development](\images\personal-development-2.jpg)
+
 ## Introduction
 
 I embarked on the MA with no formal qualifications in software development. Although I am in possession of a reasonably wide-ranging experience, having built up a ‘full stack’ of internet development skills, including database development, data analysis, business intelligence, .NET MVC, C# and JavaScript, this has been gained through experience whilst working in the field of education data analysis. Of these skills, it is the front-end, client-side, user-interactive variety with which I am less familiar or confident, but they are the ones I am most interested in pursuing: I want to make web-based apps that are engaging, visual and experientially-stimulating.
@@ -22,6 +24,8 @@ I hope that this course will help me realise my ambition, which is to start a bu
 <br><br>
 
 ## Time and Project Management
+
+![Time Management](\images\time-management.png)
 
 The goal I outlined in my PCS referred to problems I have finding periods of quality, uninterrupted time, and my desire to ‘negotiate’ such periods with my family.  Reflecting on this, I am somewhat resigned to working around and within the activity and mechanics of everyday family life. My situation has made me think about how I can reduce the importance of the actual amount of time available.  I do not view project and time management as a strength and understand it would be extremely beneficial to work at this. 
 
@@ -49,6 +53,8 @@ Beyond software development and general project management, Agile techniques are
 <br><br>
 ## Market Research
 
+![Market Research](\images\market-research.jpg)
+
 From not having a firm idea of my direction at the start of the course, as a main driving force I am becoming interested in **education apps**, with Autism as a possible area for specialism. 
 
 Understanding how someone with autism views and responds to the world is quite a challenge, as is teaching a child to learn what everyone else takes for granted as part of normal development and learned behaviour.  Areas that can be identified as requiring specific and targeted input, such as understanding facial expressions or developing fine motor skills, could potentially be addressed in interesting and playful ways through the medium of an app. Some interesting work has been done in these areas: for example, an app to help practice [emotion and facial recognition](https://www.educationalappstore.com/app/training-faces-1), reading facial expressions using [Google Glass](https://www.medscape.com/viewarticle/900519), practicing [motor skills](http://www.eastersealstech.com/2015/04/01/10-apps-for-practicing-motor-skills/).
@@ -71,6 +77,8 @@ Although I have a personal interest in autism, I feel it would be beneficial to 
 <br><br>
 ## 2D Animation
 
+![2D Animation](\images\2d-animation.jpg)
+
 From the outset, I was interested in user-experience and, considering my interest in game-focused, interactive education apps, I see game-oriented animation as an integral part of a skill-set necessary to create polished, professional looking and highly playable games in order to move into these markets.
 
 I intend to use my app jam word game project, which is essentially a two-dimensional arcade-style game with an educational leaning, as a vehicle to experiment with specifically game-focused animation rendering. My work using the [pixijs.com](http://www.pixijs.com) animation library has been a useful point of entry into the use of JavaScript animation libraries, and I wish to continue the process of familiarising myself with game development, through integrating graphics rendered using a tool designed specifically for building games, and which leverage the power of **Canvas** and **WebGL** in the browser. 
@@ -89,6 +97,8 @@ I used the **Angular** framework for the App Jam project, partly because I’d a
 
 <br><br>
 ## WebSockets and Cloud Technologies
+
+![WebSockets](\images\websockets.png)
 
 Having grown up with computers existing largely as separate entities and then the promise of the internet frustrated by the laborious request/response paradigm of HTTP, I was excited when I first became aware of the prospect of almost instantaneous interactions between people, computers and software. 
 
@@ -113,6 +123,8 @@ In this regard, I envisage my planned education game apps taking on some of the 
 <br><br>
 ## Music and Sound
 
+![Music and Sound](\images\computer-music.jpg)
+
 It seems to me that the part played by sound in media experiences is often under-valued. As a musician and creator of music and sound art, I would like to see sound placed on an equal footing with visual aspects. At some point I would like to make creative apps where sound is the main driving force. Such apps could be in the form of sound-led **experimental art apps**, such as _Bjork’s Biophilia_ or _synthPond_ by _Zach Gage_, or **music education** and **music-game** apps, such as _Dust Buster app for Piano_ or music puzzle games like _Tapt_.
 
 I have extensive experience of creating music, both acoustically and electronically and, having also flirted with being a visual artist, I am particularly interested in the **cross-overs** that can flourish between sonic and other creative activities, as demonstrated in my BA degree in Music, in which I minored in Visual Performance, and having since worked collaboratively in the production of multi-disciplinary installation, contemporary dance, film and theatre.  
@@ -136,6 +148,7 @@ But, more immediately, I would like to concentrate on adding sound to my App Jam
 * **Time-based:** I will use three sessions on consecutive days: the first to creating my app jam sound library, the second for research and learning  and the third for implementation.
 
 <br><br>
+
 ## Conclusion
 
 One of the most useful things I have learned has been the importance of constantly reacting to my achievements and failures and assessing what I have learned from them.  This has led me to continually re-appraise the goals I have set myself and helped me move forward in terms of my ideas, expectations and ambitions.  As a result, rather than tie my goals down to their initial incarnations, I have allowed them to evolve naturally so that they can better suit what I have learned since they were first put onto paper. 

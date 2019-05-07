@@ -21,32 +21,48 @@ published: true
 Firstly, as I have no firm idea of where to start, I will take a somewhat _scattershot_ approach. Below I will firstly show a brief indication - not much more than a list - of what I found during my initial research. Following this, I will delve a little further into a selection of the results from which, given I am now coming from a more informed position, I will have begun forming an idea of any potential for my purpose.
 <br><br>
 
-# Animation<br>
+## Animation<br>
 Whist researching browser-based animation solutions, I innevitably came across some that are more specificially oriented towards games or that are probably more suitable for attractive and interactive website design.<br>
 
 **[anime.js](https://animejs.com/)**
+
+![Anime JS](\images\animejs.gif)
+
 * open source
 * fast
 * lightweight
 <br>
 
 **[three.js](https://threejs.org/)**
+
+![Three JS](\images\threejs.jpg)
+
 * 3D rendering engine
 * Been around a while - well established but maybe being superceded.
 <br>
 
 **[velocity.js](http://velocityjs.org/)**
+
+![Velocity JS](\images\velocityjs.png)
+
 * Not the best for games
 * Used in WhatsApp
 <br>
 
 **[popmotion.js](https://popmotion.io/)**
+
+![Popmotion](\images\popmotion.png)
 <br>
 
 **[mojs](https://github.com/mojs/mojs/)**
+
+![MoJS](\images\mojs.png)
 <br> 
 
 **[phaser](https://phaser.io/)**
+
+![Phaser](\images\phaser.jpg)
+
 * Game engine
 * Very popular
 * Good with typescript
@@ -55,6 +71,9 @@ Whist researching browser-based animation solutions, I innevitably came across s
 <br>
 
 **[Greensock GSAP](https://greensock.com/)**
+
+![Greensock GSAP](\images\greensock.png)
+
 * Been around a long time and is very well supported
 * large community
 * Works well with pure JavaScript, of course, and with Vue, React and Angular. 
@@ -63,16 +82,20 @@ Whist researching browser-based animation solutions, I innevitably came across s
 * Some of the libraries, such as Draggable, could be very useful for more simple games 
 * Autism games / apps come to mind. 
 
-**[An example of GASP with Pixi.js](https://www.goodboydigital.com/case-study/star-wars-arcade)**
+**[Starwars Arcade - an example of GASP with Pixi.js](https://www.goodboydigital.com/case-study/star-wars-arcade)**
 
 **[pixi.js](http://www.pixijs.com/)**
+
+![Pixi JS](\images\pixijs.jpg)
+
 * Open source
 * Rendering engine
 * demos on website look impressive
 * above example of Pixi.js with GASP is impressive
 
 **[p5.js](https://p5js.org/)**
->p5.js is a JavaScript library. It is not a port or emulation of the original Processing but is a re-imagining in native JavaScript. ... Processing.js was used to convert & run Processing .pde files in a web browser, whilst when using p5.js you will be writing your code directly in JavaScript - [What is the difference between p5.js and processing.js](https://teamtreehouse.com/community/what-is-the-difference-between-p5js-and-processingjs)
+
+![p5.js](\images\p5js.png)
 
 * Drawing library
 * Looks good for sound / animation in the browser
@@ -83,9 +106,10 @@ Whist researching browser-based animation solutions, I innevitably came across s
 **[Some impressive browser-based animation games](http://cycleblob.com/)**
 
 **[Making an animated sprite image in JavaScript](https://medium.com/dailyjs/how-to-build-a-simple-sprite-animation-in-javascript-b764644244aa)**
-<br><br>
 
-# **Game** frameworks and rendering engines
+<br><br><br>
+
+## **Game** frameworks and rendering engines
 **[List of HTML5 game engines](https://html5gameengine.com/)**
 <br>
 
@@ -106,9 +130,13 @@ Whist researching browser-based animation solutions, I innevitably came across s
 
 **Adobe Creative Cloud - a suite of creative tools**
 [Adobe Animate CC](https://www.adobe.com/uk/products/animate.html)
-<br><br>
+<br><br><br>
 
-# **WebVR** - this I intend to explore later on the course.
+
+## **WebVR** - this I intend to explore later on the course.
+
+![WebVR](\images\webvr-logo-square-small.png)
+<br><br><br>
 
 # One of the most useful articles I have found: -
 **[Web Animation — A comprehensive overview](https://medium.com/@evejweinberg/web-animation-everything-you-need-to-know-in-too-much-detail-91bf5d48f980)**<br>
@@ -124,7 +152,7 @@ Whist researching browser-based animation solutions, I innevitably came across s
 
 
 **[GreenSock 101 course](https://ihatetomatoes.net/get-greensock-101/)**
-<br><br>
+<br><br><br>
 
 ## Further research
 
