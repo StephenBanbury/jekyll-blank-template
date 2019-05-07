@@ -45,4 +45,4 @@ Since finishing my degree, I have found my computer-related hobby gradually incr
 
 In 2017, when I first saw the title of the this MA - _Creative App Development_ - I was immediately struck by the way the combination of these words seemed to encompass everything I wished to learn and achieve in my professional life; they instilled in me a deep-seated desire to somehow find a way on to the course. If I was not able to do so, at least I knew that such things exist. A spark had been ignited.
 
-Luckily, with perfect timing, I was made redundant! I was given enough money by my former employer to fund my place on the MA and to tide me over for a while until I found my next day job; this I began exactly two weeks before I embarked on my new life as a Falmouth distance-learning MA student. I could not have been happier!
+Luckily, with perfect timing, I was made redundant! I was given enough money by my former employer to fund my place on the MA and to tide me over for a while until I found my next day job, which I began exactly two weeks before I embarked on my new life as a Falmouth distance-learning MA student. I could not have been happier!
