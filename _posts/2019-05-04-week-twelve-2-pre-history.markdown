@@ -31,7 +31,7 @@ I did know something about the new technologies driving the industry, of web dev
 
 I also have no formal qualifications in the area of computers, software development, mathematics or science. Most of my colleagues seemed to come from one of these areas and I felt I would benefit from learning and solidifying my knowledge and skills, as well as providing a boost for my CV.
 
-# My ealy years
+# My early years
 
 My background, academically at least, is in the arts – particularly music – although I have always been interested in technology generally and computers specifically. I taught myself to code back in the early 80s through studying listings in magazines and trying simple ideas out on the ZX81 on display in my local WHSmiths. Progress continued on my ZX Spectrum and later a BBC Micro, which I regard as the greatest learning tool in history! 
 

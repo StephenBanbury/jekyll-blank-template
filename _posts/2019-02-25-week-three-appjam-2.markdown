@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Three - AppJam 2 - The Odd Word Out
+title: Week Three - App Jam 2 - The Odd Word Out
 published: true
 ---
 
@@ -18,7 +18,7 @@ My initial idea for such a game was for the player to single out the word that i
 Using ideas outlined earlier surrounding the use of online Web API services for generating words and related meanings, I imagined a random word being taken as a 'seed' and used to generate multiple related words. Added to this list of _synonyms_ would be another, completely unrelated word - this would be the _target_. For the unrelated word I had hoped to use an **API service with a facility dedicated to producing random words**. Finding one that is free and available and that produces usable results proved, given the time limitations, to be not possible. A point was reached where I needed to make a decision - continue looking for such an API or continue, in the knowledge that I could use 'dummy' data for the purpose of development. Understanding how easy it could be to get caught stuck trying to solve a problem that is surmountable in the short term, I decided to move forward without the API during this phase.<br><br>
 ![The Odd Word Out 2](\images\the-odd-word-out-2.jpg)<br><br>
 **Arcade-style word games**<br>
-These same basic mechanical principles could potentially underpin numerous game ideas and strategies. Armed with this knowledge, in a fairly whimsical moment I was taken back to the now relatively simple, but hugely enjoyable, games of my youth. I found myself entertaining thoughts of thesaurus-generated aliens being shot down, eaten or knocked out by ping-pong balls. I decided this was a relatively fertile territory and the direction I should continue to explore. I realised that even if I was ultimately not able to recreate or, perhaps more accurately, plunder from such a unique and timeless classic as **Asteroids**, at least I could maybe make use of the simple ideas underpinning this game as the inspiration for something new.
+The same basic mechanical principles could potentially underpin numerous game ideas and strategies. Armed with this knowledge, in a fairly whimsical moment I was taken back to the now relatively simple, but hugely enjoyable, games of my youth. I found myself entertaining thoughts of thesaurus-generated aliens being shot down, eaten or knocked out by ping-pong balls. I decided this was a relatively fertile territory and the direction I should continue to explore. I realised that even if I was ultimately not able to recreate or, perhaps more accurately, plunder from such a unique and timeless classic as **Asteroids**, at least I could maybe make use of the simple ideas underpinning this game as the inspiration for something new.
 <br><br>
 ![Word Arcade Games](\images\word-arcade-1.jpg)<br>
 

@@ -11,7 +11,7 @@ As mentioned in my week four post on [Critical Reflection]({% link _posts/2019-0
 
 ![DragonBox](\images\dragonbox.jpg) ![DragonBox Game Action](\images\dragonbox-action.jpg) 
 
-In the context of my own interests, Serious Games relates to the games that support an educational intent. The highlighted app `DragonBox` certainly applies here. I particularly enjoy the way that the app introduces the concept of algebra, without actually mentioning algebra, or making it in any way clear that it is algebra that the player is actually engaging with. The idea of learning-made-fun is very useful and has to be a very successful way of achieving its aims. The same can be said for those Serious Game apps that fall more into the _simulator_ category where, for instance, a professional can practice the tools of their trade in a virual environment with an emphasis on the fun element.
+In the context of my own interests, Serious Games relates to the games that support an educational intent. The highlighted app `DragonBox` certainly applies here. I particularly enjoy the way that the app introduces the concept of algebra, without actually mentioning algebra, or making it in any way clear that it is algebra that the player is actually engaging with. The idea of learning-made-fun is very useful and has to be a very successful way of achieving its aims. The same can be said for those Serious Game apps that fall more into the _simulator_ category where, for instance, a professional can practice the tools of their trade in a virtual environment with an emphasis on the fun element.
 <br><br>
 
 ![Hibitica 1](\images\habitica-1.jpg) ![Habitica 2](\images\habitica-2.jpg) 
@@ -119,5 +119,5 @@ These really force one to consider, **_what exactly is a game?_**<br>
 * **Make it specific**: I would like to understand how the three types of app outlined in this week's course material that I find particularly interesting - serious games, gamification, experimental art app - fit within existing markets; what kind of niche have they found for themselves, what is their competition, who is their audience?.
 * **Make it measureable**: I will research three apps - one each of the three types outlined above and write a short piece of 200-400 words for each.
 * **Make it attainable**: I think one of each type and a brief overview is entirely do-able within a few hours.
-* **Make it Relevant**: The information I gain from the exercise will be extremely useful in understanding the kinds of markets that I am likely to be intering myself. I will reflect on how I feel about the respective niches once I understand them better.
-* **Make it Time-based**: I will spend aproximately one hour on each app and no more than two on any one.<br>
+* **Make it Relevant**: The information I gain from the exercise will be extremely useful in understanding the kinds of markets that I myself am likely to be entering. I will reflect on how I feel about the respective niches once I understand them better.
+* **Make it Time-based**: I will spend approximately one hour on each app and no more than two on any one.<br>
