@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Ten - Who Else is Making Apps and What Approaches Do they Use?
+title: Week Ten - Who Else Is Making Apps And What Approaches Do They Use?
 published: true
 ---
 

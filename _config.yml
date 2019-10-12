@@ -16,11 +16,11 @@
 title: Creative Reflective Journal
 email: mr.stephen.even@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My Creative Reflective Journal as part of the Falmouth University Creative App Development Masters Degree programme.
+  My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://journal.stephenbanbury.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stephen_banbury
-github_username:  stephenbanbury
+github_username: stephenbanbury
 
 # Build settings
 markdown: kramdown

@@ -6,7 +6,7 @@ published: true
 
 This week we have been considering the different types of app and the importance of understanding the markets in which they exist. I found this particularly interesting and useful. I came onto the course with an open mind as to the kind of direction I might follow and, although I've come across many of the types of app mentioned here, it is interesting to scrutinise their characteristics in order to categorise them and understand their placement within the existing markets.
 
-As mentioned in my week four post on [Critical Reflection]({% link _posts/2019-03-10-week-four-critical-reflection.markdown %}), my intention on coming onto the course was not necessarily to follow a path of game development. However, on the back of some game-like efforts as responses to the course assignments thus far, I have been finding it necessary to start considering exactly what a game is. With this in mind, of the types of app suggested by this week's course material, for me three stand out - i.e. `Serious Games`, `Gamification` and the `Experimental Art App`.
+As mentioned in my week four post on [Critical Reflection]({% link _posts/GAM710/2019-03-10-week-four-critical-reflection.markdown %}), my intention on coming onto the course was not necessarily to follow a path of game development. However, on the back of some game-like efforts as responses to the course assignments thus far, I have been finding it necessary to start considering exactly what a game is. With this in mind, of the types of app suggested by this week's course material, for me three stand out - i.e. `Serious Games`, `Gamification` and the `Experimental Art App`.
 <br><br>
 
 ![DragonBox](\images\dragonbox.jpg) ![DragonBox Game Action](\images\dragonbox-action.jpg) 
