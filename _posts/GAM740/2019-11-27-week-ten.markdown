@@ -1,0 +1,18 @@
+---
+layout: post
+title: Week Ten
+published: true
+---
+
+
+
+Week 10 -Finishing the main phase - happy with holding the prototype where it is.
+Agreed with client.
+
+To spend the majority of the remaining time experimenting with other ideas.
+
+Want to experiment with force / forces
+looked at Unity Terrain, but it seems this is a bit of a 'fabrication' - wind zones make grass and trees sway, but this it not quite what I'm interested in. I want to create a 'real' force on objects caused and affected by 'wind' force. I want it to make trees and cars fly through the air, waves crash on the coastline and walls to fall down.
+
+Maybe [Unity3d Creating Rigidbody Wind Zones](https://www.youtube.com/watch?v=iCMhrKOuBZg) will help.
+

@@ -33,7 +33,7 @@ The **Shelter Box** project is more loosely defined. Our initial conversation wa
 
 The **Sowenna** project is likely to be based around the idea of a beach environment. The young people invovled in the CAMHS project have put forward what they would like - one, or maybe two, have been completed or are close to completion, whilst the one remaining is the beach environment. It's easy to start envisioning a product armed with this information.
 
-**Shelter Box** have not stipulated any specific equiment must be used. They seem open to exploring my own suggestions, which would probably be for the Oculus Quest, seeing as 
+**Shelter Box** have not stipulated any specific equipment must be used. They seem open to exploring my own suggestions, which would probably be for the Oculus Quest, seeing as 
 1. I have purchased one and this is what I would like to use 
 2. it is relatively inexpensive as no powerful computer is required and 
 3. it is untethered and therefore not limited to specific spacial requirements in the same way as 'standard' headsets.
@@ -45,12 +45,38 @@ Both projects could potentially continue after this initial stage. In the case o
 
 ## Initial thoughts on ideation
 
-**Sowenna**
+**- Sowenna -**
 
 Lying on a beach is generally a calming experience. It's easy to understand why it was chosen by the young people as one of their prefered ideas for a VR sensory environment. Using this as a starting point for developing ideas, I can envisage lying down watching clouds rolling by, birds flying overhead, birds soaring or holding their position against the breeze. A sun lamp could be used to to provide real heat to suplement the virtual sun; an electric fan could provide the breeze. Turning your head towards the horizon would bring the pulsating sea into view, with waves hitting and breaking on the shore. Drift wood would undulate on its surface. The mesmerizing, repetitive sound of the rolling waves would be relaxing and sleep-inducing.
 
-**Shelter Box**
+**- Shelter Box -**
 
 As a starting point, I can imagine a kind of game, where the 'player' is in a disaster control centre awaiting incoming reports of different kinds of disasters, as they happen. It would be necessary to quickly grab, from shelves and hooks, the equipment that would be required for the particular disaster - be it a hurricane causing villages to be destroyed, floods destroying crops and causing potential food shortages, or conflict causing mass displacement of people - and to put this equipment in a blue Shelter Box. The time scale for this would be unrealistic, but designed to put the player under pressure and add to the sense of jeopardy. There could be a budget to which the player would need to stay within, which would be used up by the resources being placed into the box. The budget could be periodically refreshed by the addition of funds via charitable support - perhaps this could be in the form of game-style 'power-ups', or via the requirement to periodically instigate a public information event to replenish funds.
 
+# Envisioning 
+
+* product level planning
+* capturing the essence of the product.
+* a lightweight alternative to _product chartering_ 
+* a fast process to allow us to _test assumptions, build tangible prototypes and iron out the finer details of the product_.
+* priorities tend to change over time.
+* avoid _analysis paralysis_, i.e. spending too much time defining, not enough actual building.
+
+Kenneth Rubens’ Essential Scrum: 
+
+>We don’t want to spend too much time or effort envisioning because we want to quickly advance past the guessing stage, where we think we know the needs of the customer and the potential solution, to the fast feedback stage.
+
+The aim is to get closer and closer to product perfection through a continuous cycle of planning, implementation, testing and evaluation - i.e. the Agile process.
+
+Initial envisioning - just enough info to help define the first minimal release.
+
+Rubin suggests, 
+>“Plan to Learn Fast and Pivot When necessary.”
+
+Output of the envisioning stage is commonly known as the product charter. This document should contain:
+* The product vision, a simple summary statement that defines the project.
+* Target Customer
+* Key Benefits
+* Purpose of the project.
+* Information about roles and responsibilities (if working in a team - but as an individual it will help manage client's expectations by communicating what you agree to take on).
 

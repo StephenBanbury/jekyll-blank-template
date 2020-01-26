@@ -1,10 +1,258 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-08T00:43:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Week Three - Estimation</title><link href="http://localhost:4000/2019/10/07/week-three-estimation.html" rel="alternate" type="text/html" title="Week Three - Estimation" /><published>2019-10-07T00:00:00+01:00</published><updated>2019-10-07T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/07/week-three-estimation</id><content type="html" xml:base="http://localhost:4000/2019/10/07/week-three-estimation.html">&lt;h2 id=&quot;chosen-brief&quot;&gt;Chosen Brief&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-25T16:48:47+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-01-25T16:08:02+00:00</published><updated>2020-01-25T16:08:02+00:00</updated><id>http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Week Eleven</title><link href="http://localhost:4000/2019/12/05/week-eleven.html" rel="alternate" type="text/html" title="Week Eleven" /><published>2019-12-05T00:00:00+00:00</published><updated>2019-12-05T00:00:00+00:00</updated><id>http://localhost:4000/2019/12/05/week-eleven</id><content type="html" xml:base="http://localhost:4000/2019/12/05/week-eleven.html">&lt;p&gt;Enjoyed putting together a disaster zone!
+Adding force of a value and in a direction (Vector3) when rigidbody enters ‘wind zone’.&lt;/p&gt;
+
+&lt;p&gt;Added HUD display&lt;/p&gt;
+
+&lt;p&gt;Made this scene the first - witness the force, then back to base to do something about it.&lt;/p&gt;
+
+&lt;p&gt;Testing: -&lt;/p&gt;
+
+&lt;p&gt;Roshan - 11 year old has no problem with the mechanics.
+Kirti - 47 year old non-gamer has some issues.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How to use the controllers&lt;/li&gt;
+  &lt;li&gt;What to do when the active objects - e.g. table of objects - is not immediately in front of user?&lt;/li&gt;
+  &lt;li&gt;Would a help be useful? - this could be a room where someone explains things. Not everyone has the Oculus First Steps. Could I make a button available which would put everything in front of the player - a comfort button/cushion?&lt;/li&gt;
+  &lt;li&gt;Narrative / instructions not clear&lt;/li&gt;
+  &lt;li&gt;If prep room activity not completed, should it be possible to still do the personal items collection?&lt;/li&gt;
+  &lt;li&gt;When at airport - perhaps say ‘you didn’t complete the tasks, but here is your package anyway - well done for trying! Have a nice flight!!’&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Problem is that not everyone has experienced VR. Gamers have an easier time of it, but those who do not have much gaming experience could struggle. How to make it easy? Comfortable?&lt;/p&gt;</content><author><name></name></author><summary type="html">Enjoyed putting together a disaster zone! Adding force of a value and in a direction (Vector3) when rigidbody enters ‘wind zone’.</summary></entry><entry><title type="html">Week Ten</title><link href="http://localhost:4000/2019/11/27/week-ten.html" rel="alternate" type="text/html" title="Week Ten" /><published>2019-11-27T00:00:00+00:00</published><updated>2019-11-27T00:00:00+00:00</updated><id>http://localhost:4000/2019/11/27/week-ten</id><content type="html" xml:base="http://localhost:4000/2019/11/27/week-ten.html">&lt;p&gt;Week 10 -Finishing the main phase - happy with holding the prototype where it is.
+Agreed with client.&lt;/p&gt;
+
+&lt;p&gt;To spend the majority of the remaining time experimenting with other ideas.&lt;/p&gt;
+
+&lt;p&gt;Want to experiment with force / forces
+looked at Unity Terrain, but it seems this is a bit of a ‘fabrication’ - wind zones make grass and trees sway, but this it not quite what I’m interested in. I want to create a ‘real’ force on objects caused and affected by ‘wind’ force. I want it to make trees and cars fly through the air, waves crash on the coastline and walls to fall down.&lt;/p&gt;
+
+&lt;p&gt;Maybe &lt;a href=&quot;https://www.youtube.com/watch?v=iCMhrKOuBZg&quot;&gt;Unity3d Creating Rigidbody Wind Zones&lt;/a&gt; will help.&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 10 -Finishing the main phase - happy with holding the prototype where it is. Agreed with client.</summary></entry><entry><title type="html">Week Six - Intellectual Property Law</title><link href="http://localhost:4000/2019/11/04/week-six-intellectual-property-law.html" rel="alternate" type="text/html" title="Week Six - Intellectual Property Law" /><published>2019-11-04T00:00:00+00:00</published><updated>2019-11-04T00:00:00+00:00</updated><id>http://localhost:4000/2019/11/04/week-six-intellectual-property-law</id><content type="html" xml:base="http://localhost:4000/2019/11/04/week-six-intellectual-property-law.html">&lt;h1 id=&quot;sprint-retrospective&quot;&gt;Sprint Retrospective&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What went well&lt;/li&gt;
+  &lt;li&gt;What went wrong&lt;/li&gt;
+  &lt;li&gt;The key challenges / obstacles to be overcome&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What should I:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Start doing&lt;/li&gt;
+  &lt;li&gt;Stop doing&lt;/li&gt;
+  &lt;li&gt;Continue doing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;21/11/2019
+There has been lots and lots of experimentation with movement. Building a teleporation system. How to get it to work in a way that is usable and intuative. Is it required at all? Can we combine it with joystick movement? Should we use joystick alone? If so, should we reduce the size of the world? Can we stop orientation making it extra confusing - would like to just have head pointing the same way no matter where it is oriented before, during or after teleportation.&lt;/p&gt;
+
+&lt;p&gt;One can spend too long on these issues. Even though it is clearly sometimes better to put it aside for now and come back to it later, to allow faster prototyping, it is often difficult to let go! A discipline that needs working on.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Focusing&lt;/em&gt; on specific areas - set goals that are targeted and clearly defined. I’ve discovered the importance of this. This is where sprint becomes important, and using the kanban board efficiently and precisely.&lt;/p&gt;
+
+&lt;p&gt;My client is happy to see what I come up with. But because of this I need to be clearer and more targeted in my approach - it’s up to me to be this way. If not, if too loose and open to meandering, how does one assess one’s direction of travel? Goals need to be set in order to know how to gaugue progress and ensure you are on track. They also mean that the client is able to come on the journey with you and see where it all is leading. It provides them the oportunity to make suggestions and requrests from an informed position, rather than just seeing where you end up and then, maybe too late, making judgement calls on the results.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sprint Retrospective</summary></entry><entry><title type="html">Week Five - Business Models</title><link href="http://localhost:4000/2019/10/21/week-five-business-models.html" rel="alternate" type="text/html" title="Week Five - Business Models" /><published>2019-10-21T00:00:00+01:00</published><updated>2019-10-21T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/21/week-five-business-models</id><content type="html" xml:base="http://localhost:4000/2019/10/21/week-five-business-models.html">&lt;p&gt;Leon Brown - a few different business models for the creative app developer:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software Development as a Service (SDaaS)&lt;/li&gt;
+  &lt;li&gt;Software as a Product (SaaP)&lt;/li&gt;
+  &lt;li&gt;Software as a Service (SaaS)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SDaaS - monetisation of your skills, trading your time for developing software. 
+Low risk. Minimal cost. Flexible (your time, you decide).
+Precarious. No guarantees. Low profic margins. Competition - always someone who will do it cheaper.&lt;/p&gt;
+
+&lt;p&gt;SaaP - developer builds the product and reaps the rewards. Create a team of experts - product managers, graphic designers, front/back-end developers, marketers etc..
+Control of vision. Freedom, flexibility, potential for profit.
+Cost - heavier seeding financially. Time waiting for a return. Risk. Failure = debt.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\product-lifecycle.jpg&quot; alt=&quot;Product Lifecycle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SaaS - monetise the output of software rather than the software itself, through monthly subscriptions or yearly payments etc.
+Pros and cons similar to SaaP, plus :
+Pros - the potential for more diverse income streams, responding to feedback, continuous income
+Cons - upkeep costs, duty of care to users - boring details such as payment methods, data storage, authentication.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Canvanizer&lt;/strong&gt;
+&lt;a href=&quot;https://canvanizer.com/&quot;&gt;Canvanizer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Business Model Canvas Components&lt;/strong&gt;
+&lt;img src=&quot;\images\bus-model-canvas-components.jpg&quot; alt=&quot;Business Model Canvas Components&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;what-will-be-my-preferred-business-model&quot;&gt;What will be my preferred business model?&lt;/h1&gt;
+
+&lt;p&gt;Well, I’ve been building software for a while now and it is my day-job. I don’t really see myself continuing in this vein for much longer. Being a ‘code-monkey’ (any perceived slighting of the trade is not indentional) and continuualy learning new languages, platforms, techniques etc. whilst constantly striving to be close to the top of your profession, is certainly an interesting and stimulating activity. But as a be all and end all, I feel I would not / do not gain the pure satisfaction from this career as I once would have / did. To earn as much as I feel I need to as I and my young family gets older would add to this particular pressure. So, SDaaS is not my future.&lt;/p&gt;
+
+&lt;p&gt;Saap and SaaS are more interesting to me. Both have attractions. I think it depends on the type of product envisaged as much as what kind of model you would prefer to follow. It seems many products that would once have been part of the SaaP domain have moved into the SaaS domain. So there is some burring here. Perhaps SaaS is gaining a greater share of the market for a good reason. It is probably the way to go.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-prototype&quot;&gt;First prototype&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;End of Sprint 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The past two weeks I have been rapidly building my first prototype. I am fairly close to a MVP, one which I will be happy to show to my client for the purpose of discussion and feedback in order to progress to another level.&lt;/p&gt;
+
+&lt;p&gt;The prototype has so far been built upon the original idea, which came from early discussions with my client; that is, from what I have understood of their requirements, loose and free though they are. This freedom has, in fact, been excellent for this process, allowing my imagination the space to explore with the almost certain knowledge that what I come up with will be seriously considered as a foundation for building something more rounded, solid, developed. I really am very much looking forward to showing my progress thus far.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How is my experience going to inform my proposal and business model?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Leon Brown - a few different business models for the creative app developer:</summary></entry><entry><title type="html">Week Four - Client Contracts</title><link href="http://localhost:4000/2019/10/14/week-four-client-contracts.html" rel="alternate" type="text/html" title="Week Four - Client Contracts" /><published>2019-10-14T00:00:00+01:00</published><updated>2019-10-14T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/14/week-four-client-contracts</id><content type="html" xml:base="http://localhost:4000/2019/10/14/week-four-client-contracts.html">&lt;p&gt;&lt;img src=&quot;\images\emergency-control-centre-1.png&quot; alt=&quot;Crisis Control Centre 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\emergency-control-centre-2.png&quot; alt=&quot;Crisis Control Centre 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/cross-platform/unity-scripting-upgrade?view=vs-2019#targetText=NuGet%20is%20the%20package%20manager,are%20regenerated%2C%20undoing%20necessary%20configurations&quot;&gt;Adding NuGet packages in Unity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;client-contracts&quot;&gt;Client Contracts&lt;/h2&gt;
+
+&lt;p&gt;Having had little experience of this, the course material provides useful guidance for how to go about it.&lt;/p&gt;
+
+&lt;p&gt;Learning Outcomes:&lt;/p&gt;
+
+&lt;p&gt;LO1 - Explain why it is important to use client contracts.
+LO2 - Describe the structure of a client contract.
+LO3 - Develop a client contract appropriate to your own practice.&lt;/p&gt;
+
+&lt;p&gt;Useful resources include&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freelancersunion.org&quot;&gt;The Freelancers Union&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/gp/product/076116488X/ref=ox_sc_act_title_1?smid=A3P5ROKL5A1OLE&amp;amp;psc=1&quot;&gt;The Freelancer’s Bible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://clientsfromhell.net&quot;&gt;Clients from Hell&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In an article for shopify, &lt;a href=&quot;https://www.shopify.co.uk/partners/guides/grow-vol-1/how-to-write-a-contract&quot;&gt;Ryan Foster explains&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Keeping the contract short, focused and easy to understand helps reduce friction,
+allowing you to start the project quicker (and get your deposit invoice paid sooner!).
+Without a contract, your client may not clearly understand what they are paying for.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Helps avoid Feature Creep and other misunderstandings.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Defence mechanism&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Who owns the work?&lt;/li&gt;
+  &lt;li&gt;Avoid changes that are unreasonable halfway through project&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Prices and hours need to be sorted at the start&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A larger reputable company may have their own contract/agreement they want you to sign. If this is the case consider using this document as your own agreement&lt;/li&gt;
+  &lt;li&gt;Provide your own agreement to smaller clients&lt;/li&gt;
+  &lt;li&gt;If you are unsure they will pay, ask for an upfront deposit (make sure it it mentioned in the signed document)&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some advisors would suggest &lt;em&gt;always&lt;/em&gt; asking for an upfront deposit, no matter who the client is, unless you feel it is an important and valuable client and it may jeopordise getting the work.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Be careful what you sign&lt;/li&gt;
+  &lt;li&gt;Get an independent third party to check it if you are unsure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is easy to let your enthusiasm for the client and the brief get the best of you but keeping
+your feet on the ground and taking your time to dot the i’s and cross the t’s will insure that
+both your and the client’s expectations align and there will be no major misunderstanding
+further down the line.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;example-structure&quot;&gt;Example structure&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The company details (for both parties)&lt;/li&gt;
+  &lt;li&gt;A statement of intent (could be subject to change over the course of the project)&lt;/li&gt;
+  &lt;li&gt;Scope and deliverables
+  The details of what is going to be developed. This is a chance for you to constrain the project
+  and avoid feature creep. Concentrate on specifying the finer details such as:
+    &lt;ul&gt;
+      &lt;li&gt;What platforms will be targeted?&lt;/li&gt;
+      &lt;li&gt;How much content will be produced?&lt;/li&gt;
+      &lt;li&gt;What formats will be used?&lt;/li&gt;
+      &lt;li&gt;What performance benchmarks will be set?&lt;/li&gt;
+      &lt;li&gt;What is the process of review?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Revisions and Alterations
+    &lt;ul&gt;
+      &lt;li&gt;important that you protect yourself from a never ending cycle of alterations&lt;/li&gt;
+      &lt;li&gt;maybe specify the maximum allowance of alterations&lt;/li&gt;
+      &lt;li&gt;opportunity to apply a fee once the maximum has been passed&lt;/li&gt;
+      &lt;li&gt;gives the client the freedom to make changes beyond the scope of the original contract but they will do it at a cost and not for free&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deadlines &amp;amp; Approvals
+    &lt;ul&gt;
+      &lt;li&gt;when should the work be completed and are there any consequences to missing deadlines?&lt;/li&gt;
+      &lt;li&gt;how the work will be broken down and what criteria will it be measured against for completion&lt;/li&gt;
+      &lt;li&gt;Who is the point of contact for agreeing the completion at each point in the development process (named in the contract)?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Financial Matters
+    &lt;ul&gt;
+      &lt;li&gt;How much will the work cost?&lt;/li&gt;
+      &lt;li&gt;Are you charging by the hour or costing for the whole job?&lt;/li&gt;
+      &lt;li&gt;Always ask for a deposit, usually 10 - 30%.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Termination
+    &lt;ul&gt;
+      &lt;li&gt;Sometimes things go wrong&lt;/li&gt;
+      &lt;li&gt;allows you set the terms for termination that are balanced&lt;/li&gt;
+      &lt;li&gt;is shared but you do not end up fully out of pocket.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;IP
+    &lt;ul&gt;
+      &lt;li&gt;important that the contract stipulates who owns the work before and after the project is complete&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Signatures
+    &lt;ul&gt;
+      &lt;li&gt;making the contract binding&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;contract-generators&quot;&gt;Contract Generators&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://gist.github.com/malarkey/4031110&lt;/li&gt;
+  &lt;li&gt;http://docontract.com/&lt;/li&gt;
+  &lt;li&gt;https://www.freelancersunion.org/contract/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;non-disclosure-agreement-nda&quot;&gt;Non-disclosure Agreement (NDA)&lt;/h1&gt;
+
+&lt;p&gt;Both parties to promise not to release information about the invention before it comes to
+market.&lt;/p&gt;
+
+&lt;p&gt;https://www.gov.uk/government/publications/non-disclosure-agreements&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Templates&lt;/em&gt; are good for getting started but It is important that you invest time
+creating a contract that is unique to your business needs&lt;/p&gt;
+
+&lt;p&gt;If you are concerned that your contract is not appropriate to your needs then always get a second opinion from a
+professional.&lt;/p&gt;
+
+&lt;p&gt;https://www.sitepoint.com/5-critical-contracts-for-mobile-app-developers/
+http://99u.com/articles/21927/dont-get-screwed-the-contract-provisions-every-creative-needs-to-know
+http://www.hongkiat.com/blog/freelance-contract-clauses/
+https://www.smashingmagazine.com/2009/10/freelance-contracts-dos-and-donts/&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Three - Estimation</title><link href="http://localhost:4000/2019/10/07/week-three-estimation.html" rel="alternate" type="text/html" title="Week Three - Estimation" /><published>2019-10-07T00:00:00+01:00</published><updated>2019-10-07T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/07/week-three-estimation</id><content type="html" xml:base="http://localhost:4000/2019/10/07/week-three-estimation.html">&lt;h2 id=&quot;chosen-brief&quot;&gt;Chosen Brief&lt;/h2&gt;
 
 &lt;p&gt;Light a firework… I have chosen a brief!&lt;/p&gt;
 
 &lt;p&gt;It’s the … drum roll….&lt;/p&gt;
 
-&lt;p&gt;Shelter Box &lt;em&gt;Conference Booth Games&lt;/em&gt; Project!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shelter Box &lt;em&gt;Conference Booth Games&lt;/em&gt; Project!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Having had two very constructive conversations with both potential clients, the main thing that swung it was the requirement of the Cornwall NHS Trust &lt;em&gt;Sowenna Sensory Room&lt;/em&gt; project to use their equipement, which is in Cornwall, wareas I am 6 hours away in Cardiff.&lt;/p&gt;
 
@@ -14,7 +262,7 @@
 
 &lt;h2 id=&quot;writing-a-proposal-for-the-shelter-box-project&quot;&gt;Writing a proposal for the Shelter Box project&lt;/h2&gt;
 
-&lt;p&gt;I began forming an idea for a prototype in my &lt;a href=&quot;/2019/10/05/week-two-envisioning.html&quot;&gt;&lt;strong&gt;previous post&lt;/strong&gt;&lt;/a&gt;. Whilst I have further refined my ideas I don’t wish to put them down too early, to allow for an iterative, agile approach in which the idea can develop as it progresses. So for now I will put together a proposal that is little more than an outline and a statement of a realistic goal.&lt;/p&gt;
+&lt;p&gt;I began forming an idea for a prototype in my &lt;a href=&quot;/2019/10/05/week-two-envisioning.html&quot;&gt;&lt;strong&gt;previous post&lt;/strong&gt;&lt;/a&gt;. Whilst I have further refined my ideas I don’t wish to put them down too early, to allow for an iterative, agile approach in which the idea can develop as it progresses. So for now I will put together a proposal that is little more than an outline and a statement of one possible goal.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Prototype of a game&lt;/li&gt;
@@ -24,8 +272,26 @@
   &lt;li&gt;As resources are depleated, the player will need to replenish them by ordering a fund-raising campaign or digging into existing reserves etc.&lt;/li&gt;
   &lt;li&gt;The intensity and speed of incoming disasters increases over time, increasing sence of jeapordy.&lt;/li&gt;
   &lt;li&gt;Game-play could be vary from simply grabbing resources from shelves, hangers, bags or hooks, to for example, floating around ready to grab as they pass.&lt;/li&gt;
-  &lt;li&gt;A pPlayer can never win in this game, but can achieve successes and suffer failures, accumulating points along the way.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Chosen Brief</summary></entry><entry><title type="html">Week Two - Envisioning</title><link href="http://localhost:4000/2019/10/05/week-two-envisioning.html" rel="alternate" type="text/html" title="Week Two - Envisioning" /><published>2019-10-05T00:00:00+01:00</published><updated>2019-10-05T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/05/week-two-envisioning</id><content type="html" xml:base="http://localhost:4000/2019/10/05/week-two-envisioning.html">&lt;h2 id=&quot;scrum-envisioning--product-planning&quot;&gt;Scrum Envisioning / Product Planning&lt;/h2&gt;
+  &lt;li&gt;A player can never win in this game, but can achieve successes and suffer failures, accumulating points along the way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;returning-to-envisioning-as-a-process&quot;&gt;Returning to Envisioning as a process&lt;/h2&gt;
+
+&lt;p&gt;I have put together the following: -&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vision&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Through an engaging and enjoyable experience, using the emersive nature of a Virtual Reality environment, the product will inform the uninitiated of the core work undertaken by Shelter Box. User-interaction within a gamified experiencial environment, in which direct involvment is encouraged with the process of responding to crisis and emergency, will form the basis of a lasting and memorable experience, raising awareness and increasing the likelihood of potential involvment, at whatever level, with Shelter Box’s work in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Backlog Creation / Epic&lt;/strong&gt; (&lt;a href=&quot;http://www.yodiz.com/blog/what-is-epic-in-agile-methodology-definition-and-template-of-epic/&quot;&gt;see definition&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;In a virtual ‘control centre’ setting, the ‘player’ will be confronted with a number of disaster scenarios that have recently or are currently taking place. The object will be, through actions such as directing appropriate resources and effective actions, to respond effectively in order to provide relief ‘on the ground’ whilst, at the same time, avoiding the obstacles and hindrances that inevitably serve to frustrate the process.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Product Roadmap&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A roadmap outlining my releases will be in line with my sprints. I will work in three sprints of three weeks each. Suffice to say, sprint 1 begins at the start of week 4 and I intend to have a shippable product by the end of week 6. This will be a minimum viable product and will achieve the central goal already outlined - it will be playable, fun and informative, with the proviso that this is an agile process and things can, and probably will, change.&lt;/p&gt;
+
+&lt;p&gt;As always, change will be welcomed and change will be embraced!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosen Brief</summary></entry><entry><title type="html">Week Two - Envisioning</title><link href="http://localhost:4000/2019/10/05/week-two-envisioning.html" rel="alternate" type="text/html" title="Week Two - Envisioning" /><published>2019-10-05T00:00:00+01:00</published><updated>2019-10-05T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/05/week-two-envisioning</id><content type="html" xml:base="http://localhost:4000/2019/10/05/week-two-envisioning.html">&lt;h2 id=&quot;scrum-envisioning--product-planning&quot;&gt;Scrum Envisioning / Product Planning&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Thorough research&lt;/strong&gt;
@@ -60,7 +326,7 @@
 
 &lt;p&gt;The &lt;strong&gt;Sowenna&lt;/strong&gt; project is likely to be based around the idea of a beach environment. The young people invovled in the CAMHS project have put forward what they would like - one, or maybe two, have been completed or are close to completion, whilst the one remaining is the beach environment. It’s easy to start envisioning a product armed with this information.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Shelter Box&lt;/strong&gt; have not stipulated any specific equiment must be used. They seem open to exploring my own suggestions, which would probably be for the Oculus Quest, seeing as&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shelter Box&lt;/strong&gt; have not stipulated any specific equipment must be used. They seem open to exploring my own suggestions, which would probably be for the Oculus Quest, seeing as&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;I have purchased one and this is what I would like to use&lt;/li&gt;
   &lt;li&gt;it is relatively inexpensive as no powerful computer is required and&lt;/li&gt;
@@ -73,13 +339,48 @@
 
 &lt;h2 id=&quot;initial-thoughts-on-ideation&quot;&gt;Initial thoughts on ideation&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Sowenna&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;- Sowenna -&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Lying on a beach is generally a calming experience. It’s easy to understand why it was chosen by the young people as one of their prefered ideas for a VR sensory environment. Using this as a starting point for developing ideas, I can envisage lying down watching clouds rolling by, birds flying overhead, birds soaring or holding their position against the breeze. A sun lamp could be used to to provide real heat to suplement the virtual sun; an electric fan could provide the breeze. Turning your head towards the horizon would bring the pulsating sea into view, with waves hitting and breaking on the shore. Drift wood would undulate on its surface. The mesmerizing, repetitive sound of the rolling waves would be relaxing and sleep-inducing.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Shelter Box&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;- Shelter Box -&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;As a starting point, I can imagine a kind of game, where the ‘player’ is in a disaster control centre awaing incoming reports of different kinds of disasters, as they happen. It would be necessary to quickly grab, from shelves and hooks, the equipment that would be required for the particular disaster at hand - be it a hurricane causing villages to be destroyed, floods destroying crops and causing potential food shortages, or conflict causing mass displacement of people - and to put this equipment in a blue Shelter Box box. The time scale for this would be unrealistic, but designed to put the player under pressure and add to the sense of jeopardy. There could be a budget to which the player would need to stay within, which would be used up by the resources being placed into the box. The budget could be periodically refreshed by the addition of funds via charitable support - perhaps this could be in the form of game-style ‘power-ups’, or via the requirement to periodically instigate a public information event to replenish funds.&lt;/p&gt;</content><author><name></name></author><summary type="html">Scrum Envisioning / Product Planning</summary></entry><entry><title type="html">Week Two - Early Client Contact</title><link href="http://localhost:4000/2019/10/02/week-two-early-client-contact.html" rel="alternate" type="text/html" title="Week  Two - Early Client Contact" /><published>2019-10-02T00:00:00+01:00</published><updated>2019-10-02T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/02/week-two-early-client-contact</id><content type="html" xml:base="http://localhost:4000/2019/10/02/week-two-early-client-contact.html">&lt;p&gt;&lt;strong&gt;I think I am going to chose one of the briefs put forward by the university.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a starting point, I can imagine a kind of game, where the ‘player’ is in a disaster control centre awaiting incoming reports of different kinds of disasters, as they happen. It would be necessary to quickly grab, from shelves and hooks, the equipment that would be required for the particular disaster - be it a hurricane causing villages to be destroyed, floods destroying crops and causing potential food shortages, or conflict causing mass displacement of people - and to put this equipment in a blue Shelter Box. The time scale for this would be unrealistic, but designed to put the player under pressure and add to the sense of jeopardy. There could be a budget to which the player would need to stay within, which would be used up by the resources being placed into the box. The budget could be periodically refreshed by the addition of funds via charitable support - perhaps this could be in the form of game-style ‘power-ups’, or via the requirement to periodically instigate a public information event to replenish funds.&lt;/p&gt;
+
+&lt;h1 id=&quot;envisioning&quot;&gt;Envisioning&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;product level planning&lt;/li&gt;
+  &lt;li&gt;capturing the essence of the product.&lt;/li&gt;
+  &lt;li&gt;a lightweight alternative to &lt;em&gt;product chartering&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;a fast process to allow us to &lt;em&gt;test assumptions, build tangible prototypes and iron out the finer details of the product&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;priorities tend to change over time.&lt;/li&gt;
+  &lt;li&gt;avoid &lt;em&gt;analysis paralysis&lt;/em&gt;, i.e. spending too much time defining, not enough actual building.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kenneth Rubens’ Essential Scrum:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We don’t want to spend too much time or effort envisioning because we want to quickly advance past the guessing stage, where we think we know the needs of the customer and the potential solution, to the fast feedback stage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The aim is to get closer and closer to product perfection through a continuous cycle of planning, implementation, testing and evaluation - i.e. the Agile process.&lt;/p&gt;
+
+&lt;p&gt;Initial envisioning - just enough info to help define the first minimal release.&lt;/p&gt;
+
+&lt;p&gt;Rubin suggests,&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Plan to Learn Fast and Pivot When necessary.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Output of the envisioning stage is commonly known as the product charter. This document should contain:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The product vision, a simple summary statement that defines the project.&lt;/li&gt;
+  &lt;li&gt;Target Customer&lt;/li&gt;
+  &lt;li&gt;Key Benefits&lt;/li&gt;
+  &lt;li&gt;Purpose of the project.&lt;/li&gt;
+  &lt;li&gt;Information about roles and responsibilities (if working in a team - but as an individual it will help manage client’s expectations by communicating what you agree to take on).&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrum Envisioning / Product Planning</summary></entry><entry><title type="html">Week Two - Early Client Contact</title><link href="http://localhost:4000/2019/10/02/week-two-early-client-contact.html" rel="alternate" type="text/html" title="Week  Two - Early Client Contact" /><published>2019-10-02T00:00:00+01:00</published><updated>2019-10-02T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/02/week-two-early-client-contact</id><content type="html" xml:base="http://localhost:4000/2019/10/02/week-two-early-client-contact.html">&lt;p&gt;&lt;strong&gt;I think I am going to chose one of the briefs put forward by the university.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Why?&lt;/p&gt;
 
@@ -179,486 +480,4 @@ Over the course of the previous two modules I have come to the realisation that 
 
 &lt;p&gt;Having discussed with my module tutor, Dr Jamie White, the potential for devising my own brief in conjunction with a potential client, I am also exploring this possibility. This way would allow me to create a brief allowing me to more specifically identify and target a combination of subject matter I am interested in with skills I wish to develop.&lt;/p&gt;
 
-&lt;p&gt;Current thoughts on this are that I have an eight-year-old autistic son and a wife who works for the NHS. There is here, then, the possibility to develop a brief to create a VR app targeting an educational or theraputic need within the realm of autism. This option is becoming very attractive!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosing a brief</summary></entry><entry><title type="html">Week One - Effective Communication</title><link href="http://localhost:4000/2019/09/25/week-one-effective-communication.html" rel="alternate" type="text/html" title="Week  One - Effective Communication" /><published>2019-09-25T00:00:00+01:00</published><updated>2019-09-25T00:00:00+01:00</updated><id>http://localhost:4000/2019/09/25/week-one-effective-communication</id><content type="html" xml:base="http://localhost:4000/2019/09/25/week-one-effective-communication.html">&lt;h2 id=&quot;the-client-communication-log&quot;&gt;The Client Communication Log&lt;/h2&gt;
-
-&lt;p&gt;When working with a client it is extremely important to keep a log of all communication with the client.
-The CCL should cover the following: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Who:&lt;/strong&gt; Initiated the communication&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Where:&lt;/strong&gt; Meeting place, email, Skype, phone etc…&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;When:&lt;/strong&gt; Time, date and duration&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Why:&lt;/strong&gt; The communication happened&lt;br /&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;What:&lt;/strong&gt; The outcome was&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Also include some initial reflections.&lt;/p&gt;
-
-&lt;p&gt;Some kind of coding system could be put in place to make it obvious what the communication was about.&lt;/p&gt;
-
-&lt;p&gt;CCL is a useful tool for the following reasons and benefits: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Paper trail&lt;/strong&gt; - reducing potential for uncertainties.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Avoiding repetition&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Keeping things regular&lt;/strong&gt; - keeping a record of discussions to ensure contact is regular&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Managing multiple project&lt;/strong&gt; - dealing with more than one client and overlapping project - reducing stress and keeping track.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Transparency&lt;/strong&gt; - sharing the CCL with client, avoiding miscommunication.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Systematised&lt;/strong&gt; - make the CCL a formal process, maintaining consistency, especially working with a team etc.
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;most-important-way-to-keep-client-happy&quot;&gt;Most important way to keep client happy&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;The Freelancer’s Bible&lt;/em&gt; by Sara Horowitz: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Be there&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Video, voice calls and emails are viable options with no face-to-face available&lt;/li&gt;
-      &lt;li&gt;Punctuality&lt;/li&gt;
-      &lt;li&gt;Make client your priority&lt;/li&gt;
-      &lt;li&gt;Never put the client on hold&lt;/li&gt;
-      &lt;li&gt;Go the extra mile - give quick updates if no contact for a few days. Even after the project has finished contact them to ensure everything is fine - just to see how they are. Foster continuing relationship.&lt;/li&gt;
-      &lt;li&gt;Clarify availability. Make it clear where boundaries are, hours of work. Focus on times available, not times you are not.&lt;/li&gt;
-      &lt;li&gt;Boundaries checklist. Helps manage expectations of when and how client can contact you. Go through the checklist with the client before starting the project as part of the on-boarding process. Flexibility may be needed: -
-        &lt;ul&gt;
-          &lt;li&gt;Communication practices - when and how you check voicemail and email&lt;/li&gt;
-          &lt;li&gt;Weekend availability - maybe provide window of opportunity for emergencies&lt;/li&gt;
-          &lt;li&gt;Check-ins - how? frequency? what communication channels will be used?&lt;/li&gt;
-          &lt;li&gt;The structure of feedback&lt;/li&gt;
-          &lt;li&gt;Decision makers - who makes the decisions/signs off work? ensure only one person has this role&lt;/li&gt;
-          &lt;li&gt;Client requirements - are they a morning person, have to get kids to school etc.&lt;/li&gt;
-          &lt;li&gt;Client policies and procedures - integrating with the culture of the client’s organisation&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Prepare&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Have everything you need around you before the meeting commences&lt;/li&gt;
-      &lt;li&gt;Ovoid overloading the client with information. The Seven C’s: -
-        &lt;ul&gt;
-          &lt;li&gt;Completeness - all information is presented&lt;/li&gt;
-          &lt;li&gt;Concise&lt;/li&gt;
-          &lt;li&gt;Clear&lt;/li&gt;
-          &lt;li&gt;Concrete - vivid and clear, not ambiguous. Reinforce verbal agreements with documentation&lt;/li&gt;
-          &lt;li&gt;Correct - factual, grammar etc.&lt;/li&gt;
-          &lt;li&gt;Courteous&lt;/li&gt;
-          &lt;li&gt;Considerate&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Care&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Be positive - what you can, not what you can’t do. Don’t take criticism personally&lt;/li&gt;
-      &lt;li&gt;Respect the client’s time&lt;/li&gt;
-      &lt;li&gt;Transparency (&lt;em&gt;Make Your Mark: The Creative’s Guide to Building a Business with Impact&lt;/em&gt; by Jcelyn K Glei)
-        &lt;ul&gt;
-          &lt;li&gt;Transparency breeds trust, and trust is the foundation of great teamwork.&lt;/li&gt;
-          &lt;li&gt;Sharing all information is essential to innovation.&lt;/li&gt;
-          &lt;li&gt;With openness, you attract loyalty.&lt;/li&gt;
-          &lt;li&gt;Transparency leads to fairness and responsibility.&lt;/li&gt;
-          &lt;li&gt;Transparency allows you to gain invaluable feedback.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;open-and-honest-communication&quot;&gt;Open and Honest Communication&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;People need to be free, and to perceive that they are free, to offer suggestions. This includes ideas pertaining to one or more models, perhaps someone has a new way to approach a portion of the design or has a new insight regarding a requirement; the delivery of bad news such as being behind schedule; or simply the current status of their work. Open and honest communication enables people to make better decisions because the quality of the information that they are basing them on is more accurate.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(Ambler 2014)[http://agilemodeling.com/principles.htm#OpenAndHonestCommunication]&lt;/p&gt;</content><author><name></name></author><summary type="html">The Client Communication Log</summary></entry><entry><title type="html">Week Twelve - What Next?</title><link href="http://localhost:4000/2019/05/04/week-twelve-1-what-next.html" rel="alternate" type="text/html" title="Week Twelve - What Next?" /><published>2019-05-04T00:00:00+01:00</published><updated>2019-05-04T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/04/week-twelve-1-what-next</id><content type="html" xml:base="http://localhost:4000/2019/05/04/week-twelve-1-what-next.html">&lt;h2 id=&quot;in-the-beginning&quot;&gt;In The Beginning&lt;/h2&gt;
-
-&lt;p&gt;When I started the MA, I had been working for a decade with databases and data analysis, and for the following six years on a web-based database-connected application, using the Microsoft .NET MVC platform with HTML and JavaScript for the front-end. I held the assumption that I’d naturally continue down the path of web-based development, but I also wanted to explore the creative possibilities of mobile development. Anything beyond this was a little vague. However, the one thing I was certain about was that I’d like to start working to a much greater extent with the user-facing, interactive side of app development - this excites me far more than working further back in the stack with databases and business intelligence. I wanted to make apps that are useful, interesting, look good, sound good and importantly, are fun to use. I also started out with a desire to explore the potential of emerging technologies such as Artificial Intelligence and Virtual and Augmented Reality.&lt;/p&gt;
-
-&lt;h2 id=&quot;games-and-learning&quot;&gt;Games and Learning&lt;/h2&gt;
-
-&lt;p&gt;One thing I did not expect to become involved with is games. However, it did not take long, after starting the course, to find myself considering education-focused games as a possible avenue to explore. My App Jam project, an education-focused arcade-style game, started me thinking about the value of games in a wider context than I had previously, particularly as a means of drawing in the user and holding their attention in order to facilitate learning via a fun activity and playful environment. For me, this idea was confirmed and developed in week eight’s course material - &lt;a href=&quot;/2019/04/18/week-eight-what-is-creativity.html&quot;&gt;&lt;strong&gt;&lt;em&gt;What is Creativity?&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; - where it was noted that&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;games are not purely about entertainment, but can also be powerful tools for learning&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;the-potential-for-vr-in-education-games&quot;&gt;The potential for VR in education games&lt;/h1&gt;
-
-&lt;p&gt;The course material for week five - &lt;a href=&quot;/2019/03/14/week-five-types-of-app.html&quot;&gt;&lt;strong&gt;&lt;em&gt;Types of App&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; - had allowed me to begin finding a context for these ideas and to start thinking about existing markets, such as those for &lt;em&gt;Gamification&lt;/em&gt; and &lt;em&gt;Serious Games&lt;/em&gt;. The latter had started to draw me into thinking about the immersive nature and educational potential of &lt;em&gt;Virtual Reality&lt;/em&gt; - for instance, its ability to place its audience within an environment created such that they would be empowered to experience something close to the reality of a particular place, situation or event from history. An example is the &lt;a href=&quot;http://www.bbc.co.uk/guides/zk3cmfr&quot;&gt;&lt;strong&gt;&lt;em&gt;BBC 1943 Berlin Blitz&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; virtual reality experience, in which the audience is taken in a Lancaster bomber on a blitz raid over Berlin during the Second World War.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\bbc-berlin-blitz.JPG&quot; alt=&quot;BBC 1943 Berlin Blitz&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This piece is particularly powerful because it is a recreation of a real-life event based on the voice-recorded narrative of a contemporary WW2 journalist, &lt;a href=&quot;https://en.wikipedia.org/wiki/Wynford_Vaughan-Thomas&quot;&gt;Wynford Vaughan-Thomas&lt;/a&gt;, who risked his own life (and that of his recording engineer) in order to accompany the mission. I accidentally and fortuitously encountered a BBC television documentary - unfortunately I have not since been able to find a copy or any documentation of it - where the Berlin Blitz experience was tried out by a group of school pupils - it was notable how the learning process was found to be more intense and more valuable to the pupils when history was experienced as if they were actual participants, as opposed to reading facts in a text book, disconnected from reality.&lt;/p&gt;
-
-&lt;h2 id=&quot;virtual-reality-and-autism-spectrum-disorder&quot;&gt;Virtual Reality and Autism Spectrum Disorder&lt;/h2&gt;
-
-&lt;p&gt;Thinking further about VR, I came to consider its potential to create an environment that can be comfortably explored by autistic people. I should explain at this point that my younger son, who is now eight years old, was provided with an early diagnosis of Autism Spectrum Disorder (ASD) as a toddler. His mother and I have spent a significant amount of time concerning ourselves with his education and development and have put together a predominantly home-schooled programme based on &lt;a href=&quot;https://en.wikipedia.org/wiki/Applied_behavior_analysis&quot;&gt;Applied Behaviour Analysis (ABA)&lt;/a&gt;: -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;a scientific discipline concerned with applying techniques based upon the principles of learning to change behaviour of social significance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think there is a lot of potential with autism and VR. Autism is very much about difficulties of socialisation and how one relates to the world and communicates with other people. This can be a very difficult thing for autistic people to deal with. The world that most of us take for granted, in which we spend a large proportion of our lives socialising and interacting with others, can often cause confusion, intense anxiety and feelings of isolation for autistic people. If it is possible for Virtual Reality to create environments in which people with autism feel comfortable and are able to communicate with others whilst circumventing problems associated with an inability to read and understand the subtleties of expression and social interaction, then VR could be an extremely useful and potentially important tool.&lt;/p&gt;
-
-&lt;p&gt;My week nine journal entry on &lt;a href=&quot;/2019/04/19/week-nine-emerging-tech.html&quot;&gt;&lt;strong&gt;&lt;em&gt;emerging technology&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; shows some of the research I have begun in this area. I came across practitioners in the field of autism research who appear to be quite excited about the possibilities of VR and are thinking about it in a similar way to me. Most appear to be academics within the field of autistic research, rather than working within software development or technology. I’ve read of people doing research into the use of VR in autism and finding very little, and at the time, I myself found very little. I recognised that I needed to do more thorough research into this, but I believed there to be a potential market for the use of VR and AR in autism.&lt;/p&gt;
-
-&lt;h1 id=&quot;a-market-emerges&quot;&gt;A market emerges&lt;/h1&gt;
-
-&lt;p&gt;Since then, I have come across a company in the United States - &lt;a href=&quot;https://floreotech.com/&quot;&gt;Floreo&lt;/a&gt; - who have created a VR product that&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;is based on established social and communication techniques intended to help individuals with ASD build real world skills. Specifically, we are developing content for learning discrete social behaviors, managing planned and unplanned events, and improving sensory and emotional regulation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\floreo-vr.JPG&quot; alt=&quot;Floreo VR&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;So it does, after all, appear that a market has opened up for VR and ASD. That said, I intend to continue to research this area as it is clearly in its infancy and there could be scope for plenty more research. ASD is &lt;a href=&quot;https://www.autism.org.uk/about/what-is.aspx?gclid=Cj0KCQjwtr_mBRDeARIsALfBZA5u4OYairNw0bC7U8shJ6QqZbkosfAnPRfVHgz3LcZRpr2AexDurpwaArFAEALw_wcB&quot;&gt;not a straight-forward condition to define&lt;/a&gt;; it encompasses widely varying levels of ‘functional’ abilities - for example cognitive, physical, social, spatial etc - as well as many &lt;a href=&quot;https://www.autism.org.uk/about/what-is/related-conditions.aspx&quot;&gt;related conditions&lt;/a&gt; such as &lt;em&gt;Attention Deficit Hyperactivity Disorder (ADHD)&lt;/em&gt;, &lt;em&gt;Dyslexia&lt;/em&gt; and &lt;em&gt;Dyspraxia&lt;/em&gt;. If a market exists, as apparently it does, then it will be my job to find my own niches if I am am to enter into it.&lt;/p&gt;
-
-&lt;h1 id=&quot;furthering-the-opportunities-for-research-into-virtual-reality-and-autism-the-falmouth-creative-app-development-ma-community-steps-in&quot;&gt;Furthering the opportunities for research into virtual reality and autism (the Falmouth &lt;em&gt;Creative App Development MA&lt;/em&gt; community steps in)&lt;/h1&gt;
-
-&lt;p&gt;As if to demonstrate the importance, to the lone creative app developer, of &lt;em&gt;community&lt;/em&gt; - discussed in week ten, &lt;a href=&quot;/2019/04/30/week-ten-who-else-is-making-apps.html&quot;&gt;&lt;strong&gt;&lt;em&gt;who else is making apps?&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt; - I was offered some food for thought and some useful advice by my peers.&lt;/p&gt;
-
-&lt;p&gt;Dr Jamie White enquired as to whether I would consider doing a PHD in order to do further research in the field. My answer is that, whilst it is not something I have seriously considered up to now, it does have an appeal. A major concern would be how it would be funded but, if I am able to do so satisfactorily, it could be something that I would give full due consideration. I was suggested by one of my peers that, in the meantime, if I were able to identify a market and start producing products that I am capable of creating now, I could focus on that market, getting to know it intimately whilst supplying and developing it.&lt;/p&gt;
-
-&lt;p&gt;This is now something I am thinking about. Potentially, I could begin planning now and start putting out small-scale apps into the existing autism apps market. Over time this market would become one that I get to know and understand and whose needs I could attempt to satisfy. If virtual reality really does have a future in the field of autism, I would be in a strong position to find out and formulate a plan to enter into it, maybe even to play a part in its creation.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\webvr-logo-square-small.png&quot; alt=&quot;WebVR Logo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As part of my interest in Virtual Reality, I intend exploring its potential as a web-based technology. I understand this is some way off being a common and well-supported platform for VR - &lt;a href=&quot;https://webvr.info/&quot;&gt;&lt;strong&gt;WebVR&lt;/strong&gt;&lt;/a&gt; is currently not available on all browsers and mobile device screens do not yet have the framerates or high resolution associated with more powerful platforms. But, as an emerging technology, it’s something I believe is worth following. The power of the web is partly its ability to democratise technology and make it available to more people - something that could seriously help VR find a place within autism therapy and research.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\pe-pyramid.png&quot; alt=&quot;WebVR in action&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;In the twelve weeks of my MA journey so far, with sincerity I feel able to say, &lt;em&gt;‘I have travelled a long way’&lt;/em&gt;. The course lectures, interviews and the subjects they have introduced have provided the information and context for me to reflect on and to develop my ideas. Material has been provided in order to inform and encourage consideration of commercial aspects, potential markets, the types of app that exist in these markets and audience development. I have begun gaining a more developed sense of the kind of work being done in different areas of app development, such as with emerging technologies, and have thoroughly enjoyed discussing creative practice, management of the creative process and the concept of creativity itself.&lt;/p&gt;
-
-&lt;p&gt;I suppose the most pertinent aspect of my journey so far has been that I have begun forming an idea of potential pathways for myself. I have identified education gaming as an interesting way of enhancing the learning process with fun and creativity and found the prospect of using virtual and augmented reality, in educational games and experience, to be thought provoking. In particular, I have identified the use of VR in the field of ASD therapy and research as an exciting and personally-interesting area to possibly take further, with a view to entering the market and maybe playing a role in its development.&lt;/p&gt;</content><author><name></name></author><summary type="html">In The Beginning</summary></entry><entry><title type="html">Week Twelve - Pre-history (from there to here)</title><link href="http://localhost:4000/2019/05/04/week-twelve-2-pre-history.html" rel="alternate" type="text/html" title="Week Twelve - Pre-history (from there to here)" /><published>2019-05-04T00:00:00+01:00</published><updated>2019-05-04T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/04/week-twelve-2-pre-history</id><content type="html" xml:base="http://localhost:4000/2019/05/04/week-twelve-2-pre-history.html">&lt;p&gt;&lt;span style=&quot;display:block;text-align:center&quot;&gt;
-&lt;img src=&quot;\images\pathway-2.png&quot; alt=&quot;Pathway&quot; /&gt;
-&lt;/span&gt;
-&lt;br /&gt;&lt;/p&gt;
-&lt;h1 id=&quot;on-commencing-the-ma-in-creative-app-development&quot;&gt;On commencing the MA in Creative App Development…&lt;/h1&gt;
-
-&lt;h1 id=&quot;i-did-not-know-exactly-what-path-i-was-going-to-follow&quot;&gt;      I did not know exactly what path I was going to follow…&lt;/h1&gt;
-
-&lt;h1 id=&quot;i-did-not-have-a-well-formed-idea-of-a-destination&quot;&gt;            I did not have a well-formed idea of a destination…&lt;/h1&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;I did know something about the new technologies driving the industry, of web development.. and beyond.. and wished to &lt;strong&gt;know them all&lt;/strong&gt;: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;real-time push capabilities provided by the advent of node.js&lt;/li&gt;
-  &lt;li&gt;client-powered single page websites&lt;/li&gt;
-  &lt;li&gt;native and cross-platform mobile development&lt;/li&gt;
-  &lt;li&gt;artificial intelligence&lt;/li&gt;
-  &lt;li&gt;machine learning&lt;/li&gt;
-  &lt;li&gt;cloud storage and related technologies&lt;/li&gt;
-  &lt;li&gt;Big Data&lt;/li&gt;
-  &lt;li&gt;Virtual Reality / Augmented Reality&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;and so on…&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I felt the need to get to know more about these&lt;/strong&gt; – and still do – but I was not part of an environment in which I was easily able to do so.&lt;/p&gt;
-
-&lt;p&gt;I also have no formal qualifications in the area of computers, software development, mathematics or science. Most of my colleagues seemed to come from one of these areas and I felt I would benefit from learning and solidifying my knowledge and skills, as well as providing a boost for my CV.&lt;/p&gt;
-
-&lt;h1 id=&quot;my-early-years&quot;&gt;My early years&lt;/h1&gt;
-
-&lt;p&gt;My background, academically at least, is in the arts – particularly music – although I have always been interested in technology generally and computers specifically. I taught myself to code back in the early 80s through studying listings in magazines and trying simple ideas out on the ZX81 on display in my local WHSmiths. Progress continued on my ZX Spectrum and later a BBC Micro, which I regard as the greatest learning tool in history!&lt;/p&gt;
-
-&lt;p&gt;Music played a massive part in my life growing up, but I appeared to be following a likely career path in software development, until a late and protracted period of uncertainty ended with me throwing my energy into the arts. Firstly, I studied A level art in night-class, followed by a foundation year at art college. I then moved into music, working in a recording studio, managing a jazz club, playing in bands and completing a BA (hons) in Music, specialising in Performance Technology.&lt;/p&gt;
-
-&lt;h1 id=&quot;my-professional-life&quot;&gt;My professional life&lt;/h1&gt;
-
-&lt;p&gt;Since finishing my degree, I have found my computer-related hobby gradually increasing to become my profession, whilst my career in the arts has conversely become an impassioned hobby. Post-BA, I began work assessing small-scale funding applications for the Arts Council of England’s lottery-funded &lt;em&gt;Arts 4 Everyone&lt;/em&gt; scheme. During this time, I took on the administration of the scheme’s database, eventually moving fully into database development as a freelancer, the intention being to fund my main career as a creator of music and art. Over time, it became easier to find work as a developer than commissions as a composer, and the respective levels of remuneration caused the proportion of my time spent on these areas to increase in favour of development.&lt;/p&gt;
-
-&lt;h1 id=&quot;here-i-am&quot;&gt;Here I am&lt;/h1&gt;
-
-&lt;p&gt;In 2017, when I first saw the title of the this MA - &lt;em&gt;Creative App Development&lt;/em&gt; - I was immediately struck by the way the combination of these words seemed to encompass everything I wished to learn and achieve in my professional life; they instilled in me a deep-seated desire to somehow find a way on to the course. If I was not able to do so, at least I knew that such things exist. A spark had been ignited.&lt;/p&gt;
-
-&lt;p&gt;Luckily, with perfect timing, I was made redundant! I was given enough money by my former employer to fund my place on the MA and to tide me over for a while until I found my next day job, which I began exactly two weeks before I embarked on my new life as a Falmouth distance-learning MA student. I could not have been happier!&lt;/p&gt;</content><author><name></name></author><summary type="html">On commencing the MA in Creative App Development…</summary></entry><entry><title type="html">Week Eleven - How Do We Plan and Manage Larger Creative App Development Projects?</title><link href="http://localhost:4000/2019/05/01/week-eleven-project-planning.html" rel="alternate" type="text/html" title="Week Eleven - How Do We Plan and Manage Larger Creative App Development Projects?" /><published>2019-05-01T00:00:00+01:00</published><updated>2019-05-01T00:00:00+01:00</updated><id>http://localhost:4000/2019/05/01/week-eleven-project-planning</id><content type="html" xml:base="http://localhost:4000/2019/05/01/week-eleven-project-planning.html">&lt;p&gt;This week we look at the two main methods used for managing large creative development projects: the age-old &lt;em&gt;Waterfall&lt;/em&gt; model and the more modern &lt;em&gt;Scrum&lt;/em&gt; methodology, which is one of a number of approaches that sit under the umbrella philosophy, &lt;em&gt;Agile&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;As a term, the &lt;em&gt;Waterfall&lt;/em&gt; methodology is something I’ve only recently come across, although it describes the way things were generally done from at least the 1970s (&lt;a href=&quot;https://en.wikipedia.org/wiki/Waterfall_model&quot;&gt;&lt;em&gt;‘waterfall model’&lt;/em&gt;, wikipedia&lt;/a&gt;). Things began to change after the authoring, in 2001, of the Agile Manifesto (&lt;a href=&quot;https://www.agilealliance.org/agile101/&quot;&gt;&lt;em&gt;‘what is agile?’&lt;/em&gt;, agile alliance&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h2 id=&quot;personal-experience&quot;&gt;Personal experience&lt;/h2&gt;
-
-&lt;h1 id=&quot;waterfall&quot;&gt;Waterfall&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\waterfall.png&quot; alt=&quot;waterfall&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My earliest development projects were extremely loose in their definition – I was the sole developer and did not really embrace any particular methodology; in many respects, I was really just &lt;em&gt;making it up&lt;/em&gt; as I went along. However, the way I worked was probably closer to the Waterfall model than an Agile one as, in extremely simplified terms, I would agree with my client an initial and reasonably coherent idea of how we envisaged the end result and I would go away and build it. When the product was ready it would be presented to the client, it would be accepted, my invoice would be honoured, and that was pretty much the end of the matter. Admittedly, it wasn’t quite as simple as that and there would have been plenty of dialogue and contact with the client during the development process, as well as bugs to iron out after deployment, but it was essentially a process that followed a direct linear route from initial planning to finished product.&lt;/p&gt;
-
-&lt;p&gt;However, one of my projects - a subscriptions management system for a religious magazine - encountered a problem - one that I imagine could typically be associated with the Waterfall approach but should never happen under an Agile model: the product was taking longer than had initially been estimated and the budget had long since been used up! Either I starved, defaulted on my extortionate London-size rent, or I would have to approach my client and ask for more money so as to produce a finished product. I chose that latter option.&lt;/p&gt;
-
-&lt;p&gt;I had agreed a budget with my client, a company director, which had been approved by the board. But he now had to re-approach the board, cap in hand, asking for more money to be released. I distinctly remember the embarrassment of having to admit we’d - &lt;em&gt;I’d&lt;/em&gt; - made a mistake and that the only way round this was for me to either finish the project by working on the latter stages for free, or for us to agree a way forward that involved some re-working of the budget on the part of the client. Issues of trust and reputation were at stake.&lt;/p&gt;
-
-&lt;h1 id=&quot;scrum&quot;&gt;Scrum&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\scrum.jpg&quot; alt=&quot;Scrum&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;A &lt;em&gt;scrum&lt;/em&gt; methodology would have avoided this extremely awkward situation because we would have continually been assessing and re-evaluating progress, addressing issues as the product developed, iteratively, over a sequence of manageable sprints. It may still have been the case that we had got the initial estimated budget wrong, and this would have remained an issue that needed dealing with, but it would have been highly unlikely that we would have arrived at a point where a bombshell had to be dropped and the only two possible resolutions were almost unpalatable, either to the developer or the client. Instead, under an agile approach, decisions could have been made either to reflect the changing situation with amendments and actions at the sprint-planning stage, or revisions to budgets and management of expectations could have been controlled more easily, sensitively and democratically.&lt;/p&gt;
-
-&lt;p&gt;As it was, the board agreed an extension and an increased budget, but I was still left knowing that I never want to find myself in this position again.&lt;/p&gt;
-
-&lt;p&gt;Years later, when working as part of an Agile team using the scrum methodology, I saw at first-hand how a project can be developed from an initial plan and realised as a released product, over any number of continual iterations, via a process that allows unexpected hitches and changes of client requirements to be dealt with as they arise. Rather than being subject to updated requirements at the &lt;em&gt;end&lt;/em&gt; of the project’s development lifecycle, and potentially being adversely affected by changes to, as in this case for example, the pre-determined budget set for a monolithic end product, individual sprints facilitate the ability to react to events and situations as they arise, and projects can be designed in such a way as to allow any potential blows to be greatly lessened or removed entirely.&lt;/p&gt;
-
-&lt;h2 id=&quot;planning-an-agile-project-using-scrum&quot;&gt;Planning an Agile Project Using Scrum&lt;/h2&gt;
-
-&lt;p&gt;As outlined above, being aware of the benefits of Agile and the pitfalls of a non-agile approach, I am keen to embrace this approach, in particular &lt;em&gt;scrum&lt;/em&gt;, as a model for planning my projects. I will create a SMART goal to begin planning the continuing progress of my App Jam word-game project using scrum as the template for defining a Product Backlog and the first Sprint Backlog. This will form the basis from which the project will continue as I move forward.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; So that I can continue to work on its development in a flexible, iterative way in line with Agile practice and ideology, my goal is to set up my App Jam word game project using the Scrum methodology.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Measurable:&lt;/strong&gt; I will create Product Backlog items (as User Stories) for the work I know I need to get done and set up my first sprint in a ready-to-go state.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; This will be achieved within a single sprint planning session.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; I will be able to make an immediate start on continuing my project work as soon as I am able to do so.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Time-Based:&lt;/strong&gt; I will allow a maximum of three hours for the sprint planning session.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;I have used my experience of working under a model similar to a &lt;em&gt;Waterfall&lt;/em&gt; methodology in order to contrast it with my experience of working in an &lt;em&gt;Agile Scrum&lt;/em&gt; environment. In so doing, I have shown how the kind of problems I experienced, that are associated with the older model, should not be possible under the more modern Agile approach. I’ve then created a SMART goal to define the development of my App Jam word game project using Scrum methodologies. When I am in a position to do so, I will use this plan as I move forward with my project.&lt;/p&gt;</content><author><name></name></author><summary type="html">This week we look at the two main methods used for managing large creative development projects: the age-old Waterfall model and the more modern Scrum methodology, which is one of a number of approaches that sit under the umbrella philosophy, Agile.</summary></entry><entry><title type="html">Week Ten - Who Else Is Making Apps And What Approaches Do They Use?</title><link href="http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps.html" rel="alternate" type="text/html" title="Week Ten - Who Else Is Making Apps And What Approaches Do They Use?" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps</id><content type="html" xml:base="http://localhost:4000/2019/04/30/week-ten-who-else-is-making-apps.html">&lt;p&gt;&lt;img src=&quot;\images\communities-1.png&quot; alt=&quot;Communities of Practice&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;communities-of-practice&quot;&gt;Communities of Practice&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Movements and Professional Bodies&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Over the years I have been slightly reluctant to entertain the idea of hitching myself up with an established &lt;strong&gt;professional body&lt;/strong&gt;. I have always considered them to be for &lt;em&gt;other&lt;/em&gt; developers who were perhaps more concerned about their career than their ‘art’. I was also probably put off, during my years as a self-employed developer, by the fact that they generally require a membership fee and demand more of my time and effort than I felt I was able to give or able to cash in on when I needed to get something out. Perhaps I have always had a bit of the Groucho Marx &lt;em&gt;“I don’t want to belong to any club that would accept me as one of its members”&lt;/em&gt; attitude. It could be viewed as a little irrational but, nonetheless, I do have an aversion to belonging to recognised groups or clubs. In any case, for the years I have not been self-employed, most of the support I needed has been gained from working as part of a team.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Movements&lt;/strong&gt; are quite different in my view, as they have come about through a genuine shared aspiration to drive a particular passion or practice in a particular direction, to use the collective will of multiple like-minded people to further ideas and make a genuine and recognisable difference.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-hacker-and-maker-movements&quot;&gt;The Hacker and Maker Movements&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The hacker culture is a subculture of individuals who enjoy the intellectual challenge of creatively overcoming limitations of software systems to achieve novel and clever outcomes. The act of engaging in activities (such as programming or other media) in a spirit of playfulness and exploration is termed “hacking”.&lt;br /&gt;
-– &lt;a href=&quot;https://en.wikipedia.org/wiki/Hacker_culture&quot;&gt;‘hacker culture’ - wikipedia&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The maker movement … is the umbrella term for independent inventors, designers and tinkerers. A convergence of computer hackers and traditional artisans, the niche is established enough to have its own magazine, Make, as well as hands-on Maker Faires that are catnip for DIYers who used to toil in solitude.&lt;br /&gt;
-– &lt;a href=&quot;http://time.com/104210/maker-faire-maker-movement/&quot;&gt;time.com&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\maker-movement-1.jpg&quot; alt=&quot;Maker Movement&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Maker culture&lt;/em&gt; intersects with &lt;em&gt;hacker culture&lt;/em&gt;. Both share a DIY, &lt;a href=&quot;https://opensource.org/&quot;&gt;open-source&lt;/a&gt; ethos but, whereas hacker culture is concerned primarily with software, maker culture is more engineering-oriented, interested in such pursuits as electronics, robotics and 3D printing [&lt;a href=&quot;https://en.wikipedia.org/wiki/Maker_culture&quot;&gt;‘maker culture’ - wikipedia&lt;/a&gt;].&lt;/p&gt;
-
-&lt;p&gt;Communities of practice and communities of interest tend to pop up around such movements. Without making much of a real effort to associate myself with a specific community, it’s fair to say that at various times I have existed on the fringes of several - &lt;a href=&quot;https://stackoverflow.com/&quot;&gt;StackOverflow&lt;/a&gt;, &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://www.sqlservercentral.com/&quot;&gt;SQLServerCentral&lt;/a&gt; spring to mind. This has been generally unintentional and borne out of necessity, for, without the knowledge, advice and support they can provide, I would have struggled to achieve much.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\stackoverflow.png&quot; alt=&quot;Stack Overflow&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;… by programmers, for programmers, with the ultimate intent of collectively increasing the sum total of good programming knowledge in the world. No matter what programming language you use, or what operating system you call home. Better programming is our goal.&lt;br /&gt;
-– &lt;a href=&quot;http://blog.codinghorror.com/introducing-stackoverflow-com/&quot;&gt;codinghorror&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Life as a developer would be very difficult without StackOverflow. Most coding-related queries put out as Google searches return a number of possible answers from the forum, via the same or similar questions having already been asked by its members. Over the years it has become clear just how precious this resource is for those who have become involved. The expected, or even &lt;em&gt;required&lt;/em&gt; etiquette - an important feature of belonging to such a community - is so passionately enforced and the rewards, in terms of &lt;strong&gt;reputation&lt;/strong&gt; points and virtual &lt;strong&gt;medals&lt;/strong&gt;, so sought-after, that I am sometimes surprised at the fervour with which they are gathered. Kudos is very highly prized.&lt;/p&gt;
-
-&lt;p&gt;In this week’s article on Communities of Practice, Alcwyn Parker advises identifying a potential &lt;em&gt;mentor&lt;/em&gt; or &lt;em&gt;role model&lt;/em&gt; to aid integration. I have seen this at work first-hand: a recent new colleague of mine, who will happily tell you that he is very much part of the stack overflow community, has demonstrated the importance the community’s particular etiquette, in terms of methods and expectations for posting and answering questions and ensuring that your own questions receive the best response possible in super-quick time by offering virtual ‘bounty’ for the most useful answer. It’s easy to see how such a community can form and grow together as it develops its own social culture, including rules and accepted etiquette that help to define itself and legitimise its existence, to set it out to be unique and ‘owned’ by the community members themselves.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Legitimation in the social sciences refers to the process whereby an act, process, or ideology becomes legitimate by its attachment to norms and values within a given society. It is the process of making something acceptable and normative to a group or audience.&lt;br /&gt;
-– &lt;a href=&quot;https://en.wikipedia.org/wiki/Legitimation&quot;&gt;‘legitimation’ - wikipedia&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The result is a community that plays an important part in making information available and providing support along with the benefit of experience. The sense of community and of belonging is vital in achieving its inherently altruistic aims, which are borne of a desire to share and constantly improve the quality of knowledge and developmental practice generally.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-falmouth-creative-app-development-community&quot;&gt;The Falmouth ‘Creative App Development’ Community&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\falmouth-banner.jpg&quot; alt=&quot;The Falmouth 'Creative App Development' Community&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Reflecting on how my own ideas have developed and expanded in the short time I’ve been on this MA course, I can see that I have moved from a fairly narrow idea of the possible direction of my personal development, towards one that is beginning to encompass a wider set of possibilities. This is partly due to the sharing of knowledge and experience between practitioners - students, academic staff, external or loosely-affiliated contributors - who are, in their own ways, following personal, loosely-related paths and have come to form a community of sorts, at least partly unintentionally. As I have become less isolated from outside and diversified influences, my general outlook has begun moving away from the idea that my creative future lies almost solely in web development and, although the web is very likely to remain important to me, I have been increasingly made aware of other attractions and areas of potential interest.&lt;/p&gt;
-
-&lt;p&gt;This is unlikely to have happened without coming to ‘belong’ to a group that share interests and ambitions as creative app developers. Following this train of thought, I can see that intentionally associating myself with groups, communities and movements, with similar interests, goals and aspirations, can potentially provide fuel for driving the further development of ideas and skills, whilst providing the support that can be vital when following a path that is actually quite personal.&lt;/p&gt;
-
-&lt;h2 id=&quot;researching-communities&quot;&gt;Researching communities&lt;/h2&gt;
-
-&lt;p&gt;As I do not have much knowledge or experience of the various communities and associated events or activities associated with the Hacker and Maker movements, I would like to find out more and get some idea of those I may be interested in involving myself with.&lt;/p&gt;
-
-&lt;p&gt;I also find myself drawn to the interests and ethos inherent in the maker movement.  Although I have no direct experience, I find the potential of playing with the Arduino and Raspberry Pi platforms and, in particular, getting involved with electronics and robotics, to be very appealing. To this end, I will create a SMART goal to undergo research into relevant and interesting Hacker and Maker communities.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Specific:&lt;/strong&gt; The goal is to research Hacker and Maker movement communities and select those that appear to be aligned with my own interests and goals, as well as offering potential for expanding into new personal territories.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Measurable:&lt;/strong&gt; I will document my research and my conclusions and create a journal entry. Where necessary, I will contact the most interesting groups for further information.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Attainable:&lt;/strong&gt; This will be achieved within a single week.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Relevant:&lt;/strong&gt; At the end of this process, I will have learned more about the types of communities that exist and have a list of those that I find to be personally interesting and which I may involve myself with. I will have been in contact with those that are most interesting to me.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Make it Time-Based:&lt;/strong&gt; I will devote three sessions to this: one for research, another for drawing up conclusions and another for writing a journal and contacting those of greatest interest.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;I have discussed my interest in the Hacker and Maker movements and the kinds of communities that are associated with them. I have used my experience with &lt;em&gt;Stack Overflow&lt;/em&gt; as an example of how such a community can operate and achieve its aims. I’ve also looked at how a &lt;em&gt;creative app development&lt;/em&gt; community has emerged from the shared interests of my fellow students, academic staff and contributors at Falmouth and seen how this has begun to change and expand my interests and horizons in terms of my own developmental pathway. Finally, I have created a SMART goal to undergo research into relevant communities of practice and to begin getting involved with any that are of particular interest to me.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Ten - Report on Continuing Personal and Professional Development</title><link href="http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development.html" rel="alternate" type="text/html" title="Week Ten - Report on Continuing Personal and Professional Development" /><published>2019-04-29T00:00:00+01:00</published><updated>2019-04-29T00:00:00+01:00</updated><id>http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development</id><content type="html" xml:base="http://localhost:4000/2019/04/29/week-ten-report-on-continuing-personal-professional-development.html">&lt;p&gt;&lt;img src=&quot;\images\personal-development-2.jpg&quot; alt=&quot;Personal Development&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;I embarked on the MA with no formal qualifications in software development. Although I am in possession of a reasonably wide-ranging experience, having built up a ‘full stack’ of internet development skills, including database development, data analysis, business intelligence, .NET MVC, C# and JavaScript, this has been gained through experience whilst working in the field of education data analysis. Of these skills, it is the front-end, client-side, user-interactive variety with which I am less familiar or confident, but they are the ones I am most interested in pursuing: I want to make web-based apps that are engaging, visual and experientially-stimulating.&lt;/p&gt;
-
-&lt;p&gt;My first degree is a BA in Music, with Visual Performance as a minor, and I always felt lacking in some of the rudiments of software development in comparison with my computer science graduate colleagues.  However, I also felt the urge to combine my enjoyment of coding with my appetite for creativity and an interest in on-going developments within creative technology. The MA in Creative App Development appealed as it looked like it would help me to develop creatively, beyond the limitations of my career as a developer up to this point in time.&lt;/p&gt;
-
-&lt;p&gt;So far, the course is providing me with a framework for thinking about the process of creative development and the industry itself, whilst challenging me to find a pathway for my own personal and professional development. The goals I have set myself combine&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;the need to develop specific technical skills,&lt;/li&gt;
-  &lt;li&gt;market research, and&lt;/li&gt;
-  &lt;li&gt;studying methods for managing the process of creative development.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Perhaps it is my background in both education data analysis and the creative industry, but I have found myself to be comfortable thinking in terms of game-focused education tools as a niche to explore. I also have a personal interest in development of Autism apps, having a son diagnosed with autism, who is home-schooled in a programme we, as a family, are heavily involved in delivering.&lt;/p&gt;
-
-&lt;p&gt;I hope that this course will help me realise my ambition, which is to start a business of my own, creating intelligent, useful and innovative apps that play a small part in moving the industry forwards. 
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;time-and-project-management&quot;&gt;Time and Project Management&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\time-management.png&quot; alt=&quot;Time Management&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The goal I outlined in my PCS referred to problems I have finding periods of quality, uninterrupted time, and my desire to ‘negotiate’ such periods with my family.  Reflecting on this, I am somewhat resigned to working around and within the activity and mechanics of everyday family life. My situation has made me think about how I can reduce the importance of the actual amount of time available.  I do not view project and time management as a strength and understand it would be extremely beneficial to work at this.&lt;/p&gt;
-
-&lt;p&gt;Following a suggestion in &lt;a href=&quot;http://www.dansilvestre.com/time-management-techniques/&quot;&gt;dansilvestre.com&lt;/a&gt;, I intend to create a time management ‘rule book’, which will contain a list of documented techniques that can be used on an everyday basis, in order to assist focusing on productivity whilst reducing the negative impacts of tiredness and stress. Many example strategies exist, such as the twenty-two listed in &lt;a href=&quot;https://www.proofhub.com/articles/time-management-strategies&quot;&gt;proofhub.com&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have begun using the &lt;strong&gt;Pomodoro&lt;/strong&gt; technique, which has been shown to support better productivity and greater learning ability (see &lt;a href=&quot;https://naturalfactors.com/en-us/articles/manage-stress-pomodoro-technique/&quot;&gt;naturalfactors&lt;/a&gt;). I have found breaking up my working time into short sessions to be beneficial, allowing me to maintain freshness of thought.&lt;/p&gt;
-
-&lt;p&gt;On peer recommendation, I have obtained a copy of &lt;em&gt;Getting Things Done: The Art of Stress-free Productivity&lt;/em&gt; by David Allen, which I will be studying over the next few weeks.&lt;/p&gt;
-
-&lt;p&gt;I will be employing the central tenets of &lt;strong&gt;Agile&lt;/strong&gt;, in particular, methodologies related to &lt;em&gt;Scrum&lt;/em&gt;; that is, working incrementally and iteratively in short, fixed-length &lt;em&gt;sprints&lt;/em&gt;, allowing regular reflection and encouraging response to any lessons learned. For several years, I worked in an Agile development environment as part of a ‘self-organizing’ team (&lt;a href=&quot;https://www.agilealliance.org/agile101/&quot;&gt;agilealliance.org&lt;/a&gt;). But agile methodologies are also relevant when working as an individual (&lt;a href=&quot;https://www.lucidchart.com/blog/what-is-agile-scrum-methodology&quot;&gt;lucidchart.com&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Beyond software development and general project management, Agile techniques are now also becoming recognised as a way for individuals to manage their personal lives. It may be that Agile will seamlessly inform my work-life balance entirely: –&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Working from a prioritized product backlog, breaking work into iterations, limiting work in progress, and regular reflection are just some of the concepts borrowed from agile that people can use to better manage their personal lives.&lt;br /&gt;
-– &lt;a href=&quot;https://techbeacon.com/app-dev-testing/personal-scrum-using-agile-techniques-manage-your-life&quot;&gt;techbeacon.com&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;smart-goal--&quot;&gt;SMART Goal: -&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Specific:&lt;/strong&gt; The goal is to create a time-management rule book, which will define the rules that I will use in project management and my day-to-day life and use Agile methodologies to manage my development process.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Measurable:&lt;/strong&gt; I will find ten time-management techniques that I believe will work for me. I will place all my current goals into my Kanban board.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Attainable:&lt;/strong&gt; My ten rules will be assessed daily and kept or discarded depending on their success or failure, which I will document in my journal.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Relevant:&lt;/strong&gt; Management of my time, work and study practice are essential if I am to create a sustainable and satisfactory work-life balance.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time-based:&lt;/strong&gt; I will have my rule book and Kanban board fully set up by the end of Module 1.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;market-research&quot;&gt;Market Research&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\market-research.jpg&quot; alt=&quot;Market Research&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From not having a firm idea of my direction at the start of the course, as a main driving force I am becoming interested in &lt;strong&gt;education apps&lt;/strong&gt;, with Autism as a possible area for specialism.&lt;/p&gt;
-
-&lt;p&gt;Understanding how someone with autism views and responds to the world is quite a challenge, as is teaching a child to learn what everyone else takes for granted as part of normal development and learned behaviour.  Areas that can be identified as requiring specific and targeted input, such as understanding facial expressions or developing fine motor skills, could potentially be addressed in interesting and playful ways through the medium of an app. Some interesting work has been done in these areas: for example, an app to help practice &lt;a href=&quot;https://www.educationalappstore.com/app/training-faces-1&quot;&gt;emotion and facial recognition&lt;/a&gt;, reading facial expressions using &lt;a href=&quot;https://www.medscape.com/viewarticle/900519&quot;&gt;Google Glass&lt;/a&gt;, practicing &lt;a href=&quot;http://www.eastersealstech.com/2015/04/01/10-apps-for-practicing-motor-skills/&quot;&gt;motor skills&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Apps that address teaching skills to people with autism or attempt to tap into the way the world is viewed by autistic people, I feel, could potentially be highly creative, with scope for an experimental approach to interacting with and creating worlds through the use of &lt;strong&gt;Virtual&lt;/strong&gt; and &lt;strong&gt;Augmented Reality&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;..people with autism are using VR to convey their own experiences, both to raise awareness of the condition and to capture the cognitive and perceptual differences that characterize it.&lt;br /&gt;
-– &lt;a href=&quot;https://www.spectrumnews.org/features/deep-dive/virtual-reality-transforming-autism-studies/&quot;&gt;spectrumnews&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Although I have a personal interest in autism, I feel it would be beneficial to understand the education app market generally. I would also like to observe and get a feel for the market for experimental and art-based apps, particularly those that explore ideas related to sensorial experience and that could open potential spaces for autistic minds to explore.&lt;/p&gt;
-
-&lt;h1 id=&quot;smart-goal---1&quot;&gt;SMART Goal: -&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Specific:&lt;/strong&gt; The goal is to investigate app stores at Apple, Google and Microsoft, to research literature and other relevant media, and to create a spreadsheet comprising existing apps and developments within the areas of education, education games and autism-focused apps.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Measurable:&lt;/strong&gt; Results of my research will be stored in a spreadsheet and I will write a journal entry outlining and responding to my findings.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Attainable:&lt;/strong&gt; This information will be available via targeted searches on the internet, such as app stores, articles, forums and other media. Examples have been shown to exist.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Relevant:&lt;/strong&gt; Once I have an understanding of what apps exists and the niches they occupy, I will be able to begin formulating my own plans for entering the market myself.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time-based:&lt;/strong&gt; I expect the research and creation of the database to take 4-5 hours and the journal entry to take another 2 hours – so a solid working day in total.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;2d-animation&quot;&gt;2D Animation&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\2d-animation.jpg&quot; alt=&quot;2D Animation&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;From the outset, I was interested in user-experience and, considering my interest in game-focused, interactive education apps, I see game-oriented animation as an integral part of a skill-set necessary to create polished, professional looking and highly playable games in order to move into these markets.&lt;/p&gt;
-
-&lt;p&gt;I intend to use my app jam word game project, which is essentially a two-dimensional arcade-style game with an educational leaning, as a vehicle to experiment with specifically game-focused animation rendering. My work using the &lt;a href=&quot;http://www.pixijs.com&quot;&gt;pixijs.com&lt;/a&gt; animation library has been a useful point of entry into the use of JavaScript animation libraries, and I wish to continue the process of familiarising myself with game development, through integrating graphics rendered using a tool designed specifically for building games, and which leverage the power of &lt;strong&gt;Canvas&lt;/strong&gt; and &lt;strong&gt;WebGL&lt;/strong&gt; in the browser.&lt;/p&gt;
-
-&lt;p&gt;I have investigated opinions expressed in online forums and by peers and read reviews and articles discussing the subject. This research has indicated &lt;a href=&quot;http://www.phaser.io&quot;&gt;phaser.io&lt;/a&gt; to be a suitable tool with which to begin my explorations. My hope is that the quality of the results will help realise the potential of my word game to develop into what, I believe, could be a future commercial product.&lt;/p&gt;
-
-&lt;p&gt;I used the &lt;strong&gt;Angular&lt;/strong&gt; framework for the App Jam project, partly because I’d already started learning it prior to the course, but also due to its use as a basis for at least two cross-platform mobile development frameworks - &lt;strong&gt;NativeScript&lt;/strong&gt; and &lt;strong&gt;Ionic&lt;/strong&gt; –  both of which I am interested in investigating in the future. This required adapting the pure JavaScript of the PixiJS documentation and examples into TypeScript. I found this not to have been much of a hindrance. My goal is to add Phaser to my Angular boilerplate so as to be available, alongside PixiJs, in my future projects.&lt;/p&gt;
-
-&lt;h1 id=&quot;smart-goal---2&quot;&gt;SMART Goal: -&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Specific:&lt;/strong&gt; The goal is to integrate the Phaser game framework into my Angular boilerplate and demonstrate its use within my App Jam word game.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Measurable:&lt;/strong&gt; Once integrated, to prove its suitability I will use Phaser to drive one feature of the word game’s game-play.  I will document the process in an entry in my Creative Reflective Journal.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Attainable:&lt;/strong&gt; I will devote a two-week sprint to this, immediately after I have completed all course work and journal entries for the current module.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Relevant:&lt;/strong&gt; I will add Phaser to my Angular boilerplate and prove it to work in tandem with PixiJS.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time-based:&lt;/strong&gt; I will begin a two-week sprint devoted to this goal once I have completed the current module’s course work and journal entries.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;websockets-and-cloud-technologies&quot;&gt;WebSockets and Cloud Technologies&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\websockets.png&quot; alt=&quot;WebSockets&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Having grown up with computers existing largely as separate entities and then the promise of the internet frustrated by the laborious request/response paradigm of HTTP, I was excited when I first became aware of the prospect of almost instantaneous interactions between people, computers and software.&lt;/p&gt;
-
-&lt;p&gt;For some time, I’ve been considering how I could make use of &lt;strong&gt;WebSockets&lt;/strong&gt;. Most of my initial ideas fell roughly into the domain of social media. However, in relation to the kind of education apps I am now considering, a powerful feature would be for real-time interactions and collaborations between students, teachers, classmates and parents etc.  Alongside full duplex connectivity, I would like to make the most of advancements within cloud technologies, such as flexible online storage and serverless functions (for example Amazon AWS and Firebase). In terms of my word game app, the use of these could include the following: -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Drawing on saved states from previous sessions&lt;/li&gt;
-  &lt;li&gt;Mapping progress over time&lt;/li&gt;
-  &lt;li&gt;Setting up scenarios and challenges in advance of the next session&lt;/li&gt;
-  &lt;li&gt;Flexibility of location, platform or device&lt;/li&gt;
-  &lt;li&gt;Common processes undertaken by microservices hosted in the cloud&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;In this regard, I envisage my planned education game apps taking on some of the technical aspects used in &lt;strong&gt;multi-player games&lt;/strong&gt;. I would like to undertake a feasibility study and devise a plan for turning my App Jam word-game into a multi-player game. The plan would use WebSockets to facilitate communication between players, cloud-based storage to maintain game state and record achievement, and serverless functions to manage aspects of game-play such as ‘dealing’ words to the players. I believe these technologies are freely available and, individually, not too difficult to master.&lt;/p&gt;
-
-&lt;h1 id=&quot;smart-goal---3&quot;&gt;SMART Goal: -&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Specific:&lt;/strong&gt; The goal is to create a concept and technical ‘blueprint’ of the structure of my App Jam word-game realised as a multi-player game&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Measurable:&lt;/strong&gt; The document will comprise diagrams, charts and explanations that sets out the entire model.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Attainable:&lt;/strong&gt; I want to create this over one week.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Relevant:&lt;/strong&gt; The blueprint will be such that it will enable me to make an immediate start on modifying the existing app and implementing new features.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time-based:&lt;/strong&gt; I want to use three sessions on successive days - the first for research of technologies, the second to develop my findings and to draw up a prototype, and the third to finalise the concept as a complete blueprint.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;music-and-sound&quot;&gt;Music and Sound&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\computer-music.jpg&quot; alt=&quot;Music and Sound&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It seems to me that the part played by sound in media experiences is often under-valued. As a musician and creator of music and sound art, I would like to see sound placed on an equal footing with visual aspects. At some point I would like to make creative apps where sound is the main driving force. Such apps could be in the form of sound-led &lt;strong&gt;experimental art apps&lt;/strong&gt;, such as &lt;em&gt;Bjork’s Biophilia&lt;/em&gt; or &lt;em&gt;synthPond&lt;/em&gt; by &lt;em&gt;Zach Gage&lt;/em&gt;, or &lt;strong&gt;music education&lt;/strong&gt; and &lt;strong&gt;music-game&lt;/strong&gt; apps, such as &lt;em&gt;Dust Buster app for Piano&lt;/em&gt; or music puzzle games like &lt;em&gt;Tapt&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have extensive experience of creating music, both acoustically and electronically and, having also flirted with being a visual artist, I am particularly interested in the &lt;strong&gt;cross-overs&lt;/strong&gt; that can flourish between sonic and other creative activities, as demonstrated in my BA degree in Music, in which I minored in Visual Performance, and having since worked collaboratively in the production of multi-disciplinary installation, contemporary dance, film and theatre.&lt;/p&gt;
-
-&lt;p&gt;Recently, music has played less of a dominant role as a creative activity. Whereas I once co-ran a DIY electronica music label and was continually producing and performing, I think I would now struggle to create and output at a similar level of intensity and my confidence in my ability to do so has consequently dipped. However, I am not downhearted about this, as software development has in large part taken over.  I now intend to phase in, over the course of my development, the use of sound in increasingly interesting and creative ways.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;playback of recorded and sampled sound&lt;/li&gt;
-  &lt;li&gt;attachment of sound to events, such as those driven by user interaction&lt;/li&gt;
-  &lt;li&gt;streaming sound across an internet connection&lt;/li&gt;
-  &lt;li&gt;sound creation - via synthesis&lt;/li&gt;
-  &lt;li&gt;sound manipulation - effects etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But, more immediately, I would like to concentrate on adding sound to my App Jam word game in order to make it a more “immersive and emotionally-charged experience” (see &lt;a href=&quot;http://www.amplifon.ie/resources/playing-with-your-mind/&quot;&gt;amplifon.ie&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h1 id=&quot;smart-goal---4&quot;&gt;SMART Goal: -&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Specific:&lt;/strong&gt; The goal is to add basic sound to my word game project.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Measurable:&lt;/strong&gt; I need sounds for the following events: collisions (both positive and negative), game over, level completed and background soundtrack. The goal will be complete once I have these basic sounds satisfactorily in place.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Attainable:&lt;/strong&gt; I am competent in creating sounds and music as well as having access to online sound effects libraries. I will use online resources to study how to add sound to events in JavaScript and as a continual soundtrack.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Relevant:&lt;/strong&gt; The game requires these sounds in place to improve the overall quality, playability and to enhance the user-experience.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Time-based:&lt;/strong&gt; I will use three sessions on consecutive days: the first to creating my app jam sound library, the second for research and learning  and the third for implementation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;One of the most useful things I have learned has been the importance of constantly reacting to my achievements and failures and assessing what I have learned from them.  This has led me to continually re-appraise the goals I have set myself and helped me move forward in terms of my ideas, expectations and ambitions.  As a result, rather than tie my goals down to their initial incarnations, I have allowed them to evolve naturally so that they can better suit what I have learned since they were first put onto paper.&lt;/p&gt;
-
-&lt;p&gt;Through reflection, I have also found that game-focused education apps and, specifically, autism related apps have become interesting to me. In particular due to my personal interests due to having an autistic son.&lt;/p&gt;
-
-&lt;p&gt;I feel confident that continuing to take this approach will ultimately lead me to success in my chosen fields.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Current thoughts on this are that I have an eight-year-old autistic son and a wife who works for the NHS. There is here, then, the possibility to develop a brief to create a VR app targeting an educational or theraputic need within the realm of autism. This option is becoming very attractive!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosing a brief</summary></entry></feed>
