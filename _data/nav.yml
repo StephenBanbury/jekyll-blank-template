@@ -1,5 +1,48 @@
 toc:
   
+  - title: Individual Design and Development Project (GAM720)
+    subfolderitems:
+      - page: Week One - Game Design
+        date: 2020-01-27
+        url: 2020/01/27/week-one-game-design.html
+        subsubfolderitems:
+          - page: Designing the VR Environment
+            date: 2020-01-29
+            url: 2020/01/29/vr-environment.html
+      - page: Week Two - Fictional Worlds & Game Mechanics
+        date: 2020-02-03
+        url: 2020/02/01/week-two-fictional-worlds-and-game-mechanics.html
+      - page: Week Three - Suspension of Disbelief
+        date: 2020-02-10
+        # url: 2020/02/10/week-three-suspension-of-disbelief.html
+      - page: Week Four - Colour Theory
+        date: 2020-02-17
+        # url: 2020/02/17/week-four-colour-theory.html
+      - page: Week Five - Concept Art
+        date: 2020-02-24
+        # url: 2020/02/24/week-five-concept-art.html
+      - page: Week Six - Character Design
+        date: 2020-03-02
+        # url: 2020/03/02/week-six-character-design.html
+      - page: Week Seven - Sound Design
+        date: 2020-03-09
+        # url: 2020/03/09/week-seven-sound-design.html
+      - page: Week Eight - Sound Process
+        date: 2020-03-16
+        # url: 2020/03/16/week-eight-sound-process.html
+      - page: Week Nine - Doug Pennant
+        date: 2020-03-23
+        # url: 2020/03/23/week-nine-doug-pennant.html
+      - page: Week Ten - 3D Art
+        date: 2020-03-30
+        # url: 2020/03/30/week-ten-doug-pennant.html
+      - page: Week Eleven - Animation
+        date: 2020-03-20
+        # url: 2020/03/20/week-eleven-animation.html
+      - page: Week Twelve - Packaging and Submitting the Work
+        date: 2020-03-27
+        # url: 2020/03/27/week-twelve-packaging-and-submitting-the-work.html
+  
   - title: Live Brief Design and Development Project (GAM740)
     subfolderitems:
       - page: Week Five - Business Models

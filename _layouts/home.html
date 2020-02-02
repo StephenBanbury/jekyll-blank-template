@@ -10,7 +10,6 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <!-- <h1 class="post-list-heading">{{ page.list_title | default: "Course Modules" }}</h1> -->
     <ul class="post-list">
       {% for item in site.data.nav.toc %}
         <h2 class="post-list-heading">{{ item.title }}</h2>       
@@ -24,6 +23,16 @@ layout: default
             {%- if site.show_excerpts -%}
               {{ post.excerpt }}
             {%- endif -%}
+            <ul style="margin-left: 30; list-style: none;">      
+              {% for subentry in entry.subsubfolderitems %}          
+              <li>              
+                <span class="post-meta">{{ subentry.date | date: date_format }}</span><br>
+                <h4>
+                  <a class="post-link" href="{{ subentry.url | relative_url }}"> {{ subentry.page }} </a>
+                </h4>
+              </li>
+              {% endfor %}   
+            </ul>
           </li>
           {% endfor %}    
           <br>

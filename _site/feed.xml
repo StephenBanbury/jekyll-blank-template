@@ -1,4 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-25T16:48:47+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-01-25T16:08:02+00:00</published><updated>2020-01-25T16:08:02+00:00</updated><id>http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-02T21:59:55+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Week One - Fictional Worlds &amp;amp; Game Mechanics</title><link href="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html" rel="alternate" type="text/html" title="Week One - Fictional Worlds &amp; Game Mechanics" /><published>2020-02-01T00:00:00+00:00</published><updated>2020-02-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics</id><content type="html" xml:base="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html">&lt;p&gt;A notion of fiction particularly relevant to Creative App Development: -
+&lt;em&gt;“An imaginary thing or event, postulated for the purpose of argument or explantion”&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;User Stories&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Personnas - fictional characters - research&lt;/p&gt;
+
+&lt;h1 id=&quot;speculative-design--design-fiction&quot;&gt;Speculative Design / Design Fiction&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Ficionalised Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Virtual Reality&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The Neuromancer&lt;/em&gt; - Willilam Gibson, 1984&lt;/p&gt;
+
+&lt;p&gt;Consentual Halucinations. Factbook - &lt;em&gt;Social VR&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Much of this kind of fiction is about future technologies and the relationships we foster with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Speculative Anything”&lt;/em&gt; - Doon &amp;amp; Mabby &lt;strong&gt;(find link to website)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Non-linear, interactive fiction&lt;/strong&gt; - where the user makes choices and is not simply taken on a journey designed by the designer. Concept that has captured the imagination of game developers and interactive artists.&lt;/p&gt;
+
+&lt;p&gt;In terms of my own work, it should be interesting to speculate on how the user interacts with my design and created environment, how their journey unfolds, how they may chose to engage and explore. Non-linear interaction - my users will make the choices, they have agency over their own journey.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Narrative Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Take risks and experiment.&lt;/p&gt;</content><author><name></name></author><summary type="html">A notion of fiction particularly relevant to Creative App Development: - “An imaginary thing or event, postulated for the purpose of argument or explantion” User Stories</summary></entry><entry><title type="html">Designing the VR environment</title><link href="http://localhost:4000/2020/01/29/vr-environment.html" rel="alternate" type="text/html" title="Designing the VR environment" /><published>2020-01-29T00:00:00+00:00</published><updated>2020-01-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/29/vr-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/29/vr-environment.html">&lt;h1 id=&quot;it-is-becoming-evident-that-notions-of-environment-could-be-a-good-place-to-begin&quot;&gt;&lt;em&gt;It is becoming evident that notions of environment could be a good place to begin&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Here I am concerned with the immediate virtual space that the immersive experience participant finds themselves.&lt;/p&gt;
+
+&lt;p&gt;My experience creating virtual reality prototypes for ShelterBox in the previous module has encouraged me to consider, in greater depth, the benefits or otherwise of the nature and qualities of the immersive environment. As the single most important aspect of the immersive experience in that it encompasses and affects all others, the created environment appears to be top of the list. Ultimately, I will be looking for ways of encouraging the participant to &lt;strong&gt;hang around&lt;/strong&gt;, so I will need to consider how and to what extent the nature of environment affects the overall experience.&lt;/p&gt;
+
+&lt;p&gt;Some possible subjects for research and consideration could include: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The use of a familiar environment, such as using the model I created of the family home imported into Unity from Sketch-up.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How would familiar environment or familiar objects affect reaction to the environment compared with those that are unfamiliar or custom-made?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How would personal welcome messages and familiar sounds affect the way the environment is received?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Could I introduce the use of voice synthesis - perhaps this could be controlled by text input by a teacher/therapist/player?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How environment affects levels of relaxation, stimulation, engagement etc.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What makes a good therapeutic environment?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In what way is comfort affected by colour and colour schemes?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How does the use of sound or music affect the environment and how does the type of music or quality of sound affect the participant’s disposition?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Would something like a Zen environment be a suitable place to begin these experiments?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">It is becoming evident that notions of environment could be a good place to begin</summary></entry><entry><title type="html">Week One - Game Design</title><link href="http://localhost:4000/2020/01/27/week-one-game-design.html" rel="alternate" type="text/html" title="Week One - Game Design" /><published>2020-01-27T00:00:00+00:00</published><updated>2020-01-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/27/week-one-game-design</id><content type="html" xml:base="http://localhost:4000/2020/01/27/week-one-game-design.html">&lt;p&gt;I would not describe myself as a ‘gamer’. I don’t really play games these days, but that’s not to say I do not appreciate the art.&lt;/p&gt;
+
+&lt;p&gt;This module appears to be designed to draw inspiration from games, if not encourage game design or development in itself. I find myself much more drawn to the topic than I would have thought at the start of the course, a year ago. Earlier journal posts, my course work, and during webinars and general conversation, it is fairly clear that my appreciation of the concept of games, in the widest and most loosely-formulated sense, in terms of design and development in relation to their purpose and the roles they can play within the wider sphere of app development, has swiftly become almost integral to my own direction of travel. That is not to say I expect or hope to become a game designer in the purest sense - this is for those who have devoted their lives to gaming and have developed an inate and sympathetic feel for games that maybe I once posessed but have long since left behind. However, games, or the ideas behind what makes a game, how games engage us and capture our attention, spark our imagination, attempt to free us from our more mundane sense of being and challenge us to improve ourselves, does intrigue me. I am interested in how game systems, strategies, rewards and hooks can instigate a drive to compete, progess, succeed and to overcome obstacles and prevail, and how this can be harnessed beyond the pure idea of gaming for the sake of gaming.&lt;/p&gt;
+
+&lt;p&gt;Education has been shown to be an obvious and significant beneficiary [reference]. And education itself is a diverse area.&lt;/p&gt;
+
+&lt;h1 id=&quot;peer-discussion&quot;&gt;Peer Discussion&lt;/h1&gt;
+
+&lt;p&gt;We were asked to discuss our ‘favourie game’ - a wide topic, and one that could be taken in many directions.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What is your favourite game and why? It could be anything from board games, party games, video games or even something that involves adding a layer of play on top of your everyday tasks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My response: -&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’m struggling with this one a bit. I don’t really game (I love how this has become a verb) much, any more. I probably started to fry the gaming part of my brain when I was a young teen and then finally frazzled it in my early 30s. Saying that, I’m finding I’m starting to get back into games a little, partly due to  my 11 year old son and partly due to a kind of gentle road-to-Damascus series of rediscovery-renaissance experiences via this MA.  Starting to work in Virtual Reality is playing a significant part in this, as is the concept of gamification and the significance of games in education.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Then again, I’ve always loved a good game of chess.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Games, both of the computer or non-computer variety, have played their part at various stages in my life. Snakes and ladders, ludo, cluedo, monopoly, Escape From Colditz (https://tinyurl.com/qoa39kz (Links to an external site.)) etc. as a child, for example. I have particularly fond memories of the London Cabbie Game (https://tinyurl.com/ua2whqp (Links to an external site.)). Card games were an important part of hanging out in shared housing or as a student.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As a young wide-eyed arcade gamer back in the 80s I loved nearly everything that had a 10p or 20p slot (my pocket money and that of my peers must have built this industry). I remember the early ping-pong games appearing in my local chippie.  Followed by Space Invaders,  Pacman, Scramble, Galaxians, Gorf, then platformers like Donkey Kong.  Defender was an unbelievably amazing, crazy game that was about as immersive as a 2D space shoot-em-all game could be back then. The sounds of these games are as memorable as the gameplay, and when I hear the noises now I can smell the arcades. As a proud owner of a BBC Micro Model B, I reserve a particularly special place in my heart for Elite (https://tinyurl.com/vf6s4z8 (Links to an external site.)). This was the most cutting edge game of its time and marks the beginning of a whole new genre of video/console games.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I’ve always loved driving games, but only if they are realistic. Forget style over substance - it has to be authentic, like the real thing. Same for flying, shooting, being in space.  I think this is probably what I am beginning to feel the love for more than anything when it comes to modern gaming. Although I’ve not played this game much myself I’m beginning to get a fascination watching my son play Zelda, Breath Of The Wild.  He loves the freedom it gives him to explore and make his own way whilst feeling about as real as can be,  and it looks amazing!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I am now getting excited about the possibilities of virtual, augmented and mixed reality - surely this is going to be huge and has the potential to take the concept of what a game is onto another level.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;in-brief-thoughts-on-the-module-outline&quot;&gt;In brief: thoughts on the module outline&lt;/h1&gt;
+
+&lt;p&gt;In terms of my early thinking about this project, I am scatterlogically finding these kind of thoughts bouncing around my head, as a result of what I would like to explore myself and the generally intriguing titles of the, as yet, unlocked weekly content to come. As the course content and requirements become known and, of course, the actual work I do takes form, these will no doubt change to greater or lesser degress and new ideas should form. As ever, it will be interesting to see how this progresses.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Game Design&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fictional Worlds &amp;amp; Game Mechanics&lt;/strong&gt;. Vital stuff for game creators. Very much looking forward to this as it’s new learning for me.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Suspension of Disbelief&lt;/strong&gt;. I presume this will be about making the impossible into reality or, as I touched up above, creating worlds that make demands on our imagination and pull us out of our ‘normal’ existence.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Colour Theory&lt;/strong&gt;. Something I missed out on at art college, but is clearly important in app development. I want my apps to look good as this can make such a difference. I’m sure something that looks good and feels good has an advantage over something that maybe more sophisticated. If user does not like being there, they will stay away. Web design has really developed this field in recent times.
+It will be worth considering the importance of an app, or immersive environment or characters within it, looking aesthetically pleasing, in comparison to the importance of being functionally-enticing, useful, exciting, fun etc. Is being able to maniuplate your environment to your own ends more important than a slick-looking environment that is proviced to you from the outset?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Concept Art&lt;/strong&gt;. I have spent time considering this, as an undergraduate and generally. I am interested to see how the topic is discussed in relation to our art as app developers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Character Design&lt;/strong&gt;. A new skill for me, and potentially an important one with regard to multi-player / interactive immersive experiences and ways of relating in the virtual world with my target audience, i.e. ASD. Character design versus downloadable professionally-created assets - which is suitable for what purpose?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sound Design&lt;/strong&gt;. My bag in my world outside app development and something I’ve been looking forward to engaging with. I’m considering how sound and ‘musical’ sound can be embraced as a means for providing a level of immersion that goes beyond the visual, which is far more prevelant and understood, I think.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sound Process&lt;/strong&gt;. Not sure what this is. Is this sound and the process of using it, or ‘sound’ as in ‘stable’, ‘safe’, ‘reliable’?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;3D Art&lt;/strong&gt;. Clearly an important subject when it comes to VR.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Animation&lt;/strong&gt;. I have briefly dabbled with animation - 2D using javascript and javascript libraries and game engines,and 3D via Unity - and it is an area that I am looking forward to focusing on at little more.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;first-thoughts-and-development-of-ideas&quot;&gt;First thoughts and development of ideas&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Virtual reality, augmented reality, mixed reality&lt;/strong&gt;. All seem to hold the potential to explore and push the ‘evolution’ of games further along, including notions of what games are, how we understand games in terms of their function as human activity and expressions of human nature. I am interested in how aspects of gaming can potentially be captured and used as tools for learning, particularly when combined with the intensely immersive qualities of VR. With this in mind, the idea of shared virtual experience particularly interests me and I intend to explore some of the potential, if it exists, of ‘multi-player’, ‘chat-room’ or similar platforms to facilitate the building of ‘bonds of trust’ in order to gain the attention of the participant as ‘student’, with the aim of aiding the process of learning.&lt;/p&gt;
+
+&lt;p&gt;As has been explained in earlier posts, I have a personal interest in ASD - Autism Spectrum Disorder - and ultimately I would like to take steps to discover if there is the potential for immersive VR to create environments where learning is made easier; or, at least, to create another place where learning can happen, perhaps taking on a different form from those that are more established. The intention is not to create environments that ‘simply’ replace those that are real, natural, unavoidable, in order to provide relief or respite for the participant - although this could be recognised as a noteworthy by-product - or to make life easier for those in close contact, such as family. Instead, I would like to explore whether, perhaps, the clarity of objects - visual, aural, interactive - and of the individuals respresented within these environments, can help to focus the attention of the student and engage them in such a way that action, feedback and reward - in whatever form this may take - are clear and precise to the participant, uncluttered and unaffected by distracting or distressing background ‘noise’.&lt;/p&gt;
+
+&lt;p&gt;As I do not have a formal practical or academic background as an &lt;em&gt;Educationalist&lt;/em&gt;, I am aware that there are questions that I may have that ultimately turn out to have been already discussed, answered or dismissed as irrelevant. However, perhaps some need to be raised again, albeit with a new slant due to the continual advancement of technology, along with the ever-changing nature of society’s response to it. Therefore, I am approaching this topic perhaps a little &lt;em&gt;wide-eyed&lt;/em&gt; and naive. However, the expectation that the GAM720 module is approached from an experimental perspective, backed up by appropriate and thorough research, should make for an interesting journey. I only hope I find some answers and open avenues for further exploration of these thoughts and ideas.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Multi-player:&lt;/strong&gt; Looking at ways of more than one person joining in the VR experience. How can student-teacher interaction take place?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Option 1:&lt;/strong&gt; the student experiences the environment and the teacher remains outside of this, but is able to manipulate the environment in real-time?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Option 2:&lt;/strong&gt; the student and teacher to join each other in the envoronment with the potential of interacting with each other?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Facial expressions:&lt;/strong&gt; can they be simulated within VR? This could be an important part of ASD thereutic research.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;physical interactions:&lt;/strong&gt; Can I move beyond the normal expected kind of user interactions with their environment, such as picking up and throwing objects, pressing buttons, pushing objects etc? I would like to experiment with turning and twisting, clapping, shaking etc. What happens if expected outcomes do not arise but are replaced by the unexpected, scrambling cause and effect? Could this be used to create ‘puzzle’ games? For example where clapping causes water to change colour or pushing a block causes a balloon to expand.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hand tracking:&lt;/strong&gt; recently this become available for the Oculus Quest with no extra hardware or software required.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;sound:&lt;/strong&gt; used within immersive environments what effect can sound have on the participant? In what why does it affect how the partipant experiences the visual aspects of the space?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Vocalisation:&lt;/strong&gt; How can the participant’s own voice be used to communicate and/or affect the environment. How can it be used in general communication. Maybe speech therapy could be considered as a possible outcome.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;environment&quot;&gt;Environment&lt;/h1&gt;
+
+&lt;p&gt;Environmental considerations can be found &lt;a href=&quot;/2020/01/29/vr-environment.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;social-vr&quot;&gt;Social VR&lt;/h1&gt;
+
+&lt;p&gt;A shall be researching &lt;strong&gt;social VR&lt;/strong&gt;. This will involve looking at how Occulus, in particular, are developing the concept of the &lt;strong&gt;Avatar&lt;/strong&gt; in creating a presence in the immersive environment.&lt;/p&gt;
+
+&lt;p&gt;Online links I will be studying the following videos: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ATbqtZqoit8&quot;&gt;Bootstraping Social VR&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=X6XOwtcscnY&quot;&gt;Oculus Avatars: Maximizing Social Presence&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HT0nOOZz6QE&quot;&gt;Oculus Connect 5 - Oculus Avatars: Maximizing Social Presence, Part II&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=86-tHA8F-zU&quot;&gt;Facebook VR Research: Photorealistic Face Tracked Avatars&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I would not describe myself as a ‘gamer’. I don’t really play games these days, but that’s not to say I do not appreciate the art.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-01-25T16:08:02+00:00</published><updated>2020-01-25T16:08:02+00:00</updated><id>http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
@@ -291,193 +453,4 @@ https://www.smashingmagazine.com/2009/10/freelance-contracts-dos-and-donts/&lt;/
 
 &lt;p&gt;A roadmap outlining my releases will be in line with my sprints. I will work in three sprints of three weeks each. Suffice to say, sprint 1 begins at the start of week 4 and I intend to have a shippable product by the end of week 6. This will be a minimum viable product and will achieve the central goal already outlined - it will be playable, fun and informative, with the proviso that this is an agile process and things can, and probably will, change.&lt;/p&gt;
 
-&lt;p&gt;As always, change will be welcomed and change will be embraced!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosen Brief</summary></entry><entry><title type="html">Week Two - Envisioning</title><link href="http://localhost:4000/2019/10/05/week-two-envisioning.html" rel="alternate" type="text/html" title="Week Two - Envisioning" /><published>2019-10-05T00:00:00+01:00</published><updated>2019-10-05T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/05/week-two-envisioning</id><content type="html" xml:base="http://localhost:4000/2019/10/05/week-two-envisioning.html">&lt;h2 id=&quot;scrum-envisioning--product-planning&quot;&gt;Scrum Envisioning / Product Planning&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Thorough research&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Reducing the brief down into the most crucial elements&lt;/li&gt;
-      &lt;li&gt;Key phrases&lt;/li&gt;
-      &lt;li&gt;Identify similar products on the market&lt;/li&gt;
-      &lt;li&gt;Collate as much information as possible to inform ideation&lt;/li&gt;
-      &lt;li&gt;The ideation stage should then begin to formulate the essence of an idea that has the potential to develop into a product&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Envisioning&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Formalise what you have so far into a document outlining the higher level product&lt;/li&gt;
-      &lt;li&gt;Use this document as a form of proposal or agreement of the work to be carried out for the client&lt;/li&gt;
-      &lt;li&gt;Also used in scrum as a planning document to intiate product development&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Product charter&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Created through completion of the envisioning process&lt;/li&gt;
-      &lt;li&gt;Will become the foundation for your proposal&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;struggling-with-a-decision&quot;&gt;Struggling with a decision&lt;/h2&gt;
-
-&lt;p&gt;I’m struggling to make a decision, one that needs to be made very soon, as to which brief - &lt;a href=&quot;https://sowenna.cornwallft.nhs.uk/&quot;&gt;&lt;strong&gt;NHS Trust Sowenna Sensory Room&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&quot;https://www.shelterbox.org/&quot;&gt;&lt;strong&gt;Shelter Box Conference Booth Games&lt;/strong&gt;&lt;/a&gt; - to take on.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Shelter Box&lt;/strong&gt; project is more loosely defined. Our initial conversation was interesting and the enthusiasm for the project was palpable, but there was little put forward in terms of vaguely firm ideas for what form the ‘conference booth games’ would take. This could be a positive or a negative thing, depending on how it is viewed.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;Sowenna&lt;/strong&gt; project is likely to be based around the idea of a beach environment. The young people invovled in the CAMHS project have put forward what they would like - one, or maybe two, have been completed or are close to completion, whilst the one remaining is the beach environment. It’s easy to start envisioning a product armed with this information.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Shelter Box&lt;/strong&gt; have not stipulated any specific equipment must be used. They seem open to exploring my own suggestions, which would probably be for the Oculus Quest, seeing as&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;I have purchased one and this is what I would like to use&lt;/li&gt;
-  &lt;li&gt;it is relatively inexpensive as no powerful computer is required and&lt;/li&gt;
-  &lt;li&gt;it is untethered and therefore not limited to specific spacial requirements in the same way as ‘standard’ headsets.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Sowenna&lt;/strong&gt; project stipulates what equiment is to be used. I do not yet know if I would be provided with their equiment to use for development as the main project lead has not yet been available to discuss this. But if I were not provided with this then development would be more difficult and if equipment were provided then I’d need to spend more time learning a different development path on an unfamiliar platform and technical setup.&lt;/p&gt;
-
-&lt;p&gt;Both projects could potentially continue after this initial stage. In the case of the Sowenna project this could include the possibility of the research side of things. Maybe this could be something I could involve myself in regardless of whether or not I take on this particular brief. I sense from the Shelter Box project that this could be just the start. Potentially, I could involve myself in futher development of these ideas and help take them forward into different virual and real-life locations, such as going ‘on tour’ in festivals and exhibitions.&lt;/p&gt;
-
-&lt;h2 id=&quot;initial-thoughts-on-ideation&quot;&gt;Initial thoughts on ideation&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;- Sowenna -&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Lying on a beach is generally a calming experience. It’s easy to understand why it was chosen by the young people as one of their prefered ideas for a VR sensory environment. Using this as a starting point for developing ideas, I can envisage lying down watching clouds rolling by, birds flying overhead, birds soaring or holding their position against the breeze. A sun lamp could be used to to provide real heat to suplement the virtual sun; an electric fan could provide the breeze. Turning your head towards the horizon would bring the pulsating sea into view, with waves hitting and breaking on the shore. Drift wood would undulate on its surface. The mesmerizing, repetitive sound of the rolling waves would be relaxing and sleep-inducing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;- Shelter Box -&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;As a starting point, I can imagine a kind of game, where the ‘player’ is in a disaster control centre awaiting incoming reports of different kinds of disasters, as they happen. It would be necessary to quickly grab, from shelves and hooks, the equipment that would be required for the particular disaster - be it a hurricane causing villages to be destroyed, floods destroying crops and causing potential food shortages, or conflict causing mass displacement of people - and to put this equipment in a blue Shelter Box. The time scale for this would be unrealistic, but designed to put the player under pressure and add to the sense of jeopardy. There could be a budget to which the player would need to stay within, which would be used up by the resources being placed into the box. The budget could be periodically refreshed by the addition of funds via charitable support - perhaps this could be in the form of game-style ‘power-ups’, or via the requirement to periodically instigate a public information event to replenish funds.&lt;/p&gt;
-
-&lt;h1 id=&quot;envisioning&quot;&gt;Envisioning&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;product level planning&lt;/li&gt;
-  &lt;li&gt;capturing the essence of the product.&lt;/li&gt;
-  &lt;li&gt;a lightweight alternative to &lt;em&gt;product chartering&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;a fast process to allow us to &lt;em&gt;test assumptions, build tangible prototypes and iron out the finer details of the product&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;priorities tend to change over time.&lt;/li&gt;
-  &lt;li&gt;avoid &lt;em&gt;analysis paralysis&lt;/em&gt;, i.e. spending too much time defining, not enough actual building.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Kenneth Rubens’ Essential Scrum:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We don’t want to spend too much time or effort envisioning because we want to quickly advance past the guessing stage, where we think we know the needs of the customer and the potential solution, to the fast feedback stage.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The aim is to get closer and closer to product perfection through a continuous cycle of planning, implementation, testing and evaluation - i.e. the Agile process.&lt;/p&gt;
-
-&lt;p&gt;Initial envisioning - just enough info to help define the first minimal release.&lt;/p&gt;
-
-&lt;p&gt;Rubin suggests,&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Plan to Learn Fast and Pivot When necessary.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Output of the envisioning stage is commonly known as the product charter. This document should contain:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The product vision, a simple summary statement that defines the project.&lt;/li&gt;
-  &lt;li&gt;Target Customer&lt;/li&gt;
-  &lt;li&gt;Key Benefits&lt;/li&gt;
-  &lt;li&gt;Purpose of the project.&lt;/li&gt;
-  &lt;li&gt;Information about roles and responsibilities (if working in a team - but as an individual it will help manage client’s expectations by communicating what you agree to take on).&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Scrum Envisioning / Product Planning</summary></entry><entry><title type="html">Week Two - Early Client Contact</title><link href="http://localhost:4000/2019/10/02/week-two-early-client-contact.html" rel="alternate" type="text/html" title="Week  Two - Early Client Contact" /><published>2019-10-02T00:00:00+01:00</published><updated>2019-10-02T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/02/week-two-early-client-contact</id><content type="html" xml:base="http://localhost:4000/2019/10/02/week-two-early-client-contact.html">&lt;p&gt;&lt;strong&gt;I think I am going to chose one of the briefs put forward by the university.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Why?&lt;/p&gt;
-
-&lt;p&gt;Because there are one or two that cover my bases and I can then concentrate on honing my ideas to the brief, which has got to be a good skill to practice, has it not?
-I could do it the other way around in order to develop my technical skills, i.e. I could decide what I want to learn and practice, technically, and put together a brief that fits, but I’m not sure that this would outweigh what I would learn if I were to ‘do it real’. 
-There is also the greater potential to end up with a &lt;em&gt;real&lt;/em&gt; portfolio piece - one that will have been achieved for a &lt;em&gt;real&lt;/em&gt; client on a &lt;em&gt;real&lt;/em&gt; project. 
-As a piece of work based on &lt;em&gt;Virtual Reality&lt;/em&gt;, this would be a refreshing grounding.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;I wish I was better on the phone&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I always think of what I would like to have said after the phone has been put down and I begin the process of remembering what it was I really wanted to know or to contribute to the conversation. It is made worse by the knowledge that this ain’t trivial! It’s important! I need to be able to come away from these dismembered meetings knowing that there is nothing left to add or to glean except for “is there any way we can do this even quicker, because that was one amazing get-together and I don’t know if we can wait much longer to get started!”.&lt;/p&gt;
-
-&lt;p&gt;You can’t always anticipate everything that will be said and how to repond, but it’s worth putting in the time imagining these scenarios. I think, then, over time, with practice it will be possible to automatically get head into phone-mode.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thoughts and lists&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;What do I want to say? .. don’t forget don’t forget don’t forget!&lt;br /&gt;
-.. put down thoughts and create lists. &lt;br /&gt;
-Imagine what is likely to be discussed?&lt;br /&gt;
-.. more thoughts and lists. &lt;br /&gt;
-What will my responses be to these imagined scenarios?&lt;br /&gt;
-.. thoughts and lists. &lt;br /&gt;
-Lists and thoughts. &lt;br /&gt;
-Thoughts and lists. &lt;br /&gt;
-NEVER forget..&lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">I think I am going to chose one of the briefs put forward by the university.</summary></entry><entry><title type="html">Week One - Considering The Briefs</title><link href="http://localhost:4000/2019/09/28/week-one-considering-the-briefs.html" rel="alternate" type="text/html" title="Week  One - Considering The Briefs" /><published>2019-09-28T00:00:00+01:00</published><updated>2019-09-28T00:00:00+01:00</updated><id>http://localhost:4000/2019/09/28/week-one-considering-the-briefs</id><content type="html" xml:base="http://localhost:4000/2019/09/28/week-one-considering-the-briefs.html">&lt;h2 id=&quot;chosing-a-brief&quot;&gt;Chosing a brief&lt;/h2&gt;
-
-&lt;p&gt;There are three potential briefs provided by the University that I am considering: -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Shelter Box: Conference Booth Games&lt;/li&gt;
-  &lt;li&gt;NHS Foundation Trust: Sowenna Sensory VR Environment&lt;/li&gt;
-  &lt;li&gt;Tretherras School: Animal Farm KS4 Revision Guide&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I also am considering putting together my own brief along with an identified client. More details of which I outline below.&lt;/p&gt;
-
-&lt;p&gt;I have decided that I will be using this module to develop skills in the area of Virtual Reality.
-Over the course of the previous two modules I have come to the realisation that there are a number of areas of &lt;em&gt;App Development&lt;/em&gt; that I find interesting. Settling on one, or if more than one, a focused way of incorporating a small number, continues to be a challenge. However, it is &lt;strong&gt;Augmented/Mixed Reality&lt;/strong&gt; and &lt;strong&gt;Virtual Reality&lt;/strong&gt; that demandes my attention more than any other. As highlighted in my final post of &lt;strong&gt;GAM710&lt;/strong&gt; - &lt;a href=&quot;/2019/05/04/week-twelve-1-what-next.html&quot;&gt;&lt;strong&gt;&lt;em&gt;What Next?&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;, I have become fascinated in the potential for both &lt;strong&gt;gamification&lt;/strong&gt; and VR/AR to enhance the process of learning. I have also identified Autism as a condition whose needs, in terms of therapy and learning, could be explored through VR/AR.&lt;/p&gt;
-
-&lt;p&gt;To this end I have purchased a VR headset - an Oculus Quest - and have begun studying and following tutorials in VR and the use of Unity to build 3-dimensional. I am keeping an open mind as to whether Unity or WebVR / WebXR is the most suitable way forward, but Untiy seems to be a good way in for me at this juncture, as it is the most intuative way to learn about something in which I currently have little to no experience.&lt;/p&gt;
-
-&lt;h2 id=&quot;shelter-box-conference-booth-games&quot;&gt;Shelter Box: Conference Booth Games&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We go to the ends of the earth to reach the most remote communities that have been devastated by disaster. Our highly trained ShelterBox response teams then go the extra mile to find the people left most vulnerable after a disaster&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The aims of this brief is to generate ideas for technological solutions that can be deployed at public events to highlight the important work we do and generate discussions that raise public awareness&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The challenge is to find a balance between entertainment and serious, thought provoking engagement. How can we create playful and challenging experiences that also convey a message and urgency for our cause?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The oportunity to involve myself in a project where VR can be the driving technology is exciting. Shelter Box’s brief specifically states they are interested in VR&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There is no expectation in terms of equipment, but ShelterBox are interested in experimenting with immersive experiences such as AR, VR and mixed reality&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;and the idea of exploring a game-style, or game influenced solution in order to inform and educate the public of their work, interests me greatly.&lt;/p&gt;
-
-&lt;h2 id=&quot;nhs-foundation-trust-sowenna-sensory-vr-environment&quot;&gt;NHS Foundation Trust: Sowenna Sensory VR Environment&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Young people … will be offered a choice of guided mindfulness exercises with a member of staff or the use of the VR sensory environment as part of their treatment. They will be able to touch, feel, walk around or even lie down during their five minute long experience&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There are some apparently specific requirements in terms of technical setup, hardware and sofware, but it’s not clear if these are set in stone or simply being made available should they be required.&lt;/p&gt;
-
-&lt;p&gt;This brief has clear alignments with my ideas for ASD, but I will need to make enquiries to establish requirements in more depth and for more specific details.&lt;/p&gt;
-
-&lt;h2 id=&quot;tretherras-school-animal-farm-ks4-revision-guide&quot;&gt;Tretherras School: Animal Farm KS4 Revision Guide&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Gamification of study materials … students require the ability to memorise the functions of key characters; recite quotations off by heart; remember Orwell’s purpose for writing … need a facility that enables them to do low stakes quizzing to test their knowledge&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The aim of this brief is to generate a technological solution that would enable students to test their knowledge on these aspects of the novel.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We currently have struggles to motivate primarily middle ability boys. How can we use technology to help them focus and develop their knowledge and memory skills?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The challenge is to find a balance between fun, engaging and educational.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;No mention specifically of VR/AR so I would need enquire about this. But the idea of gamification of an educational objective is interesting, finding a way to engage students who are struggling with traditional methods.&lt;/p&gt;
-
-&lt;p&gt;All three look interesting and to have their own points of interest. I intend writing to each of their points of contact in order to obtain further information before making a decision whether or not to offer my services to one of them.&lt;/p&gt;
-
-&lt;h2 id=&quot;creating-my-own-brief&quot;&gt;Creating my own brief&lt;/h2&gt;
-
-&lt;p&gt;Having discussed with my module tutor, Dr Jamie White, the potential for devising my own brief in conjunction with a potential client, I am also exploring this possibility. This way would allow me to create a brief allowing me to more specifically identify and target a combination of subject matter I am interested in with skills I wish to develop.&lt;/p&gt;
-
-&lt;p&gt;Current thoughts on this are that I have an eight-year-old autistic son and a wife who works for the NHS. There is here, then, the possibility to develop a brief to create a VR app targeting an educational or theraputic need within the realm of autism. This option is becoming very attractive!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosing a brief</summary></entry></feed>
+&lt;p&gt;As always, change will be welcomed and change will be embraced!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosen Brief</summary></entry></feed>
