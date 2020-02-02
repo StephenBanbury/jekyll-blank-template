@@ -8,8 +8,6 @@ I would not describe myself as a 'gamer'. I don't really play games these days, 
 
 This module appears to be designed to draw inspiration from games, if not encourage game design or development in itself. I find myself much more drawn to the topic than I would have thought at the start of the course, a year ago. Earlier journal posts, my course work, and during webinars and general conversation, it is fairly clear that my appreciation of the concept of games, in the widest and most loosely-formulated sense, in terms of design and development in relation to their purpose and the roles they can play within the wider sphere of app development, has swiftly become almost integral to my own direction of travel. That is not to say I expect or hope to become a game designer in the purest sense - this is for those who have devoted their lives to gaming and have developed an inate and sympathetic feel for games that maybe I once posessed but have long since left behind. However, games, or the ideas behind what makes a game, how games engage us and capture our attention, spark our imagination, attempt to free us from our more mundane sense of being and challenge us to improve ourselves, does intrigue me. I am interested in how game systems, strategies, rewards and hooks can instigate a drive to compete, progess, succeed and to overcome obstacles and prevail, and how this can be harnessed beyond the pure idea of gaming for the sake of gaming.
 
-Education has been shown to be an obvious and significant beneficiary [reference]. And education itself is a diverse area.  
-
 # Peer Discussion
 
 We were asked to discuss our 'favourie game' - a wide topic, and one that could be taken in many directions. 
