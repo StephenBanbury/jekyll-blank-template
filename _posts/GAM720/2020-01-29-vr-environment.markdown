@@ -8,7 +8,7 @@ published: true
 
 Here I am concerned with the immediate virtual space that the immersive experience participant finds themselves.
 
-My experience creating virtual reality prototypes for ShelterBox in the previous module has encouraged me to consider, in greater depth, the benefits or otherwise of the nature and qualities of the immersive environment. As the single most important aspect of the immersive experience in that it encompasses and affects all others, the created environment appears to be top of the list. Ultimately, I will be looking for ways of encouraging the participant to **hang around**, so I will need to consider how and to what extent the nature of environment affects the overall experience.  
+My experience creating virtual reality prototypes for ShelterBox in the previous module has encouraged me to consider, in greater depth, the benefits or otherwise of the nature and qualities of the immersive environment. As the single most important aspect of the immersive experience in that it encompasses and affects all others, the created environment appears to be top of the list. Ultimately, I will be looking for ways of encouraging the participant to _hang around_, so I will need to consider how and to what extent the nature of environment affects the overall experience.  
 
 Some possible subjects for research and consideration could include: -
 

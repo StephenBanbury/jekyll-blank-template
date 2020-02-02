@@ -6,6 +6,6 @@
 
 
 
-.post-subfolderitems { margin-left: 30; list-style: none; }
+.post-sublist { margin-left: 30; list-style: none; }
 
-.post-subfolderitems > li { margin-bottom: 30px; }
+.post-sublist > li { margin-bottom: 30px; }

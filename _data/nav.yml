@@ -10,8 +10,12 @@ toc:
             date: 2020-01-29
             url: 2020/01/29/vr-environment.html
       - page: Week Two - Fictional Worlds & Game Mechanics
-        date: 2020-02-03
+        date: 2020-02-01
         url: 2020/02/01/week-two-fictional-worlds-and-game-mechanics.html
+        subsubfolderitems:
+          - page: Humble Beginnings
+            date: 2020-02-02
+            url: 2020/02/02/humble-beginnings.html
       - page: Week Three - Suspension of Disbelief
         date: 2020-02-10
         # url: 2020/02/10/week-three-suspension-of-disbelief.html

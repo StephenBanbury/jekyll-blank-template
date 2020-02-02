@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-02T22:06:33+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Week One - Fictional Worlds &amp;amp; Game Mechanics</title><link href="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html" rel="alternate" type="text/html" title="Week One - Fictional Worlds &amp; Game Mechanics" /><published>2020-02-01T00:00:00+00:00</published><updated>2020-02-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics</id><content type="html" xml:base="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html">&lt;p&gt;A notion of fiction particularly relevant to Creative App Development: -
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-02T23:20:58+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Week Two - Humble beginnings</title><link href="http://localhost:4000/2020/02/02/humble-beginnings.html" rel="alternate" type="text/html" title="Week Two - Humble beginnings" /><published>2020-02-02T00:00:00+00:00</published><updated>2020-02-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/02/humble-beginnings</id><content type="html" xml:base="http://localhost:4000/2020/02/02/humble-beginnings.html">&lt;h2 id=&quot;forming-an-idea&quot;&gt;Forming an idea&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;My initial idea&lt;/strong&gt; stems from twin desires to create a collaborative, interactive, ‘multi-player’ space in Virtual Reality and to develop ways for educational or therapeutic (such as autistic spectrum disorder) activities to take place.&lt;/p&gt;
+
+&lt;p&gt;My starting point will be to create a suitable immersive space to be ‘shared’ by student and teacher. I will explore the use of avatars as representations of the participants and will study this in comparison with a lack of visual human representation. Initially, the student will use the VR headset and the teacher will use a phone or tablet.&lt;/p&gt;
+
+&lt;p&gt;I will introduce a simple interactive concept based on question and response, or action and reaction. The teacher will ask something of the student and will provide a suitable reward if the response is satisfactory.&lt;/p&gt;
+
+&lt;p&gt;As I have an interest in sound and music, I will approach this as part of an exploration of sound creation and manipulation within a virtual space. For this to happen, some kind of participant action will clearly be required as will both sonic and visual elements within the space.&lt;/p&gt;
+
+&lt;p&gt;This will enable me to begin studying the possibilities and effectiveness of immersive technologies in therapeutic and education settings. It will also allow me to experiment with visual and aural aesthetics and the inclusion of visual human interaction, all with the potential to gain insights into human response.&lt;/p&gt;
+
+&lt;h1 id=&quot;as-i-further-develop-my-idea&quot;&gt;As I further develop my idea…&lt;/h1&gt;
+
+&lt;p&gt;I begin to think about how the narrative, along the lines of &lt;strong&gt;storyworld&lt;/strong&gt; rather than &lt;strong&gt;storyline&lt;/strong&gt;, can be more interesting. If this were to be more of a game rather than &lt;em&gt;simply&lt;/em&gt; responding to a set of given tasks. Perhaps this can be along the lines of a &lt;em&gt;spree&lt;/em&gt;, where the ‘student’ returns a series of &lt;em&gt;correct&lt;/em&gt; responses, only for this to fail as soon as an &lt;em&gt;incorrect&lt;/em&gt; response is given. Similar to a game of &lt;strong&gt;Simon&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\simon-electronic-game.jpg&quot; alt=&quot;Simon Game&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is, of course a very simple game.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Research&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;My first search for a VR version of Simon unearthed what I initially thought must be an &lt;em&gt;Augmented Reality&lt;/em&gt; version of the game, requiring a Microft Hololens or something equally sophisticated.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\hololens2-1.jpg&quot; alt=&quot;Hololens 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But in fact it turned out to be a simple piece of hardware that consists of coloured LEDs and responds to proximity of an object - vis the player’s hand - to detect if the correct choice of colour/sound has been made. This game looks novel, but I am certain it would become extremely tiring and annoying in a very short time.&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://youtu.be/7l7ay16ovbo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">Forming an idea</summary></entry><entry><title type="html">Week Two - Fictional Worlds &amp;amp; Game Mechanics</title><link href="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html" rel="alternate" type="text/html" title="Week Two - Fictional Worlds &amp; Game Mechanics" /><published>2020-02-01T00:00:00+00:00</published><updated>2020-02-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics</id><content type="html" xml:base="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html">&lt;p&gt;A notion of fiction particularly relevant to Creative App Development: -
 &lt;em&gt;“An imaginary thing or event, postulated for the purpose of argument or explantion”&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;User Stories&lt;/li&gt;
@@ -14,23 +42,43 @@
 
 &lt;p&gt;&lt;em&gt;The Neuromancer&lt;/em&gt; - Willilam Gibson, 1984&lt;/p&gt;
 
-&lt;p&gt;Consentual Halucinations. Factbook - &lt;em&gt;Social VR&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Consentual Halucinations. Or as facebook would have it: &lt;em&gt;Social VR&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Much of this kind of fiction is about future technologies and the relationships we foster with them.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;“Speculative Anything”&lt;/em&gt; - Doon &amp;amp; Mabby &lt;strong&gt;(find link to website)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;“Speculative Anything”&lt;/em&gt; - (Doon &amp;amp; Mabby? (link TBC) )&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Non-linear, interactive fiction&lt;/strong&gt; - where the user makes choices and is not simply taken on a journey designed by the designer. Concept that has captured the imagination of game developers and interactive artists.&lt;/p&gt;
 
 &lt;p&gt;In terms of my own work, it should be interesting to speculate on how the user interacts with my design and created environment, how their journey unfolds, how they may chose to engage and explore. Non-linear interaction - my users will make the choices, they have agency over their own journey.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Narrative Design&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Take risks and experiment (this is how I like things!).&lt;/p&gt;
 
-&lt;p&gt;Take risks and experiment.&lt;/p&gt;</content><author><name></name></author><summary type="html">A notion of fiction particularly relevant to Creative App Development: - “An imaginary thing or event, postulated for the purpose of argument or explantion” User Stories</summary></entry><entry><title type="html">Designing the VR environment</title><link href="http://localhost:4000/2020/01/29/vr-environment.html" rel="alternate" type="text/html" title="Designing the VR environment" /><published>2020-01-29T00:00:00+00:00</published><updated>2020-01-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/29/vr-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/29/vr-environment.html">&lt;h1 id=&quot;it-is-becoming-evident-that-notions-of-environment-could-be-a-good-place-to-begin&quot;&gt;&lt;em&gt;It is becoming evident that notions of environment could be a good place to begin&lt;/em&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;narrative-design&quot;&gt;Narrative Design&lt;/h2&gt;
+
+&lt;p&gt;There appears to be a difference between &lt;em&gt;Narrative&lt;/em&gt; and &lt;em&gt;Interaction&lt;/em&gt;
+One is linear, a story and is authored
+The other is non-linear, more like a conversation and is identifiable as providing input / user-choice.&lt;/p&gt;
+
+&lt;h1 id=&quot;on-plot&quot;&gt;On Plot&lt;/h1&gt;
+
+&lt;p&gt;Carefully crafted, designed. &lt;br /&gt;
+Players altering a plot can ruin the plot / structure, with loss of narrative.&lt;br /&gt;
+Players being forced into plot can result in loss of interactive strength.&lt;/p&gt;
+
+&lt;p&gt;As a designer one can create a space in which the player acts.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cannot directly control events&lt;/li&gt;
+  &lt;li&gt;Can directly control rules&lt;/li&gt;
+  &lt;li&gt;Create a storyworld, not a storyline&lt;/li&gt;
+  &lt;li&gt;The overaching narrative/goals/challenges can be defined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;my-initial-idea-for-this-modules-project-can-be-seen-here&quot;&gt;&lt;a href=&quot;/2020/02/02/humble-beginnings.html&quot;&gt;My initial idea for this module’s project can be seen here&lt;/a&gt;&lt;/h1&gt;</content><author><name></name></author><summary type="html">A notion of fiction particularly relevant to Creative App Development: - “An imaginary thing or event, postulated for the purpose of argument or explantion” User Stories</summary></entry><entry><title type="html">Designing the VR environment</title><link href="http://localhost:4000/2020/01/29/vr-environment.html" rel="alternate" type="text/html" title="Designing the VR environment" /><published>2020-01-29T00:00:00+00:00</published><updated>2020-01-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/29/vr-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/29/vr-environment.html">&lt;h1 id=&quot;it-is-becoming-evident-that-notions-of-environment-could-be-a-good-place-to-begin&quot;&gt;&lt;em&gt;It is becoming evident that notions of environment could be a good place to begin&lt;/em&gt;&lt;/h1&gt;
 
 &lt;p&gt;Here I am concerned with the immediate virtual space that the immersive experience participant finds themselves.&lt;/p&gt;
 
-&lt;p&gt;My experience creating virtual reality prototypes for ShelterBox in the previous module has encouraged me to consider, in greater depth, the benefits or otherwise of the nature and qualities of the immersive environment. As the single most important aspect of the immersive experience in that it encompasses and affects all others, the created environment appears to be top of the list. Ultimately, I will be looking for ways of encouraging the participant to &lt;strong&gt;hang around&lt;/strong&gt;, so I will need to consider how and to what extent the nature of environment affects the overall experience.&lt;/p&gt;
+&lt;p&gt;My experience creating virtual reality prototypes for ShelterBox in the previous module has encouraged me to consider, in greater depth, the benefits or otherwise of the nature and qualities of the immersive environment. As the single most important aspect of the immersive experience in that it encompasses and affects all others, the created environment appears to be top of the list. Ultimately, I will be looking for ways of encouraging the participant to &lt;em&gt;hang around&lt;/em&gt;, so I will need to consider how and to what extent the nature of environment affects the overall experience.&lt;/p&gt;
 
 &lt;p&gt;Some possible subjects for research and consideration could include: -&lt;/p&gt;
 
@@ -406,49 +454,4 @@ professional.&lt;/p&gt;
 &lt;p&gt;https://www.sitepoint.com/5-critical-contracts-for-mobile-app-developers/
 http://99u.com/articles/21927/dont-get-screwed-the-contract-provisions-every-creative-needs-to-know
 http://www.hongkiat.com/blog/freelance-contract-clauses/
-https://www.smashingmagazine.com/2009/10/freelance-contracts-dos-and-donts/&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Three - Estimation</title><link href="http://localhost:4000/2019/10/07/week-three-estimation.html" rel="alternate" type="text/html" title="Week Three - Estimation" /><published>2019-10-07T00:00:00+01:00</published><updated>2019-10-07T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/07/week-three-estimation</id><content type="html" xml:base="http://localhost:4000/2019/10/07/week-three-estimation.html">&lt;h2 id=&quot;chosen-brief&quot;&gt;Chosen Brief&lt;/h2&gt;
-
-&lt;p&gt;Light a firework… I have chosen a brief!&lt;/p&gt;
-
-&lt;p&gt;It’s the … drum roll….&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Shelter Box &lt;em&gt;Conference Booth Games&lt;/em&gt; Project!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Having had two very constructive conversations with both potential clients, the main thing that swung it was the requirement of the Cornwall NHS Trust &lt;em&gt;Sowenna Sensory Room&lt;/em&gt; project to use their equipement, which is in Cornwall, wareas I am 6 hours away in Cardiff.&lt;/p&gt;
-
-&lt;p&gt;Another consideration was that the product should be deliverable in a ‘finished’ state in March. This neither sits easily within the time frame available for the immediate project, nor for the one that is to follow.&lt;/p&gt;
-
-&lt;p&gt;However, it was a very positive conversation I had with the project leader and we both expressed interest in my involvement in work related to future projects.&lt;/p&gt;
-
-&lt;h2 id=&quot;writing-a-proposal-for-the-shelter-box-project&quot;&gt;Writing a proposal for the Shelter Box project&lt;/h2&gt;
-
-&lt;p&gt;I began forming an idea for a prototype in my &lt;a href=&quot;/2019/10/05/week-two-envisioning.html&quot;&gt;&lt;strong&gt;previous post&lt;/strong&gt;&lt;/a&gt;. Whilst I have further refined my ideas I don’t wish to put them down too early, to allow for an iterative, agile approach in which the idea can develop as it progresses. So for now I will put together a proposal that is little more than an outline and a statement of one possible goal.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Prototype of a game&lt;/li&gt;
-  &lt;li&gt;Player responds to incoming information / news about disasters&lt;/li&gt;
-  &lt;li&gt;Puts together a suitable Shelter Box from the available resources&lt;/li&gt;
-  &lt;li&gt;Assigns the box to a team who take it away&lt;/li&gt;
-  &lt;li&gt;As resources are depleated, the player will need to replenish them by ordering a fund-raising campaign or digging into existing reserves etc.&lt;/li&gt;
-  &lt;li&gt;The intensity and speed of incoming disasters increases over time, increasing sence of jeapordy.&lt;/li&gt;
-  &lt;li&gt;Game-play could be vary from simply grabbing resources from shelves, hangers, bags or hooks, to for example, floating around ready to grab as they pass.&lt;/li&gt;
-  &lt;li&gt;A player can never win in this game, but can achieve successes and suffer failures, accumulating points along the way.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;returning-to-envisioning-as-a-process&quot;&gt;Returning to Envisioning as a process&lt;/h2&gt;
-
-&lt;p&gt;I have put together the following: -&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Vision&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Through an engaging and enjoyable experience, using the emersive nature of a Virtual Reality environment, the product will inform the uninitiated of the core work undertaken by Shelter Box. User-interaction within a gamified experiencial environment, in which direct involvment is encouraged with the process of responding to crisis and emergency, will form the basis of a lasting and memorable experience, raising awareness and increasing the likelihood of potential involvment, at whatever level, with Shelter Box’s work in the future.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Backlog Creation / Epic&lt;/strong&gt; (&lt;a href=&quot;http://www.yodiz.com/blog/what-is-epic-in-agile-methodology-definition-and-template-of-epic/&quot;&gt;see definition&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;In a virtual ‘control centre’ setting, the ‘player’ will be confronted with a number of disaster scenarios that have recently or are currently taking place. The object will be, through actions such as directing appropriate resources and effective actions, to respond effectively in order to provide relief ‘on the ground’ whilst, at the same time, avoiding the obstacles and hindrances that inevitably serve to frustrate the process.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Product Roadmap&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A roadmap outlining my releases will be in line with my sprints. I will work in three sprints of three weeks each. Suffice to say, sprint 1 begins at the start of week 4 and I intend to have a shippable product by the end of week 6. This will be a minimum viable product and will achieve the central goal already outlined - it will be playable, fun and informative, with the proviso that this is an agile process and things can, and probably will, change.&lt;/p&gt;
-
-&lt;p&gt;As always, change will be welcomed and change will be embraced!&lt;/p&gt;</content><author><name></name></author><summary type="html">Chosen Brief</summary></entry></feed>
+https://www.smashingmagazine.com/2009/10/freelance-contracts-dos-and-donts/&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
