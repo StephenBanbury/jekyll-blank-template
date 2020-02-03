@@ -33,7 +33,6 @@ Take risks and experiment (this is how I like things!).
 
 ## Narrative Design
 
-
 There appears to be a difference between _Narrative_ and _Interaction_
 One is linear, a story and is authored
 The other is non-linear, more like a conversation and is identifiable as providing input / user-choice.
@@ -51,7 +50,11 @@ As a designer one can create a space in which the player acts.
 * The overaching narrative/goals/challenges can be defined
 
 
+Also understood in similar ways are **Embedded** (pre-generated/crafted) and **Emergent** (arising from the rules of the system, created by the player) Narratives. 
 
+* Branching Narrative (chose your own game books, roleplaying games)
+* Linear "Interactive" Narrative (most video games, predetermined plot, FPS)
+* Sandbox, on the border, but non-linear. Highly interactive. Little is dicated. Emergent narrative. Can feel directionless (The Sims, Minecraft etc)
 
 
 
