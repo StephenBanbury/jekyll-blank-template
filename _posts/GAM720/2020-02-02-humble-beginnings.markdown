@@ -31,11 +31,17 @@ This is, of course a very simple game.
 
 My first search for a VR version of Simon unearthed what I initially thought must be an _Augmented Reality_ version of the game, requiring a Microft Hololens or something equally sophisticated. 
 
-![Hololens 2](\images\hololens2-1.jpg) 
+|![Simon Game Box](\images\simon-headset-box.jpg)|![Simon headset](\images\simon-headset-game2.jpg)|
 
-But in fact it turned out to be a simple piece of hardware that consists of coloured LEDs and responds to proximity of an object - vis the player's hand - to detect if the correct choice of colour/sound has been made. This game looks novel, but I am certain it would become extremely tiring and annoying in a very short time.
+But in fact it turned out to be a simple piece of hardware that consists of coloured LEDs and motion detectors that respond to the close proximity of the player's hand. It is interesting that the VR headset was clearly an inspiration in order make it appear to hvae a cudos that it probably does not deserve. I am certain it would become extremely tiring and annoying in a very short time.
 
-<iframe width="420" height="315" src="https://youtu.be/7l7ay16ovbo" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+
 
 
 
