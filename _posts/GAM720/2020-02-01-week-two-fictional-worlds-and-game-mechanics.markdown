@@ -62,5 +62,5 @@ Also understood in similar ways are **Embedded** (pre-generated/crafted) and **E
 
 
 
-# [My initial idea for this module's project can be seen here]({% link _posts/GAM720/2020-02-02-humble-beginnings.markdown %})
+## My initial ideas for this module's project can be seen [by following **this** link]({% link _posts/GAM720/2020-02-02-humble-beginnings-part1.markdown %})
 

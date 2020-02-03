@@ -13,9 +13,12 @@ toc:
         date: 2020-02-01
         url: 2020/02/01/week-two-fictional-worlds-and-game-mechanics.html
         subsubfolderitems:
-          - page: Humble Beginnings
+          - page: Humble Beginnings Part 1
             date: 2020-02-02
-            url: 2020/02/02/humble-beginnings.html
+            url: 2020/02/02/humble-beginnings-part1.html
+          - page: Humble Beginnings Part 2
+            date: 2020-02-03
+            url: 2020/02/03/humble-beginnings-part2.html
       - page: Week Three - Suspension of Disbelief
         date: 2020-02-10
         # url: 2020/02/10/week-three-suspension-of-disbelief.html

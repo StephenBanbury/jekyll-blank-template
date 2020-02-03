@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Week Two - Humble beginnings
+title: Humble beginnings | Ideation Part 1
 published: true
 ---
 
-## Forming an idea
+## The germ of an idea
 
 **My initial idea** stems from twin desires to create a collaborative, interactive, ‘multi-player’ space in Virtual Reality and to develop ways for educational or therapeutic (such as autistic spectrum disorder) activities to take place.
 
@@ -40,7 +40,7 @@ But in fact it turned out to be a simple piece of hardware that consists of colo
 Still, a true VR version of Simon does not appear to exist. 
 
 
-
+## Follow this link for the next installment: [Humble Beginnings **Part 2**]({% link _posts/GAM720/2020-02-03-humble-beginnings-part2.markdown %})
 
 
 

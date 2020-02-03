@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-03T01:31:04+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Week Two - Humble beginnings</title><link href="http://localhost:4000/2020/02/02/humble-beginnings.html" rel="alternate" type="text/html" title="Week Two - Humble beginnings" /><published>2020-02-02T00:00:00+00:00</published><updated>2020-02-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/02/humble-beginnings</id><content type="html" xml:base="http://localhost:4000/2020/02/02/humble-beginnings.html">&lt;h2 id=&quot;forming-an-idea&quot;&gt;Forming an idea&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-03T22:47:28+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushin that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
+
+&lt;p&gt;I suppose it’s part of the process of ideation. Perhaps I have been thinking about what it is that I would &lt;strong&gt;love&lt;/strong&gt; to make, rather than what I think I &lt;strong&gt;ought&lt;/strong&gt; to make! It turns out they are not so far apart, but with the emphasis on the former I feel there is greater justification and suddenly I have started feel those tingles of excitement!&lt;/p&gt;
+
+&lt;p&gt;So, how have my ideas moved forward? Firstly, I began to think about my background as a musician and sound artist and, in particular, one of the ambitions I identified near the start of the course - during the first assignment of &lt;a href=&quot;/2019/02/04/week-one-creative-assignment.html&quot;&gt;GAM710&lt;/a&gt; to be precise. In my conclusion I wrote: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The interactive nature of an online music collaboration or jamming concept is fascinatingly open to the potential of enhancement and the development of ideas beyond connecting and interacting in a purely audio environment. I would be interested in exploring the possibilities of connecting visually and immersively, into areas of &lt;strong&gt;virtual and augmented reality&lt;/strong&gt;. The potential for musicians to immerse themselves in a virtual environment in which they could play alongside each other could be extremely exciting. Facial recognition and ‘super-imposition’ technologies could potentially allow musicians to experience &lt;strong&gt;playing alongside anyone, or anything, in a place of their own choosing&lt;/strong&gt;, including with ‘celebrities’ or even fictitious cartoon creations of their own making or purchased from an online library of characters.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Secondly, I almost immediately realised that this absolutely satisfies the main ambitions expressed so far on this module, which is to explore the use of Virtual Reality in the creation of a shared immersive space in which some kind of collaboration or interaction between individuals can happen, in an educational or purely creative setting. The potential is there for this to form the basis of a formally-structured game, as it is for laying the foundations for something far looser and more participant-driven, such as simply jamming!&lt;/p&gt;
+
+&lt;h1 id=&quot;possibility-1&quot;&gt;Possibility 1&lt;/h1&gt;
+&lt;p&gt;Therefore, my first idea is to explore the creation of a shared immersive environment in which I can facilitate player collaboration in the creation of music, or at least, ‘musical’ sound. This will ideally entail the development of some form of game, which will ultimatel be integral to the formal musical ‘structure’ that is created.&lt;/p&gt;
+
+&lt;h1 id=&quot;possibility-2&quot;&gt;Possibility 2&lt;/h1&gt;
+&lt;p&gt;I am concerned about the lack of VR headsets at my disposal - I own just the one Oculus Quest. I would like to explore, as an alternative, the potential for one player to make use of a different platform, such as tablet or PC. If this proves to be too problematic, then I have a back-up idea, which is to create a kind of &lt;strong&gt;multi-track&lt;/strong&gt; recording device in VR. The idea would be to record a single sound track, and maybe also the movements of the player whilst making it along with, potentially, any other associated visual effects, and then to &lt;strong&gt;over-dub&lt;/strong&gt; this with another ‘track’, and then another, and so on. Ultimately, mutli-layered world of sound - and potentially visuals - could be created by a single individual.&lt;/p&gt;
+
+&lt;p&gt;I feel these ideas are sarting to come together. I need to decide if it’s worth starting with &lt;strong&gt;Possibility 1&lt;/strong&gt; and moving onto &lt;strong&gt;Possibility 2&lt;/strong&gt; if I am unable to manage the multiplayer aspect, or to simply chose &lt;strong&gt;Possibility 2&lt;/strong&gt; from the outset. The latter does not fully satisfy my original ambitions for collaboration between more than one individual, but of course, it could potentially do so as part of the on-going development of the project.&lt;/p&gt;
+
+&lt;p&gt;I will be picking up these thoughts next..&lt;/p&gt;</content><author><name></name></author><summary type="html">I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushin that is provided by the concept agile development, it has felt as though there is still not quite enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a narrative around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 1</title><link href="http://localhost:4000/2020/02/02/humble-beginnings-part1.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 1" /><published>2020-02-02T00:00:00+00:00</published><updated>2020-02-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/02/humble-beginnings-part1</id><content type="html" xml:base="http://localhost:4000/2020/02/02/humble-beginnings-part1.html">&lt;h2 id=&quot;the-germ-of-an-idea&quot;&gt;The germ of an idea&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;My initial idea&lt;/strong&gt; stems from twin desires to create a collaborative, interactive, ‘multi-player’ space in Virtual Reality and to develop ways for educational or therapeutic (such as autistic spectrum disorder) activities to take place.&lt;/p&gt;
 
@@ -35,7 +55,9 @@
 
 &lt;p&gt;But in fact it turned out to be a simple piece of hardware that consists of coloured LEDs and motion detectors that respond to the close proximity of the player’s hand. It is interesting that the VR headset was clearly an inspiration and used for its perception as ‘cutting edge’ technology and an associated cudos that it almost certainly does not deserve. I am sure it would become both extremely tiring and annoying in a very short time.&lt;/p&gt;
 
-&lt;p&gt;Still, a true VR version of Simon does not appear to exist.&lt;/p&gt;</content><author><name></name></author><summary type="html">Forming an idea</summary></entry><entry><title type="html">Week Two - Fictional Worlds &amp;amp; Game Mechanics</title><link href="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html" rel="alternate" type="text/html" title="Week Two - Fictional Worlds &amp; Game Mechanics" /><published>2020-02-01T00:00:00+00:00</published><updated>2020-02-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics</id><content type="html" xml:base="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html">&lt;p&gt;A notion of fiction particularly relevant to Creative App Development: -
+&lt;p&gt;Still, a true VR version of Simon does not appear to exist.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-this-link-for-the-next-installment-humble-beginnings-part-2&quot;&gt;Follow this link for the next installment: &lt;a href=&quot;/2020/02/03/humble-beginnings-part2.html&quot;&gt;Humble Beginnings &lt;strong&gt;Part 2&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">The germ of an idea</summary></entry><entry><title type="html">Week Two - Fictional Worlds &amp;amp; Game Mechanics</title><link href="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html" rel="alternate" type="text/html" title="Week Two - Fictional Worlds &amp; Game Mechanics" /><published>2020-02-01T00:00:00+00:00</published><updated>2020-02-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics</id><content type="html" xml:base="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html">&lt;p&gt;A notion of fiction particularly relevant to Creative App Development: -
 &lt;em&gt;“An imaginary thing or event, postulated for the purpose of argument or explantion”&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;User Stories&lt;/li&gt;
@@ -91,7 +113,7 @@ Players being forced into plot can result in loss of interactive strength.&lt;/p
   &lt;li&gt;Sandbox, on the border, but non-linear. Highly interactive. Little is dicated. Emergent narrative. Can feel directionless (The Sims, Minecraft etc)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;my-initial-idea-for-this-modules-project-can-be-seen-here&quot;&gt;&lt;a href=&quot;/2020/02/02/humble-beginnings.html&quot;&gt;My initial idea for this module’s project can be seen here&lt;/a&gt;&lt;/h1&gt;</content><author><name></name></author><summary type="html">A notion of fiction particularly relevant to Creative App Development: - “An imaginary thing or event, postulated for the purpose of argument or explantion” User Stories</summary></entry><entry><title type="html">Designing the VR environment</title><link href="http://localhost:4000/2020/01/29/vr-environment.html" rel="alternate" type="text/html" title="Designing the VR environment" /><published>2020-01-29T00:00:00+00:00</published><updated>2020-01-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/29/vr-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/29/vr-environment.html">&lt;h1 id=&quot;it-is-becoming-evident-that-notions-of-environment-could-be-a-good-place-to-begin&quot;&gt;&lt;em&gt;It is becoming evident that notions of environment could be a good place to begin&lt;/em&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;my-initial-ideas-for-this-modules-project-can-be-seen-by-following-this-link&quot;&gt;My initial ideas for this module’s project can be seen &lt;a href=&quot;/2020/02/02/humble-beginnings-part1.html&quot;&gt;by following &lt;strong&gt;this&lt;/strong&gt; link&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">A notion of fiction particularly relevant to Creative App Development: - “An imaginary thing or event, postulated for the purpose of argument or explantion” User Stories</summary></entry><entry><title type="html">Designing the VR environment</title><link href="http://localhost:4000/2020/01/29/vr-environment.html" rel="alternate" type="text/html" title="Designing the VR environment" /><published>2020-01-29T00:00:00+00:00</published><updated>2020-01-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/29/vr-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/29/vr-environment.html">&lt;h1 id=&quot;it-is-becoming-evident-that-notions-of-environment-could-be-a-good-place-to-begin&quot;&gt;&lt;em&gt;It is becoming evident that notions of environment could be a good place to begin&lt;/em&gt;&lt;/h1&gt;
 
 &lt;p&gt;Here I am concerned with the immediate virtual space that the immersive experience participant finds themselves.&lt;/p&gt;
 
@@ -333,142 +355,4 @@ Cons - upkeep costs, duty of care to users - boring details such as payment meth
 
 &lt;p&gt;The prototype has so far been built upon the original idea, which came from early discussions with my client; that is, from what I have understood of their requirements, loose and free though they are. This freedom has, in fact, been excellent for this process, allowing my imagination the space to explore with the almost certain knowledge that what I come up with will be seriously considered as a foundation for building something more rounded, solid, developed. I really am very much looking forward to showing my progress thus far.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;How is my experience going to inform my proposal and business model?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Leon Brown - a few different business models for the creative app developer:</summary></entry><entry><title type="html">Week Four - Client Contracts</title><link href="http://localhost:4000/2019/10/14/week-four-client-contracts.html" rel="alternate" type="text/html" title="Week Four - Client Contracts" /><published>2019-10-14T00:00:00+01:00</published><updated>2019-10-14T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/14/week-four-client-contracts</id><content type="html" xml:base="http://localhost:4000/2019/10/14/week-four-client-contracts.html">&lt;p&gt;&lt;img src=&quot;\images\emergency-control-centre-1.png&quot; alt=&quot;Crisis Control Centre 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\emergency-control-centre-2.png&quot; alt=&quot;Crisis Control Centre 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/visualstudio/cross-platform/unity-scripting-upgrade?view=vs-2019#targetText=NuGet%20is%20the%20package%20manager,are%20regenerated%2C%20undoing%20necessary%20configurations&quot;&gt;Adding NuGet packages in Unity&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;client-contracts&quot;&gt;Client Contracts&lt;/h2&gt;
-
-&lt;p&gt;Having had little experience of this, the course material provides useful guidance for how to go about it.&lt;/p&gt;
-
-&lt;p&gt;Learning Outcomes:&lt;/p&gt;
-
-&lt;p&gt;LO1 - Explain why it is important to use client contracts.
-LO2 - Describe the structure of a client contract.
-LO3 - Develop a client contract appropriate to your own practice.&lt;/p&gt;
-
-&lt;p&gt;Useful resources include&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.freelancersunion.org&quot;&gt;The Freelancers Union&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.uk/gp/product/076116488X/ref=ox_sc_act_title_1?smid=A3P5ROKL5A1OLE&amp;amp;psc=1&quot;&gt;The Freelancer’s Bible&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://clientsfromhell.net&quot;&gt;Clients from Hell&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In an article for shopify, &lt;a href=&quot;https://www.shopify.co.uk/partners/guides/grow-vol-1/how-to-write-a-contract&quot;&gt;Ryan Foster explains&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Keeping the contract short, focused and easy to understand helps reduce friction,
-allowing you to start the project quicker (and get your deposit invoice paid sooner!).
-Without a contract, your client may not clearly understand what they are paying for.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Helps avoid Feature Creep and other misunderstandings.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Defence mechanism&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Who owns the work?&lt;/li&gt;
-  &lt;li&gt;Avoid changes that are unreasonable halfway through project&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Prices and hours need to be sorted at the start&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A larger reputable company may have their own contract/agreement they want you to sign. If this is the case consider using this document as your own agreement&lt;/li&gt;
-  &lt;li&gt;Provide your own agreement to smaller clients&lt;/li&gt;
-  &lt;li&gt;If you are unsure they will pay, ask for an upfront deposit (make sure it it mentioned in the signed document)&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Some advisors would suggest &lt;em&gt;always&lt;/em&gt; asking for an upfront deposit, no matter who the client is, unless you feel it is an important and valuable client and it may jeopordise getting the work.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Be careful what you sign&lt;/li&gt;
-  &lt;li&gt;Get an independent third party to check it if you are unsure&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is easy to let your enthusiasm for the client and the brief get the best of you but keeping
-your feet on the ground and taking your time to dot the i’s and cross the t’s will insure that
-both your and the client’s expectations align and there will be no major misunderstanding
-further down the line.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;example-structure&quot;&gt;Example structure&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The company details (for both parties)&lt;/li&gt;
-  &lt;li&gt;A statement of intent (could be subject to change over the course of the project)&lt;/li&gt;
-  &lt;li&gt;Scope and deliverables
-  The details of what is going to be developed. This is a chance for you to constrain the project
-  and avoid feature creep. Concentrate on specifying the finer details such as:
-    &lt;ul&gt;
-      &lt;li&gt;What platforms will be targeted?&lt;/li&gt;
-      &lt;li&gt;How much content will be produced?&lt;/li&gt;
-      &lt;li&gt;What formats will be used?&lt;/li&gt;
-      &lt;li&gt;What performance benchmarks will be set?&lt;/li&gt;
-      &lt;li&gt;What is the process of review?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Revisions and Alterations
-    &lt;ul&gt;
-      &lt;li&gt;important that you protect yourself from a never ending cycle of alterations&lt;/li&gt;
-      &lt;li&gt;maybe specify the maximum allowance of alterations&lt;/li&gt;
-      &lt;li&gt;opportunity to apply a fee once the maximum has been passed&lt;/li&gt;
-      &lt;li&gt;gives the client the freedom to make changes beyond the scope of the original contract but they will do it at a cost and not for free&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Deadlines &amp;amp; Approvals
-    &lt;ul&gt;
-      &lt;li&gt;when should the work be completed and are there any consequences to missing deadlines?&lt;/li&gt;
-      &lt;li&gt;how the work will be broken down and what criteria will it be measured against for completion&lt;/li&gt;
-      &lt;li&gt;Who is the point of contact for agreeing the completion at each point in the development process (named in the contract)?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Financial Matters
-    &lt;ul&gt;
-      &lt;li&gt;How much will the work cost?&lt;/li&gt;
-      &lt;li&gt;Are you charging by the hour or costing for the whole job?&lt;/li&gt;
-      &lt;li&gt;Always ask for a deposit, usually 10 - 30%.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Termination
-    &lt;ul&gt;
-      &lt;li&gt;Sometimes things go wrong&lt;/li&gt;
-      &lt;li&gt;allows you set the terms for termination that are balanced&lt;/li&gt;
-      &lt;li&gt;is shared but you do not end up fully out of pocket.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;IP
-    &lt;ul&gt;
-      &lt;li&gt;important that the contract stipulates who owns the work before and after the project is complete&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Signatures
-    &lt;ul&gt;
-      &lt;li&gt;making the contract binding&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;contract-generators&quot;&gt;Contract Generators&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://gist.github.com/malarkey/4031110&lt;/li&gt;
-  &lt;li&gt;http://docontract.com/&lt;/li&gt;
-  &lt;li&gt;https://www.freelancersunion.org/contract/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;non-disclosure-agreement-nda&quot;&gt;Non-disclosure Agreement (NDA)&lt;/h1&gt;
-
-&lt;p&gt;Both parties to promise not to release information about the invention before it comes to
-market.&lt;/p&gt;
-
-&lt;p&gt;https://www.gov.uk/government/publications/non-disclosure-agreements&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Templates&lt;/em&gt; are good for getting started but It is important that you invest time
-creating a contract that is unique to your business needs&lt;/p&gt;
-
-&lt;p&gt;If you are concerned that your contract is not appropriate to your needs then always get a second opinion from a
-professional.&lt;/p&gt;
-
-&lt;p&gt;https://www.sitepoint.com/5-critical-contracts-for-mobile-app-developers/
-http://99u.com/articles/21927/dont-get-screwed-the-contract-provisions-every-creative-needs-to-know
-http://www.hongkiat.com/blog/freelance-contract-clauses/
-https://www.smashingmagazine.com/2009/10/freelance-contracts-dos-and-donts/&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;How is my experience going to inform my proposal and business model?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Leon Brown - a few different business models for the creative app developer:</summary></entry></feed>
