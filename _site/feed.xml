@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-03T23:06:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-04T01:14:12+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Create a Game - Dog Walker Simulator</title><link href="http://localhost:4000/2020/02/04/dog-walker-simulator.html" rel="alternate" type="text/html" title="Create a Game - Dog Walker Simulator" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/dog-walker-simulator</id><content type="html" xml:base="http://localhost:4000/2020/02/04/dog-walker-simulator.html">&lt;h2 id=&quot;dog-walker-simulator&quot;&gt;Dog Walker Simulator&lt;/h2&gt;
+
+&lt;p&gt;Crystal is a dog-walker by profession. She has build a trusting client base over the past 5 years and, through the dogs, has made many friends - or at least that’s how she likes to see them.&lt;/p&gt;
+
+&lt;p&gt;On this particular, unusual, day, the dogs seem to be behaving rather differently to the lovely calm creatures she has become used to. Fido, for some unfathomable reason, has decided to snap at Tia whenever she comes close. This is a problem, particularly as she is tethered to the lead next to Fido. Thankfully, the app on her phone, which shows the georgeous little pooches via glorious Augmented Reality, allows Crystal to move Tia to the other side of the pack.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this now means that Rusty is next to Fido, and Rusty seems to have picked up a severe case of unwelcome, itchy, leaping, guests (flees). These begin jumping from Rusty onto Fido’s coat. Fido begins scratching, which causes the pack to swerve to the right! Luckily, the app allows Crystal to tug at the lead and bring Fido back into line.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Benji has picked up the odor of a freshly-cooked pie that has been left on a windowsill to cool.  Benji lurches to the left, causing the leads to cross and twist and this trips up poor old Sukie. Whilst in the act of untwisting the leads, Crystal notices that Trixy has managed slip her collar, is running down the riverbank and is about to leap into the water after a family of ducks…&lt;/p&gt;
+
+&lt;p&gt;The number of dogs that Crystal manages to bring back to their owners in the condition they were entrusted to her care decides whether she can continue another day in her chosen profession.&lt;/p&gt;
+
+&lt;p&gt;The app makes use of stylised animated dogs in Augmented Reality, set in the real locale through coupling with Google API and Google Cloud Anchors. This simulates the experience of walking a bunch of very cute, very lively, but extremely distracted dogs!&lt;/p&gt;
+
+&lt;p&gt;A day in the life of the dog-walker. You couldn’t make it up!&lt;/p&gt;</content><author><name></name></author><summary type="html">Dog Walker Simulator</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
 
 &lt;p&gt;I suppose this kind of frustration can be seen as part of the process of ideation. Or, perhaps, I have been thinking about what it is that I &lt;strong&gt;ought&lt;/strong&gt; to make, rather than what I would &lt;strong&gt;love&lt;/strong&gt; to make - it turns out that these concepts are actually not so far apart! However, with the emphasis on the latter, I feel there is greater justification and suddenly I have started feeling those tingles of excitement!&lt;/p&gt;
 
@@ -311,47 +325,4 @@ There has been lots and lots of experimentation with movement. Building a telepo
 
 &lt;p&gt;&lt;em&gt;Focusing&lt;/em&gt; on specific areas - set goals that are targeted and clearly defined. I’ve discovered the importance of this. This is where sprint becomes important, and using the kanban board efficiently and precisely.&lt;/p&gt;
 
-&lt;p&gt;My client is happy to see what I come up with. But because of this I need to be clearer and more targeted in my approach - it’s up to me to be this way. If not, if too loose and open to meandering, how does one assess one’s direction of travel? Goals need to be set in order to know how to gaugue progress and ensure you are on track. They also mean that the client is able to come on the journey with you and see where it all is leading. It provides them the oportunity to make suggestions and requrests from an informed position, rather than just seeing where you end up and then, maybe too late, making judgement calls on the results.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sprint Retrospective</summary></entry><entry><title type="html">Week Five - Business Models</title><link href="http://localhost:4000/2019/10/21/week-five-business-models.html" rel="alternate" type="text/html" title="Week Five - Business Models" /><published>2019-10-21T00:00:00+01:00</published><updated>2019-10-21T00:00:00+01:00</updated><id>http://localhost:4000/2019/10/21/week-five-business-models</id><content type="html" xml:base="http://localhost:4000/2019/10/21/week-five-business-models.html">&lt;p&gt;Leon Brown - a few different business models for the creative app developer:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Software Development as a Service (SDaaS)&lt;/li&gt;
-  &lt;li&gt;Software as a Product (SaaP)&lt;/li&gt;
-  &lt;li&gt;Software as a Service (SaaS)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;SDaaS - monetisation of your skills, trading your time for developing software. 
-Low risk. Minimal cost. Flexible (your time, you decide).
-Precarious. No guarantees. Low profic margins. Competition - always someone who will do it cheaper.&lt;/p&gt;
-
-&lt;p&gt;SaaP - developer builds the product and reaps the rewards. Create a team of experts - product managers, graphic designers, front/back-end developers, marketers etc..
-Control of vision. Freedom, flexibility, potential for profit.
-Cost - heavier seeding financially. Time waiting for a return. Risk. Failure = debt.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\product-lifecycle.jpg&quot; alt=&quot;Product Lifecycle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;SaaS - monetise the output of software rather than the software itself, through monthly subscriptions or yearly payments etc.
-Pros and cons similar to SaaP, plus :
-Pros - the potential for more diverse income streams, responding to feedback, continuous income
-Cons - upkeep costs, duty of care to users - boring details such as payment methods, data storage, authentication.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Canvanizer&lt;/strong&gt;
-&lt;a href=&quot;https://canvanizer.com/&quot;&gt;Canvanizer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Business Model Canvas Components&lt;/strong&gt;
-&lt;img src=&quot;\images\bus-model-canvas-components.jpg&quot; alt=&quot;Business Model Canvas Components&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;what-will-be-my-preferred-business-model&quot;&gt;What will be my preferred business model?&lt;/h1&gt;
-
-&lt;p&gt;Well, I’ve been building software for a while now and it is my day-job. I don’t really see myself continuing in this vein for much longer. Being a ‘code-monkey’ (any perceived slighting of the trade is not indentional) and continuualy learning new languages, platforms, techniques etc. whilst constantly striving to be close to the top of your profession, is certainly an interesting and stimulating activity. But as a be all and end all, I feel I would not / do not gain the pure satisfaction from this career as I once would have / did. To earn as much as I feel I need to as I and my young family gets older would add to this particular pressure. So, SDaaS is not my future.&lt;/p&gt;
-
-&lt;p&gt;Saap and SaaS are more interesting to me. Both have attractions. I think it depends on the type of product envisaged as much as what kind of model you would prefer to follow. It seems many products that would once have been part of the SaaP domain have moved into the SaaS domain. So there is some burring here. Perhaps SaaS is gaining a greater share of the market for a good reason. It is probably the way to go.&lt;/p&gt;
-
-&lt;h2 id=&quot;first-prototype&quot;&gt;First prototype&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;End of Sprint 1&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The past two weeks I have been rapidly building my first prototype. I am fairly close to a MVP, one which I will be happy to show to my client for the purpose of discussion and feedback in order to progress to another level.&lt;/p&gt;
-
-&lt;p&gt;The prototype has so far been built upon the original idea, which came from early discussions with my client; that is, from what I have understood of their requirements, loose and free though they are. This freedom has, in fact, been excellent for this process, allowing my imagination the space to explore with the almost certain knowledge that what I come up with will be seriously considered as a foundation for building something more rounded, solid, developed. I really am very much looking forward to showing my progress thus far.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;How is my experience going to inform my proposal and business model?&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Leon Brown - a few different business models for the creative app developer:</summary></entry></feed>
+&lt;p&gt;My client is happy to see what I come up with. But because of this I need to be clearer and more targeted in my approach - it’s up to me to be this way. If not, if too loose and open to meandering, how does one assess one’s direction of travel? Goals need to be set in order to know how to gaugue progress and ensure you are on track. They also mean that the client is able to come on the journey with you and see where it all is leading. It provides them the oportunity to make suggestions and requrests from an informed position, rather than just seeing where you end up and then, maybe too late, making judgement calls on the results.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sprint Retrospective</summary></entry></feed>
