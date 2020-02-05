@@ -10,16 +10,15 @@ published: true
 # Polyphony 
 > A musical texture created by multiple individual and independent parts<br>
 
-The idea that I will be taking forward for this project is the creation of an immersive space in which two 'players' can join together to create sonic and visual effects and events, though physical actions and interactions.
-The results of such actions may be seen as ephemeral visual and aural moments that exist for a short time after an event is triggered. The space will be an environment in which the players can experiment and create through playful interactions with the space itself and the objects within it.<br>
+The idea that I will be taking forward for this project is to use Virtual Reality in the creation of an immersive space in which two 'players' can join together to create sonic and visual effects and events, though physical actions and interactions. The results of such actions may be seen as ephemeral visual and aural moments that exist for a short time after an event is triggered. The space will be an environment in which the players can experiment and create through playful interactions with the space itself, the objects within it, and the players themselves.<br>
 
 
 # Cacophony
 > A harsh, discordant, jarring, mixture of sounds<br>
 
-For me, as the developer, this will be a vehicle to exlore, not only the technical problems, issues and solutions involved in creating such a 'game', but also attempting to use the freedom from the physical world that is afforded by virtual reality in order to transend the nature of objects as we understand them and to push the possibilities of how we can expect them to react, sonically and visually, as the result of actions directed upon them.<br>
+For me, as the developer, this will be a vehicle to exlore, not only the technical problems, issues and solutions involved in creating such an event, but also to attempt to use the freedom from the physical world afforded by virtual reality in order to transend the nature of objects as we understand them, pushing the possibilities of how we can expect them to react, sonically and visually, as the result of actions directed upon them.<br>
 
-It will be interesting to witness not only how participants interact with these stimuli within a shared space, but also how each interacts with the other. Will there be an attempt to create something collaboratively, in the mode of a 'jam', or will they find there is too much stimuli to comfortably handle resulting in the need to escape? <br>
+It will be interesting to witness not only how participants interact with these stimuli within a shared space, but also how each interacts with the other. Will there be an attempt to create something collaboratively, in the mode of a 'jam', or will they find there is too much stimuli to comfortably handle, resulting in the need to escape? <br>
 
 # Phony 
 >Fake, not genuine or real<br>
