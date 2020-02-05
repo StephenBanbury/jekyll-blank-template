@@ -14,16 +14,26 @@ So, how have my ideas moved forward? Firstly, I began to think about my backgrou
 
 Secondly, I almost immediately realised that this absolutely satisfies the main ambitions expressed so far on this module, which is to explore the use of Virtual Reality in the creation of a shared immersive space in which some kind of collaboration or interaction between individuals can happen, in an educational or purely creative setting. The potential is there for this to form the basis of a formally-structured game, as it is for laying the foundations for something far looser and more participant-driven, such as simply jamming! 
 
-# Possibility 1
+# Idea 1
 Therefore, my first idea is to explore the creation of a shared immersive environment in which I can facilitate player collaboration in the creation of music, or at least, 'musical' sound. This will ideally entail the development of some form of game, which will ultimately be integral to the formal musical 'structure' that is created.
 
-# Possibility 2
+# Idea 2
 I am concerned about the lack of VR headsets at my disposal - I own just the one Oculus Quest. I would like to explore, as an alternative, the potential for one player to make use of a different platform, such as tablet or PC. If this proves to be too problematic, then I have a back-up idea, which is to create a kind of **multi-track** recording device in VR. The idea would be to **record** a single sound 'track' as it is created by the player - and maybe also the movements and actions of the player along with any other associated visual stimulae - and then to **over-dub** this with another track, followed by another, then another...<br>
 Ultimately, a mutli-layered world of sound - and potentially visuals - could be created by a single individual.
 
-I feel these ideas are sarting to come together. I need to decide if it's worth starting with **Possibility 1** and moving onto **Possibility 2** if I am unable to manage the multiplayer aspect, or to simply chose **Possibility 2** from the outset. The latter does not fully satisfy my original ambitions for collaboration between more than one individual but, of course, it could in time be made to do so.
+I feel these ideas are sarting to come together. I need to decide if it's worth starting with **idea 1** and moving onto **idea 2** if I am unable to manage the multiplayer aspect, or to simply chose **idea 2** from the outset. The latter does not fully satisfy my original ambitions for collaboration between more than one individual but, of course, it could in time be made to do so.
 
+# Idea 3
 
+Considering past rapid ideation and prototyping ideas has thrown up another possibility. 
+[The Odd Word Out]({% link _posts/GAM710/2019-02-25-week-three-appjam-2.markdown %}) was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -
 
+>There is significant potential for further development of the concept of arcade-style word games.
+
+At the time I had not thought of this in terms of Virtual Reality, but the potential is there for this to be a fun word game with an educational slant. It would not necessarily lose its arcade-style appeal, although it would gain a sophistication that would be interesting to explore.
+
+Instead of a 2D space I could have the words, maybe in the form of balls or other 3D objects, bouncing off walls, floors and ceilings within an immersive 3D space. It would the task of the player to knock out words by hurling related - or unrelated - words at them. 
+
+Or it could, for instance, become a kind of shooting game where the principle of eliminating certain words remains, but the method is entirely different. There are many options.
 
 

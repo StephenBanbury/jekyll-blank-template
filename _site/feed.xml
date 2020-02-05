@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-04T01:24:01+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Create a Game - Dog Walker Simulator</title><link href="http://localhost:4000/2020/02/04/dog-walker-simulator.html" rel="alternate" type="text/html" title="Create a Game - Dog Walker Simulator" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/dog-walker-simulator</id><content type="html" xml:base="http://localhost:4000/2020/02/04/dog-walker-simulator.html">&lt;h2 id=&quot;dog-walker-simulator&quot;&gt;Dog Walker Simulator&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-05T12:38:12+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Poly|Caco|Phony</title><link href="http://localhost:4000/2020/02/05/polycacophony.html" rel="alternate" type="text/html" title="Poly|Caco|Phony" /><published>2020-02-05T00:00:00+00:00</published><updated>2020-02-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/05/polycacophony</id><content type="html" xml:base="http://localhost:4000/2020/02/05/polycacophony.html">&lt;p&gt;&lt;img src=&quot;\images\nordic-designer-collaboration.jpg&quot; alt=&quot;Musical collaboration&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;polyphony&quot;&gt;Polyphony&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A musical texture created by multiple individual and independent parts&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The idea that I will be taking forward for this project is the creation of an immersive space in which two ‘players’ can join together to create sonic and visual effects and events, though physical actions and interactions.
+The results of such actions may be seen as ephemeral visual and aural moments that exist for a short time after an event is triggered. The space will be an environment in which the players can experiment and create through playful interactions with the space itself and the objects within it.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;cacophony&quot;&gt;Cacophony&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;A harsh, discordant, jarring, mixture of sounds&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For me, as the developer, this will be a vehicle to exlore, not only the technical problems, issues and solutions involved in creating such a ‘game’, but also attempting to use the freedom from the physical world that is afforded by virtual reality in order to transend the nature of objects as we understand them and to push the possibilities of how we can expect them to react, sonically and visually, as the result of actions directed upon them.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It will be interesting to witness not only how participants interact with these stimuli within a shared space, but also how each interacts with the other. Will there be an attempt to create something collaboratively, in the mode of a ‘jam’, or will they find there is too much stimuli to comfortably handle resulting in the need to escape? &lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;phony&quot;&gt;Phony&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Fake, not genuine or real&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With regard to the immersive environment, how does the nature and artificial aesthetic quality of the virtual space itself affect how the players react to it and each other? And, through the exploration of sound in virtual reality, will it be possible to explore the accoustic qualities of the space and how, for instance, virtual sound waves bounce off virtual surfaces?&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It may be that I find a way to ‘record’ the event so that it can be replayed and experienced from a different perspective, viewed as a creative artefact ‘object’, that is experienced rather differently to the live event that caused it to come into existence. &lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Create a Game - Dog Walker Simulator</title><link href="http://localhost:4000/2020/02/04/dog-walker-simulator.html" rel="alternate" type="text/html" title="Create a Game - Dog Walker Simulator" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/dog-walker-simulator</id><content type="html" xml:base="http://localhost:4000/2020/02/04/dog-walker-simulator.html">&lt;h2 id=&quot;dog-walker-simulator&quot;&gt;Dog Walker Simulator&lt;/h2&gt;
 
 &lt;p&gt;Crystal is a dog-walker by profession. She has build a trusting client base over the past 5 years and, through the dogs, has made many friends - or at least that’s how she likes to see them.&lt;/p&gt;
 
@@ -12,7 +39,20 @@
 
 &lt;p&gt;The app makes use of stylised animated dogs in Augmented Reality, set in the real locale through coupling with Google API and Google Cloud Anchors. This simulates the experience of walking a bunch of very cute, very lively, but extremely distracted dogs!&lt;/p&gt;
 
-&lt;p&gt;A day in the life of the dog-walker. You couldn’t make it up!&lt;/p&gt;</content><author><name></name></author><summary type="html">Dog Walker Simulator</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
+&lt;p&gt;A day in the life of the dog-walker. You couldn’t make it up!&lt;/p&gt;</content><author><name></name></author><summary type="html">Dog Walker Simulator</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 3</title><link href="http://localhost:4000/2020/02/04/humble-beginnings-part3.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 3" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/humble-beginnings-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/04/humble-beginnings-part3.html">&lt;p&gt;Considering past rapid ideation and prototyping ideas has thrown up another possibility. 
+&lt;a href=&quot;/2019/02/25/week-three-appjam-2.html&quot;&gt;The Odd Word Out&lt;/a&gt; was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is significant potential for further development of the concept of arcade-style word games.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At the time I had not thought of this in terms of Virtual Reality, but the potential is there for this to be a fun word game with an educational slant. It would not necessarily lose its arcade-style appeal, although it would gain a sophistication that would be interesting to explore.&lt;/p&gt;
+
+&lt;p&gt;Instead of a 2D space I could have the words, maybe in the form of balls or other 3D objects, bouncing off walls, floors and ceilings within an immersive 3D space. It would the task of the player to knock out words by hurling related - or unrelated - words at them.&lt;/p&gt;
+
+&lt;p&gt;Or it could, for instance, become a kind of shooting game where the principle of eliminating certain words remains, but the method is entirely different.&lt;/p&gt;
+
+&lt;p&gt;There are many options&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering past rapid ideation and prototyping ideas has thrown up another possibility. The Odd Word Out was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
 
 &lt;p&gt;I suppose this kind of frustration can be seen as part of the process of ideation. Or, perhaps, I have been thinking about what it is that I &lt;strong&gt;ought&lt;/strong&gt; to make, rather than what I would &lt;strong&gt;love&lt;/strong&gt; to make - it turns out that these concepts are actually not so far apart! However, with the emphasis on the latter, I feel there is greater justification and suddenly I have started feeling those tingles of excitement!&lt;/p&gt;
 
@@ -24,14 +64,29 @@
 
 &lt;p&gt;Secondly, I almost immediately realised that this absolutely satisfies the main ambitions expressed so far on this module, which is to explore the use of Virtual Reality in the creation of a shared immersive space in which some kind of collaboration or interaction between individuals can happen, in an educational or purely creative setting. The potential is there for this to form the basis of a formally-structured game, as it is for laying the foundations for something far looser and more participant-driven, such as simply jamming!&lt;/p&gt;
 
-&lt;h1 id=&quot;possibility-1&quot;&gt;Possibility 1&lt;/h1&gt;
+&lt;h1 id=&quot;idea-1&quot;&gt;Idea 1&lt;/h1&gt;
 &lt;p&gt;Therefore, my first idea is to explore the creation of a shared immersive environment in which I can facilitate player collaboration in the creation of music, or at least, ‘musical’ sound. This will ideally entail the development of some form of game, which will ultimately be integral to the formal musical ‘structure’ that is created.&lt;/p&gt;
 
-&lt;h1 id=&quot;possibility-2&quot;&gt;Possibility 2&lt;/h1&gt;
+&lt;h1 id=&quot;idea-2&quot;&gt;Idea 2&lt;/h1&gt;
 &lt;p&gt;I am concerned about the lack of VR headsets at my disposal - I own just the one Oculus Quest. I would like to explore, as an alternative, the potential for one player to make use of a different platform, such as tablet or PC. If this proves to be too problematic, then I have a back-up idea, which is to create a kind of &lt;strong&gt;multi-track&lt;/strong&gt; recording device in VR. The idea would be to &lt;strong&gt;record&lt;/strong&gt; a single sound ‘track’ as it is created by the player - and maybe also the movements and actions of the player along with any other associated visual stimulae - and then to &lt;strong&gt;over-dub&lt;/strong&gt; this with another track, followed by another, then another…&lt;br /&gt;
 Ultimately, a mutli-layered world of sound - and potentially visuals - could be created by a single individual.&lt;/p&gt;
 
-&lt;p&gt;I feel these ideas are sarting to come together. I need to decide if it’s worth starting with &lt;strong&gt;Possibility 1&lt;/strong&gt; and moving onto &lt;strong&gt;Possibility 2&lt;/strong&gt; if I am unable to manage the multiplayer aspect, or to simply chose &lt;strong&gt;Possibility 2&lt;/strong&gt; from the outset. The latter does not fully satisfy my original ambitions for collaboration between more than one individual but, of course, it could in time be made to do so.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a narrative around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 1</title><link href="http://localhost:4000/2020/02/02/humble-beginnings-part1.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 1" /><published>2020-02-02T00:00:00+00:00</published><updated>2020-02-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/02/humble-beginnings-part1</id><content type="html" xml:base="http://localhost:4000/2020/02/02/humble-beginnings-part1.html">&lt;h2 id=&quot;the-germ-of-an-idea&quot;&gt;The germ of an idea&lt;/h2&gt;
+&lt;p&gt;I feel these ideas are sarting to come together. I need to decide if it’s worth starting with &lt;strong&gt;idea 1&lt;/strong&gt; and moving onto &lt;strong&gt;idea 2&lt;/strong&gt; if I am unable to manage the multiplayer aspect, or to simply chose &lt;strong&gt;idea 2&lt;/strong&gt; from the outset. The latter does not fully satisfy my original ambitions for collaboration between more than one individual but, of course, it could in time be made to do so.&lt;/p&gt;
+
+&lt;h1 id=&quot;idea-3&quot;&gt;Idea 3&lt;/h1&gt;
+
+&lt;p&gt;Considering past rapid ideation and prototyping ideas has thrown up another possibility. 
+&lt;a href=&quot;/2019/02/25/week-three-appjam-2.html&quot;&gt;The Odd Word Out&lt;/a&gt; was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is significant potential for further development of the concept of arcade-style word games.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At the time I had not thought of this in terms of Virtual Reality, but the potential is there for this to be a fun word game with an educational slant. It would not necessarily lose its arcade-style appeal, although it would gain a sophistication that would be interesting to explore.&lt;/p&gt;
+
+&lt;p&gt;Instead of a 2D space I could have the words, maybe in the form of balls or other 3D objects, bouncing off walls, floors and ceilings within an immersive 3D space. It would the task of the player to knock out words by hurling related - or unrelated - words at them.&lt;/p&gt;
+
+&lt;p&gt;Or it could, for instance, become a kind of shooting game where the principle of eliminating certain words remains, but the method is entirely different. There are many options.&lt;/p&gt;</content><author><name></name></author><summary type="html">I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a narrative around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 1</title><link href="http://localhost:4000/2020/02/02/humble-beginnings-part1.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 1" /><published>2020-02-02T00:00:00+00:00</published><updated>2020-02-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/02/humble-beginnings-part1</id><content type="html" xml:base="http://localhost:4000/2020/02/02/humble-beginnings-part1.html">&lt;h2 id=&quot;the-germ-of-an-idea&quot;&gt;The germ of an idea&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;My initial idea&lt;/strong&gt; stems from twin desires to create a collaborative, interactive, ‘multi-player’ space in Virtual Reality and to develop ways for educational or therapeutic (such as autistic spectrum disorder) activities to take place.&lt;/p&gt;
 
@@ -295,34 +350,4 @@ Kirti - 47 year old non-gamer has some issues.&lt;/p&gt;
   &lt;li&gt;When at airport - perhaps say ‘you didn’t complete the tasks, but here is your package anyway - well done for trying! Have a nice flight!!’&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Problem is that not everyone has experienced VR. Gamers have an easier time of it, but those who do not have much gaming experience could struggle. How to make it easy? Comfortable?&lt;/p&gt;</content><author><name></name></author><summary type="html">Enjoyed putting together a disaster zone! Adding force of a value and in a direction (Vector3) when rigidbody enters ‘wind zone’.</summary></entry><entry><title type="html">Week Ten</title><link href="http://localhost:4000/2019/11/27/week-ten.html" rel="alternate" type="text/html" title="Week Ten" /><published>2019-11-27T00:00:00+00:00</published><updated>2019-11-27T00:00:00+00:00</updated><id>http://localhost:4000/2019/11/27/week-ten</id><content type="html" xml:base="http://localhost:4000/2019/11/27/week-ten.html">&lt;p&gt;Week 10 -Finishing the main phase - happy with holding the prototype where it is.
-Agreed with client.&lt;/p&gt;
-
-&lt;p&gt;To spend the majority of the remaining time experimenting with other ideas.&lt;/p&gt;
-
-&lt;p&gt;Want to experiment with force / forces
-looked at Unity Terrain, but it seems this is a bit of a ‘fabrication’ - wind zones make grass and trees sway, but this it not quite what I’m interested in. I want to create a ‘real’ force on objects caused and affected by ‘wind’ force. I want it to make trees and cars fly through the air, waves crash on the coastline and walls to fall down.&lt;/p&gt;
-
-&lt;p&gt;Maybe &lt;a href=&quot;https://www.youtube.com/watch?v=iCMhrKOuBZg&quot;&gt;Unity3d Creating Rigidbody Wind Zones&lt;/a&gt; will help.&lt;/p&gt;</content><author><name></name></author><summary type="html">Week 10 -Finishing the main phase - happy with holding the prototype where it is. Agreed with client.</summary></entry><entry><title type="html">Week Six - Intellectual Property Law</title><link href="http://localhost:4000/2019/11/04/week-six-intellectual-property-law.html" rel="alternate" type="text/html" title="Week Six - Intellectual Property Law" /><published>2019-11-04T00:00:00+00:00</published><updated>2019-11-04T00:00:00+00:00</updated><id>http://localhost:4000/2019/11/04/week-six-intellectual-property-law</id><content type="html" xml:base="http://localhost:4000/2019/11/04/week-six-intellectual-property-law.html">&lt;h1 id=&quot;sprint-retrospective&quot;&gt;Sprint Retrospective&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What went well&lt;/li&gt;
-  &lt;li&gt;What went wrong&lt;/li&gt;
-  &lt;li&gt;The key challenges / obstacles to be overcome&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;What should I:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Start doing&lt;/li&gt;
-  &lt;li&gt;Stop doing&lt;/li&gt;
-  &lt;li&gt;Continue doing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;21/11/2019
-There has been lots and lots of experimentation with movement. Building a teleporation system. How to get it to work in a way that is usable and intuative. Is it required at all? Can we combine it with joystick movement? Should we use joystick alone? If so, should we reduce the size of the world? Can we stop orientation making it extra confusing - would like to just have head pointing the same way no matter where it is oriented before, during or after teleportation.&lt;/p&gt;
-
-&lt;p&gt;One can spend too long on these issues. Even though it is clearly sometimes better to put it aside for now and come back to it later, to allow faster prototyping, it is often difficult to let go! A discipline that needs working on.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Focusing&lt;/em&gt; on specific areas - set goals that are targeted and clearly defined. I’ve discovered the importance of this. This is where sprint becomes important, and using the kanban board efficiently and precisely.&lt;/p&gt;
-
-&lt;p&gt;My client is happy to see what I come up with. But because of this I need to be clearer and more targeted in my approach - it’s up to me to be this way. If not, if too loose and open to meandering, how does one assess one’s direction of travel? Goals need to be set in order to know how to gaugue progress and ensure you are on track. They also mean that the client is able to come on the journey with you and see where it all is leading. It provides them the oportunity to make suggestions and requrests from an informed position, rather than just seeing where you end up and then, maybe too late, making judgement calls on the results.&lt;/p&gt;</content><author><name></name></author><summary type="html">Sprint Retrospective</summary></entry></feed>
+&lt;p&gt;Problem is that not everyone has experienced VR. Gamers have an easier time of it, but those who do not have much gaming experience could struggle. How to make it easy? Comfortable?&lt;/p&gt;</content><author><name></name></author><summary type="html">Enjoyed putting together a disaster zone! Adding force of a value and in a direction (Vector3) when rigidbody enters ‘wind zone’.</summary></entry></feed>
