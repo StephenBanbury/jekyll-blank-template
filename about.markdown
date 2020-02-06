@@ -5,3 +5,4 @@ permalink: /about/
 ---
 
 Reflecting on the progress of my *Creative App Development* practice.
+

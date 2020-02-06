@@ -1,14 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-05T13:04:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Poly|Caco|Phony</title><link href="http://localhost:4000/2020/02/05/polycacophony.html" rel="alternate" type="text/html" title="Poly|Caco|Phony" /><published>2020-02-05T00:00:00+00:00</published><updated>2020-02-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/05/polycacophony</id><content type="html" xml:base="http://localhost:4000/2020/02/05/polycacophony.html">&lt;p&gt;&lt;img src=&quot;\images\nordic-designer-collaboration.jpg&quot; alt=&quot;Musical collaboration&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-06T00:26:52+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multiplayer research</title><link href="http://localhost:4000/2020/02/05/multiplayer-research.html" rel="alternate" type="text/html" title="Multiplayer research" /><published>2020-02-05T00:00:00+00:00</published><updated>2020-02-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/05/multiplayer-research</id><content type="html" xml:base="http://localhost:4000/2020/02/05/multiplayer-research.html">&lt;p&gt;My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.&lt;/p&gt;
+
+&lt;h1 id=&quot;past-musings&quot;&gt;Past musings&lt;/h1&gt;
+
+&lt;p&gt;Having never made a multiplayer game I’m starting from a very low base. However, more than one of my ideas for a creative app during ideation for GAM730 - the co-creative project - included multiplayer settings. At the time, without undertaking any serious research, I considered using a Firebase &lt;strong&gt;&lt;a href=&quot;https://firebase.google.com/docs/firestore&quot;&gt;Firestore&lt;/a&gt;&lt;/strong&gt; database as a central hub, to which multiple clients could connect. This appeared to offer the most important aspect of interconnectivity - a full-duplex connection that immediately pushes any changes made to the database, by any connected client app, out to all other connected client apps. Beyond this, I did not do much further investigating. As I am about to embark on a full scale research activity I will find out just how naive this thinking was. Or not, as the case may be. I’m sure it’s not going to be as simple as this, but the fundamentals of WebSocket-style connectivity and a central database must, surely, be a major part! I shall find out.&lt;/p&gt;
+
+&lt;h1 id=&quot;in-no-particular-order-options-recommended-returned-as-search-results-and-other-discoveries-along-the-way&quot;&gt;In no particular order: options recommended, returned as search results, and other discoveries along the way&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Photon&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Photon is a real-time multiplayer game development framework that is fast, lean and flexible. Photon consists of a server and multiple client SDKs for major platforms - &lt;a href=&quot;https://doc-api.photonengine.com/en/pun/v2/&quot;&gt;Photon API documentation&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The Photon Unity Networking library (PUN) immediately stands out due to its integration with Unity.&lt;/li&gt;
+      &lt;li&gt;It supports peer-to-peer networking, rather than all messages needing to transmit via the host. This means PUN is pretty fast, accoring to &lt;strong&gt;&lt;a href=&quot;https://www.raywenderlich.com/1142814-introduction-to-multiplayer-games-with-unity-and-photon&quot;&gt;raywenderlich.com&lt;/a&gt;&lt;/strong&gt;, when compared with, say, Unity’s own networking solution - at least, accoring to this account. I am loath to take an opinion and go with it without checking out its validity, and I hope to do this later. But for now, with limited time, I think I’ll take this well-respected (apparently) view on the matter and move on.&lt;/li&gt;
+      &lt;li&gt;PUN provides 20 Concurrent Users (CCU) for free, along with 8000 monthly activities and 500 messages per room, plus an option of $95 for three years, including 100 CCUs and 40K monthly activities. This is certainly interesting for small indie developers, who are certain to be on a budget.&lt;/li&gt;
+      &lt;li&gt;It appears that tutorials and documentation are a strong point and there are a decent number of tutorial videos available on YouTube.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.photonengine.com/en-US/PUN&quot;&gt;PUN website&lt;/a&gt;&lt;/strong&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;This immediately looks interesting as I do not want to spend much of the 9 weeks development time available (three sprints of 3 weeks each) setting up complex structures of my own, such as multiplayer server, database and websocket connections. The fact that this is free for low-level development, and reasonably-priced should I need to step up a level, also adds appeal.&lt;/p&gt;
+
+    &lt;p&gt;The &lt;strong&gt;&lt;a href=&quot;https://www.raywenderlich.com/1142814-introduction-to-multiplayer-games-with-unity-and-photon&quot;&gt;raywenderlich.com&lt;/a&gt;&lt;/strong&gt; tutorial is an interesting first read. However, what I do not yet know, is how it works with VR and, in particular, &lt;strong&gt;avatars&lt;/strong&gt;. Social VR will be an upcoming topic as I do further research.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Onine tutorial: &lt;a href=&quot;https://www.youtube.com/watch?v=yRvfLLTkIXM&quot;&gt;VR Networking Part 1: How to Setup Multiplayer VR with Oculus and Unity&lt;/a&gt;&lt;/strong&gt; &lt;br /&gt;
+This does not appear to be something worth ignoring.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;NetworkManager&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;https://gamedevacademy.org/how-to-create-a-multiplayer-game-in-unity/&quot;&gt;GameDevAcademy&lt;/a&gt;&lt;/strong&gt; is an online tutorial site I have come across from time to time when looking for tutorials on various subjects related to building apps in Unity. Like most things associated with Unity, the site is explicitly game-oriented. However, this does not detract from using Unity for purposes that are not necessarily wholy devoted to games. This tutorial involves the use of the &lt;em&gt;NetworkManager&lt;/em&gt;, which I know nothing about, but appears to be something that may be useful during development, such as attaching and passing objects and actions via, what apears to be, a service that manages interactions over a network.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.</summary></entry><entry><title type="html">poly | caco | phony</title><link href="http://localhost:4000/2020/02/05/polycacophony.html" rel="alternate" type="text/html" title="poly | caco | phony" /><published>2020-02-05T00:00:00+00:00</published><updated>2020-02-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/05/polycacophony</id><content type="html" xml:base="http://localhost:4000/2020/02/05/polycacophony.html">&lt;p&gt;&lt;img src=&quot;\images\nordic-designer-collaboration.jpg&quot; alt=&quot;Musical collaboration&quot; /&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;polyphony&quot;&gt;Polyphony&lt;/h1&gt;
+&lt;h1 id=&quot;polyphony&quot;&gt;&lt;em&gt;Polyphony&lt;/em&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
   &lt;p&gt;A musical texture created by multiple individual and independent parts&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;The idea that I will be taking forward for this project is to use Virtual Reality in the creation of an immersive space in which two ‘players’ can join together to create sonic and visual effects and events, though physical actions and interactions. The results of such actions may be seen as ephemeral visual and aural moments that exist for a short time after an event is triggered. The space will be an environment in which the players can experiment and create through playful interactions with the space, the objects within it, and the players themselves.&lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;cacophony&quot;&gt;Cacophony&lt;/h1&gt;
+&lt;h1 id=&quot;cacophony&quot;&gt;&lt;em&gt;Cacophony&lt;/em&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
   &lt;p&gt;A harsh, discordant, jarring, mixture of sounds&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -17,7 +54,7 @@
 
 &lt;p&gt;It will be interesting to witness not only how participants interact with these stimuli within a shared space, but also how each interacts with the other. Will there be an attempt to create something collaboratively, in the mode of a ‘jam’, or will they find there is too much stimuli to comfortably handle, resulting in the need to escape? &lt;br /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;phony&quot;&gt;Phony&lt;/h1&gt;
+&lt;h1 id=&quot;phony&quot;&gt;&lt;em&gt;Phony&lt;/em&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Fake, not genuine or real&lt;br /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -328,25 +365,4 @@ It will be worth considering the importance of an app, or immersive environment 
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Week Eleven</title><link href="http://localhost:4000/2019/12/05/week-eleven.html" rel="alternate" type="text/html" title="Week Eleven" /><published>2019-12-05T00:00:00+00:00</published><updated>2019-12-05T00:00:00+00:00</updated><id>http://localhost:4000/2019/12/05/week-eleven</id><content type="html" xml:base="http://localhost:4000/2019/12/05/week-eleven.html">&lt;p&gt;Enjoyed putting together a disaster zone!
-Adding force of a value and in a direction (Vector3) when rigidbody enters ‘wind zone’.&lt;/p&gt;
-
-&lt;p&gt;Added HUD display&lt;/p&gt;
-
-&lt;p&gt;Made this scene the first - witness the force, then back to base to do something about it.&lt;/p&gt;
-
-&lt;p&gt;Testing: -&lt;/p&gt;
-
-&lt;p&gt;Roshan - 11 year old has no problem with the mechanics.
-Kirti - 47 year old non-gamer has some issues.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;How to use the controllers&lt;/li&gt;
-  &lt;li&gt;What to do when the active objects - e.g. table of objects - is not immediately in front of user?&lt;/li&gt;
-  &lt;li&gt;Would a help be useful? - this could be a room where someone explains things. Not everyone has the Oculus First Steps. Could I make a button available which would put everything in front of the player - a comfort button/cushion?&lt;/li&gt;
-  &lt;li&gt;Narrative / instructions not clear&lt;/li&gt;
-  &lt;li&gt;If prep room activity not completed, should it be possible to still do the personal items collection?&lt;/li&gt;
-  &lt;li&gt;When at airport - perhaps say ‘you didn’t complete the tasks, but here is your package anyway - well done for trying! Have a nice flight!!’&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Problem is that not everyone has experienced VR. Gamers have an easier time of it, but those who do not have much gaming experience could struggle. How to make it easy? Comfortable?&lt;/p&gt;</content><author><name></name></author><summary type="html">Enjoyed putting together a disaster zone! Adding force of a value and in a direction (Vector3) when rigidbody enters ‘wind zone’.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
