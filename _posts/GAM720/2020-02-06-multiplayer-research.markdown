@@ -70,10 +70,9 @@ Therefore, I shall begin delving deeper into the potential of **Photon PUN 2** a
 
 with PUN?
 
-Good news!<br>
-https://forums.oculusvr.com/developer/discussion/76611/does-oculus-quest-support-photon-unity-networking
+**[Good news!](https://forums.oculusvr.com/developer/discussion/76611/does-oculus-quest-support-photon-unity-networking)**
+
 >I am researching about possibilities to make multi user experiences for the Quest and have been wondering if Photon would help?
 > - yes
 
-**PlayoVR, a VRTK-PUN-Voice Demo**
-https://github.com/quintesse/PlayoVR
+**[PlayoVR, a VRTK-PUN-Voice Demo](https://github.com/quintesse/PlayoVR)**
