@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building The Multiplayer Environement
+title: Building The Multiplayer Environment
 published: true
 ---
 
@@ -13,7 +13,7 @@ The API documentation can be found [here](https://doc-api.photonengine.com/en/pu
 The first piece of code, attached to an empty GameObject, is to connect to the Photon Cloud server and attempt to join a random room - if no room exists then one is created and that is joined. This was one of those rare magic moments, when it worked first time! Unity PlayerPrefs is used to strore the player's entered user name across states, thus maintaining it for the next time the app is started.
 
 <figure class="video_container">
-  <video style="width:1080px;" autoplay loop>
+  <video style="width:720px;" autoplay loop>
     <source src="\media\pun-connect-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
