@@ -1,6 +1,6 @@
 ---
 layout: post
-title: poly | caco | phony
+title: Poly.caco.phony
 published: true
 ---
 
