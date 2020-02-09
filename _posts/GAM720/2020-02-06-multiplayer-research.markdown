@@ -29,7 +29,7 @@ Having never made a multiplayer game I'm starting from a very low base. However,
   This immediately looks interesting as I do not want to spend much of the 9 weeks development time available (three sprints of 3 weeks each) setting up complex structures of my own, such as multiplayer server, database and websocket connections. The fact that this is free for low-level development, and reasonably-priced should I need to step up a level, also adds appeal. 
 
 
-# So what is **Photon Bolt** and how does it differ to Phoypm PUN 2?
+# So what is **Photon Bolt** and how does it differ to Photon PUN 2?
 
 * **[Bolt](https://www.photonengine.com/bolt)**
 
