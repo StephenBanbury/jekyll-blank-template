@@ -49,7 +49,7 @@ Automatic compression is a bonus for Bolt, whereas the PUN developer may have to
 
 Open-source, multiplayer, dedicated game-server hosting built on Kubernetes. This is something I'd like to find out more about. In particular the fact that it uses Kubernetes, another technology I've had in my sights for some time, and it is Google, which is certainly not one of the smaller companies. The fact that it is still relatively early days perhaps makes it less appealing when I'm looking for something to get set up and running quickly and is supported by a large base of users and documentation. However, I'm sure it, or its successors, will have a big future in the field.
 
-* **Nakama**
+* **[Nakama](https://heroiclabs.com/docs/)**
 
 Nakama is an open-source scalable server for building social and realtime apps and games.
 Looks very interesting but maybe a bit heavyweight for my needs.
