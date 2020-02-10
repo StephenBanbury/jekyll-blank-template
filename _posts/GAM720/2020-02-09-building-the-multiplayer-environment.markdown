@@ -4,7 +4,7 @@ title: Building The Multiplayer Environment
 published: true
 ---
 
-## Photon PUN2 & Unity
+## Photon PUN 2 & Unity
 
 The Photon PUN documentation, which appear to be as clear as I'd hoped, provides what looks to be a fairly straightforward [tutorial](https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/intro) towards creating a simple multiplayer enabled application. 
 
@@ -19,7 +19,7 @@ The first piece of code, attached to an empty GameObject, is to connect to the P
   </video>
 </figure>
 
-This Tutorial, as is usually the case with kind of thing, is not specifically aimed at the kind of work I intend to do.  Instead,it uses a simple generic game pattern as a vehicle for introducing the core ideas and concepts behind PUN. Sometimes, I have found, it is useful to continue the course to, if not its completion, then at least some way in, until it is felt that enough core concepts have been unearthed for work to begin with the confidence that anything new that is needed can be researched as and when it is required. The balance is to be found in assessing whether this point has been reached.
+This Tutorial, as is usually the case with kind of thing, is not specifically aimed at the kind of work I intend to do.  Instead, it uses a simple generic game pattern as a vehicle for introducing the core ideas and concepts behind Photon PUN 2. Sometimes, I have found, it is useful to continue the course, if not to its completion, then at least some way in to it - or at least until it is felt that enough core concepts have been unearthed for work to begin with the confidence that anything new that is needed can be researched as and when it is required. The balance is to be found in assessing whether this point has been reached.
 
 
 
