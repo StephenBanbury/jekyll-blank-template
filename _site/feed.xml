@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-12T12:09:37+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Building The Multiplayer Environment</title><link href="http://localhost:4000/2020/02/09/building-the-multiplayer-environment.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment" /><published>2020-02-09T00:00:00+00:00</published><updated>2020-02-09T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/09/building-the-multiplayer-environment</id><content type="html" xml:base="http://localhost:4000/2020/02/09/building-the-multiplayer-environment.html">&lt;h2 id=&quot;photon-pun-2--unity&quot;&gt;Photon PUN 2 &amp;amp; Unity&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-12T12:24:00+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Building The Multiplayer Environment | Part 2</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 2" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html">&lt;h1 id=&quot;building-and-animating-the-player-character&quot;&gt;Building and animating the player character&lt;/h1&gt;
+
+&lt;p&gt;The tutorial has a useful introduction to &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/player-prefab&quot;&gt;building and animating the player character(s)&lt;/a&gt;. This is not PUN-specific so comes as an unexpected but welcome addition, as character animation is something that I will need to look into.&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\robot-animation-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;deltatime&quot;&gt;DeltaTime&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Read as much as you can on the topic and what you’ll find when searching the web for this. After you understood the concept, you’ll be able to make the most out of many Unity features when it comes to animation and consistent control of values over time&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Building and animating the player character</summary></entry><entry><title type="html">Week Two - Suspension Of Disbelief</title><link href="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Week Two - Suspension Of Disbelief" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 1</title><link href="http://localhost:4000/2020/02/09/building-the-multiplayer-environment-part1.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 1" /><published>2020-02-09T00:00:00+00:00</published><updated>2020-02-09T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/09/building-the-multiplayer-environment-part1</id><content type="html" xml:base="http://localhost:4000/2020/02/09/building-the-multiplayer-environment-part1.html">&lt;h2 id=&quot;photon-pun-2--unity&quot;&gt;Photon PUN 2 &amp;amp; Unity&lt;/h2&gt;
 
 &lt;p&gt;The Photon PUN documentation, which appear to be as clear as I’d hoped, provides what looks to be a fairly straightforward &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/intro&quot;&gt;tutorial&lt;/a&gt; towards creating a simple multiplayer enabled application.&lt;/p&gt;
 
@@ -19,23 +33,7 @@
     &lt;source src=&quot;\media\pun-connect-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;building-and-animating-the-player-character&quot;&gt;Building and animating the player character&lt;/h1&gt;
-
-&lt;p&gt;The tutorial has a useful introduction to &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/player-prefab&quot;&gt;building and animating the player character(s)&lt;/a&gt;. This is not PUN-specific so comes as an unexpected but welcome addition, as character animation is something that I will need to look into.&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\robot-animation-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;deltatime&quot;&gt;DeltaTime&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Read as much as you can on the topic and what you’ll find when searching the web for this. After you understood the concept, you’ll be able to make the most out of many Unity features when it comes to animation and consistent control of values over time&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Photon PUN 2 &amp;amp; Unity</summary></entry><entry><title type="html">Multiplayer research</title><link href="http://localhost:4000/2020/02/06/multiplayer-research-copy.html" rel="alternate" type="text/html" title="Multiplayer research" /><published>2020-02-06T00:00:00+00:00</published><updated>2020-02-06T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/06/multiplayer-research%20copy</id><content type="html" xml:base="http://localhost:4000/2020/02/06/multiplayer-research-copy.html">&lt;p&gt;My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Photon PUN 2 &amp;amp; Unity</summary></entry><entry><title type="html">Multiplayer research</title><link href="http://localhost:4000/2020/02/06/multiplayer-research.html" rel="alternate" type="text/html" title="Multiplayer research" /><published>2020-02-06T00:00:00+00:00</published><updated>2020-02-06T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/06/multiplayer-research</id><content type="html" xml:base="http://localhost:4000/2020/02/06/multiplayer-research.html">&lt;p&gt;My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.&lt;/p&gt;
 
 &lt;h1 id=&quot;past-musings&quot;&gt;Past musings&lt;/h1&gt;
 
@@ -127,7 +125,7 @@ Looks very interesting but maybe a bit heavyweight for my needs.&lt;/p&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/quintesse/PlayoVR&quot;&gt;PlayoVR, a VRTK-PUN-Voice Demo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.</summary></entry><entry><title type="html">Multiplayer research</title><link href="http://localhost:4000/2020/02/06/multiplayer-research.html" rel="alternate" type="text/html" title="Multiplayer research" /><published>2020-02-06T00:00:00+00:00</published><updated>2020-02-06T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/06/multiplayer-research</id><content type="html" xml:base="http://localhost:4000/2020/02/06/multiplayer-research.html">&lt;p&gt;My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/quintesse/PlayoVR&quot;&gt;PlayoVR, a VRTK-PUN-Voice Demo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.</summary></entry><entry><title type="html">Multiplayer research</title><link href="http://localhost:4000/2020/02/06/multiplayer-research-copy.html" rel="alternate" type="text/html" title="Multiplayer research" /><published>2020-02-06T00:00:00+00:00</published><updated>2020-02-06T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/06/multiplayer-research%20copy</id><content type="html" xml:base="http://localhost:4000/2020/02/06/multiplayer-research-copy.html">&lt;p&gt;My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.&lt;/p&gt;
 
 &lt;h1 id=&quot;past-musings&quot;&gt;Past musings&lt;/h1&gt;
 
@@ -245,20 +243,7 @@ Looks very interesting but maybe a bit heavyweight for my needs.&lt;/p&gt;
 
 &lt;p&gt;With regard to the immersive environment, how does the nature and aesthetic quality of the virtual space itself affect how the players react to it and to each other? And, through the exploration of sound in virtual reality, will it be possible to explore the accoustic qualities of the space and how, for instance, artificial sound waves bounce off virtual surfaces?&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;It may be that I find a way to ‘record’ the event so that it can be replayed and experienced from a different perspective, viewed as a creative artefact ‘object’, that is experienced rather differently to the live event that caused it to come into existence. &lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Humble beginnings | Ideation Part 3</title><link href="http://localhost:4000/2020/02/04/humble-beginnings-part3.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 3" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/humble-beginnings-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/04/humble-beginnings-part3.html">&lt;p&gt;Considering past rapid ideation and prototyping ideas has thrown up another possibility. 
-&lt;a href=&quot;/2019/02/25/week-three-appjam-2.html&quot;&gt;The Odd Word Out&lt;/a&gt; was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There is significant potential for further development of the concept of arcade-style word games.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;At the time I had not thought of this in terms of Virtual Reality, but the potential is there for this to be a fun word game with an educational slant. It would not necessarily lose its arcade-style appeal, although it would gain a sophistication that would be interesting to explore.&lt;/p&gt;
-
-&lt;p&gt;Instead of a 2D space I could have the words, maybe in the form of balls or other 3D objects, bouncing off walls, floors and ceilings within an immersive 3D space. It would the task of the player to knock out words by hurling related - or unrelated - words at them.&lt;/p&gt;
-
-&lt;p&gt;Or it could, for instance, become a kind of shooting game where the principle of eliminating certain words remains, but the method is entirely different.&lt;/p&gt;
-
-&lt;p&gt;There are many options&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering past rapid ideation and prototyping ideas has thrown up another possibility. The Odd Word Out was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -</summary></entry><entry><title type="html">Create a Game - Dog Walker Simulator</title><link href="http://localhost:4000/2020/02/04/dog-walker-simulator.html" rel="alternate" type="text/html" title="Create a Game - Dog Walker Simulator" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/dog-walker-simulator</id><content type="html" xml:base="http://localhost:4000/2020/02/04/dog-walker-simulator.html">&lt;h2 id=&quot;brief&quot;&gt;Brief:&lt;/h2&gt;
+&lt;p&gt;It may be that I find a way to ‘record’ the event so that it can be replayed and experienced from a different perspective, viewed as a creative artefact ‘object’, that is experienced rather differently to the live event that caused it to come into existence. &lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Create a Game - Dog Walker Simulator</title><link href="http://localhost:4000/2020/02/04/dog-walker-simulator.html" rel="alternate" type="text/html" title="Create a Game - Dog Walker Simulator" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/dog-walker-simulator</id><content type="html" xml:base="http://localhost:4000/2020/02/04/dog-walker-simulator.html">&lt;h2 id=&quot;brief&quot;&gt;Brief:&lt;/h2&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Sometimes average people are called to extraordinary measures. It happens all the time in movies, books and on television. Innumerable action movies pit people against one another and push them past the point where the ‘common man or woman’ become quite uncommon: Erin Brockovich is a classic example of such a person. 
@@ -333,7 +318,20 @@ A non-digital game design, based on the character, that utilises your app as par
 
 &lt;p&gt;The app will use geofencing, with fences located on randomly moving points. The player must find the virtual pooches, by locating the moving geofences, before they are lost for good or, worse, they meet a sticky end or they get caught by the dog-warden! The dog characters are represented using Anime-cartoon-style graphics and a checklist is provided to tick off the dogs as they are brought back to safely.&lt;/p&gt;
 
-&lt;p&gt;‘Woof’ if you think all the dogs can be found withing the time-limit!&lt;/p&gt;</content><author><name></name></author><summary type="html">Brief:</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
+&lt;p&gt;‘Woof’ if you think all the dogs can be found withing the time-limit!&lt;/p&gt;</content><author><name></name></author><summary type="html">Brief:</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 3</title><link href="http://localhost:4000/2020/02/04/humble-beginnings-part3.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 3" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/humble-beginnings-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/04/humble-beginnings-part3.html">&lt;p&gt;Considering past rapid ideation and prototyping ideas has thrown up another possibility. 
+&lt;a href=&quot;/2019/02/25/week-three-appjam-2.html&quot;&gt;The Odd Word Out&lt;/a&gt; was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is significant potential for further development of the concept of arcade-style word games.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At the time I had not thought of this in terms of Virtual Reality, but the potential is there for this to be a fun word game with an educational slant. It would not necessarily lose its arcade-style appeal, although it would gain a sophistication that would be interesting to explore.&lt;/p&gt;
+
+&lt;p&gt;Instead of a 2D space I could have the words, maybe in the form of balls or other 3D objects, bouncing off walls, floors and ceilings within an immersive 3D space. It would the task of the player to knock out words by hurling related - or unrelated - words at them.&lt;/p&gt;
+
+&lt;p&gt;Or it could, for instance, become a kind of shooting game where the principle of eliminating certain words remains, but the method is entirely different.&lt;/p&gt;
+
+&lt;p&gt;There are many options&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering past rapid ideation and prototyping ideas has thrown up another possibility. The Odd Word Out was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 2</title><link href="http://localhost:4000/2020/02/03/humble-beginnings-part2.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 2" /><published>2020-02-03T00:00:00+00:00</published><updated>2020-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/03/humble-beginnings-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/03/humble-beginnings-part2.html">&lt;p&gt;I have found myself struggling somewhat attempting to define more clearly what it is I am hoping to create. Although, to some extent, I feel I am able to fall back on the cushion that is provided by the concept agile development, it has felt as though there is still not quite  enough hard material on whilch ideas can crystalise in order to really get going on the project. I’m not 100% certain that it is necessary, as I a feel capable of allowing the ideas to overcome any inertia and start to flow once underway. But it’s an uncomfortable feeling nonetheless. If I can begin with something in my sights, something that I can start to build a &lt;strong&gt;narrative&lt;/strong&gt; around, then I can start making headway with a sharper initial focus, a real sense of excitement and full of positive expectations.&lt;/p&gt;
 
 &lt;p&gt;I suppose this kind of frustration can be seen as part of the process of ideation. Or, perhaps, I have been thinking about what it is that I &lt;strong&gt;ought&lt;/strong&gt; to make, rather than what I would &lt;strong&gt;love&lt;/strong&gt; to make - it turns out that these concepts are actually not so far apart! However, with the emphasis on the latter, I feel there is greater justification and suddenly I have started feeling those tingles of excitement!&lt;/p&gt;
 
@@ -406,96 +404,4 @@ Ultimately, a mutli-layered world of sound - and potentially visuals - could be 
 
 &lt;p&gt;Still, a true VR version of Simon does not appear to exist.&lt;/p&gt;
 
-&lt;h2 id=&quot;follow-this-link-for-the-next-installment-humble-beginnings-part-2&quot;&gt;Follow this link for the next installment: &lt;a href=&quot;/2020/02/03/humble-beginnings-part2.html&quot;&gt;Humble Beginnings &lt;strong&gt;Part 2&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">The germ of an idea</summary></entry><entry><title type="html">Week Two - Fictional Worlds &amp;amp; Game Mechanics</title><link href="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html" rel="alternate" type="text/html" title="Week Two - Fictional Worlds &amp; Game Mechanics" /><published>2020-02-01T00:00:00+00:00</published><updated>2020-02-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics</id><content type="html" xml:base="http://localhost:4000/2020/02/01/week-two-fictional-worlds-and-game-mechanics.html">&lt;p&gt;A notion of fiction particularly relevant to Creative App Development: -
-&lt;em&gt;“An imaginary thing or event, postulated for the purpose of argument or explantion”&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;User Stories&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Personnas - fictional characters - research&lt;/p&gt;
-
-&lt;h1 id=&quot;speculative-design--design-fiction&quot;&gt;Speculative Design / Design Fiction&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Ficionalised Design&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Virtual Reality&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;The Neuromancer&lt;/em&gt; - Willilam Gibson, 1984&lt;/p&gt;
-
-&lt;p&gt;Consentual Halucinations. Or as facebook would have it: &lt;em&gt;Social VR&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Much of this kind of fiction is about future technologies and the relationships we foster with them.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Speculative Anything”&lt;/em&gt; - (Doon &amp;amp; Mabby? (link TBC) )&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Non-linear, interactive fiction&lt;/strong&gt; - where the user makes choices and is not simply taken on a journey designed by the designer. Concept that has captured the imagination of game developers and interactive artists.&lt;/p&gt;
-
-&lt;p&gt;In terms of my own work, it should be interesting to speculate on how the user interacts with my design and created environment, how their journey unfolds, how they may chose to engage and explore. Non-linear interaction - my users will make the choices, they have agency over their own journey.&lt;/p&gt;
-
-&lt;p&gt;Take risks and experiment (this is how I like things!).&lt;/p&gt;
-
-&lt;h2 id=&quot;narrative-design&quot;&gt;Narrative Design&lt;/h2&gt;
-
-&lt;p&gt;There appears to be a difference between &lt;em&gt;Narrative&lt;/em&gt; and &lt;em&gt;Interaction&lt;/em&gt;
-One is linear, a story and is authored
-The other is non-linear, more like a conversation and is identifiable as providing input / user-choice.&lt;/p&gt;
-
-&lt;h1 id=&quot;on-plot&quot;&gt;On Plot&lt;/h1&gt;
-
-&lt;p&gt;Carefully crafted, designed. &lt;br /&gt;
-Players altering a plot can ruin the plot / structure, with loss of narrative.&lt;br /&gt;
-Players being forced into plot can result in loss of interactive strength.&lt;/p&gt;
-
-&lt;p&gt;As a designer one can create a space in which the player acts.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Cannot directly control events&lt;/li&gt;
-  &lt;li&gt;Can directly control rules&lt;/li&gt;
-  &lt;li&gt;Create a storyworld, not a storyline&lt;/li&gt;
-  &lt;li&gt;The overaching narrative/goals/challenges can be defined&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Also understood in similar ways are &lt;strong&gt;Embedded&lt;/strong&gt; (pre-generated/crafted) and &lt;strong&gt;Emergent&lt;/strong&gt; (arising from the rules of the system, created by the player) Narratives.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Branching Narrative (chose your own game books, roleplaying games)&lt;/li&gt;
-  &lt;li&gt;Linear “Interactive” Narrative (most video games, predetermined plot, FPS)&lt;/li&gt;
-  &lt;li&gt;Sandbox, on the border, but non-linear. Highly interactive. Little is dicated. Emergent narrative. Can feel directionless (The Sims, Minecraft etc)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;my-initial-ideas-for-this-modules-project-can-be-seen-by-following-this-link&quot;&gt;My initial ideas for this module’s project can be seen &lt;a href=&quot;/2020/02/02/humble-beginnings-part1.html&quot;&gt;by following &lt;strong&gt;this&lt;/strong&gt; link&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">A notion of fiction particularly relevant to Creative App Development: - “An imaginary thing or event, postulated for the purpose of argument or explantion” User Stories</summary></entry><entry><title type="html">Designing the VR environment</title><link href="http://localhost:4000/2020/01/29/vr-environment.html" rel="alternate" type="text/html" title="Designing the VR environment" /><published>2020-01-29T00:00:00+00:00</published><updated>2020-01-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/01/29/vr-environment</id><content type="html" xml:base="http://localhost:4000/2020/01/29/vr-environment.html">&lt;h1 id=&quot;it-is-becoming-evident-that-notions-of-environment-could-be-a-good-place-to-begin&quot;&gt;&lt;em&gt;It is becoming evident that notions of environment could be a good place to begin&lt;/em&gt;&lt;/h1&gt;
-
-&lt;p&gt;Here I am concerned with the immediate virtual space that the immersive experience participant finds themselves.&lt;/p&gt;
-
-&lt;p&gt;My experience creating virtual reality prototypes for ShelterBox in the previous module has encouraged me to consider, in greater depth, the benefits or otherwise of the nature and qualities of the immersive environment. As the single most important aspect of the immersive experience in that it encompasses and affects all others, the created environment appears to be top of the list. Ultimately, I will be looking for ways of encouraging the participant to &lt;em&gt;hang around&lt;/em&gt;, so I will need to consider how and to what extent the nature of environment affects the overall experience.&lt;/p&gt;
-
-&lt;p&gt;Some possible subjects for research and consideration could include: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The use of a familiar environment, such as using the model I created of the family home imported into Unity from Sketch-up.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How would familiar environment or familiar objects affect reaction to the environment compared with those that are unfamiliar or custom-made?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How would personal welcome messages and familiar sounds affect the way the environment is received?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Could I introduce the use of voice synthesis - perhaps this could be controlled by text input by a teacher/therapist/player?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How environment affects levels of relaxation, stimulation, engagement etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What makes a good therapeutic environment?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In what way is comfort affected by colour and colour schemes?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How does the use of sound or music affect the environment and how does the type of music or quality of sound affect the participant’s disposition?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Would something like a Zen environment be a suitable place to begin these experiments?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">It is becoming evident that notions of environment could be a good place to begin</summary></entry></feed>
+&lt;h2 id=&quot;follow-this-link-for-the-next-installment-humble-beginnings-part-2&quot;&gt;Follow this link for the next installment: &lt;a href=&quot;/2020/02/03/humble-beginnings-part2.html&quot;&gt;Humble Beginnings &lt;strong&gt;Part 2&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;</content><author><name></name></author><summary type="html">The germ of an idea</summary></entry></feed>

@@ -28,12 +28,16 @@ toc:
           - page: Mutliplayer Research
             date: 2020-02-06
             url: 2020/02/06/multiplayer-research.html
-          - page: Building The Multiplayer Environment
+          - page: Building The Multiplayer Environment | Part 1
             date: 2020-02-09
-            url: 2020/02/09/building-the-multiplayer-environment.html
+            url: 2020/02/09/building-the-multiplayer-environment-part1.html
       - page: Week Three - Suspension of Disbelief
         date: 2020-02-10
-        # url: 2020/02/10/week-three-suspension-of-disbelief.html
+        url: 2020/02/10/week-three-suspension-of-disbelief.html
+        subsubfolderitems:
+          - page: Building The Multiplayer Environment | Part 2
+            date: 2020-02-12
+            url: 2020/02/12/building-the-multiplayer-environment-part2.html
       - page: Week Four - Colour Theory
         date: 2020-02-17
         # url: 2020/02/17/week-four-colour-theory.html
