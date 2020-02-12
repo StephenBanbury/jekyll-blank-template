@@ -30,6 +30,19 @@ If nothing else, this demonstrates how real-life actions, engagement with the cr
     <source src="\media\robot-animation-5.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
+</figure> 
+
+# Camera Setup
+
+Just adding the CameraWork component to the robot GameObject and setting it slightly above him, completely changes the nature of the 'game' experience. Suddenly, as the controller, you are much more part of the experience, feeling more involved with what is happening. It feels more natural and less detatched than 'watching' from a distance, even if you are controlling the character's fate.  
+
+**Camera attached**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\robot-animation-6.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
 </figure>
 
-However, the **robot character is not easy to control**, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly 'parkour' style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this 'demo' does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with. 
+
+However, the **robot character is not easy to control**, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly 'parkour' style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this 'demo' does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.
