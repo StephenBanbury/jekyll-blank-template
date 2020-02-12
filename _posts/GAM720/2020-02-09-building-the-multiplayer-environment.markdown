@@ -14,12 +14,12 @@ The first piece of code, attached to an empty GameObject, is to connect to the P
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\pun-connect-1.mp4" type="video/mp4">
+    <source src="\media\pun-connect-2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
 
-This Tutorial, as is usually the case with kind of thing, is not specifically aimed at the kind of work I intend to do.  Instead, it uses a simple generic game pattern as a vehicle for introducing the core ideas and concepts behind Photon PUN 2. Sometimes, I have found, it is useful to continue the course, if not to its completion, then at least some way in to it - or at least until it is felt that enough core concepts have been unearthed for work to begin with the confidence that anything new and unknown can be researched as and when it is required. The balancing trick is in assessing whether this point has been reached.
+This Tutorial, as is usually the case with kind of thing, is not specifically aimed at the kind of work I intend to do.  Instead, it appears to use a fairly generic game pattern - I've yet to penetrate deaply enough to truly be sure as to how generic - as a vehicle for introducing the core ideas and concepts behind Photon PUN 2. I have often found in these cases that it is generally useful to continue the course, if not to its completion, then at least some way in to it - or at least until it is felt that enough core concepts have been unearthed for work to begin with the confidence that anything new and unknown can be researched as and when it is required. The balancing trick is in assessing whether this point has been reached.
 
 
 
