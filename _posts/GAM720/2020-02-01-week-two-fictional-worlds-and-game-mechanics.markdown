@@ -62,5 +62,11 @@ Also understood in similar ways are **Embedded** (pre-generated/crafted) and **E
 
 
 
-## My initial ideas for this module's project can be seen [by following **this** link]({% link _posts/GAM720/2020-02-02-humble-beginnings-part1.markdown %})
+## Initial ideas for this module's project and responses to the week's challenges can be seen by following the links below
 
+* [Initial ideas]({% link _posts/GAM720/2020-02-02-humble-beginnings-part1.markdown %})
+* [Initial ideas - continued]({% link _posts/GAM720/2020-02-03-humble-beginnings-part2.markdown %})
+* [Dog Walker Simulator]({% link _posts/GAM720/2020-02-04-dog-walker-simulator.markdown %})
+* [Polycacophony]({% link _posts/GAM720/2020-02-05-polycacophony.markdown %})
+* [Mutliplayer Research]({% link _posts/GAM720/2020-02-06-multiplayer-research.markdown %})
+* [Building The Multiplayer Environment - Part 1]({% link _posts/GAM720/2020-02-09-building-the-multiplayer-environment-part1.markdown %})
