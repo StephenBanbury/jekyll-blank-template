@@ -66,7 +66,11 @@ I considered creating my own cartoon-like images, but quickly realised it would 
 
 However, I did use a music track that I created myself - [**Movement (soundcloud)**](https://soundcloud.com/stephen-banbury/movement) - although clearly this was not created specifically for this project. Building a usable library of assets would make creating such an artefact much simpler and far quicker, as well as avoiding potential issues surrounding permissions and copyright. But as this would consume a huge amount of time it is certain that, at least, certain assets will always need to be acquired from suitable resources. The better quality assets are, of course, generally not free.
 
+I do find it interesting that, awful though my selection of images are, they are still more engaging than none at all. After all, a sequential selection of visual images, even if the quality is questionable, make telling a story more immediate than textual or verbal forms alone. There is also a large body of research looking at the use of music in film and TV, as a [source of emotional impact](https://rhythmcoglab.coursepress.yale.edu/wp-content/uploads/sites/5/2014/10/Music-as-a-Source-of-Emotion-In-Film.pdf) and aiding the [setting of a 'tone'](https://books.google.co.uk/books?hl=en&lr=&id=YjZN-44Z8AcC&oi=fnd&pg=PP11&dq=film+music&ots=0uDqu6CF7c&sig=LlmWuuKRq5v0hVDJSNLD9h1U48g#v=onepage&q=film%20music&f=false).
+
 Ren'Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promotion. It is predominantly for this reason that I am glad to have engaged with it.
+
+The video here demonstrates a number of different possible storylines, each dependent on the player's choices.
 
 **Dog walker simulator**
 <figure class="video_container">
@@ -75,4 +79,7 @@ Ren'Py, and other applications with similar aims, such as Fungus, certainly appe
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
+
+As a potential companion, or demonstration, of a pitch, this could be an interesting medium. A story / narrative can help explain, familiarise, a concept that otherwise relies on a the dryness of a verbal description.
+
 
