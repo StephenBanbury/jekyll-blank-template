@@ -24,7 +24,7 @@ In line with the previous activity, these decision points might be:<br>
     <img src="\images\ren-py-main.png">
 </div>
 
-It seems to be a simple way to produce interactive text (see [Cybertext](http://www.autzones.com/din6000/textes/semaine09/Aarseth(1997).pdf)) which requires the reader/player to make choices along the way, causing the narrative to fork and head in directions that are the result of the decision that have been made. Its multi-platform nature and portability makes it particulary interesting due to the possibility of creating simple demos that are easily made available. Ren'Py scripts are simple text files that follow a simple syntax. 
+Ren'Py seems to be a simple way to produce interactive text (see [Cybertext](http://www.autzones.com/din6000/textes/semaine09/Aarseth(1997).pdf)) which requires the reader/player to make choices along the way, causing the narrative to fork and head in directions that are the result of the decision that have been made. Its multi-platform nature and portability makes it particulary interesting due to the possibility of creating simple demos that are easily made available. Ren'Py scripts are simple text files that follow a simple syntax. 
 
 # [Fungus](https://assetstore.unity.com/packages/templates/systems/fungus-34184)
 
@@ -78,7 +78,7 @@ The video here demonstrates a number of different possible storylines, each depe
 
 **Dog walker simulator**
 <figure class="video_container">
-  <video style="width:720px;" autoplay loop>
+  <video style="width:720px;" loop>
     <source src="\media\dog-walker-simulator.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>

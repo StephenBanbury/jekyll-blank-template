@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-17T20:34:38+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-17T23:26:30+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Suggestion&lt;/strong&gt;&lt;/p&gt;
 
@@ -26,7 +26,7 @@ In line with the previous activity, these decision points might be:&lt;br /&gt;&
     &lt;img src=&quot;\images\ren-py-main.png&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;It seems to be a simple way to produce interactive text (see &lt;a href=&quot;http://www.autzones.com/din6000/textes/semaine09/Aarseth(1997).pdf&quot;&gt;Cybertext&lt;/a&gt;) which requires the reader/player to make choices along the way, causing the narrative to fork and head in directions that are the result of the decision that have been made. Its multi-platform nature and portability makes it particulary interesting due to the possibility of creating simple demos that are easily made available. Ren’Py scripts are simple text files that follow a simple syntax.&lt;/p&gt;
+&lt;p&gt;Ren’Py seems to be a simple way to produce interactive text (see &lt;a href=&quot;http://www.autzones.com/din6000/textes/semaine09/Aarseth(1997).pdf&quot;&gt;Cybertext&lt;/a&gt;) which requires the reader/player to make choices along the way, causing the narrative to fork and head in directions that are the result of the decision that have been made. Its multi-platform nature and portability makes it particulary interesting due to the possibility of creating simple demos that are easily made available. Ren’Py scripts are simple text files that follow a simple syntax.&lt;/p&gt;
 
 &lt;h1 id=&quot;fungus&quot;&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/templates/systems/fungus-34184&quot;&gt;Fungus&lt;/a&gt;&lt;/h1&gt;
 
@@ -84,7 +84,7 @@ It looks like an interesting option and, because it uses the Unity IDE, workflow
 
 &lt;p&gt;&lt;strong&gt;Dog walker simulator&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; loop=&quot;&quot;&gt;
     &lt;source src=&quot;\media\dog-walker-simulator.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
