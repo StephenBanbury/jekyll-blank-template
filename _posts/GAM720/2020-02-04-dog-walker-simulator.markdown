@@ -42,11 +42,13 @@ The app makes use of stylised animated dogs in Augmented Reality, set in the rea
 
 A day in the life of the dog-walker. You couldn't make it up!
 <br><br>
-## Take 2
+
+
+<a name="take2"></a>
+## Dog Walker Simulator | Take 2
 
 I'm updating my idea to better fit the brief.
 <br><br>
-## Woofers!
 
 ![Beagle](\images\beagle.jpg)
 
