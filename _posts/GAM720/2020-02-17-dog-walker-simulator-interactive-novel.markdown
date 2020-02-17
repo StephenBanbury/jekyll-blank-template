@@ -78,7 +78,7 @@ The video here demonstrates a number of different possible storylines, each depe
 
 **Dog walker simulator**
 <figure class="video_container">
-  <video style="width:720px;" loop>
+  <video style="width:720px;" controls loop>
     <source src="\media\dog-walker-simulator.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
