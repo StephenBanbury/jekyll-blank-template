@@ -38,15 +38,19 @@ toc:
           - page: Building The Multiplayer Environment | Part 2
             date: 2020-02-12
             url: 2020/02/12/building-the-multiplayer-environment-part2.html
-          - page: Building The Multiplayer Environment | Part 3
+          - page: ShelterBox (the next generation)
             date: 2020-02-12
             url: 2020/02/12/building-the-multiplayer-environment-part3.html
           - page: Dog Walker Simulator - The Interactive Novel
             date: 2020-02-17
             url: 2020/02/17/dog-walker-simulator-interactive-novel.html
       - page: Week Four - Colour Theory
-        date: 2020-02-17
-        # url: 2020/02/17/week-four-colour-theory.html
+        date: 2020-02-18
+        url: 2020/02/18/week-four-colour-theory.html
+        subsubfolderitems:
+          - page: Prologue - Assign | Deploy
+            date: 2020-02-18
+            url: 2020/02/18/prologue-assign-and-deploy.html
       - page: Week Five - Concept Art
         date: 2020-02-24
         # url: 2020/02/24/week-five-concept-art.html

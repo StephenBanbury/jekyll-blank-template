@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-17T23:34:35+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-18T23:19:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
+
+&lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
+Gender: &lt;b&gt;Male&lt;/b&gt;&lt;br /&gt;
+DOB: &lt;b&gt;04/07/1996&lt;/b&gt;&lt;br /&gt;
+Reason for being here: &lt;b&gt;looking for adventure&lt;/b&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;welcome-alex-thank-you-for-volunteering-we-have-a-number-of-disasters-that-require-your-attention&quot;&gt;&lt;strong&gt;&lt;em&gt;“Welcome Alex. Thank you for volunteering. We have a number of disasters that require your attention…“&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;div style=&quot;font-family: Times New Roman; font-size: 1.4em;&quot;&gt;
+Alex is an office administrator. He volunteered for ShelterBox because it looked interesting and something different to do with his time. Well, okay.. it was partly this, but also it was because he’d watched and listened to the news for what seemed like his entire life feeling detached from the important and significant events around the world.. those he could only witness from a distance. &lt;br /&gt;&lt;br /&gt;
+He now felt he had discovered something new. Doors had been opend. Suddenly, he had found an opportunity to pack his bags and go out there, in person, to help those who had just experienced disaster at close quarters. In fact, maybe he didn't have to remain outside it all any longer. Perhaps he would now be able to look people directly in the eye and try to understand, to really understand, what they had been through. At the very least he could now maybe help out in some way - grab a warm blanket and put it around the shoulders of someone who had not experienced such simple pleasure for weeks, or drop off a box containing medication that could mean more than he could imagine to a family for whom only a few days ago things had looked so bleak!&lt;br /&gt;&lt;br /&gt;
+At least, this was his ambition. But first, Alex needed to step into the uncomprising world of Distaster Response Preparation. It is a tough job, but someone has to do it, and why shouldn't that someone be Alex?!&lt;br /&gt;&lt;br /&gt;
+Alex walked into the &lt;span style=&quot;font-style: italic;&quot;&gt;Response Room&lt;/span&gt;. It was as he expected – a serious room defined by serious intentions. “Welcome Alex”, said a calm female voice that appeared to come from everywhere. “Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?”.&lt;br /&gt;&lt;br /&gt;
+“Yes, I am”, said Alex.&lt;br /&gt;&lt;br /&gt;
+The sound of well-insulated electronically controlled servers whirred into action with the kind of slick precision associated with German engineering. From within the rather bland looking counter incongruously sitting in front of him, three monitor screens slid into view that seemed to embody a cold, machine-grade sense of expectation. Simultaneously, an opening emerged and, from within, appeared the first of a series of disaster relief resource holograms. Alex had not noticed at first, but each screen appeared to be suspended above what looked like large, bottomless boxes, coloured in the standard ShelterBox Blue and designed to withstand the kind of treatment handed out by Ryanair on a short-staffed bank holiday weekend.&lt;br /&gt;&lt;br /&gt;
+“These resources are precious. Please assign them carefully to the displayed disasters. Don’t forget: be cool; be careful. Diligent planning can help more people; too much attention to a single cause can mean failure for so many others.”&lt;br /&gt;&lt;br /&gt;
+“Alex, good luck!”
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Four - Colour Theory</title><link href="http://localhost:4000/2020/02/18/week-four-colour-theory.html" rel="alternate" type="text/html" title="Week Four - Colour Theory" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/week-four-colour-theory</id><content type="html" xml:base="http://localhost:4000/2020/02/18/week-four-colour-theory.html">&lt;h1 id=&quot;notes-on-colour-theory&quot;&gt;Notes on colour theory&lt;/h1&gt;
+
+&lt;p&gt;Colour is subject experience.&lt;/p&gt;
+
+&lt;p&gt;Perception of frequencies of light.&lt;/p&gt;
+
+&lt;p&gt;Part physical, part interpretational&lt;/p&gt;
+
+&lt;p&gt;Subconscious&lt;/p&gt;
+
+&lt;p&gt;Choice influenced by colour.&lt;/p&gt;
+
+&lt;p&gt;Importance: shape –&amp;gt; colour –&amp;gt; content&lt;/p&gt;
+
+&lt;p&gt;Cultural, non-universal&lt;/p&gt;
+
+&lt;p&gt;Umberto Eco (1985) - neither psychologial nor aesthetic - cultural - linguistic&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;verbal language makes the non-verbal recognisable
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;So much in common with music!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Important to make the right colour choices - evoke emotions
+Colour mistakes can have a lasting negative impact on your brand.&lt;/p&gt;
+
+&lt;p&gt;Neil Balingher&lt;/p&gt;
+
+&lt;p&gt;Appeal, usability, accessibility of app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/&quot;&gt;Apple&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;https://brandpalettes.com/google-colors/&quot;&gt;Google&lt;/a&gt;&lt;/strong&gt; provide documentation about use of appropriate colour for their products.&lt;/p&gt;
+
+&lt;p&gt;Microsoft has &lt;strong&gt;&lt;a href=&quot;https://developer.microsoft.com/en-us/fabric&quot;&gt;UI Fabric&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And then there’s &lt;strong&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html#&quot;&gt;Meterial Design&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - colour blindness - ‘colour vision deficiences’&lt;/p&gt;</content><author><name></name></author><summary type="html">Notes on colour theory</summary></entry><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Suggestion&lt;/strong&gt;&lt;/p&gt;
 
@@ -90,7 +149,16 @@ It looks like an interesting option and, because it uses the Unity IDE, workflow
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 2</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 2" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html">&lt;h1 id=&quot;building-and-animating-a-player-character&quot;&gt;Building and animating a player character&lt;/h1&gt;
+&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry><entry><title type="html">ShelterBox (the next generation)</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html" rel="alternate" type="text/html" title="ShelterBox (the next generation)" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html">&lt;h2 id=&quot;stop&quot;&gt;STOP!!!&lt;/h2&gt;
+
+&lt;h1 id=&quot;breaking-news&quot;&gt;Breaking News&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.shelterbox.org/&quot;&gt;ShelterBox&lt;/a&gt;&lt;/strong&gt; have asked if I’d be interested in continuing the work on the brief for &lt;em&gt;Conference Booth Games&lt;/em&gt; I undertook for them during the last module - &lt;strong&gt;GAM740: Live Brief Design and Development Project&lt;/strong&gt;. This would be to move the VR prototypes I created for ShelterBox into the production phase. In doing so, it has been agreed with ShelterBox that I am free to use the project as the vehicle for the experimentations and investigations that are encouraged as part of the GAM720 module.&lt;/p&gt;
+
+&lt;p&gt;The intention is for the product to be shown at &lt;strong&gt;&lt;a href=&quot;https://www.volunteerexpo.co.uk/&quot;&gt;Volunteer Expo 2020&lt;/a&gt;&lt;/strong&gt; at &lt;strong&gt;NEC Birmingham&lt;/strong&gt;. 
+Unfortunately, this will mean my plans to experiemtn with multiplayer dynamics within my GAM720 project will need to be put on hold. The reason for this is that the Exhibition Centre is unlikely to provide WiFi of sufficient quality for multiplayer networking to take place. A practical solution appears beyond the constraints of the limited timeframe and resources available.&lt;/p&gt;
+
+&lt;p&gt;I will, however, continue to explore the possibilities of multiplayer and social VR, particularly with educational aims in mind, and I hope to incorporate this work in the future - possibly my final MA project.&lt;/p&gt;</content><author><name></name></author><summary type="html">STOP!!!</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 2</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 2" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html">&lt;h1 id=&quot;building-and-animating-a-player-character&quot;&gt;Building and animating a player character&lt;/h1&gt;
 
 &lt;p&gt;The tutorial has a useful introduction to &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/player-prefab&quot;&gt;building and animating the player character(s)&lt;/a&gt;. This is not network-specific so comes as an unexpected but welcome addition, as character animation is something that I will need to look into sooner or later.&lt;/p&gt;
 
@@ -130,16 +198,7 @@ It looks like an interesting option and, because it uses the Unity IDE, workflow
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;However, the &lt;strong&gt;robot character is not easy to control&lt;/strong&gt;, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly ‘parkour’ style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this ‘demo’ does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building and animating a player character</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 3</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 3" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html">&lt;h2 id=&quot;stop&quot;&gt;STOP!!!&lt;/h2&gt;
-
-&lt;h1 id=&quot;breaking-news&quot;&gt;Breaking News&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.shelterbox.org/&quot;&gt;ShelterBox&lt;/a&gt;&lt;/strong&gt; have asked if I’d be interested in continuing the work on the brief for &lt;em&gt;Conference Booth Games&lt;/em&gt; I undertook for them during the last module - &lt;strong&gt;GAM740: Live Brief Design and Development Project&lt;/strong&gt;. This would be to move the VR prototypes I created for ShelterBox into the production phase. In doing so, it has been agreed with ShelterBox that I am free to use the project as the vehicle for the experimentations and investigations that are encouraged as part of the GAM720 module.&lt;/p&gt;
-
-&lt;p&gt;The intention is for the product to be shown at &lt;strong&gt;&lt;a href=&quot;https://www.volunteerexpo.co.uk/&quot;&gt;Volunteer Expo 2020&lt;/a&gt;&lt;/strong&gt; at &lt;strong&gt;NEC Birmingham&lt;/strong&gt;. 
-Unfortunately, this will mean my plans to experiemtn with multiplayer dynamics within my GAM720 project will need to be put on hold. The reason for this is that the Exhibition Centre is unlikely to provide WiFi of sufficient quality for multiplayer networking to take place. A practical solution appears beyond the constraints of the limited timeframe and resources available.&lt;/p&gt;
-
-&lt;p&gt;I will, however, continue to explore the possibilities of multiplayer and social VR, particularly with educational aims in mind, and I hope to incorporate this work in the future - possibly my final MA project.&lt;/p&gt;</content><author><name></name></author><summary type="html">STOP!!!</summary></entry><entry><title type="html">Week Three - Suspension Of Disbelief</title><link href="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Week Three - Suspension Of Disbelief" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html">&lt;ul&gt;
+&lt;p&gt;However, the &lt;strong&gt;robot character is not easy to control&lt;/strong&gt;, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly ‘parkour’ style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this ‘demo’ does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building and animating a player character</summary></entry><entry><title type="html">Week Three - Suspension Of Disbelief</title><link href="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Week Three - Suspension Of Disbelief" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/02/12/building-the-multiplayer-environment-part2.html&quot;&gt;Building The Multiplayer Environment - Part 2&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/02/12/building-the-multiplayer-environment-part3.html&quot;&gt;Building The Multiplayer Environment - Part 3&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/02/17/dog-walker-simulator-interactive-novel.html&quot;&gt;Dog Walker Simulator - The Interactive Novel&lt;/a&gt;&lt;/li&gt;
@@ -374,93 +433,4 @@ Looks very interesting but maybe a bit heavyweight for my needs.&lt;/p&gt;
 
 &lt;p&gt;With regard to the immersive environment, how does the nature and aesthetic quality of the virtual space itself affect how the players react to it and to each other? And, through the exploration of sound in virtual reality, will it be possible to explore the accoustic qualities of the space and how, for instance, artificial sound waves bounce off virtual surfaces?&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;It may be that I find a way to ‘record’ the event so that it can be replayed and experienced from a different perspective, viewed as a creative artefact ‘object’, that is experienced rather differently to the live event that caused it to come into existence. &lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Create a Game - Dog Walker Simulator</title><link href="http://localhost:4000/2020/02/04/dog-walker-simulator.html" rel="alternate" type="text/html" title="Create a Game - Dog Walker Simulator" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/dog-walker-simulator</id><content type="html" xml:base="http://localhost:4000/2020/02/04/dog-walker-simulator.html">&lt;h2 id=&quot;brief&quot;&gt;Brief:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sometimes average people are called to extraordinary measures. It happens all the time in movies, books and on television. Innumerable action movies pit people against one another and push them past the point where the ‘common man or woman’ become quite uncommon: Erin Brockovich is a classic example of such a person. 
-For this activity, your task is to select a common man or woman in a normal job in a fairly average world: there is nothing that might cause you to think twice about them. To test this, ask yourself ‘would I presently watch a movie that covered the last week in the life of this person?’, if the answer is yes, then the odds are you do not find them common at all. Think of a common but not specific person you meet in your everyday life: a grocery-store employee; construction worker; bus driver; or cab / taxi driver. Any profession that is common will do. 
-Now, think of how you could build a game based on the character’s everyday life when it suddenly takes a dramatic turn. The situation changes suddenly and the person is forced to step up and go beyond what they thought was humanly possible. Luckily, they have your trusty app to give them extra superpowers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Deliverables:&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A brief description of a common man or woman character (this could be based on some persona development).
-Details of a realistic, inciting moment that makes the character uncommon. 
-A non-digital game design, based on the character, that utilises your app as part of the gameplay to bestow superpowers upon the user.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Suggested process:&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Pick a common profession and a common man or woman. Create a persona for them.&lt;/li&gt;
-    &lt;li&gt;Determine what the inciting moment will be. It could be something like the death of a loved one and the desire for revenge (Max Payne) or as seemingly trivial as the race to fill seats and serve people at a restaurant (Diner Dash).&lt;/li&gt;
-    &lt;li&gt;Determine a type of game to build. What kind of core dynamics would suit the character and how would they use your app to save the day?&lt;/li&gt;
-    &lt;li&gt;Create a deliverable.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Activity derived from: Brathwaite, B. and Schreiber, I. (n.d.). Challenges for Game Designers. (p.184)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;dog-walker-simulator&quot;&gt;Dog Walker Simulator&lt;/h2&gt;
-
-&lt;p&gt;Crystal is a dog-walker by profession. She has build a trusting client base over the past 5 years and, through the dogs, has made many friends - or at least that’s how she likes to see them.&lt;/p&gt;
-
-&lt;p&gt;On this particular, unusual, day, the dogs seem to be behaving rather differently to the lovely calm creatures she has become used to. Fido, for some unfathomable reason, has decided to snap at Tia whenever she comes close. This is a problem, particularly as she is tethered to the lead next to Fido. Thankfully, the app on her phone, which shows the georgeous little pooches via glorious Augmented Reality, allows Crystal to move Tia to the other side of the pack.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, this now means that Rusty is next to Fido, and Rusty seems to have picked up a severe case of unwelcome, itchy, leaping, guests (flees). These begin jumping from Rusty onto Fido’s coat. Fido begins scratching, which causes the pack to swerve to the right! Luckily, the app allows Crystal to tug at the lead and bring Fido back into line.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, Benji has picked up the odor of a freshly-cooked pie that has been left on a windowsill to cool.  Benji lurches to the left, causing the leads to cross and twist and this trips up poor old Sukie. Whilst in the act of untwisting the leads, Crystal notices that Trixy has managed slip her collar, is running down the riverbank and is about to leap into the water after a family of ducks…&lt;/p&gt;
-
-&lt;p&gt;The number of dogs that Crystal manages to bring back to their owners in the condition they were entrusted to her care decides whether she can continue another day in her chosen profession.&lt;/p&gt;
-
-&lt;p&gt;The app makes use of stylised animated dogs in Augmented Reality, set in the real locale through coupling with Google API and Google Cloud Anchors. This simulates the experience of walking a bunch of very cute, very lively, but extremely distracted dogs!&lt;/p&gt;
-
-&lt;p&gt;A day in the life of the dog-walker. You couldn’t make it up!
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;take2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;dog-walker-simulator--take-2&quot;&gt;Dog Walker Simulator | Take 2&lt;/h2&gt;
-
-&lt;p&gt;I’m updating my idea to better fit the brief.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\beagle.jpg&quot; alt=&quot;Beagle&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Crystal is out on one of her dog-walking excursions. She has five or six dogs each on a lead. As she begins to turn off the pavement alongside a busy road, a passing fire engine suddenly and unexpectedly turns on its very loud and piercing siren..&lt;/p&gt;
-
-&lt;p&gt;WEEE-OOOO-WEEE-OOOO…..&lt;/p&gt;
-
-&lt;p&gt;Startled, the dogs yank themselves free and run off, leads attached, into the park in various different directions! OMG!&lt;/p&gt;
-
-&lt;p&gt;Momentarily panicking, Crystal does not know what she is going to do, and thoughts turn to how on earth she is going to explain this to the owners when she returns without their darling doggies!&lt;/p&gt;
-
-&lt;p&gt;But.. she remembers that the dogs have GPS devices attached to their leads and she has an app on her phone so they can be tracked. How very forward-thinking of her!&lt;/p&gt;
-
-&lt;p&gt;She starts up the app and within 30 seconds all dogs have been located on a Google map. She immediately starts off in the direction of Rusty, who appears to be heading towards a dangerous looking dual carriageway. She decides she’ll come back for those that are more close-by as soon as Rusty is safe..&lt;/p&gt;
-
-&lt;p&gt;Deliverable&lt;/p&gt;
-
-&lt;p&gt;The app will use geofencing, with fences located on randomly moving points. The player must find the virtual pooches, by locating the moving geofences, before they are lost for good or, worse, they meet a sticky end or they get caught by the dog-warden! The dog characters are represented using Anime-cartoon-style graphics and a checklist is provided to tick off the dogs as they are brought back to safely.&lt;/p&gt;
-
-&lt;p&gt;‘Woof’ if you think all the dogs can be found withing the time-limit!&lt;/p&gt;</content><author><name></name></author><summary type="html">Brief:</summary></entry><entry><title type="html">Humble beginnings | Ideation Part 3</title><link href="http://localhost:4000/2020/02/04/humble-beginnings-part3.html" rel="alternate" type="text/html" title="Humble beginnings | Ideation Part 3" /><published>2020-02-04T00:00:00+00:00</published><updated>2020-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/04/humble-beginnings-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/04/humble-beginnings-part3.html">&lt;p&gt;Considering past rapid ideation and prototyping ideas has thrown up another possibility. 
-&lt;a href=&quot;/2019/02/25/week-three-appjam-2.html&quot;&gt;The Odd Word Out&lt;/a&gt; was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There is significant potential for further development of the concept of arcade-style word games.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;At the time I had not thought of this in terms of Virtual Reality, but the potential is there for this to be a fun word game with an educational slant. It would not necessarily lose its arcade-style appeal, although it would gain a sophistication that would be interesting to explore.&lt;/p&gt;
-
-&lt;p&gt;Instead of a 2D space I could have the words, maybe in the form of balls or other 3D objects, bouncing off walls, floors and ceilings within an immersive 3D space. It would the task of the player to knock out words by hurling related - or unrelated - words at them.&lt;/p&gt;
-
-&lt;p&gt;Or it could, for instance, become a kind of shooting game where the principle of eliminating certain words remains, but the method is entirely different.&lt;/p&gt;
-
-&lt;p&gt;There are many options&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering past rapid ideation and prototyping ideas has thrown up another possibility. The Odd Word Out was a simple idea that became an MVP, my intention being to pick it up later for further development. At the time I wrote: -</summary></entry></feed>
+&lt;p&gt;It may be that I find a way to ‘record’ the event so that it can be replayed and experienced from a different perspective, viewed as a creative artefact ‘object’, that is experienced rather differently to the live event that caused it to come into existence. &lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
