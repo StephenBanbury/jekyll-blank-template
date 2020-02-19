@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-18T23:19:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-19T11:53:55+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Colour Scheme Design Apps</title><link href="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html" rel="alternate" type="text/html" title="Colour Scheme Design Apps" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/colour-scheme-design-apps</id><content type="html" xml:base="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html">&lt;p&gt;There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.&lt;/p&gt;
+
+&lt;h1 id=&quot;color-hunter&quot;&gt;&lt;a href=&quot;http://colorhunter.com/&quot;&gt;Color Hunter&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Very useful browser-based app that allows uploading of an image which is then used to generate a palette.&lt;br /&gt;
+Alternatively, it is also possible to search Flickr.com for images to use.&lt;/p&gt;
+
+&lt;h1 id=&quot;paletton&quot;&gt;&lt;a href=&quot;http://paletton.com/&quot;&gt;Paletton&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Uses a simple browser-based UI to create complimentary colour combinations.&lt;/p&gt;
+
+&lt;h1 id=&quot;copaso&quot;&gt;&lt;a href=&quot;https://www.colourlovers.com/copaso/ColorPaletteSoftware&quot;&gt;Copaso&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Advanced colour palette creator that allows choosing colours, uploading of images, saving palettes and adding notes.&lt;/p&gt;
+
+&lt;h1 id=&quot;colorzilla&quot;&gt;&lt;a href=&quot;https://www.colorzilla.com/&quot;&gt;ColorZilla&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Chrome and Firefox extension. Reads colour from any point in browser. Can also inspect a page and create a palette of CSS gradients.&lt;/p&gt;
+
+&lt;h1 id=&quot;coolersco&quot;&gt;&lt;a href=&quot;https://coolors.co/&quot;&gt;Coolers.co&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Allows ‘random’ palette creation, cycling through palettes until you find the one you want. Then you can refine, edit it and save it. Also allows uploading of images for palett creation.&lt;/p&gt;
+
+&lt;h1 id=&quot;color-hunt&quot;&gt;&lt;a href=&quot;https://colorhunt.co/&quot;&gt;Color Hunt&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Chrome extension or web-based UI. Quick way of browsing and selecting palettes.&lt;/p&gt;
+
+&lt;h1 id=&quot;colorexplorer&quot;&gt;&lt;a href=&quot;http://www.colorexplorer.com/&quot;&gt;ColorExplorer&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;I more complex designing toolbox than the others with a large number of features and exporting options.&lt;/p&gt;
+
+&lt;h1 id=&quot;color-safe&quot;&gt;&lt;a href=&quot;http://colorsafe.co/&quot;&gt;Color Safe&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Helps to create color palettes based on WCAG Guidelines of text and background contrast ratios.&lt;/p&gt;
+
+&lt;h1 id=&quot;adobe-color&quot;&gt;&lt;a href=&quot;https://color.adobe.com/create/color-wheel/&quot;&gt;Adobe Color&lt;/a&gt;&lt;/h1&gt;
+
+&lt;h1 id=&quot;material-design&quot;&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html#tools-for-picking-colors&quot;&gt;Material Design&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Google sanctioned Material palette generator&lt;/p&gt;</content><author><name></name></author><summary type="html">There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.</summary></entry><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
 
 &lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
 Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
@@ -407,30 +446,4 @@ Looks very interesting but maybe a bit heavyweight for my needs.&lt;/p&gt;
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/quintesse/PlayoVR&quot;&gt;PlayoVR, a VRTK-PUN-Voice Demo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.</summary></entry><entry><title type="html">poly.caco.phony</title><link href="http://localhost:4000/2020/02/05/polycacophony.html" rel="alternate" type="text/html" title="poly.caco.phony" /><published>2020-02-05T00:00:00+00:00</published><updated>2020-02-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/05/polycacophony</id><content type="html" xml:base="http://localhost:4000/2020/02/05/polycacophony.html">&lt;p&gt;&lt;img src=&quot;\images\nordic-designer-collaboration.jpg&quot; alt=&quot;Musical collaboration&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;polyphony&quot;&gt;&lt;em&gt;Polyphony&lt;/em&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;A musical texture created by multiple individual and independent parts&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The idea that I will be taking forward for this project is to use Virtual Reality in the creation of an immersive space in which two ‘players’ can join together to create sonic and visual effects and events, though physical actions and interactions. The results of such actions may be seen as ephemeral visual and aural moments that exist for a short time after an event is triggered. The space will be an environment in which the players can experiment and create through playful interactions with the space, the objects within it, and the players themselves.&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;cacophony&quot;&gt;&lt;em&gt;Cacophony&lt;/em&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;A harsh, discordant, jarring, mixture of sounds&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;For me, as the developer, this will be a vehicle to exlore, not only the technical problems, issues and solutions involved in creating such an event, but also to attempt to use freedom from the physical world in order to transend the nature of objects as we understand them, pushing the possibilities of how we can expect them to react, sonically and visually, as the result of actions directed upon them.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;It will be interesting to witness not only how participants interact with these stimuli within a shared space, but also how each interacts with the other. Will there be an attempt to create something collaboratively, in the mode of a ‘jam’, or will they find there is too much stimuli to comfortably handle, resulting in the need to escape? &lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;phony&quot;&gt;&lt;em&gt;Phony&lt;/em&gt;&lt;/h1&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Fake, not genuine or real&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;With regard to the immersive environment, how does the nature and aesthetic quality of the virtual space itself affect how the players react to it and to each other? And, through the exploration of sound in virtual reality, will it be possible to explore the accoustic qualities of the space and how, for instance, artificial sound waves bounce off virtual surfaces?&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;It may be that I find a way to ‘record’ the event so that it can be replayed and experienced from a different perspective, viewed as a creative artefact ‘object’, that is experienced rather differently to the live event that caused it to come into existence. &lt;br /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/quintesse/PlayoVR&quot;&gt;PlayoVR, a VRTK-PUN-Voice Demo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.</summary></entry></feed>
