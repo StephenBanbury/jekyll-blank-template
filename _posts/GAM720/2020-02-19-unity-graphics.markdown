@@ -34,7 +34,7 @@ SketchUp files can be easily brought into Unity. I created a pretty close rendit
 **The model in SketchUp**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\sketchup-pentre-street.mp4" type="video/mp4">
+    <source src="\media\sketchup-pentre-street1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -43,7 +43,7 @@ SketchUp files can be easily brought into Unity. I created a pretty close rendit
 **The model in Unity**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\unity-pentre-street.mp4" type="video/mp4">
+    <source src="\media\unity-pentre-street1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
