@@ -57,9 +57,13 @@ toc:
           - page: Unity And Graphics
             date: 2020-02-19
             url: 2020/02/19/unity-graphics.html
-      # - page: Week Five - Concept Art
-      #   date: 2020-02-24
-      #   url: 2020/02/24/week-five-concept-art.html
+      - page: Week Five - Concept Art
+        date: 2020-02-24
+        url: 2020/02/24/week-five-concept-art.html
+        subsubfolderitems:
+          - page: Hand Tracking
+            date: 2020-02-27
+            url: 2020/02/27/hand-tracking.html
       # - page: Week Six - Character Design
       #   date: 2020-03-02
       #   url: 2020/03/02/week-six-character-design.html

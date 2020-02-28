@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-23T23:45:22+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Colour Scheme Design Apps</title><link href="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html" rel="alternate" type="text/html" title="Colour Scheme Design Apps" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/colour-scheme-design-apps</id><content type="html" xml:base="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html">&lt;p&gt;There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T00:48:25+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Hand Tracking</title><link href="http://localhost:4000/2020/02/27/hand-tracking.html" rel="alternate" type="text/html" title="Hand Tracking" /><published>2020-02-27T00:00:00+00:00</published><updated>2020-02-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/27/hand-tracking</id><content type="html" xml:base="http://localhost:4000/2020/02/27/hand-tracking.html">&lt;h1 id=&quot;why-hand-tracking&quot;&gt;Why hand-tracking?&lt;/h1&gt;
+
+&lt;p&gt;Controllers in Virtual Reality are at once extremely well-designed, precision pieces of equipment that make interaction between human beings and virtual worlds a more than reasonably seemless and intuitive experience. However, these controllers, no matter how well-designed, insist on a certain amount of experience with this kind of thing. Not everyone posesses a reasonably extensive experience honing their video-gaming expertise whilst immersing themselves in worlds that can best, or perhaps, only be adequately accessed and fully appreciated through devices that allow them to be experienced on their own terms. In this sense they actually form a barrier - one that can be enjoyable and aid increased immersiveness for those searching for such experiences though videogames - but one that could potentially be off-putting to those who are inexperienced in such media. Simply teaching those who have never experienced virtual reality - easily representing the majorty of the potential audience at a non-enthusiast exhibition - would take time and effot, some of which will have been wasted when the a potential user decides that this is not for them after all.&lt;/p&gt;
+
+&lt;p&gt;Hand tracking, then, could be a useful ‘leveler’, where almost anyone can relate their physical experience as human beings to actions interpreted and imagined within a virtual scenario.  In the case of ShelterBox, it may be that a reduction of the time needed to teach matters as mundane as using the controllers will allow more time to experience the media and to think about issues of great importance.&lt;/p&gt;
+
+&lt;h1 id=&quot;setting-up-and-using-oculus-quest-hand-tracking&quot;&gt;Setting up and using Oculus Quest hand tracking&lt;/h1&gt;
+
+&lt;p&gt;This is a new feature for the Quest as of December 2019. It is steadily improving as the weeks roll by.
+However, it’s new-ness and the continual roll-out of updates brings its own problems: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tutorials can become out of date very quickly and gradually become less relevant or realistic to follow&lt;/li&gt;
+  &lt;li&gt;Your own set up can get behind the curve and changes you need to incorporate in order to include the latest features can mean at least some headache.&lt;/li&gt;
+  &lt;li&gt;There is little community of knowledge to approach for answers, as everyone has similary questions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I began by following &lt;a href=&quot;https://www.youtube.com/watch?v=vSia7t_WlbQ&quot;&gt;this tutorial&lt;/a&gt; by Valem (a Belgian guy called Quentin, I believe) and there were a few issues getting going, due to the video being a whole two-months old. In Quest years that’s way past the innocence of childhood and is now hitting puberty. Updating the Unity Oculus Integration package fixed some problems, and thinking around other problems fixed those. There’s not much point in putting too much detail here because it will likely have become irrelevant in a matter of months, or in Quest Years, before we hit late teens.&lt;/p&gt;
+
+&lt;p&gt;Hand tracking was, when he made the video, only possible in Android mode and did not include the ability to work using Oculus Link, i.e. running the Quest from a PC connected via a (fast, quality) USB cable. A later update - v13 of the Oculus firmware - in February, has now made this possible.&lt;/p&gt;
+
+&lt;p&gt;I went straight for the Link promise, with unexpected results!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nighmare hands! .. oh dear, that wasn’t supposed to happen!&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\hand-tracking-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Actually, not totally unexpected, at least in terms of it not going righ at first. But the actual look of the hands is very.. ahem.. interesting!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hands correctly configured&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\hand-tracking-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The hands, once configured correctly, do respond fairly well to realtime movements - there is a small amount of latency, but they do tend to ‘wobble’, or twitch a little, particularly at the ends of the fingers. Presumably this is due to inaccuracies when attempting to keep track. It feels like a slightly weak WiFi or telephone signal and there is the sense that, if only the signal were better then the results would be much tighter and more solid and, therefore, more realistic.&lt;/p&gt;
+
+&lt;p&gt;The fact, though, that this is achieved with just a headset, making use of no extra hardware or specialist software aside from Oculus’ own, provided for free (to those who have already paid for the equipment, of course), is impressive at this time. I would like to see if specialist hardware/software solutions, such as &lt;a href=&quot;https://www.ultraleap.com/&quot;&gt;ultraleap&lt;/a&gt; become available for the Quest, particularly when not in Oculus Link mode. The main advantage of the Quest is that it can function perfectly well untethered - in fact, that is its primary focus and, as much as Oculus Link has provided another dimension, almost making the tethered-only Rift redundant, for me, the ability to be fully operational in any location and without any reliance on a computer with a reasonably high-end graphics card, is very important. But at the current time the in-built cameras on the Quest appear to do a reasonable job and the advantages - portability, simplicity and price - are not to be underestimated.&lt;/p&gt;
+
+&lt;p&gt;I will be studying next how to grab and throw using hand-tracking. But it also concerns me how movement will be achieved with no joystick controls - just bare hands - and I will also be looking into this issue..&lt;/p&gt;</content><author><name></name></author><summary type="html">Why hand-tracking?</summary></entry><entry><title type="html">Week Five - Concept Art</title><link href="http://localhost:4000/2020/02/24/week-five-concept-art.html" rel="alternate" type="text/html" title="Week Five - Concept Art" /><published>2020-02-24T00:00:00+00:00</published><updated>2020-02-24T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/24/week-five-concept-art</id><content type="html" xml:base="http://localhost:4000/2020/02/24/week-five-concept-art.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Colour Scheme Design Apps</title><link href="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html" rel="alternate" type="text/html" title="Colour Scheme Design Apps" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/colour-scheme-design-apps</id><content type="html" xml:base="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html">&lt;p&gt;There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.&lt;/p&gt;
 
 &lt;h1 id=&quot;color-hunter&quot;&gt;&lt;a href=&quot;http://colorhunter.com/&quot;&gt;Color Hunter&lt;/a&gt;&lt;/h1&gt;
 
@@ -89,30 +134,7 @@ Offers us a technique for updating complex scene lighting interactively. Shifts 
     &lt;source src=&quot;\media\unity-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Lighting and Rendering</summary></entry><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
-
-&lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
-Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
-Gender: &lt;b&gt;Male&lt;/b&gt;&lt;br /&gt;
-DOB: &lt;b&gt;04/07/1996&lt;/b&gt;&lt;br /&gt;
-Reason for being here: &lt;b&gt;looking for adventure&lt;/b&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;welcome-alex-thank-you-for-volunteering-we-have-a-number-of-disasters-that-require-your-attention&quot;&gt;&lt;strong&gt;&lt;em&gt;“Welcome Alex. Thank you for volunteering. We have a number of disasters that require your attention…“&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;div style=&quot;font-family: Times New Roman; font-size: 1.4em;&quot;&gt;
-Alex is an office administrator. He volunteered for ShelterBox because it looked interesting and something different to do with his time. Well, okay.. it was partly this, but also it was because he’d watched and listened to the news for what seemed like his entire life feeling detached from the important and significant events around the world.. those he could only witness from a distance. &lt;br /&gt;&lt;br /&gt;
-He now felt he had discovered something new. Doors had been opend. Suddenly, he had found an opportunity to pack his bags and go out there, in person, to help those who had just experienced disaster at close quarters. In fact, maybe he didn't have to remain outside it all any longer. Perhaps he would now be able to look people directly in the eye and try to understand, to really understand, what they had been through. At the very least he could now maybe help out in some way - grab a warm blanket and put it around the shoulders of someone who had not experienced such simple pleasure for weeks, or drop off a box containing medication that could mean more than he could imagine to a family for whom only a few days ago things had looked so bleak!&lt;br /&gt;&lt;br /&gt;
-At least, this was his ambition. But first, Alex needed to step into the uncomprising world of Distaster Response Preparation. It is a tough job, but someone has to do it, and why shouldn't that someone be Alex?!&lt;br /&gt;&lt;br /&gt;
-Alex walked into the &lt;span style=&quot;font-style: italic;&quot;&gt;Response Room&lt;/span&gt;. It was as he expected – a serious room defined by serious intentions. “Welcome Alex”, said a calm female voice that appeared to come from everywhere. “Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?”.&lt;br /&gt;&lt;br /&gt;
-“Yes, I am”, said Alex.&lt;br /&gt;&lt;br /&gt;
-The sound of well-insulated electronically controlled servers whirred into action with the kind of slick precision associated with German engineering. From within the rather bland looking counter incongruously sitting in front of him, three monitor screens slid into view that seemed to embody a cold, machine-grade sense of expectation. Simultaneously, an opening emerged and, from within, appeared the first of a series of disaster relief resource holograms. Alex had not noticed at first, but each screen appeared to be suspended above what looked like large, bottomless boxes, coloured in the standard ShelterBox Blue and designed to withstand the kind of treatment handed out by Ryanair on a short-staffed bank holiday weekend.&lt;br /&gt;&lt;br /&gt;
-“These resources are precious. Please assign them carefully to the displayed disasters. Don’t forget: be cool; be careful. Diligent planning can help more people; too much attention to a single cause can mean failure for so many others.”&lt;br /&gt;&lt;br /&gt;
-“Alex, good luck!”
-
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Four - Colour Theory</title><link href="http://localhost:4000/2020/02/18/week-four-colour-theory.html" rel="alternate" type="text/html" title="Week Four - Colour Theory" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/week-four-colour-theory</id><content type="html" xml:base="http://localhost:4000/2020/02/18/week-four-colour-theory.html">&lt;h1 id=&quot;notes-on-colour-theory&quot;&gt;Notes on colour theory&lt;/h1&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Lighting and Rendering</summary></entry><entry><title type="html">Week Four - Colour Theory</title><link href="http://localhost:4000/2020/02/18/week-four-colour-theory.html" rel="alternate" type="text/html" title="Week Four - Colour Theory" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/week-four-colour-theory</id><content type="html" xml:base="http://localhost:4000/2020/02/18/week-four-colour-theory.html">&lt;h1 id=&quot;notes-on-colour-theory&quot;&gt;Notes on colour theory&lt;/h1&gt;
 
 &lt;p&gt;Colour is subject experience.&lt;/p&gt;
 
@@ -148,7 +170,30 @@ Colour mistakes can have a lasting negative impact on your brand.&lt;/p&gt;
 
 &lt;p&gt;And then there’s &lt;strong&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html#&quot;&gt;Meterial Design&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - colour blindness - ‘colour vision deficiences’&lt;/p&gt;</content><author><name></name></author><summary type="html">Notes on colour theory</summary></entry><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - colour blindness - ‘colour vision deficiences’&lt;/p&gt;</content><author><name></name></author><summary type="html">Notes on colour theory</summary></entry><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
+
+&lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
+Gender: &lt;b&gt;Male&lt;/b&gt;&lt;br /&gt;
+DOB: &lt;b&gt;04/07/1996&lt;/b&gt;&lt;br /&gt;
+Reason for being here: &lt;b&gt;looking for adventure&lt;/b&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;welcome-alex-thank-you-for-volunteering-we-have-a-number-of-disasters-that-require-your-attention&quot;&gt;&lt;strong&gt;&lt;em&gt;“Welcome Alex. Thank you for volunteering. We have a number of disasters that require your attention…“&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;div style=&quot;font-family: Times New Roman; font-size: 1.4em;&quot;&gt;
+Alex is an office administrator. He volunteered for ShelterBox because it looked interesting and something different to do with his time. Well, okay.. it was partly this, but also it was because he’d watched and listened to the news for what seemed like his entire life feeling detached from the important and significant events around the world.. those he could only witness from a distance. &lt;br /&gt;&lt;br /&gt;
+He now felt he had discovered something new. Doors had been opend. Suddenly, he had found an opportunity to pack his bags and go out there, in person, to help those who had just experienced disaster at close quarters. In fact, maybe he didn't have to remain outside it all any longer. Perhaps he would now be able to look people directly in the eye and try to understand, to really understand, what they had been through. At the very least he could now maybe help out in some way - grab a warm blanket and put it around the shoulders of someone who had not experienced such simple pleasure for weeks, or drop off a box containing medication that could mean more than he could imagine to a family for whom only a few days ago things had looked so bleak!&lt;br /&gt;&lt;br /&gt;
+At least, this was his ambition. But first, Alex needed to step into the uncomprising world of Distaster Response Preparation. It is a tough job, but someone has to do it, and why shouldn't that someone be Alex?!&lt;br /&gt;&lt;br /&gt;
+Alex walked into the &lt;span style=&quot;font-style: italic;&quot;&gt;Response Room&lt;/span&gt;. It was as he expected – a serious room defined by serious intentions. “Welcome Alex”, said a calm female voice that appeared to come from everywhere. “Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?”.&lt;br /&gt;&lt;br /&gt;
+“Yes, I am”, said Alex.&lt;br /&gt;&lt;br /&gt;
+The sound of well-insulated electronically controlled servers whirred into action with the kind of slick precision associated with German engineering. From within the rather bland looking counter incongruously sitting in front of him, three monitor screens slid into view that seemed to embody a cold, machine-grade sense of expectation. Simultaneously, an opening emerged and, from within, appeared the first of a series of disaster relief resource holograms. Alex had not noticed at first, but each screen appeared to be suspended above what looked like large, bottomless boxes, coloured in the standard ShelterBox Blue and designed to withstand the kind of treatment handed out by Ryanair on a short-staffed bank holiday weekend.&lt;br /&gt;&lt;br /&gt;
+“These resources are precious. Please assign them carefully to the displayed disasters. Don’t forget: be cool; be careful. Diligent planning can help more people; too much attention to a single cause can mean failure for so many others.”&lt;br /&gt;&lt;br /&gt;
+“Alex, good luck!”
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Suggestion&lt;/strong&gt;&lt;/p&gt;
 
@@ -240,16 +285,7 @@ It looks like an interesting option and, because it uses the Unity IDE, workflow
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry><entry><title type="html">ShelterBox (the next generation)</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html" rel="alternate" type="text/html" title="ShelterBox (the next generation)" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html">&lt;h2 id=&quot;stop&quot;&gt;STOP!!!&lt;/h2&gt;
-
-&lt;h1 id=&quot;breaking-news&quot;&gt;Breaking News&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.shelterbox.org/&quot;&gt;ShelterBox&lt;/a&gt;&lt;/strong&gt; have asked if I’d be interested in continuing the work on the brief for &lt;em&gt;Conference Booth Games&lt;/em&gt; I undertook for them during the last module - &lt;strong&gt;GAM740: Live Brief Design and Development Project&lt;/strong&gt;. This would be to move the VR prototypes I created for ShelterBox into the production phase. In doing so, it has been agreed with ShelterBox that I am free to use the project as the vehicle for the experimentations and investigations that are encouraged as part of the GAM720 module.&lt;/p&gt;
-
-&lt;p&gt;The intention is for the product to be shown at &lt;strong&gt;&lt;a href=&quot;https://www.volunteerexpo.co.uk/&quot;&gt;Volunteer Expo 2020&lt;/a&gt;&lt;/strong&gt; at &lt;strong&gt;NEC Birmingham&lt;/strong&gt;. 
-Unfortunately, this will mean my plans to experiemtn with multiplayer dynamics within my GAM720 project will need to be put on hold. The reason for this is that the Exhibition Centre is unlikely to provide WiFi of sufficient quality for multiplayer networking to take place. A practical solution appears beyond the constraints of the limited timeframe and resources available.&lt;/p&gt;
-
-&lt;p&gt;I will, however, continue to explore the possibilities of multiplayer and social VR, particularly with educational aims in mind, and I hope to incorporate this work in the future - possibly my final MA project.&lt;/p&gt;</content><author><name></name></author><summary type="html">STOP!!!</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 2</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 2" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html">&lt;h1 id=&quot;building-and-animating-a-player-character&quot;&gt;Building and animating a player character&lt;/h1&gt;
+&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 2</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 2" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html">&lt;h1 id=&quot;building-and-animating-a-player-character&quot;&gt;Building and animating a player character&lt;/h1&gt;
 
 &lt;p&gt;The tutorial has a useful introduction to &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/player-prefab&quot;&gt;building and animating the player character(s)&lt;/a&gt;. This is not network-specific so comes as an unexpected but welcome addition, as character animation is something that I will need to look into sooner or later.&lt;/p&gt;
 
@@ -289,121 +325,17 @@ Unfortunately, this will mean my plans to experiemtn with multiplayer dynamics w
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;However, the &lt;strong&gt;robot character is not easy to control&lt;/strong&gt;, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly ‘parkour’ style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this ‘demo’ does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building and animating a player character</summary></entry><entry><title type="html">Week Three - Suspension Of Disbelief</title><link href="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Week Three - Suspension Of Disbelief" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html">&lt;ul&gt;
+&lt;p&gt;However, the &lt;strong&gt;robot character is not easy to control&lt;/strong&gt;, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly ‘parkour’ style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this ‘demo’ does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building and animating a player character</summary></entry><entry><title type="html">ShelterBox (the next generation)</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html" rel="alternate" type="text/html" title="ShelterBox (the next generation)" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html">&lt;h2 id=&quot;stop&quot;&gt;STOP!!!&lt;/h2&gt;
+
+&lt;h1 id=&quot;breaking-news&quot;&gt;Breaking News&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.shelterbox.org/&quot;&gt;ShelterBox&lt;/a&gt;&lt;/strong&gt; have asked if I’d be interested in continuing the work on the brief for &lt;em&gt;Conference Booth Games&lt;/em&gt; I undertook for them during the last module - &lt;strong&gt;GAM740: Live Brief Design and Development Project&lt;/strong&gt;. This would be to move the VR prototypes I created for ShelterBox into the production phase. In doing so, it has been agreed with ShelterBox that I am free to use the project as the vehicle for the experimentations and investigations that are encouraged as part of the GAM720 module.&lt;/p&gt;
+
+&lt;p&gt;The intention is for the product to be shown at &lt;strong&gt;&lt;a href=&quot;https://www.volunteerexpo.co.uk/&quot;&gt;Volunteer Expo 2020&lt;/a&gt;&lt;/strong&gt; at &lt;strong&gt;NEC Birmingham&lt;/strong&gt;. 
+Unfortunately, this will mean my plans to experiemtn with multiplayer dynamics within my GAM720 project will need to be put on hold. The reason for this is that the Exhibition Centre is unlikely to provide WiFi of sufficient quality for multiplayer networking to take place. A practical solution appears beyond the constraints of the limited timeframe and resources available.&lt;/p&gt;
+
+&lt;p&gt;I will, however, continue to explore the possibilities of multiplayer and social VR, particularly with educational aims in mind, and I hope to incorporate this work in the future - possibly my final MA project.&lt;/p&gt;</content><author><name></name></author><summary type="html">STOP!!!</summary></entry><entry><title type="html">Week Three - Suspension Of Disbelief</title><link href="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Week Three - Suspension Of Disbelief" /><published>2020-02-10T00:00:00+00:00</published><updated>2020-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/02/10/week-three-suspension-of-disbelief.html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/02/12/building-the-multiplayer-environment-part2.html&quot;&gt;Building The Multiplayer Environment - Part 2&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/02/12/building-the-multiplayer-environment-part3.html&quot;&gt;Building The Multiplayer Environment - Part 3&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;/2020/02/17/dog-walker-simulator-interactive-novel.html&quot;&gt;Dog Walker Simulator - The Interactive Novel&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Building The Multiplayer Environment - Part 2 Building The Multiplayer Environment - Part 3 Dog Walker Simulator - The Interactive Novel</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 1</title><link href="http://localhost:4000/2020/02/09/building-the-multiplayer-environment-part1.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 1" /><published>2020-02-09T00:00:00+00:00</published><updated>2020-02-09T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/09/building-the-multiplayer-environment-part1</id><content type="html" xml:base="http://localhost:4000/2020/02/09/building-the-multiplayer-environment-part1.html">&lt;h2 id=&quot;photon-pun-2--unity&quot;&gt;Photon PUN 2 &amp;amp; Unity&lt;/h2&gt;
-
-&lt;p&gt;The Photon PUN documentation, which appear to be as clear as I’d hoped, provides what looks to be a fairly straightforward &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/intro&quot;&gt;tutorial&lt;/a&gt; towards creating a simple multiplayer enabled application.&lt;/p&gt;
-
-&lt;p&gt;The API documentation can be found &lt;a href=&quot;https://doc-api.photonengine.com/en/pun/v2/index.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;connections-and-joining-rooms&quot;&gt;Connections and joining rooms&lt;/h1&gt;
-
-&lt;p&gt;The first piece of code, attached to an empty GameObject, is to connect to the Photon Cloud server and attempt to join a random room - if no room exists then one is created and that is joined. This was one of those rare magic moments, when it worked first time! Unity PlayerPrefs is used to strore the player’s entered user name across states, thus maintaining it for the next time the app is started.&lt;/p&gt;
-
-&lt;p&gt;This Tutorial, as is usually the case with kind of thing, is not specifically aimed at the kind of work I intend to do.  Instead, it appears to use a fairly generic game pattern - I’ve yet to penetrate deaply enough to truly be sure as to how generic - as a vehicle for introducing the core ideas and concepts behind Photon PUN 2. I have often found in these cases that it is generally useful to continue the course, if not to its completion, then at least some way in to it - or at least until it is felt that enough core concepts have been unearthed for work to begin with the confidence that anything new and unknown can be researched as and when it is required. The balancing trick is in assessing whether this point has been reached.&lt;/p&gt;
-
-&lt;p&gt;Initially, I created four scenes, each representing a room in which the players can enter. I used the convention whereby the name of the room follows the number of players that have joined, and so, as a new player joins, all the players move to the corresponding room. Conversely, as a player leaves, all players move to a room with 1 less player in its title.&lt;/p&gt;
-
-&lt;p&gt;Use is made of the PUN callbacks (exposed through &lt;strong&gt;MonoBehaviourPunCallbacks&lt;/strong&gt;, which extends the standard Unity MonoBehaviour class) to detect if players join or leave.&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\pun-connect-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Photon PUN 2 &amp;amp; Unity</summary></entry><entry><title type="html">Multiplayer research</title><link href="http://localhost:4000/2020/02/06/multiplayer-research-copy.html" rel="alternate" type="text/html" title="Multiplayer research" /><published>2020-02-06T00:00:00+00:00</published><updated>2020-02-06T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/06/multiplayer-research%20copy</id><content type="html" xml:base="http://localhost:4000/2020/02/06/multiplayer-research-copy.html">&lt;p&gt;My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.&lt;/p&gt;
-
-&lt;h1 id=&quot;past-musings&quot;&gt;Past musings&lt;/h1&gt;
-
-&lt;p&gt;Having never made a multiplayer game I’m starting from a very low base. However, more than one of my ideas for a creative app during ideation for GAM730 - the co-creative project - included multiplayer settings. At the time, without undertaking any serious research, I considered using a Firebase &lt;strong&gt;&lt;a href=&quot;https://firebase.google.com/docs/firestore&quot;&gt;Firestore&lt;/a&gt;&lt;/strong&gt; database as a central hub, to which multiple clients could connect. This appeared to offer the most important aspect of interconnectivity - a full-duplex connection that immediately pushes any changes made to the database, by any connected client app, out to all other connected client apps. Beyond this, I did not do much further investigating. As I am about to embark on a full scale research activity I will find out just how naive this thinking was. Or not, as the case may be. I’m sure it’s not going to be as simple as this, but the fundamentals of WebSocket-style connectivity and a central database must, surely, be a major part! I shall find out.&lt;/p&gt;
-
-&lt;h1 id=&quot;in-no-particular-order-options-recommended-returned-as-search-results-and-other-discoveries-along-the-way&quot;&gt;In no particular order: options recommended, returned as search results, and other discoveries along the way&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Unity Networking: &lt;em&gt;&lt;a href=&quot;https://support.unity3d.com/hc/en-us/articles/360001252086-UNet-Deprecation-FAQ&quot;&gt;Depricated&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;UNet, Unity’s legacy multiplayer solution, does not meet the needs of many multiplayer game creators. To reach the performance, scale, and security goals of Unity creators, we’ve reached the difficult decision that completely new technology is required, including lightweight and fast networking, and a dedicated game server model.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.photonengine.com/en-US/PUN&quot;&gt;Photon PUN 2&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;Photon is a real-time multiplayer game development framework that is fast, lean and flexible. Photon consists of a server and multiple client SDKs for major platforms - &lt;a href=&quot;https://doc-api.photonengine.com/en/pun/v2/&quot;&gt;Photon API documentation&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;The Photon Unity Networking library (PUN) immediately stands out due to its integration with Unity.&lt;/li&gt;
-      &lt;li&gt;It supports peer-to-peer networking, rather than all messages needing to transmit via the host. This means PUN is pretty fast, accoring to &lt;strong&gt;&lt;a href=&quot;https://www.raywenderlich.com/1142814-introduction-to-multiplayer-games-with-unity-and-photon&quot;&gt;raywenderlich.com&lt;/a&gt;&lt;/strong&gt;, when compared with, say, Unity’s own networking solution.
-&lt;img src=&quot;\images\unity-photon-api-difference.png&quot; alt=&quot;Unity Transport Layer API&quot; /&gt;&lt;/li&gt;
-      &lt;li&gt;PUN provides 20 Concurrent Users (CCU) for free, along with 8000 monthly activities and 500 messages per room, plus an option of $95 for three years, including 100 CCUs and 40K monthly activities. This is certainly interesting for small indie developers, who are certain to be on a budget.&lt;/li&gt;
-      &lt;li&gt;It appears that tutorials and documentation are a strong point and there are a decent number of tutorial videos available on YouTube.
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;This immediately looks interesting as I do not want to spend much of the 9 weeks development time available (three sprints of 3 weeks each) setting up complex structures of my own, such as multiplayer server, database and websocket connections. The fact that this is free for low-level development, and reasonably-priced should I need to step up a level, also adds appeal.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;so-what-is-photon-bolt-and-how-does-it-differ-to-photon-pun-2&quot;&gt;So what is &lt;strong&gt;Photon Bolt&lt;/strong&gt; and how does it differ to Photon PUN 2?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.photonengine.com/bolt&quot;&gt;Bolt&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;They are game networking middleware. 
-A comparison is provided &lt;strong&gt;&lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/reference/pun-vs-bolt&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Basic summary of difference: &lt;strong&gt;Host Client (Bolt) Vs. Dedicated Server (PUN)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;With &lt;strong&gt;PUN&lt;/strong&gt;, if the Master Client (i.e. special client that acts in a similar way to a dedicated host) quits, another actor -if available- will become the new Master Client. And so on, until there are no more clients.&lt;/li&gt;
-  &lt;li&gt;With &lt;strong&gt;Bolt&lt;/strong&gt;, on the other hand, the server is “static”; the “client” that starts up the game and choose to become the server, will stay as the server. If the host client (server) quits, none of the other clients will become a server (and all of them will be disconnected, of course.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Bolt appears to be take more control away from the developer, which can be a time-saver. I’m leaning towards the greater control provided by PUN as I would like to gain a greater depth of understanding of the processes involved. In any case, I like to have more control over what I am doing!&lt;/p&gt;
-
-&lt;p&gt;Automatic compression is a bonus for Bolt, whereas the PUN developer may have to implement it themself. However, PUN sends data from client to other peers through the relay by default (without passing through the master-client). Conversely, Bolt &lt;em&gt;always&lt;/em&gt; has to pass through the hosting machine, thus adding latency.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/gcp/introducing-agones-open-source-multiplayer-dedicated-game-server-hosting-built-on-kubernetes&quot;&gt;Google Agones&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Open-source, multiplayer, dedicated game-server hosting built on Kubernetes. This is something I’d like to find out more about. In particular the fact that it uses Kubernetes, another technology I’ve had in my sights for some time, and it is Google, which is certainly not one of the smaller companies. The fact that it is still relatively early days perhaps makes it less appealing when I’m looking for something to get set up and running quickly and is supported by a large base of users and documentation. However, I’m sure it, or its successors, will have a big future in the field.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://heroiclabs.com/docs/&quot;&gt;Nakama&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Nakama is an open-source scalable server for building social and realtime apps and games.
-Looks very interesting but maybe a bit heavyweight for my needs.&lt;/p&gt;
-
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-
-&lt;p&gt;I haven’t spent an exhaustive amount of time researching theses options and I’m sure there are even more out there. The task is made more difficult because I am researching a subject I know little to nothing about and, therefore, I find myself not completely certain if the diffent products I am reading about exist for the same purpose or if the apparent subtle differences are, in fact, major ones.&lt;/p&gt;
-
-&lt;p&gt;Google Agones and Nakama look interesting, but I am uncertain if how they would be put into use. If I had more time then perhaps I’d look further into their potential, but for now, I feel they will demand too much of my time when I really want to get on with building something.&lt;/p&gt;
-
-&lt;p&gt;Photon PUN 2 and Photon Bolt are both interesting and, in comparison with the offerings from Google and Nakama, I find the quantity and clarity of documentation, tutorials and general discussion surrounding them to to be helpful to my understanding of their purpose. Pricing structure for both is the same. However, despite the apparent greater simplicity of Bolt over PUN, the latter is more appealing due to the greater control and potential for learning and acquiring a greater depth of understanding through its use.&lt;/p&gt;
-
-&lt;p&gt;Therefore, I shall begin delving deeper into the potential of &lt;strong&gt;Photon PUN 2&lt;/strong&gt; as a multiplayer server solution for my project.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;VRTK&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;with PUN?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://forums.oculusvr.com/developer/discussion/76611/does-oculus-quest-support-photon-unity-networking&quot;&gt;Good news!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I am researching about possibilities to make multi user experiences for the Quest and have been wondering if Photon would help?&lt;/p&gt;
-  &lt;ul&gt;
-    &lt;li&gt;yes&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/quintesse/PlayoVR&quot;&gt;PlayoVR, a VRTK-PUN-Voice Demo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">My wish to create events within a shared virtual space will require some method of inviting two or more individuals to participate within a single environment. There appear to be a number of options that I will need to research in order to better understand the potential differences, similarities, advantages and disadvantages.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Building The Multiplayer Environment - Part 2 Building The Multiplayer Environment - Part 3 Dog Walker Simulator - The Interactive Novel</summary></entry></feed>
