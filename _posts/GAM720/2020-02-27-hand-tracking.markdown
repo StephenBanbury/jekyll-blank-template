@@ -33,7 +33,7 @@ I went straight for the Link promise, with unexpected results!
   </video>
 </figure>
 
-Actually, not totally unexpected, at least in terms of it not going righ at first. But the actual look of the hands is very.. ahem.. interesting!
+Actually, not totally unexpected, at least in terms of it not going right at first. But the actual look of the hands is very.. ahem.. interesting!
 
 **Hands correctly configured**
 <figure class="video_container">
@@ -45,7 +45,9 @@ Actually, not totally unexpected, at least in terms of it not going righ at firs
 
 The hands, once configured correctly, do respond fairly well to realtime movements - there is a small amount of latency, but they do tend to 'wobble', or twitch a little, particularly at the ends of the fingers. Presumably this is due to inaccuracies when attempting to keep track. It feels like a slightly weak WiFi or telephone signal and there is the sense that, if only the signal were better then the results would be much tighter and more solid and, therefore, more realistic. 
 
-The fact, though, that this is achieved with just a headset, making use of no extra hardware or specialist software aside from Oculus' own, provided for free (to those who have already paid for the equipment, of course), is impressive at this time. I would like to see if specialist hardware/software solutions, such as [ultraleap](https://www.ultraleap.com/) become available for the Quest, particularly when not in Oculus Link mode. The main advantage of the Quest is that it can function perfectly well untethered - in fact, that is its primary focus and, as much as Oculus Link has provided another dimension, almost making the tethered-only Rift redundant, for me, the ability to be fully operational in any location and without any reliance on a computer with a reasonably high-end graphics card, is very important. But at the current time the in-built cameras on the Quest appear to do a reasonable job and the advantages - portability, simplicity and price - are not to be underestimated. 
+There is also a point where the hands, when they come together to touch or interlace fingers, disappear from view, presumably due to the complexities of maintaining the calculations required to interprate and separate the jumbled information being passed to the sensors.
+
+The fact, though, that all this is achieved with just a headset, making use of no extra hardware or specialist software aside from Oculus' own, provided for free (to those who have already paid for the equipment, of course), is impressive at this time. I would like to see if specialist hardware/software solutions, such as [ultraleap](https://www.ultraleap.com/) become available for the Quest, particularly when not in Oculus Link mode. The main advantage of the Quest is that it can function perfectly well untethered - in fact, that is its primary focus and, as much as Oculus Link has provided another dimension, almost making the tethered-only Rift redundant, for me, the ability to be fully operational in any location and without any reliance on a computer with a reasonably high-end graphics card, is very important. But at the current time the in-built cameras on the Quest appear to do a reasonable job and the advantages - portability, simplicity and price - are not to be underestimated. 
 
 I will be studying next how to grab and throw using hand-tracking. But it also concerns me how movement will be achieved with no joystick controls - just bare hands - and I will also be looking into this issue..
 
