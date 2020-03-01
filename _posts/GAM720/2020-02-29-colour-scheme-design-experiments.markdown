@@ -19,7 +19,7 @@ I chose to experiment with some of the online colour tools mentioned in my post 
 
 **Palettes extracted from photos taken on a trip in Central and South America**  
 
-| ![palette-1](\images\palette-1.jpg) | ![palette-2](\images\palette-2.jpg) |
+| ![palette-1](\images\palette-1a.jpg) | ![palette-2](\images\palette-2.jpg) |
 | ![palette-3](\images\palette-3.jpg) | ![palette-5b](\images\palette-5b.jpg) |
 | ![palette-7](\images\palette-7.jpg) | ![palette-13](\images\palette-13.jpg) |
 | ![palette-19](\images\palette-19.jpg) | ![palette-20](\images\palette-20.jpg) |
