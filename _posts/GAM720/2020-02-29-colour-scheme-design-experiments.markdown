@@ -44,18 +44,10 @@ I chose to experiment with some of the online colour tools mentioned in my post 
 ![palette-20](\images\palette-20.jpg)
 
 
-**Creating a palette from a photo in Photocopa**
+**Creating a palette from a photo in Photocopa and adding it to Unity**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\create-palette-1.mp4" type="video/mp4">
-    Woops! Your browser does not support the HTML5 video tag.
-  </video>
-</figure>
-
-**Using the palette in Unity**
-<figure class="video_container">
-  <video style="width:720px;" autoplay loop>
-    <source src="\media\add-palette-to-unity-1.mp4" type="video/mp4">
+    <source src="\media\playing-with-palettes.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
