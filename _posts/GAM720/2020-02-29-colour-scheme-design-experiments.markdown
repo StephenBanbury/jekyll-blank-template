@@ -19,30 +19,10 @@ I chose to experiment with some of the online colour tools mentioned in my post 
 
 **Palettes extracted from photos taken on a trip in Central and South America**  
 
-<!-- ![palette-image-1](\images\palette-1-image.jpg) -->
-![palette-1](\images\palette-1.jpg)
-
-<!-- ![palette-image-2](\images\palette-2-image.jpg) -->
-![palette-2](\images\palette-2.jpg)
-
-<!-- ![palette-image-3](\images\palette-3-image.jpg) -->
-![palette-3](\images\palette-3.jpg)
-
-<!-- ![palette-image-5](\images\palette-5-image.jpg) -->
-![palette-5b](\images\palette-5b.jpg)
-
-<!-- ![palette-image-7](\images\palette-7-image.jpg) -->
-<!-- ![palette-7](\images\palette-7.jpg) -->
-
-<!-- ![palette-image-13](\images\palette-13-image.jpg) -->
-<!-- ![palette-13](\images\palette-13.jpg) -->
-
-<!-- ![palette-image-19](\images\palette-19-image.jpg) -->
-<!-- ![palette-19](\images\palette-19.jpg) -->
-
-<!-- ![palette-image-20](\images\palette-20-image.jpg) -->
-![palette-20](\images\palette-20.jpg)
-
+| ![palette-1](\images\palette-1.jpg) | ![palette-2](\images\palette-2.jpg) |
+| ![palette-3](\images\palette-3.jpg) | ![palette-5b](\images\palette-5b.jpg) |
+| ![palette-7](\images\palette-7.jpg) | ![palette-13](\images\palette-13.jpg) |
+| ![palette-19](\images\palette-19.jpg) | ![palette-20](\images\palette-20.jpg) |
 
 **Creating a palette from a photo in Photocopa and adding it to Unity**
 <figure class="video_container">
