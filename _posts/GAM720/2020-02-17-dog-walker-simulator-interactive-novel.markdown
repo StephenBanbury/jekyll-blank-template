@@ -49,7 +49,7 @@ My narrative will be based on my updated story idea which can be seen [**here**]
 Trying to outline interactive moments in such a linear fashion is not as simple as it first appears to be, as the very nature of interactive, _[**ergodic literature**](https://www.articleworld.org/index.php/Ergodic_literature)_ is non-linear. For instance, point 3 may not even come to pass depending on decisions made at points 1 or 2. Therefore, the suggestions above cannot be seen as the definitive set of choices available.  Perhaps it would be better to draw up a more complex network of possibiliies. I have a feeling the alternative, of simply making a start creating the narrative and seeing where it leads, could lead to huge confusion!
 
 <div style="text-align: left; margin: 20px;">
-    <img src="\images\interactive-novel-sketch1.jpg" width="80%">
+    <img src="\images\interactive-novel-sketch-2.jpg" width="80%">
 </div>
 
 Points: -
