@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-01T21:36:21+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Colour Scheme Design Experiments</title><link href="http://localhost:4000/2020/02/29/colour-scheme-design-experiments.html" rel="alternate" type="text/html" title="Colour Scheme Design Experiments" /><published>2020-02-29T00:00:00+00:00</published><updated>2020-02-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/29/colour-scheme-design-experiments</id><content type="html" xml:base="http://localhost:4000/2020/02/29/colour-scheme-design-experiments.html">&lt;h1 id=&quot;colour-wheel&quot;&gt;Colour Wheel&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-25T22:29:02+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">COVID-19 Lock Down</title><link href="http://localhost:4000/2020/03/25/covid-19-lock-down.html" rel="alternate" type="text/html" title="COVID-19 Lock Down" /><published>2020-03-25T00:00:00+00:00</published><updated>2020-03-25T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/25/covid-19-lock-down</id><content type="html" xml:base="http://localhost:4000/2020/03/25/covid-19-lock-down.html">&lt;h2 id=&quot;what-gives&quot;&gt;What gives?&lt;/h2&gt;
+
+&lt;p&gt;So, we’re all on government-inforced lock-down. Generally, this is already having a significant effect on everyday life, but how will it effect my MA development work and studies?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;I’m working from home&lt;/strong&gt;. This in itself is not a huge issue - it’s something I’ve done regularly for many years, albeit not for every day of the week and for such a prolonged period is this is set to be. However, this is not working from home (WFH) under normal cicumstances due to the fact that…&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Schools are closed&lt;/strong&gt;. My elder, year 7 age son is home from school and needs a certain amount of ‘assistance’ (or maybe coersion) with getting on with the limited quantity of available online schooling, and&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;My younger son&lt;/strong&gt;, who is home-schools on an ABA (Applied Behaviour Analysis) programme, &lt;strong&gt;finds himself with no tutor&lt;/strong&gt; - one is self-isolating whilst the other is.. well, staying home. He is unable to be left to his own devices and requires full intensive interaction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;My lovely wife is also working from home&lt;/strong&gt;. Between us, we have quite a load. We will need to use some - hopefully not all- of our annual leave to keep son two’s education going. Unfortunately, how I can find time for my usual once-per-week study day is not certain. Today, it was impossible. It’s now nearly 8pm and I’m just getting going - unfortunately I’m further delayed by writing about these issues!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Will the NEC Expo go ahead?&lt;/strong&gt; Apparently so, but it has been postponed to 7th-9th May 2021! That’s right.. &lt;strong&gt;2021!&lt;/strong&gt; So it doesn’t really feel like it is postponed but, rather, cancelled for this year.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Will the 2020 Rotary Convention in Honolulu go ahead?&lt;/strong&gt; Nope - it’s been cancelled.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;At the moment, I’m thinking I will continue to build the app as though my deadline for a complete working version has not changed. Hopefully there will be further events this year and, in any case, whatever happens, it will be ready ‘off-the-shelf’ should it be required. I feel sure it will be - it’s the ‘when’ that is uncertain right now.&lt;/p&gt;</content><author><name></name></author><summary type="html">What gives?</summary></entry><entry><title type="html">Getting down to building the app</title><link href="http://localhost:4000/2020/03/17/getting-down-to-building-the-app.html" rel="alternate" type="text/html" title="Getting down to building the app" /><published>2020-03-17T00:00:00+00:00</published><updated>2020-03-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/17/getting-down-to-building-the-app</id><content type="html" xml:base="http://localhost:4000/2020/03/17/getting-down-to-building-the-app.html">&lt;h2 id=&quot;serious-business&quot;&gt;Serious business&lt;/h2&gt;
+
+&lt;p&gt;The prototyping phase was in large part about taking on an air of whistfulness and experimenting without too much to worry about - after all, the worst that could happen would be that things go wrong, you blog about it, learn your lessons, make improvements and decisions, and continue to iterate towards a working prototype. Ultimately, while of course you want to make something great and hope for it to be accepted to be taken forward for further development, only you and your client (including stakeholders) will get to see it.&lt;/p&gt;
+
+&lt;p&gt;We are now in a whole new ball-park. Now, I’m thinking, “Gulp”! After all, the NEC will be watching!&lt;/p&gt;
+
+&lt;p&gt;I have begun easing myself back into developing the app. It’s still surprising how difficult it can be to get going after three months away from it. Remembering where I was, how it works… all stuff that seemed so close to my psyche that I was living it and dreaming it has now become almost alien code in some places. I’ve been at it for a few days (a few hours each day) now and it’s come back on the whole. There’s a lot of code I’ve had to do away with because I’m only working not on one of the three main prototype ideas, but I am keeping it in place for now as I may regret losing it. It’s safety first here.&lt;/p&gt;
+
+&lt;p&gt;I’ve eased myself back into the process by bringing in gentle improvements: aesthetically at first, such as increasing the size of the monitors, replacing the free asset treasure chests with self-made boxes. I then added the rudiments for a new gameplay feature - the reducing budget. Each resource now has an associated cost which is used to respectively recude the starting budget everytime a resource is deployed.&lt;/p&gt;
+
+&lt;p&gt;I then organised that, in the prototype, random pile of resource objects are thrown into the boxes with an ordered selection, organised per type into their own resource ‘bins’. By this point I’m getting comfortable with coding this app again.&lt;/p&gt;
+
+&lt;p&gt;I added video players to each monitor screen - but now I’m aware I need to create videos as the ShelterBox asset bank does not appear to contain any - I had though they had. I think I’ll be able to cobble some slide-based videos together using photos. Not ideal, but it will do if I don’t find anyinb better.&lt;/p&gt;
+
+&lt;p&gt;These additions, though, only go to highlight that a &lt;strong&gt;narrative&lt;/strong&gt; needs to be created and implemented. What happens with this budget when I get to zero! This is a moment when the narrative has stopped allowing the player to sit back. Ideas that I had that were slightly vague and unfocused are now needing to focus and move from the ephemeral to something that is real, existing in an actual gamespace and achieving goals that are predefined. There is still plenty of experimentation, plenty of unknown territory. But now this is underpineed and, in many ways, resulting form the new position I and my creation have found themselves.&lt;/p&gt;
+
+&lt;p&gt;So… what does happen when the budget has been exhausted?&lt;/p&gt;
+
+&lt;h1 id=&quot;power-up-the-budget&quot;&gt;Power-up the budget&lt;/h1&gt;
+
+&lt;p&gt;This could potentially entirely replace the countdown timer. As a gameplay device, the countdown is not necessarily a great tool - an artificial way to create pressure. It would maybe worth finding a playful way to disguise the timer element in a gameplay device that is less obvious or crude. This is worth researching, but it would seem better to build the jeopardy into the narrative itself. For example, if it is &lt;em&gt;&lt;strong&gt;Game Over&lt;/strong&gt;&lt;/em&gt; when budget reaches £0.00 then keeping the budget in the black is essential. If it becomes increasingly difficult to do so, then this is the defining characteristic of the game’s problem. If it is made to be extremely difficult to play beyond 5 minutes then this becomes, in effect, the timer in another form.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some thoughts on gameplay: How could a power-up work?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The budget runs down as you assign resources and it needs regular replenishment. There are a number of fund-raising activities to chose from - selected from a touch-screen next to the player.&lt;/li&gt;
+  &lt;li&gt;Or selected from a panel of buttons.&lt;/li&gt;
+  &lt;li&gt;Each time an object is picked up there is a short countdown in which time the player has to assign the resource, or else it vanishes. This time gradually reduces as the game progresses. Alternatively, the time reduces as the budget decreases. The trick would be make sure that replenishing the budget is not too easy, or gets harder as the game progresses.&lt;/li&gt;
+  &lt;li&gt;Throw something through a hoop or hole, or at a target to replenish the budget.&lt;/li&gt;
+  &lt;li&gt;Phone rings intermittently and a voice offers new donations to boost budget.&lt;/li&gt;
+  &lt;li&gt;The control room is gradually ripped apart by an increasingly fierce hurracane.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The latter I would love to play with if I have time. It would require incorporating one of my prototypes from GAM740 - the disaster scene with high winds picking up and throwing cars and park benches etc. Perhaps I could place the control room in this high wind zone and add colliders to the building’s walls, ceiling, furniture etc.&lt;/p&gt;</content><author><name></name></author><summary type="html">Serious business</summary></entry><entry><title type="html">Colour Scheme Design Experiments</title><link href="http://localhost:4000/2020/02/29/colour-scheme-design-experiments.html" rel="alternate" type="text/html" title="Colour Scheme Design Experiments" /><published>2020-02-29T00:00:00+00:00</published><updated>2020-02-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/29/colour-scheme-design-experiments</id><content type="html" xml:base="http://localhost:4000/2020/02/29/colour-scheme-design-experiments.html">&lt;h1 id=&quot;colour-wheel&quot;&gt;Colour Wheel&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;A simple colour wheel created using pastels. Guache or acrylic paint will have done a better job.&lt;/strong&gt;&lt;br /&gt;
 I will update this with a more professional job shortly!
@@ -87,7 +133,49 @@ However, it’s new-ness and the continual roll-out of updates brings its own pr
 
 &lt;p&gt;The fact, though, that all this is achieved with just a headset, making use of no extra hardware or specialist software aside from Oculus’ own, provided for free (to those who have already paid for the equipment, of course), is impressive at this time. I would like to see if specialist hardware/software solutions, such as &lt;a href=&quot;https://www.ultraleap.com/&quot;&gt;ultraleap&lt;/a&gt; become available for the Quest, particularly when not in Oculus Link mode. The main advantage of the Quest is that it can function perfectly well untethered - in fact, that is its primary focus and, as much as Oculus Link has provided another dimension, almost making the tethered-only Rift redundant, for me, the ability to be fully operational in any location and without any reliance on a computer with a reasonably high-end graphics card, is very important. But at the current time the in-built cameras on the Quest appear to do a reasonable job and the advantages - portability, simplicity and price - are not to be underestimated.&lt;/p&gt;
 
-&lt;p&gt;I will be studying next how to grab and throw using hand-tracking. But it also concerns me how movement will be achieved with no joystick controls - just bare hands - and I will also be looking into this issue..&lt;/p&gt;</content><author><name></name></author><summary type="html">Why hand-tracking?</summary></entry><entry><title type="html">Week Five - Concept Art</title><link href="http://localhost:4000/2020/02/24/week-five-concept-art.html" rel="alternate" type="text/html" title="Week Five - Concept Art" /><published>2020-02-24T00:00:00+00:00</published><updated>2020-02-24T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/24/week-five-concept-art</id><content type="html" xml:base="http://localhost:4000/2020/02/24/week-five-concept-art.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Colour Scheme Design Apps</title><link href="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html" rel="alternate" type="text/html" title="Colour Scheme Design Apps" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/colour-scheme-design-apps</id><content type="html" xml:base="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html">&lt;p&gt;There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.&lt;/p&gt;
+&lt;p&gt;I will be studying next how to grab and throw using hand-tracking. But it also concerns me how movement will be achieved with no joystick controls - just bare hands - and I will also be looking into this issue..&lt;/p&gt;</content><author><name></name></author><summary type="html">Why hand-tracking?</summary></entry><entry><title type="html">Week Five - Concept Art</title><link href="http://localhost:4000/2020/02/24/week-five-concept-art.html" rel="alternate" type="text/html" title="Week Five - Concept Art" /><published>2020-02-24T00:00:00+00:00</published><updated>2020-02-24T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/24/week-five-concept-art</id><content type="html" xml:base="http://localhost:4000/2020/02/24/week-five-concept-art.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Unity And Graphics</title><link href="http://localhost:4000/2020/02/19/unity-graphics.html" rel="alternate" type="text/html" title="Unity And Graphics" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/unity-graphics</id><content type="html" xml:base="http://localhost:4000/2020/02/19/unity-graphics.html">&lt;h1 id=&quot;lighting-and-rendering&quot;&gt;Lighting and Rendering&lt;/h1&gt;
+
+&lt;p&gt;3D object shading results from the intensity, direction and colour of the light falling on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Types of lighting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Realtime lighting&lt;/strong&gt;
+In Unity - directional, spot and point. Update every frame and are interactive with moving objects. Do not bounce.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Baked  lighmaps&lt;/strong&gt;
+More complex, static. Lighting effects are written to textures overlaid on top of the scene geometry.
+Realtime lights can be overlaid &lt;strong&gt;additively&lt;/strong&gt; on top of lightmaps.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Precomputed realtime global illumination&lt;/strong&gt;
+Offers us a technique for updating complex scene lighting interactively. Shifts some of the lengthy number-crunching from being a realtime process to one which is precomputed. An example is a time of day system, following sun position throughout the day.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Choices of type of light to use is not only dependent on the effects required, but on expense in terms of performance as a result of available processing power of target platform.&lt;/p&gt;
+
+&lt;h1 id=&quot;creating-a-space-with-sketchup&quot;&gt;Creating a space with SketchUp&lt;/h1&gt;
+
+&lt;p&gt;Sketchup is a great tool for building 3D architectural spaces. I have been using an old version that was installed on my laptop for a few years and have found it fun to play with and useful for testing architectural designs. But one of the best things about it is that it was free….  ‘&lt;strong&gt;&lt;em&gt;was&lt;/em&gt;&lt;/strong&gt;’ free.&lt;/p&gt;
+
+&lt;p&gt;It’s now not so simple. When I first came across SketchUp it was part of Google’s output and didn’t cost a penny - and I was amazed! It is a well thought-out piece of software and, at the time, it really seemed incredible that something so well-designed and rivalled expensive commercial products could be available to the unwashed masses for nothing.&lt;/p&gt;
+
+&lt;p&gt;Since then, it appears to have been offloaded by Google and taken on by a company named Trimble (the history of SketchUp is summerised &lt;strong&gt;&lt;a href=&quot;https://techcrunch.com/2012/04/26/sketchup-google-first-divestment/&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;), with more recent versions covered by a subscription-style payment system - see the &lt;strong&gt;&lt;a href=&quot;https://www.sketchup.com/&quot;&gt;SketchUp&lt;/a&gt;&lt;/strong&gt; site for details. However, it is possible to still download earlier versions - v8 from 2010 is a stand-alone desktop version that is totally free, and the 2017 iteration is free for non-commercial use. These older versions of SketchUp &lt;strong&gt;&lt;a href=&quot;https://designerhacks.com/get-the-google-sketchup-free-download/&quot;&gt;can be found here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;SketchUp files can be easily brought into Unity. I created a pretty close rendition of the ground floor of my house and am working on being able to walk around it in VR. This stems from the idea of trying to create an environment that is familiar, comfortable, relaxing, following my train of thought on autism and education (annunciated throughout this course and this blog). I find that SketchUp provides a way to create architectural renditions of real and imagined spaces much more naturally than using the graphical tools provided within Unity, including ProBuilder and the standard Unity tools. The fact that it is simply a case of dragging the exported models directly into Unity is very useful, and the older free versions of SketchUp are absolutely fine for this purpose.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The model in SketchUp&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\sketchup-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The model in Unity&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\unity-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Lighting and Rendering</summary></entry><entry><title type="html">Colour Scheme Design Apps</title><link href="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html" rel="alternate" type="text/html" title="Colour Scheme Design Apps" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/colour-scheme-design-apps</id><content type="html" xml:base="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html">&lt;p&gt;There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.&lt;/p&gt;
 
 &lt;h1 id=&quot;color-hunter&quot;&gt;&lt;a href=&quot;http://colorhunter.com/&quot;&gt;Color Hunter&lt;/a&gt;&lt;/h1&gt;
 
@@ -136,49 +224,30 @@ Alternatively, it is also possible to search Flickr.com for images to use.&lt;/p
 
 &lt;p&gt;&lt;a href=&quot;https://www.sessions.edu/color-calculator/&quot;&gt;Sessions College Color Wheel&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;w3schools-html-colour-mixer&quot;&gt;&lt;a href=&quot;https://www.w3schools.com/colors/colors_mixer.asp&quot;&gt;w3schools HTML colour mixer&lt;/a&gt;&lt;/h1&gt;</content><author><name></name></author><summary type="html">There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.</summary></entry><entry><title type="html">Unity And Graphics</title><link href="http://localhost:4000/2020/02/19/unity-graphics.html" rel="alternate" type="text/html" title="Unity And Graphics" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/unity-graphics</id><content type="html" xml:base="http://localhost:4000/2020/02/19/unity-graphics.html">&lt;h1 id=&quot;lighting-and-rendering&quot;&gt;Lighting and Rendering&lt;/h1&gt;
+&lt;h1 id=&quot;w3schools-html-colour-mixer&quot;&gt;&lt;a href=&quot;https://www.w3schools.com/colors/colors_mixer.asp&quot;&gt;w3schools HTML colour mixer&lt;/a&gt;&lt;/h1&gt;</content><author><name></name></author><summary type="html">There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.</summary></entry><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
 
-&lt;p&gt;3D object shading results from the intensity, direction and colour of the light falling on it.&lt;/p&gt;
+&lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
+Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
+Gender: &lt;b&gt;Male&lt;/b&gt;&lt;br /&gt;
+DOB: &lt;b&gt;04/07/1996&lt;/b&gt;&lt;br /&gt;
+Reason for being here: &lt;b&gt;looking for adventure&lt;/b&gt;
 
-&lt;p&gt;&lt;strong&gt;Types of lighting&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Realtime lighting&lt;/strong&gt;
-In Unity - directional, spot and point. Update every frame and are interactive with moving objects. Do not bounce.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Baked  lighmaps&lt;/strong&gt;
-More complex, static. Lighting effects are written to textures overlaid on top of the scene geometry.
-Realtime lights can be overlaid &lt;strong&gt;additively&lt;/strong&gt; on top of lightmaps.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Precomputed realtime global illumination&lt;/strong&gt;
-Offers us a technique for updating complex scene lighting interactively. Shifts some of the lengthy number-crunching from being a realtime process to one which is precomputed. An example is a time of day system, following sun position throughout the day.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&quot;welcome-alex-thank-you-for-volunteering-we-have-a-critical-situation-there-are-a-number-of-disasters-that-require-your-urgent-attention&quot;&gt;&lt;strong&gt;&lt;em&gt;“Welcome Alex. Thank you for volunteering. We have a critical situation. There are a number of disasters that require your urgent attention…“&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;
 
-&lt;p&gt;Choices of type of light to use is not only dependent on the effects required, but on expense in terms of performance as a result of available processing power of target platform.&lt;/p&gt;
+&lt;div style=&quot;font-family: Times New Roman; font-size: 1.4em;&quot;&gt;
+Alex is an office administrator. He volunteered for ShelterBox because it looked interesting and something different to do with his time. Well, okay.. it was partly this, but also it was because he’d watched and listened to the news for what seemed like his entire life feeling detached from the important and significant events around the world.. those he could only witness from a distance. &lt;br /&gt;&lt;br /&gt;
+He now felt he had discovered something new. Doors had been opened. Suddenly, he had found an opportunity to pack his bags and go out there, in person, to help those who had just experienced disaster at close quarters. In fact, maybe he didn't have to remain outside it all any longer. Perhaps he would now be able to look people directly in the eye and try to understand, to really understand, what they had been through. At the very least he could now maybe help out in some way - grab a warm blanket and put it around the shoulders of someone who had not experienced such simple pleasure for weeks, or drop off a box containing medication that could mean more than he could imagine to a family for whom only a few days ago things had looked so bleak!&lt;br /&gt;&lt;br /&gt;
+At least, this was his ambition. But first, Alex needed to step into the uncomprising world of Distaster Response Preparation. It is a tough job, but someone has to do it, and why shouldn't that someone be Alex?!&lt;br /&gt;&lt;br /&gt;
+Alex walked into the &lt;span style=&quot;font-style: italic;&quot;&gt;Response Room&lt;/span&gt;. It was as he expected – a serious room defined by serious intentions. “Welcome Alex”, said a calm female voice that appeared to come from everywhere. “Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?”.&lt;br /&gt;&lt;br /&gt;
+“Yes, I am”, said Alex.&lt;br /&gt;&lt;br /&gt;
+The sound of well-insulated electronically controlled servers whirred into action with the kind of slick precision associated with German engineering. From within the rather bland looking counter incongruously sitting in front of him, three monitor screens slid into view that seemed to embody a cold, machine-grade sense of expectation. Simultaneously, an opening emerged and, from within, appeared the first of a series of disaster relief resource holograms. Alex had not noticed at first, but each screen appeared to be suspended above what looked like large, bottomless boxes, coloured in the standard ShelterBox Blue and designed to withstand the kind of treatment handed out by Ryanair on a short-staffed bank holiday weekend.&lt;br /&gt;&lt;br /&gt;
+“These resources are precious. Please assign them carefully to the displayed disasters. Don’t forget: be cool; be careful. Diligent planning can help more people; too much attention to a single cause can mean failure for so many others.”&lt;br /&gt;&lt;br /&gt;
+“Alex, good luck!”
 
-&lt;h1 id=&quot;creating-a-space-with-sketchup&quot;&gt;Creating a space with SketchUp&lt;/h1&gt;
-
-&lt;p&gt;Sketchup is a great tool for building 3D architectural spaces. I have been using an old version that was installed on my laptop for a few years and have found it fun to play with and useful for testing architectural designs. But one of the best things about it is that it was free….  ‘&lt;strong&gt;&lt;em&gt;was&lt;/em&gt;&lt;/strong&gt;’ free.&lt;/p&gt;
-
-&lt;p&gt;It’s now not so simple. When I first came across SketchUp it was part of Google’s output and didn’t cost a penny - and I was amazed! It is a well thought-out piece of software and, at the time, it really seemed incredible that something so well-designed and rivalled expensive commercial products could be available to the unwashed masses for nothing.&lt;/p&gt;
-
-&lt;p&gt;Since then, it appears to have been offloaded by Google and taken on by a company named Trimble (the history of SketchUp is summerised &lt;strong&gt;&lt;a href=&quot;https://techcrunch.com/2012/04/26/sketchup-google-first-divestment/&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;), with more recent versions covered by a subscription-style payment system - see the &lt;strong&gt;&lt;a href=&quot;https://www.sketchup.com/&quot;&gt;SketchUp&lt;/a&gt;&lt;/strong&gt; site for details. However, it is possible to still download earlier versions - v8 from 2010 is a stand-alone desktop version that is totally free, and the 2017 iteration is free for non-commercial use. These older versions of SketchUp &lt;strong&gt;&lt;a href=&quot;https://designerhacks.com/get-the-google-sketchup-free-download/&quot;&gt;can be found here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;SketchUp files can be easily brought into Unity. I created a pretty close rendition of the ground floor of my house and am working on being able to walk around it in VR. This stems from the idea of trying to create an environment that is familiar, comfortable, relaxing, following my train of thought on autism and education (annunciated throughout this course and this blog). I find that SketchUp provides a way to create architectural renditions of real and imagined spaces much more naturally than using the graphical tools provided within Unity, including ProBuilder and the standard Unity tools. The fact that it is simply a case of dragging the exported models directly into Unity is very useful, and the older free versions of SketchUp are absolutely fine for this purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The model in SketchUp&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\sketchup-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The model in Unity&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\unity-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Lighting and Rendering</summary></entry><entry><title type="html">Week Four - Colour Theory</title><link href="http://localhost:4000/2020/02/18/week-four-colour-theory.html" rel="alternate" type="text/html" title="Week Four - Colour Theory" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/week-four-colour-theory</id><content type="html" xml:base="http://localhost:4000/2020/02/18/week-four-colour-theory.html">&lt;h1 id=&quot;notes-on-colour-theory&quot;&gt;Notes on colour theory&lt;/h1&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Four - Colour Theory</title><link href="http://localhost:4000/2020/02/18/week-four-colour-theory.html" rel="alternate" type="text/html" title="Week Four - Colour Theory" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/week-four-colour-theory</id><content type="html" xml:base="http://localhost:4000/2020/02/18/week-four-colour-theory.html">&lt;h1 id=&quot;notes-on-colour-theory&quot;&gt;Notes on colour theory&lt;/h1&gt;
 
 &lt;p&gt;Colour is subject experience.&lt;/p&gt;
 
@@ -214,30 +283,7 @@ Colour mistakes can have a lasting negative impact on your brand.&lt;/p&gt;
 
 &lt;p&gt;And then there’s &lt;strong&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html#&quot;&gt;Meterial Design&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - colour blindness - ‘colour vision deficiences’&lt;/p&gt;</content><author><name></name></author><summary type="html">Notes on colour theory</summary></entry><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
-
-&lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
-Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
-Gender: &lt;b&gt;Male&lt;/b&gt;&lt;br /&gt;
-DOB: &lt;b&gt;04/07/1996&lt;/b&gt;&lt;br /&gt;
-Reason for being here: &lt;b&gt;looking for adventure&lt;/b&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;welcome-alex-thank-you-for-volunteering-we-have-a-critical-situation-there-are-a-number-of-disasters-that-require-your-urgent-attention&quot;&gt;&lt;strong&gt;&lt;em&gt;“Welcome Alex. Thank you for volunteering. We have a critical situation. There are a number of disasters that require your urgent attention…“&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;div style=&quot;font-family: Times New Roman; font-size: 1.4em;&quot;&gt;
-Alex is an office administrator. He volunteered for ShelterBox because it looked interesting and something different to do with his time. Well, okay.. it was partly this, but also it was because he’d watched and listened to the news for what seemed like his entire life feeling detached from the important and significant events around the world.. those he could only witness from a distance. &lt;br /&gt;&lt;br /&gt;
-He now felt he had discovered something new. Doors had been opened. Suddenly, he had found an opportunity to pack his bags and go out there, in person, to help those who had just experienced disaster at close quarters. In fact, maybe he didn't have to remain outside it all any longer. Perhaps he would now be able to look people directly in the eye and try to understand, to really understand, what they had been through. At the very least he could now maybe help out in some way - grab a warm blanket and put it around the shoulders of someone who had not experienced such simple pleasure for weeks, or drop off a box containing medication that could mean more than he could imagine to a family for whom only a few days ago things had looked so bleak!&lt;br /&gt;&lt;br /&gt;
-At least, this was his ambition. But first, Alex needed to step into the uncomprising world of Distaster Response Preparation. It is a tough job, but someone has to do it, and why shouldn't that someone be Alex?!&lt;br /&gt;&lt;br /&gt;
-Alex walked into the &lt;span style=&quot;font-style: italic;&quot;&gt;Response Room&lt;/span&gt;. It was as he expected – a serious room defined by serious intentions. “Welcome Alex”, said a calm female voice that appeared to come from everywhere. “Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?”.&lt;br /&gt;&lt;br /&gt;
-“Yes, I am”, said Alex.&lt;br /&gt;&lt;br /&gt;
-The sound of well-insulated electronically controlled servers whirred into action with the kind of slick precision associated with German engineering. From within the rather bland looking counter incongruously sitting in front of him, three monitor screens slid into view that seemed to embody a cold, machine-grade sense of expectation. Simultaneously, an opening emerged and, from within, appeared the first of a series of disaster relief resource holograms. Alex had not noticed at first, but each screen appeared to be suspended above what looked like large, bottomless boxes, coloured in the standard ShelterBox Blue and designed to withstand the kind of treatment handed out by Ryanair on a short-staffed bank holiday weekend.&lt;br /&gt;&lt;br /&gt;
-“These resources are precious. Please assign them carefully to the displayed disasters. Don’t forget: be cool; be careful. Diligent planning can help more people; too much attention to a single cause can mean failure for so many others.”&lt;br /&gt;&lt;br /&gt;
-“Alex, good luck!”
-
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - colour blindness - ‘colour vision deficiences’&lt;/p&gt;</content><author><name></name></author><summary type="html">Notes on colour theory</summary></entry><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;Suggestion&lt;/strong&gt;&lt;/p&gt;
 
@@ -329,53 +375,4 @@ It looks like an interesting option and, because it uses the Unity IDE, workflow
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry><entry><title type="html">Building The Multiplayer Environment | Part 2</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html" rel="alternate" type="text/html" title="Building The Multiplayer Environment | Part 2" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part2.html">&lt;h1 id=&quot;building-and-animating-a-player-character&quot;&gt;Building and animating a player character&lt;/h1&gt;
-
-&lt;p&gt;The tutorial has a useful introduction to &lt;a href=&quot;https://doc.photonengine.com/en-us/pun/v2/demos-and-tutorials/pun-basics-tutorial/player-prefab&quot;&gt;building and animating the player character(s)&lt;/a&gt;. This is not network-specific so comes as an unexpected but welcome addition, as character animation is something that I will need to look into sooner or later.&lt;/p&gt;
-
-&lt;p&gt;The robot prefab is provided for demo/experimental purposes as part of the Photon PUN 2 asset download, as are the animations required to get him moving (running, swinging arms etc.). These require attaching to the robot GameObject along with a character controller and colliders etc. As they pre-exist, it is not necessary to create the animations themselves.  However, it is useful to see how they are used in the overall workings of an animated character. The tutorial provides help on setting up the character and setting it in motion. However, I am clear that I will need to learn in far more depth and to gain experience in creating and animating 3D objects such as this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Running and jumping&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\robot-animation-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It is interesting that, as soon as my almost-twelve-year-old son came home from school and saw what I was doing, he was hooked! This is not entirely surprising; it &lt;em&gt;looks&lt;/em&gt; like a game, after all, even if it is not a game (yet). But it is also the magic of making things happen on a screen of some description. This became clear when I came back after a break only to find him adding colour and ‘furniture’ (mainly blocks and a tree stump), and attempting to amend the scripts to allow the robot to jump over, walk on, bounce off them - in other words, &lt;em&gt;interact&lt;/em&gt; with them! Perhaps this is an expression of an innate need to engage with the imagined world; to create; to interfere. I do wonder, if it had looked less like the kind of ‘game’ he recognises, would he have been so interested in deconstructing my creation? &lt;strong&gt;This could be worth investigating.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In any case, this led to my &lt;em&gt;getting involved&lt;/em&gt;, engaging with the playfulness of my son. I found that by playing with colliders and certain GameObject settings - such as the ‘slope’ options - we were able to get the robot to jump over the blocks and to ‘climb’ onto them. From that point, adding more items and encouraging the robot to interact with them, became an imperative, something we just had to do; it was a natural progression.&lt;/p&gt;
-
-&lt;p&gt;If nothing else, this demonstrates how real-life actions, engagement with the creative process and experimentation, leads to more of the same; it sparks the imagination and encourages moving in new directions, into new territories. We began to imagine a ‘parkour’ type game where points could be scored for the most imaginative way in which an obstacle is hurdled, a wall bounced off, or a platform jumped from. The unavoidable fact is, though, that whatever this becomes, even if it never gets beyond what it is now, it is already more interesting to look at and engage with than it was before that youthful and unattached mind’s attention had been captured.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Running and jumping.. with style!&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\robot-animation-5.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;camera-setup&quot;&gt;Camera Setup&lt;/h1&gt;
-
-&lt;p&gt;Just adding the CameraWork component to the robot GameObject and setting it slightly above him, completely changes the nature of the ‘game’ experience. Suddenly, as the controller, you are much more part of the experience, feeling more involved with what is happening. It feels more natural and less detatched than ‘watching’ from a distance, even if you are controlling the character’s fate.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Camera attached&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\robot-animation-6.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;However, the &lt;strong&gt;robot character is not easy to control&lt;/strong&gt;, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly ‘parkour’ style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this ‘demo’ does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building and animating a player character</summary></entry><entry><title type="html">ShelterBox (the next generation)</title><link href="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html" rel="alternate" type="text/html" title="ShelterBox (the next generation)" /><published>2020-02-12T00:00:00+00:00</published><updated>2020-02-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3</id><content type="html" xml:base="http://localhost:4000/2020/02/12/building-the-multiplayer-environment-part3.html">&lt;h2 id=&quot;stop&quot;&gt;STOP!!!&lt;/h2&gt;
-
-&lt;h1 id=&quot;breaking-news&quot;&gt;Breaking News&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.shelterbox.org/&quot;&gt;ShelterBox&lt;/a&gt;&lt;/strong&gt; have asked if I’d be interested in continuing the work on the brief for &lt;em&gt;Conference Booth Games&lt;/em&gt; I undertook for them during the last module - &lt;strong&gt;GAM740: Live Brief Design and Development Project&lt;/strong&gt;. This would be to move the VR prototypes I created for ShelterBox into the production phase. In doing so, it has been agreed with ShelterBox that I am free to use the project as the vehicle for the experimentations and investigations that are encouraged as part of the GAM720 module.&lt;/p&gt;
-
-&lt;p&gt;The intention is for the product to be shown at &lt;strong&gt;&lt;a href=&quot;https://www.volunteerexpo.co.uk/&quot;&gt;Volunteer Expo 2020&lt;/a&gt;&lt;/strong&gt; at &lt;strong&gt;NEC Birmingham&lt;/strong&gt;. 
-Unfortunately, this will mean my plans to experiment with multiplayer dynamics within my GAM720 project will need to be put on hold. The reason for this is that the Exhibition Centre is unlikely to provide WiFi of sufficient quality for multiplayer networking to take place. A practical solution appears beyond the constraints of the limited timeframe and resources available.&lt;/p&gt;
-
-&lt;p&gt;I will, however, continue to explore the possibilities of multiplayer and social VR, particularly with educational aims in mind, and I hope to incorporate this work in the future - possibly my final MA project.&lt;/p&gt;</content><author><name></name></author><summary type="html">STOP!!!</summary></entry></feed>
+&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry></feed>

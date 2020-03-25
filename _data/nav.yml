@@ -73,9 +73,16 @@ toc:
       # - page: Week Seven - Sound Design
       #   date: 2020-03-09
       #   url: 2020/03/09/week-seven-sound-design.html
-      # - page: Week Eight - Sound Process
-      #   date: 2020-03-16
-      #   url: 2020/03/16/week-eight-sound-process.html
+      - page: Week Eight - Sound Process
+        date: 2020-03-16
+        url: 2020/03/16/week-eight-sound-process.html
+        subsubfolderitems:
+          - page: Getting down to building the app
+            date: 2020-03-17
+            url: 2020/03/17/getting-down-to-building-the-app.html
+          - page: COVID-19 Lock-down
+            date: 2020-03-25
+            url: 2020/03/25/covid-19-lock-down.html
       # - page: Week Nine - Doug Pennant
       #   date: 2020-03-23
       #   url: 2020/03/23/week-nine-doug-pennant.html
