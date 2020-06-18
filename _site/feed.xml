@@ -1,4 +1,183 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-27T00:22:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">COVID-19 - The Lockdown</title><link href="http://localhost:4000/2020/03/25/covid-19-lock-down.html" rel="alternate" type="text/html" title="COVID-19 - The Lockdown" /><published>2020-03-25T00:00:00+00:00</published><updated>2020-03-25T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/25/covid-19-lock-down</id><content type="html" xml:base="http://localhost:4000/2020/03/25/covid-19-lock-down.html">&lt;h2 id=&quot;what-gives&quot;&gt;What gives?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-18T22:21:12+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Starting The Game</title><link href="http://localhost:4000/2020/04/15/game-starting.html" rel="alternate" type="text/html" title="Starting The Game" /><published>2020-04-15T00:00:00+01:00</published><updated>2020-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/15/game-starting</id><content type="html" xml:base="http://localhost:4000/2020/04/15/game-starting.html">&lt;p&gt;How to start and end the game? The player needs to be prepared and ready for action.&lt;/p&gt;
+
+&lt;h1 id=&quot;starting-the-game&quot;&gt;Starting the game&lt;/h1&gt;
+
+&lt;p&gt;I ended up spending much time on this and getting it right is not a simple thing.  I imagine it to be something that is helped hugely by experience in game design.&lt;/p&gt;
+
+&lt;p&gt;The environment now resembles a theatre in some respects. There is a ‘stage’, where the action happens, a curtain of sorts that keeps all the initial preparation for the ‘performance’ from the audience’s view, and a futher curtain that I refer to as the ‘fire curtain’, again after the theatre. This final curtain came about as a means to hide what is in effect the means to get the game going. Initially I began the game with a spoken narrative welcoming the player and explaining the situation, before presenting them with a button to press to open the main curatin and start working on disaster deployment. However, I discovered that this was actually placing the player too far into the introduction, and really, it is they that needs to set the game in motion - hence the final ‘fire’ curtain, which only opens when the ‘play’ button has been pressed. It is at this point that the introductions begin, resulting in the user being offered the keyboard in order to enter their name (which will ulitmately be used to update the leaderboard).&lt;/p&gt;
+
+&lt;p&gt;All these curtain were a bit boring to watch, so I updated the fire curtain to an animation of the word &lt;em&gt;ShelterBox&lt;/em&gt; - perfectly satisfactory for the pupose of providing enough interest whilst explaining the game without providing too much of a distraction.&lt;/p&gt;
+
+&lt;p&gt;Entering the player’s name allows the welcome to be personalised with a message on the backdrop. I may update this to become some form of &lt;strong&gt;placard or a gilded sign&lt;/strong&gt;, extending the personal touch and further engaging the player.&lt;/p&gt;
+
+&lt;p&gt;All taken into concideration, this reasonably satisfactory, and should suffice for the purpose of this game in the shorter term, but I expect to make improvements at some point once the all-important gameplay is working well.&lt;/p&gt;</content><author><name></name></author><summary type="html">How to start and end the game? The player needs to be prepared and ready for action.</summary></entry><entry><title type="html">Points Scoring</title><link href="http://localhost:4000/2020/04/15/points-scoring.html" rel="alternate" type="text/html" title="Points Scoring" /><published>2020-04-15T00:00:00+01:00</published><updated>2020-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/15/points-scoring</id><content type="html" xml:base="http://localhost:4000/2020/04/15/points-scoring.html">&lt;p&gt;Keep it simple to start.&lt;/p&gt;
+
+&lt;p&gt;Then build complexity.&lt;/p&gt;
+
+&lt;p&gt;Initially I am thinking of earning a standard small number of points for each item assigned to a cause.&lt;/p&gt;
+
+&lt;p&gt;Gain a larger number of points for completing a deployment.&lt;/p&gt;
+
+&lt;p&gt;Gain points with respective funds raised&lt;/p&gt;
+
+&lt;p&gt;Lose some points for dropping an item on the floor.&lt;/p&gt;
+
+&lt;p&gt;Lose points for assigning to an incorrect scenario.&lt;/p&gt;
+
+&lt;p&gt;Lose points for assigning when you have already assigned the item to that scenario.&lt;/p&gt;
+
+&lt;p&gt;Lose points for going into the red.&lt;/p&gt;
+
+&lt;p&gt;Reset score to zero?&lt;/p&gt;
+
+&lt;p&gt;Lose arbitrary number of points.&lt;/p&gt;
+
+&lt;p&gt;Gain arbitrary number of points.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public enum ScoreType
+{
+    ResetScore = 0,
+    LosePoints = 1,
+    GainPoints = 2,
+    ItemAssigned = 3,
+    DeploymentCompleted = 4,
+    FundsRaised = 5,
+    ItemDropped = 6,
+    IncorrectItemAssigned = 7,
+    ItemAlreadyAssigned = 8,
+    BalanceIntoRed = 9
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Keep it simple to start.</summary></entry><entry><title type="html">Giving The Game A Voice</title><link href="http://localhost:4000/2020/04/12/game-speech-and-narrative.html" rel="alternate" type="text/html" title="Giving The Game A Voice" /><published>2020-04-12T00:00:00+01:00</published><updated>2020-04-12T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/12/game-speech-and-narrative</id><content type="html" xml:base="http://localhost:4000/2020/04/12/game-speech-and-narrative.html">&lt;h1 id=&quot;synthesised-speech-used-throught-the-game&quot;&gt;Synthesised speech used throught the game&lt;/h1&gt;
+
+&lt;p&gt;Speech is used in order to attempt to connect and bond the player with the game and with the game’s motives.&lt;/p&gt;
+
+&lt;p&gt;Text taken from my introduction, or ‘prologue’ to the game, will be used. The question is, do I use it all at once, at the start, or would it be better to distribute it throughout the game at poignant moments?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Welcome. Thank you for volunteering. We have a critical situation. There are a number of disasters that require your urgent attention.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These resources are precious.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Please assign them carefully to the disasters with which you are confronted.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Don’t forget: be cool.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Be careful.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Diligent planning will help more people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Too much attention to a single cause can mean failure for so many others.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Good luck!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The text to speech service I have been using provides a satisfying balance between realistic and synthesised, where the voice is noticably unreal but also pleasant, calming and soothing in a very human way. Although very different in tone, it encompasses some of the character I wanted to emulate that is present in the wonderfully recongnisable and now ubiquitous standard for artificial intelligence that is the voice of &lt;strong&gt;HAL 9000&lt;/strong&gt; in &lt;em&gt;&lt;strong&gt;2001: A Space Odyssey&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;My failed attempts to find a suitably similar speech synthesiser did not actually last very long. I did not want to use the exact same voice - it would be a little too derivative my taste and too denotive of something that I am not trying to re-create. But it was the character that I wanted to harness. I want to keep the player aware of their relationship with the game, to continue to let them know they are part of something that is not an actual and genuine attempt at a pretence to pass itself off as real, and this may be emphasised by the slightly separate and other-worldly nature of the immersive environment. As Doug Brown … [citation - fourth wall breakage in The Suspension of Disbelief]&lt;/p&gt;</content><author><name></name></author><summary type="html">Synthesised speech used throught the game</summary></entry><entry><title type="html">Gameplay and The Suspension of Disbelief</title><link href="http://localhost:4000/2020/04/07/gameplay-and-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Gameplay and The Suspension of Disbelief" /><published>2020-04-07T00:00:00+01:00</published><updated>2020-04-07T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/07/gameplay-and-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/04/07/gameplay-and-suspension-of-disbelief.html">&lt;h2 id=&quot;how-making-the-game-more-like-a-game-makes-it-more-like-reality&quot;&gt;How making the game more like a game makes it more like reality&lt;/h2&gt;
+
+&lt;h1 id=&quot;this-is-strange-isnt-it&quot;&gt;This is strange, isn’t it?&lt;/h1&gt;
+
+&lt;p&gt;I’ve been striving to make my game more like a ‘proper’ game, knowing that this will aid the sense of immersion for the player. However, I wasn’t really ready for how much this really does happen! It doesn’t matter that the actions within the game - animations, sounds, responses to input and stimulii - could potentially be increasingly removed from what is real, in terms of actually real and expected within normal real-world physical situations and resulting from real-world physical interactions. The feeling of immersion increases as I increase the number of animations and game devices, as long as they adhere to a ‘seriousness’ and are not too frivolous in a way that could be viewed as self-indulgent. If the game believes it, then the player is asked to also believe it, and the player is all too happy to oblige.&lt;/p&gt;
+
+&lt;p&gt;Perhaps we are so used to games in modern culture that these have been accepted into and as reality. Media such as film, TV, games etc, along with the increasing aborbsion into the mainstream of ways to interact with our world via artiface and interface, have formed a kind of new relationship with reality and, in fact, caused a playful ‘fourth wall’ to come into being - in order to be broken - between ourselves and our reality. Reality is boring. Let’s create an alternative one that distorts or enhances it. This is much more fun! The 20th Century was in many ways, the centure of drugs and alternaive ways of seeing, opening the ‘doors of perception’. It’s perfectly fitting and proper that we should feel comfortable immersing ourselves within a made up world, as long as the world itself can convince us that it is real. Even better if it adds value and it an improvement on what we are currently lumbered with!&lt;/p&gt;</content><author><name></name></author><summary type="html">How making the game more like a game makes it more like reality</summary></entry><entry><title type="html">Keyboard Data Input</title><link href="http://localhost:4000/2020/04/07/keyboard-input.html" rel="alternate" type="text/html" title="Keyboard Data Input" /><published>2020-04-07T00:00:00+01:00</published><updated>2020-04-07T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/07/keyboard-input</id><content type="html" xml:base="http://localhost:4000/2020/04/07/keyboard-input.html">&lt;h2 id=&quot;attempts-at-finding-a-way-to-input-player-credentials-in-vr&quot;&gt;Attempts at finding a way to input player credentials in VR&lt;/h2&gt;
+
+&lt;p&gt;This has proved to be not a simple as I’d expected.&lt;/p&gt;
+
+&lt;p&gt;Standard input methods using Unity are not so easy to customise. That’s not to say it can’t be done, but unless you are a very experienced and knowledgable Unity / VR developer, it does not appear as anything close to a straightforward process.&lt;/p&gt;
+
+&lt;p&gt;It’s possible I have missed something that ought to be obvious, but missed it I have.&lt;/p&gt;
+
+&lt;p&gt;I found some assets on the Unity App Store - the free options I could not get working. Again, it could be possible to work with these and perhaps I am being a little hasty in my dismissal of them, but I do not have a lot of time and, unless there is accompanying documentation or something comes up from a few Google searches or checking out YouTube tutorials, then my patience is stretched beyond breaking point. It’s then time to move on to something else.&lt;/p&gt;
+
+&lt;p&gt;One that looked interesting was VR Keyboard, which uses &lt;a href=&quot;https://www.youtube.com/watch?v=Q_kUlVTyRag&quot;&gt;xylaphone-style mallets to hit the keys&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q_kUlVTyRag&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/Q_kUlVTyRag/0.jpg&quot; alt=&quot;VR Keys&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I could not get this to work in my Oculus Quest setup. But then I found VRKB which is very similar, is newer (July 2019), has no reviews, no feedback anywhere. But it costs $10 - not a huge amount of money, but what if it does not work - it’s money down the drain. But it does have &lt;a href=&quot;https://forum.unity.com/threads/released-vrkb-virtual-reality-keyboard.735905/&quot;&gt;documentation&lt;/a&gt; an accompanying &lt;a href=&quot;https://www.youtube.com/watch?time_continue=90&amp;amp;v=J1dHujWH23s&amp;amp;feature=emb_logo&quot;&gt;video on YouTube&lt;/a&gt; in which the develop demonstrates how easy it is to set up. The video has no likes, no dislikes and no comments, which is a concern, but it exists and that counts for something!&lt;/p&gt;
+
+&lt;p&gt;I also found two other potential suiters in the asset store - $4.99 and $15 respectively. Like VRKB they do not specifically mention Oculus Quest, but I am tempted by them, in the order of cheapest first. They are more standard in their operation - the $4.99 one looks like it uses gazing predominantly, but has possibly been recently updated to use lazer pointing. But I do like the idea of those xylophone mallets… hmmm…&lt;/p&gt;
+
+&lt;h1 id=&quot;an-aside-this-is-very-interesting&quot;&gt;An aside: this is very interesting&lt;/h1&gt;
+
+&lt;p&gt;Not something for this project - far from it - but very interesting none the less.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qFGweUpAs8I&quot;&gt;VR-OS: Keyboard and Mouse - Custom hardware and software implementation&lt;/a&gt;. I’m mentioning it purely for its fascination value - I would love to be in a position to play around with this kind of thing. It uses a physical setup, tracking hand movements as they interacting with a physical keyboard and trackable mouse, using this data in realtime in a VR environment. So there is no need to use a virtual keyboard/mouse or to remove the headset in order to use the physical objects. It’s fun and practical. However, as Augmented Reality grows in use and potential, this kind of thing should become an interesting footnote in the onward march of virtual technology.&lt;/p&gt;
+
+&lt;p&gt;Went for VR UIKit. $35 including tax. More than just the keyboard - also includes other useful-looking UI snippets.&lt;/p&gt;
+
+&lt;p&gt;However, it’s not as easy to set up as I’d hoped. But still a good learning curve continuation that will help in the long-haul.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=MGEWR4J6F4o&lt;/p&gt;
+
+&lt;p&gt;Need laser for this: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/&lt;/p&gt;
+
+&lt;p&gt;But where is it? There is no Laser Input Module, as demonstrated in the video!
+Look like it has been depricated.&lt;/p&gt;</content><author><name></name></author><summary type="html">Attempts at finding a way to input player credentials in VR</summary></entry><entry><title type="html">What Am I Doing? Part 2</title><link href="http://localhost:4000/2020/04/02/what-am-i-doing-part2.html" rel="alternate" type="text/html" title="What Am I Doing? Part 2" /><published>2020-04-02T00:00:00+01:00</published><updated>2020-04-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/02/what-am-i-doing-part2</id><content type="html" xml:base="http://localhost:4000/2020/04/02/what-am-i-doing-part2.html">&lt;h2 id=&quot;attempts-at-finding-a-way-to-make-this-game-compelling&quot;&gt;Attempts at finding a way to make this game compelling&lt;/h2&gt;
+
+&lt;h1 id=&quot;leader-board&quot;&gt;Leader board&lt;/h1&gt;
+
+&lt;p&gt;Tapping into the competitive nature of (most) human beings, and the reason for the actual existence of (most) games (that’s a statement I will need to back up with some sound research!), it may be worth developing the &lt;em&gt;competitive&lt;/em&gt; side of the game. Introducing a scoring system and a subsequent &lt;em&gt;leader board&lt;/em&gt; could achieve this.&lt;/p&gt;
+
+&lt;p&gt;As I’d like to incorporate a multi-player aspect to this game at some point, this could be looked at from a number of perspectives. Competition between individuals playing individually, is one thing, but there could also be competition between individuals playing as a team. It may be that individuals get rewarded for being more successful than their co-player, but is could also be that individuals get rewarded for being more team-oriented. These are concepts I will further explore.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-to-do-when-a-disaster-scenario-has-been-fully-deployed&quot;&gt;What to do when a disaster scenario has been fully deployed?&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Replace with a new mission:&lt;/strong&gt; I have played with ideas around replacing a completed mission with a new one. This involved selecting a report from the list - i.e. the list that a random selection is taken from at the start of the game - and replacing the completed report.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Close down the screen:&lt;/strong&gt; with style! Screen spins round, shrinks and vanishes! Will need suitable sound effects for this. I imagine this being tied up with the points scoring system, whereby a completed mission is worth a large amount of points, to be added to the points scored by assigning resource objects.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;wind-zone&quot;&gt;Wind zone&lt;/h1&gt;
+
+&lt;p&gt;An increasingly gusty wind zone to blow resources off course. I could use Unity’s ‘wind-zone’ object or, as I did in the &lt;em&gt;disaster scenario&lt;/em&gt; scene of my prototype, define a large collider that applies directional forces to objects that enter within.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;GitKraken ‘Glo’ Kanban Board&lt;/strong&gt;
+&lt;img src=&quot;\images\gitkraken-glo-board.jpg&quot; alt=&quot;GitKraken 'Glo' Kanban Board&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;haptic-feedback&quot;&gt;Haptic feedback&lt;/h1&gt;
+
+&lt;p&gt;As I want to include some tactile feedback for the user when picking up objects and touching buttons and screens etc., as usual I searched the internet for documentation, advice and tutorials. As is often the case, the Oculus documentation is limited and did not examine a real-world scenario. The instruction provided is to use&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; static void OVRInput.SetControllerVibration(float frequency, float amplitude, Controller controllerMask)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.oculus.com/documentation/unity/unity-haptics/?locale=en_GB&quot;&gt;Oculus documentation: Unity Haptics&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;so calling &amp;gt; OVRInput.SetControllerVibration(1, 1, OVRInput.Controller.RTouch); 
+should do the trick. Except it is very uncontrollable. I want a short burst and this lasts for 2 seconds. This would mean I would have to contrive a a short burst using a coroutine in order to instigate a short delay before stopping the feedback (i.e. with zero values for frequency and amplitude). 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Again, as it often the case, further searching found better, more usable, solutions. In particular one from Valem (Valam is a very handy guy to have around, as I’ve mentioned elsewhere) provided a thoughtful and useful solution. His can either use a sound file to control the nuances of the haptic feedback or can take parameters that define the frequency, duration and strength in a much more controllable way when compared to Oculus’s own API.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9KJqZBoc8m4&quot;&gt;Valem: How to make a VR game in Unity - Part 5 - Controller Vibration&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;images\haptic-valem-1.jpg&quot; alt=&quot;The haptic parameter&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Attempts at finding a way to make this game compelling</summary></entry><entry><title type="html">What Am I Doing? Part 1</title><link href="http://localhost:4000/2020/03/27/what-am-i-doing-part1.html" rel="alternate" type="text/html" title="What Am I Doing? Part 1" /><published>2020-03-27T00:00:00+00:00</published><updated>2020-03-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/27/what-am-i-doing-part1</id><content type="html" xml:base="http://localhost:4000/2020/03/27/what-am-i-doing-part1.html">&lt;h2 id=&quot;attempts-at-finding-a-way-to-make-this-game-compelling&quot;&gt;Attempts at finding a way to make this game compelling&lt;/h2&gt;
+
+&lt;p&gt;As I explore ideas I will, no doubt about it, find that some of my attempts to make this game compelling, simply fail. Others, hopefully, can be rescued and built upon.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Resource object time-out:&lt;/strong&gt; I have added a timer to the collectable resource objects, which begins count-down the moment an object is picked up. If the object is still being held when the counter reaches zero then object is destoyed and placed back in its box. The mechanic is in place, but how it is used is not defined just yet. Currently, the length of time available for the player to keep hold of the object before dispatching it to a disaster scenario reduces as the game progresses, but the potential is there for this to be used as an added complexity, perhaps adding an incentive to keep the budget levels high.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Resources cost money:&lt;/strong&gt; Each resource object has a price tag, and the availble budget is reduces by each resource deployment.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Funds can be raised:&lt;/strong&gt; A random fund-raising event is displayed on the computer screen next to the player and the player has the option to initiate one of these when the budget gets low. Currently this just sets the budget back to its initial value, but I will be working on the mechanic to add complexity. For instance, each event has an estimated potential funding return which can be used as a base for a psuedo random actual value. I also imagine the event to take some time before any funds are made available - after all, realistically time must be allowed for planning etc. and an event can only take place some time after it has been given the go-ahead. I am also thinking of giving a short window to select the event before it vanishes. It may be that the player has to wait with no funds before another event becomes available.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Attempts at finding a way to make this game compelling</summary></entry><entry><title type="html">COVID-19 - The Lockdown</title><link href="http://localhost:4000/2020/03/25/covid-19-lock-down.html" rel="alternate" type="text/html" title="COVID-19 - The Lockdown" /><published>2020-03-25T00:00:00+00:00</published><updated>2020-03-25T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/25/covid-19-lock-down</id><content type="html" xml:base="http://localhost:4000/2020/03/25/covid-19-lock-down.html">&lt;h2 id=&quot;what-gives&quot;&gt;What gives?&lt;/h2&gt;
 
 &lt;p&gt;So, we’re all on government-inforced lock-down. Generally, this is already having a significant effect on everyday life, but how will it effect my MA development work and studies?&lt;/p&gt;
 
@@ -102,293 +281,4 @@ I will update this with a more professional job shortly!
     &lt;source src=&quot;\media\playing-with-palettes.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Colour Wheel</summary></entry><entry><title type="html">Hand Tracking</title><link href="http://localhost:4000/2020/02/27/hand-tracking.html" rel="alternate" type="text/html" title="Hand Tracking" /><published>2020-02-27T00:00:00+00:00</published><updated>2020-02-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/27/hand-tracking</id><content type="html" xml:base="http://localhost:4000/2020/02/27/hand-tracking.html">&lt;h1 id=&quot;why-hand-tracking&quot;&gt;Why hand-tracking?&lt;/h1&gt;
-
-&lt;p&gt;Controllers in Virtual Reality are at once extremely well-designed, precision pieces of equipment that make interaction between human beings and virtual worlds a more than reasonably seemless and intuitive experience. However, these controllers, no matter how well-designed, insist on a certain amount of experience with this kind of thing. Not everyone posesses a reasonably extensive experience honing their video-gaming expertise whilst immersing themselves in worlds that can best, or perhaps, only be adequately accessed and fully appreciated through devices that allow them to be experienced on their own terms. In this sense they actually form a barrier - one that can be enjoyable and aid increased immersiveness for those searching for such experiences though videogames - but one that could potentially be off-putting to those who are inexperienced in such media. Simply teaching those who have never experienced virtual reality - easily representing the majorty of the potential audience at a non-enthusiast exhibition - would take time and effot, some of which will have been wasted when the a potential user decides that this is not for them after all.&lt;/p&gt;
-
-&lt;p&gt;Hand tracking, then, could be a useful ‘leveler’, where almost anyone can relate their physical experience as human beings to actions interpreted and imagined within a virtual scenario.  In the case of ShelterBox, it may be that a reduction of the time needed to teach matters as mundane as using the controllers will allow more time to experience the media and to think about issues of great importance.&lt;/p&gt;
-
-&lt;h1 id=&quot;setting-up-and-using-oculus-quest-hand-tracking&quot;&gt;Setting up and using Oculus Quest hand tracking&lt;/h1&gt;
-
-&lt;p&gt;This is a new feature for the Quest as of December 2019. It is steadily improving as the weeks roll by.
-However, it’s new-ness and the continual roll-out of updates brings its own problems: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tutorials can become out of date very quickly and gradually become less relevant or realistic to follow&lt;/li&gt;
-  &lt;li&gt;Your own set up can get behind the curve and changes you need to incorporate in order to include the latest features can mean at least some headache.&lt;/li&gt;
-  &lt;li&gt;There is little community of knowledge to approach for answers, as everyone has similary questions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I began by following &lt;a href=&quot;https://www.youtube.com/watch?v=vSia7t_WlbQ&quot;&gt;this tutorial&lt;/a&gt; by Valem (a Belgian guy called Quentin, I believe) and there were a few issues getting going, due to the video being a whole two-months old. In Quest years that’s way past the innocence of childhood and is now hitting puberty. Updating the Unity Oculus Integration package fixed some problems, and thinking around other problems fixed those. There’s not much point in putting too much detail here because it will likely have become irrelevant in a matter of months, or in Quest Years, before we hit late teens.&lt;/p&gt;
-
-&lt;p&gt;Hand tracking was, when he made the video, only possible in Android mode and did not include the ability to work using Oculus Link, i.e. running the Quest from a PC connected via a (fast, quality) USB cable. A later update - v13 of the Oculus firmware - in February, has now made this possible.&lt;/p&gt;
-
-&lt;p&gt;I went straight for the Link promise, with unexpected results!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Nighmare hands! .. oh dear, that wasn’t supposed to happen!&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\hand-tracking-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Actually, not totally unexpected, at least in terms of it not going right at first. But the actual look of the hands is very.. ahem.. interesting!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hands correctly configured&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\hand-tracking-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The hands, once configured correctly, do respond fairly well to realtime movements - there is a small amount of latency, but they do tend to ‘wobble’, or twitch a little, particularly at the ends of the fingers. Presumably this is due to inaccuracies when attempting to keep track. It feels like a slightly weak WiFi or telephone signal and there is the sense that, if only the signal were better then the results would be much tighter and more solid and, therefore, more realistic.&lt;/p&gt;
-
-&lt;p&gt;There is also a point where the hands, when they come together to touch or interlace fingers, disappear from view, presumably due to the complexities of maintaining the calculations required to interprate and separate the jumbled information being passed to the sensors.&lt;/p&gt;
-
-&lt;p&gt;The fact, though, that all this is achieved with just a headset, making use of no extra hardware or specialist software aside from Oculus’ own, provided for free (to those who have already paid for the equipment, of course), is impressive at this time. I would like to see if specialist hardware/software solutions, such as &lt;a href=&quot;https://www.ultraleap.com/&quot;&gt;ultraleap&lt;/a&gt; become available for the Quest, particularly when not in Oculus Link mode. The main advantage of the Quest is that it can function perfectly well untethered - in fact, that is its primary focus and, as much as Oculus Link has provided another dimension, almost making the tethered-only Rift redundant, for me, the ability to be fully operational in any location and without any reliance on a computer with a reasonably high-end graphics card, is very important. But at the current time the in-built cameras on the Quest appear to do a reasonable job and the advantages - portability, simplicity and price - are not to be underestimated.&lt;/p&gt;
-
-&lt;p&gt;I will be studying next how to grab and throw using hand-tracking. But it also concerns me how movement will be achieved with no joystick controls - just bare hands - and I will also be looking into this issue..&lt;/p&gt;</content><author><name></name></author><summary type="html">Why hand-tracking?</summary></entry><entry><title type="html">Week Five - Concept Art</title><link href="http://localhost:4000/2020/02/24/week-five-concept-art.html" rel="alternate" type="text/html" title="Week Five - Concept Art" /><published>2020-02-24T00:00:00+00:00</published><updated>2020-02-24T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/24/week-five-concept-art</id><content type="html" xml:base="http://localhost:4000/2020/02/24/week-five-concept-art.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Unity And Graphics</title><link href="http://localhost:4000/2020/02/19/unity-graphics.html" rel="alternate" type="text/html" title="Unity And Graphics" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/unity-graphics</id><content type="html" xml:base="http://localhost:4000/2020/02/19/unity-graphics.html">&lt;h1 id=&quot;lighting-and-rendering&quot;&gt;Lighting and Rendering&lt;/h1&gt;
-
-&lt;p&gt;3D object shading results from the intensity, direction and colour of the light falling on it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Types of lighting&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Realtime lighting&lt;/strong&gt;
-In Unity - directional, spot and point. Update every frame and are interactive with moving objects. Do not bounce.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Baked  lighmaps&lt;/strong&gt;
-More complex, static. Lighting effects are written to textures overlaid on top of the scene geometry.
-Realtime lights can be overlaid &lt;strong&gt;additively&lt;/strong&gt; on top of lightmaps.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Precomputed realtime global illumination&lt;/strong&gt;
-Offers us a technique for updating complex scene lighting interactively. Shifts some of the lengthy number-crunching from being a realtime process to one which is precomputed. An example is a time of day system, following sun position throughout the day.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Choices of type of light to use is not only dependent on the effects required, but on expense in terms of performance as a result of available processing power of target platform.&lt;/p&gt;
-
-&lt;h1 id=&quot;creating-a-space-with-sketchup&quot;&gt;Creating a space with SketchUp&lt;/h1&gt;
-
-&lt;p&gt;Sketchup is a great tool for building 3D architectural spaces. I have been using an old version that was installed on my laptop for a few years and have found it fun to play with and useful for testing architectural designs. But one of the best things about it is that it was free….  ‘&lt;strong&gt;&lt;em&gt;was&lt;/em&gt;&lt;/strong&gt;’ free.&lt;/p&gt;
-
-&lt;p&gt;It’s now not so simple. When I first came across SketchUp it was part of Google’s output and didn’t cost a penny - and I was amazed! It is a well thought-out piece of software and, at the time, it really seemed incredible that something so well-designed and rivalled expensive commercial products could be available to the unwashed masses for nothing.&lt;/p&gt;
-
-&lt;p&gt;Since then, it appears to have been offloaded by Google and taken on by a company named Trimble (the history of SketchUp is summerised &lt;strong&gt;&lt;a href=&quot;https://techcrunch.com/2012/04/26/sketchup-google-first-divestment/&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;), with more recent versions covered by a subscription-style payment system - see the &lt;strong&gt;&lt;a href=&quot;https://www.sketchup.com/&quot;&gt;SketchUp&lt;/a&gt;&lt;/strong&gt; site for details. However, it is possible to still download earlier versions - v8 from 2010 is a stand-alone desktop version that is totally free, and the 2017 iteration is free for non-commercial use. These older versions of SketchUp &lt;strong&gt;&lt;a href=&quot;https://designerhacks.com/get-the-google-sketchup-free-download/&quot;&gt;can be found here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;SketchUp files can be easily brought into Unity. I created a pretty close rendition of the ground floor of my house and am working on being able to walk around it in VR. This stems from the idea of trying to create an environment that is familiar, comfortable, relaxing, following my train of thought on autism and education (annunciated throughout this course and this blog). I find that SketchUp provides a way to create architectural renditions of real and imagined spaces much more naturally than using the graphical tools provided within Unity, including ProBuilder and the standard Unity tools. The fact that it is simply a case of dragging the exported models directly into Unity is very useful, and the older free versions of SketchUp are absolutely fine for this purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The model in SketchUp&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\sketchup-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;The model in Unity&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\unity-pentre-street1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Lighting and Rendering</summary></entry><entry><title type="html">Colour Scheme Design Apps</title><link href="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html" rel="alternate" type="text/html" title="Colour Scheme Design Apps" /><published>2020-02-19T00:00:00+00:00</published><updated>2020-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/19/colour-scheme-design-apps</id><content type="html" xml:base="http://localhost:4000/2020/02/19/colour-scheme-design-apps.html">&lt;p&gt;There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.&lt;/p&gt;
-
-&lt;h1 id=&quot;color-hunter&quot;&gt;&lt;a href=&quot;http://colorhunter.com/&quot;&gt;Color Hunter&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Very useful browser-based app that allows uploading of an image which is then used to generate a palette.&lt;br /&gt;
-Alternatively, it is also possible to search Flickr.com for images to use.&lt;/p&gt;
-
-&lt;h1 id=&quot;paletton&quot;&gt;&lt;a href=&quot;http://paletton.com/&quot;&gt;Paletton&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Uses a simple browser-based UI to create complimentary colour combinations.&lt;/p&gt;
-
-&lt;h1 id=&quot;copaso&quot;&gt;&lt;a href=&quot;https://www.colourlovers.com/copaso/ColorPaletteSoftware&quot;&gt;Copaso&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Advanced colour palette creator that allows choosing colours, uploading of images, saving palettes and adding notes.&lt;/p&gt;
-
-&lt;h1 id=&quot;colorzilla&quot;&gt;&lt;a href=&quot;https://www.colorzilla.com/&quot;&gt;ColorZilla&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Chrome and Firefox extension. Reads colour from any point in browser. Can also inspect a page and create a palette of CSS gradients.&lt;/p&gt;
-
-&lt;h1 id=&quot;coolersco&quot;&gt;&lt;a href=&quot;https://coolors.co/&quot;&gt;Coolers.co&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Allows ‘random’ palette creation, cycling through palettes until you find the one you want. Then you can refine, edit it and save it. Also allows uploading of images for palett creation.&lt;/p&gt;
-
-&lt;h1 id=&quot;color-hunt&quot;&gt;&lt;a href=&quot;https://colorhunt.co/&quot;&gt;Color Hunt&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Chrome extension or web-based UI. Quick way of browsing and selecting palettes.&lt;/p&gt;
-
-&lt;h1 id=&quot;colorexplorer&quot;&gt;&lt;a href=&quot;http://www.colorexplorer.com/&quot;&gt;ColorExplorer&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;I more complex designing toolbox than the others with a large number of features and exporting options.&lt;/p&gt;
-
-&lt;h1 id=&quot;color-safe&quot;&gt;&lt;a href=&quot;http://colorsafe.co/&quot;&gt;Color Safe&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Helps to create color palettes based on WCAG Guidelines of text and background contrast ratios.&lt;/p&gt;
-
-&lt;h1 id=&quot;adobe-color&quot;&gt;&lt;a href=&quot;https://color.adobe.com/create/color-wheel/&quot;&gt;Adobe Color&lt;/a&gt;&lt;/h1&gt;
-
-&lt;h1 id=&quot;material-design&quot;&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html#tools-for-picking-colors&quot;&gt;Material Design&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Google sanctioned Material palette generator.&lt;/p&gt;
-
-&lt;h1 id=&quot;online-colour-wheels&quot;&gt;Online Colour Wheels&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://color.adobe.com/create&quot;&gt;Adobe color wheel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.canva.com/colors/color-wheel/&quot;&gt;Canva Color Wheel&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.sessions.edu/color-calculator/&quot;&gt;Sessions College Color Wheel&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;w3schools-html-colour-mixer&quot;&gt;&lt;a href=&quot;https://www.w3schools.com/colors/colors_mixer.asp&quot;&gt;w3schools HTML colour mixer&lt;/a&gt;&lt;/h1&gt;</content><author><name></name></author><summary type="html">There are some very useful and simple free apps out there for creating or selecting a colour palette. As you’d expect from the world of design, the UIs are generally elegant and pleasant to look at, as well as very functional.</summary></entry><entry><title type="html">Prologue - Assign | Deploy</title><link href="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html" rel="alternate" type="text/html" title="Prologue - Assign | Deploy" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/prologue-assign-and-deploy</id><content type="html" xml:base="http://localhost:4000/2020/02/18/prologue-assign-and-deploy.html">&lt;div style=&quot;font-family: Courier New;&quot;&gt;
-
-&lt;b&gt;Please enter your personal details:&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
-Name: &lt;b&gt;Alex&lt;/b&gt;&lt;br /&gt;
-Gender: &lt;b&gt;Male&lt;/b&gt;&lt;br /&gt;
-DOB: &lt;b&gt;04/07/1996&lt;/b&gt;&lt;br /&gt;
-Reason for being here: &lt;b&gt;looking for adventure&lt;/b&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;welcome-alex-thank-you-for-volunteering-we-have-a-critical-situation-there-are-a-number-of-disasters-that-require-your-urgent-attention&quot;&gt;&lt;strong&gt;&lt;em&gt;“Welcome Alex. Thank you for volunteering. We have a critical situation. There are a number of disasters that require your urgent attention…“&lt;/em&gt;&lt;/strong&gt;&lt;/h1&gt;
-
-&lt;div style=&quot;font-family: Times New Roman; font-size: 1.4em;&quot;&gt;
-Alex is an office administrator. He volunteered for ShelterBox because it looked interesting and something different to do with his time. Well, okay.. it was partly this, but also it was because he’d watched and listened to the news for what seemed like his entire life feeling detached from the important and significant events around the world.. those he could only witness from a distance. &lt;br /&gt;&lt;br /&gt;
-He now felt he had discovered something new. Doors had been opened. Suddenly, he had found an opportunity to pack his bags and go out there, in person, to help those who had just experienced disaster at close quarters. In fact, maybe he didn't have to remain outside it all any longer. Perhaps he would now be able to look people directly in the eye and try to understand, to really understand, what they had been through. At the very least he could now maybe help out in some way - grab a warm blanket and put it around the shoulders of someone who had not experienced such simple pleasure for weeks, or drop off a box containing medication that could mean more than he could imagine to a family for whom only a few days ago things had looked so bleak!&lt;br /&gt;&lt;br /&gt;
-At least, this was his ambition. But first, Alex needed to step into the uncomprising world of Distaster Response Preparation. It is a tough job, but someone has to do it, and why shouldn't that someone be Alex?!&lt;br /&gt;&lt;br /&gt;
-Alex walked into the &lt;span style=&quot;font-style: italic;&quot;&gt;Response Room&lt;/span&gt;. It was as he expected – a serious room defined by serious intentions. “Welcome Alex”, said a calm female voice that appeared to come from everywhere. “Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?”.&lt;br /&gt;&lt;br /&gt;
-“Yes, I am”, said Alex.&lt;br /&gt;&lt;br /&gt;
-The sound of well-insulated electronically controlled servers whirred into action with the kind of slick precision associated with German engineering. From within the rather bland looking counter incongruously sitting in front of him, three monitor screens slid into view that seemed to embody a cold, machine-grade sense of expectation. Simultaneously, an opening emerged and, from within, appeared the first of a series of disaster relief resource holograms. Alex had not noticed at first, but each screen appeared to be suspended above what looked like large, bottomless boxes, coloured in the standard ShelterBox Blue and designed to withstand the kind of treatment handed out by Ryanair on a short-staffed bank holiday weekend.&lt;br /&gt;&lt;br /&gt;
-“These resources are precious. Please assign them carefully to the displayed disasters. Don’t forget: be cool; be careful. Diligent planning can help more people; too much attention to a single cause can mean failure for so many others.”&lt;br /&gt;&lt;br /&gt;
-“Alex, good luck!”
-
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Week Four - Colour Theory</title><link href="http://localhost:4000/2020/02/18/week-four-colour-theory.html" rel="alternate" type="text/html" title="Week Four - Colour Theory" /><published>2020-02-18T00:00:00+00:00</published><updated>2020-02-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/18/week-four-colour-theory</id><content type="html" xml:base="http://localhost:4000/2020/02/18/week-four-colour-theory.html">&lt;h1 id=&quot;notes-on-colour-theory&quot;&gt;Notes on colour theory&lt;/h1&gt;
-
-&lt;p&gt;Colour is subject experience.&lt;/p&gt;
-
-&lt;p&gt;Perception of frequencies of light.&lt;/p&gt;
-
-&lt;p&gt;Part physical, part interpretational&lt;/p&gt;
-
-&lt;p&gt;Subconscious&lt;/p&gt;
-
-&lt;p&gt;Choice influenced by colour.&lt;/p&gt;
-
-&lt;p&gt;Importance: shape –&amp;gt; colour –&amp;gt; content&lt;/p&gt;
-
-&lt;p&gt;Cultural, non-universal&lt;/p&gt;
-
-&lt;p&gt;Umberto Eco (1985) - neither psychologial nor aesthetic - cultural - linguistic&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;verbal language makes the non-verbal recognisable
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;So much in common with music!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Important to make the right colour choices - evoke emotions
-Colour mistakes can have a lasting negative impact on your brand.&lt;/p&gt;
-
-&lt;p&gt;Neil Balingher&lt;/p&gt;
-
-&lt;p&gt;Appeal, usability, accessibility of app.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/&quot;&gt;Apple&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;https://brandpalettes.com/google-colors/&quot;&gt;Google&lt;/a&gt;&lt;/strong&gt; provide documentation about use of appropriate colour for their products.&lt;/p&gt;
-
-&lt;p&gt;Microsoft has &lt;strong&gt;&lt;a href=&quot;https://developer.microsoft.com/en-us/fabric&quot;&gt;UI Fabric&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And then there’s &lt;strong&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html#&quot;&gt;Meterial Design&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Accessibility&lt;/strong&gt; - colour blindness - ‘colour vision deficiences’&lt;/p&gt;</content><author><name></name></author><summary type="html">Notes on colour theory</summary></entry><entry><title type="html">Dog Walker Simulator - The Interactive Novel</title><link href="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html" rel="alternate" type="text/html" title="Dog Walker Simulator - The Interactive Novel" /><published>2020-02-17T00:00:00+00:00</published><updated>2020-02-17T00:00:00+00:00</updated><id>http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel</id><content type="html" xml:base="http://localhost:4000/2020/02/17/dog-walker-simulator-interactive-novel.html">&lt;h1 id=&quot;the-brief-create-an-interactive-novel&quot;&gt;The brief: create an interactive novel&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Suggestion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Create an interactive novel using Ren’Py, loosely based on the game creation activity from Week 2. There must be at least three interactive moments within the novel.&lt;br /&gt;
-In line with the previous activity, these decision points might be:&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Choosing which character will save the day.&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;Deciding how the character uses your app to save the day.&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;Selecting an action to execute in battle.&lt;br /&gt;&lt;/li&gt;
-    &lt;li&gt;Ending the game, by choosing what the character will do once they have overcome the challenge, for example, do they go back to their normal life or choose to continue using their power for good or evil?&lt;br /&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This activity is designed to encourage you to think outside the box and be creative with how you communicate a concept. There are no boundaries or constraints, apart from the minimum number of interactive moments in the novel. There are also no rights, wrongs or silly ideas. Do whatever feels right in regards to your main concept.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;renpy&quot;&gt;&lt;a href=&quot;https://www.renpy.org/&quot;&gt;Ren’Py&lt;/a&gt;&lt;/h1&gt;
-
-&lt;div style=&quot;text-align: left; margin: 20px;&quot;&gt;
-    &lt;img src=&quot;\images\ren-py-main.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ren’Py seems to be a simple way to produce interactive text (see &lt;a href=&quot;http://www.autzones.com/din6000/textes/semaine09/Aarseth(1997).pdf&quot;&gt;Cybertext&lt;/a&gt;) which requires the reader/player to make choices along the way, causing the narrative to fork and head in directions that are the result of the decision that have been made. Its multi-platform nature and portability makes it particulary interesting due to the possibility of creating simple demos that are easily made available. Ren’Py scripts are simple text files that follow a simple syntax.&lt;/p&gt;
-
-&lt;h1 id=&quot;fungus&quot;&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/templates/systems/fungus-34184&quot;&gt;Fungus&lt;/a&gt;&lt;/h1&gt;
-
-&lt;div style=&quot;text-align: left; margin: 20px;&quot;&gt;
-    &lt;img src=&quot;\images\fungus-main.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;A free asset for Unity, Fungus describes itself as being &lt;em&gt;great for making Visual Novel, Interactive Fiction, RPG, Point &amp;amp; Click &amp;amp; eLearning games&lt;/em&gt;.
-It looks like an interesting option and, because it uses the Unity IDE, workflow and Asset Store, it could be very useful as I  increasingly make use of Unity for my projects. I believe it will also be relatively straight forward to turn the work done using Fungus into a ‘full’ Unity-based project.&lt;/p&gt;
-
-&lt;p&gt;I am looking forward to trying out Fungus, but for this exercise I will be using Ren’Py, for it’s relatively simple workflow, small file size and ability to easily port to multiple devices.&lt;/p&gt;
-
-&lt;h2 id=&quot;dog-walker-simulator&quot;&gt;&lt;a href=&quot;/2020/02/04/dog-walker-simulator.html#take2&quot;&gt;Dog Walker Simulator&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;My narrative will be based on my updated story idea which can be seen &lt;a href=&quot;/2020/02/04/dog-walker-simulator.html#take2&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Interactive moments could be: -&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;The dogs have broken freen from Crystal’s grasp and are heading in different directions. What should be her response?&lt;/li&gt;
-  &lt;li&gt;Which dog, or dogs, to go after first?&lt;/li&gt;
-  &lt;li&gt;What to do when she or a dog is facing imminent danger?&lt;/li&gt;
-  &lt;li&gt;What to do when she has collected all the dogs she is able to?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Trying to outline interactive moments in such a linear fashion is not as simple as it first appears to be, as the very nature of interactive, &lt;em&gt;&lt;a href=&quot;https://www.articleworld.org/index.php/Ergodic_literature&quot;&gt;&lt;strong&gt;ergodic literature&lt;/strong&gt;&lt;/a&gt;&lt;/em&gt; is non-linear. For instance, point 3 may not even come to pass depending on decisions made at points 1 or 2. Therefore, the suggestions above cannot be seen as the definitive set of choices available.  Perhaps it would be better to draw up a more complex network of possibiliies. I have a feeling the alternative, of simply making a start creating the narrative and seeing where it leads, could lead to huge confusion!&lt;/p&gt;
-
-&lt;div style=&quot;text-align: left; margin: 20px;&quot;&gt;
-    &lt;img src=&quot;\images\interactive-novel-sketch-1.jpg&quot; width=&quot;80%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Points: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Finding images is going to be difficult - will have to make them myself to do a proper job.&lt;/li&gt;
-  &lt;li&gt;Python - discovering Python through Ren’Py. The use of variables became necessary. Looking at the documentaion indicates that the whole Python vocabulary will be important.&lt;/li&gt;
-  &lt;li&gt;Vastly reduced the number of possible options by reducing number of dogs from 5 to 3 then to 2 - potential first branches reduced and therefore number of possible outcomes etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I began by creating a sketch, on paper, of a vague possible plan of an interactive narrative. At this stage it started to become clear how complex a web this could become given even what appeared at first to be be a reasonable number of points of choice and potential forking onto difference paths - I found it difficult to use this plan verbatim, at least in large part due to this very fact. It made me realise just how linear programming itself can be. The complexities in both providing and following instructions that involve a large number of divergent strands do not seem to sit easily within such a format. It’s a little like trying to describe a three dimensional oject in two dimensions. Or, perhaps it is clearer how difficult this can be when you consider how hard it is to imagine a four dimensional world when viewed from our own perspective as fully paid up and assimilated members of one that is simply three dimensional.&lt;/p&gt;
-
-&lt;p&gt;Nevertheless, branching is possible but fraught with difficulties avoiding spaghetti and repetition. I used variables to help, for instance, differenciating when revisiting a certain scenario that could have been approached from a number of possible situations, for example, rescuing Trixie after Rusty had been reunited with Crystal, or the same scene, i.e. rescuing Trixie, after Rusty had been taken away by the dog warden. Variables can also be used for maintaining states - I used one for keeping track of energy levels.&lt;/p&gt;
-
-&lt;p&gt;Overall, the complexities of building this interactive novel meant it was more time-intensive than I had imagined it would be - although this would clearly improve with experience. I also found that I had little time to spend searching for good quality and suitable assets, such as character and background images. To do this properly one would really have to make their own, but of course, this is a skill in itself. As it was, I picked images very quickly with little consideration for aethetic quality or cohesive design - doing so would have been unnecessary with regard to the limited intentions of the exercise.&lt;/p&gt;
-
-&lt;p&gt;I considered creating my own cartoon-like images, but quickly realised it would take a very long time to do so. I got as far as a single outline sketch, but to turn this into a set of usable png files (which they would need to be in order to have transparent backgrounds) would be a project in its own right!&lt;/p&gt;
-
-&lt;div style=&quot;text-align: left; margin: 20px;&quot;&gt;
-    &lt;img src=&quot;\images\trixie-dog-sketch.jpg&quot; width=&quot;60%&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;However, I did use a music track that I created myself - &lt;a href=&quot;https://soundcloud.com/stephen-banbury/movement&quot;&gt;&lt;strong&gt;Movement (soundcloud)&lt;/strong&gt;&lt;/a&gt; - although clearly this was not created specifically for this project. Building a usable library of assets would make creating such an artefact much simpler and far quicker, as well as avoiding potential issues surrounding permissions and copyright. But as this would consume a huge amount of time it is certain that, at least, certain assets will always need to be acquired from suitable resources. The better quality assets are, of course, generally not free.&lt;/p&gt;
-
-&lt;p&gt;I do find it interesting that, awful though my selection of images are, they are still more engaging than none at all. After all, a sequential selection of visual images, even if the quality is questionable, make telling a story more immediate and engaging than textual or verbal forms alone. There is also a significant body of research looking at the use of music in film and TV, as a &lt;a href=&quot;https://rhythmcoglab.coursepress.yale.edu/wp-content/uploads/sites/5/2014/10/Music-as-a-Source-of-Emotion-In-Film.pdf&quot;&gt;&lt;strong&gt;source of emotional impact&lt;/strong&gt;&lt;/a&gt; that plays its part in &lt;a href=&quot;https://books.google.co.uk/books?hl=en&amp;amp;lr=&amp;amp;id=YjZN-44Z8AcC&amp;amp;oi=fnd&amp;amp;pg=PP11&amp;amp;dq=film+music&amp;amp;ots=0uDqu6CF7c&amp;amp;sig=LlmWuuKRq5v0hVDJSNLD9h1U48g#v=onepage&amp;amp;q=film%20music&amp;amp;f=false&quot;&gt;&lt;strong&gt;setting a ‘tone’&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The video here demonstrates a number of different possible storylines, each dependent on the player’s choices. The differences here are fairly subtle but are resultant upon choices made earlier by the ‘reader’ who, through the effort required to move the story forward, in effect plays a part beyond simply its telling, but in its creation and, therefore, its manifestation into something real and unique in its own lifetime.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dog walker simulator&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; controls=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\dog-walker-simulator.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Ren’Py, and other applications with similar aims, such as Fungus, certainly appear to be fairly popular - judging by the number of hits when searching the internet - suggesting they have a number of potential uses. As well as testing ideas for story-oriented or game-like apps, I can see the opportunity for creating interactive presentations that could be very useful for pitching or promoting ideas. It is predominantly for this reason that I am glad to have engaged with it.&lt;/p&gt;</content><author><name></name></author><summary type="html">The brief: create an interactive novel</summary></entry></feed>
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Colour Wheel</summary></entry></feed>

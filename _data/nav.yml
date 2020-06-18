@@ -83,12 +83,39 @@ toc:
           - page: COVID-19 Lock-down
             date: 2020-03-25
             url: 2020/03/25/covid-19-lock-down.html
-      # - page: Week Nine - Doug Pennant
-      #   date: 2020-03-23
-      #   url: 2020/03/23/week-nine-doug-pennant.html
-      # - page: Week Ten - 3D Art
-      #   date: 2020-03-30
-      #   url: 2020/03/30/week-ten-doug-pennant.html
+      - page: Week Nine - Doug Pennant
+        date: 2020-03-23
+        url: 2020/03/23/week-nine-doug-pennant.html
+        subsubfolderitems:
+          - page: What am I doing Part 1
+            date: 2020-03-27
+            url: 2020/03/27/what-am-i-doing-part1.html
+      - page: Week Ten - 3D Art
+        date: 2020-03-30
+        url: 2020/03/30/week-ten-3D-art.html
+        subsubfolderitems:
+          - page: What am I doing Part 2
+            date: 2020-04-02
+            url: 2020/04/02/what-am-i-doing-part2.html
+      - page: Easter break
+        date: 2020-04-06
+        url: 2020/04/06/easter-break.html
+        subsubfolderitems:
+          - page: Gameplay and The Suspension Of Disbelief
+            date: 2020-04-07
+            url: 2020/04/07/gameplay-and-suspension-of-disbelief.html
+          - page: Keyboard Input
+            date: 2020-04-07
+            url: 2020/04/07/keyboard-input.html
+          - page: Game Speech and Narrative
+            date: 2020-04-12
+            url: 2020/04/12/game-speech-and-narrative.html
+          - page: Game Starting
+            date: 2020-04-15
+            url: 2020/04/15/game-starting.html
+          - page: Points Scoring
+            date: 2020-04-15
+            url: 2020/04/15/points-scoring.html
       # - page: Week Eleven - Animation
       #   date: 2020-03-20
       #   url: 2020/03/20/week-eleven-animation.html
