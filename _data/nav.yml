@@ -1,5 +1,14 @@
 toc:
   
+  - title: Final Major Project (GAM750)
+    subfolderitems:
+      - page: Unity XR Integration
+        date: 2020-06-28
+        url: 2020/06/28/unity-xr-integration.html        
+        subsubfolderitems:
+          - page: Update
+            date: 2020-07-01
+            url: 2020/07/01/unity-xr-integration-update.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design
