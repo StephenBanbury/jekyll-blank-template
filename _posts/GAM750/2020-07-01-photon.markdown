@@ -1,0 +1,16 @@
+---
+layout: post
+title: Photon
+published: true
+---
+
+Back at the start of GAM720 I started looking at **[Photon PUN 2](https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro)** as a way of creating a multiplayer environment in Unity.
+
+**Building the multiplayer environment**
+* **[Part 1]({% link _posts/GAM720/2020-02-09-building-the-multiplayer-environment-part1.markdown %})**
+* **[Part 2]({% link _posts/GAM720/2020-02-12-building-the-multiplayer-environment-part2.markdown %})**
+
+This could still be an option for the getting multiple bodies within a single space, where they can interact with each other. 
+
+Streaming video will probably be best done using another solution, whether that be something like WebRTC or a bespoke sockets solution. Sending large amounts of data streaming through the Photon servers will likely present problems, such as speed issues and the potential of bumping up costs. I'd want to remain in the free banding, i.e. < 20 concurrent connections and < 60GB during development and maybe use a self-hosting server once up and running - see [this](https://forum.unity.com/threads/photon-pun2-free-forever-or-only-during-the-first-60gb.877201/) discussion.
+

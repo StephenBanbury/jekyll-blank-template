@@ -2,6 +2,9 @@ toc:
   
   - title: Final Major Project (GAM750)
     subfolderitems:
+      - page: Introduction
+        date: 2020-06-28
+        url: 2020/06/28/introduction.html  
       - page: Unity XR Integration
         date: 2020-06-28
         url: 2020/06/28/unity-xr-integration.html        
@@ -9,6 +12,26 @@ toc:
           - page: Update
             date: 2020-07-01
             url: 2020/07/01/unity-xr-integration-update.html
+      - page: Video Streaming
+        date: 2020-07-02
+        url: 2020/07/02/video-streaming.html       
+        subsubfolderitems:
+        - page: WebRTC
+          date: 2020-07-02
+          url: 2020/07/02/webrtc.html   
+      - page: Multiplayer Options
+        date: 2020-07-01
+        url: 2020/07/01/multiplayer.html      
+        subsubfolderitems:
+        - page: Photon
+          date: 2020-07-01
+          url: 2020/07/01/photon.html  
+        - page: Mirror
+          date: 2020-07-02
+          url: 2020/07/02/mirror.html  
+      - page: Building The Multiplayer
+        date: 2020-07-05
+        url: 2020/07/05/building-multiplayer.html      
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

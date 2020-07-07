@@ -1,0 +1,22 @@
+---
+layout: post
+title: Mirror
+published: true
+---
+
+This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on. 
+
+# Benefits
+* Open source
+* Free
+* No player limits
+* Good documentation
+* Built on the old Unity multiplayer system (UNET), bug-fixed and generally improved.
+* Client/Server pattern: the server can be hosted by a 'player, who is also a client (similar to Photon)
+* You can also set up a dedicated server.
+
+# Useful links
+[Dapper Dino (YouTube)](https://www.youtube.com/watch?v=5LhA4Tk_uvI)
+
+
+

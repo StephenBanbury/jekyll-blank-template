@@ -1,4 +1,214 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-01T14:04:03+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Unity XR Integration</title><link href="http://localhost:4000/2020/07/01/unity-xr-integration-update.html" rel="alternate" type="text/html" title="Unity XR Integration" /><published>2020-07-01T00:00:00+01:00</published><updated>2020-07-01T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/01/unity-xr-integration-update</id><content type="html" xml:base="http://localhost:4000/2020/07/01/unity-xr-integration-update.html">&lt;h1 id=&quot;update-i-intend-to-persevere-with-xr-integration&quot;&gt;Update: I intend to persevere with XR Integration&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-06T23:04:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Building Multiplayer</title><link href="http://localhost:4000/2020/07/05/building-multiplayer.html" rel="alternate" type="text/html" title="Building Multiplayer" /><published>2020-07-05T00:00:00+01:00</published><updated>2020-07-05T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/05/building-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/05/building-multiplayer.html">&lt;h2 id=&quot;unity-xr-integration--mirror&quot;&gt;Unity XR Integration &amp;amp; Mirror&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5LhA4Tk_uvI&quot;&gt;Good Mirror totorial series, but not VR specific&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I could only get to the point that my XR Rig (i.e. my player character) could appear as multiplayer clients, but I have so far not got to the stage where each client can see the other in the same space.&lt;/p&gt;
+
+&lt;p&gt;There is a distinct lack of documentation for using Mirror, less for XR Integration, and zero (it seems) for XR Integration multiplayer solutions!&lt;/p&gt;
+
+&lt;p&gt;I am keen to follow this route - it is my chosen one for reasons given elsewhere - but may have to resort to older tech and methods. Rather than spend too much time figuring this particular stack out, I now intend to look into using Oculus Integration (which I already know works, from experience) and Photon (which is mature, tried and tested and is better documented than Mirror).&lt;/p&gt;
+
+&lt;p&gt;[Video showing XR and Mirror]&lt;/p&gt;
+
+&lt;h2 id=&quot;unity-oculus-integration--photon-pun&quot;&gt;Unity, Oculus Integration &amp;amp; Photon PUN&lt;/h2&gt;
+
+&lt;p&gt;An old tutorial aimed at the Oculus Rift - hopefully Oculus Link will allow development to work seamlessly on the Quest: &lt;a href=&quot;https://www.youtube.com/watch?time_continue=3&amp;amp;v=CraH51-_xJo&amp;amp;feature=emb_logo&quot;&gt;Tutorial - an oldie, but hopefully a goodie!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A non-VR tutorial series on PUN 2 that is pretty comprehensive, by &lt;a href=&quot;https://www.youtube.com/watch?v=02P_mrszvzY&quot;&gt;Info Gamer&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;is-there-a-better-way&quot;&gt;Is there a better way?&lt;/h2&gt;
+
+&lt;p&gt;Is using one solution for the multiplayer network and another for streaming data and video the best option?&lt;/p&gt;
+
+&lt;p&gt;I’m not sure..&lt;/p&gt;
+
+&lt;p&gt;Could something like WebRTC do it all? I assume it won’t have the specific multiplayer scripts / API included by the others, but has anyone done somthing like this? Whether it could be &lt;strong&gt;made to handle multiplayer&lt;/strong&gt; functionality may be missing the point. If it can be made to do so, &lt;strong&gt;do I have the time?&lt;/strong&gt; to implement it?
+This, I doubt very much.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://webrtchacks.com/datachannel-multiplayer-game/&quot;&gt;webrtcH4cKS: ~ Gaming with the WebRTC DataChannel – A Walkthrough with Arin Sime&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/gam750/webrtc-multiplayer-1.JPG&quot; alt=&quot;WebRTC multiplayer data channel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is an interesting discussion about using WebRTC for multiplayer games. It is possible. But this is JavaScript. Making it work for Unity is another thing entirely. The Unity package may manage everything needed, but it would take a deep dive to find out how.&lt;/p&gt;</content><author><name></name></author><summary type="html">Unity XR Integration &amp;amp; Mirror</summary></entry><entry><title type="html">Mirror</title><link href="http://localhost:4000/2020/07/02/mirror.html" rel="alternate" type="text/html" title="Mirror" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/mirror</id><content type="html" xml:base="http://localhost:4000/2020/07/02/mirror.html">&lt;p&gt;This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.&lt;/p&gt;
+
+&lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open source&lt;/li&gt;
+  &lt;li&gt;Free&lt;/li&gt;
+  &lt;li&gt;No player limits&lt;/li&gt;
+  &lt;li&gt;Good documentation&lt;/li&gt;
+  &lt;li&gt;Built on the old Unity multiplayer system (UNET), bug-fixed and generally improved.&lt;/li&gt;
+  &lt;li&gt;Client/Server pattern: the server can be hosted by a ‘player, who is also a client (similar to Photon)&lt;/li&gt;
+  &lt;li&gt;You can also set up a dedicated server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;useful-links&quot;&gt;Useful links&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5LhA4Tk_uvI&quot;&gt;Dapper Dino (YouTube)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.</summary></entry><entry><title type="html">Video Streaming</title><link href="http://localhost:4000/2020/07/02/webrtc.html" rel="alternate" type="text/html" title="Video Streaming" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/02/webrtc.html">&lt;h2 id=&quot;webrtc&quot;&gt;WebRTC&lt;/h2&gt;
+
+&lt;p&gt;There is a plugin asset available for Unity that implements WebRTC. An interesting aspect is that the most recent version &lt;a href=&quot;https://docs.unity3d.com/Packages/com.unity.webrtc@2.0/manual/index.html&quot;&gt;supports Vulkan and OpenGL&lt;/a&gt;, so should be compatible with the Quest once built and running in the untethered Android platform. Development using Oculus Link, of course, does not require Vulkan to be supported and WebRTC’s NVIDIA compatibility will suffice for this, which is just as well because the new Unity XR Integration plugin only recently included Vulkan support, and it may be &lt;a href=&quot;https://developer.oculus.com/blog/vulkan-support-for-oculus-quest-in-unity-experimental/#:~:text=In%202019.3%2C%20Unity%20is%20moving,the%20new%20XR%20Management%20system.&quot;&gt;still a little buggy&lt;/a&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Vulkan support is still in early stages&lt;/strong&gt;
+&lt;img src=&quot;\images\GAM750\xr-vulkan-1.JPG&quot; alt=&quot;XR Vulkan support&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;what-is-good-about-webrtc&quot;&gt;What is good about WebRTC?&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Allows direct communication between clients, bypassing the server.&lt;/li&gt;
+  &lt;li&gt;Works via UDP, which is excellent for non-important, simple data like video, becuase it does not constantly check if the data is being received.&lt;/li&gt;
+  &lt;li&gt;Most browsers support WebRTC and those that don’t such as Microsoft Edge and Safari, are supported with a plugin.&lt;/li&gt;
+  &lt;li&gt;Very quick.&lt;/li&gt;
+  &lt;li&gt;Google and Facebook use WebRTC. NB - I wonder if the fact that facebook use it will mean great on-going support for Oculus devices?&lt;/li&gt;
+  &lt;li&gt;Open source.&lt;/li&gt;
+  &lt;li&gt;Many open source libraries available, so many different interfacing possibilities.&lt;/li&gt;
+  &lt;li&gt;Secure - encryption is mandatory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;webrtc-and-unity&quot;&gt;WebRTC and Unity&lt;/h1&gt;
+&lt;p&gt;I’m concerned there may be a major hurdle: unless I find out otherwise, or find a way around this issue, it looks as though it may not be possible to stream video &lt;strong&gt;into&lt;/strong&gt; the VR environment. The Unity WebRTC package is intended to provide rendering from Unity into a browser.&lt;/p&gt;
+
+&lt;p&gt;Bearing mind, though, that this is from 2018 and there have been a number of updates since: -&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://forum.unity.com/threads/unity-render-streaming-introduction-faq.742481/&quot;&gt;Unity Render Streaming Introduction &amp;amp; FAQ&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;What is Unity Render Streaming?&lt;/strong&gt;
+This is a solution that provides Unity’s high definition rendering abilities via a browser. It’s designed to meet the needs of tasks like viewing car configurators or architectural models on mobile devices.
+This solution’s streaming technology takes advantage of WebRTC, and through customization, developers can create their own unique solutions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sam77777 said: Is possible to stream on browser of the VR device and get input from HMD?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;kazuki_unity729 of Unity Technologies said: I am not sure the webrtc technology works on VR devices.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It also appears that video must be served by a PC with a decent NVidia card:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This means there´s a server PC (with a NVidiaCard) running an Executable as a server that streams the video and reacts to the input coming from the mobile devices, right?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yes&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;asset-webrtc-video-chat&quot;&gt;Asset: &lt;em&gt;WebRTC Video Chat&lt;/em&gt;&lt;/h1&gt;
+&lt;p&gt;This is an asset in the Unity Asset store by &lt;a href=&quot;https://www.because-why-not.com/webrtc/&quot;&gt;Because why not?&lt;/a&gt; that looks simple to use when connecting various systems (it still may not be compatible with VR or Quest (Android)), but it is quite &lt;a href=&quot;&quot;&gt;expensive&lt;/a&gt; - €102.73.&lt;/p&gt;
+
+&lt;p&gt;But it least it shows streaming directly between two apps is possible. Again, it’s not clear if this can be done in VR.&lt;/p&gt;
+
+&lt;h1 id=&quot;mixedreality-webrtc&quot;&gt;MixedReality-WebRTC&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/microsoft/MixedReality-WebRTC&quot;&gt;Microsoft GitHub repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This looks very interesting&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MixedReality-WebRTC is a collection of libraries to help mixed reality app developers to integrate peer-to-peer real-time audio and video communication into their application and improve their collaborative experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;MixedReality-WebRTC is a set of individual building blocks in the form of C and C# libraries building upon each other to deliver a consistent API to C/C++ and C# developers across its supported platforms, and a set of handful drop-in &lt;strong&gt;Unity3D&lt;/strong&gt; components for easy integration.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open source - MIT license&lt;/li&gt;
+  &lt;li&gt;Available as NuGet package&lt;/li&gt;
+  &lt;li&gt;Documented: user manual, API reference&lt;/li&gt;
+  &lt;li&gt;Maintained by the &lt;a href=&quot;https://github.com/orgs/microsoft/teams/mixed-reality-sharing&quot;&gt;Mixed Reality Sharing team&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/unity/unity-integration.html&quot;&gt;Unity library overview&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/unity/helloworld-unity.html&quot;&gt;Hello, Unity world!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/gam750/mixed-reality-webrtc-1.JPG&quot; alt=&quot;Hello, Unity world&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It seems building for &lt;strong&gt;Android&lt;/strong&gt; is possible:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/building.html&quot;&gt;Building from sources&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/android/building-android.html&quot;&gt;Android&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">WebRTC</summary></entry><entry><title type="html">Video Streaming</title><link href="http://localhost:4000/2020/07/02/video-streaming.html" rel="alternate" type="text/html" title="Video Streaming" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/video-streaming</id><content type="html" xml:base="http://localhost:4000/2020/07/02/video-streaming.html">&lt;p&gt;I want to stream video and other media and data into my Unity-created VR experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;How can I do this?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading around the subject of sockets, both in general and specifically with regard to Unity: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h1 id=&quot;webdev&quot;&gt;&lt;a href=&quot;https://web.dev/websocketstream/&quot;&gt;web.dev&lt;/a&gt;&lt;/h1&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API&quot;&gt;WebSocket API&lt;/a&gt;&lt;/strong&gt;: a JavaScript interface using the &lt;strong&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc6455&quot;&gt;WebSocket protocol&lt;/a&gt;&lt;/strong&gt;. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Opens a two-way open interactive communication session between browser and server. Does not require server polling.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Streams_API&quot;&gt;Streams API&lt;/a&gt;&lt;/strong&gt;: JavaScript API to access streams of data chunks. Reading/writing speed is regulated by the concept of &lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#Backpressure&quot;&gt;backpressure&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The WebSocket API cannot apply backpressure, so can get overwhelmed when messages arrive faster than they can be handled. The solution is the &lt;strong&gt;WebSocketStream API&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h1 id=&quot;stackoverflow&quot;&gt;&lt;a href=&quot;https://stackoverflow.com/questions/42717713/unity-live-video-streaming&quot;&gt;StackOverflow&lt;/a&gt;&lt;/h1&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This person has a minor problem with a solution they have built in Unity. They are sending images, but much of the principle should be the same. Of course, it’s the solution I’m interested in studying.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h1 id=&quot;unity-forum&quot;&gt;&lt;a href=&quot;https://forum.unity.com/threads/stream-video-through-network.464693/&quot;&gt;Unity forum&lt;/a&gt;&lt;/h1&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h1 id=&quot;playing-video-from-url&quot;&gt;&lt;a href=&quot;https://answers.unity.com/questions/1363049/does-videoplayerurl-supports-playing-live-video-fr.html&quot;&gt;Playing video from url&lt;/a&gt;&lt;/h1&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;.. continue - there are many more links to go here&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;out-of-the-box-options&quot;&gt;Out-of-the-box options&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Open source (so free!)&lt;/li&gt;
+  &lt;li&gt;Mature as non-Unity platform&lt;/li&gt;
+  &lt;li&gt;Unity package &lt;strong&gt;&lt;em&gt;should&lt;/em&gt;&lt;/strong&gt; work with both Oculus Link (NVIDIA codec) and untethered/Android (Vulkan/OpenGL)&lt;/li&gt;
+  &lt;li&gt;Appears to have recently been &lt;a href=&quot;https://blogs.unity3d.com/2019/09/17/stream-high-quality-real-time-graphics-through-your-browser-with-our-new-webrtc-framework/&quot;&gt;embraced by Unity&lt;/a&gt; as their defacto tech in the area of streaming&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.agora.io/en/&quot;&gt;Agora&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Free for low use only&lt;/li&gt;
+  &lt;li&gt;Pay As You Go &lt;a href=&quot;https://www.agora.io/en/pricing/&quot;&gt;pricing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Simple to set up&lt;/li&gt;
+  &lt;li&gt;Can stream voice and video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.genvidtech.com/&quot;&gt;Genvid&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Appears to have a functionality set that is close to what could be required.  There is a &lt;a href=&quot;https://www.genvidtech.com/licensing/&quot;&gt;pricing/licensing structure&lt;/a&gt;, that depends on individual unique viewers per month. I’m not quite sure how this would work in the kind of scenario I’m thinking of.&lt;/p&gt;</content><author><name></name></author><summary type="html">I want to stream video and other media and data into my Unity-created VR experience.</summary></entry><entry><title type="html">Multiplayer Options</title><link href="http://localhost:4000/2020/07/01/multiplayer.html" rel="alternate" type="text/html" title="Multiplayer Options" /><published>2020-07-01T10:00:00+01:00</published><updated>2020-07-01T10:00:00+01:00</updated><id>http://localhost:4000/2020/07/01/multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/01/multiplayer.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/07/01/photon.html&quot;&gt;Photon PUN2&lt;/a&gt;: as discussed in GAM720&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/07/02/mirror.html&quot;&gt;Mirror&lt;/a&gt;: looks very interesting&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Photon PUN2: as discussed in GAM720 Mirror: looks very interesting</summary></entry><entry><title type="html">Photon</title><link href="http://localhost:4000/2020/07/01/photon.html" rel="alternate" type="text/html" title="Photon" /><published>2020-07-01T00:00:00+01:00</published><updated>2020-07-01T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/01/photon</id><content type="html" xml:base="http://localhost:4000/2020/07/01/photon.html">&lt;p&gt;Back at the start of GAM720 I started looking at &lt;strong&gt;&lt;a href=&quot;https://doc.photonengine.com/en-us/pun/current/getting-started/pun-intro&quot;&gt;Photon PUN 2&lt;/a&gt;&lt;/strong&gt; as a way of creating a multiplayer environment in Unity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Building the multiplayer environment&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/2020/02/09/building-the-multiplayer-environment-part1.html&quot;&gt;Part 1&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/2020/02/12/building-the-multiplayer-environment-part2.html&quot;&gt;Part 2&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This could still be an option for the getting multiple bodies within a single space, where they can interact with each other.&lt;/p&gt;
+
+&lt;p&gt;Streaming video will probably be best done using another solution, whether that be something like WebRTC or a bespoke sockets solution. Sending large amounts of data streaming through the Photon servers will likely present problems, such as speed issues and the potential of bumping up costs. I’d want to remain in the free banding, i.e. &amp;lt; 20 concurrent connections and &amp;lt; 60GB during development and maybe use a self-hosting server once up and running - see &lt;a href=&quot;https://forum.unity.com/threads/photon-pun2-free-forever-or-only-during-the-first-60gb.877201/&quot;&gt;this&lt;/a&gt; discussion.&lt;/p&gt;</content><author><name></name></author><summary type="html">Back at the start of GAM720 I started looking at Photon PUN 2 as a way of creating a multiplayer environment in Unity.</summary></entry><entry><title type="html">Unity XR Integration</title><link href="http://localhost:4000/2020/07/01/unity-xr-integration-update.html" rel="alternate" type="text/html" title="Unity XR Integration" /><published>2020-07-01T00:00:00+01:00</published><updated>2020-07-01T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/01/unity-xr-integration-update</id><content type="html" xml:base="http://localhost:4000/2020/07/01/unity-xr-integration-update.html">&lt;h1 id=&quot;update-i-intend-to-persevere-with-xr-integration&quot;&gt;Update: I intend to persevere with XR Integration&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;.. at least, for now.&lt;/strong&gt;&lt;/p&gt;
 
@@ -15,7 +225,7 @@
   &lt;li&gt;
     &lt;p&gt;Hand tracking will be incoporated at some point. At the moment I don’t believe I will require it, but I know I will in the future. If I find I need it sooner rather than later, then I can always revert to the Oculus SDK.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Update: I intend to persevere with XR Integration</summary></entry><entry><title type="html">Unity XR Integration</title><link href="http://localhost:4000/2020/06/28/unity-xr-integration.html" rel="alternate" type="text/html" title="Unity XR Integration" /><published>2020-06-28T00:00:00+01:00</published><updated>2020-06-28T00:00:00+01:00</updated><id>http://localhost:4000/2020/06/28/unity-xr-integration</id><content type="html" xml:base="http://localhost:4000/2020/06/28/unity-xr-integration.html">&lt;h1 id=&quot;considering-xr-integration-as-a-replacement-for-oculus-integration&quot;&gt;Considering XR Integration as a replacement for Oculus Integration&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Update: I intend to persevere with XR Integration</summary></entry><entry><title type="html">Unity XR Integration</title><link href="http://localhost:4000/2020/06/28/unity-xr-integration.html" rel="alternate" type="text/html" title="Unity XR Integration" /><published>2020-06-28T11:00:00+01:00</published><updated>2020-06-28T11:00:00+01:00</updated><id>http://localhost:4000/2020/06/28/unity-xr-integration</id><content type="html" xml:base="http://localhost:4000/2020/06/28/unity-xr-integration.html">&lt;h1 id=&quot;considering-xr-integration-as-a-replacement-for-oculus-integration&quot;&gt;Considering XR Integration as a replacement for Oculus Integration&lt;/h1&gt;
 
 &lt;p&gt;XR is the future. Unity is developing a multi-platform solution for both VR and AR development that exposes functionality in low-level C# APIs.&lt;/p&gt;
 
@@ -28,7 +238,24 @@
 &lt;p&gt;It would be a shame, because I always like to keep up to speed with the latest developments - it’s easy to fall behind in this fast-moving business - but in practically terms, this could be one occasion that the best option would be to stick with the tried-and-tested pair of old comfortable shoes.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;XR Integration in Unity&lt;/strong&gt;
-&lt;img src=&quot;\images\unity-xr-integration-1.jpg&quot; alt=&quot;XR Integration in Unity&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering XR Integration as a replacement for Oculus Integration</summary></entry><entry><title type="html">Starting The Game</title><link href="http://localhost:4000/2020/04/15/game-starting.html" rel="alternate" type="text/html" title="Starting The Game" /><published>2020-04-15T00:00:00+01:00</published><updated>2020-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/15/game-starting</id><content type="html" xml:base="http://localhost:4000/2020/04/15/game-starting.html">&lt;p&gt;How to start and end the game? The player needs to be prepared and ready for action.&lt;/p&gt;
+&lt;img src=&quot;\images\unity-xr-integration-1.jpg&quot; alt=&quot;XR Integration in Unity&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering XR Integration as a replacement for Oculus Integration</summary></entry><entry><title type="html">The Search For Sockets</title><link href="http://localhost:4000/2020/06/28/introduction.html" rel="alternate" type="text/html" title="The Search For Sockets" /><published>2020-06-28T10:00:00+01:00</published><updated>2020-06-28T10:00:00+01:00</updated><id>http://localhost:4000/2020/06/28/introduction</id><content type="html" xml:base="http://localhost:4000/2020/06/28/introduction.html">&lt;p&gt;Whatever my final project turns out to be, it will be a multiplayer of some sort and will have media streamed into the VR from outside, media streamed from VR to outside, and control data streamed into VR from outside.&lt;/p&gt;
+
+&lt;p&gt;These are the more difficult of the tasks I envisage, so will need to research and learn these early on.&lt;/p&gt;
+
+&lt;h1 id=&quot;multiplayer-options&quot;&gt;Multiplayer options&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/07/01/photon.html&quot;&gt;Photon PUN2&lt;/a&gt;: as discussed in GAM720&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/07/02/mirror.html&quot;&gt;Mirror&lt;/a&gt;: looks very interesting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;streaming-options&quot;&gt;Streaming options&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WebRTC&lt;/li&gt;
+  &lt;li&gt;Genvid&lt;/li&gt;
+  &lt;li&gt;Agora&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Whatever my final project turns out to be, it will be a multiplayer of some sort and will have media streamed into the VR from outside, media streamed from VR to outside, and control data streamed into VR from outside.</summary></entry><entry><title type="html">Starting The Game</title><link href="http://localhost:4000/2020/04/15/game-starting.html" rel="alternate" type="text/html" title="Starting The Game" /><published>2020-04-15T00:00:00+01:00</published><updated>2020-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/15/game-starting</id><content type="html" xml:base="http://localhost:4000/2020/04/15/game-starting.html">&lt;p&gt;How to start and end the game? The player needs to be prepared and ready for action.&lt;/p&gt;
 
 &lt;h1 id=&quot;starting-the-game&quot;&gt;Starting the game&lt;/h1&gt;
 
@@ -40,200 +267,4 @@
 
 &lt;p&gt;Entering the player’s name allows the welcome to be personalised with a message on the backdrop. I may update this to become some form of &lt;strong&gt;placard or a gilded sign&lt;/strong&gt;, extending the personal touch and further engaging the player.&lt;/p&gt;
 
-&lt;p&gt;All taken into concideration, this reasonably satisfactory, and should suffice for the purpose of this game in the shorter term, but I expect to make improvements at some point once the all-important gameplay is working well.&lt;/p&gt;</content><author><name></name></author><summary type="html">How to start and end the game? The player needs to be prepared and ready for action.</summary></entry><entry><title type="html">Points Scoring</title><link href="http://localhost:4000/2020/04/15/points-scoring.html" rel="alternate" type="text/html" title="Points Scoring" /><published>2020-04-15T00:00:00+01:00</published><updated>2020-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/15/points-scoring</id><content type="html" xml:base="http://localhost:4000/2020/04/15/points-scoring.html">&lt;p&gt;Keep it simple to start.&lt;/p&gt;
-
-&lt;p&gt;Then build complexity.&lt;/p&gt;
-
-&lt;p&gt;Initially I am thinking of earning a standard small number of points for each item assigned to a cause.&lt;/p&gt;
-
-&lt;p&gt;Gain a larger number of points for completing a deployment.&lt;/p&gt;
-
-&lt;p&gt;Gain points with respective funds raised&lt;/p&gt;
-
-&lt;p&gt;Lose some points for dropping an item on the floor.&lt;/p&gt;
-
-&lt;p&gt;Lose points for assigning to an incorrect scenario.&lt;/p&gt;
-
-&lt;p&gt;Lose points for assigning when you have already assigned the item to that scenario.&lt;/p&gt;
-
-&lt;p&gt;Lose points for going into the red.&lt;/p&gt;
-
-&lt;p&gt;Reset score to zero?&lt;/p&gt;
-
-&lt;p&gt;Lose arbitrary number of points.&lt;/p&gt;
-
-&lt;p&gt;Gain arbitrary number of points.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public enum ScoreType
-{
-    ResetScore = 0,
-    LosePoints = 1,
-    GainPoints = 2,
-    ItemAssigned = 3,
-    DeploymentCompleted = 4,
-    FundsRaised = 5,
-    ItemDropped = 6,
-    IncorrectItemAssigned = 7,
-    ItemAlreadyAssigned = 8,
-    BalanceIntoRed = 9
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Keep it simple to start.</summary></entry><entry><title type="html">Giving The Game A Voice</title><link href="http://localhost:4000/2020/04/12/game-speech-and-narrative.html" rel="alternate" type="text/html" title="Giving The Game A Voice" /><published>2020-04-12T00:00:00+01:00</published><updated>2020-04-12T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/12/game-speech-and-narrative</id><content type="html" xml:base="http://localhost:4000/2020/04/12/game-speech-and-narrative.html">&lt;h1 id=&quot;synthesised-speech-used-throught-the-game&quot;&gt;Synthesised speech used throught the game&lt;/h1&gt;
-
-&lt;p&gt;Speech is used in order to attempt to connect and bond the player with the game and with the game’s motives.&lt;/p&gt;
-
-&lt;p&gt;Text taken from my introduction, or ‘prologue’ to the game, will be used. The question is, do I use it all at once, at the start, or would it be better to distribute it throughout the game at poignant moments?&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Welcome. Thank you for volunteering. We have a critical situation. There are a number of disasters that require your urgent attention.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Your willingness to help is much appreciated. We are currently experiencing extremely high levels of disruption to everyday lives on a global scale. Current pressure ratings are at dangerous levels. We are relying on your calm efficiency, pragmatism and intelligence to help bring us back to within calm and sustainable levels. Are you willing to engage?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These resources are precious.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Please assign them carefully to the disasters with which you are confronted.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Don’t forget: be cool.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Be careful.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Diligent planning will help more people.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Too much attention to a single cause can mean failure for so many others.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Good luck!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The text to speech service I have been using provides a satisfying balance between realistic and synthesised, where the voice is noticably unreal but also pleasant, calming and soothing in a very human way. Although very different in tone, it encompasses some of the character I wanted to emulate that is present in the wonderfully recongnisable and now ubiquitous standard for artificial intelligence that is the voice of &lt;strong&gt;HAL 9000&lt;/strong&gt; in &lt;em&gt;&lt;strong&gt;2001: A Space Odyssey&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;My failed attempts to find a suitably similar speech synthesiser did not actually last very long. I did not want to use the exact same voice - it would be a little too derivative my taste and too denotive of something that I am not trying to re-create. But it was the character that I wanted to harness. I want to keep the player aware of their relationship with the game, to continue to let them know they are part of something that is not an actual and genuine attempt at a pretence to pass itself off as real, and this may be emphasised by the slightly separate and other-worldly nature of the immersive environment. As Doug Brown … [citation - fourth wall breakage in The Suspension of Disbelief]&lt;/p&gt;</content><author><name></name></author><summary type="html">Synthesised speech used throught the game</summary></entry><entry><title type="html">Keyboard Data Input</title><link href="http://localhost:4000/2020/04/07/keyboard-input.html" rel="alternate" type="text/html" title="Keyboard Data Input" /><published>2020-04-07T00:00:00+01:00</published><updated>2020-04-07T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/07/keyboard-input</id><content type="html" xml:base="http://localhost:4000/2020/04/07/keyboard-input.html">&lt;h2 id=&quot;attempts-at-finding-a-way-to-input-player-credentials-in-vr&quot;&gt;Attempts at finding a way to input player credentials in VR&lt;/h2&gt;
-
-&lt;p&gt;This has proved to be not a simple as I’d expected.&lt;/p&gt;
-
-&lt;p&gt;Standard input methods using Unity are not so easy to customise. That’s not to say it can’t be done, but unless you are a very experienced and knowledgable Unity / VR developer, it does not appear as anything close to a straightforward process.&lt;/p&gt;
-
-&lt;p&gt;It’s possible I have missed something that ought to be obvious, but missed it I have.&lt;/p&gt;
-
-&lt;p&gt;I found some assets on the Unity App Store - the free options I could not get working. Again, it could be possible to work with these and perhaps I am being a little hasty in my dismissal of them, but I do not have a lot of time and, unless there is accompanying documentation or something comes up from a few Google searches or checking out YouTube tutorials, then my patience is stretched beyond breaking point. It’s then time to move on to something else.&lt;/p&gt;
-
-&lt;p&gt;One that looked interesting was VR Keyboard, which uses &lt;a href=&quot;https://www.youtube.com/watch?v=Q_kUlVTyRag&quot;&gt;xylaphone-style mallets to hit the keys&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Q_kUlVTyRag&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/Q_kUlVTyRag/0.jpg&quot; alt=&quot;VR Keys&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;However, I could not get this to work in my Oculus Quest setup. But then I found VRKB which is very similar, is newer (July 2019), has no reviews, no feedback anywhere. But it costs $10 - not a huge amount of money, but what if it does not work - it’s money down the drain. But it does have &lt;a href=&quot;https://forum.unity.com/threads/released-vrkb-virtual-reality-keyboard.735905/&quot;&gt;documentation&lt;/a&gt; an accompanying &lt;a href=&quot;https://www.youtube.com/watch?time_continue=90&amp;amp;v=J1dHujWH23s&amp;amp;feature=emb_logo&quot;&gt;video on YouTube&lt;/a&gt; in which the develop demonstrates how easy it is to set up. The video has no likes, no dislikes and no comments, which is a concern, but it exists and that counts for something!&lt;/p&gt;
-
-&lt;p&gt;I also found two other potential suiters in the asset store - $4.99 and $15 respectively. Like VRKB they do not specifically mention Oculus Quest, but I am tempted by them, in the order of cheapest first. They are more standard in their operation - the $4.99 one looks like it uses gazing predominantly, but has possibly been recently updated to use lazer pointing. But I do like the idea of those xylophone mallets… hmmm…&lt;/p&gt;
-
-&lt;h1 id=&quot;an-aside-this-is-very-interesting&quot;&gt;An aside: this is very interesting&lt;/h1&gt;
-
-&lt;p&gt;Not something for this project - far from it - but very interesting none the less.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qFGweUpAs8I&quot;&gt;VR-OS: Keyboard and Mouse - Custom hardware and software implementation&lt;/a&gt;. I’m mentioning it purely for its fascination value - I would love to be in a position to play around with this kind of thing. It uses a physical setup, tracking hand movements as they interacting with a physical keyboard and trackable mouse, using this data in realtime in a VR environment. So there is no need to use a virtual keyboard/mouse or to remove the headset in order to use the physical objects. It’s fun and practical. However, as Augmented Reality grows in use and potential, this kind of thing should become an interesting footnote in the onward march of virtual technology.&lt;/p&gt;
-
-&lt;p&gt;Went for VR UIKit. $35 including tax. More than just the keyboard - also includes other useful-looking UI snippets.&lt;/p&gt;
-
-&lt;p&gt;However, it’s not as easy to set up as I’d hoped. But still a good learning curve continuation that will help in the long-haul.&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=MGEWR4J6F4o&lt;/p&gt;
-
-&lt;p&gt;Need laser for this: https://developer.oculus.com/downloads/package/oculus-utilities-for-unity-5/&lt;/p&gt;
-
-&lt;p&gt;But where is it? There is no Laser Input Module, as demonstrated in the video!
-Look like it has been depricated.&lt;/p&gt;</content><author><name></name></author><summary type="html">Attempts at finding a way to input player credentials in VR</summary></entry><entry><title type="html">Gameplay and The Suspension of Disbelief</title><link href="http://localhost:4000/2020/04/07/gameplay-and-suspension-of-disbelief.html" rel="alternate" type="text/html" title="Gameplay and The Suspension of Disbelief" /><published>2020-04-07T00:00:00+01:00</published><updated>2020-04-07T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/07/gameplay-and-suspension-of-disbelief</id><content type="html" xml:base="http://localhost:4000/2020/04/07/gameplay-and-suspension-of-disbelief.html">&lt;h2 id=&quot;how-making-the-game-more-like-a-game-makes-it-more-like-reality&quot;&gt;How making the game more like a game makes it more like reality&lt;/h2&gt;
-
-&lt;h1 id=&quot;this-is-strange-isnt-it&quot;&gt;This is strange, isn’t it?&lt;/h1&gt;
-
-&lt;p&gt;I’ve been striving to make my game more like a ‘proper’ game, knowing that this will aid the sense of immersion for the player. However, I wasn’t really ready for how much this really does happen! It doesn’t matter that the actions within the game - animations, sounds, responses to input and stimulii - could potentially be increasingly removed from what is real, in terms of actually real and expected within normal real-world physical situations and resulting from real-world physical interactions. The feeling of immersion increases as I increase the number of animations and game devices, as long as they adhere to a ‘seriousness’ and are not too frivolous in a way that could be viewed as self-indulgent. If the game believes it, then the player is asked to also believe it, and the player is all too happy to oblige.&lt;/p&gt;
-
-&lt;p&gt;Perhaps we are so used to games in modern culture that these have been accepted into and as reality. Media such as film, TV, games etc, along with the increasing aborbsion into the mainstream of ways to interact with our world via artiface and interface, have formed a kind of new relationship with reality and, in fact, caused a playful ‘fourth wall’ to come into being - in order to be broken - between ourselves and our reality. Reality is boring. Let’s create an alternative one that distorts or enhances it. This is much more fun! The 20th Century was in many ways, the centure of drugs and alternaive ways of seeing, opening the ‘doors of perception’. It’s perfectly fitting and proper that we should feel comfortable immersing ourselves within a made up world, as long as the world itself can convince us that it is real. Even better if it adds value and it an improvement on what we are currently lumbered with!&lt;/p&gt;</content><author><name></name></author><summary type="html">How making the game more like a game makes it more like reality</summary></entry><entry><title type="html">What Am I Doing? Part 2</title><link href="http://localhost:4000/2020/04/02/what-am-i-doing-part2.html" rel="alternate" type="text/html" title="What Am I Doing? Part 2" /><published>2020-04-02T00:00:00+01:00</published><updated>2020-04-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/02/what-am-i-doing-part2</id><content type="html" xml:base="http://localhost:4000/2020/04/02/what-am-i-doing-part2.html">&lt;h2 id=&quot;attempts-at-finding-a-way-to-make-this-game-compelling&quot;&gt;Attempts at finding a way to make this game compelling&lt;/h2&gt;
-
-&lt;h1 id=&quot;leader-board&quot;&gt;Leader board&lt;/h1&gt;
-
-&lt;p&gt;Tapping into the competitive nature of (most) human beings, and the reason for the actual existence of (most) games (that’s a statement I will need to back up with some sound research!), it may be worth developing the &lt;em&gt;competitive&lt;/em&gt; side of the game. Introducing a scoring system and a subsequent &lt;em&gt;leader board&lt;/em&gt; could achieve this.&lt;/p&gt;
-
-&lt;p&gt;As I’d like to incorporate a multi-player aspect to this game at some point, this could be looked at from a number of perspectives. Competition between individuals playing individually, is one thing, but there could also be competition between individuals playing as a team. It may be that individuals get rewarded for being more successful than their co-player, but is could also be that individuals get rewarded for being more team-oriented. These are concepts I will further explore.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-to-do-when-a-disaster-scenario-has-been-fully-deployed&quot;&gt;What to do when a disaster scenario has been fully deployed?&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Replace with a new mission:&lt;/strong&gt; I have played with ideas around replacing a completed mission with a new one. This involved selecting a report from the list - i.e. the list that a random selection is taken from at the start of the game - and replacing the completed report.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Close down the screen:&lt;/strong&gt; with style! Screen spins round, shrinks and vanishes! Will need suitable sound effects for this. I imagine this being tied up with the points scoring system, whereby a completed mission is worth a large amount of points, to be added to the points scored by assigning resource objects.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;wind-zone&quot;&gt;Wind zone&lt;/h1&gt;
-
-&lt;p&gt;An increasingly gusty wind zone to blow resources off course. I could use Unity’s ‘wind-zone’ object or, as I did in the &lt;em&gt;disaster scenario&lt;/em&gt; scene of my prototype, define a large collider that applies directional forces to objects that enter within.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;GitKraken ‘Glo’ Kanban Board&lt;/strong&gt;
-&lt;img src=&quot;\images\gitkraken-glo-board.jpg&quot; alt=&quot;GitKraken 'Glo' Kanban Board&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;haptic-feedback&quot;&gt;Haptic feedback&lt;/h1&gt;
-
-&lt;p&gt;As I want to include some tactile feedback for the user when picking up objects and touching buttons and screens etc., as usual I searched the internet for documentation, advice and tutorials. As is often the case, the Oculus documentation is limited and did not examine a real-world scenario. The instruction provided is to use&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; static void OVRInput.SetControllerVibration(float frequency, float amplitude, Controller controllerMask)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.oculus.com/documentation/unity/unity-haptics/?locale=en_GB&quot;&gt;Oculus documentation: Unity Haptics&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;so calling &amp;gt; OVRInput.SetControllerVibration(1, 1, OVRInput.Controller.RTouch); 
-should do the trick. Except it is very uncontrollable. I want a short burst and this lasts for 2 seconds. This would mean I would have to contrive a a short burst using a coroutine in order to instigate a short delay before stopping the feedback (i.e. with zero values for frequency and amplitude). 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Again, as it often the case, further searching found better, more usable, solutions. In particular one from Valem (Valam is a very handy guy to have around, as I’ve mentioned elsewhere) provided a thoughtful and useful solution. His can either use a sound file to control the nuances of the haptic feedback or can take parameters that define the frequency, duration and strength in a much more controllable way when compared to Oculus’s own API.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9KJqZBoc8m4&quot;&gt;Valem: How to make a VR game in Unity - Part 5 - Controller Vibration&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;images\haptic-valem-1.jpg&quot; alt=&quot;The haptic parameter&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Attempts at finding a way to make this game compelling</summary></entry><entry><title type="html">What Am I Doing? Part 1</title><link href="http://localhost:4000/2020/03/27/what-am-i-doing-part1.html" rel="alternate" type="text/html" title="What Am I Doing? Part 1" /><published>2020-03-27T00:00:00+00:00</published><updated>2020-03-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/27/what-am-i-doing-part1</id><content type="html" xml:base="http://localhost:4000/2020/03/27/what-am-i-doing-part1.html">&lt;h2 id=&quot;attempts-at-finding-a-way-to-make-this-game-compelling&quot;&gt;Attempts at finding a way to make this game compelling&lt;/h2&gt;
-
-&lt;p&gt;As I explore ideas I will, no doubt about it, find that some of my attempts to make this game compelling, simply fail. Others, hopefully, can be rescued and built upon.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Resource object time-out:&lt;/strong&gt; I have added a timer to the collectable resource objects, which begins count-down the moment an object is picked up. If the object is still being held when the counter reaches zero then object is destoyed and placed back in its box. The mechanic is in place, but how it is used is not defined just yet. Currently, the length of time available for the player to keep hold of the object before dispatching it to a disaster scenario reduces as the game progresses, but the potential is there for this to be used as an added complexity, perhaps adding an incentive to keep the budget levels high.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Resources cost money:&lt;/strong&gt; Each resource object has a price tag, and the availble budget is reduces by each resource deployment.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Funds can be raised:&lt;/strong&gt; A random fund-raising event is displayed on the computer screen next to the player and the player has the option to initiate one of these when the budget gets low. Currently this just sets the budget back to its initial value, but I will be working on the mechanic to add complexity. For instance, each event has an estimated potential funding return which can be used as a base for a psuedo random actual value. I also imagine the event to take some time before any funds are made available - after all, realistically time must be allowed for planning etc. and an event can only take place some time after it has been given the go-ahead. I am also thinking of giving a short window to select the event before it vanishes. It may be that the player has to wait with no funds before another event becomes available.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Attempts at finding a way to make this game compelling</summary></entry><entry><title type="html">COVID-19 - The Lockdown</title><link href="http://localhost:4000/2020/03/25/covid-19-lock-down.html" rel="alternate" type="text/html" title="COVID-19 - The Lockdown" /><published>2020-03-25T00:00:00+00:00</published><updated>2020-03-25T00:00:00+00:00</updated><id>http://localhost:4000/2020/03/25/covid-19-lock-down</id><content type="html" xml:base="http://localhost:4000/2020/03/25/covid-19-lock-down.html">&lt;h2 id=&quot;what-gives&quot;&gt;What gives?&lt;/h2&gt;
-
-&lt;p&gt;So, we’re all on government-inforced lock-down. Generally, this is already having a significant effect on everyday life, but how will it effect my MA development work and studies?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;I’m working from home&lt;/strong&gt;. This in itself is not a huge issue - it’s something I’ve done regularly for many years, albeit not for every day of the week and for such a prolonged period is this is set to be. However, this is not working from home (WFH) under normal cicumstances due to the fact that…&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Schools are closed&lt;/strong&gt;. My elder, year-7, Key Stage 2 son is home from school and needs a certain amount of ‘assistance’ (or maybe coersion) with getting on with the limited quantity of available online schooling, and&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;My younger son&lt;/strong&gt;, who is home-schooled on an ABA (Applied Behaviour Analysis) programme, &lt;strong&gt;finds himself with no tutor&lt;/strong&gt; - one is self-isolating whilst the other is.. well, staying home. He is unable to be left to his own devices and requires full intensive interaction.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;My lovely wife is also working from home&lt;/strong&gt;. Between us, we have quite a load. We will need to use some - hopefully not all- of our annual leave to keep son two’s education going. Unfortunately, how I can find time for my usual once-per-week study day is not certain. Today, it was impossible. It’s now nearly 8pm and I’m just getting going - unfortunately I’m further delayed by writing about these issues!&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Will the NEC Expo go ahead?&lt;/strong&gt; Apparently so, but it has been postponed to 7th-9th May 2021! That’s right.. &lt;strong&gt;2021!&lt;/strong&gt; So it doesn’t really feel like it is postponed but, rather, cancelled for this year.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Will the 2020 Rotary Convention in Honolulu go ahead?&lt;/strong&gt; Nope - it’s been cancelled.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;At the moment, I’m thinking I will continue to build the app as though my deadline for a complete working version has not changed. Hopefully there will be further events this year and, in any case, whatever happens, it will be ready ‘off-the-shelf’ should it be required. I feel sure it will be - it’s the ‘when’ that is uncertain right now.&lt;/p&gt;
-
-&lt;h1 id=&quot;to-pivot-or-not-to-pivot-that-is-the-question&quot;&gt;To pivot, or not to pivot. That is the question.&lt;/h1&gt;
-
-&lt;p&gt;If I decide to take this tack, then I will be continuing to use this module as an extension of the last - GAM740 - which was all about working with a client in delivering a ‘product’ in response to a brief. I have been informed, of course, that this is absolutely fine with the university. However, what about all those Unity, Oculus, general VR and game development techniques that I’m still learning? I keep coming across new nuggets of game programming techniques or patterns that are new to me and I am itching to learn and put into practice.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the one hand&lt;/strong&gt;, I have been absolutely fine putting these tempting morsels to one side for the time being in order to ensure that a usable product is created in time for the looming deadline. I’ll be able to come back to these, is the thinking. In fact, it’s great that I’m stock-piling empty boxes and, although I know they will eventually need filling, at least I have an idea of the tasks that lies ahead.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the other hand&lt;/strong&gt;, this could now be a chance to start filling some of these boxes, whilst still aiming for a usable viable product. At the end of such a process, I will have increased my knowledge and ability to tackle problems in the future. However, this is set against the vagueness of the targetted final result in respect of the need to take a finished product off the peg, if required to do so, once this virus has been quashed and the world of expos and conventions is open once more for business.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the one hand&lt;/strong&gt;, I will be deciding to concentrate on game narrative and dynamics over game development techniques. For instance, how to progress a (the) game, make it interesting, consider issues of winning and losing - if this is actually necessary - or just seeing how far you can get as a player, with odds stacking up against you.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On the other&lt;/strong&gt;, I will be improving my programming skills in relation to hard game development techniques. For example, what’s a Lerp? How do Unity Vector3 transformations work, and why are they important (I know they are).  There’s an absolutely huge amount I do not know about, let alone how to make use of.&lt;/p&gt;
-
-&lt;p&gt;Of course, these two seemingly separate identifiable areas for targeting my efforts and concentration do actually go hand-in-hand. I suppose it may be more productive to concentrate on the game itself, as in what it sets out to achieve, and how, and then to work on the techniques as they are required in order to achieve these aims, in a kind of &lt;strong&gt;form follows function&lt;/strong&gt; paradigm. The issue here is that I am not yet a master craftsman in this field.&lt;/p&gt;
-
-&lt;p&gt;But.. I will only really learn by responding to need. I therefore propose to avoid the temptation to pivot, but to continue to develop the game towards an ideal agreed between myself and ShelterBox.  In so doing, I will look to incorporate techniques that are new to me, if and wherever possible - I will not seek to take the easy path just because it is available to me. &lt;strong&gt;Where I see more can be gained in the long-term through a litte hard work and an embracing of an experimental attitude, informed from the constraints and perspective of the brief, this is a path I will take.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">What gives?</summary></entry></feed>
+&lt;p&gt;All taken into concideration, this reasonably satisfactory, and should suffice for the purpose of this game in the shorter term, but I expect to make improvements at some point once the all-important gameplay is working well.&lt;/p&gt;</content><author><name></name></author><summary type="html">How to start and end the game? The player needs to be prepared and ready for action.</summary></entry></feed>

@@ -1,0 +1,75 @@
+---
+layout: post
+title: Video Streaming
+published: true
+---
+
+## WebRTC
+
+There is a plugin asset available for Unity that implements WebRTC. An interesting aspect is that the most recent version [supports Vulkan and OpenGL](https://docs.unity3d.com/Packages/com.unity.webrtc@2.0/manual/index.html), so should be compatible with the Quest once built and running in the untethered Android platform. Development using Oculus Link, of course, does not require Vulkan to be supported and WebRTC's NVIDIA compatibility will suffice for this, which is just as well because the new Unity XR Integration plugin only recently included Vulkan support, and it may be [still a little buggy](https://developer.oculus.com/blog/vulkan-support-for-oculus-quest-in-unity-experimental/#:~:text=In%202019.3%2C%20Unity%20is%20moving,the%20new%20XR%20Management%20system.).
+<br><br>
+>**Vulkan support is still in early stages**
+![XR Vulkan support](\images\GAM750\xr-vulkan-1.JPG)
+
+# What is good about WebRTC?
+* Allows direct communication between clients, bypassing the server.
+* Works via UDP, which is excellent for non-important, simple data like video, becuase it does not constantly check if the data is being received.
+* Most browsers support WebRTC and those that don't such as Microsoft Edge and Safari, are supported with a plugin.
+* Very quick.
+* Google and Facebook use WebRTC. NB - I wonder if the fact that facebook use it will mean great on-going support for Oculus devices?
+* Open source.
+* Many open source libraries available, so many different interfacing possibilities.
+* Secure - encryption is mandatory.
+  
+# WebRTC and Unity 
+I'm concerned there may be a major hurdle: unless I find out otherwise, or find a way around this issue, it looks as though it may not be possible to stream video **into** the VR environment. The Unity WebRTC package is intended to provide rendering from Unity into a browser.
+
+Bearing mind, though, that this is from 2018 and there have been a number of updates since: -
+
+[Unity Render Streaming Introduction & FAQ](https://forum.unity.com/threads/unity-render-streaming-introduction-faq.742481/)
+>**What is Unity Render Streaming?**
+This is a solution that provides Unity's high definition rendering abilities via a browser. It's designed to meet the needs of tasks like viewing car configurators or architectural models on mobile devices.
+This solution's streaming technology takes advantage of WebRTC, and through customization, developers can create their own unique solutions.
+
+>Sam77777 said: Is possible to stream on browser of the VR device and get input from HMD?
+
+>kazuki_unity729 of Unity Technologies said: I am not sure the webrtc technology works on VR devices.
+
+It also appears that video must be served by a PC with a decent NVidia card:
+
+>This means there´s a server PC (with a NVidiaCard) running an Executable as a server that streams the video and reacts to the input coming from the mobile devices, right?
+
+>Yes
+
+# Asset: _WebRTC Video Chat_ 
+This is an asset in the Unity Asset store by [Because why not?](https://www.because-why-not.com/webrtc/) that looks simple to use when connecting various systems (it still may not be compatible with VR or Quest (Android)), but it is quite [expensive]() - €102.73.
+
+But it least it shows streaming directly between two apps is possible. Again, it's not clear if this can be done in VR.
+
+
+# MixedReality-WebRTC
+
+**[Microsoft GitHub repository](https://github.com/microsoft/MixedReality-WebRTC)**
+
+**This looks very interesting**
+
+>MixedReality-WebRTC is a collection of libraries to help mixed reality app developers to integrate peer-to-peer real-time audio and video communication into their application and improve their collaborative experience.
+
+>MixedReality-WebRTC is a set of individual building blocks in the form of C and C# libraries building upon each other to deliver a consistent API to C/C++ and C# developers across its supported platforms, and a set of handful drop-in **Unity3D** components for easy integration.
+
+* Open source - MIT license
+* Available as NuGet package
+* Documented: user manual, API reference
+* Maintained by the [Mixed Reality Sharing team](https://github.com/orgs/microsoft/teams/mixed-reality-sharing)
+
+[Unity library overview](https://microsoft.github.io/MixedReality-WebRTC/manual/unity/unity-integration.html)
+
+[Hello, Unity world!](https://microsoft.github.io/MixedReality-WebRTC/manual/unity/helloworld-unity.html)
+
+![Hello, Unity world](/images/gam750/mixed-reality-webrtc-1.JPG)
+
+It seems building for **Android** is possible:
+
+[Building from sources](https://microsoft.github.io/MixedReality-WebRTC/manual/building.html)
+
+[Android](https://microsoft.github.io/MixedReality-WebRTC/manual/android/building-android.html)

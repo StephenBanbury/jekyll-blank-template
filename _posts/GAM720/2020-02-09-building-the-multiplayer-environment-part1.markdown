@@ -26,3 +26,7 @@ Use is made of the PUN callbacks (exposed through **MonoBehaviourPunCallbacks**,
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
+
+
+* **[Part 2]({% link _posts/GAM720/2020-02-12-building-the-multiplayer-environment-part2.markdown %})**
+* **[Part 3]({% link _posts/GAM720/2020-02-12-building-the-multiplayer-environment-part3.markdown %})**

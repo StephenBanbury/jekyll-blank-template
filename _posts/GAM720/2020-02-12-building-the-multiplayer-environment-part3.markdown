@@ -16,3 +16,6 @@ Unfortunately, this will mean my plans to experiment with multiplayer dynamics w
 I will, however, continue to explore the possibilities of multiplayer and social VR, particularly with educational aims in mind, and I hope to incorporate this work in the future - possibly my final MA project. 
 
 
+
+* **[Part 1]({% link _posts/GAM720/2020-02-09-building-the-multiplayer-environment-part1.markdown %})**
+* **[Part 2]({% link _posts/GAM720/2020-02-12-building-the-multiplayer-environment-part2.markdown %})**

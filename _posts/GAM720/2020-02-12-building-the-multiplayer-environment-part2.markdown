@@ -46,3 +46,7 @@ Just adding the CameraWork component to the robot GameObject and setting it slig
 
 
 However, the **robot character is not easy to control**, being limited in its ability to stop, turn without running forwards, only jump in a single, slightly 'parkour' style and it can only run at a certain speed. Of course, there is much more that can be done to improve things. However, this 'demo' does indicate how much more work would need to go into creating a more usable animated character that is enjoyable to engage and to play with.
+
+
+* **[Part 1]({% link _posts/GAM720/2020-02-09-building-the-multiplayer-environment-part1.markdown %})**
+* **[Part 3]({% link _posts/GAM720/2020-02-12-building-the-multiplayer-environment-part3.markdown %})**
