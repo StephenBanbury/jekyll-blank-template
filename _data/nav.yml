@@ -28,7 +28,7 @@ toc:
         - page: Mirror
           date: 2020-07-02
           url: 2020/07/02/mirror.html  
-        - page: Thoughts On Building The Multiplayer
+        - page: Thoughts On Building The Multiplayer 
           date: 2020-07-05
           url: 2020/07/05/building-multiplayer.html    
         - page: C# TCP/UDP Client-Server Tutorial
