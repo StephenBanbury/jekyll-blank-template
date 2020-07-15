@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-06T23:04:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Building Multiplayer</title><link href="http://localhost:4000/2020/07/05/building-multiplayer.html" rel="alternate" type="text/html" title="Building Multiplayer" /><published>2020-07-05T00:00:00+01:00</published><updated>2020-07-05T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/05/building-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/05/building-multiplayer.html">&lt;h2 id=&quot;unity-xr-integration--mirror&quot;&gt;Unity XR Integration &amp;amp; Mirror&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-15T15:03:05+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Normcore</title><link href="http://localhost:4000/2020/07/13/normcore.html" rel="alternate" type="text/html" title="Normcore" /><published>2020-07-13T00:00:00+01:00</published><updated>2020-07-13T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/13/normcore</id><content type="html" xml:base="http://localhost:4000/2020/07/13/normcore.html">&lt;p&gt;This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the &lt;strong&gt;&lt;a href=&quot;/2020/07/11/client-server-tutorial.html&quot;&gt;previous post&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Normcore looks to be self-contained, including all the building block APIs to get a fully working multiplayer up and running in a short space of time, much like Photon but, from the looks of it, even simpler to implement. It’s main attraction is that it is particularly geared toward VR/AR, which is a huge part of the work out of the way.&lt;/p&gt;
+
+&lt;p&gt;However, it is less mature than Photon, being currently in Beta. But that makes it nice, fresh and young!&lt;/p&gt;
+
+&lt;p&gt;It is created by &lt;strong&gt;&lt;a href=&quot;https://www.normalvr.com/&quot;&gt;normal&lt;/a&gt;&lt;/strong&gt;, who create VR games themselves. I have been particularly enthral to &lt;strong&gt;&lt;a href=&quot;https://halfandhalf.fun/&quot;&gt;Half+Half&lt;/a&gt;&lt;/strong&gt;. Normcore is the plugin they have build for themselves to build their software. It’s all explained in their &lt;strong&gt;&lt;a href=&quot;https://www.normalvr.com/blog/normcore/&quot;&gt;blog&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’ve spent the last three years working on Normcore, a Unity plug-in for our own internal use, implementing all the different pieces—state syncing, physics syncing, voice chat, persistence, fast serialization with versioning, delta compression, flow control, and much more. Through this process, we noticed a pattern: Everyone currently needs to implement each of these pieces from scratch.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…we’ve noticed the VR/AR community is in serious need of good multiplayer support, especially when it comes to voice chat (which we believe is paramount to achieving presence in multiplayer spaces). The VOIP community solved high-quality low-latency voice chat a long time ago, and we’ve incorporated the lessons they’ve learned into how audio works in Normcore&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So… all very, very interesting…&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\normcore-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the previous post.</summary></entry><entry><title type="html">Client/Server Tutorial</title><link href="http://localhost:4000/2020/07/11/client-server-tutorial.html" rel="alternate" type="text/html" title="Client/Server Tutorial" /><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/11/client-server-tutorial</id><content type="html" xml:base="http://localhost:4000/2020/07/11/client-server-tutorial.html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLXkn83W0QkfnqsK8I0RAz5AbUxfg3bOQ5&quot;&gt;Tom Weiland C# Networking Tutorials&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This has been a very interesting tutorial. The objective is to build a console app server which connects clients and allows mutliplayer interaction.&lt;/p&gt;
+
+&lt;p&gt;Following the tutorial and coding along are not necessarily easy bedfellows, because it is quite a complex set up. My approach is to follow what I can whilst coding and to later work out what I do not fully understand.&lt;/p&gt;
+
+&lt;p&gt;By the end of the first five installments I have build a server, which allows clients to connect, spawning ‘player’ characters, following their movements so they can be viewed by other connected clients, and then disconnecting when a client closes down or the server closes down.&lt;/p&gt;
+
+&lt;p&gt;After this point I feel I really need to know how to pass data across the socket connection in order to inform other clients, via the server in this case, that something has changed in one of the client’s environments. It seems I need to spawn every object that is included in any kind of interaction. This could potentially  involve lots of spawning, and then lots of data for each type of interaction, being passed across the network and then interpreted by the server before being diseminated to each client. At least, that how I believe it will require setting up, before having undertaking the course installments beyond simply moving a player character around the (so far unlimited) space.&lt;/p&gt;
+
+&lt;p&gt;The question here is, do I need to continue exploring the console server option, in which case, do I need to use a phyics library like &lt;a href=&quot;https://www.youtube.com/redirect?event=video_description&amp;amp;v=qkjr_rv4AIQ&amp;amp;redir_token=QUFFLUhqbEpGMUgxUFpzNW4yLXJUaDVGaTFXai0zRHZMUXxBQ3Jtc0ttYWNEM2VQTHlCQWk1c1E5dXhBaUZHQVp1OTFOOTVTX0tJa1lkek45Sk9vYWJhWU1OeHZfd0Y1Y0VwYm1Jb2l3dnNSeGY2SUhPSm9MS0xqM2FJaXdLemdEeVJvNmtTZXpSU1A0Y3ViWXJpbmpuTlhlcw%3D%3D&amp;amp;q=https%3A%2F%2Fgithub.com%2Fbepu%2Fbepuphysics2&quot;&gt;BepuPhysics&lt;/a&gt;, with the alternative being to move the server code into Unity and use its in-build physics, or have I found a pathway this is actually unnecessarily complex? There is a &lt;strong&gt;lot&lt;/strong&gt; to do - I’ll need to add server-side collisions and work out how to make actions that happen on the client also happen elsewhere.&lt;/p&gt;
+
+&lt;p&gt;Instead, &lt;strong&gt;can I find a simpler solution?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tom suggests that the reason for this setup is partly to prevent cheating. But what I am doing does not attract cheats ;). Would an alterantive such as Mirror be more appropriate? Mirror at least allows direct client-client communication once the connection has been created via the server.&lt;/p&gt;
+
+&lt;p&gt;Or Photon PUN 2? I found this, which sees to suggest that built-in solutions could work: &lt;a href=&quot;https://sharpcoderblog.com/blog/sync-rigidbodies-over-network-using-pun-2&quot;&gt;Sync Rigidbodies Over Network Using PUN 2&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Oh.. my.. God! Why hast Thou forsaken me?!!!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Both these scenarios mean that I will be bypassing a full inward transfer of networking knowledge and plumping for a relatively easy/soft/lightweight/lazy approach. I would like to fully ‘get it’. But I have time and resource limitations. Perhaps it would be best, as is often the case it seems, to go for the simple option to get it up and running and then get to know the detail and complexity later? I’ve spent the best part of three days (i.e. evenings not spent with the family) on this tutorial… Grrrrrr!&lt;/p&gt;
+
+&lt;h2 id=&quot;normcore&quot;&gt;Normcore&lt;/h2&gt;
+
+&lt;p&gt;I’ve now just come across &lt;strong&gt;&lt;a href=&quot;/2020/07/13/normcore.html&quot;&gt;Normcore&lt;/a&gt;&lt;/strong&gt;. This looks to be yet another option…&lt;/p&gt;</content><author><name></name></author><summary type="html">Tom Weiland C# Networking Tutorials</summary></entry><entry><title type="html">What Is There Out There?</title><link href="http://localhost:4000/2020/07/11/what-is-there-out-there.html" rel="alternate" type="text/html" title="What Is There Out There?" /><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/11/what-is-there-out-there</id><content type="html" xml:base="http://localhost:4000/2020/07/11/what-is-there-out-there.html">&lt;h1 id=&quot;here-i-am-going-to-explore-existing-apps-experiences-games-basically-anything-whatsoever-that-holds-some-level-of-interest-as-an-immersive-interactive-space-for-performance-socialisaing-creating-basically-just-being-in-a-virtual-space-with-other-people-represented-in-virtual-form&quot;&gt;Here I am going to explore existing apps, experiences, games… basically anything whatsoever… that holds some level of interest as an immersive, interactive space for performance, socialisaing, creating.. basically, just ‘being’ in a virtual space with other ‘people’ represented in virtual form.&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Under Presents&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Here I am going to explore existing apps, experiences, games… basically anything whatsoever… that holds some level of interest as an immersive, interactive space for performance, socialisaing, creating.. basically, just ‘being’ in a virtual space with other ‘people’ represented in virtual form.</summary></entry><entry><title type="html">Thought On Building Multiplayer</title><link href="http://localhost:4000/2020/07/05/building-multiplayer.html" rel="alternate" type="text/html" title="Thought On Building Multiplayer" /><published>2020-07-05T00:00:00+01:00</published><updated>2020-07-05T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/05/building-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/05/building-multiplayer.html">&lt;h2 id=&quot;unity-xr-integration--mirror&quot;&gt;Unity XR Integration &amp;amp; Mirror&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5LhA4Tk_uvI&quot;&gt;Good Mirror totorial series, but not VR specific&lt;/a&gt;&lt;/p&gt;
 
@@ -43,7 +94,28 @@ This, I doubt very much.&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;useful-links&quot;&gt;Useful links&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5LhA4Tk_uvI&quot;&gt;Dapper Dino (YouTube)&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.</summary></entry><entry><title type="html">Video Streaming</title><link href="http://localhost:4000/2020/07/02/webrtc.html" rel="alternate" type="text/html" title="Video Streaming" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/02/webrtc.html">&lt;h2 id=&quot;webrtc&quot;&gt;WebRTC&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vis2k/Mirror/releases&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLS6sInD7ThM1aUDj8lZrF4b4lpvejB2uB&quot;&gt;Dapper Dino (YouTube)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yRvfLLTkIXM&quot;&gt;Daniel Hampikian&lt;/a&gt;: mirror’s predecessor, unet - it’s similar enough I think.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;With Mirror, I managed to create a multiplayer networked environment using Unity XR integration for the VR rig. 
+This is an option definitely worth considering.&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\mirror-networking-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The difficulty may come when networking moving rigid bodies, collisions, object ‘ownership’ etc. I have yet to find out how troublesome, or not, this will prove to be. I believe that one of Normcore’s possible strengths is that this is made relatively straightforward. But until I get Normcore working as well as I’ve got Mirror working for something fairly simple, such as this, then Mirror is looking a good bet. It’s a similar story for Photon PUN 2, which I’ve yet to see working and working well in a VR environment.&lt;/p&gt;
+
+&lt;p&gt;The research continues…&lt;/p&gt;</content><author><name></name></author><summary type="html">This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.</summary></entry><entry><title type="html">Video Streaming</title><link href="http://localhost:4000/2020/07/02/webrtc.html" rel="alternate" type="text/html" title="Video Streaming" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/02/webrtc.html">&lt;h2 id=&quot;webrtc&quot;&gt;WebRTC&lt;/h2&gt;
 
 &lt;p&gt;There is a plugin asset available for Unity that implements WebRTC. An interesting aspect is that the most recent version &lt;a href=&quot;https://docs.unity3d.com/Packages/com.unity.webrtc@2.0/manual/index.html&quot;&gt;supports Vulkan and OpenGL&lt;/a&gt;, so should be compatible with the Quest once built and running in the untethered Android platform. Development using Oculus Link, of course, does not require Vulkan to be supported and WebRTC’s NVIDIA compatibility will suffice for this, which is just as well because the new Unity XR Integration plugin only recently included Vulkan support, and it may be &lt;a href=&quot;https://developer.oculus.com/blog/vulkan-support-for-oculus-quest-in-unity-experimental/#:~:text=In%202019.3%2C%20Unity%20is%20moving,the%20new%20XR%20Management%20system.&quot;&gt;still a little buggy&lt;/a&gt;.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -225,46 +297,4 @@ This solution’s streaming technology takes advantage of WebRTC, and through cu
   &lt;li&gt;
     &lt;p&gt;Hand tracking will be incoporated at some point. At the moment I don’t believe I will require it, but I know I will in the future. If I find I need it sooner rather than later, then I can always revert to the Oculus SDK.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Update: I intend to persevere with XR Integration</summary></entry><entry><title type="html">Unity XR Integration</title><link href="http://localhost:4000/2020/06/28/unity-xr-integration.html" rel="alternate" type="text/html" title="Unity XR Integration" /><published>2020-06-28T11:00:00+01:00</published><updated>2020-06-28T11:00:00+01:00</updated><id>http://localhost:4000/2020/06/28/unity-xr-integration</id><content type="html" xml:base="http://localhost:4000/2020/06/28/unity-xr-integration.html">&lt;h1 id=&quot;considering-xr-integration-as-a-replacement-for-oculus-integration&quot;&gt;Considering XR Integration as a replacement for Oculus Integration&lt;/h1&gt;
-
-&lt;p&gt;XR is the future. Unity is developing a multi-platform solution for both VR and AR development that exposes functionality in low-level C# APIs.&lt;/p&gt;
-
-&lt;p&gt;I began looking at the possibility of creating my ‘boilerplate’ start-up project using Unity XR and ditching the ‘old’ Oculus Integration SDK. However, a concern is that, while there are many good reasons to do this, XR &lt;em&gt;may&lt;/em&gt; not be fully developed enough on which to base my immediate project.&lt;/p&gt;
-
-&lt;p&gt;The Oculus SDK is tried and tested and I am comfortable enough using it. While the multi-platform nature of Unity XR will be very useful in time, setting up and incorporating it could set me on a steep new learning curve that I perhaps don’t have time for right now. ‘Upgrading’ to XR at some stage could always be an option, even if it could prove tricky and time-consuming. It could always be done at an apporpriate time in the product’s development lifecycle.&lt;/p&gt;
-
-&lt;p&gt;Oculus Quest &lt;strong&gt;hand tracking&lt;/strong&gt; is something I know I would like to explore, and it’s currently being developed by Oculus, with updates appearing fairly regularly. Currently this is not an option with XR integration. I imagine it will appear at some point, but I currently cannot find any confirmation.&lt;/p&gt;
-
-&lt;p&gt;It would be a shame, because I always like to keep up to speed with the latest developments - it’s easy to fall behind in this fast-moving business - but in practically terms, this could be one occasion that the best option would be to stick with the tried-and-tested pair of old comfortable shoes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;XR Integration in Unity&lt;/strong&gt;
-&lt;img src=&quot;\images\unity-xr-integration-1.jpg&quot; alt=&quot;XR Integration in Unity&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Considering XR Integration as a replacement for Oculus Integration</summary></entry><entry><title type="html">The Search For Sockets</title><link href="http://localhost:4000/2020/06/28/introduction.html" rel="alternate" type="text/html" title="The Search For Sockets" /><published>2020-06-28T10:00:00+01:00</published><updated>2020-06-28T10:00:00+01:00</updated><id>http://localhost:4000/2020/06/28/introduction</id><content type="html" xml:base="http://localhost:4000/2020/06/28/introduction.html">&lt;p&gt;Whatever my final project turns out to be, it will be a multiplayer of some sort and will have media streamed into the VR from outside, media streamed from VR to outside, and control data streamed into VR from outside.&lt;/p&gt;
-
-&lt;p&gt;These are the more difficult of the tasks I envisage, so will need to research and learn these early on.&lt;/p&gt;
-
-&lt;h1 id=&quot;multiplayer-options&quot;&gt;Multiplayer options&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/2020/07/01/photon.html&quot;&gt;Photon PUN2&lt;/a&gt;: as discussed in GAM720&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/2020/07/02/mirror.html&quot;&gt;Mirror&lt;/a&gt;: looks very interesting&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;streaming-options&quot;&gt;Streaming options&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;WebRTC&lt;/li&gt;
-  &lt;li&gt;Genvid&lt;/li&gt;
-  &lt;li&gt;Agora&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Whatever my final project turns out to be, it will be a multiplayer of some sort and will have media streamed into the VR from outside, media streamed from VR to outside, and control data streamed into VR from outside.</summary></entry><entry><title type="html">Starting The Game</title><link href="http://localhost:4000/2020/04/15/game-starting.html" rel="alternate" type="text/html" title="Starting The Game" /><published>2020-04-15T00:00:00+01:00</published><updated>2020-04-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/04/15/game-starting</id><content type="html" xml:base="http://localhost:4000/2020/04/15/game-starting.html">&lt;p&gt;How to start and end the game? The player needs to be prepared and ready for action.&lt;/p&gt;
-
-&lt;h1 id=&quot;starting-the-game&quot;&gt;Starting the game&lt;/h1&gt;
-
-&lt;p&gt;I ended up spending much time on this and getting it right is not a simple thing.  I imagine it to be something that is helped hugely by experience in game design.&lt;/p&gt;
-
-&lt;p&gt;The environment now resembles a theatre in some respects. There is a ‘stage’, where the action happens, a curtain of sorts that keeps all the initial preparation for the ‘performance’ from the audience’s view, and a futher curtain that I refer to as the ‘fire curtain’, again after the theatre. This final curtain came about as a means to hide what is in effect the means to get the game going. Initially I began the game with a spoken narrative welcoming the player and explaining the situation, before presenting them with a button to press to open the main curatin and start working on disaster deployment. However, I discovered that this was actually placing the player too far into the introduction, and really, it is they that needs to set the game in motion - hence the final ‘fire’ curtain, which only opens when the ‘play’ button has been pressed. It is at this point that the introductions begin, resulting in the user being offered the keyboard in order to enter their name (which will ulitmately be used to update the leaderboard).&lt;/p&gt;
-
-&lt;p&gt;All these curtain were a bit boring to watch, so I updated the fire curtain to an animation of the word &lt;em&gt;ShelterBox&lt;/em&gt; - perfectly satisfactory for the pupose of providing enough interest whilst explaining the game without providing too much of a distraction.&lt;/p&gt;
-
-&lt;p&gt;Entering the player’s name allows the welcome to be personalised with a message on the backdrop. I may update this to become some form of &lt;strong&gt;placard or a gilded sign&lt;/strong&gt;, extending the personal touch and further engaging the player.&lt;/p&gt;
-
-&lt;p&gt;All taken into concideration, this reasonably satisfactory, and should suffice for the purpose of this game in the shorter term, but I expect to make improvements at some point once the all-important gameplay is working well.&lt;/p&gt;</content><author><name></name></author><summary type="html">How to start and end the game? The player needs to be prepared and ready for action.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Update: I intend to persevere with XR Integration</summary></entry></feed>

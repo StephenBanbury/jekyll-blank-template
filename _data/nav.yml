@@ -12,26 +12,34 @@ toc:
           - page: Update
             date: 2020-07-01
             url: 2020/07/01/unity-xr-integration-update.html
-      - page: Video Streaming
-        date: 2020-07-02
-        url: 2020/07/02/video-streaming.html       
-        subsubfolderitems:
-        - page: WebRTC
-          date: 2020-07-02
-          url: 2020/07/02/webrtc.html   
-      - page: Multiplayer Options
+      - page: Multiplayer And Streaming Options
         date: 2020-07-01
         url: 2020/07/01/multiplayer.html      
         subsubfolderitems:
+        - page: Video Streaming
+          date: 2020-07-02
+          url: 2020/07/02/video-streaming.html       
+        - page: WebRTC
+          date: 2020-07-02
+          url: 2020/07/02/webrtc.html   
         - page: Photon
           date: 2020-07-01
           url: 2020/07/01/photon.html  
         - page: Mirror
           date: 2020-07-02
           url: 2020/07/02/mirror.html  
-      - page: Building The Multiplayer
-        date: 2020-07-05
-        url: 2020/07/05/building-multiplayer.html      
+        - page: Thoughts On Building The Multiplayer
+          date: 2020-07-05
+          url: 2020/07/05/building-multiplayer.html    
+        - page: C# Networking Tutorial
+          date: 2020-07-11
+          url: 2020/07/11/client-server-tutorial.html  
+        - page: Normcore
+          date: 2020-07-13
+          url: 2020/07/13/normcore.html  
+      - page: What Is There Out There?
+        date: 2020-07-11
+        url: 2020/07/11/what-is-there-out-there.html      
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

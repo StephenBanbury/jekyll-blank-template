@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building Multiplayer
+title: Thought On Building Multiplayer
 published: true
 ---
 

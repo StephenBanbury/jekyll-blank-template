@@ -1,0 +1,26 @@
+---
+layout: post
+title: Normcore
+published: true
+---
+
+This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the **[previous post]({% link _posts/GAM750/2020-07-11-client-server-tutorial.markdown %})**.
+
+Normcore looks to be self-contained, including all the building block APIs to get a fully working multiplayer up and running in a short space of time, much like Photon but, from the looks of it, even simpler to implement. It's main attraction is that it is particularly geared toward VR/AR, which is a huge part of the work out of the way. 
+
+However, it is less mature than Photon, being currently in Beta. But that makes it nice, fresh and young!
+
+It is created by **[normal](https://www.normalvr.com/)**, who create VR games themselves. I have been particularly enthral to **[Half+Half](https://halfandhalf.fun/)**. Normcore is the plugin they have build for themselves to build their software. It's all explained in their **[blog](https://www.normalvr.com/blog/normcore/)**.
+
+>We’ve spent the last three years working on Normcore, a Unity plug-in for our own internal use, implementing all the different pieces—state syncing, physics syncing, voice chat, persistence, fast serialization with versioning, delta compression, flow control, and much more. Through this process, we noticed a pattern: Everyone currently needs to implement each of these pieces from scratch.
+
+>...we’ve noticed the VR/AR community is in serious need of good multiplayer support, especially when it comes to voice chat (which we believe is paramount to achieving presence in multiplayer spaces). The VOIP community solved high-quality low-latency voice chat a long time ago, and we’ve incorporated the lessons they’ve learned into how audio works in Normcore
+
+So... all very, very interesting...
+
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
