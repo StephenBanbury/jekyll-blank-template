@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Client/Server Tutorial
+title: C# TCP/UDP Client-Server Tutorial
 published: true
 ---
 
@@ -15,6 +15,13 @@ By the end of the first five installments I have build a server, which allows cl
 After this point I feel I really need to know how to pass data across the socket connection in order to inform other clients, via the server in this case, that something has changed in one of the client's environments. It seems I need to spawn every object that is included in any kind of interaction. This could potentially  involve lots of spawning, and then lots of data for each type of interaction, being passed across the network and then interpreted by the server before being diseminated to each client. At least, that how I believe it will require setting up, before having undertaking the course installments beyond simply moving a player character around the (so far unlimited) space.
 
 The question here is, do I need to continue exploring the console server option, in which case, do I need to use a phyics library like [BepuPhysics](https://www.youtube.com/redirect?event=video_description&v=qkjr_rv4AIQ&redir_token=QUFFLUhqbEpGMUgxUFpzNW4yLXJUaDVGaTFXai0zRHZMUXxBQ3Jtc0ttYWNEM2VQTHlCQWk1c1E5dXhBaUZHQVp1OTFOOTVTX0tJa1lkek45Sk9vYWJhWU1OeHZfd0Y1Y0VwYm1Jb2l3dnNSeGY2SUhPSm9MS0xqM2FJaXdLemdEeVJvNmtTZXpSU1A0Y3ViWXJpbmpuTlhlcw%3D%3D&q=https%3A%2F%2Fgithub.com%2Fbepu%2Fbepuphysics2), with the alternative being to move the server code into Unity and use its in-build physics, or have I found a pathway this is actually unnecessarily complex? There is a **lot** to do - I'll need to add server-side collisions and work out how to make actions that happen on the client also happen elsewhere.  
+
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\c#-networking-tcp-udp-1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
 
 Instead, **can I find a simpler solution?**
 

@@ -31,7 +31,7 @@ toc:
         - page: Thoughts On Building The Multiplayer
           date: 2020-07-05
           url: 2020/07/05/building-multiplayer.html    
-        - page: C# Networking Tutorial
+        - page: C# TCP/UDP Client-Server Tutorial
           date: 2020-07-11
           url: 2020/07/11/client-server-tutorial.html  
         - page: Normcore

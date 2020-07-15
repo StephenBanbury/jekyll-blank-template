@@ -37,13 +37,6 @@ This is an option definitely worth considering.
   </video>
 </figure>
 
-<figure class="video_container">
-  <video style="width:720px;" autoplay loop>
-    <source src="\media\mirror-networking-2.mp4" type="video/mp4">
-    Woops! Your browser does not support the HTML5 video tag.
-  </video>
-</figure>
-
 The difficulty may come when networking moving rigid bodies, collisions, object 'ownership' etc. I have yet to find out how troublesome, or not, this will prove to be. I believe that one of Normcore's possible strengths is that this is made relatively straightforward. But until I get Normcore working as well as I've got Mirror working for something fairly simple, such as this, then Mirror is looking a good bet. It's a similar story for Photon PUN 2, which I've yet to see working and working well in a VR environment. 
 
 The research continues...
