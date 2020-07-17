@@ -3,3 +3,48 @@ layout: post
 title: Normcore - Feeling Good
 published: true
 ---
+---
+layout: post
+title: Normcore
+published: true
+---
+
+# Feeling good about Normcore
+
+Normcore has everything that I imagined I would be spending a significant amount of time building, but packaged up and ready to use. For this reason alone, it is extremely attractive as a means to building a multiplayer environment. I have so far begin exploring the idea of building my own server-client in C# and using TCP and UDP, Photon PUN 2 as an out-of-the-box solution and Mirror as a Unity-integrated and relatively simple way of wiring multiplayer clients together.
+
+The one thing that sets Normcore apart is that, simply put, it just works - or so it would seem. Particularly  with regard to VR. As a VR mutliplayer developer, the basics have already been done for you. The disadvantage, then is that, if you really do want to get to understand the mechanics of multiplayer networking, of how physics are translated from one client to another etc., these are mainly done by Normcore and it's less likely you will learn from a deap, low-level perspective.
+
+Even so, it is still necessary to understand the model that is used by Normcore, and to understand it well. 
+
+![Normcore data flow](\images\normcore-flow-1.jpg)
+
+>A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match. This means that in the diagram above, when Player 1 moves a game object, RealtimeTransform can set the new position on its model in the datastore. When Player 2 gets a notification that the model changed, it can update the position of the matching game object in its scene
+
+<br><br>
+
+# Experiments based on the Normcore tutorial 
+
+**moving body**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-movement.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
+**avatar**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-avatar.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
+**syncing colour**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-colour.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
