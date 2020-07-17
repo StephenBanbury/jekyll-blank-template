@@ -18,7 +18,7 @@ The question here is, do I need to continue exploring the console server option,
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\c#-networking-tcp-udp-1.mp4" type="video/mp4">
+    <source src="\media\networking-tcp-udp-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -35,4 +35,4 @@ Both these scenarios mean that I will be bypassing a full inward transfer of net
 
 ## Normcore
 
-I've now just come across **[Normcore]({% link _posts/GAM750/2020-07-13-normcore.markdown %})**. This looks to be yet another option...
+I've now just come across **[Normcore]({% link _posts/GAM750/2020-07-13-normcore-1.markdown %})**. This looks to be yet another option...
