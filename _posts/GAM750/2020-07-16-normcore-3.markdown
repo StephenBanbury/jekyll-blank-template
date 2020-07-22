@@ -1,0 +1,31 @@
+---
+layout: post
+title: Exploring Normcore
+published: true
+---
+
+# Exploring Normcore via tutorials 
+
+**moving body**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-movement.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
+**avatar**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-avatar.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
+**syncing colour**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-colour.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>

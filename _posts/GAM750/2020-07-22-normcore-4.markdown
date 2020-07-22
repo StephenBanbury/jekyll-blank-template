@@ -1,0 +1,33 @@
+---
+layout: post
+title: Multiplayer Made Simple
+published: true
+---
+
+Building a simple multiplayer is made easy in Normcore. 
+
+This example uses the Oculus OVRPlayerController, but it could just as easily use any other solution, such as the Unity XR integration.
+
+A Normcore Realtime VR + Player is included in the scene and the OVRPlayerController is wired in as the Local Player variable. That's all that is required to instantiate the avatar in each multiplayer instance!
+
+The grabbable object script is also attached to the Realtime VR + Player, and Realtime View and Realtime Transform scripts are added to the grabbable object, along with a simple script that requests ownership of the object - via its Realtime Transform component - when it is grabbed by one of the players. If the Realtime View's 'Owned by Creating Client' is checked then the other player cannot gain ownership.
+
+      private void Update()
+    {
+        if (gameObject.GetComponent<OVRGrabbable>().isGrabbed)
+        {
+            //potentially clear ownership first - if owned
+            _realtimeTransform.RequestOwnership();
+        }
+    }
+
+# Two players, one headset!
+
+Testing is a bit of a problem of course, with only one Oculus Quest (and only one developer!), both players cannot be independently moved at the same time. But it is possible to see the other player and use one's imagination! 
+
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-2.1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
