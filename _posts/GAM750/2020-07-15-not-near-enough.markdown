@@ -43,8 +43,8 @@ During the past week I put together an expression of interest, resulting in an i
 * Potential for audience members to split up and explore difference spaces before joining together in a joint _'grand finale'_ / _'communal conclusion'_.
 * There is an awareness of the possible limitations and realisation that not every idea may be possible, or feasible given the time and technical limitations.
 * The animations can be derived from the experience of the way the screens, each of which hinges onto the next, move when the space changes its shape.
-* It would be hoped that the audience can interact with the screens in at least one of the spaces - push, move, realine into different shapes.
-* Live interaction via video so the audience and see and speak with the performers - live feed.
+* It would be hoped that the audience can interact with the screens in at least one of the spaces - push, move, realign into different shapes.
+* Live interaction via video so the audience can see and speak with the performers - live feed.
 * This would also mean the space can be used as a live rehearsal space.
 * The audience sees the performer on the screen.
 * Pixelation etc. will be 'embraced' and become part of the aesthetic.
