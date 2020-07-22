@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-22T12:06:51+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-4.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-4</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-4.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-22T15:27:35+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-5.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-5</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-5.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
 
 &lt;p&gt;This example uses the Oculus OVRPlayerController, but it could just as easily use any other solution, such as the Unity XR integration.&lt;/p&gt;
 
@@ -18,20 +18,90 @@
 
 &lt;h1 id=&quot;two-players-one-headset&quot;&gt;Two players, one headset!&lt;/h1&gt;
 
-&lt;p&gt;Testing is a bit of a problem of course, with only one Oculus Quest (and only one developer!), both players cannot be independently moved at the same time. But it is possible to see the other player and use one’s imagination!&lt;/p&gt;
+&lt;p&gt;Testing is a bit of a problem of course, with only one Oculus Quest (and only one developer!), both players cannot be independently moved at the same time. But it is possible to see the other player and use one’s imagination! Unfortunately, without two players it is not possible to try out throwing and catching - that would be great fun!&lt;/p&gt;
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
     &lt;source src=&quot;\media\normcore-2.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Building a simple multiplayer is made easy in Normcore.</summary></entry><entry><title type="html">Normcore - Feeling Good</title><link href="http://localhost:4000/2020/07/16/normcore-2.html" rel="alternate" type="text/html" title="Normcore - Feeling Good" /><published>2020-07-16T00:00:00+01:00</published><updated>2020-07-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/16/normcore-2</id><content type="html" xml:base="http://localhost:4000/2020/07/16/normcore-2.html">&lt;hr /&gt;
-&lt;p&gt;layout: post
-title: Normcore
-published: true
-—&lt;/p&gt;
+&lt;/figure&gt;
 
-&lt;h1 id=&quot;feeling-good-about-normcore&quot;&gt;Feeling good about Normcore&lt;/h1&gt;
+&lt;p&gt;The sound of the player’s voice is also picked up enabling lipsyncing. I will be looking at ways to stream the voice to other players.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building a simple multiplayer is made easy in Normcore.</summary></entry><entry><title type="html">Normcore 2 Preview</title><link href="http://localhost:4000/2020/07/17/normcore-4.html" rel="alternate" type="text/html" title="Normcore 2 Preview" /><published>2020-07-17T00:00:00+01:00</published><updated>2020-07-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/17/normcore-4</id><content type="html" xml:base="http://localhost:4000/2020/07/17/normcore-4.html">&lt;p&gt;I contacted Max Weisel of the Normcore team, via their Discord server, with a question, as I was having trouble getting objects to render in the other client instance - I could just see a horizon. Max responded with the solution (ensure the build is 64bit) in a matter of minutes - very impressive! I mentioned how impressed I am with Normcore and he suggested I contact Nick Savarese - another Normcore team member - to be given access to the Normcore 2 Preview. Apparently, the transitions are significantly smoother.&lt;/p&gt;
+
+&lt;p&gt;This I did, and Nick sent me a message followed by emails with attached Unity projects with the preview versions pre-installed. It’s great to be at the cutting edge!&lt;/p&gt;
+
+&lt;h1 id=&quot;normcore-200-preview-1&quot;&gt;Normcore 2.0.0 Preview 1&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Heyo,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Thanks for your interest in trying out Normcore 2.0! Most of you are on Normcore 1.0, so we’ll be rolling out Normcore 2.0 features in stages in order to make upgrading as easy as possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The first preview build is almost identical to the Normcore 1.0 API, however it features a completely new transport system and backend. Latency will be even lower and this backend should be much more stable. We’re currently only running the 2.0 backend on our US clusters. We’ll be bringing all of our regions online in about two weeks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re starting out on a fresh project with Normcore 2.0, you’ll want to import the Unity package without importing the Examples folder first. Then once the package is imported, you can reimport it again if you’d like to bring the examples into the project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Upgrading from Normcore 1.0
+Ensure your project currently compiles, leave all existing Normcore files in place, and backup your project! Then follow these instructions exactly:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Import the unitypackage and wait for it to compile once.&lt;/li&gt;
+    &lt;li&gt;After the first compilation, Normcore will be added in Package Manager. Unity will recompile again, and you’ll have a ton of duplicate symbol errors.&lt;/li&gt;
+    &lt;li&gt;Delete the Realtime folder under Normal, and your project will start compiling again.&lt;/li&gt;
+    &lt;li&gt;All that’s left is to fix any scene or prefabs that reference Normcore components. Go to Window &amp;gt; Normcore &amp;gt; Migrate and wait a few seconds for it to complete.&lt;/li&gt;
+    &lt;li&gt;Once migration finishes, you’re good to go!&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Feel free to email us if you have any questions. we’ve also created a #normcore2-preview channel on our discord!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stay Normal!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;normcore-200-preview-8&quot;&gt;Normcore 2.0.0 Preview 8&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hey everyone,&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’ve now deployed the breaking backend change and have pushed an updated Unity package.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This update also moved a few files around in the Examples folder. If you get an error while updating, please delete the Normal folder, and import the latest Unity package attached here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’ve previously migrated RealtimeAvatar/RealtimeAvatarManager scripts in your scenes and prefabs, we’ve moved them back to source files so people can copy them easily. You’ll need to manually migrate them back, or revert to copies of your scenes / prefabs before the migration and run the migration script again.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re starting out on a fresh project with Normcore 2.0, you’ll want to import the Unity package without importing the Examples folder first. Then once the package is imported, you can reimport it again if you’d like to bring the examples into the project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As always, feel free to email us if you have any questions or hit us up on the #normcore2-preview channel on our discord!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Best,
+Nick&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">I contacted Max Weisel of the Normcore team, via their Discord server, with a question, as I was having trouble getting objects to render in the other client instance - I could just see a horizon. Max responded with the solution (ensure the build is 64bit) in a matter of minutes - very impressive! I mentioned how impressed I am with Normcore and he suggested I contact Nick Savarese - another Normcore team member - to be given access to the Normcore 2 Preview. Apparently, the transitions are significantly smoother.</summary></entry><entry><title type="html">Normcore - Feeling Good</title><link href="http://localhost:4000/2020/07/16/normcore-2.html" rel="alternate" type="text/html" title="Normcore - Feeling Good" /><published>2020-07-16T00:00:00+01:00</published><updated>2020-07-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/16/normcore-2</id><content type="html" xml:base="http://localhost:4000/2020/07/16/normcore-2.html">&lt;h1 id=&quot;feeling-good-about-normcore&quot;&gt;Feeling good about Normcore&lt;/h1&gt;
 
 &lt;p&gt;Normcore has everything that I imagined I would be spending a significant amount of time building, but packaged up and ready to use. For this reason alone, it is extremely attractive as a means to building a multiplayer environment. I have so far begin exploring the idea of building my own server-client in C# and using TCP and UDP, Photon PUN 2 as an out-of-the-box solution and Mirror as a Unity-integrated and relatively simple way of wiring multiplayer clients together.&lt;/p&gt;
 
@@ -43,7 +113,7 @@ published: true
 
 &lt;blockquote&gt;
   &lt;p&gt;A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match. This means that in the diagram above, when Player 1 moves a game object, RealtimeTransform can set the new position on its model in the datastore. When Player 2 gets a notification that the model changed, it can update the position of the matching game object in its scene&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">layout: post title: Normcore published: true —</summary></entry><entry><title type="html">Exploring Normcore</title><link href="http://localhost:4000/2020/07/16/normcore-3.html" rel="alternate" type="text/html" title="Exploring Normcore" /><published>2020-07-16T00:00:00+01:00</published><updated>2020-07-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/16/normcore-3</id><content type="html" xml:base="http://localhost:4000/2020/07/16/normcore-3.html">&lt;h1 id=&quot;exploring-normcore-via-tutorials&quot;&gt;Exploring Normcore via tutorials&lt;/h1&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Feeling good about Normcore</summary></entry><entry><title type="html">Exploring Normcore</title><link href="http://localhost:4000/2020/07/16/normcore-3.html" rel="alternate" type="text/html" title="Exploring Normcore" /><published>2020-07-16T00:00:00+01:00</published><updated>2020-07-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/16/normcore-3</id><content type="html" xml:base="http://localhost:4000/2020/07/16/normcore-3.html">&lt;h1 id=&quot;exploring-normcore-via-tutorials&quot;&gt;Exploring Normcore via tutorials&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;moving body&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
@@ -67,7 +137,71 @@ published: true
     &lt;source src=&quot;\media\normcore-sync-colour.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Exploring Normcore via tutorials</summary></entry><entry><title type="html">Normcore</title><link href="http://localhost:4000/2020/07/13/normcore-1.html" rel="alternate" type="text/html" title="Normcore" /><published>2020-07-13T00:00:00+01:00</published><updated>2020-07-13T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/13/normcore-1</id><content type="html" xml:base="http://localhost:4000/2020/07/13/normcore-1.html">&lt;p&gt;This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the &lt;strong&gt;&lt;a href=&quot;/2020/07/11/client-server-tutorial.html&quot;&gt;previous post&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Exploring Normcore via tutorials</summary></entry><entry><title type="html">The Project - Not Near Enough</title><link href="http://localhost:4000/2020/07/15/not-near-enough.html" rel="alternate" type="text/html" title="The Project - Not Near Enough" /><published>2020-07-15T00:00:00+01:00</published><updated>2020-07-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/15/not-near-enough</id><content type="html" xml:base="http://localhost:4000/2020/07/15/not-near-enough.html">&lt;p&gt;&lt;strong&gt;Not Near Enough&lt;/strong&gt; is a &lt;strong&gt;&lt;a href=&quot;https://www.storyfutures.com/academy&quot;&gt;StoryFutures Academy&lt;/a&gt;&lt;/strong&gt;-funded project at Falmouth University exploring VR theatre spaces.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The brief for this project is to create an adaptable and interactive virtual theatre space where
+actors and audience meet. The same space would also function as a teaching and rehearsal
+space for Falmouth students and staff.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During the past week I put together an expression of interest, resulting in an invitation from the team leaders to discuss the possibility of my working on the project. This took place on Monday, and yesterday (Tuesday) I was invited to join the project as &lt;strong&gt;VR Unity Developer&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes-from-initial-discussion&quot;&gt;Notes from initial discussion&lt;/h2&gt;
+
+&lt;h1 id=&quot;brief-outline---project-background&quot;&gt;Brief outline - project background&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;StoryFutures Academy&lt;/strong&gt; - one of the government’s appointed ‘creative clusters’. Collaboration between Royal Holloway University of London and National Film and Television School, who are primaritly interested in funding and upskilling businesses and organisations in the West London area in new digital media - VR, AR, XR etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Train The Trainer&lt;/strong&gt; is a StoryFutures initiative as part of a funding strand offered to work with universities across the country.&lt;/li&gt;
+  &lt;li&gt;Five universities have this funding - Falmouth, Hertfordshire, Abertay, UCL, Bath Spa.&lt;/li&gt;
+  &lt;li&gt;The funding is, in this case, to be used for a &lt;strong&gt;‘teaching-led’&lt;/strong&gt; project.&lt;/li&gt;
+  &lt;li&gt;Due to the COVID-19 pandemic, this year Falmouth University &lt;strong&gt;AMATA&lt;/strong&gt; (Academy of Music and Theatre Arts) are devising a project that is about creating for an immersive, virtual environment.&lt;/li&gt;
+  &lt;li&gt;The view of the directors is that theatre, performance, acting students - those interested in live performance - are better placed to consider such spaces than film and television students, because they are used to working in spaces that happen all around, be they real or virtual.&lt;/li&gt;
+  &lt;li&gt;We will be working with &lt;strong&gt;theatre and performance&lt;/strong&gt; students and &lt;strong&gt;technical theatre arts&lt;/strong&gt; students.&lt;/li&gt;
+  &lt;li&gt;The students will be engaged in creating content for the environment.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;20&lt;/strong&gt; students in total: &lt;strong&gt;16&lt;/strong&gt; theatre and performance and &lt;strong&gt;4&lt;/strong&gt; technical theatre arts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;the-environment&quot;&gt;The environment&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Important: the &lt;strong&gt;‘liveness’&lt;/strong&gt; and &lt;strong&gt;‘interactiveness’&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Visual concept - the &lt;strong&gt;‘varyon’&lt;/strong&gt; - morphs and moves around the audience.&lt;/li&gt;
+  &lt;li&gt;As well as images of performers streamed into the environment, they would like some form of &lt;strong&gt;‘volumetric capture’&lt;/strong&gt; if possible, where the performers appear in the space as a kind of &lt;strong&gt;‘hologram’&lt;/strong&gt;, or &lt;strong&gt;‘avatar’&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;This can be incomplete, blocky or outlined etc. - i.e.  not a full perfect representation.&lt;/li&gt;
+  &lt;li&gt;Audience will wear headsets&lt;/li&gt;
+  &lt;li&gt;Performers streamed in via, for example, cameras or laptops.&lt;/li&gt;
+  &lt;li&gt;Interested in how an audience with audience interaction might &lt;em&gt;look like&lt;/em&gt;, how would they be aware of each other’s presence, how will they interact with the space?&lt;/li&gt;
+  &lt;li&gt;Audience of approximately 8-10.&lt;/li&gt;
+  &lt;li&gt;One idea is to maybe pick four formations created by the screens, and the audience transitions between them via an animation, with each space being seen as an interactive ‘installation’ space.&lt;/li&gt;
+  &lt;li&gt;Klaus Kruse (director) outlined possible ideas for ‘flow’ through the space(s).&lt;/li&gt;
+  &lt;li&gt;Potential for audience members to split up and explore difference spaces before joining together in a joint &lt;em&gt;‘grand finale’&lt;/em&gt; / &lt;em&gt;‘communal conclusion’&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;There is an awareness of the possible limitations and realisation that not every idea may be possible, or feasible given the time and technical limitations.&lt;/li&gt;
+  &lt;li&gt;The animations can be derived from the experience of the way the screens, each of which hinges onto the next, move when the space changes its shape.&lt;/li&gt;
+  &lt;li&gt;It would be hoped that the audience can interact with the screens in at least one of the spaces - push, move, realine into different shapes.&lt;/li&gt;
+  &lt;li&gt;Live interaction via video so the audience and see and speak with the performers - live feed.&lt;/li&gt;
+  &lt;li&gt;This would also mean the space can be used as a live rehearsal space.&lt;/li&gt;
+  &lt;li&gt;The audience sees the performer on the screen.&lt;/li&gt;
+  &lt;li&gt;Pixelation etc. will be ‘embraced’ and become part of the aesthetic.&lt;/li&gt;
+  &lt;li&gt;Students can maybe access the space via 360 degree video displayed on google cardboard via phones.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/GAM750/not-near-enough-perf-map-1.jpg&quot; alt=&quot;performance map&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;research-experimentation-dialogue-and-rd&quot;&gt;Research, experimentation, dialogue and R&amp;amp;D&lt;/h1&gt;
+
+&lt;p&gt;This is very much a dialogue, a collaboration. There is space for me, as a developer to bring to the project. It is likely that, as theatre practitioners, the project devisers and leaders of the project have thought aobut differentely, or have ideas that are not necessarily feasible in the way they imagined them. This project is in many respects, an R&amp;amp;D project - there is a lot of research and experimentation to be done in attempting to realise something that is close to the original concepts.&lt;/p&gt;
+
+&lt;p&gt;There is also the potential for publishing a research paper or two at the end of the project. It this stage, I see this as something I’d be interested in being invovled in.&lt;/p&gt;
+
+&lt;h1 id=&quot;time-scale&quot;&gt;Time scale&lt;/h1&gt;
+
+&lt;p&gt;They would like something ready and working - certainly not complete - during September, or start of October, in order to work with students within the virtual space.&lt;/p&gt;
+
+&lt;h1 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h1&gt;
+
+&lt;p&gt;It was agreed that, should it be necessary or helpful to bring in external expertise as and when necessary, we will do so. I’m thinking potentially in terms of graphics, animations, character or environment aesthetics etc., that this could be a good thing to do.&lt;/p&gt;</content><author><name></name></author><summary type="html">Not Near Enough is a StoryFutures Academy-funded project at Falmouth University exploring VR theatre spaces.</summary></entry><entry><title type="html">Normcore</title><link href="http://localhost:4000/2020/07/13/normcore-1.html" rel="alternate" type="text/html" title="Normcore" /><published>2020-07-13T00:00:00+01:00</published><updated>2020-07-13T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/13/normcore-1</id><content type="html" xml:base="http://localhost:4000/2020/07/13/normcore-1.html">&lt;p&gt;This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the &lt;strong&gt;&lt;a href=&quot;/2020/07/11/client-server-tutorial.html&quot;&gt;previous post&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Normcore looks to be self-contained, including all the building block APIs to get a fully working multiplayer up and running in a short space of time, much like Photon but, from the looks of it, even simpler to implement. It’s main attraction is that it is particularly geared toward VR/AR, which is a huge part of the work out of the way.&lt;/p&gt;
 
@@ -160,159 +294,7 @@ This, I doubt very much.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/gam750/webrtc-multiplayer-1.JPG&quot; alt=&quot;WebRTC multiplayer data channel&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is an interesting discussion about using WebRTC for multiplayer games. It is possible. But this is JavaScript. Making it work for Unity is another thing entirely. The Unity package may manage everything needed, but it would take a deep dive to find out how.&lt;/p&gt;</content><author><name></name></author><summary type="html">Unity XR Integration &amp;amp; Mirror</summary></entry><entry><title type="html">Video Streaming</title><link href="http://localhost:4000/2020/07/02/webrtc.html" rel="alternate" type="text/html" title="Video Streaming" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/02/webrtc.html">&lt;h2 id=&quot;webrtc&quot;&gt;WebRTC&lt;/h2&gt;
-
-&lt;p&gt;There is a plugin asset available for Unity that implements WebRTC. An interesting aspect is that the most recent version &lt;a href=&quot;https://docs.unity3d.com/Packages/com.unity.webrtc@2.0/manual/index.html&quot;&gt;supports Vulkan and OpenGL&lt;/a&gt;, so should be compatible with the Quest once built and running in the untethered Android platform. Development using Oculus Link, of course, does not require Vulkan to be supported and WebRTC’s NVIDIA compatibility will suffice for this, which is just as well because the new Unity XR Integration plugin only recently included Vulkan support, and it may be &lt;a href=&quot;https://developer.oculus.com/blog/vulkan-support-for-oculus-quest-in-unity-experimental/#:~:text=In%202019.3%2C%20Unity%20is%20moving,the%20new%20XR%20Management%20system.&quot;&gt;still a little buggy&lt;/a&gt;.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Vulkan support is still in early stages&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\xr-vulkan-1.JPG&quot; alt=&quot;XR Vulkan support&quot; /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;what-is-good-about-webrtc&quot;&gt;What is good about WebRTC?&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Allows direct communication between clients, bypassing the server.&lt;/li&gt;
-  &lt;li&gt;Works via UDP, which is excellent for non-important, simple data like video, becuase it does not constantly check if the data is being received.&lt;/li&gt;
-  &lt;li&gt;Most browsers support WebRTC and those that don’t such as Microsoft Edge and Safari, are supported with a plugin.&lt;/li&gt;
-  &lt;li&gt;Very quick.&lt;/li&gt;
-  &lt;li&gt;Google and Facebook use WebRTC. NB - I wonder if the fact that facebook use it will mean great on-going support for Oculus devices?&lt;/li&gt;
-  &lt;li&gt;Open source.&lt;/li&gt;
-  &lt;li&gt;Many open source libraries available, so many different interfacing possibilities.&lt;/li&gt;
-  &lt;li&gt;Secure - encryption is mandatory.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;webrtc-and-unity&quot;&gt;WebRTC and Unity&lt;/h1&gt;
-&lt;p&gt;I’m concerned there may be a major hurdle: unless I find out otherwise, or find a way around this issue, it looks as though it may not be possible to stream video &lt;strong&gt;into&lt;/strong&gt; the VR environment. The Unity WebRTC package is intended to provide rendering from Unity into a browser.&lt;/p&gt;
-
-&lt;p&gt;Bearing mind, though, that this is from 2018 and there have been a number of updates since: -&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://forum.unity.com/threads/unity-render-streaming-introduction-faq.742481/&quot;&gt;Unity Render Streaming Introduction &amp;amp; FAQ&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;What is Unity Render Streaming?&lt;/strong&gt;
-This is a solution that provides Unity’s high definition rendering abilities via a browser. It’s designed to meet the needs of tasks like viewing car configurators or architectural models on mobile devices.
-This solution’s streaming technology takes advantage of WebRTC, and through customization, developers can create their own unique solutions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sam77777 said: Is possible to stream on browser of the VR device and get input from HMD?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;kazuki_unity729 of Unity Technologies said: I am not sure the webrtc technology works on VR devices.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It also appears that video must be served by a PC with a decent NVidia card:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This means there´s a server PC (with a NVidiaCard) running an Executable as a server that streams the video and reacts to the input coming from the mobile devices, right?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Yes&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;asset-webrtc-video-chat&quot;&gt;Asset: &lt;em&gt;WebRTC Video Chat&lt;/em&gt;&lt;/h1&gt;
-&lt;p&gt;This is an asset in the Unity Asset store by &lt;a href=&quot;https://www.because-why-not.com/webrtc/&quot;&gt;Because why not?&lt;/a&gt; that looks simple to use when connecting various systems (it still may not be compatible with VR or Quest (Android)), but it is quite &lt;a href=&quot;&quot;&gt;expensive&lt;/a&gt; - €102.73.&lt;/p&gt;
-
-&lt;p&gt;But it least it shows streaming directly between two apps is possible. Again, it’s not clear if this can be done in VR.&lt;/p&gt;
-
-&lt;h1 id=&quot;mixedreality-webrtc&quot;&gt;MixedReality-WebRTC&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/microsoft/MixedReality-WebRTC&quot;&gt;Microsoft GitHub repository&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;This looks very interesting&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;MixedReality-WebRTC is a collection of libraries to help mixed reality app developers to integrate peer-to-peer real-time audio and video communication into their application and improve their collaborative experience.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;MixedReality-WebRTC is a set of individual building blocks in the form of C and C# libraries building upon each other to deliver a consistent API to C/C++ and C# developers across its supported platforms, and a set of handful drop-in &lt;strong&gt;Unity3D&lt;/strong&gt; components for easy integration.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Open source - MIT license&lt;/li&gt;
-  &lt;li&gt;Available as NuGet package&lt;/li&gt;
-  &lt;li&gt;Documented: user manual, API reference&lt;/li&gt;
-  &lt;li&gt;Maintained by the &lt;a href=&quot;https://github.com/orgs/microsoft/teams/mixed-reality-sharing&quot;&gt;Mixed Reality Sharing team&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/unity/unity-integration.html&quot;&gt;Unity library overview&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/unity/helloworld-unity.html&quot;&gt;Hello, Unity world!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/gam750/mixed-reality-webrtc-1.JPG&quot; alt=&quot;Hello, Unity world&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It seems building for &lt;strong&gt;Android&lt;/strong&gt; is possible:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/building.html&quot;&gt;Building from sources&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/android/building-android.html&quot;&gt;Android&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">WebRTC</summary></entry><entry><title type="html">Video Streaming</title><link href="http://localhost:4000/2020/07/02/video-streaming.html" rel="alternate" type="text/html" title="Video Streaming" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/video-streaming</id><content type="html" xml:base="http://localhost:4000/2020/07/02/video-streaming.html">&lt;p&gt;I want to stream video and other media and data into my Unity-created VR experience.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;How can I do this?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading around the subject of sockets, both in general and specifically with regard to Unity: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h1 id=&quot;webdev&quot;&gt;&lt;a href=&quot;https://web.dev/websocketstream/&quot;&gt;web.dev&lt;/a&gt;&lt;/h1&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API&quot;&gt;WebSocket API&lt;/a&gt;&lt;/strong&gt;: a JavaScript interface using the &lt;strong&gt;&lt;a href=&quot;https://tools.ietf.org/html/rfc6455&quot;&gt;WebSocket protocol&lt;/a&gt;&lt;/strong&gt;. &lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Opens a two-way open interactive communication session between browser and server. Does not require server polling.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Streams_API&quot;&gt;Streams API&lt;/a&gt;&lt;/strong&gt;: JavaScript API to access streams of data chunks. Reading/writing speed is regulated by the concept of &lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#Backpressure&quot;&gt;backpressure&lt;/a&gt;&lt;/strong&gt;.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The WebSocket API cannot apply backpressure, so can get overwhelmed when messages arrive faster than they can be handled. The solution is the &lt;strong&gt;WebSocketStream API&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h1 id=&quot;stackoverflow&quot;&gt;&lt;a href=&quot;https://stackoverflow.com/questions/42717713/unity-live-video-streaming&quot;&gt;StackOverflow&lt;/a&gt;&lt;/h1&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This person has a minor problem with a solution they have built in Unity. They are sending images, but much of the principle should be the same. Of course, it’s the solution I’m interested in studying.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h1 id=&quot;unity-forum&quot;&gt;&lt;a href=&quot;https://forum.unity.com/threads/stream-video-through-network.464693/&quot;&gt;Unity forum&lt;/a&gt;&lt;/h1&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h1 id=&quot;playing-video-from-url&quot;&gt;&lt;a href=&quot;https://answers.unity.com/questions/1363049/does-videoplayerurl-supports-playing-live-video-fr.html&quot;&gt;Playing video from url&lt;/a&gt;&lt;/h1&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;strong&gt;.. continue - there are many more links to go here&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;out-of-the-box-options&quot;&gt;Out-of-the-box options&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Open source (so free!)&lt;/li&gt;
-  &lt;li&gt;Mature as non-Unity platform&lt;/li&gt;
-  &lt;li&gt;Unity package &lt;strong&gt;&lt;em&gt;should&lt;/em&gt;&lt;/strong&gt; work with both Oculus Link (NVIDIA codec) and untethered/Android (Vulkan/OpenGL)&lt;/li&gt;
-  &lt;li&gt;Appears to have recently been &lt;a href=&quot;https://blogs.unity3d.com/2019/09/17/stream-high-quality-real-time-graphics-through-your-browser-with-our-new-webrtc-framework/&quot;&gt;embraced by Unity&lt;/a&gt; as their defacto tech in the area of streaming&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.agora.io/en/&quot;&gt;Agora&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Free for low use only&lt;/li&gt;
-  &lt;li&gt;Pay As You Go &lt;a href=&quot;https://www.agora.io/en/pricing/&quot;&gt;pricing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Simple to set up&lt;/li&gt;
-  &lt;li&gt;Can stream voice and video&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.genvidtech.com/&quot;&gt;Genvid&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Appears to have a functionality set that is close to what could be required.  There is a &lt;a href=&quot;https://www.genvidtech.com/licensing/&quot;&gt;pricing/licensing structure&lt;/a&gt;, that depends on individual unique viewers per month. I’m not quite sure how this would work in the kind of scenario I’m thinking of.&lt;/p&gt;</content><author><name></name></author><summary type="html">I want to stream video and other media and data into my Unity-created VR experience.</summary></entry><entry><title type="html">Mirror</title><link href="http://localhost:4000/2020/07/02/mirror.html" rel="alternate" type="text/html" title="Mirror" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/mirror</id><content type="html" xml:base="http://localhost:4000/2020/07/02/mirror.html">&lt;p&gt;This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.&lt;/p&gt;
+&lt;p&gt;This is an interesting discussion about using WebRTC for multiplayer games. It is possible. But this is JavaScript. Making it work for Unity is another thing entirely. The Unity package may manage everything needed, but it would take a deep dive to find out how.&lt;/p&gt;</content><author><name></name></author><summary type="html">Unity XR Integration &amp;amp; Mirror</summary></entry><entry><title type="html">Mirror</title><link href="http://localhost:4000/2020/07/02/mirror.html" rel="alternate" type="text/html" title="Mirror" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/mirror</id><content type="html" xml:base="http://localhost:4000/2020/07/02/mirror.html">&lt;p&gt;This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.&lt;/p&gt;
 
 &lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
 &lt;ul&gt;

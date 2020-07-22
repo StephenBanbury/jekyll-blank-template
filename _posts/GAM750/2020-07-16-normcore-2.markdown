@@ -3,11 +3,6 @@ layout: post
 title: Normcore - Feeling Good
 published: true
 ---
----
-layout: post
-title: Normcore
-published: true
----
 
 # Feeling good about Normcore
 

@@ -1,0 +1,49 @@
+---
+layout: post
+title: Normcore 2 Preview 
+published: true
+---
+
+I contacted Max Weisel of the Normcore team, via their Discord server, with a question, as I was having trouble getting objects to render in the other client instance - I could just see a horizon. Max responded with the solution (ensure the build is 64bit) in a matter of minutes - very impressive! I mentioned how impressed I am with Normcore and he suggested I contact Nick Savarese - another Normcore team member - to be given access to the Normcore 2 Preview. Apparently, the transitions are significantly smoother.
+
+This I did, and Nick sent me a message followed by emails with attached Unity projects with the preview versions pre-installed. It's great to be at the cutting edge!
+
+# Normcore 2.0.0 Preview 1
+
+>Heyo,
+
+>Thanks for your interest in trying out Normcore 2.0! Most of you are on Normcore 1.0, so we'll be rolling out Normcore 2.0 features in stages in order to make upgrading as easy as possible.
+
+>The first preview build is almost identical to the Normcore 1.0 API, however it features a completely new transport system and backend. Latency will be even lower and this backend should be much more stable. We're currently only running the 2.0 backend on our US clusters. We'll be bringing all of our regions online in about two weeks.
+
+>If you're starting out on a fresh project with Normcore 2.0, you'll want to import the Unity package without importing the Examples folder first. Then once the package is imported, you can reimport it again if you'd like to bring the examples into the project.
+
+>Upgrading from Normcore 1.0
+Ensure your project currently compiles, leave all existing Normcore files in place, and backup your project! Then follow these instructions exactly:
+
+>1. Import the unitypackage and wait for it to compile once.
+2. After the first compilation, Normcore will be added in Package Manager. Unity will recompile again, and you'll have a ton of duplicate symbol errors.
+3. Delete the Realtime folder under Normal, and your project will start compiling again.
+4. All that's left is to fix any scene or prefabs that reference Normcore components. Go to Window > Normcore > Migrate and wait a few seconds for it to complete.
+5. Once migration finishes, you're good to go!
+
+>Feel free to email us if you have any questions. we've also created a #normcore2-preview channel on our discord!
+
+>Stay Normal!
+
+# Normcore 2.0.0 Preview 8
+
+>Hey everyone, 
+
+>We've now deployed the breaking backend change and have pushed an updated Unity package.
+
+>This update also moved a few files around in the Examples folder. If you get an error while updating, please delete the Normal folder, and import the latest Unity package attached here.
+
+>If you’ve previously migrated RealtimeAvatar/RealtimeAvatarManager scripts in your scenes and prefabs, we’ve moved them back to source files so people can copy them easily. You’ll need to manually migrate them back, or revert to copies of your scenes / prefabs before the migration and run the migration script again.
+
+>If you're starting out on a fresh project with Normcore 2.0, you'll want to import the Unity package without importing the Examples folder first. Then once the package is imported, you can reimport it again if you'd like to bring the examples into the project.
+
+>As always, feel free to email us if you have any questions or hit us up on the #normcore2-preview channel on our discord!
+
+>Best,
+Nick

@@ -23,7 +23,7 @@ The grabbable object script is also attached to the Realtime VR + Player, and Re
 
 # Two players, one headset!
 
-Testing is a bit of a problem of course, with only one Oculus Quest (and only one developer!), both players cannot be independently moved at the same time. But it is possible to see the other player and use one's imagination! 
+Testing is a bit of a problem of course, with only one Oculus Quest (and only one developer!), both players cannot be independently moved at the same time. But it is possible to see the other player and use one's imagination! Unfortunately, without two players it is not possible to try out throwing and catching - that would be great fun!
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
@@ -31,3 +31,6 @@ Testing is a bit of a problem of course, with only one Oculus Quest (and only on
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
+
+The sound of the player's voice is also picked up enabling lipsyncing. I will be looking at ways to stream the voice to other players.
+
