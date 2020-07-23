@@ -1,0 +1,20 @@
+---
+layout: post
+title: Syncing Data In Normcore
+published: true
+---
+
+I'm setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment. 
+
+The Normcore pattern of keeping gameobjects in sync with a model held in the datastore should, in theory, also work for simple values. Here I'm attempting to find out how to do this.
+
+I'm looking in particular at the tutorial **[Synchronizing your own data with custom Realtime Components](https://normcore.io/documentation/guides/synchronizing-your-own-data.html)** here for some guidance. 
+
+**You see the problem...**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-sync-issue-1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+

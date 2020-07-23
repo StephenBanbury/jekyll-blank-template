@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-22T16:32:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-5.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-5</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-5.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-24T00:39:50+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Syncing Data In Normcore</title><link href="http://localhost:4000/2020/07/24/normcore-6.html" rel="alternate" type="text/html" title="Syncing Data In Normcore" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/24/normcore-6</id><content type="html" xml:base="http://localhost:4000/2020/07/24/normcore-6.html">&lt;p&gt;I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.&lt;/p&gt;
+
+&lt;p&gt;The Normcore pattern of keeping gameobjects in sync with a model held in the datastore should, in theory, also work for simple values. Here I’m attempting to find out how to do this.&lt;/p&gt;
+
+&lt;p&gt;I’m looking in particular at the tutorial &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/guides/synchronizing-your-own-data.html&quot;&gt;Synchronizing your own data with custom Realtime Components&lt;/a&gt;&lt;/strong&gt; here for some guidance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You see the problem…&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\normcore-sync-issue-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.</summary></entry><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-5.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-5</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-5.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
 
 &lt;p&gt;This example uses the Oculus OVRPlayerController, but it could just as easily use any other solution, such as the Unity XR integration.&lt;/p&gt;
 
@@ -224,7 +236,15 @@ space for Falmouth students and staff.&lt;/p&gt;
     &lt;source src=&quot;\media\normcore-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the previous post.</summary></entry><entry><title type="html">C# TCP/UDP Client-Server Tutorial</title><link href="http://localhost:4000/2020/07/11/client-server-tutorial.html" rel="alternate" type="text/html" title="C# TCP/UDP Client-Server Tutorial" /><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/11/client-server-tutorial</id><content type="html" xml:base="http://localhost:4000/2020/07/11/client-server-tutorial.html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLXkn83W0QkfnqsK8I0RAz5AbUxfg3bOQ5&quot;&gt;Tom Weiland C# Networking Tutorials&lt;/a&gt;&lt;/p&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">This is potentially the best option of all - if I were to forgoe the build-your-own-networking-solution learning curve I mention in the previous post.</summary></entry><entry><title type="html">What Else Is There Out There?</title><link href="http://localhost:4000/2020/07/11/what-is-there-out-there.html" rel="alternate" type="text/html" title="What Else Is There Out There?" /><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/11/what-is-there-out-there</id><content type="html" xml:base="http://localhost:4000/2020/07/11/what-is-there-out-there.html">&lt;h1 id=&quot;here-i-am-going-to-explore-existing-apps-experiences-games-basically-anything-whatsoever-that-holds-some-level-of-interest-as-an-immersive-interactive-space-for-performance-socialisaing-creating-basically-just-being-in-a-virtual-space-with-other-people-represented-in-virtual-form&quot;&gt;Here I am going to explore existing apps, experiences, games… basically anything whatsoever… that holds some level of interest as an immersive, interactive space for performance, socialisaing, creating.. basically, just ‘being’ in a virtual space with other ‘people’ represented in virtual form.&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Under Presents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Game in the form of a theatre production?&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=fSQD8DBLODE&lt;/p&gt;</content><author><name></name></author><summary type="html">Here I am going to explore existing apps, experiences, games… basically anything whatsoever… that holds some level of interest as an immersive, interactive space for performance, socialisaing, creating.. basically, just ‘being’ in a virtual space with other ‘people’ represented in virtual form.</summary></entry><entry><title type="html">C# TCP/UDP Client-Server Tutorial</title><link href="http://localhost:4000/2020/07/11/client-server-tutorial.html" rel="alternate" type="text/html" title="C# TCP/UDP Client-Server Tutorial" /><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/11/client-server-tutorial</id><content type="html" xml:base="http://localhost:4000/2020/07/11/client-server-tutorial.html">&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLXkn83W0QkfnqsK8I0RAz5AbUxfg3bOQ5&quot;&gt;Tom Weiland C# Networking Tutorials&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This has been a very interesting tutorial. The objective is to build a console app server which connects clients and allows mutliplayer interaction.&lt;/p&gt;
 
@@ -255,15 +275,7 @@ space for Falmouth students and staff.&lt;/p&gt;
 
 &lt;h2 id=&quot;normcore&quot;&gt;Normcore&lt;/h2&gt;
 
-&lt;p&gt;I’ve now just come across &lt;strong&gt;&lt;a href=&quot;/2020/07/13/normcore-1.html&quot;&gt;Normcore&lt;/a&gt;&lt;/strong&gt;. This looks to be yet another option…&lt;/p&gt;</content><author><name></name></author><summary type="html">Tom Weiland C# Networking Tutorials</summary></entry><entry><title type="html">What Is There Out There?</title><link href="http://localhost:4000/2020/07/11/what-is-there-out-there.html" rel="alternate" type="text/html" title="What Is There Out There?" /><published>2020-07-11T00:00:00+01:00</published><updated>2020-07-11T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/11/what-is-there-out-there</id><content type="html" xml:base="http://localhost:4000/2020/07/11/what-is-there-out-there.html">&lt;h1 id=&quot;here-i-am-going-to-explore-existing-apps-experiences-games-basically-anything-whatsoever-that-holds-some-level-of-interest-as-an-immersive-interactive-space-for-performance-socialisaing-creating-basically-just-being-in-a-virtual-space-with-other-people-represented-in-virtual-form&quot;&gt;Here I am going to explore existing apps, experiences, games… basically anything whatsoever… that holds some level of interest as an immersive, interactive space for performance, socialisaing, creating.. basically, just ‘being’ in a virtual space with other ‘people’ represented in virtual form.&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The Under Presents&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Game in the form of a theatre production?&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=fSQD8DBLODE&lt;/p&gt;</content><author><name></name></author><summary type="html">Here I am going to explore existing apps, experiences, games… basically anything whatsoever… that holds some level of interest as an immersive, interactive space for performance, socialisaing, creating.. basically, just ‘being’ in a virtual space with other ‘people’ represented in virtual form.</summary></entry><entry><title type="html">Thought On Building Multiplayer</title><link href="http://localhost:4000/2020/07/05/building-multiplayer.html" rel="alternate" type="text/html" title="Thought On Building Multiplayer" /><published>2020-07-05T00:00:00+01:00</published><updated>2020-07-05T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/05/building-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/05/building-multiplayer.html">&lt;h2 id=&quot;unity-xr-integration--mirror&quot;&gt;Unity XR Integration &amp;amp; Mirror&lt;/h2&gt;
+&lt;p&gt;I’ve now just come across &lt;strong&gt;&lt;a href=&quot;/2020/07/13/normcore-1.html&quot;&gt;Normcore&lt;/a&gt;&lt;/strong&gt;. This looks to be yet another option…&lt;/p&gt;</content><author><name></name></author><summary type="html">Tom Weiland C# Networking Tutorials</summary></entry><entry><title type="html">Thought On Building Multiplayer</title><link href="http://localhost:4000/2020/07/05/building-multiplayer.html" rel="alternate" type="text/html" title="Thought On Building Multiplayer" /><published>2020-07-05T00:00:00+01:00</published><updated>2020-07-05T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/05/building-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/05/building-multiplayer.html">&lt;h2 id=&quot;unity-xr-integration--mirror&quot;&gt;Unity XR Integration &amp;amp; Mirror&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5LhA4Tk_uvI&quot;&gt;Good Mirror totorial series, but not VR specific&lt;/a&gt;&lt;/p&gt;
 
@@ -294,39 +306,4 @@ This, I doubt very much.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/gam750/webrtc-multiplayer-1.JPG&quot; alt=&quot;WebRTC multiplayer data channel&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This is an interesting discussion about using WebRTC for multiplayer games. It is possible. But this is JavaScript. Making it work for Unity is another thing entirely. The Unity package may manage everything needed, but it would take a deep dive to find out how.&lt;/p&gt;</content><author><name></name></author><summary type="html">Unity XR Integration &amp;amp; Mirror</summary></entry><entry><title type="html">Mirror</title><link href="http://localhost:4000/2020/07/02/mirror.html" rel="alternate" type="text/html" title="Mirror" /><published>2020-07-02T00:00:00+01:00</published><updated>2020-07-02T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/02/mirror</id><content type="html" xml:base="http://localhost:4000/2020/07/02/mirror.html">&lt;p&gt;This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.&lt;/p&gt;
-
-&lt;h1 id=&quot;benefits&quot;&gt;Benefits&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Open source&lt;/li&gt;
-  &lt;li&gt;Free&lt;/li&gt;
-  &lt;li&gt;No player limits&lt;/li&gt;
-  &lt;li&gt;Good documentation&lt;/li&gt;
-  &lt;li&gt;Built on the old Unity multiplayer system (UNET), bug-fixed and generally improved.&lt;/li&gt;
-  &lt;li&gt;Client/Server pattern: the server can be hosted by a ‘player, who is also a client (similar to Photon)&lt;/li&gt;
-  &lt;li&gt;You can also set up a dedicated server.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;useful-links&quot;&gt;Useful links&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/vis2k/Mirror/releases&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLS6sInD7ThM1aUDj8lZrF4b4lpvejB2uB&quot;&gt;Dapper Dino (YouTube)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yRvfLLTkIXM&quot;&gt;Daniel Hampikian&lt;/a&gt;: mirror’s predecessor, unet - it’s similar enough I think.&lt;/p&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;p&gt;With Mirror, I managed to create a multiplayer networked environment using Unity XR integration for the VR rig. 
-This is an option definitely worth considering.&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\mirror-networking-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The difficulty may come when networking moving rigid bodies, collisions, object ‘ownership’ etc. I have yet to find out how troublesome, or not, this will prove to be. I believe that one of Normcore’s possible strengths is that this is made relatively straightforward. But until I get Normcore working as well as I’ve got Mirror working for something fairly simple, such as this, then Mirror is looking a good bet. It’s a similar story for Photon PUN 2, which I’ve yet to see working and working well in a VR environment.&lt;/p&gt;
-
-&lt;p&gt;The research continues…&lt;/p&gt;</content><author><name></name></author><summary type="html">This is an option I had not come across when researching multiplayer environment options back in GAM720. Most information I have found this time around seems to be quite recent, even though it appears to have originally come into being in 2016. This, to me, is a good sign, as it appears to be gaining traction and becoming more relevant as time marches on.</summary></entry></feed>
+&lt;p&gt;This is an interesting discussion about using WebRTC for multiplayer games. It is possible. But this is JavaScript. Making it work for Unity is another thing entirely. The Unity package may manage everything needed, but it would take a deep dive to find out how.&lt;/p&gt;</content><author><name></name></author><summary type="html">Unity XR Integration &amp;amp; Mirror</summary></entry></feed>

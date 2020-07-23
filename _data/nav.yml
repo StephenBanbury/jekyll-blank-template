@@ -40,6 +40,9 @@ toc:
       - page: The Project - Not Near Enough
         date: 2020-07-15
         url: 2020/07/15/not-near-enough.html  
+      - page: What Else Is There Out There?
+        date: 2020-07-11
+        url: 2020/07/11/what-is-there-out-there.html    
       - page: Feeling Good About Normcore
         date: 2020-07-16
         url: 2020/07/16/normcore-2.html  
@@ -53,9 +56,13 @@ toc:
         - page: Multiplayer Made Simple
           date: 2020-07-22
           url: 2020/07/22/normcore-5.html  
-      - page: What Is There Out There?
-        date: 2020-07-11
-        url: 2020/07/11/what-is-there-out-there.html      
+      - page: Getting Down To The Nitty-Gritty
+        date: 2020-07-24
+        url: 2020/07/24/nitty-gritty.html  
+        subsubfolderitems:  
+        - page: Syncing Data In Normcore
+          date: 2020-07-24
+          url: 2020/07/24/normcore-6.html  
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design
