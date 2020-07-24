@@ -13,7 +13,11 @@ published: true
   </video>
 </figure>
 
-**And to celebrate..**
+The **x** coordinate value from the player's hand when within the blue oblong collider is displayed while also being passed to its model. Any changes within the model are detected by the equivalent model belonging to the other clients, the respective component is informed and the display is updated.
+
+The wonderful thing is that Normcore autogenates much of the code required to keep the models in sync. It's then relatively straightforward to use this for your own means. I converted what I'd done to sync mesh colour as it is changed via the colour picker, but amended to sync the float value. **The idea being that this value can be then translated into anything**.
+
+**And to celebrate..** we'll though some objects around. If only I could play with a real person rather than myself!
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
     <source src="\media\normcore3.2.mp4" type="video/mp4">
