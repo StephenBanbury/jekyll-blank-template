@@ -60,9 +60,12 @@ toc:
         date: 2020-07-24
         url: #
         subsubfolderitems:  
-        - page: Syncing Data In Normcore
+        - page: Syncing Data In Normcore 1
+          date: 2020-07-23
+          url: 2020/07/23/normcore-6.html  
+        - page: Syncing Data In Normcore 2
           date: 2020-07-24
-          url: 2020/07/24/normcore-6.html  
+          url: 2020/07/24/normcore-7.html  
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

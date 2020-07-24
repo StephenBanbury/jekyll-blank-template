@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-24T01:03:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Syncing Data In Normcore</title><link href="http://localhost:4000/2020/07/24/normcore-6.html" rel="alternate" type="text/html" title="Syncing Data In Normcore" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/24/normcore-6</id><content type="html" xml:base="http://localhost:4000/2020/07/24/normcore-6.html">&lt;p&gt;I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-24T17:45:01+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Syncing Data In Normcore 2</title><link href="http://localhost:4000/2020/07/24/normcore-7.html" rel="alternate" type="text/html" title="Syncing Data In Normcore 2" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/24/normcore-7</id><content type="html" xml:base="http://localhost:4000/2020/07/24/normcore-7.html">&lt;h1 id=&quot;success&quot;&gt;Success!&lt;/h1&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\normcore-3.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Success!</summary></entry><entry><title type="html">Syncing Data In Normcore 1</title><link href="http://localhost:4000/2020/07/23/normcore-6.html" rel="alternate" type="text/html" title="Syncing Data In Normcore 1" /><published>2020-07-23T00:00:00+01:00</published><updated>2020-07-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/23/normcore-6</id><content type="html" xml:base="http://localhost:4000/2020/07/23/normcore-6.html">&lt;p&gt;I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.&lt;/p&gt;
 
 &lt;p&gt;The Normcore pattern of keeping gameobjects in sync with a model held in the datastore should, in theory, also work for simple values. Here I’m attempting to find out how to do this.&lt;/p&gt;
 
@@ -16,9 +23,7 @@
   &lt;p&gt;A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I have already followed the &lt;strong&gt;&lt;a href=&quot;/2020/07/16/normcore-3.html&quot;&gt;Normcore documentation-tutorial&lt;/a&gt;&lt;/strong&gt; on changing the colour of an obect, and I hope to follow a similar pattern here. However, instead of colour, I will use an abstract numerical value. This, I hope, can be the basis of transforming any kind of data, returned from any kind of action, into any other kind of action. I may be over-egging the problem here - it may be simpler than I imagine. But this should at least be a valuable learning excercise!&lt;/p&gt;
-
-&lt;p&gt;We need a script for the component and a script for the model.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.</summary></entry><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-5.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-5</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-5.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
+&lt;p&gt;I have already followed the &lt;strong&gt;&lt;a href=&quot;/2020/07/16/normcore-3.html&quot;&gt;Normcore documentation-tutorial&lt;/a&gt;&lt;/strong&gt; on changing the colour of an obect, and I hope to follow a similar pattern here. However, instead of colour, I will use an abstract numerical value. This, I hope, can be the basis of transforming any kind of data, returned from any kind of action, into any other kind of action. I may be over-egging the problem here - it may be simpler than I imagine. But this should at least be a valuable learning excercise!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.</summary></entry><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-5.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-5</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-5.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
 
 &lt;p&gt;This example uses the Oculus OVRPlayerController, but it could just as easily use any other solution, such as the Unity XR integration.&lt;/p&gt;
 
@@ -283,35 +288,4 @@ space for Falmouth students and staff.&lt;/p&gt;
 
 &lt;h2 id=&quot;normcore&quot;&gt;Normcore&lt;/h2&gt;
 
-&lt;p&gt;I’ve now just come across &lt;strong&gt;&lt;a href=&quot;/2020/07/13/normcore-1.html&quot;&gt;Normcore&lt;/a&gt;&lt;/strong&gt;. This looks to be yet another option…&lt;/p&gt;</content><author><name></name></author><summary type="html">Tom Weiland C# Networking Tutorials</summary></entry><entry><title type="html">Thought On Building Multiplayer</title><link href="http://localhost:4000/2020/07/05/building-multiplayer.html" rel="alternate" type="text/html" title="Thought On Building Multiplayer" /><published>2020-07-05T00:00:00+01:00</published><updated>2020-07-05T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/05/building-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/07/05/building-multiplayer.html">&lt;h2 id=&quot;unity-xr-integration--mirror&quot;&gt;Unity XR Integration &amp;amp; Mirror&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5LhA4Tk_uvI&quot;&gt;Good Mirror totorial series, but not VR specific&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I could only get to the point that my XR Rig (i.e. my player character) could appear as multiplayer clients, but I have so far not got to the stage where each client can see the other in the same space.&lt;/p&gt;
-
-&lt;p&gt;There is a distinct lack of documentation for using Mirror, less for XR Integration, and zero (it seems) for XR Integration multiplayer solutions!&lt;/p&gt;
-
-&lt;p&gt;I am keen to follow this route - it is my chosen one for reasons given elsewhere - but may have to resort to older tech and methods. Rather than spend too much time figuring this particular stack out, I now intend to look into using Oculus Integration (which I already know works, from experience) and Photon (which is mature, tried and tested and is better documented than Mirror).&lt;/p&gt;
-
-&lt;p&gt;[Video showing XR and Mirror]&lt;/p&gt;
-
-&lt;h2 id=&quot;unity-oculus-integration--photon-pun&quot;&gt;Unity, Oculus Integration &amp;amp; Photon PUN&lt;/h2&gt;
-
-&lt;p&gt;An old tutorial aimed at the Oculus Rift - hopefully Oculus Link will allow development to work seamlessly on the Quest: &lt;a href=&quot;https://www.youtube.com/watch?time_continue=3&amp;amp;v=CraH51-_xJo&amp;amp;feature=emb_logo&quot;&gt;Tutorial - an oldie, but hopefully a goodie!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A non-VR tutorial series on PUN 2 that is pretty comprehensive, by &lt;a href=&quot;https://www.youtube.com/watch?v=02P_mrszvzY&quot;&gt;Info Gamer&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;is-there-a-better-way&quot;&gt;Is there a better way?&lt;/h2&gt;
-
-&lt;p&gt;Is using one solution for the multiplayer network and another for streaming data and video the best option?&lt;/p&gt;
-
-&lt;p&gt;I’m not sure..&lt;/p&gt;
-
-&lt;p&gt;Could something like WebRTC do it all? I assume it won’t have the specific multiplayer scripts / API included by the others, but has anyone done somthing like this? Whether it could be &lt;strong&gt;made to handle multiplayer&lt;/strong&gt; functionality may be missing the point. If it can be made to do so, &lt;strong&gt;do I have the time?&lt;/strong&gt; to implement it?
-This, I doubt very much.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://webrtchacks.com/datachannel-multiplayer-game/&quot;&gt;webrtcH4cKS: ~ Gaming with the WebRTC DataChannel – A Walkthrough with Arin Sime&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/gam750/webrtc-multiplayer-1.JPG&quot; alt=&quot;WebRTC multiplayer data channel&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is an interesting discussion about using WebRTC for multiplayer games. It is possible. But this is JavaScript. Making it work for Unity is another thing entirely. The Unity package may manage everything needed, but it would take a deep dive to find out how.&lt;/p&gt;</content><author><name></name></author><summary type="html">Unity XR Integration &amp;amp; Mirror</summary></entry></feed>
+&lt;p&gt;I’ve now just come across &lt;strong&gt;&lt;a href=&quot;/2020/07/13/normcore-1.html&quot;&gt;Normcore&lt;/a&gt;&lt;/strong&gt;. This looks to be yet another option…&lt;/p&gt;</content><author><name></name></author><summary type="html">Tom Weiland C# Networking Tutorials</summary></entry></feed>

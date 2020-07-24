@@ -1,0 +1,14 @@
+---
+layout: post
+title: Syncing Data In Normcore 2
+published: true
+---
+
+# Success!
+
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\normcore-3.1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
