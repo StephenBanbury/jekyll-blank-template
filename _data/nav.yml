@@ -58,7 +58,7 @@ toc:
           url: 2020/07/22/normcore-5.html  
       - page: Getting Down To The Nitty-Gritty
         date: 2020-07-24
-        url: 2020/07/24/nitty-gritty.html  
+        url: #
         subsubfolderitems:  
         - page: Syncing Data In Normcore
           date: 2020-07-24

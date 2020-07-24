@@ -18,3 +18,9 @@ I'm looking in particular at the tutorial **[Synchronizing your own data with cu
   </video>
 </figure>
 
+>A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match.
+
+I have already followed the **[Normcore documentation-tutorial]({% link _posts/GAM750/2020-07-16-normcore-3.markdown %})** on changing the colour of an obect, and I hope to follow a similar pattern here. However, instead of colour, I will use an abstract numerical value. This, I hope, can be the basis of transforming any kind of data, returned from any kind of action, into any other kind of action. I may be over-egging the problem here - it may be simpler than I imagine. But this should at least be a valuable learning excercise!
+
+We need a script for the component and a script for the model.
+
