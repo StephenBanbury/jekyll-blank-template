@@ -66,6 +66,9 @@ toc:
         - page: Syncing Data In Normcore 2
           date: 2020-07-24
           url: 2020/07/24/normcore-7.html  
+      - page: Taking Stock - Sprint 1 Retrospective
+        date: 2020-07-25
+        url: 2020/07/25/taking-stock.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design
