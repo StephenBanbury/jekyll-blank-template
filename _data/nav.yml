@@ -56,10 +56,6 @@ toc:
         - page: Multiplayer Made Simple
           date: 2020-07-22
           url: 2020/07/22/normcore-5.html  
-      - page: Getting Down To The Nitty-Gritty
-        date: 2020-07-24
-        url: #
-        subsubfolderitems:  
         - page: Syncing Data In Normcore 1
           date: 2020-07-23
           url: 2020/07/23/normcore-6.html  
@@ -69,6 +65,9 @@ toc:
       - page: Taking Stock - Sprint 1 Retrospective
         date: 2020-07-25
         url: 2020/07/25/taking-stock.html
+      - page: Streaming To And From Unity
+        date: 2020-07-25
+        url: 2020/07/25/streaming-into-unity.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design
