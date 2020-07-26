@@ -46,5 +46,15 @@ Other than these options we could be looking at either a cross-platform option, 
   * **[My earlier post on WebRTC]({% link _posts/GAM750/2020-07-02-webrtc.markdown %})**
   * **[Microsoft's WebRTC project](https://microsoft.github.io/MixedReality-WebRTC/manual/gettingstarted.html)**, including a library for **[Unity](https://microsoft.github.io/MixedReality-WebRTC/manual/unity/unity-integration.html)** and a **[Unity tutorial](https://microsoft.github.io/MixedReality-WebRTC/manual/unity/helloworld-unity.html)**.
   * **[Unity documentation](https://docs.unity3d.com/Packages/com.unity.webrtc@2.0/manual/index.html)**: includes links to a **_Tutorial_** and **_Reference_** for **_Video_**, **_Audio_** and **_Data_** streaming.
+<br><br>
 
+* **[Unity Render Streaming](https://github.com/Unity-Technologies/UnityRenderStreaming/blob/release/1.0.0/Packages/com.unity.template.renderstreaming/Documentation~/en/tutorial.md)**: streaming video out from Unity project using **WebRTC** - I'm not sure just yet how useful this could be - whether it is just from the editor or from a live build. Either way, it looks interesting.
+
+# Moving forward...
+
+I have been trying to find a simple, straightforward, way of introducing WebRTC into a Unity project. However, I have had trouble whichever way I've turned. The Microsoft package looks interesting, but my implementation via **NuGet** did not introduce the Unity sample scripts and components as described. The full package implementation (i.e. before even considering the implementation of the WebRTC scripts etc. and getting a working solution up and running) could, I suppose, be studied in detail, but it looks pretty complex and I'm not sure that spending too much of my time doing so would be time well spent as there is no certainty that the result would be successful.
+
+The Unity documentation itself is not very complete, in fact I'd characterise it as being sparce. It seems to explain snippets of code as though you already have them set up in your project, without explaining how to actually set them up in your project or give a wider context to them. It appears to be another case (I come across this fairly often) of documentation written by developers who assume you have been on the journey with them, but have been easily distracted.
+
+I also tried following the Unity Render Streaming tutorial but, less than a year on, it is already out of date. I had trouble with the latest releases being quite different in terms of file content and the resulting WebRTC templates for Unity were not in line with what was being demonstrated in the video. I'm sure there are more tutorials out there, but for now **I feel that my time would be better spent actually learning about WebRTC in general, rather than as a Unity plugin**. Once I have the basics, and really understand them, I should be able to apply them more easily to my specific Unity test-case.
 
