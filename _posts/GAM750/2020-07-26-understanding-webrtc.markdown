@@ -258,7 +258,7 @@ and on connecting to new user add them to the object so they can be removed when
   </video>
 </figure>
 
-# All the scripts in their entirity
+# All the scripts in their entirety
 
 **server.js**
 
