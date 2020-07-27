@@ -397,6 +397,6 @@ and on connecting to new user add them to the object so they can be removed when
 
 ## Conclusion
 
-This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses **[Peer JS](https://peerjs.com/)**, an external JavaScrip library to provide an API to handle WebRTC.
+This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses **[Peer JS](https://peerjs.com/)**, an external JavaScript library to provide an API to handle WebRTC.
 
 However, I am probably - hopefully - in a better position to attempt implementing WebRTC in a Unity project.
