@@ -12,14 +12,14 @@ I have found a useful-looking half-hour-long YouTube tutorial, **[How To Create 
 I have also placed a tutorial into my Udemy Cart and may decide to purchase it. I have 10 hours to get it at the discount price of £13.99 (reduced fro £49.99, apparently). But first I will see what the free YouTube offering is about.
 * I note the many cricisms in the review/comments section that this course is out of data, is deprecated and not been updated for three years. This may be unfair, but I think I'll just find what I need for free on YouTube etc.
 
-# Notes on setting up WebRTC
+# Notes on setting up the WebRTC project
 
 Setting up the server
 
 **npm i express ejs socket.io**
 
 * Use the [Expressjs server](https://expressjs.com/): [expressjs.com/installing](https://expressjs.com/en/starter/installing.html), [npm](https://www.npmjs.com/package/express), 
-* use dependensy ejs - templating language / view engine
+* use dependency ejs - templating language / view engine
 * use socket.io
 * uuid
 
@@ -257,3 +257,146 @@ and on connecting to new user add them to the object so they can be removed when
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
+
+# All the scripts in their entirity
+
+**server.js**
+
+    const express = require ('express')
+    const app = express()
+    const server = require ('http').Server(app)
+    const io = require('socket.io')(server)
+    const { v4: uuidV4 } = require('uuid')
+
+    app.set('view engine', 'ejs')
+    app.use(express.static('public'))
+
+    app.get('/', (req, res) => {
+        res.redirect(`/${uuidV4()}`)
+    })
+
+    app.get('/:room', (req, res) => {
+        res.render('room', { roomId: req.params.room })
+    })
+
+    io.on('connection', socket => {
+        socket.on('join-room', (roomId, userId) => {
+            socket.join(roomId)
+            socket.to(roomId).broadcast.emit('user-connected', userId)
+
+            socket.on('disconnect', () => {
+                socket.to(roomId).broadcast.emit('user-disconnected', userId)
+            })
+        })
+    })
+
+    server.listen(3000)
+
+**room.ejs**
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            const ROOM_ID = "<%= roomId %>"
+        </script>
+        <script defer src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+        <script src="/socket.io/socket.io.js" defer></script>
+        <script src="script.js" defer></script>
+        <title>Document</title>
+        <style>
+            #video-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, 300px);
+                grid-template-rows: 300px;
+            }
+            video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="video-grid"></div>
+    </body>
+    </html>
+
+**script.js**
+
+    const socket = io('/')
+    const videoGrid = document.getElementById('video-grid')
+    const myPeer = new Peer(undefined, {
+        host: '/',
+        port: '3001'
+    })
+    const myVideo = document.createElement('video')
+    myVideo.muted = true;
+    const peers = {}
+
+    navigator.mediaDevices.getUserMedia({
+        video: true,
+        audio: true
+    }).then(stream => {
+        addVideoStream(myVideo, stream)
+
+        myPeer.on('call', call => {
+            call.answer(stream)
+            const video = document.createElement('video')
+            call.on('stream', userVideoStream => {
+                addVideoStream(video, userVideoStream)
+            })
+        })
+
+        socket.on('user-connected', userId => {
+            connectToNewUser(userId, stream)
+        })
+    })
+
+    socket.on('user-disconnected', userId => {
+        if(peers[userId]) peers[userId].close()
+    })
+
+    myPeer.on('open', id => {
+        socket.emit('join-room', ROOM_ID, id)
+    })
+
+    function connectToNewUser(userId, stream) {
+        const call = myPeer.call(userId, stream)
+        const video = document.createElement('video')
+        call.on('stream', userVideoStream => {
+            addVideoStream(video, userVideoStream)
+        })
+        call.on('close', () => {
+            video.remove()
+        })
+
+        peers[userId] = call
+    }
+
+    function addVideoStream(video, stream){
+        video.srcObject = stream
+        video.addEventListener('loadedmetadata', () => {
+            video.play()
+        })
+        videoGrid.append(video)
+    }
+
+**Run with..**
+
+    npm run devStart
+
+**which runs the script in package.json**
+
+    "scripts": {
+      "devStart": "nodemon server.js"
+    },
+
+
+## Conclusion
+
+This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses **[Peer JS](https://peerjs.com/)**, an external JavaScrip library to provide an API to handle WebRTC.
+
+However, I am probably - hopefully - in a better position to attempt implementing WebRTC in a Unity project.

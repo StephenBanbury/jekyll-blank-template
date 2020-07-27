@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-27T23:31:30+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Understanding WebRTC</title><link href="http://localhost:4000/2020/07/26/understanding-webrtc.html" rel="alternate" type="text/html" title="Understanding WebRTC" /><published>2020-07-26T23:00:00+01:00</published><updated>2020-07-26T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/26/understanding-webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/26/understanding-webrtc.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-27T23:53:33+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Understanding WebRTC</title><link href="http://localhost:4000/2020/07/26/understanding-webrtc.html" rel="alternate" type="text/html" title="Understanding WebRTC" /><published>2020-07-26T23:00:00+01:00</published><updated>2020-07-26T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/26/understanding-webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/26/understanding-webrtc.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
 
 &lt;p&gt;I have found a useful-looking half-hour-long YouTube tutorial, &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DvlyzDZDEq4&quot;&gt;How To Create A Video Chat App With WebRTC&lt;/a&gt;&lt;/strong&gt;. It was only published a day ago but has already received over 2,000 ‘likes’ (and only 15 thumbs-down). If nothing else, I see this as further evidence of the current, pandemic-induced social lockdown interest in the subject of peer-to-peer video chat apps.&lt;/p&gt;
 
@@ -7,7 +7,7 @@
   &lt;li&gt;I note the many cricisms in the review/comments section that this course is out of data, is deprecated and not been updated for three years. This may be unfair, but I think I’ll just find what I need for free on YouTube etc.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;notes-on-setting-up-webrtc&quot;&gt;Notes on setting up WebRTC&lt;/h1&gt;
+&lt;h1 id=&quot;notes-on-setting-up-the-webrtc-project&quot;&gt;Notes on setting up the WebRTC project&lt;/h1&gt;
 
 &lt;p&gt;Setting up the server&lt;/p&gt;
 
@@ -15,7 +15,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;Use the &lt;a href=&quot;https://expressjs.com/&quot;&gt;Expressjs server&lt;/a&gt;: &lt;a href=&quot;https://expressjs.com/en/starter/installing.html&quot;&gt;expressjs.com/installing&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com/package/express&quot;&gt;npm&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;use dependensy ejs - templating language / view engine&lt;/li&gt;
+  &lt;li&gt;use dependency ejs - templating language / view engine&lt;/li&gt;
   &lt;li&gt;use socket.io&lt;/li&gt;
   &lt;li&gt;uuid&lt;/li&gt;
 &lt;/ul&gt;
@@ -277,7 +277,154 @@ socket.on('user-disconnected', userId =&amp;gt; {
     &lt;source src=&quot;\media\webrtc-javascript-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">As stated in the previous post, at the moment I feel that my time would be best spent learning about WebRTC in general, rather than specifically as a Unity plugin. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.</summary></entry><entry><title type="html">Streaming To And From Unity</title><link href="http://localhost:4000/2020/07/25/streaming-into-unity.html" rel="alternate" type="text/html" title="Streaming To And From Unity" /><published>2020-07-25T15:00:00+01:00</published><updated>2020-07-25T15:00:00+01:00</updated><id>http://localhost:4000/2020/07/25/streaming-into-unity</id><content type="html" xml:base="http://localhost:4000/2020/07/25/streaming-into-unity.html">&lt;h1 id=&quot;the-requirement&quot;&gt;The requirement&lt;/h1&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;all-the-scripts-in-their-entirity&quot;&gt;All the scripts in their entirity&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const express = require ('express')
+const app = express()
+const server = require ('http').Server(app)
+const io = require('socket.io')(server)
+const { v4: uuidV4 } = require('uuid')
+
+app.set('view engine', 'ejs')
+app.use(express.static('public'))
+
+app.get('/', (req, res) =&amp;gt; {
+    res.redirect(`/${uuidV4()}`)
+})
+
+app.get('/:room', (req, res) =&amp;gt; {
+    res.render('room', { roomId: req.params.room })
+})
+
+io.on('connection', socket =&amp;gt; {
+    socket.on('join-room', (roomId, userId) =&amp;gt; {
+        socket.join(roomId)
+        socket.to(roomId).broadcast.emit('user-connected', userId)
+
+        socket.on('disconnect', () =&amp;gt; {
+            socket.to(roomId).broadcast.emit('user-disconnected', userId)
+        })
+    })
+})
+
+server.listen(3000)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;room.ejs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ROOM_ID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;%= roomId %&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;defer&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/socket.io/socket.io.js&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;defer&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;script.js&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;defer&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;#video-grid&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;py&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;auto-fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;py&quot;&gt;grid-template-rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;video&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;nl&quot;&gt;object-fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;video-grid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;script.js&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const socket = io('/')
+const videoGrid = document.getElementById('video-grid')
+const myPeer = new Peer(undefined, {
+    host: '/',
+    port: '3001'
+})
+const myVideo = document.createElement('video')
+myVideo.muted = true;
+const peers = {}
+
+navigator.mediaDevices.getUserMedia({
+    video: true,
+    audio: true
+}).then(stream =&amp;gt; {
+    addVideoStream(myVideo, stream)
+
+    myPeer.on('call', call =&amp;gt; {
+        call.answer(stream)
+        const video = document.createElement('video')
+        call.on('stream', userVideoStream =&amp;gt; {
+            addVideoStream(video, userVideoStream)
+        })
+    })
+
+    socket.on('user-connected', userId =&amp;gt; {
+        connectToNewUser(userId, stream)
+    })
+})
+
+socket.on('user-disconnected', userId =&amp;gt; {
+    if(peers[userId]) peers[userId].close()
+})
+
+myPeer.on('open', id =&amp;gt; {
+    socket.emit('join-room', ROOM_ID, id)
+})
+
+function connectToNewUser(userId, stream) {
+    const call = myPeer.call(userId, stream)
+    const video = document.createElement('video')
+    call.on('stream', userVideoStream =&amp;gt; {
+        addVideoStream(video, userVideoStream)
+    })
+    call.on('close', () =&amp;gt; {
+        video.remove()
+    })
+
+    peers[userId] = call
+}
+
+function addVideoStream(video, stream){
+    video.srcObject = stream
+    video.addEventListener('loadedmetadata', () =&amp;gt; {
+        video.play()
+    })
+    videoGrid.append(video)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Run with..&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run devStart
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;which runs the script in package.json&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;scripts&quot;: {
+  &quot;devStart&quot;: &quot;nodemon server.js&quot;
+},
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses &lt;strong&gt;&lt;a href=&quot;https://peerjs.com/&quot;&gt;Peer JS&lt;/a&gt;&lt;/strong&gt;, an external JavaScrip library to provide an API to handle WebRTC.&lt;/p&gt;
+
+&lt;p&gt;However, I am probably - hopefully - in a better position to attempt implementing WebRTC in a Unity project.&lt;/p&gt;</content><author><name></name></author><summary type="html">As stated in the previous post, at the moment I feel that my time would be best spent learning about WebRTC in general, rather than specifically as a Unity plugin. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.</summary></entry><entry><title type="html">Streaming To And From Unity</title><link href="http://localhost:4000/2020/07/25/streaming-into-unity.html" rel="alternate" type="text/html" title="Streaming To And From Unity" /><published>2020-07-25T15:00:00+01:00</published><updated>2020-07-25T15:00:00+01:00</updated><id>http://localhost:4000/2020/07/25/streaming-into-unity</id><content type="html" xml:base="http://localhost:4000/2020/07/25/streaming-into-unity.html">&lt;h1 id=&quot;the-requirement&quot;&gt;The requirement&lt;/h1&gt;
 
 &lt;p&gt;I need to find a way to take data from a device and stream it into my Unity scene.&lt;/p&gt;
 
