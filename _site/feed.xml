@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-27T23:53:33+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Understanding WebRTC</title><link href="http://localhost:4000/2020/07/26/understanding-webrtc.html" rel="alternate" type="text/html" title="Understanding WebRTC" /><published>2020-07-26T23:00:00+01:00</published><updated>2020-07-26T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/26/understanding-webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/26/understanding-webrtc.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-28T01:28:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Understanding WebRTC</title><link href="http://localhost:4000/2020/07/26/understanding-webrtc.html" rel="alternate" type="text/html" title="Understanding WebRTC" /><published>2020-07-26T23:00:00+01:00</published><updated>2020-07-26T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/26/understanding-webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/26/understanding-webrtc.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
 
 &lt;p&gt;I have found a useful-looking half-hour-long YouTube tutorial, &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DvlyzDZDEq4&quot;&gt;How To Create A Video Chat App With WebRTC&lt;/a&gt;&lt;/strong&gt;. It was only published a day ago but has already received over 2,000 ‘likes’ (and only 15 thumbs-down). If nothing else, I see this as further evidence of the current, pandemic-induced social lockdown interest in the subject of peer-to-peer video chat apps.&lt;/p&gt;
 
@@ -279,7 +279,7 @@ socket.on('user-disconnected', userId =&amp;gt; {
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;h1 id=&quot;all-the-scripts-in-their-entirity&quot;&gt;All the scripts in their entirity&lt;/h1&gt;
+&lt;h1 id=&quot;all-the-scripts-in-their-entirety&quot;&gt;All the scripts in their entirety&lt;/h1&gt;
 
 &lt;p&gt;&lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
 
@@ -422,7 +422,7 @@ function addVideoStream(video, stream){
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses &lt;strong&gt;&lt;a href=&quot;https://peerjs.com/&quot;&gt;Peer JS&lt;/a&gt;&lt;/strong&gt;, an external JavaScrip library to provide an API to handle WebRTC.&lt;/p&gt;
+&lt;p&gt;This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses &lt;strong&gt;&lt;a href=&quot;https://peerjs.com/&quot;&gt;Peer JS&lt;/a&gt;&lt;/strong&gt;, an external JavaScript library to provide an API to handle WebRTC.&lt;/p&gt;
 
 &lt;p&gt;However, I am probably - hopefully - in a better position to attempt implementing WebRTC in a Unity project.&lt;/p&gt;</content><author><name></name></author><summary type="html">As stated in the previous post, at the moment I feel that my time would be best spent learning about WebRTC in general, rather than specifically as a Unity plugin. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.</summary></entry><entry><title type="html">Streaming To And From Unity</title><link href="http://localhost:4000/2020/07/25/streaming-into-unity.html" rel="alternate" type="text/html" title="Streaming To And From Unity" /><published>2020-07-25T15:00:00+01:00</published><updated>2020-07-25T15:00:00+01:00</updated><id>http://localhost:4000/2020/07/25/streaming-into-unity</id><content type="html" xml:base="http://localhost:4000/2020/07/25/streaming-into-unity.html">&lt;h1 id=&quot;the-requirement&quot;&gt;The requirement&lt;/h1&gt;
 
@@ -477,6 +477,25 @@ function addVideoStream(video, stream){
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Unity-Technologies/UnityRenderStreaming/blob/release/1.0.0/Packages/com.unity.template.renderstreaming/Documentation~/en/tutorial.md&quot;&gt;Unity Render Streaming&lt;/a&gt;&lt;/strong&gt;: streaming video out from Unity project using &lt;strong&gt;WebRTC&lt;/strong&gt; - I’m not sure just yet how useful this could be - whether it is just from the editor or from a live build. Either way, it looks interesting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;unity-assets&quot;&gt;Unity Assets&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/templates/packs/fmetp-stream-143080#reviews&quot;&gt;FMETP&lt;/a&gt;&lt;/strong&gt; This asset may do the trick on a number of scores - video in and out.&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/release-fmetp-stream-all-in-one-gameview-audio-stream-udp-tcp-websockets-html.670270/&quot;&gt;FMETP - Unity forum&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/network/socket-io-for-unity-21721#reviews&quot;&gt;Socket.IO for Unity&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://innovativeteams.net/using-socketio-build-multi-user-experiences/&quot;&gt;Using Socket.io and Unity 3D To Build Multi-User Experiences&lt;/a&gt;&lt;/strong&gt; This makes use of the Socket.IO for Unity (see above).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://tokbox.com/blog/add-opentok-live-video-chat-to-unity/&quot;&gt;OpenTok (2017 post)&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;a href=&quot;https://tokbox.com/blog/unity-opentok-take-two/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=unity-opentok-take-two&quot;&gt;OpenTok (2019 post)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;moving-forward&quot;&gt;Moving forward…&lt;/h1&gt;

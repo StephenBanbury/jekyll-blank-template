@@ -50,6 +50,20 @@ Other than these options we could be looking at either a cross-platform option, 
 
 * **[Unity Render Streaming](https://github.com/Unity-Technologies/UnityRenderStreaming/blob/release/1.0.0/Packages/com.unity.template.renderstreaming/Documentation~/en/tutorial.md)**: streaming video out from Unity project using **WebRTC** - I'm not sure just yet how useful this could be - whether it is just from the editor or from a live build. Either way, it looks interesting.
 
+# Unity Assets
+
+* **[FMETP](https://assetstore.unity.com/packages/templates/packs/fmetp-stream-143080#reviews)** This asset may do the trick on a number of scores - video in and out.<br>
+  **[FMETP - Unity forum](https://forum.unity.com/threads/release-fmetp-stream-all-in-one-gameview-audio-stream-udp-tcp-websockets-html.670270/)**
+  
+
+* **[Socket.IO for Unity](https://assetstore.unity.com/packages/tools/network/socket-io-for-unity-21721#reviews)**
+
+* **[Using Socket.io and Unity 3D To Build Multi-User Experiences](http://innovativeteams.net/using-socketio-build-multi-user-experiences/)** This makes use of the Socket.IO for Unity (see above).
+
+* **[OpenTok (2017 post)](https://tokbox.com/blog/add-opentok-live-video-chat-to-unity/)**<br>
+  **[OpenTok (2019 post)](https://tokbox.com/blog/unity-opentok-take-two/?utm_source=rss&utm_medium=rss&utm_campaign=unity-opentok-take-two)**
+  
+
 # Moving forward...
 
 I have been trying to find a simple, straightforward, way of introducing WebRTC into a Unity project. However, I have had trouble whichever way I've turned. The Microsoft package looks interesting, but my implementation via **NuGet** did not introduce the Unity sample scripts and components as described. The full package implementation (i.e. before even considering the implementation of the WebRTC scripts etc. and getting a working solution up and running) could, I suppose, be studied in detail, but it looks pretty complex and I'm not sure that spending too much of my time doing so would be time well spent as there is no certainty that the result would be successful.
