@@ -1,10 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-28T01:28:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Understanding WebRTC</title><link href="http://localhost:4000/2020/07/26/understanding-webrtc.html" rel="alternate" type="text/html" title="Understanding WebRTC" /><published>2020-07-26T23:00:00+01:00</published><updated>2020-07-26T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/26/understanding-webrtc</id><content type="html" xml:base="http://localhost:4000/2020/07/26/understanding-webrtc.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-30T11:15:05+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">A Little More Light Falling On WebRTC</title><link href="http://localhost:4000/2020/07/28/webrtc-2.html" rel="alternate" type="text/html" title="A Little More Light Falling On WebRTC" /><published>2020-07-28T01:00:00+01:00</published><updated>2020-07-28T01:00:00+01:00</updated><id>http://localhost:4000/2020/07/28/webrtc-2</id><content type="html" xml:base="http://localhost:4000/2020/07/28/webrtc-2.html">&lt;p&gt;As I’m new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I.&lt;/p&gt;
+
+&lt;p&gt;So it is quite refreshing when coming across moments of lucidity from folks who clearly knows what they are talking about.  They may have been cojoled into a paragraph or two encouraging them to unearth some of the experiencial matter that has accumulated and sedimented within their minds during the time they have been working with this material, but it’s appreciated nonetheless!&lt;/p&gt;
+
+&lt;p&gt;Enter &lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/unitypeerjs-simple-webrtc-support-for-unity-webgl.310166/&quot;&gt;tiggus&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Why WebRTC instead of just normal direct tcp or udp between peers?&lt;/strong&gt;
+WebRTC can be initiated from a web browser specifically thus useful for HTML5. The only sockets that you can initiate from HTML5 apps are plain http, websockets(upgraded http), and WebRTC. Vanilla TCP and UDP is not an option from the browser unless you’re using plugins. You also cannot start a WebSocket listener in a browser, only outbound.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Does it provide any Nat traversal benefits?&lt;/strong&gt;
+It utilizes STUN and TURN for NAT traversal so you need to provide or use someone elses STUN server and also provide some sort of signalling server to do the matchmaking, but after the two peers are connected all data flows peer to peer. The bandwidth/servers required to get STUN information is provided for free by a number of providers, STUN basically just tells you your public ip address and port so you can inform the other peer who to connect to. TURN is a relay server like you would typically do with something like Photon for instance, shuttling data through a middleman server, but is optional for clients that can’t connect with plain STUN/ICE.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Next it’s &lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/59484802/ice-vs-stun-vs-turn&quot;&gt;hobbs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;TURN is a relay — both clients send data to the TURN server, which forwards it to the other client.
+STUN is not a relay — the STUN server helps to “make the connection” between the clients (by discovering and exchanging their external host:port pairs), after which they send data to each other directly. However, STUN doesn’t work with all NAT/firewall setups, so TURN is used when STUN fails.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And from &lt;strong&gt;&lt;a href=&quot;https://www.twilio.com/docs/stun-turn/faq&quot;&gt;twilio.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;STUN, TURN, and ICE are a set of IETF standard protocols for negotiating traversing NATs when establishing peer-to-peer communication sessions. WebRTC and other VoIP stacks implement support for ICE to improve the reliability of IP communications.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A host uses Session Traversal Utilities for NAT (STUN) to discover its public IP address when it is located behind a NAT/Firewall. When this host wants to receive an incoming connection from another party, it provides this public IP address as a possible location where it can receive a connection. If the NAT/Firewall still won’t allow the two hosts to connect directly, they make a connection to a server implementing Traversal Using Relay around NAT (TURN), which will relay media between the two parties.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Interactive Connectivity Establishment (ICE) is a blanket standard that describes how to coordinate STUN and TURN to make a connection between hosts. Twilio’s Network Traversal Service implements STUN and TURN for ICE-compatible clients, such as browsers supporting the WebRTC standard.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thank you &lt;strong&gt;tiggus&lt;/strong&gt;, &lt;strong&gt;hobbs&lt;/strong&gt; and &lt;strong&gt;twilio.com&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0&quot;&gt;Medium: What is WebRTC and How to Setup STUN/TURN Server for WebRTC Communication?&lt;/a&gt;
+https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ICE (Interactive Connectivity Establishment) is a protocol used to generate media traversal candidates that can be used in WebRTC applications, and it can be successfully sent and received through Network Address Translation (NAT)s using STUN and TURN.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;STUN (Session Traversal Utilities for NAT) allows applications to discover the presence and types of NATs and firewalls between them and on the public Internet. It can be used by any device to determine the IP address and port allocated to it by a NAT.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TURN (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.&lt;br /&gt;
+TURN is most useful for Web, Mobile and IoT clients on networks masqueraded by symmetric NAT devices. But the TURN server cost is high because of the server utilization and huge bandwidth usage in the case where more client connections are established.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;jargon-buster&quot;&gt;Jargon-buster&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NAT: Network Address Translation&lt;/li&gt;
+  &lt;li&gt;SDP: Session Description Protocol&lt;/li&gt;
+  &lt;li&gt;STUN: Session Traversal Utilities for NAT&lt;/li&gt;
+  &lt;li&gt;TURN: Traversal Using Relay around NAT&lt;/li&gt;
+  &lt;li&gt;ICE: Interactive Connectivity Establishment&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">As I’m new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I.</summary></entry><entry><title type="html">Building A WebRTC Web App</title><link href="http://localhost:4000/2020/07/27/webrtc-web-app.html" rel="alternate" type="text/html" title="Building A WebRTC Web App" /><published>2020-07-27T23:00:00+01:00</published><updated>2020-07-27T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/27/webrtc-web-app</id><content type="html" xml:base="http://localhost:4000/2020/07/27/webrtc-web-app.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
 
 &lt;p&gt;I have found a useful-looking half-hour-long YouTube tutorial, &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DvlyzDZDEq4&quot;&gt;How To Create A Video Chat App With WebRTC&lt;/a&gt;&lt;/strong&gt;. It was only published a day ago but has already received over 2,000 ‘likes’ (and only 15 thumbs-down). If nothing else, I see this as further evidence of the current, pandemic-induced social lockdown interest in the subject of peer-to-peer video chat apps.&lt;/p&gt;
 
 &lt;p&gt;I have also placed a tutorial into my Udemy Cart and may decide to purchase it. I have 10 hours to get it at the discount price of £13.99 (reduced fro £49.99, apparently). But first I will see what the free YouTube offering is about.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;I note the many cricisms in the review/comments section that this course is out of data, is deprecated and not been updated for three years. This may be unfair, but I think I’ll just find what I need for free on YouTube etc.&lt;/li&gt;
+  &lt;li&gt;I note the many cricisms in the review/comments section that this course is out of date, is deprecated and not been updated for three years. This may be unfair, but I think I’ll just find what I need for free on YouTube etc.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;notes-on-setting-up-the-webrtc-project&quot;&gt;Notes on setting up the WebRTC project&lt;/h1&gt;
@@ -485,9 +546,9 @@ function addVideoStream(video, stream){
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/templates/packs/fmetp-stream-143080#reviews&quot;&gt;FMETP&lt;/a&gt;&lt;/strong&gt; This asset may do the trick on a number of scores - video in and out.&lt;br /&gt;
 &lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/release-fmetp-stream-all-in-one-gameview-audio-stream-udp-tcp-websockets-html.670270/&quot;&gt;FMETP - Unity forum&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/network/socket-io-for-unity-21721#reviews&quot;&gt;Socket.IO for Unity&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;This certainly does look like an interesting solution. The devlelopers are very much on the ball, judging by the various queries and reqests, so even if if it not directly perfect for my use, it should be possible to work with the developers in finding a solution. 
+However, even as it is, it could provide a solution to my requiments - &lt;a href=&quot;https://answers.unity.com/questions/1509753/stream-live-video-feed-into-unity.html&quot;&gt;see here&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://innovativeteams.net/using-socketio-build-multi-user-experiences/&quot;&gt;Using Socket.io and Unity 3D To Build Multi-User Experiences&lt;/a&gt;&lt;/strong&gt; This makes use of the Socket.IO for Unity (see above).&lt;/p&gt;
@@ -495,6 +556,38 @@ function addVideoStream(video, stream){
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://tokbox.com/blog/add-opentok-live-video-chat-to-unity/&quot;&gt;OpenTok (2017 post)&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
 &lt;strong&gt;&lt;a href=&quot;https://tokbox.com/blog/unity-opentok-take-two/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=unity-opentok-take-two&quot;&gt;OpenTok (2019 post)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/video/agora-video-chat-sdk-for-unity-134502&quot;&gt;Agora&lt;/a&gt;&lt;/strong&gt;
+Unity asset - another out of the box solution. It is &lt;a href=&quot;https://www.agora.io/en/pricing/&quot;&gt;well priced&lt;/a&gt; and could be very useful. I’d rather build my own though…&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.because-why-not.com/webrtc/&quot;&gt;WebRTC Video Chat asset by Because Why Not?&lt;/a&gt;&lt;/strong&gt;: This costs (about £100) for the asset.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;other&quot;&gt;Other&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.liveswitch.io/&quot;&gt;liveswitch cloud&lt;/a&gt;&lt;/strong&gt;: has monthly pricing - $19 plus per minute payment&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.nuget.org/packages/Spitfirex86/&quot;&gt;Spitfirex86&lt;/a&gt;&lt;/strong&gt;: NuGet package - for .NET applications rather than specifically Unity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-kinesis-video-streams-adds-support-for-real-time-two-way-media-streaming-with-webrtc/&quot;&gt;Amazon Kinesis Video Streams&lt;/a&gt;&lt;/strong&gt;: &lt;em&gt;“Kinesis Video Streams includes a WebRTC signaling end-point for fast peer discovery and secure connection establishment. It includes managed Session Traversal Utilities for NAT (STUN) and Traversal Using Relays around NAT (TURN) end-points for real-time exchange of media between peers.”&lt;/em&gt; You pay for what you use - looks reasonably priced.
+&lt;strong&gt;&lt;a href=&quot;https://docs.aws.amazon.com/kinesisvideostreams-webrtc-dg/latest/devguide/kvswebrtc-how-it-works.html&quot;&gt;How it works&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@omidborjian/setup-your-own-turn-stun-signal-relay-server-on-aws-ec2-78a8bfcb71c3&quot;&gt;Set up TRUN/STUN signal/relay server on AWS EC2&lt;/a&gt;&lt;/strong&gt;: could be very useful&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/webrtc/FirebaseRTC&quot;&gt;Firebase + WebRTC&lt;/a&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;a href=&quot;https://webrtc.org/getting-started/firebase-rtc-codelab&quot;&gt;Getting started&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://webrtc.github.io/samples/&quot;&gt;WebRTC Samples&lt;/a&gt;&lt;/strong&gt;: a collection of small samples demonstrating various parts of the WebRTC APIs&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -734,68 +827,4 @@ Nick&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match. This means that in the diagram above, when Player 1 moves a game object, RealtimeTransform can set the new position on its model in the datastore. When Player 2 gets a notification that the model changed, it can update the position of the matching game object in its scene&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Feeling good about Normcore</summary></entry><entry><title type="html">The Project - Not Near Enough</title><link href="http://localhost:4000/2020/07/15/not-near-enough.html" rel="alternate" type="text/html" title="The Project - Not Near Enough" /><published>2020-07-15T00:00:00+01:00</published><updated>2020-07-15T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/15/not-near-enough</id><content type="html" xml:base="http://localhost:4000/2020/07/15/not-near-enough.html">&lt;p&gt;&lt;strong&gt;Not Near Enough&lt;/strong&gt; is a &lt;strong&gt;&lt;a href=&quot;https://www.storyfutures.com/academy&quot;&gt;StoryFutures Academy&lt;/a&gt;&lt;/strong&gt;-funded project at Falmouth University exploring VR theatre spaces.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The brief for this project is to create an adaptable and interactive virtual theatre space where
-actors and audience meet. The same space would also function as a teaching and rehearsal
-space for Falmouth students and staff.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;During the past week I put together an expression of interest, resulting in an invitation from the team leaders to discuss the possibility of my working on the project. This took place on Monday, and yesterday (Tuesday) I was invited to join the project as &lt;strong&gt;VR Unity Developer&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;notes-from-initial-discussion&quot;&gt;Notes from initial discussion&lt;/h2&gt;
-
-&lt;h1 id=&quot;brief-outline---project-background&quot;&gt;Brief outline - project background&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;StoryFutures Academy&lt;/strong&gt; - one of the government’s appointed ‘creative clusters’. Collaboration between Royal Holloway University of London and National Film and Television School, who are primaritly interested in funding and upskilling businesses and organisations in the West London area in new digital media - VR, AR, XR etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Train The Trainer&lt;/strong&gt; is a StoryFutures initiative as part of a funding strand offered to work with universities across the country.&lt;/li&gt;
-  &lt;li&gt;Five universities have this funding - Falmouth, Hertfordshire, Abertay, UCL, Bath Spa.&lt;/li&gt;
-  &lt;li&gt;The funding is, in this case, to be used for a &lt;strong&gt;‘teaching-led’&lt;/strong&gt; project.&lt;/li&gt;
-  &lt;li&gt;Due to the COVID-19 pandemic, this year Falmouth University &lt;strong&gt;AMATA&lt;/strong&gt; (Academy of Music and Theatre Arts) are devising a project that is about creating for an immersive, virtual environment.&lt;/li&gt;
-  &lt;li&gt;The view of the directors is that theatre, performance, acting students - those interested in live performance - are better placed to consider such spaces than film and television students, because they are used to working in spaces that happen all around, be they real or virtual.&lt;/li&gt;
-  &lt;li&gt;We will be working with &lt;strong&gt;theatre and performance&lt;/strong&gt; students and &lt;strong&gt;technical theatre arts&lt;/strong&gt; students.&lt;/li&gt;
-  &lt;li&gt;The students will be engaged in creating content for the environment.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;20&lt;/strong&gt; students in total: &lt;strong&gt;16&lt;/strong&gt; theatre and performance and &lt;strong&gt;4&lt;/strong&gt; technical theatre arts.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;the-environment&quot;&gt;The environment&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Important: the &lt;strong&gt;‘liveness’&lt;/strong&gt; and &lt;strong&gt;‘interactiveness’&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Visual concept - the &lt;strong&gt;‘varyon’&lt;/strong&gt; - morphs and moves around the audience.&lt;/li&gt;
-  &lt;li&gt;As well as images of performers streamed into the environment, they would like some form of &lt;strong&gt;‘volumetric capture’&lt;/strong&gt; if possible, where the performers appear in the space as a kind of &lt;strong&gt;‘hologram’&lt;/strong&gt;, or &lt;strong&gt;‘avatar’&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;This can be incomplete, blocky or outlined etc. - i.e.  not a full perfect representation.&lt;/li&gt;
-  &lt;li&gt;Audience will wear headsets&lt;/li&gt;
-  &lt;li&gt;Performers streamed in via, for example, cameras or laptops.&lt;/li&gt;
-  &lt;li&gt;Interested in how an audience with audience interaction might &lt;em&gt;look like&lt;/em&gt;, how would they be aware of each other’s presence, how will they interact with the space?&lt;/li&gt;
-  &lt;li&gt;Audience of approximately 8-10.&lt;/li&gt;
-  &lt;li&gt;One idea is to maybe pick four formations created by the screens, and the audience transitions between them via an animation, with each space being seen as an interactive ‘installation’ space.&lt;/li&gt;
-  &lt;li&gt;Klaus Kruse (director) outlined possible ideas for ‘flow’ through the space(s).&lt;/li&gt;
-  &lt;li&gt;Potential for audience members to split up and explore difference spaces before joining together in a joint &lt;em&gt;‘grand finale’&lt;/em&gt; / &lt;em&gt;‘communal conclusion’&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;There is an awareness of the possible limitations and realisation that not every idea may be possible, or feasible given the time and technical limitations.&lt;/li&gt;
-  &lt;li&gt;The animations can be derived from the experience of the way the screens, each of which hinges onto the next, move when the space changes its shape.&lt;/li&gt;
-  &lt;li&gt;It would be hoped that the audience can interact with the screens in at least one of the spaces - push, move, realign into different shapes.&lt;/li&gt;
-  &lt;li&gt;Live interaction via video so the audience can see and speak with the performers - live feed.&lt;/li&gt;
-  &lt;li&gt;This would also mean the space can be used as a live rehearsal space.&lt;/li&gt;
-  &lt;li&gt;The audience sees the performer on the screen.&lt;/li&gt;
-  &lt;li&gt;Pixelation etc. will be ‘embraced’ and become part of the aesthetic.&lt;/li&gt;
-  &lt;li&gt;Students can maybe access the space via 360 degree video displayed on google cardboard via phones.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/GAM750/not-near-enough-perf-map-1.jpg&quot; alt=&quot;performance map&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;research-experimentation-dialogue-and-rd&quot;&gt;Research, experimentation, dialogue and R&amp;amp;D&lt;/h1&gt;
-
-&lt;p&gt;This is very much a dialogue, a collaboration. There is space for me, as a developer to bring to the project. It is likely that, as theatre practitioners, the project devisers and leaders of the project have thought aobut differentely, or have ideas that are not necessarily feasible in the way they imagined them. This project is in many respects, an R&amp;amp;D project - there is a lot of research and experimentation to be done in attempting to realise something that is close to the original concepts.&lt;/p&gt;
-
-&lt;p&gt;There is also the potential for publishing a research paper or two at the end of the project. It this stage, I see this as something I’d be interested in being invovled in.&lt;/p&gt;
-
-&lt;h1 id=&quot;time-scale&quot;&gt;Time scale&lt;/h1&gt;
-
-&lt;p&gt;They would like something ready and working - certainly not complete - during September, or start of October, in order to work with students within the virtual space.&lt;/p&gt;
-
-&lt;h1 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h1&gt;
-
-&lt;p&gt;It was agreed that, should it be necessary or helpful to bring in external expertise as and when necessary, we will do so. I’m thinking potentially in terms of graphics, animations, character or environment aesthetics etc., that this could be a good thing to do.&lt;/p&gt;</content><author><name></name></author><summary type="html">Not Near Enough is a StoryFutures Academy-funded project at Falmouth University exploring VR theatre spaces.</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Feeling good about Normcore</summary></entry></feed>

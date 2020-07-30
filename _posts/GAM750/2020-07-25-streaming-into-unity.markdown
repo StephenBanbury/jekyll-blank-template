@@ -55,14 +55,43 @@ Other than these options we could be looking at either a cross-platform option, 
 * **[FMETP](https://assetstore.unity.com/packages/templates/packs/fmetp-stream-143080#reviews)** This asset may do the trick on a number of scores - video in and out.<br>
   **[FMETP - Unity forum](https://forum.unity.com/threads/release-fmetp-stream-all-in-one-gameview-audio-stream-udp-tcp-websockets-html.670270/)**
   
-
-* **[Socket.IO for Unity](https://assetstore.unity.com/packages/tools/network/socket-io-for-unity-21721#reviews)**
+  This certainly does look like an interesting solution. The devlelopers are very much on the ball, judging by the various queries and reqests, so even if if it not directly perfect for my use, it should be possible to work with the developers in finding a solution. 
+  However, even as it is, it could provide a solution to my requiments - [see here](https://answers.unity.com/questions/1509753/stream-live-video-feed-into-unity.html).
 
 * **[Using Socket.io and Unity 3D To Build Multi-User Experiences](http://innovativeteams.net/using-socketio-build-multi-user-experiences/)** This makes use of the Socket.IO for Unity (see above).
 
 * **[OpenTok (2017 post)](https://tokbox.com/blog/add-opentok-live-video-chat-to-unity/)**<br>
   **[OpenTok (2019 post)](https://tokbox.com/blog/unity-opentok-take-two/?utm_source=rss&utm_medium=rss&utm_campaign=unity-opentok-take-two)**
   
+* **[Agora](https://assetstore.unity.com/packages/tools/video/agora-video-chat-sdk-for-unity-134502)**
+  Unity asset - another out of the box solution. It is [well priced](https://www.agora.io/en/pricing/) and could be very useful. I'd rather build my own though...
+
+* **[WebRTC Video Chat asset by Because Why Not?](https://www.because-why-not.com/webrtc/)**: This costs (about £100) for the asset.
+
+# Other
+
+* **[liveswitch cloud](https://www.liveswitch.io/)**: has monthly pricing - $19 plus per minute payment
+
+* **[Spitfirex86](https://www.nuget.org/packages/Spitfirex86/)**: NuGet package - for .NET applications rather than specifically Unity.
+  
+* **[Amazon Kinesis Video Streams](https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-kinesis-video-streams-adds-support-for-real-time-two-way-media-streaming-with-webrtc/)**: _"Kinesis Video Streams includes a WebRTC signaling end-point for fast peer discovery and secure connection establishment. It includes managed Session Traversal Utilities for NAT (STUN) and Traversal Using Relays around NAT (TURN) end-points for real-time exchange of media between peers."_ You pay for what you use - looks reasonably priced.
+  **[How it works](https://docs.aws.amazon.com/kinesisvideostreams-webrtc-dg/latest/devguide/kvswebrtc-how-it-works.html)**
+
+* **[Set up TRUN/STUN signal/relay server on AWS EC2](https://medium.com/@omidborjian/setup-your-own-turn-stun-signal-relay-server-on-aws-ec2-78a8bfcb71c3)**: could be very useful
+
+* **[Firebase + WebRTC](https://github.com/webrtc/FirebaseRTC)**
+  **[Getting started](https://webrtc.org/getting-started/firebase-rtc-codelab)**
+
+* **[WebRTC Samples](https://webrtc.github.io/samples/)**: a collection of small samples demonstrating various parts of the WebRTC APIs
+
+
+
+
+
+
+
+
+
 
 # Moving forward...
 

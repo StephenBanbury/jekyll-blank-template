@@ -69,9 +69,12 @@ toc:
         date: 2020-07-25
         url: 2020/07/25/streaming-into-unity.html
         subsubfolderitems:
-        - page: Understanding WebRTC
-          date: 2020-07-26
-          url: 2020/07/26/understanding-webrtc.html  
+        - page: Building A WebRTC Web App
+          date: 2020-07-27
+          url: 2020/07/27/webrtc-web-app.html  
+        - page: A Little More Light Falling On WebRTC
+          date: 2020-07-28
+          url: 2020/07/28/webrtc-2.html  
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

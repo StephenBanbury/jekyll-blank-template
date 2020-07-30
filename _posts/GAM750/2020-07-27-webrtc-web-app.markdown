@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Understanding WebRTC
-date: 2020-07-26 23:00
+title: Building A WebRTC Web App
+date: 2020-07-27 23:00
 published: true
 ---
 
@@ -10,7 +10,7 @@ As stated in the previous post, at the moment **I feel that my time would be bes
 I have found a useful-looking half-hour-long YouTube tutorial, **[How To Create A Video Chat App With WebRTC](https://www.youtube.com/watch?v=DvlyzDZDEq4)**. It was only published a day ago but has already received over 2,000 'likes' (and only 15 thumbs-down). If nothing else, I see this as further evidence of the current, pandemic-induced social lockdown interest in the subject of peer-to-peer video chat apps.
 
 I have also placed a tutorial into my Udemy Cart and may decide to purchase it. I have 10 hours to get it at the discount price of £13.99 (reduced fro £49.99, apparently). But first I will see what the free YouTube offering is about.
-* I note the many cricisms in the review/comments section that this course is out of data, is deprecated and not been updated for three years. This may be unfair, but I think I'll just find what I need for free on YouTube etc.
+* I note the many cricisms in the review/comments section that this course is out of date, is deprecated and not been updated for three years. This may be unfair, but I think I'll just find what I need for free on YouTube etc.
 
 # Notes on setting up the WebRTC project
 
