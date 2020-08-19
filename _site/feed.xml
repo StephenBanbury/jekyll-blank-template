@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-30T11:15:05+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">A Little More Light Falling On WebRTC</title><link href="http://localhost:4000/2020/07/28/webrtc-2.html" rel="alternate" type="text/html" title="A Little More Light Falling On WebRTC" /><published>2020-07-28T01:00:00+01:00</published><updated>2020-07-28T01:00:00+01:00</updated><id>http://localhost:4000/2020/07/28/webrtc-2</id><content type="html" xml:base="http://localhost:4000/2020/07/28/webrtc-2.html">&lt;p&gt;As I’m new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T15:18:34+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Using Agora</title><link href="http://localhost:4000/2020/08/18/using-agora.html" rel="alternate" type="text/html" title="Using Agora" /><published>2020-08-18T01:00:00+01:00</published><updated>2020-08-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/18/using-agora</id><content type="html" xml:base="http://localhost:4000/2020/08/18/using-agora.html">&lt;h1 id=&quot;progress-update&quot;&gt;Progress update&lt;/h1&gt;
+&lt;p&gt;I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-just-streaming&quot;&gt;What?! Just streaming?!&lt;/h1&gt;
+
+&lt;p&gt;I initially set up screens to which I allowed the attaching of Agora’s &lt;em&gt;VideoSurface&lt;/em&gt; component class. Once this was working, I needed to add back in the ability to diplay video clips. To this end I have a general ‘media’ class that covers both (and will cover any new) media types and each screen object has attached, as a child, the already-existing screen object that includes a VideoPlayer for video clips, and now also a canvans, to which an Agora VideoSurface can be dynamically attached as and when a stream is created and assigned to the respective screen display.&lt;/p&gt;
+
+&lt;p&gt;To the Normcore multiplayer model I therefore needed to add another variable representing the selected video stream. I can now select either a pre-loaded video clip or a video stream provided by an external client device’s camera, and then assign it to a specified screen.  Depending on it’s type, the media will be displayed as a video clip by the video player or a video stream by the Agora video surface. If either a video or a stream is selected, followed by a display screen selection, the Normcore model triggers an event that informs all other clients to also select the same media and assign it to the same display screen.&lt;/p&gt;
+
+&lt;p&gt;Buttons to select specific video streams provided by Agora clients are dynamically created as each client joins the room. As they join, they are added to the client list (the AgoraUser class). Clients are never removed, but if they leave the room they are marked as such by a &lt;em&gt;LeftRoom&lt;/em&gt; property.  Each is assigned an ID that is used to select the specific video stream.&lt;/p&gt;
+
+&lt;p&gt;I am using a simple client app, based on the Agora demo, to provide a portal for external clients to create a video stream. This app uses the same Agora ID as the VR app (where streams are displayed) so streams are seen by the VR app, along with all other clients.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Streaming and playing local videos to selected screens&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\streaming-video-to-different-screens-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;problems&quot;&gt;Problems&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Currently, when a new VR app instance is created, this is viewed as a new client by the other clients, including those that are other instances of the VR app. Therefore, an Agora stream is created for each instance and appears as a new client, including a new select button, in the VR environment. I need to find a way to treat each of these as ‘dead’ streams - they should not appear at all. The VR users should only receive streams to be displayed. This may be different when the app is build for Android - I have not tested this yet - but when run as a PC app and tested via &lt;strong&gt;Oculus Link&lt;/strong&gt;, the PC’s camera is added to the stream pool.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;This has been fixed, but I’ll keep this for the record&lt;/strong&gt;: 
+I’m seeing problems where one or more of the video feeds is freezing. This does not happen straight away, but after adding more and playing with how they are routed to different screen destination. I’m not sure if this is something that is to do with streaming/bandwidth performance, or similar, or something to do with the way the Unity Agora asset works. It could be that only one live stream is allowed at a time, although my observations in a previous post would suggest that this should not be a problem:&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;The Unity asset is for ‘live interactive video streaming’. This is geared towards one single main video channel at a time streamed to multiple locations. There is another option for ‘democratic’ open channels where all can communicate at the same time to all others.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;Of course, it could be that I have misunderstood the documentation, and the difference between &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://docs.agora.io/en/Voice/product_voice?platform=All%20Platforms&quot;&gt;Voice Call&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://docs.agora.io/en/Interactive%20Broadcast/product_live?platform=All%20Platforms&quot;&gt;Live Interactive Video Streaming&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;. I will be examining these descriptions closely! This is something that I very much hope is not the case, because there is no Unity asset for Void Call!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Streaming and playing local videos in multiplayer mode&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\streaming-video-multiplayer-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Progress update I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.</summary></entry><entry><title type="html">Multiplayer Synchronisation</title><link href="http://localhost:4000/2020/08/07/multiplayer-syncing.html" rel="alternate" type="text/html" title="Multiplayer Synchronisation" /><published>2020-08-07T02:00:00+01:00</published><updated>2020-08-07T02:00:00+01:00</updated><id>http://localhost:4000/2020/08/07/multiplayer-syncing</id><content type="html" xml:base="http://localhost:4000/2020/08/07/multiplayer-syncing.html">&lt;h1 id=&quot;using-normcore-for-two-main-objectives&quot;&gt;&lt;strong&gt;Using Normcore for two main objectives&lt;/strong&gt;:&lt;/h1&gt;
+
+&lt;h1 id=&quot;1-syncronising-transforms&quot;&gt;1. Syncronising transforms&lt;/h1&gt;
+
+&lt;p&gt;Normcore includes pre-built scripts that directly synchronise GameObject transforms between clients. Very simpley put, once an object has been designated to have a &lt;em&gt;‘realtime transform’&lt;/em&gt;, it will automatically be kept in sync.&lt;/p&gt;
+
+&lt;p&gt;The same goes for players’ avatars, which allows them to interact within the shared ‘room’.&lt;/p&gt;
+
+&lt;p&gt;Objects can be ‘owned’ by a player, allowing them to manipulate their position or other transforms. If an object is designated to have the ability to transfer ownership, then more players within the room can also interact with it.&lt;/p&gt;
+
+&lt;p&gt;Although this is extremely simplified, it does highlight how these concepts allow rapid development of the multiplayer environment.&lt;/p&gt;
+
+&lt;h1 id=&quot;2-syncronising-abstract-values&quot;&gt;2. Syncronising abstract values&lt;/h1&gt;
+
+&lt;p&gt;Translating values when values change and events are raised. In this case, selecting a video and assigning it to a display screen.&lt;/p&gt;</content><author><name></name></author><summary type="html">Using Normcore for two main objectives:</summary></entry><entry><title type="html">Video Streaming Experiments</title><link href="http://localhost:4000/2020/08/07/video-streaming-experiments.html" rel="alternate" type="text/html" title="Video Streaming Experiments" /><published>2020-08-07T01:00:00+01:00</published><updated>2020-08-07T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/07/video-streaming-experiments</id><content type="html" xml:base="http://localhost:4000/2020/08/07/video-streaming-experiments.html">&lt;h1 id=&quot;early-attempts-at-setting-up-a-server&quot;&gt;Early attempts at setting up a server&lt;/h1&gt;
+
+&lt;p&gt;As can be seen here &lt;strong&gt;&lt;a href=&quot;/2020/07/27/webrtc-web-app.html&quot;&gt;Building A WebRTC Web App&lt;/a&gt;&lt;/strong&gt;, I have build a simple &lt;strong&gt;node.js&lt;/strong&gt; server using Express. I considered hosting this, or something similar - perhaps a .NET server - in AWS or Firebase. Could I still use PeerJS as a STUN/TURN server? I’m still new to this so, even though I’m picking up new stuff contiually and gradually piecing it all together, I’m uncertain how to fit it all together. I know I can learn as I go, but it’s quite a lot to get to grips with in a short space of time - there is little scope for taking the wrong route and backin up.&lt;/p&gt;
+
+&lt;h1 id=&quot;kurento-media-server&quot;&gt;Kurento media server&lt;/h1&gt;
+
+&lt;p&gt;I began looking at setting up a &lt;strong&gt;&lt;a href=&quot;https://www.kurento.org/whats-kurento&quot;&gt;Kurento media server&lt;/a&gt;&lt;/strong&gt;, which could be hosted as an instance in a &lt;strong&gt;&lt;a href=&quot;https://hub.docker.com/r/kurento/kurento-media-server&quot;&gt;Docker container&lt;/a&gt;&lt;/strong&gt;. This is a super idea and is enthusiastically supported by Alcwyn Parker, the Masters Degree course leader and my research tutor on this project. However, time is, again, a major issue - for both of us. We did spend some time working on sett up such a stack, but eventually it seemed sensible to work with an out-of-the-box WebRTC solution we were aware of - &lt;strong&gt;&lt;a href=&quot;https://www.agora.io/en/&quot;&gt;Agora&lt;/a&gt;&lt;/strong&gt; - as long as research showed it to have the right potential.&lt;/p&gt;
+
+&lt;h1 id=&quot;agora&quot;&gt;Agora&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Uses WebRTC&lt;/li&gt;
+  &lt;li&gt;First 10,000 minutes free every month (so likely to remain free for the kind of use we’ll be putting it to)&lt;/li&gt;
+  &lt;li&gt;Pay As You Go &lt;a href=&quot;https://www.agora.io/en/pricing/&quot;&gt;pricing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Cheap&lt;/li&gt;
+  &lt;li&gt;Simple to set up&lt;/li&gt;
+  &lt;li&gt;Can stream voice and video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Unity asset contains a couple of sample scenes that are fairly easy to set up. I had some problems building the scene in order to spin up multiple instances - necessary so that multiple connections can be made - as the documentation is not 100% idiot proof, but with a bit of &lt;strong&gt;tenacity&lt;/strong&gt; and patience I got something very promising working.&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\agora-test.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Unity asset is for ‘live interactive video streaming’. This is geared towards one single main video channel at a time streamed to multiple locations. There is another option for ‘democratic’ open channels where all can communicate at the same time to all others. I do not this the latter option will be necessary for us, because we will be streaming single performers into the Unity space.&lt;/p&gt;
+
+&lt;p&gt;It was great to see the video images being displayed directly onto textures in Unity, such as the cube - this should prove useful and time-saving.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; looks to be the way to go, at least for the time being. I would prefer to be building my own server and exploring the use and potential of some exciting new technologies in a more ‘raw’ form - partly for my own personal curiosity and learning, but also for an increased self-contained, stand-alone stack that does not rely so much on external products. Perhaps this could be a later development of this project once the initial objectives have been met. For now, the precious resource of time is a prime consideration.&lt;/p&gt;</content><author><name></name></author><summary type="html">Early attempts at setting up a server</summary></entry><entry><title type="html">A Little More Light Falling On WebRTC</title><link href="http://localhost:4000/2020/07/28/webrtc-2.html" rel="alternate" type="text/html" title="A Little More Light Falling On WebRTC" /><published>2020-07-28T01:00:00+01:00</published><updated>2020-07-28T01:00:00+01:00</updated><id>http://localhost:4000/2020/07/28/webrtc-2</id><content type="html" xml:base="http://localhost:4000/2020/07/28/webrtc-2.html">&lt;h1 id=&quot;jargon-buster&quot;&gt;Jargon-buster&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NAT: Network Address Translation&lt;/li&gt;
+  &lt;li&gt;SDP: Session Description Protocol&lt;/li&gt;
+  &lt;li&gt;STUN: Session Traversal Utilities for NAT&lt;/li&gt;
+  &lt;li&gt;TURN: Traversal Using Relay around NAT&lt;/li&gt;
+  &lt;li&gt;ICE: Interactive Connectivity Establishment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As I’m new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I.&lt;/p&gt;
 
 &lt;p&gt;So it is quite refreshing when coming across moments of lucidity from folks who clearly knows what they are talking about.  They may have been cojoled into a paragraph or two encouraging them to unearth some of the experiencial matter that has accumulated and sedimented within their minds during the time they have been working with this material, but it’s appreciated nonetheless!&lt;/p&gt;
 
@@ -10,56 +113,45 @@ WebRTC can be initiated from a web browser specifically thus useful for HTML5. T
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;Does it provide any Nat traversal benefits?&lt;/strong&gt;
-It utilizes STUN and TURN for NAT traversal so you need to provide or use someone elses STUN server and also provide some sort of signalling server to do the matchmaking, but after the two peers are connected all data flows peer to peer. The bandwidth/servers required to get STUN information is provided for free by a number of providers, STUN basically just tells you your public ip address and port so you can inform the other peer who to connect to. TURN is a relay server like you would typically do with something like Photon for instance, shuttling data through a middleman server, but is optional for clients that can’t connect with plain STUN/ICE.&lt;/p&gt;
+It utilizes &lt;strong&gt;STUN&lt;/strong&gt; and &lt;strong&gt;TURN&lt;/strong&gt; for &lt;strong&gt;NAT&lt;/strong&gt; traversal so you need to provide or use someone elses STUN server and also provide some sort of signalling server to do the matchmaking, but after the two peers are connected all data flows peer to peer. The bandwidth/servers required to get STUN information is provided for free by a number of providers, STUN basically just tells you your public ip address and port so you can inform the other peer who to connect to. TURN is a relay server like you would typically do with something like Photon for instance, shuttling data through a middleman server, but is optional for clients that can’t connect with plain STUN/ICE.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Next it’s &lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/59484802/ice-vs-stun-vs-turn&quot;&gt;hobbs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;TURN is a relay — both clients send data to the TURN server, which forwards it to the other client.
-STUN is not a relay — the STUN server helps to “make the connection” between the clients (by discovering and exchanging their external host:port pairs), after which they send data to each other directly. However, STUN doesn’t work with all NAT/firewall setups, so TURN is used when STUN fails.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;TURN&lt;/strong&gt; is a relay — both clients send data to the TURN server, which forwards it to the other client.
+&lt;strong&gt;STUN&lt;/strong&gt; is not a relay — the STUN server helps to “make the connection” between the clients (by discovering and exchanging their external host:port pairs), after which they send data to each other directly. However, STUN doesn’t work with all NAT/firewall setups, so TURN is used when STUN fails.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;And from &lt;strong&gt;&lt;a href=&quot;https://www.twilio.com/docs/stun-turn/faq&quot;&gt;twilio.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;STUN, TURN, and ICE are a set of IETF standard protocols for negotiating traversing NATs when establishing peer-to-peer communication sessions. WebRTC and other VoIP stacks implement support for ICE to improve the reliability of IP communications.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;STUN&lt;/strong&gt;, &lt;strong&gt;TURN&lt;/strong&gt;, and &lt;strong&gt;ICE&lt;/strong&gt; are a set of IETF standard protocols for negotiating traversing NATs when establishing peer-to-peer communication sessions. WebRTC and other VoIP stacks implement support for ICE to improve the reliability of IP communications.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;A host uses Session Traversal Utilities for NAT (STUN) to discover its public IP address when it is located behind a NAT/Firewall. When this host wants to receive an incoming connection from another party, it provides this public IP address as a possible location where it can receive a connection. If the NAT/Firewall still won’t allow the two hosts to connect directly, they make a connection to a server implementing Traversal Using Relay around NAT (TURN), which will relay media between the two parties.&lt;/p&gt;
+  &lt;p&gt;A host uses &lt;strong&gt;Session Traversal Utilities for NAT&lt;/strong&gt; (STUN) to discover its public IP address when it is located behind a NAT/Firewall. When this host wants to receive an incoming connection from another party, it provides this public IP address as a possible location where it can receive a connection. If the NAT/Firewall still won’t allow the two hosts to connect directly, they make a connection to a server implementing Traversal Using Relay around NAT (TURN), which will relay media between the two parties.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Interactive Connectivity Establishment (ICE) is a blanket standard that describes how to coordinate STUN and TURN to make a connection between hosts. Twilio’s Network Traversal Service implements STUN and TURN for ICE-compatible clients, such as browsers supporting the WebRTC standard.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Interactive Connectivity Establishment&lt;/strong&gt; (ICE) is a blanket standard that describes how to coordinate STUN and TURN to make a connection between hosts. Twilio’s Network Traversal Service implements STUN and TURN for ICE-compatible clients, such as browsers supporting the WebRTC standard.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Thank you &lt;strong&gt;tiggus&lt;/strong&gt;, &lt;strong&gt;hobbs&lt;/strong&gt; and &lt;strong&gt;twilio.com&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0&quot;&gt;Medium: What is WebRTC and How to Setup STUN/TURN Server for WebRTC Communication?&lt;/a&gt;
-https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0&quot;&gt;Medium: What is WebRTC and How to Setup STUN/TURN Server for WebRTC Communication?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;ICE (Interactive Connectivity Establishment) is a protocol used to generate media traversal candidates that can be used in WebRTC applications, and it can be successfully sent and received through Network Address Translation (NAT)s using STUN and TURN.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;ICE&lt;/strong&gt; (Interactive Connectivity Establishment) is a protocol used to generate media traversal candidates that can be used in WebRTC applications, and it can be successfully sent and received through Network Address Translation (NAT)s using STUN and TURN.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;STUN (Session Traversal Utilities for NAT) allows applications to discover the presence and types of NATs and firewalls between them and on the public Internet. It can be used by any device to determine the IP address and port allocated to it by a NAT.&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;STUN&lt;/strong&gt; (Session Traversal Utilities for NAT) allows applications to discover the presence and types of NATs and firewalls between them and on the public Internet. It can be used by any device to determine the IP address and port allocated to it by a NAT.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;TURN (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.&lt;br /&gt;
+  &lt;p&gt;&lt;strong&gt;TURN&lt;/strong&gt; (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.&lt;br /&gt;
 TURN is most useful for Web, Mobile and IoT clients on networks masqueraded by symmetric NAT devices. But the TURN server cost is high because of the server utilization and huge bandwidth usage in the case where more client connections are established.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;jargon-buster&quot;&gt;Jargon-buster&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;NAT: Network Address Translation&lt;/li&gt;
-  &lt;li&gt;SDP: Session Description Protocol&lt;/li&gt;
-  &lt;li&gt;STUN: Session Traversal Utilities for NAT&lt;/li&gt;
-  &lt;li&gt;TURN: Traversal Using Relay around NAT&lt;/li&gt;
-  &lt;li&gt;ICE: Interactive Connectivity Establishment&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">As I’m new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I.</summary></entry><entry><title type="html">Building A WebRTC Web App</title><link href="http://localhost:4000/2020/07/27/webrtc-web-app.html" rel="alternate" type="text/html" title="Building A WebRTC Web App" /><published>2020-07-27T23:00:00+01:00</published><updated>2020-07-27T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/27/webrtc-web-app</id><content type="html" xml:base="http://localhost:4000/2020/07/27/webrtc-web-app.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Jargon-buster</summary></entry><entry><title type="html">Building A WebRTC Web App</title><link href="http://localhost:4000/2020/07/27/webrtc-web-app.html" rel="alternate" type="text/html" title="Building A WebRTC Web App" /><published>2020-07-27T23:00:00+01:00</published><updated>2020-07-27T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/27/webrtc-web-app</id><content type="html" xml:base="http://localhost:4000/2020/07/27/webrtc-web-app.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
 
 &lt;p&gt;I have found a useful-looking half-hour-long YouTube tutorial, &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DvlyzDZDEq4&quot;&gt;How To Create A Video Chat App With WebRTC&lt;/a&gt;&lt;/strong&gt;. It was only published a day ago but has already received over 2,000 ‘likes’ (and only 15 thumbs-down). If nothing else, I see this as further evidence of the current, pandemic-induced social lockdown interest in the subject of peer-to-peer video chat apps.&lt;/p&gt;
 
@@ -717,114 +809,4 @@ Unity asset - another out of the box solution. It is &lt;a href=&quot;https://ww
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The sound of the player’s voice is also picked up enabling lipsyncing. I will be looking at ways to stream the voice to other players.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building a simple multiplayer is made easy in Normcore.</summary></entry><entry><title type="html">Normcore 2 Preview</title><link href="http://localhost:4000/2020/07/17/normcore-4.html" rel="alternate" type="text/html" title="Normcore 2 Preview" /><published>2020-07-17T00:00:00+01:00</published><updated>2020-07-17T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/17/normcore-4</id><content type="html" xml:base="http://localhost:4000/2020/07/17/normcore-4.html">&lt;p&gt;I contacted Max Weisel of the Normcore team, via their Discord server, with a question, as I was having trouble getting objects to render in the other client instance - I could just see a horizon. Max responded with the solution (ensure the build is 64bit) in a matter of minutes - very impressive! I mentioned how impressed I am with Normcore and he suggested I contact Nick Savarese - another Normcore team member - to be given access to the Normcore 2 Preview. Apparently, the transitions are significantly smoother.&lt;/p&gt;
-
-&lt;p&gt;This I did, and Nick sent me a message followed by emails with attached Unity projects with the preview versions pre-installed. It’s great to be at the cutting edge!&lt;/p&gt;
-
-&lt;h1 id=&quot;normcore-200-preview-1&quot;&gt;Normcore 2.0.0 Preview 1&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Heyo,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Thanks for your interest in trying out Normcore 2.0! Most of you are on Normcore 1.0, so we’ll be rolling out Normcore 2.0 features in stages in order to make upgrading as easy as possible.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The first preview build is almost identical to the Normcore 1.0 API, however it features a completely new transport system and backend. Latency will be even lower and this backend should be much more stable. We’re currently only running the 2.0 backend on our US clusters. We’ll be bringing all of our regions online in about two weeks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you’re starting out on a fresh project with Normcore 2.0, you’ll want to import the Unity package without importing the Examples folder first. Then once the package is imported, you can reimport it again if you’d like to bring the examples into the project.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Upgrading from Normcore 1.0
-Ensure your project currently compiles, leave all existing Normcore files in place, and backup your project! Then follow these instructions exactly:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Import the unitypackage and wait for it to compile once.&lt;/li&gt;
-    &lt;li&gt;After the first compilation, Normcore will be added in Package Manager. Unity will recompile again, and you’ll have a ton of duplicate symbol errors.&lt;/li&gt;
-    &lt;li&gt;Delete the Realtime folder under Normal, and your project will start compiling again.&lt;/li&gt;
-    &lt;li&gt;All that’s left is to fix any scene or prefabs that reference Normcore components. Go to Window &amp;gt; Normcore &amp;gt; Migrate and wait a few seconds for it to complete.&lt;/li&gt;
-    &lt;li&gt;Once migration finishes, you’re good to go!&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Feel free to email us if you have any questions. we’ve also created a #normcore2-preview channel on our discord!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Stay Normal!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;normcore-200-preview-8&quot;&gt;Normcore 2.0.0 Preview 8&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hey everyone,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We’ve now deployed the breaking backend change and have pushed an updated Unity package.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This update also moved a few files around in the Examples folder. If you get an error while updating, please delete the Normal folder, and import the latest Unity package attached here.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you’ve previously migrated RealtimeAvatar/RealtimeAvatarManager scripts in your scenes and prefabs, we’ve moved them back to source files so people can copy them easily. You’ll need to manually migrate them back, or revert to copies of your scenes / prefabs before the migration and run the migration script again.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you’re starting out on a fresh project with Normcore 2.0, you’ll want to import the Unity package without importing the Examples folder first. Then once the package is imported, you can reimport it again if you’d like to bring the examples into the project.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;As always, feel free to email us if you have any questions or hit us up on the #normcore2-preview channel on our discord!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Best,
-Nick&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">I contacted Max Weisel of the Normcore team, via their Discord server, with a question, as I was having trouble getting objects to render in the other client instance - I could just see a horizon. Max responded with the solution (ensure the build is 64bit) in a matter of minutes - very impressive! I mentioned how impressed I am with Normcore and he suggested I contact Nick Savarese - another Normcore team member - to be given access to the Normcore 2 Preview. Apparently, the transitions are significantly smoother.</summary></entry><entry><title type="html">Exploring Normcore</title><link href="http://localhost:4000/2020/07/16/normcore-3.html" rel="alternate" type="text/html" title="Exploring Normcore" /><published>2020-07-16T00:00:00+01:00</published><updated>2020-07-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/16/normcore-3</id><content type="html" xml:base="http://localhost:4000/2020/07/16/normcore-3.html">&lt;h1 id=&quot;exploring-normcore-via-tutorials&quot;&gt;Exploring Normcore via tutorials&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;moving body&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore-sync-movement.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;avatar&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore-sync-avatar.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;syncing colour&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore-sync-colour.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Exploring Normcore via tutorials</summary></entry><entry><title type="html">Normcore - Feeling Good</title><link href="http://localhost:4000/2020/07/16/normcore-2.html" rel="alternate" type="text/html" title="Normcore - Feeling Good" /><published>2020-07-16T00:00:00+01:00</published><updated>2020-07-16T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/16/normcore-2</id><content type="html" xml:base="http://localhost:4000/2020/07/16/normcore-2.html">&lt;h1 id=&quot;feeling-good-about-normcore&quot;&gt;Feeling good about Normcore&lt;/h1&gt;
-
-&lt;p&gt;Normcore has everything that I imagined I would be spending a significant amount of time building, but packaged up and ready to use. For this reason alone, it is extremely attractive as a means to building a multiplayer environment. I have so far begin exploring the idea of building my own server-client in C# and using TCP and UDP, Photon PUN 2 as an out-of-the-box solution and Mirror as a Unity-integrated and relatively simple way of wiring multiplayer clients together.&lt;/p&gt;
-
-&lt;p&gt;The one thing that sets Normcore apart is that, simply put, it just works - or so it would seem. Particularly  with regard to VR. As a VR mutliplayer developer, the basics have already been done for you. The disadvantage, then is that, if you really do want to get to understand the mechanics of multiplayer networking, of how physics are translated from one client to another etc., these are mainly done by Normcore and it’s less likely you will learn from a deap, low-level perspective.&lt;/p&gt;
-
-&lt;p&gt;Even so, it is still necessary to understand the model that is used by Normcore, and to understand it well.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\GAM750\normcore-flow-1.jpg&quot; alt=&quot;Normcore data flow&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match. This means that in the diagram above, when Player 1 moves a game object, RealtimeTransform can set the new position on its model in the datastore. When Player 2 gets a notification that the model changed, it can update the position of the matching game object in its scene&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Feeling good about Normcore</summary></entry></feed>
+&lt;p&gt;The sound of the player’s voice is also picked up enabling lipsyncing. I will be looking at ways to stream the voice to other players.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building a simple multiplayer is made easy in Normcore.</summary></entry></feed>

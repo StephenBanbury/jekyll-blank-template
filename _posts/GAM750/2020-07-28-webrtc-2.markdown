@@ -5,6 +5,15 @@ date: 2020-07-28 01:00
 published: true
 ---
 
+# Jargon-buster
+
+* NAT: Network Address Translation
+* SDP: Session Description Protocol
+* STUN: Session Traversal Utilities for NAT
+* TURN: Traversal Using Relay around NAT 
+* ICE: Interactive Connectivity Establishment
+  
+
 As I'm new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I. 
 
 So it is quite refreshing when coming across moments of lucidity from folks who clearly knows what they are talking about.  They may have been cojoled into a paragraph or two encouraging them to unearth some of the experiencial matter that has accumulated and sedimented within their minds during the time they have been working with this material, but it's appreciated nonetheless!
@@ -14,41 +23,31 @@ Enter **[tiggus](https://forum.unity.com/threads/unitypeerjs-simple-webrtc-suppo
 WebRTC can be initiated from a web browser specifically thus useful for HTML5. The only sockets that you can initiate from HTML5 apps are plain http, websockets(upgraded http), and WebRTC. Vanilla TCP and UDP is not an option from the browser unless you're using plugins. You also cannot start a WebSocket listener in a browser, only outbound.
 
 >**Does it provide any Nat traversal benefits?**
-It utilizes STUN and TURN for NAT traversal so you need to provide or use someone elses STUN server and also provide some sort of signalling server to do the matchmaking, but after the two peers are connected all data flows peer to peer. The bandwidth/servers required to get STUN information is provided for free by a number of providers, STUN basically just tells you your public ip address and port so you can inform the other peer who to connect to. TURN is a relay server like you would typically do with something like Photon for instance, shuttling data through a middleman server, but is optional for clients that can't connect with plain STUN/ICE.
+It utilizes **STUN** and **TURN** for **NAT** traversal so you need to provide or use someone elses STUN server and also provide some sort of signalling server to do the matchmaking, but after the two peers are connected all data flows peer to peer. The bandwidth/servers required to get STUN information is provided for free by a number of providers, STUN basically just tells you your public ip address and port so you can inform the other peer who to connect to. TURN is a relay server like you would typically do with something like Photon for instance, shuttling data through a middleman server, but is optional for clients that can't connect with plain STUN/ICE.
 
 Next it's **[hobbs](https://stackoverflow.com/questions/59484802/ice-vs-stun-vs-turn)**
->TURN is a relay — both clients send data to the TURN server, which forwards it to the other client.
->STUN is not a relay — the STUN server helps to "make the connection" between the clients (by discovering and exchanging their external host:port pairs), after which they send data to each other directly. However, STUN doesn't work with all NAT/firewall setups, so TURN is used when STUN fails.
+>**TURN** is a relay — both clients send data to the TURN server, which forwards it to the other client.
+>**STUN** is not a relay — the STUN server helps to "make the connection" between the clients (by discovering and exchanging their external host:port pairs), after which they send data to each other directly. However, STUN doesn't work with all NAT/firewall setups, so TURN is used when STUN fails.
 
 And from **[twilio.com](https://www.twilio.com/docs/stun-turn/faq)**
 
->STUN, TURN, and ICE are a set of IETF standard protocols for negotiating traversing NATs when establishing peer-to-peer communication sessions. WebRTC and other VoIP stacks implement support for ICE to improve the reliability of IP communications.
+>**STUN**, **TURN**, and **ICE** are a set of IETF standard protocols for negotiating traversing NATs when establishing peer-to-peer communication sessions. WebRTC and other VoIP stacks implement support for ICE to improve the reliability of IP communications.
 
->A host uses Session Traversal Utilities for NAT (STUN) to discover its public IP address when it is located behind a NAT/Firewall. When this host wants to receive an incoming connection from another party, it provides this public IP address as a possible location where it can receive a connection. If the NAT/Firewall still won't allow the two hosts to connect directly, they make a connection to a server implementing Traversal Using Relay around NAT (TURN), which will relay media between the two parties.
+>A host uses **Session Traversal Utilities for NAT** (STUN) to discover its public IP address when it is located behind a NAT/Firewall. When this host wants to receive an incoming connection from another party, it provides this public IP address as a possible location where it can receive a connection. If the NAT/Firewall still won't allow the two hosts to connect directly, they make a connection to a server implementing Traversal Using Relay around NAT (TURN), which will relay media between the two parties.
 
->Interactive Connectivity Establishment (ICE) is a blanket standard that describes how to coordinate STUN and TURN to make a connection between hosts. Twilio's Network Traversal Service implements STUN and TURN for ICE-compatible clients, such as browsers supporting the WebRTC standard.
+>**Interactive Connectivity Establishment** (ICE) is a blanket standard that describes how to coordinate STUN and TURN to make a connection between hosts. Twilio's Network Traversal Service implements STUN and TURN for ICE-compatible clients, such as browsers supporting the WebRTC standard.
 
 Thank you **tiggus**, **hobbs** and **twilio.com**
 
-**[Medium: What is WebRTC and How to Setup STUN/TURN Server for WebRTC Communication?](https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0)
-https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0**
+**[Medium: What is WebRTC and How to Setup STUN/TURN Server for WebRTC Communication?](https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0)**
 
->ICE (Interactive Connectivity Establishment) is a protocol used to generate media traversal candidates that can be used in WebRTC applications, and it can be successfully sent and received through Network Address Translation (NAT)s using STUN and TURN.
+>**ICE** (Interactive Connectivity Establishment) is a protocol used to generate media traversal candidates that can be used in WebRTC applications, and it can be successfully sent and received through Network Address Translation (NAT)s using STUN and TURN.
 
->STUN (Session Traversal Utilities for NAT) allows applications to discover the presence and types of NATs and firewalls between them and on the public Internet. It can be used by any device to determine the IP address and port allocated to it by a NAT.
+>**STUN** (Session Traversal Utilities for NAT) allows applications to discover the presence and types of NATs and firewalls between them and on the public Internet. It can be used by any device to determine the IP address and port allocated to it by a NAT.
 
->TURN (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.<br>
+>**TURN** (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.<br>
 >TURN is most useful for Web, Mobile and IoT clients on networks masqueraded by symmetric NAT devices. But the TURN server cost is high because of the server utilization and huge bandwidth usage in the case where more client connections are established.
 
 
 
 
-
-# Jargon-buster
-
-* NAT: Network Address Translation
-* SDP: Session Description Protocol
-* STUN: Session Traversal Utilities for NAT
-* TURN: Traversal Using Relay around NAT 
-* ICE: Interactive Connectivity Establishment
-  

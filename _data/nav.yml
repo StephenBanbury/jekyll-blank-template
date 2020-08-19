@@ -75,6 +75,15 @@ toc:
         - page: A Little More Light Falling On WebRTC
           date: 2020-07-28
           url: 2020/07/28/webrtc-2.html  
+      - page: Video Streaming Experiments
+        date: 2020-08-07
+        url: 2020/08/07/video-streaming-experiments.html
+      - page: Multiplayer Synchronisation
+        date: 2020-08-07
+        url: 2020/08/07/multiplayer-syncing.html
+      - page: Using Agora
+        date: 2020-08-18
+        url: 2020/08/18/using-agora.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design
