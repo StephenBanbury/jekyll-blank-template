@@ -10,18 +10,18 @@ I have not posted for more than a week now, and this is due to the fact that nea
 
 # What?! Just streaming?!
 
-I initially set up screens to which I allowed the attaching of Agora's _VideoSurface_ component class. Once this was working, I needed to add back in the ability to diplay video clips. To this end I have a general 'media' class that covers both (and will cover any new) media types and each screen object has attached, as a child, the already-existing screen object that includes a VideoPlayer for video clips, and now also a canvans, to which an Agora VideoSurface can be dynamically attached as and when a stream is created and assigned to the respective screen display.
+I initially set up screens to which I allowed the attaching of Agora's _VideoSurface_ component class. Once this was working, I needed to add back in the ability to diplay video clips. To this end I have a general 'media' class that covers both (and will cover any new) media types. Each screen object has attached, as a child, the already-existing screen object, that includes a VideoPlayer for video clips, and now, also, a canvas, to which an Agora VideoSurface can be dynamically attached as and when a stream is created and assigned to the display.
 
-To the Normcore multiplayer model I therefore needed to add another variable representing the selected video stream. I can now select either a pre-loaded video clip or a video stream provided by an external client device's camera, and then assign it to a specified screen.  Depending on it's type, the media will be displayed as a video clip by the video player or a video stream by the Agora video surface. If either a video or a stream is selected, followed by a display screen selection, the Normcore model triggers an event that informs all other clients to also select the same media and assign it to the same display screen.
+To the Normcore multiplayer model I therefore needed to add another variable representing the selected video stream. I can now select either a pre-loaded video clip or a video stream provided by an external client device's camera, and then assign it to a specified screen.  Depending on its type, the media will be displayed as a video clip by the video player or a video stream by the Agora video surface. If either a video or a stream is selected, followed by a display screen selection, the Normcore model triggers an event that informs all other clients to also select the same media and assign it to the same display screen.
 
-Buttons to select specific video streams provided by Agora clients are dynamically created as each client joins the room. As they join, they are added to the client list (the AgoraUser class). Clients are never removed, but if they leave the room they are marked as such by a _LeftRoom_ property.  Each is assigned an ID that is used to select the specific video stream.
+Buttons to select specific video streams provided by Agora clients are dynamically created as each client joins the room. As they join, they are added to the client list (of AgoraUsers). Clients are never removed, but if they leave the room they are marked as such by a _LeftRoom_ property.  Each is assigned an ID that is used to select the specific video stream.
 
-I am using a simple client app, based on the Agora demo, to provide a portal for external clients to create a video stream. This app uses the same Agora ID as the VR app (where streams are displayed) so streams are seen by the VR app, along with all other clients. 
+I am using a simple client app, based on the Agora demo, to provide a portal for external clients to join the room and create a video stream. This app uses the same Agora ID as the VR app (where streams are displayed) so streams are seen by the VR app, along with all other clients. 
 
 **Streaming and playing local videos to selected screens**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\streaming-video-to-different-screens-1.mp4" type="video/mp4">
+    <source src="\media\streaming-video-to-different-screens-2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -37,11 +37,12 @@ I am using a simple client app, based on the Agora demo, to provide a portal for
 
     Of course, it could be that I have misunderstood the documentation, and the difference between **_[Voice Call](https://docs.agora.io/en/Voice/product_voice?platform=All%20Platforms)_** and **_[Live Interactive Video Streaming](https://docs.agora.io/en/Interactive%20Broadcast/product_live?platform=All%20Platforms)_**. I will be examining these descriptions closely! This is something that I very much hope is not the case, because there is no Unity asset for Void Call!
 
+**Note**.. the issue turned out to be nothing of the sort and has now been fixed. I needed to ensure that any existing Agora video surfaces would be re-used if any new streams were to be displayed on its screen, i.e. replacing the existing stream. Previously, I had been destroying these existing surfaces and then creating a new one. 
 
 **Streaming and playing local videos in multiplayer mode**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\streaming-video-multiplayer-1.mp4" type="video/mp4">
+    <source src="\media\streaming-video-multiplayer-3.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

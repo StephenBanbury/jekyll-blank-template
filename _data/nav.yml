@@ -65,7 +65,7 @@ toc:
       - page: Taking Stock - Sprint 1 Retrospective
         date: 2020-07-25
         url: 2020/07/25/taking-stock.html
-      - page: Streaming To And From Unity
+      - page: Streaming Video To And From Unity
         date: 2020-07-25
         url: 2020/07/25/streaming-into-unity.html
         subsubfolderitems:
@@ -84,6 +84,9 @@ toc:
       - page: Using Agora
         date: 2020-08-18
         url: 2020/08/18/using-agora.html
+      - page: OSC (Open Sound Control)
+        date: 2020-08-19
+        url: 2020/08/19/osc.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

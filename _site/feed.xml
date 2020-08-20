@@ -1,15 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T15:18:34+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Using Agora</title><link href="http://localhost:4000/2020/08/18/using-agora.html" rel="alternate" type="text/html" title="Using Agora" /><published>2020-08-18T01:00:00+01:00</published><updated>2020-08-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/18/using-agora</id><content type="html" xml:base="http://localhost:4000/2020/08/18/using-agora.html">&lt;h1 id=&quot;progress-update&quot;&gt;Progress update&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-20T00:09:17+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">OSC (Open Sound Control)</title><link href="http://localhost:4000/2020/08/19/osc.html" rel="alternate" type="text/html" title="OSC (Open Sound Control)" /><published>2020-08-19T01:00:00+01:00</published><updated>2020-08-19T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/19/osc</id><content type="html" xml:base="http://localhost:4000/2020/08/19/osc.html">&lt;h1 id=&quot;what-is-osc&quot;&gt;What is OSC?&lt;/h1&gt;
+
+&lt;p&gt;A requirement of the &lt;strong&gt;&lt;em&gt;Not Near Enough&lt;/em&gt;&lt;/strong&gt; brief is to explore the possibility of &lt;em&gt;‘external control of the virtual theatre space’&lt;/em&gt;. &lt;strong&gt;QLab&lt;/strong&gt; is mentioned, as is &lt;strong&gt;OSC&lt;/strong&gt;. Neither of these meant anything to me at the start of this project. I have begun examining OSC, as it appears to be the protocol of choice for theatre equipment interaction.&lt;/p&gt;
+
+&lt;p&gt;A series of blogs by &lt;strong&gt;Sam Smallman&lt;/strong&gt; - a fellow Creative App Developer on the Falmouth MA course - explains OSC: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2017/08/exploring-the-network-osc-part-i/&quot;&gt;Exploring the Network: The Postcard (OSC)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2017/11/exploring-the-network-the-address/&quot;&gt;Exploring the Network: The Address&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2018/01/exploring-the-network-the-postman/&quot;&gt;Exploring the Network: The Postman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2019/02/exploring-the-network-osc-part-ii/&quot;&gt;Exploring the Network: OSC Connections&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the case of this project, OSC could be used for theatre technical crew to control, for example, the selection of video clips or available video streams, and their subsequent assignment to a particular selection of screens. It could also be used to control lighting, animations, movement of screens and so on. I also imagine it will be able to be used, potentially, in controlling sound, in terms of volume or routing.&lt;/p&gt;
+
+&lt;p&gt;The main question appears to be, how will it work in a distributed, virtual theatre environment? 
+Most theatres would be using a closed network and would not need to access the internet in order for equipment to talk to each other. In our case, the very nature of the virtual theatre space is distributed, by definition. All signals will need to be directed across the internet.&lt;/p&gt;
+
+&lt;p&gt;It also follows that, if a technician is controlling the environment, they would need visual access to it, not least to see how it is being affected by their actions. How this can made to happen is a major question that will need to be thought through.&lt;/p&gt;
+
+&lt;p&gt;My early thoughts on this are that any OSC-outputting equipment would need to connect to a local client, which would, in turn, be connected into the multiplayer space (i.e. via Normcore). Then, any changes detected by the local client would be treated in exactly the same way as changes currently are.  Normcore will facilitate changes to values being passed on to all other clients connected into the multiplayer space.&lt;/p&gt;
+
+&lt;p&gt;This is getting a little more complicated by the day. I feel a diagram coming one!&lt;/p&gt;</content><author><name></name></author><summary type="html">What is OSC?</summary></entry><entry><title type="html">Using Agora</title><link href="http://localhost:4000/2020/08/18/using-agora.html" rel="alternate" type="text/html" title="Using Agora" /><published>2020-08-18T01:00:00+01:00</published><updated>2020-08-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/18/using-agora</id><content type="html" xml:base="http://localhost:4000/2020/08/18/using-agora.html">&lt;h1 id=&quot;progress-update&quot;&gt;Progress update&lt;/h1&gt;
 &lt;p&gt;I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-just-streaming&quot;&gt;What?! Just streaming?!&lt;/h1&gt;
 
-&lt;p&gt;I initially set up screens to which I allowed the attaching of Agora’s &lt;em&gt;VideoSurface&lt;/em&gt; component class. Once this was working, I needed to add back in the ability to diplay video clips. To this end I have a general ‘media’ class that covers both (and will cover any new) media types and each screen object has attached, as a child, the already-existing screen object that includes a VideoPlayer for video clips, and now also a canvans, to which an Agora VideoSurface can be dynamically attached as and when a stream is created and assigned to the respective screen display.&lt;/p&gt;
+&lt;p&gt;I initially set up screens to which I allowed the attaching of Agora’s &lt;em&gt;VideoSurface&lt;/em&gt; component class. Once this was working, I needed to add back in the ability to diplay video clips. To this end I have a general ‘media’ class that covers both (and will cover any new) media types. Each screen object has attached, as a child, the already-existing screen object, that includes a VideoPlayer for video clips, and now, also, a canvas, to which an Agora VideoSurface can be dynamically attached as and when a stream is created and assigned to the display.&lt;/p&gt;
 
-&lt;p&gt;To the Normcore multiplayer model I therefore needed to add another variable representing the selected video stream. I can now select either a pre-loaded video clip or a video stream provided by an external client device’s camera, and then assign it to a specified screen.  Depending on it’s type, the media will be displayed as a video clip by the video player or a video stream by the Agora video surface. If either a video or a stream is selected, followed by a display screen selection, the Normcore model triggers an event that informs all other clients to also select the same media and assign it to the same display screen.&lt;/p&gt;
+&lt;p&gt;To the Normcore multiplayer model I therefore needed to add another variable representing the selected video stream. I can now select either a pre-loaded video clip or a video stream provided by an external client device’s camera, and then assign it to a specified screen.  Depending on its type, the media will be displayed as a video clip by the video player or a video stream by the Agora video surface. If either a video or a stream is selected, followed by a display screen selection, the Normcore model triggers an event that informs all other clients to also select the same media and assign it to the same display screen.&lt;/p&gt;
 
-&lt;p&gt;Buttons to select specific video streams provided by Agora clients are dynamically created as each client joins the room. As they join, they are added to the client list (the AgoraUser class). Clients are never removed, but if they leave the room they are marked as such by a &lt;em&gt;LeftRoom&lt;/em&gt; property.  Each is assigned an ID that is used to select the specific video stream.&lt;/p&gt;
+&lt;p&gt;Buttons to select specific video streams provided by Agora clients are dynamically created as each client joins the room. As they join, they are added to the client list (of AgoraUsers). Clients are never removed, but if they leave the room they are marked as such by a &lt;em&gt;LeftRoom&lt;/em&gt; property.  Each is assigned an ID that is used to select the specific video stream.&lt;/p&gt;
 
-&lt;p&gt;I am using a simple client app, based on the Agora demo, to provide a portal for external clients to create a video stream. This app uses the same Agora ID as the VR app (where streams are displayed) so streams are seen by the VR app, along with all other clients.&lt;/p&gt;
+&lt;p&gt;I am using a simple client app, based on the Agora demo, to provide a portal for external clients to join the room and create a video stream. This app uses the same Agora ID as the VR app (where streams are displayed) so streams are seen by the VR app, along with all other clients.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Streaming and playing local videos to selected screens&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
@@ -36,6 +58,8 @@ I’m seeing problems where one or more of the video feeds is freezing. This doe
     &lt;p&gt;Of course, it could be that I have misunderstood the documentation, and the difference between &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://docs.agora.io/en/Voice/product_voice?platform=All%20Platforms&quot;&gt;Voice Call&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://docs.agora.io/en/Interactive%20Broadcast/product_live?platform=All%20Platforms&quot;&gt;Live Interactive Video Streaming&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;. I will be examining these descriptions closely! This is something that I very much hope is not the case, because there is no Unity asset for Void Call!&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;.. the issue turned out to be nothing of the sort and has now been fixed. I needed to ensure that any existing Agora video surfaces would be re-used if any new streams were to be displayed on its screen, i.e. replacing the existing stream. Previously, I had been destroying these existing surfaces and then creating a new one.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Streaming and playing local videos in multiplayer mode&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
@@ -745,7 +769,7 @@ Unity asset - another out of the box solution. It is &lt;a href=&quot;https://ww
 
 &lt;p&gt;The &lt;strong&gt;x&lt;/strong&gt; coordinate value from the player’s hand when within the blue oblong collider is displayed while also being passed to its model. Any changes within the model are detected by the equivalent model belonging to the other clients, the respective component is informed and the display is updated.&lt;/p&gt;
 
-&lt;p&gt;The wonderful thing is that Normcore autogenates much of the code required to keep the models in sync. It’s then relatively straightforward to use this for your own means. I converted what I’d done to sync mesh colour as it is changed via the colour picker, but amended to sync the float value. &lt;strong&gt;The idea being that this value can be then translated into anything&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The wonderful thing is that Normcore auto-generates much of the code required to keep the models in sync. It’s then relatively straightforward to use this for your own means. I converted what I’d done to sync mesh colour as it is changed via the colour picker, but amended the code to sync the float numerical value. &lt;strong&gt;The idea being that this value can be then translated into anything&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;And to celebrate..&lt;/strong&gt; we’ll throw some objects around.&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
@@ -780,33 +804,4 @@ Unity asset - another out of the box solution. It is &lt;a href=&quot;https://ww
   &lt;p&gt;A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I have already followed the &lt;strong&gt;&lt;a href=&quot;/2020/07/16/normcore-3.html&quot;&gt;Normcore documentation-tutorial&lt;/a&gt;&lt;/strong&gt; on changing the colour of an obect, and I hope to follow a similar pattern here. However, instead of colour, I will use an abstract numerical value. This, I hope, can be the basis of transforming any kind of data, returned from any kind of action, into any other kind of action. I may be over-egging the problem here - it may be simpler than I imagine. But this should at least be a valuable learning excercise!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.</summary></entry><entry><title type="html">Multiplayer Made Simple</title><link href="http://localhost:4000/2020/07/22/normcore-5.html" rel="alternate" type="text/html" title="Multiplayer Made Simple" /><published>2020-07-22T00:00:00+01:00</published><updated>2020-07-22T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/22/normcore-5</id><content type="html" xml:base="http://localhost:4000/2020/07/22/normcore-5.html">&lt;p&gt;Building a simple multiplayer is made easy in Normcore.&lt;/p&gt;
-
-&lt;p&gt;This example uses the Oculus OVRPlayerController, but it could just as easily use any other solution, such as the Unity XR integration.&lt;/p&gt;
-
-&lt;p&gt;A Normcore Realtime VR + Player is included in the scene and the OVRPlayerController is wired in as the Local Player variable. That’s all that is required to instantiate the avatar in each multiplayer instance!&lt;/p&gt;
-
-&lt;p&gt;The grabbable object script is also attached to the Realtime VR + Player, and Realtime View and Realtime Transform scripts are added to the grabbable object, along with a simple script that requests ownership of the object - via its Realtime Transform component - when it is grabbed by one of the players. If the Realtime View’s ‘Owned by Creating Client’ is checked then the other player cannot gain ownership.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  private void Update()
-{
-    if (gameObject.GetComponent&amp;lt;OVRGrabbable&amp;gt;().isGrabbed)
-    {
-        //potentially clear ownership first - if owned
-        _realtimeTransform.RequestOwnership();
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h1 id=&quot;two-players-one-headset&quot;&gt;Two players, one headset!&lt;/h1&gt;
-
-&lt;p&gt;Testing is a bit of a problem of course, with only one Oculus Quest (and only one developer!), both players cannot be independently moved at the same time. But it is possible to see the other player and use one’s imagination! Unfortunately, without two players it is not possible to try out throwing and catching - that would be great fun!&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore-2.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The sound of the player’s voice is also picked up enabling lipsyncing. I will be looking at ways to stream the voice to other players.&lt;/p&gt;</content><author><name></name></author><summary type="html">Building a simple multiplayer is made easy in Normcore.</summary></entry></feed>
+&lt;p&gt;I have already followed the &lt;strong&gt;&lt;a href=&quot;/2020/07/16/normcore-3.html&quot;&gt;Normcore documentation-tutorial&lt;/a&gt;&lt;/strong&gt; on changing the colour of an obect, and I hope to follow a similar pattern here. However, instead of colour, I will use an abstract numerical value. This, I hope, can be the basis of transforming any kind of data, returned from any kind of action, into any other kind of action. I may be over-egging the problem here - it may be simpler than I imagine. But this should at least be a valuable learning excercise!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.</summary></entry></feed>

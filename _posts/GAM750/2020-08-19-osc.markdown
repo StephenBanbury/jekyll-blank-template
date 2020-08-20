@@ -1,0 +1,30 @@
+---
+layout: post
+title: OSC (Open Sound Control)
+date: 2020-08-19 01:00
+published: true
+---
+
+# What is OSC?
+
+A requirement of the **_Not Near Enough_** brief is to explore the possibility of _'external control of the virtual theatre space'_. **QLab** is mentioned, as is **OSC**. Neither of these meant anything to me at the start of this project. I have begun examining OSC, as it appears to be the protocol of choice for theatre equipment interaction. 
+
+A series of blogs by **Sam Smallman** - a fellow Creative App Developer on the Falmouth MA course - explains OSC: -
+
+* [Exploring the Network: The Postcard (OSC)](https://blog.etcconnect.com/2017/08/exploring-the-network-osc-part-i/)
+* [Exploring the Network: The Address](https://blog.etcconnect.com/2017/11/exploring-the-network-the-address/)
+* [Exploring the Network: The Postman](https://blog.etcconnect.com/2018/01/exploring-the-network-the-postman/)
+* [Exploring the Network: OSC Connections](https://blog.etcconnect.com/2019/02/exploring-the-network-osc-part-ii/)
+
+In the case of this project, OSC could be used for theatre technical crew to control, for example, the selection of video clips or available video streams, and their subsequent assignment to a particular selection of screens. It could also be used to control lighting, animations, movement of screens and so on. I also imagine it will be able to be used, potentially, in controlling sound, in terms of volume or routing.
+
+The main question appears to be, how will it work in a distributed, virtual theatre environment? 
+Most theatres would be using a closed network and would not need to access the internet in order for equipment to talk to each other. In our case, the very nature of the virtual theatre space is distributed, by definition. All signals will need to be directed across the internet.
+
+It also follows that, if a technician is controlling the environment, they would need visual access to it, not least to see how it is being affected by their actions. How this can made to happen is a major question that will need to be thought through. 
+
+My early thoughts on this are that any OSC-outputting equipment would need to connect to a local client, which would, in turn, be connected into the multiplayer space (i.e. via Normcore). Then, any changes detected by the local client would be treated in exactly the same way as changes currently are.  Normcore will facilitate changes to values being passed on to all other clients connected into the multiplayer space.
+
+This is getting a little more complicated by the day. I feel a diagram coming one!
+
+
