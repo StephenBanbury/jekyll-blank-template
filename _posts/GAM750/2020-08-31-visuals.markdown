@@ -1,0 +1,19 @@
+---
+layout: post
+title: Visuals
+date: 2020-08-31 01:00
+published: true
+---
+
+# Why?
+
+At this stage, I felt it important to spend some time working on the visual aspects of the project. The reason for this was that, as much as anything else, I'm sure the _Director/Designer_ and _Technical Director_ would appreciate seeing something that is less prototype-like, less of a _MVP_ (minimal viable product), and with the capacity to provide a little more of a sense of potential, of what the space could look like and how it can be experienced. This would provide food for the imagination, which could only serve to feed the creative and collaborative process across the team as a whole. 
+
+My graphic-creating, shaping, modeling and illustration skills are not something I've worked on to any great extent. I have dabbled, particularly with the ShelterBox project, with fairly simple shapes creating the environment, brought to life through animation, thoughful colouring and lighting. But I have not come close to mastering the visual arts of creating something visually unique, interesting stylistically or aesthetically. It's fair to say I've done as much as I have been able to given time restraints and the more pressing need to create something that works well and looks a cut above _'good enough'_!
+
+Two areas that could be disgnated for such attention are: 
+
+* **The screens**
+
+* **The selector panels**
+

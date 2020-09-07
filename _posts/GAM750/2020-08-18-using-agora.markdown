@@ -30,7 +30,7 @@ I am using a simple client app, based on the Agora demo, to provide a portal for
 
 1. Currently, when a new VR app instance is created, this is viewed as a new client by the other clients, including those that are other instances of the VR app. Therefore, an Agora stream is created for each instance and appears as a new client, including a new select button, in the VR environment. I need to find a way to treat each of these as 'dead' streams - they should not appear at all. The VR users should only receive streams to be displayed. This may be different when the app is build for Android - I have not tested this yet - but when run as a PC app and tested via **Oculus Link**, the PC's camera is added to the stream pool.
 
-2. **This has been fixed, but I'll keep this for the record**: 
+2. **This has been fixed, but I'll keep the following for the record**: 
    I'm seeing problems where one or more of the video feeds is freezing. This does not happen straight away, but after adding more and playing with how they are routed to different screen destination. I'm not sure if this is something that is to do with streaming/bandwidth performance, or similar, or something to do with the way the Unity Agora asset works. It could be that only one live stream is allowed at a time, although my observations in a previous post would suggest that this should not be a problem:
 
     >The Unity asset is for 'live interactive video streaming'. This is geared towards one single main video channel at a time streamed to multiple locations. There is another option for 'democratic' open channels where all can communicate at the same time to all others.

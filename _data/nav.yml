@@ -87,6 +87,16 @@ toc:
       - page: OSC (Open Sound Control)
         date: 2020-08-19
         url: 2020/08/19/osc.html
+      - page: Visuals
+        date: 2020-08-31
+        url: 2020/08/31/visuals.html
+        subsubfolderitems:
+        - page: The Screens 1
+          date: 2020-09-01
+          url: 2020/09/01/creating-the-screens-1.html
+        - page: The Screens 2
+          date: 2020-09-03
+          url: 2020/09/03/creating-the-screens-2.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

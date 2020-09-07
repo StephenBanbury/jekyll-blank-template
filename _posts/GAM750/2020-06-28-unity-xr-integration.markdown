@@ -18,6 +18,6 @@ Oculus Quest **hand tracking** is something I know I would like to explore, and 
 It would be a shame, because I always like to keep up to speed with the latest developments - it's easy to fall behind in this fast-moving business - but in practically terms, this could be one occasion that the best option would be to stick with the tried-and-tested pair of old comfortable shoes.
 
 **XR Integration in Unity**
-![XR Integration in Unity](\images\unity-xr-integration-1.jpg)
+![XR Integration in Unity](\images\GAM750\unity-xr-integration-1.jpg)
 
 

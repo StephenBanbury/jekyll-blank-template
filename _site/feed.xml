@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-20T00:09:17+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">OSC (Open Sound Control)</title><link href="http://localhost:4000/2020/08/19/osc.html" rel="alternate" type="text/html" title="OSC (Open Sound Control)" /><published>2020-08-19T01:00:00+01:00</published><updated>2020-08-19T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/19/osc</id><content type="html" xml:base="http://localhost:4000/2020/08/19/osc.html">&lt;h1 id=&quot;what-is-osc&quot;&gt;What is OSC?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T22:18:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Creating The Screens 2</title><link href="http://localhost:4000/2020/09/03/creating-the-screens-2.html" rel="alternate" type="text/html" title="Creating The Screens 2" /><published>2020-09-03T01:00:00+01:00</published><updated>2020-09-03T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/03/creating-the-screens-2</id><content type="html" xml:base="http://localhost:4000/2020/09/03/creating-the-screens-2.html">&lt;h1 id=&quot;animations&quot;&gt;Animations&lt;/h1&gt;
+
+&lt;p&gt;I came across an interesting-looking Unity animation asset - &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/&quot;&gt;DOTween&lt;/a&gt;&lt;/strong&gt; - whilst working on the ShelterBox project. In fact, so interesting it looked I purchased the ‘pro’ version - &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/pro.php&quot;&gt;DOTween Pro&lt;/a&gt;&lt;/strong&gt; - before even using it; I had a feeling it would come in handy in future projects even if I didn’t get to use it at the time. And, sure enough, this has been the case.&lt;/p&gt;
+
+&lt;p&gt;DOTween has many features, but the main attration for me was the way it allows comlex tweening and manipulation of animations via code and, as such, can be controlled within the codebase of the project without having to resort to the somewhat ‘clunky’ (in my opinion) animation creation tools available out of Unity the box.&lt;/p&gt;
+
+&lt;p&gt;I have used it here in order to tween between one set of &lt;em&gt;Vector3&lt;/em&gt; and &lt;em&gt;Rotation&lt;/em&gt; data for a formation of screens and another. So it turns out my method of recording the coordinates data for each formation, as outlined in my previous post, was &lt;strong&gt;the correct thing to do!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\screenanimations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\screenanimations-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;creating-the-formations&quot;&gt;Creating the formations&lt;/h1&gt;
+
+&lt;p&gt;Creating the actual formations involved much laborious moving and positioning of screens in the Unity editor, as well as some &lt;strong&gt;calculating&lt;/strong&gt; of coordinates in order to create specific shapes. For example, the &lt;strong&gt;isosceles triangle&lt;/strong&gt; required the three angles to be calculated depending on the lengths of the sides. As there are 16 screens, the triangle ended up having two sides comprising six screens and one side of four. To save me time, I used an &lt;strong&gt;&lt;a href=&quot;https://www.triangle-calculator.com/?what=iso&quot;&gt;online calculation tool&lt;/a&gt;&lt;/strong&gt;. The Angles of the points of the triangle were therefore calculated thus:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\GAM750\calc-isoscelese-triangle.JPG&quot; alt=&quot;Isoscelese triangle calculation&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Animations</summary></entry><entry><title type="html">Creating The Screens 1</title><link href="http://localhost:4000/2020/09/01/creating-the-screens-1.html" rel="alternate" type="text/html" title="Creating The Screens 1" /><published>2020-09-01T01:00:00+01:00</published><updated>2020-09-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/01/creating-the-screens-1</id><content type="html" xml:base="http://localhost:4000/2020/09/01/creating-the-screens-1.html">&lt;h1 id=&quot;the-screen-object&quot;&gt;The screen object&lt;/h1&gt;
+
+&lt;p&gt;Initial prototypes were based on simplicity and guess-work. In fact they were too small and not quite the correct dimension. They also had no detail but were, instead, simple slabs.&lt;/p&gt;
+
+&lt;p&gt;Dimensions were later provided for the screen alone and for its frame, along with resourses including model diagrams, sketches and a SketchUp model. The latter I have not been able to import as it is created within a newer version of SketchUp than mine - but I will see if there is a way.&lt;/p&gt;
+
+&lt;p&gt;There is a very specific visual identity for the screen, which the director is keen to use. The physical screens have frames which are connected and hinged, allowing them to be folded and maneouvred, in order to create spaces that can morph into differ in shapes and sizes.&lt;/p&gt;
+
+&lt;p&gt;The screen material itself is designed for projections. However, in my case, I needed to include a video player for local video material and a canvas onto which an Agora Surface can be created. Both of these are attached to the containing screen object as children and can be switched on and off as required.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Single screen&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\single-screen-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Multiple screens&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\multiple-screens-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;formation&quot;&gt;Formation&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Simple formations&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\screen-formations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Formations need to be able to morph, from one formation to another. I have been considering how this should best be done: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Unity physics&lt;/strong&gt;: in this scenario each frame would be hinged and when one is physically moved by a virtual presense in the space or other means, then the screens attached will also be affected. This seems a nice-to-have feature, but could be fraught with difficulties, particularly in the short space of time available.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plotting the locations&lt;/strong&gt; of the screens on the ground, and then moving the points over time, dragging the screens into new positions, creating new formations. This would appear to provide a lot of control over where and how the screens move, but could be time-consuming.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unity animations&lt;/strong&gt;: this could a relatively straighforward option. Would this be for individual screens - all 16 of them - or for a formation as a whole? This would be a major question when formulating a solution.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Other animation methods&lt;/strong&gt;: using DoTween or similar could be an interesting way forward. However, I have not used the asset yet, although I did pay for the Pro version some months back. DoTween looks a good package, but I’d need to study and experiment with it first.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;spawning-screens&quot;&gt;Spawning screens&lt;/h1&gt;
+
+&lt;p&gt;I created a &lt;strong&gt;class model&lt;/strong&gt; for screen position that holds the &lt;em&gt;Vector3&lt;/em&gt; coordinates and rotation data, in degrees, and a &lt;strong&gt;service&lt;/strong&gt; to provide lists of position data for each screen in a formation.&lt;/p&gt;
+
+&lt;p&gt;This data is then read and assigned to each screen as it is instantiated into the space. Calling the method easily allows each formation to be immediately created. Should I end up using such data to move between two points (e.g. x1 =&amp;gt; x2, y1 =&amp;gt; y2, z1 =&amp;gt; z2) then this will be very useful. Even if this is not the final method I use, it is very useful to hold this data, as a record, in order to recreate formations whenever I need to, whether this is during runtime or during development and editing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example formation with associated coordinates&lt;/strong&gt;
+&lt;img src=&quot;\images\GAM750\formation-1.jpg&quot; alt=&quot;Screen Formation Image&quot; /&gt;
+&lt;img src=&quot;\images\GAM750\formation-1-coordinates.jpg&quot; alt=&quot;Screen Formation Image Coordinates&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The screen object</summary></entry><entry><title type="html">Visuals</title><link href="http://localhost:4000/2020/08/31/visuals.html" rel="alternate" type="text/html" title="Visuals" /><published>2020-08-31T01:00:00+01:00</published><updated>2020-08-31T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/31/visuals</id><content type="html" xml:base="http://localhost:4000/2020/08/31/visuals.html">&lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
+
+&lt;p&gt;At this stage, I felt it important to spend some time working on the visual aspects of the project. The reason for this was that, as much as anything else, I’m sure the &lt;em&gt;Director/Designer&lt;/em&gt; and &lt;em&gt;Technical Director&lt;/em&gt; would appreciate seeing something that is less prototype-like, less of a &lt;em&gt;MVP&lt;/em&gt; (minimal viable product), and with the capacity to provide a little more of a sense of potential, of what the space could look like and how it can be experienced. This would provide food for the imagination, which could only serve to feed the creative and collaborative process across the team as a whole.&lt;/p&gt;
+
+&lt;p&gt;My graphic-creating, shaping, modeling and illustration skills are not something I’ve worked on to any great extent. I have dabbled, particularly with the ShelterBox project, with fairly simple shapes creating the environment, brought to life through animation, thoughful colouring and lighting. But I have not come close to mastering the visual arts of creating something visually unique, interesting stylistically or aesthetically. It’s fair to say I’ve done as much as I have been able to given time restraints and the more pressing need to create something that works well and looks a cut above &lt;em&gt;‘good enough’&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Two areas that could be disgnated for such attention are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The screens&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;The selector panels&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">OSC (Open Sound Control)</title><link href="http://localhost:4000/2020/08/19/osc.html" rel="alternate" type="text/html" title="OSC (Open Sound Control)" /><published>2020-08-19T01:00:00+01:00</published><updated>2020-08-19T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/19/osc</id><content type="html" xml:base="http://localhost:4000/2020/08/19/osc.html">&lt;h1 id=&quot;what-is-osc&quot;&gt;What is OSC?&lt;/h1&gt;
 
 &lt;p&gt;A requirement of the &lt;strong&gt;&lt;em&gt;Not Near Enough&lt;/em&gt;&lt;/strong&gt; brief is to explore the possibility of &lt;em&gt;‘external control of the virtual theatre space’&lt;/em&gt;. &lt;strong&gt;QLab&lt;/strong&gt; is mentioned, as is &lt;strong&gt;OSC&lt;/strong&gt;. Neither of these meant anything to me at the start of this project. I have begun examining OSC, as it appears to be the protocol of choice for theatre equipment interaction.&lt;/p&gt;
 
@@ -20,7 +114,7 @@ Most theatres would be using a closed network and would not need to access the i
 
 &lt;p&gt;My early thoughts on this are that any OSC-outputting equipment would need to connect to a local client, which would, in turn, be connected into the multiplayer space (i.e. via Normcore). Then, any changes detected by the local client would be treated in exactly the same way as changes currently are.  Normcore will facilitate changes to values being passed on to all other clients connected into the multiplayer space.&lt;/p&gt;
 
-&lt;p&gt;This is getting a little more complicated by the day. I feel a diagram coming one!&lt;/p&gt;</content><author><name></name></author><summary type="html">What is OSC?</summary></entry><entry><title type="html">Using Agora</title><link href="http://localhost:4000/2020/08/18/using-agora.html" rel="alternate" type="text/html" title="Using Agora" /><published>2020-08-18T01:00:00+01:00</published><updated>2020-08-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/18/using-agora</id><content type="html" xml:base="http://localhost:4000/2020/08/18/using-agora.html">&lt;h1 id=&quot;progress-update&quot;&gt;Progress update&lt;/h1&gt;
+&lt;p&gt;This is getting a little more complicated by the day. I feel a diagram coming on!&lt;/p&gt;</content><author><name></name></author><summary type="html">What is OSC?</summary></entry><entry><title type="html">Using Agora</title><link href="http://localhost:4000/2020/08/18/using-agora.html" rel="alternate" type="text/html" title="Using Agora" /><published>2020-08-18T01:00:00+01:00</published><updated>2020-08-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/18/using-agora</id><content type="html" xml:base="http://localhost:4000/2020/08/18/using-agora.html">&lt;h1 id=&quot;progress-update&quot;&gt;Progress update&lt;/h1&gt;
 &lt;p&gt;I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.&lt;/p&gt;
 
 &lt;h1 id=&quot;what-just-streaming&quot;&gt;What?! Just streaming?!&lt;/h1&gt;
@@ -36,7 +130,7 @@ Most theatres would be using a closed network and would not need to access the i
 &lt;p&gt;&lt;strong&gt;Streaming and playing local videos to selected screens&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\streaming-video-to-different-screens-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\streaming-video-to-different-screens-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -48,7 +142,7 @@ Most theatres would be using a closed network and would not need to access the i
     &lt;p&gt;Currently, when a new VR app instance is created, this is viewed as a new client by the other clients, including those that are other instances of the VR app. Therefore, an Agora stream is created for each instance and appears as a new client, including a new select button, in the VR environment. I need to find a way to treat each of these as ‘dead’ streams - they should not appear at all. The VR users should only receive streams to be displayed. This may be different when the app is build for Android - I have not tested this yet - but when run as a PC app and tested via &lt;strong&gt;Oculus Link&lt;/strong&gt;, the PC’s camera is added to the stream pool.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;This has been fixed, but I’ll keep this for the record&lt;/strong&gt;: 
+    &lt;p&gt;&lt;strong&gt;This has been fixed, but I’ll keep the following for the record&lt;/strong&gt;: 
 I’m seeing problems where one or more of the video feeds is freezing. This does not happen straight away, but after adding more and playing with how they are routed to different screen destination. I’m not sure if this is something that is to do with streaming/bandwidth performance, or similar, or something to do with the way the Unity Agora asset works. It could be that only one live stream is allowed at a time, although my observations in a previous post would suggest that this should not be a problem:&lt;/p&gt;
 
     &lt;blockquote&gt;
@@ -64,7 +158,7 @@ I’m seeing problems where one or more of the video feeds is freezing. This doe
 &lt;p&gt;&lt;strong&gt;Streaming and playing local videos in multiplayer mode&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\streaming-video-multiplayer-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\streaming-video-multiplayer-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;</content><author><name></name></author><summary type="html">Progress update I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.</summary></entry><entry><title type="html">Multiplayer Synchronisation</title><link href="http://localhost:4000/2020/08/07/multiplayer-syncing.html" rel="alternate" type="text/html" title="Multiplayer Synchronisation" /><published>2020-08-07T02:00:00+01:00</published><updated>2020-08-07T02:00:00+01:00</updated><id>http://localhost:4000/2020/08/07/multiplayer-syncing</id><content type="html" xml:base="http://localhost:4000/2020/08/07/multiplayer-syncing.html">&lt;h1 id=&quot;using-normcore-for-two-main-objectives&quot;&gt;&lt;strong&gt;Using Normcore for two main objectives&lt;/strong&gt;:&lt;/h1&gt;
@@ -713,95 +807,4 @@ Unity asset - another out of the box solution. It is &lt;a href=&quot;https://ww
 
 &lt;p&gt;The Unity documentation itself is not very complete, in fact I’d characterise it as being sparce. It seems to explain snippets of code as though you already have them set up in your project, without explaining how to actually set them up in your project or give a wider context to them. It appears to be another case (I come across this fairly often) of documentation written by developers who assume you have been on the journey with them, but have been easily distracted.&lt;/p&gt;
 
-&lt;p&gt;I also tried following the Unity Render Streaming tutorial but, less than a year on, it is already out of date. I had trouble with the latest releases being quite different in terms of file content and the resulting WebRTC templates for Unity were not in line with what was being demonstrated in the video. I’m sure there are more tutorials out there, but for now &lt;strong&gt;I feel that my time would be better spent actually learning about WebRTC in general, rather than as a Unity plugin&lt;/strong&gt;. Once I have the basics, and really understand them, I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;</content><author><name></name></author><summary type="html">The requirement</summary></entry><entry><title type="html">Taking Stock - Sprint 1 Retrospective</title><link href="http://localhost:4000/2020/07/25/taking-stock.html" rel="alternate" type="text/html" title="Taking Stock - Sprint 1 Retrospective" /><published>2020-07-25T10:00:00+01:00</published><updated>2020-07-25T10:00:00+01:00</updated><id>http://localhost:4000/2020/07/25/taking-stock</id><content type="html" xml:base="http://localhost:4000/2020/07/25/taking-stock.html">&lt;h1 id=&quot;as-sprint-1-comes-to-a-close-what-have-i-achieved&quot;&gt;As Sprint 1 comes to a close, what have I achieved?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I have looked at the potential of &lt;strong&gt;&lt;a href=&quot;https://docs.unity3d.com/Manual/XR.html&quot;&gt;Unity XR plug-in framework&lt;/a&gt;&lt;/strong&gt; as a replacement for Oculus Integration, which, accoring to Unity, will be deprecated in a future release. For now, I have decided to continue using Oculus Integration as it is a framework I with which I have experience, is mature, well-documented, and is still being developed by Oculus with the very interesting inclusing of hand-tracking - potentially something that will be experimented with during this project.&lt;/li&gt;
-  &lt;li&gt;I have looked at the potential of &lt;strong&gt;&lt;a href=&quot;https://docs.unity3d.com/Manual/XR.html&quot;&gt;Unity XR plug-in framework&lt;/a&gt;&lt;/strong&gt; as a replacement for Oculus Integration, which, accoring to Unity, will be deprecated in &lt;em&gt;“a future release”&lt;/em&gt;. However - &lt;strong&gt;STOP PRESS&lt;/strong&gt; - I have now installed the latest version of Unity - 2020.1 - in which it appears that the old XR integration &lt;strong&gt;has&lt;/strong&gt; been deprecated. However, it also appears that Oculus Integration &lt;strong&gt;has not&lt;/strong&gt; been replaced, but actually fits in with the new Unity framework. In fact, it appears to be very easy to integrate - I just needed to enable &lt;strong&gt;XR Plug-in Management&lt;/strong&gt; and it appears to work seamlessly with Oculus Integration! I do not need to import any XR package, as was required when using the XR plug-in in my earlier experiments. The package manager appears to be much tidyer than it was too.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Old XR Settings have now disappeared&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\unity-xr-deprecated-2020.jpg&quot; alt=&quot;Unity 2020.1 changes to XR Integration and Package Manager&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New XR Plug-in Management&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\unity-xr-plugin-1.jpg&quot; alt=&quot;Unity 2020.1 changes to XR Integration and Package Manager&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Old vs New Package Manager&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\unity-xr-plugin-2.jpg&quot; alt=&quot;Unity 2020.1 changes to XR Integration and Package Manager&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I have tested several potential options for creating a multiplayer environment. This has enabled me to make an informed decision to use &lt;strong&gt;&lt;a href=&quot;https://normcore.io/&quot;&gt;Normcore&lt;/a&gt;&lt;/strong&gt;. Although it is relatively new and is still in beta, it has the potential to simplify the process of syncing objects and events within multiplayer environments.&lt;/li&gt;
-  &lt;li&gt;I have created a player character/avatar that syncs accross all clients, including transforms and voice captured via the microphone.&lt;/li&gt;
-  &lt;li&gt;I have created game objects whose transforms are synced across clients.&lt;/li&gt;
-  &lt;li&gt;I have learned how to create custom components that can sync across clients, such as mesh colour.&lt;/li&gt;
-  &lt;li&gt;I have created a custom component that syncs an abstract, numerical variable value across clients.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;what-do-i-still-need-to-do&quot;&gt;What do I still need to do?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Learn how to stream data, images, video and sound from external sources into the environment where it can be displayed in realtime.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;future-research-once-all-this-has-been-achieved&quot;&gt;Future research, once all this has been achieved&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How to separate incoming video streams for individual performers so as to place them discretely onto individually-designated displays within the VR environment.&lt;/li&gt;
-  &lt;li&gt;How to separate and route individual voice data from specific players within the VR environment to
-    &lt;ol&gt;
-      &lt;li&gt;other players within and sharing the VR environment&lt;/li&gt;
-      &lt;li&gt;performers external to the VR environment.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How to stream video capture from within the VR environment out to external devices. This will allow an external ‘audience’ to live-view the environment via, for example, Google Cardboard devices or simply on mobile device screens.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I will add more items here as I think of them…&lt;/p&gt;</content><author><name></name></author><summary type="html">As Sprint 1 comes to a close, what have I achieved?</summary></entry><entry><title type="html">Syncing Data In Normcore 2</title><link href="http://localhost:4000/2020/07/24/normcore-7.html" rel="alternate" type="text/html" title="Syncing Data In Normcore 2" /><published>2020-07-24T00:00:00+01:00</published><updated>2020-07-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/24/normcore-7</id><content type="html" xml:base="http://localhost:4000/2020/07/24/normcore-7.html">&lt;h1 id=&quot;success&quot;&gt;Success!&lt;/h1&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore-3.1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The &lt;strong&gt;x&lt;/strong&gt; coordinate value from the player’s hand when within the blue oblong collider is displayed while also being passed to its model. Any changes within the model are detected by the equivalent model belonging to the other clients, the respective component is informed and the display is updated.&lt;/p&gt;
-
-&lt;p&gt;The wonderful thing is that Normcore auto-generates much of the code required to keep the models in sync. It’s then relatively straightforward to use this for your own means. I converted what I’d done to sync mesh colour as it is changed via the colour picker, but amended the code to sync the float numerical value. &lt;strong&gt;The idea being that this value can be then translated into anything&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;And to celebrate..&lt;/strong&gt; we’ll throw some objects around.&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore3.2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;If only I could play with a &lt;strong&gt;real person&lt;/strong&gt; rather than myself!&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore3.3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Success!</summary></entry><entry><title type="html">Syncing Data In Normcore 1</title><link href="http://localhost:4000/2020/07/23/normcore-6.html" rel="alternate" type="text/html" title="Syncing Data In Normcore 1" /><published>2020-07-23T00:00:00+01:00</published><updated>2020-07-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/07/23/normcore-6</id><content type="html" xml:base="http://localhost:4000/2020/07/23/normcore-6.html">&lt;p&gt;I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.&lt;/p&gt;
-
-&lt;p&gt;The Normcore pattern of keeping gameobjects in sync with a model held in the datastore should, in theory, also work for simple values. Here I’m attempting to find out how to do this.&lt;/p&gt;
-
-&lt;p&gt;I’m looking in particular at the tutorial &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/guides/synchronizing-your-own-data.html&quot;&gt;Synchronizing your own data with custom Realtime Components&lt;/a&gt;&lt;/strong&gt; here for some guidance.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;You see the problem…&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\normcore-sync-issue-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A RealtimeComponent keeps a game object in sync with its corresponding model in the datastore. When the game object changes, it updates the model, and when the model changes, it updates the game object to match.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I have already followed the &lt;strong&gt;&lt;a href=&quot;/2020/07/16/normcore-3.html&quot;&gt;Normcore documentation-tutorial&lt;/a&gt;&lt;/strong&gt; on changing the colour of an obect, and I hope to follow a similar pattern here. However, instead of colour, I will use an abstract numerical value. This, I hope, can be the basis of transforming any kind of data, returned from any kind of action, into any other kind of action. I may be over-egging the problem here - it may be simpler than I imagine. But this should at least be a valuable learning excercise!&lt;/p&gt;</content><author><name></name></author><summary type="html">I’m setting out here to try to solve the problem of syncing abstract data between two instances in a multiplayer environment.</summary></entry></feed>
+&lt;p&gt;I also tried following the Unity Render Streaming tutorial but, less than a year on, it is already out of date. I had trouble with the latest releases being quite different in terms of file content and the resulting WebRTC templates for Unity were not in line with what was being demonstrated in the video. I’m sure there are more tutorials out there, but for now &lt;strong&gt;I feel that my time would be better spent actually learning about WebRTC in general, rather than as a Unity plugin&lt;/strong&gt;. Once I have the basics, and really understand them, I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;</content><author><name></name></author><summary type="html">The requirement</summary></entry></feed>

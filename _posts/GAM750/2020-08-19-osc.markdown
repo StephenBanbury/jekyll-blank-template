@@ -25,6 +25,6 @@ It also follows that, if a technician is controlling the environment, they would
 
 My early thoughts on this are that any OSC-outputting equipment would need to connect to a local client, which would, in turn, be connected into the multiplayer space (i.e. via Normcore). Then, any changes detected by the local client would be treated in exactly the same way as changes currently are.  Normcore will facilitate changes to values being passed on to all other clients connected into the multiplayer space.
 
-This is getting a little more complicated by the day. I feel a diagram coming one!
+This is getting a little more complicated by the day. I feel a diagram coming on!
 
 
