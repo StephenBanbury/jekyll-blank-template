@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T22:18:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Creating The Screens 2</title><link href="http://localhost:4000/2020/09/03/creating-the-screens-2.html" rel="alternate" type="text/html" title="Creating The Screens 2" /><published>2020-09-03T01:00:00+01:00</published><updated>2020-09-03T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/03/creating-the-screens-2</id><content type="html" xml:base="http://localhost:4000/2020/09/03/creating-the-screens-2.html">&lt;h1 id=&quot;animations&quot;&gt;Animations&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T22:36:54+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Creating The Screens 2</title><link href="http://localhost:4000/2020/09/03/creating-the-screens-2.html" rel="alternate" type="text/html" title="Creating The Screens 2" /><published>2020-09-03T01:00:00+01:00</published><updated>2020-09-03T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/03/creating-the-screens-2</id><content type="html" xml:base="http://localhost:4000/2020/09/03/creating-the-screens-2.html">&lt;h1 id=&quot;animations&quot;&gt;Animations&lt;/h1&gt;
 
 &lt;p&gt;I came across an interesting-looking Unity animation asset - &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/&quot;&gt;DOTween&lt;/a&gt;&lt;/strong&gt; - whilst working on the ShelterBox project. In fact, so interesting it looked I purchased the ‘pro’ version - &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/pro.php&quot;&gt;DOTween Pro&lt;/a&gt;&lt;/strong&gt; - before even using it; I had a feeling it would come in handy in future projects even if I didn’t get to use it at the time. And, sure enough, this has been the case.&lt;/p&gt;
 
-&lt;p&gt;DOTween has many features, but the main attration for me was the way it allows comlex tweening and manipulation of animations via code and, as such, can be controlled within the codebase of the project without having to resort to the somewhat ‘clunky’ (in my opinion) animation creation tools available out of Unity the box.&lt;/p&gt;
+&lt;p&gt;DOTween has many features, but the main attration for me was the way it allows complex tweening and manipulation of animations via code and, as such, can be controlled within the codebase of the project without having to resort to the somewhat ‘clunky’ (in my opinion) animation creation tools available out of Unity the box.&lt;/p&gt;
 
 &lt;p&gt;I have used it here in order to tween between one set of &lt;em&gt;Vector3&lt;/em&gt; and &lt;em&gt;Rotation&lt;/em&gt; data for a formation of screens and another. So it turns out my method of recording the coordinates data for each formation, as outlined in my previous post, was &lt;strong&gt;the correct thing to do!&lt;/strong&gt;&lt;/p&gt;
 
@@ -50,15 +50,7 @@
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;h1 id=&quot;formation&quot;&gt;Formation&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Simple formations&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\screen-formations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
+&lt;h1 id=&quot;screen-formations&quot;&gt;Screen Formations&lt;/h1&gt;
 
 &lt;p&gt;Formations need to be able to morph, from one formation to another. I have been considering how this should best be done: -&lt;/p&gt;
 
@@ -74,6 +66,14 @@
 &lt;p&gt;I created a &lt;strong&gt;class model&lt;/strong&gt; for screen position that holds the &lt;em&gt;Vector3&lt;/em&gt; coordinates and rotation data, in degrees, and a &lt;strong&gt;service&lt;/strong&gt; to provide lists of position data for each screen in a formation.&lt;/p&gt;
 
 &lt;p&gt;This data is then read and assigned to each screen as it is instantiated into the space. Calling the method easily allows each formation to be immediately created. Should I end up using such data to move between two points (e.g. x1 =&amp;gt; x2, y1 =&amp;gt; y2, z1 =&amp;gt; z2) then this will be very useful. Even if this is not the final method I use, it is very useful to hold this data, as a record, in order to recreate formations whenever I need to, whether this is during runtime or during development and editing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simple formations&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\screen-formations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Example formation with associated coordinates&lt;/strong&gt;
 &lt;img src=&quot;\images\GAM750\formation-1.jpg&quot; alt=&quot;Screen Formation Image&quot; /&gt;

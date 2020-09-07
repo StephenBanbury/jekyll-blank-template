@@ -31,15 +31,7 @@ The screen material itself is designed for projections. However, in my case, I n
   </video>
 </figure>
 
-# Formation
-
-**Simple formations**
-<figure class="video_container">
-  <video style="width:720px;" autoplay loop>
-    <source src="\media\screen-formations-1.mp4" type="video/mp4">
-    Woops! Your browser does not support the HTML5 video tag.
-  </video>
-</figure>
+# Screen Formations
 
 Formations need to be able to morph, from one formation to another. I have been considering how this should best be done: -
 
@@ -53,6 +45,14 @@ Formations need to be able to morph, from one formation to another. I have been 
 I created a **class model** for screen position that holds the _Vector3_ coordinates and rotation data, in degrees, and a **service** to provide lists of position data for each screen in a formation.
 
 This data is then read and assigned to each screen as it is instantiated into the space. Calling the method easily allows each formation to be immediately created. Should I end up using such data to move between two points (e.g. x1 => x2, y1 => y2, z1 => z2) then this will be very useful. Even if this is not the final method I use, it is very useful to hold this data, as a record, in order to recreate formations whenever I need to, whether this is during runtime or during development and editing. 
+
+**Simple formations**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\screen-formations-1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
 
 **Example formation with associated coordinates**
 ![Screen Formation Image](\images\GAM750\formation-1.jpg)
