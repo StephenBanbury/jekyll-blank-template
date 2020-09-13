@@ -27,4 +27,3 @@ My early thoughts on this are that any OSC-outputting equipment would need to co
 
 This is getting a little more complicated by the day. I feel a diagram coming on!
 
-

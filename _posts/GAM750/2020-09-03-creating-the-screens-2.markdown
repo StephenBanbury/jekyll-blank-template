@@ -7,7 +7,7 @@ published: true
 
 # Animations
 
-I came across an interesting-looking Unity animation asset - **[DOTween](http://dotween.demigiant.com/)** - whilst working on the ShelterBox project. In fact, so interesting it looked I purchased the 'pro' version - **[DOTween Pro](http://dotween.demigiant.com/pro.php)** - before even using it; I had a feeling it would come in handy in future projects even if I didn't get to use it at the time. And, sure enough, this has been the case.
+I came across an interesting-looking Unity animation asset - **[DOTween](http://dotween.demigiant.com/)** - whilst working on the ShelterBox project. In fact, so interesting it looked I purchased the **['pro' version ](http://dotween.demigiant.com/pro.php)** before even using it; I had a feeling it would come in handy in future projects even if I didn't get to use it at the time. And, sure enough, this has been the case.
 
 DOTween has many features, but the main attration for me was the way it allows complex tweening and manipulation of animations via code and, as such, can be controlled within the codebase of the project without having to resort to the somewhat 'clunky' (in my opinion) animation creation tools available out of Unity the box. 
 
