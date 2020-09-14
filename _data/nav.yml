@@ -101,6 +101,9 @@ toc:
         - page: The Screens 2
           date: 2020-09-03
           url: 2020/09/03/creating-the-screens-2.html
+      - page: Sending Data Betwen Clients
+        date: 2020-09-14
+        url: 2020/09/14/sending-data.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

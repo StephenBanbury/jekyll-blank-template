@@ -21,8 +21,7 @@ Currently, the OSC messages are in the form: -
 The /select/ part indicates that a selection has been made.
 /video/, /stream/ etc. indicates what kind of action we are going to request.
 
-Following this, an argument is passed indicating the **ID** of the video, the video stream, the display screen, or the screen formation. 
-
+Following this, an argument is passed indicating the **ID** of the video, the video stream, the display screen, or the screen formation...
 
         const string _videoSelectAddress = "/select/video";
         const string _streamSelectAddress = "/select/stream";
@@ -32,7 +31,7 @@ Following this, an argument is passed indicating the **ID** of the video, the vi
         public void VideoSelect(int videoId)
         {
             oscOut.Send(_videoSelectAddress, videoId);
-		}
+		    }
         public void StreamSelect(int streamId)
         {
             oscOut.Send(_streamSelectAddress, streamId);
@@ -40,19 +39,15 @@ Following this, an argument is passed indicating the **ID** of the video, the vi
 		public void DisplaySelect(int displayId)
         {
             oscOut.Send(_displaySelectAddress, displayId);
-		}
+		    }
         public void FormationSelect(int formationId)
         {
             oscOut.Send(_formationSelectAddress, formationId);
         }
 
+... and at the listening end, these patterns are looked for and responces are wired up. Therefore a specific message plus arguments is sent, and this results in a specific method being called at the receiver's end.
 
-<figure class="video_container">
-  <video style="width:720px;" autoplay loop>
-    <source src="\media\osc-unity-code-1.mp4" type="video/mp4">
-    Woops! Your browser does not support the HTML5 video tag.
-  </video>
-</figure>
+![OSC Interface](\images\GAM750\osc-interface-1.JPG)
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>

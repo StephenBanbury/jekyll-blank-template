@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-07T22:38:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Creating The Screens 2</title><link href="http://localhost:4000/2020/09/03/creating-the-screens-2.html" rel="alternate" type="text/html" title="Creating The Screens 2" /><published>2020-09-03T01:00:00+01:00</published><updated>2020-09-03T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/03/creating-the-screens-2</id><content type="html" xml:base="http://localhost:4000/2020/09/03/creating-the-screens-2.html">&lt;h1 id=&quot;animations&quot;&gt;Animations&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-14T23:19:26+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Sending and Receiveing OSC Data</title><link href="http://localhost:4000/2020/09/14/sending-data.html" rel="alternate" type="text/html" title="Sending and Receiveing OSC Data" /><published>2020-09-14T01:00:00+01:00</published><updated>2020-09-14T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/14/sending-data</id><content type="html" xml:base="http://localhost:4000/2020/09/14/sending-data.html">&lt;p&gt;I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. &lt;strong&gt;Normcore&lt;/strong&gt; for multiplayer functionality and &lt;strong&gt;Agora&lt;/strong&gt; for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.&lt;/p&gt;
+
+&lt;h1 id=&quot;osc-addressing&quot;&gt;OSC addressing&lt;/h1&gt;
+&lt;p&gt;The main one here is &lt;strong&gt;OSC&lt;/strong&gt; messages, used to control screen content, formations, lighting, sound, and many other potential uses that could come up as this project continues to be developed. As this data is simply text, it could be passed in form of JSON or raw strings, and then easily interpreted by clients connected in.&lt;/p&gt;
+
+&lt;p&gt;But there could potentially be other uses for such data channels. Perhaps they could be used to send &lt;em&gt;coordinate&lt;/em&gt; data for the screen formations and, more interestingly, the &lt;em&gt;players within the VR space&lt;/em&gt;. These could then be used in mappying out the space in &lt;em&gt;real life&lt;/em&gt; in order for the performers to keep tabs on where players are and on their movements.&lt;/p&gt;
+
+&lt;h1 id=&quot;agora&quot;&gt;Agora&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; provides a simple data channel that can be used for sending text messages from broadcaster to clients. I am currently thinking that this could be very useful for sending data in JSON format.&lt;/p&gt;
+
+&lt;p&gt;I have tested it with simple &lt;em&gt;‘hello’&lt;/em&gt; messages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Message sent from Video Streaming client and received by VR client&lt;/strong&gt;
+&lt;img src=&quot;\images\GAM750\agora-data-stream-message-1.JPG&quot; alt=&quot;message 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Message sent from VR client and received by Video Streaming client&lt;/strong&gt;
+&lt;img src=&quot;\images\GAM750\agora-data-stream-message-2.JPG&quot; alt=&quot;message 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;normcore&quot;&gt;Normcore&lt;/h1&gt;
+&lt;p&gt;I am very tempted to hook up both the video streaming and the OSC controller client apps to Normcore and allow data to be pushed around using Normcore data-pooling techniques. This could work in exactly the same as does sending video, screen and screen formation selection currently does between clients that have joined the room. The advantage of this method could be that it would be a relatively simple task to share &lt;strong&gt;all&lt;/strong&gt; data that is being used by &lt;strong&gt;all&lt;/strong&gt; of the client apps involved. It would not require specific extra channels, methodologies and means of sending and receiving data. The way the data is packaged and then interpreted at the receiving end will be the same, but pooling the data via Normcore will allow it to be accessible by any client at any time.&lt;/p&gt;
+
+&lt;h1 id=&quot;decision&quot;&gt;Decision&lt;/h1&gt;
+&lt;p&gt;The simplicilty of sending text messages using Agora is tempting me in this direction. There is little to set up and it will not require writing methods to keep the data in sync between clients.&lt;/p&gt;
+
+&lt;p&gt;I feel the way forward will be to include both Normcore and Agora in all three apps, so that any can be called upon where necessary. But for the time being, I will explore the use of Agora’s simple messaging ability to for OSC addressing.&lt;/p&gt;
+
+&lt;p&gt;When it comes to finding ways to keep performers (i.e. video streaming clients) informed as to the positioning of audience, it may be that I will turn to Normcore.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. Normcore for multiplayer functionality and Agora for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.</summary></entry><entry><title type="html">The Possibilities Of OSC</title><link href="http://localhost:4000/2020/09/13/osc-possibilities.html" rel="alternate" type="text/html" title="The Possibilities Of OSC" /><published>2020-09-13T01:00:00+01:00</published><updated>2020-09-13T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/13/osc-possibilities</id><content type="html" xml:base="http://localhost:4000/2020/09/13/osc-possibilities.html">&lt;h1 id=&quot;osc-controller&quot;&gt;OSC Controller&lt;/h1&gt;
+
+&lt;p&gt;I created an Unity project for the purpose of developing an &lt;strong&gt;OSC controller&lt;/strong&gt;. After importing the &lt;em&gt;OSC Simpl&lt;/em&gt; Unity package, I studied the example apps and the documentation - which is concise but not rich enough to rely on without a fair bit of code-analysis - and managed to cobble together an OCS controller with buttons that replace the temporary VR interface I have been using to control the environment from within.&lt;/p&gt;
+
+&lt;p&gt;The main app also contains the OSC package and listens for OSC data messages. Once received, the message fires exactly the same actions as the temporary interface. Therefore, the desired effects not only occur, but they sync across &lt;em&gt;Normcore&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Currently, the OSC messages are in the form: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;/select/video&lt;/li&gt;
+  &lt;li&gt;/select/stream&lt;/li&gt;
+  &lt;li&gt;/select/display&lt;/li&gt;
+  &lt;li&gt;/select/formation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The /select/ part indicates that a selection has been made.
+/video/, /stream/ etc. indicates what kind of action we are going to request.&lt;/p&gt;
+
+&lt;p&gt;Following this, an argument is passed indicating the &lt;strong&gt;ID&lt;/strong&gt; of the video, the video stream, the display screen, or the screen formation…&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    const string _videoSelectAddress = &quot;/select/video&quot;;
+    const string _streamSelectAddress = &quot;/select/stream&quot;;
+    const string _displaySelectAddress = &quot;/select/display&quot;;
+    const string _formationSelectAddress = &quot;/select/formation&quot;;
+
+    public void VideoSelect(int videoId)
+    {
+        oscOut.Send(_videoSelectAddress, videoId);
+	    }
+    public void StreamSelect(int streamId)
+    {
+        oscOut.Send(_streamSelectAddress, streamId);
+    }
+	public void DisplaySelect(int displayId)
+    {
+        oscOut.Send(_displaySelectAddress, displayId);
+	    }
+    public void FormationSelect(int formationId)
+    {
+        oscOut.Send(_formationSelectAddress, formationId);
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;… and at the listening end, these patterns are looked for and responces are wired up. Therefore a specific message plus arguments is sent, and this results in a specific method being called at the receiver’s end.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\GAM750\osc-interface-1.JPG&quot; alt=&quot;OSC Interface&quot; /&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\osc-unity-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\osc-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;should-be-fun&quot;&gt;Should be fun&lt;/h1&gt;
+
+&lt;p&gt;Of course, this follows the pattern already in place in the main VR app, i.e. when selecting the video or stream to display, the ID is selected first, followed by the ID of the display on which the respective media is to be shown.&lt;/p&gt;
+
+&lt;p&gt;However, as suggested by my fellow student and resident OSC expert, Sam Smallman, on our Discord server forum, there are other possible ways to provide this information: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Sam:&lt;/strong&gt; You can use wildcards to help so you would basically receive an OSC message and pattern match for “/fireclown/screen/*/hidden” then you would grab the 3rd part which would be the screen number and then take the argument value and hide unhide the screen from there.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Have you considered stateless commands, so /formation 3 “1 2 3 4 5”, basically set formation to 3(1st argument) to the screens 1 thru 5 (2nd string argument)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;then you could have /screen/1/formation 3, to set indivual screen 1 to formation 3
+.. ah no because formation is a global thing but video feed, /screen/1/video 3, to set indivdual screen 1 to video feed 3. There’s a lot of fun you can have with this&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Me:&lt;/strong&gt; My big issue, though, is how to set it up to send over the internet. Probably have to send it via Agora - which I’m using for the video streaming but also has a data channel - or normcore somehow… I think you’ve mentioned before that theatre is usually done in a closed network.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Sam:&lt;/strong&gt; it might be easier to just send http post requests with a json packet as the arguments, and then you can translate them to osc&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;oh yeah, most theatre wont be online ever. Things are changing at the moment but still there’s massive superstition about putting anything online during a performance.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Me:&lt;/strong&gt; As this project is all about remote working, I have no choice in the matter.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Sam:&lt;/strong&gt; you would need to wrap osc anyway to get over the net you may aswell just wrap it in http&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;as a theatre practitioner my next questions would be what control over the screens do i have. Does screen feeds snap from one to another, do i have control of fading it,  do i have control of the formations and how they move from one to another and the time they take, can i indivdually control screen brightness etc. All of that I would want control via OSC arguments etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So I’m going to have fun with OSC once we’ve nailed down the requirements and in what contexts we think it could be most useful. I think the main difficulty will prove to be finding the best (and, as always, the least time-consuming) way to get the data across the internet. I feel this may best be achieved by including Agora or Normcore in the OSC project and sending the data wrapped in JSON to the main VR app. Once it has arrived, it can then be interpretted and acted upon.&lt;/p&gt;
+
+&lt;p&gt;In a way, this will negate the need for the OSC Simple package, as there will likely be no need to broadcast via http and listen at the other end. However, it could be more flexible in the long run to use as much of the basic OSC broadcasting pattern and the technology behind it as possible, and as little as possible of the mechanism used to send the data occross the &lt;em&gt;World Wide Web&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">OSC Controller</summary></entry><entry><title type="html">Creating The Screens 2</title><link href="http://localhost:4000/2020/09/03/creating-the-screens-2.html" rel="alternate" type="text/html" title="Creating The Screens 2" /><published>2020-09-03T01:00:00+01:00</published><updated>2020-09-03T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/03/creating-the-screens-2</id><content type="html" xml:base="http://localhost:4000/2020/09/03/creating-the-screens-2.html">&lt;h1 id=&quot;animations&quot;&gt;Animations&lt;/h1&gt;
 
 &lt;p&gt;I came across an interesting-looking Unity animation asset - &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/&quot;&gt;DOTween&lt;/a&gt;&lt;/strong&gt; - whilst working on the ShelterBox project. In fact, so interesting it looked I purchased the &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/pro.php&quot;&gt;‘pro’ version &lt;/a&gt;&lt;/strong&gt; before even using it; I had a feeling it would come in handy in future projects even if I didn’t get to use it at the time. And, sure enough, this has been the case.&lt;/p&gt;
 
@@ -269,542 +401,4 @@ It utilizes &lt;strong&gt;STUN&lt;/strong&gt; and &lt;strong&gt;TURN&lt;/strong&
 &lt;blockquote&gt;
   &lt;p&gt;&lt;strong&gt;TURN&lt;/strong&gt; (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.&lt;br /&gt;
 TURN is most useful for Web, Mobile and IoT clients on networks masqueraded by symmetric NAT devices. But the TURN server cost is high because of the server utilization and huge bandwidth usage in the case where more client connections are established.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Jargon-buster</summary></entry><entry><title type="html">Building A WebRTC Web App</title><link href="http://localhost:4000/2020/07/27/webrtc-web-app.html" rel="alternate" type="text/html" title="Building A WebRTC Web App" /><published>2020-07-27T23:00:00+01:00</published><updated>2020-07-27T23:00:00+01:00</updated><id>http://localhost:4000/2020/07/27/webrtc-web-app</id><content type="html" xml:base="http://localhost:4000/2020/07/27/webrtc-web-app.html">&lt;p&gt;As stated in the previous post, at the moment &lt;strong&gt;I feel that my time would be best spent learning about WebRTC in general, rather than  specifically as a Unity plugin&lt;/strong&gt;. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;
-
-&lt;p&gt;I have found a useful-looking half-hour-long YouTube tutorial, &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DvlyzDZDEq4&quot;&gt;How To Create A Video Chat App With WebRTC&lt;/a&gt;&lt;/strong&gt;. It was only published a day ago but has already received over 2,000 ‘likes’ (and only 15 thumbs-down). If nothing else, I see this as further evidence of the current, pandemic-induced social lockdown interest in the subject of peer-to-peer video chat apps.&lt;/p&gt;
-
-&lt;p&gt;I have also placed a tutorial into my Udemy Cart and may decide to purchase it. I have 10 hours to get it at the discount price of £13.99 (reduced fro £49.99, apparently). But first I will see what the free YouTube offering is about.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I note the many cricisms in the review/comments section that this course is out of date, is deprecated and not been updated for three years. This may be unfair, but I think I’ll just find what I need for free on YouTube etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;notes-on-setting-up-the-webrtc-project&quot;&gt;Notes on setting up the WebRTC project&lt;/h1&gt;
-
-&lt;p&gt;Setting up the server&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;npm i express ejs socket.io&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use the &lt;a href=&quot;https://expressjs.com/&quot;&gt;Expressjs server&lt;/a&gt;: &lt;a href=&quot;https://expressjs.com/en/starter/installing.html&quot;&gt;expressjs.com/installing&lt;/a&gt;, &lt;a href=&quot;https://www.npmjs.com/package/express&quot;&gt;npm&lt;/a&gt;,&lt;/li&gt;
-  &lt;li&gt;use dependency ejs - templating language / view engine&lt;/li&gt;
-  &lt;li&gt;use socket.io&lt;/li&gt;
-  &lt;li&gt;uuid&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;npm i uuid&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;allows us to create dynamic IDs for different rooms&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;npm i –save-dev nodemon&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Dynamic refreshing of server on making changes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const express = require ('express')
-const app = express()
-const server = require ('http').Server(app)
-const io = require('socket.io')(server)
-const { v4: uuidV4 } = require('uuid')
-
-app.set('view engine', 'ejs')
-app.use(express.static('public'))
-
-app.get('/', (req, res) =&amp;gt; {
-    res.redirect(`/${uuidV4()}`)
-})
-
-app.get('/:room', (req, res) =&amp;gt; {
-    res.render('room', { roomId: req.params.room })
-})
-
-server.listen(3000)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;room.ejs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: you can use ! in a new file to generate HTML boilerplate code.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nf&quot;&gt;#video-grid&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;py&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;auto-fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-            &lt;span class=&quot;py&quot;&gt;grid-template-rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;video&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;object-fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;video-grid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;So far we have a server that generates a random room (with a random ID) everytime localhost:3000 is called&lt;/strong&gt;. The room page contains a blank div which will hold the video.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Add joining room function to server.js&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;io.on('connection', socket =&amp;gt; {
-    socket.on('join-room', (roomId, userId) =&amp;gt; {
-        console.log(roomId, userId)
-    })
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;roomId&lt;/strong&gt; is set as a constant in the JavaScript so is sent to the page&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script&amp;gt;
-    const ROOM_ID = &quot;&amp;lt;%= roomId %&amp;gt;&quot;
-&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/gam750/webrtc-roomid.jpg&quot; alt=&quot;roomId sent to the page&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bring in the socket.io jasvascript code into our front end, served by our own server (server.js)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;/socket.io/socket.io.js&quot; defer&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Add a script file for our own JavaScript&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;script.js&quot; defer&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Join room and broadcast userId to other clients&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;.. in &lt;strong&gt;script.js&lt;/strong&gt; (userId is hard-coded for now)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const socket = io('/')
-
-socket.emit('join-room', ROOM_ID, 10)
-
-socket.on('user-connected', userId =&amp;gt; {
-    console.log('User connected: ' + userId) })
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;.. in &lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;io.on('connection', socket =&amp;gt; {
-    socket.on('join-room', (roomId, userId) =&amp;gt; {
-        socket.join(roomId)
-        socket.to(roomId).broadcast.emit('user-connected', userId)
-    })
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;When the second client joins the same room (same roomId) the first client is informed&lt;/strong&gt;
-&lt;img src=&quot;/images/gam750/webrtc-join-room-1.jpg&quot; alt=&quot;joining the room&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;peerjs&quot;&gt;PeerJS&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;npm i -g peer&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://peerjs.com/&quot;&gt;The PeerJS library&lt;/a&gt;&lt;/strong&gt; allows us to run a &lt;strong&gt;peer server&lt;/strong&gt;, creating connections between different users using WebRTC.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Note - I’m hoping this is not going to prove to be a difficult part of the process of setting up WebRTC for Unity.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;peerjs –port 3001&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The peer server is now runing on poer 3001, which will allow us to connect users and will give us an ID to replace the hard-coded one above.&lt;/p&gt;
-
-&lt;p&gt;Add the following (from https://peerjs.com/) to &lt;strong&gt;room.ejs&lt;/strong&gt; (using defer to ensure running first)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script defer src=&quot;https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Place the emit function (in script.js) into a function to run when connected to PeerJS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This will provde the unique ID for the user that is connected.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myPeer.on('open', id =&amp;gt; {
-    socket.emit('join-room', ROOM_ID, id)
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Get a reference to the video grid&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const videoGrid = document.getElementById('video-grid')
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;And a reference to a video&lt;/strong&gt; and mute it so we don’t hear our own voice played back to us.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const myVideo = document.createElement('video')
-myVideo.muted = true;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Connect our video&lt;/strong&gt;, returns a stream (as a promise), which will be listened to by an event listener (see function addVideoStream below)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;navigator.mediaDevices.getUserMedia({
-    video: true,
-    audio: true
-}).then(stream =&amp;gt; {
-    addVideoStream(myVideo, stream)
-})
-
-Function addVideoStream(video, stream){
-    video.srcObject = stream
-    video.addEventListener('loadedmetadata', () =&amp;gt; {
-        video.play()
-    })
-    videoGrid.append(video)
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;On refreshing our page, we can see our video appear in our page&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Permissions will be required the first time this is run.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Allowing ourselves to be connected to by other users&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Send our current video and audio stream to the new user&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;socket.on('user-connected', userId =&amp;gt; {
-    connectToNewUser(userId, stream)
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;When they call back we take in their video stream - called ‘stream’ - [ call.on(‘stream’,… ] and add to our list of videos [ addVideoStream(video, userVideoStream) ]&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;On close, remove the video from the page.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function connectToNewUser(userId, stream) {
-    const call = myPeer.call(userId, stream)
-    const video = document.createElement('video')
-    call.on('stream', userVideoStream =&amp;gt; {
-        addVideoStream(video, userVideoStream)
-    })
-    call.on('close', () =&amp;gt; {
-        video.remove()
-    })
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We must listen for calls so we know if someone is calling us and then we can add them to our videos on screen.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;myPeer.on('call', call =&amp;gt; {
-    call.answer(stream)
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;But we need to respond&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    const video = document.createElement('video')
-    call.on('stream', userVideoStream =&amp;gt; {
-        addVideoStream(video, userVideoStream)
-    })
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;So now we can receive calls by listening to our &lt;strong&gt;on call event&lt;/strong&gt; and make calls when new users connect to our room (connectToNewUser)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Finally we need to handle closing the videos better when a user disconnects&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Back in &lt;strong&gt;server.js&lt;/strong&gt;, on disconnect run another function (broadcast.emit) to send the event down to our room.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;socket.on('disconnect'), () =&amp;gt; {
-    socket.to(roomId).broadcast.emit('user-disconnected', userId)
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;then to pick up this event in script.js&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;socket.on('user-disconnected', userId =&amp;gt; {
-    console.log(userId)
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We need to use the userId to disconnect the user&lt;/p&gt;
-
-&lt;p&gt;We can log the callers in an object&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const peers = {}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;and on connecting to new user add them to the object so they can be removed when disconnected&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;peers[userId] = call
-
-socket.on('user-disconnected', userId =&amp;gt; {
-    if(peers[userId]) peers[userId].close()
-})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\webrtc-javascript-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;all-the-scripts-in-their-entirety&quot;&gt;All the scripts in their entirety&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;server.js&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const express = require ('express')
-const app = express()
-const server = require ('http').Server(app)
-const io = require('socket.io')(server)
-const { v4: uuidV4 } = require('uuid')
-
-app.set('view engine', 'ejs')
-app.use(express.static('public'))
-
-app.get('/', (req, res) =&amp;gt; {
-    res.redirect(`/${uuidV4()}`)
-})
-
-app.get('/:room', (req, res) =&amp;gt; {
-    res.render('room', { roomId: req.params.room })
-})
-
-io.on('connection', socket =&amp;gt; {
-    socket.on('join-room', (roomId, userId) =&amp;gt; {
-        socket.join(roomId)
-        socket.to(roomId).broadcast.emit('user-connected', userId)
-
-        socket.on('disconnect', () =&amp;gt; {
-            socket.to(roomId).broadcast.emit('user-disconnected', userId)
-        })
-    })
-})
-
-server.listen(3000)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;room.ejs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ROOM_ID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;lt;%= roomId %&amp;gt;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;defer&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/socket.io/socket.io.js&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;defer&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;script.js&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;defer&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Document&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nf&quot;&gt;#video-grid&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;py&quot;&gt;grid-template-columns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;auto-fill&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-            &lt;span class=&quot;py&quot;&gt;grid-template-rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;300px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;video&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nl&quot;&gt;object-fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cover&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;video-grid&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;script.js&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;const socket = io('/')
-const videoGrid = document.getElementById('video-grid')
-const myPeer = new Peer(undefined, {
-    host: '/',
-    port: '3001'
-})
-const myVideo = document.createElement('video')
-myVideo.muted = true;
-const peers = {}
-
-navigator.mediaDevices.getUserMedia({
-    video: true,
-    audio: true
-}).then(stream =&amp;gt; {
-    addVideoStream(myVideo, stream)
-
-    myPeer.on('call', call =&amp;gt; {
-        call.answer(stream)
-        const video = document.createElement('video')
-        call.on('stream', userVideoStream =&amp;gt; {
-            addVideoStream(video, userVideoStream)
-        })
-    })
-
-    socket.on('user-connected', userId =&amp;gt; {
-        connectToNewUser(userId, stream)
-    })
-})
-
-socket.on('user-disconnected', userId =&amp;gt; {
-    if(peers[userId]) peers[userId].close()
-})
-
-myPeer.on('open', id =&amp;gt; {
-    socket.emit('join-room', ROOM_ID, id)
-})
-
-function connectToNewUser(userId, stream) {
-    const call = myPeer.call(userId, stream)
-    const video = document.createElement('video')
-    call.on('stream', userVideoStream =&amp;gt; {
-        addVideoStream(video, userVideoStream)
-    })
-    call.on('close', () =&amp;gt; {
-        video.remove()
-    })
-
-    peers[userId] = call
-}
-
-function addVideoStream(video, stream){
-    video.srcObject = stream
-    video.addEventListener('loadedmetadata', () =&amp;gt; {
-        video.play()
-    })
-    videoGrid.append(video)
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Run with..&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm run devStart
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;which runs the script in package.json&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;scripts&quot;: {
-  &quot;devStart&quot;: &quot;nodemon server.js&quot;
-},
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;This has been an interesting and valuable lesson in peer-to-peer connectivity. I am still not sure I have much of a handle on WebRTC specifically as, unexpectedly, the project uses &lt;strong&gt;&lt;a href=&quot;https://peerjs.com/&quot;&gt;Peer JS&lt;/a&gt;&lt;/strong&gt;, an external JavaScript library to provide an API to handle WebRTC.&lt;/p&gt;
-
-&lt;p&gt;However, I am probably - hopefully - in a better position to attempt implementing WebRTC in a Unity project.&lt;/p&gt;</content><author><name></name></author><summary type="html">As stated in the previous post, at the moment I feel that my time would be best spent learning about WebRTC in general, rather than specifically as a Unity plugin. Once I feel I fully understand the basics I should be able to apply them more easily to my specific Unity test-case.</summary></entry><entry><title type="html">Streaming To And From Unity</title><link href="http://localhost:4000/2020/07/25/streaming-into-unity.html" rel="alternate" type="text/html" title="Streaming To And From Unity" /><published>2020-07-25T15:00:00+01:00</published><updated>2020-07-25T15:00:00+01:00</updated><id>http://localhost:4000/2020/07/25/streaming-into-unity</id><content type="html" xml:base="http://localhost:4000/2020/07/25/streaming-into-unity.html">&lt;h1 id=&quot;the-requirement&quot;&gt;The requirement&lt;/h1&gt;
-
-&lt;p&gt;I need to find a way to take data from a device and stream it into my Unity scene.&lt;/p&gt;
-
-&lt;p&gt;An example would be taking video from a webcam or a mobile phone camera, creating a data stream to which a Unity script can subscribe and then display the streamed video onto a texture within the scene.&lt;/p&gt;
-
-&lt;p&gt;Another, perhaps simpler example, would be to take numeric 2D positional data, manipulated on the screen of the extertanl device, and stream that to Unity.  The data can then be used to control the position of an object within the scene.&lt;/p&gt;
-
-&lt;p&gt;Audio would be another, allowing a stream of audio data from the external device’s microphone to enter the Unity scene and be heard by the players via the audio mixer.&lt;/p&gt;
-
-&lt;h1 id=&quot;thinking-about-options&quot;&gt;Thinking about options&lt;/h1&gt;
-
-&lt;p&gt;Would it be best, or feasible, to create a room in the Unity project that can access the device’s camera resources, and then to create a build for each platform - i.e. Android (can be the same build as for the Oculus quest), iOs and Windows.&lt;/p&gt;
-
-&lt;p&gt;Or could the unity project be cloud-hosted, allowing users to connect via the internet. The cloud app would need to be able to access the device’s resources across the internet, much like Zoom or Skype etc.&lt;/p&gt;
-
-&lt;p&gt;An alternative may be to create a web app that can run in a browser - perhaps raw JavaScript or an Angular/Vue/React etc. app, which can access the device’s resources and stream via a socket to a server. The Unity project can then connect to a socket on the server and subscribe to the datastream.&lt;/p&gt;
-
-&lt;p&gt;Other than these options we could be looking at either a cross-platform option, like Flutter or Ionic, or multiple Native apps.&lt;/p&gt;
-
-&lt;h1 id=&quot;random-research&quot;&gt;Random research&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/37100900/unity-processing-data-stream-from-socket&quot;&gt;StackOverflow&lt;/a&gt;&lt;/strong&gt;: Unity Processing Data Stream from Socket.  This is an interesting question asked on StackOverflow and it leads to a &lt;strong&gt;potential solution&lt;/strong&gt; for setting up a TCP client in Unity: &lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/36526332/simple-socket-server-in-unity/36526634#36526634&quot;&gt;Simple socket server in Unity&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/46564222/how-to-send-and-receive-tcp-messages-while-streaming-video-unity-and-socket-ne&quot;&gt;Another on StackOverflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/42717713/unity-live-video-streaming/42727918#42727918&quot;&gt;And another…&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/17719541/writing-and-reading-using-socket&quot;&gt;… and guess what…&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mozilla:&lt;/strong&gt; &lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API&quot;&gt;The WebSocket API (WebSockets)&lt;/a&gt;&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server&quot;&gt;Writing a WebSocket server in C#&lt;/a&gt;&lt;/strong&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Another possible option could be to re-use the code already implemented in my &lt;strong&gt;&lt;a href=&quot;/2020/07/11/client-server-tutorial.html&quot;&gt;C# TCP/UDP multiplayer experiment&lt;/a&gt;&lt;/strong&gt;.  As it is basically about sending and receiving data between clients via a server, in a sense it is already all in place. I’m tempted to combine this with what I could learn from the above Mozilla WebSocket documentation and to build the solution from the ground up.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt;&lt;/strong&gt;: I keep coming back to this - it’s potentially the all-encompassing solution, covering browser, native, Unity - both client and server, both directions possible (or so it would seem).
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/2020/07/02/webrtc.html&quot;&gt;My earlier post on WebRTC&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/gettingstarted.html&quot;&gt;Microsoft’s WebRTC project&lt;/a&gt;&lt;/strong&gt;, including a library for &lt;strong&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/unity/unity-integration.html&quot;&gt;Unity&lt;/a&gt;&lt;/strong&gt; and a &lt;strong&gt;&lt;a href=&quot;https://microsoft.github.io/MixedReality-WebRTC/manual/unity/helloworld-unity.html&quot;&gt;Unity tutorial&lt;/a&gt;&lt;/strong&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://docs.unity3d.com/Packages/com.unity.webrtc@2.0/manual/index.html&quot;&gt;Unity documentation&lt;/a&gt;&lt;/strong&gt;: includes links to a &lt;strong&gt;&lt;em&gt;Tutorial&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Reference&lt;/em&gt;&lt;/strong&gt; for &lt;strong&gt;&lt;em&gt;Video&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;Audio&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;Data&lt;/em&gt;&lt;/strong&gt; streaming.
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/Unity-Technologies/UnityRenderStreaming/blob/release/1.0.0/Packages/com.unity.template.renderstreaming/Documentation~/en/tutorial.md&quot;&gt;Unity Render Streaming&lt;/a&gt;&lt;/strong&gt;: streaming video out from Unity project using &lt;strong&gt;WebRTC&lt;/strong&gt; - I’m not sure just yet how useful this could be - whether it is just from the editor or from a live build. Either way, it looks interesting.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;unity-assets&quot;&gt;Unity Assets&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/templates/packs/fmetp-stream-143080#reviews&quot;&gt;FMETP&lt;/a&gt;&lt;/strong&gt; This asset may do the trick on a number of scores - video in and out.&lt;br /&gt;
-&lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/release-fmetp-stream-all-in-one-gameview-audio-stream-udp-tcp-websockets-html.670270/&quot;&gt;FMETP - Unity forum&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;This certainly does look like an interesting solution. The devlelopers are very much on the ball, judging by the various queries and reqests, so even if if it not directly perfect for my use, it should be possible to work with the developers in finding a solution. 
-However, even as it is, it could provide a solution to my requiments - &lt;a href=&quot;https://answers.unity.com/questions/1509753/stream-live-video-feed-into-unity.html&quot;&gt;see here&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://innovativeteams.net/using-socketio-build-multi-user-experiences/&quot;&gt;Using Socket.io and Unity 3D To Build Multi-User Experiences&lt;/a&gt;&lt;/strong&gt; This makes use of the Socket.IO for Unity (see above).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://tokbox.com/blog/add-opentok-live-video-chat-to-unity/&quot;&gt;OpenTok (2017 post)&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;&lt;a href=&quot;https://tokbox.com/blog/unity-opentok-take-two/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=unity-opentok-take-two&quot;&gt;OpenTok (2019 post)&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://assetstore.unity.com/packages/tools/video/agora-video-chat-sdk-for-unity-134502&quot;&gt;Agora&lt;/a&gt;&lt;/strong&gt;
-Unity asset - another out of the box solution. It is &lt;a href=&quot;https://www.agora.io/en/pricing/&quot;&gt;well priced&lt;/a&gt; and could be very useful. I’d rather build my own though…&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.because-why-not.com/webrtc/&quot;&gt;WebRTC Video Chat asset by Because Why Not?&lt;/a&gt;&lt;/strong&gt;: This costs (about £100) for the asset.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;other&quot;&gt;Other&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.liveswitch.io/&quot;&gt;liveswitch cloud&lt;/a&gt;&lt;/strong&gt;: has monthly pricing - $19 plus per minute payment&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.nuget.org/packages/Spitfirex86/&quot;&gt;Spitfirex86&lt;/a&gt;&lt;/strong&gt;: NuGet package - for .NET applications rather than specifically Unity.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://aws.amazon.com/about-aws/whats-new/2019/12/amazon-kinesis-video-streams-adds-support-for-real-time-two-way-media-streaming-with-webrtc/&quot;&gt;Amazon Kinesis Video Streams&lt;/a&gt;&lt;/strong&gt;: &lt;em&gt;“Kinesis Video Streams includes a WebRTC signaling end-point for fast peer discovery and secure connection establishment. It includes managed Session Traversal Utilities for NAT (STUN) and Traversal Using Relays around NAT (TURN) end-points for real-time exchange of media between peers.”&lt;/em&gt; You pay for what you use - looks reasonably priced.
-&lt;strong&gt;&lt;a href=&quot;https://docs.aws.amazon.com/kinesisvideostreams-webrtc-dg/latest/devguide/kvswebrtc-how-it-works.html&quot;&gt;How it works&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/@omidborjian/setup-your-own-turn-stun-signal-relay-server-on-aws-ec2-78a8bfcb71c3&quot;&gt;Set up TRUN/STUN signal/relay server on AWS EC2&lt;/a&gt;&lt;/strong&gt;: could be very useful&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/webrtc/FirebaseRTC&quot;&gt;Firebase + WebRTC&lt;/a&gt;&lt;/strong&gt;
-&lt;strong&gt;&lt;a href=&quot;https://webrtc.org/getting-started/firebase-rtc-codelab&quot;&gt;Getting started&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://webrtc.github.io/samples/&quot;&gt;WebRTC Samples&lt;/a&gt;&lt;/strong&gt;: a collection of small samples demonstrating various parts of the WebRTC APIs&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;moving-forward&quot;&gt;Moving forward…&lt;/h1&gt;
-
-&lt;p&gt;I have been trying to find a simple, straightforward, way of introducing WebRTC into a Unity project. However, I have had trouble whichever way I’ve turned. The Microsoft package looks interesting, but my implementation via &lt;strong&gt;NuGet&lt;/strong&gt; did not introduce the Unity sample scripts and components as described. The full package implementation (i.e. before even considering the implementation of the WebRTC scripts etc. and getting a working solution up and running) could, I suppose, be studied in detail, but it looks pretty complex and I’m not sure that spending too much of my time doing so would be time well spent as there is no certainty that the result would be successful.&lt;/p&gt;
-
-&lt;p&gt;The Unity documentation itself is not very complete, in fact I’d characterise it as being sparce. It seems to explain snippets of code as though you already have them set up in your project, without explaining how to actually set them up in your project or give a wider context to them. It appears to be another case (I come across this fairly often) of documentation written by developers who assume you have been on the journey with them, but have been easily distracted.&lt;/p&gt;
-
-&lt;p&gt;I also tried following the Unity Render Streaming tutorial but, less than a year on, it is already out of date. I had trouble with the latest releases being quite different in terms of file content and the resulting WebRTC templates for Unity were not in line with what was being demonstrated in the video. I’m sure there are more tutorials out there, but for now &lt;strong&gt;I feel that my time would be better spent actually learning about WebRTC in general, rather than as a Unity plugin&lt;/strong&gt;. Once I have the basics, and really understand them, I should be able to apply them more easily to my specific Unity test-case.&lt;/p&gt;</content><author><name></name></author><summary type="html">The requirement</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Jargon-buster</summary></entry></feed>
