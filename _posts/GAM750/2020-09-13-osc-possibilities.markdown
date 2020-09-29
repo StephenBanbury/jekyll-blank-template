@@ -7,7 +7,9 @@ published: true
 
 # OSC Controller
 
-I created an Unity project for the purpose of developing an **OSC controller**. After importing the _OSC Simpl_ Unity package, I studied the example apps and the documentation - which is concise but not rich enough to rely on without a fair bit of code-analysis - and managed to cobble together an OCS controller with buttons that replace the temporary VR interface I have been using to control the environment from within.
+![Formation 5](\images\GAM750\osc-interface-2.JPG)
+
+I created an Unity project for the purpose of developing an _OSC controller_. After importing the **OSC Simpl** Unity package, I studied the example apps and the documentation - which is concise but not rich enough to rely on without a fair bit of code-analysis - and managed to cobble together an OCS controller with buttons that replace the temporary VR interface I have been using to control the environment from within.
 
 The main app also contains the OSC package and listens for OSC data messages. Once received, the message fires exactly the same actions as the temporary interface. Therefore, the desired effects not only occur, but they sync across _Normcore_.
 

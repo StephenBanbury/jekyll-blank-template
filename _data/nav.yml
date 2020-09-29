@@ -104,6 +104,9 @@ toc:
       - page: Sending Data Betwen Clients
         date: 2020-09-14
         url: 2020/09/14/sending-data.html
+      - page: The Performer App
+        date: 2020-09-27
+        url: 2020/09/27/the-performer-app.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design

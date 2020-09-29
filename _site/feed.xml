@@ -1,9 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-14T23:19:26+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Sending and Receiveing OSC Data</title><link href="http://localhost:4000/2020/09/14/sending-data.html" rel="alternate" type="text/html" title="Sending and Receiveing OSC Data" /><published>2020-09-14T01:00:00+01:00</published><updated>2020-09-14T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/14/sending-data</id><content type="html" xml:base="http://localhost:4000/2020/09/14/sending-data.html">&lt;p&gt;I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. &lt;strong&gt;Normcore&lt;/strong&gt; for multiplayer functionality and &lt;strong&gt;Agora&lt;/strong&gt; for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-29T01:23:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">The Performer App</title><link href="http://localhost:4000/2020/09/27/the-performer-app.html" rel="alternate" type="text/html" title="The Performer App" /><published>2020-09-27T01:00:00+01:00</published><updated>2020-09-27T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/27/the-performer-app</id><content type="html" xml:base="http://localhost:4000/2020/09/27/the-performer-app.html">&lt;h1 id=&quot;how-should-the-performer-experience-the-vr-space&quot;&gt;How should the performer experience the VR space?&lt;/h1&gt;
+&lt;p&gt;I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to &lt;strong&gt;also be able to see what is happening within the space&lt;/strong&gt;, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Rendering video via WebRTC&lt;/strong&gt;&lt;br /&gt;
+I had assumed that I would need to stream video, or &lt;em&gt;volumetric capture&lt;/em&gt;, from the environment to be displayed, for example, on a browser or some other display. I imagined this would make use of WebRTC in a similar way as streaming live video of a performer into the VR space. I’m sure it would be possible, but it would be time consuming - not something I would relish after having already spent a significant amount of effort and time on the stack put in place thus far. However, it would certainly be an option for further development if required - Oculus has developed a &lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/unity-render-streaming-introduction-faq.742481/&quot;&gt;streaming solution&lt;/a&gt;&lt;/strong&gt; (the GitHub repository is &lt;strong&gt;&lt;a href=&quot;https://github.com/Unity-Technologies/UnityRenderStreaming&quot;&gt;here&lt;/a&gt;)&lt;/strong&gt;, so it’s not unprecedented.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sending positional data to the performer/client&lt;/strong&gt;&lt;br /&gt;
+Then I began to think of streaming pure location data for performers and screens etc to a separate app, where they could be used to map the space in real time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Joining the performer into the multiplayer space&lt;/strong&gt;&lt;br /&gt;
+However, the most immediately straightforward option would also seem to be potentially the most useful: to join the performer into the multiplayer space as an invisible player, who can roam around with absolute freedom, but who’s presence cannot be perceived by the audience. The performer would not be experiencing the space through VR, but on a 2D flat screen, and controlling their movements using keyboard or mouse. I did briefly experiment with just having an overhead camera above the space, but this was soon replaced with the more immersive option of being in the space itself.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Overhead Camera&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\overhead-camera-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Performer ‘in space’&lt;/strong&gt;&lt;br /&gt;
+Here the performer is in the space with a single VR player (i.e. audience). This is what it could look like when it’s working - however, I am currently having some issues with Normcore allowing this to happen - it sometimes crashes out, loses connection, or freezes for the performer app. It may be that there is not enough separation, somehow, between the player, their Normcore ‘realtime’ player, their Oculus avatar.. or at least somewhere in there there is an issue - tracking it is proving difficult. But this video at least shows what could be possible!&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\performer-space-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;And here’s the ‘error’&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\performer-space-err-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">How should the performer experience the VR space? I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to also be able to see what is happening within the space, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.</summary></entry><entry><title type="html">Sending and Receiveing OSC Data</title><link href="http://localhost:4000/2020/09/14/sending-data.html" rel="alternate" type="text/html" title="Sending and Receiveing OSC Data" /><published>2020-09-14T01:00:00+01:00</published><updated>2020-09-14T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/14/sending-data</id><content type="html" xml:base="http://localhost:4000/2020/09/14/sending-data.html">&lt;p&gt;I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. &lt;strong&gt;Normcore&lt;/strong&gt; for multiplayer functionality and &lt;strong&gt;Agora&lt;/strong&gt; for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.&lt;/p&gt;
 
 &lt;h1 id=&quot;osc-addressing&quot;&gt;OSC addressing&lt;/h1&gt;
 &lt;p&gt;The main one here is &lt;strong&gt;OSC&lt;/strong&gt; messages, used to control screen content, formations, lighting, sound, and many other potential uses that could come up as this project continues to be developed. As this data is simply text, it could be passed in form of JSON or raw strings, and then easily interpreted by clients connected in.&lt;/p&gt;
 
-&lt;p&gt;But there could potentially be other uses for such data channels. Perhaps they could be used to send &lt;em&gt;coordinate&lt;/em&gt; data for the screen formations and, more interestingly, the &lt;em&gt;players within the VR space&lt;/em&gt;. These could then be used in mappying out the space in &lt;em&gt;real life&lt;/em&gt; in order for the performers to keep tabs on where players are and on their movements.&lt;/p&gt;
+&lt;p&gt;But there could potentially be other uses for such data channels. Perhaps they could be used to send &lt;em&gt;coordinate&lt;/em&gt; data for the screen formations and, more interestingly, the &lt;em&gt;players within the VR space&lt;/em&gt;. These could then be used in mappying out the space in order for the performers to keep tabs on where players are and on their movements.  However, I’m not sure if this will be close enough to &lt;em&gt;realtime&lt;/em&gt; to work sufficiently well.&lt;/p&gt;
 
 &lt;h1 id=&quot;agora&quot;&gt;Agora&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; provides a simple data channel that can be used for sending text messages from broadcaster to clients. I am currently thinking that this could be very useful for sending data in JSON format.&lt;/p&gt;
@@ -19,14 +56,16 @@
 &lt;h1 id=&quot;normcore&quot;&gt;Normcore&lt;/h1&gt;
 &lt;p&gt;I am very tempted to hook up both the video streaming and the OSC controller client apps to Normcore and allow data to be pushed around using Normcore data-pooling techniques. This could work in exactly the same as does sending video, screen and screen formation selection currently does between clients that have joined the room. The advantage of this method could be that it would be a relatively simple task to share &lt;strong&gt;all&lt;/strong&gt; data that is being used by &lt;strong&gt;all&lt;/strong&gt; of the client apps involved. It would not require specific extra channels, methodologies and means of sending and receiving data. The way the data is packaged and then interpreted at the receiving end will be the same, but pooling the data via Normcore will allow it to be accessible by any client at any time.&lt;/p&gt;
 
-&lt;h1 id=&quot;decision&quot;&gt;Decision&lt;/h1&gt;
+&lt;h1 id=&quot;decision&quot;&gt;Decision?&lt;/h1&gt;
 &lt;p&gt;The simplicilty of sending text messages using Agora is tempting me in this direction. There is little to set up and it will not require writing methods to keep the data in sync between clients.&lt;/p&gt;
 
-&lt;p&gt;I feel the way forward will be to include both Normcore and Agora in all three apps, so that any can be called upon where necessary. But for the time being, I will explore the use of Agora’s simple messaging ability to for OSC addressing.&lt;/p&gt;
+&lt;p&gt;I feel the way forward will be to include both Normcore and Agora in all three apps, so that any can be called upon where necessary. But for the time being, I will explore the use of Agora’s simple messaging ability for sending OSC messages.&lt;/p&gt;
 
 &lt;p&gt;When it comes to finding ways to keep performers (i.e. video streaming clients) informed as to the positioning of audience, it may be that I will turn to Normcore.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. Normcore for multiplayer functionality and Agora for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.</summary></entry><entry><title type="html">The Possibilities Of OSC</title><link href="http://localhost:4000/2020/09/13/osc-possibilities.html" rel="alternate" type="text/html" title="The Possibilities Of OSC" /><published>2020-09-13T01:00:00+01:00</published><updated>2020-09-13T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/13/osc-possibilities</id><content type="html" xml:base="http://localhost:4000/2020/09/13/osc-possibilities.html">&lt;h1 id=&quot;osc-controller&quot;&gt;OSC Controller&lt;/h1&gt;
 
-&lt;p&gt;I created an Unity project for the purpose of developing an &lt;strong&gt;OSC controller&lt;/strong&gt;. After importing the &lt;em&gt;OSC Simpl&lt;/em&gt; Unity package, I studied the example apps and the documentation - which is concise but not rich enough to rely on without a fair bit of code-analysis - and managed to cobble together an OCS controller with buttons that replace the temporary VR interface I have been using to control the environment from within.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;\images\GAM750\osc-interface-2.JPG&quot; alt=&quot;Formation 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I created an Unity project for the purpose of developing an &lt;em&gt;OSC controller&lt;/em&gt;. After importing the &lt;strong&gt;OSC Simpl&lt;/strong&gt; Unity package, I studied the example apps and the documentation - which is concise but not rich enough to rely on without a fair bit of code-analysis - and managed to cobble together an OCS controller with buttons that replace the temporary VR interface I have been using to control the environment from within.&lt;/p&gt;
 
 &lt;p&gt;The main app also contains the OSC package and listens for OSC data messages. Once received, the message fires exactly the same actions as the temporary interface. Therefore, the desired effects not only occur, but they sync across &lt;em&gt;Normcore&lt;/em&gt;.&lt;/p&gt;
 
@@ -156,7 +195,15 @@
 
 &lt;p&gt;Creating the actual formations involved much laborious moving and positioning of screens in the Unity editor, as well as some &lt;strong&gt;calculating&lt;/strong&gt; of coordinates in order to create specific shapes. For example, the &lt;strong&gt;isosceles triangle&lt;/strong&gt; required the three angles to be calculated depending on the lengths of the sides. As there are 16 screens, the triangle ended up having two sides comprising six screens and one side of four. To save me time, I used an &lt;strong&gt;&lt;a href=&quot;https://www.triangle-calculator.com/?what=iso&quot;&gt;online calculation tool&lt;/a&gt;&lt;/strong&gt;. The Angles of the points of the triangle were therefore calculated thus:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;\images\GAM750\calc-isoscelese-triangle.JPG&quot; alt=&quot;Isoscelese triangle calculation&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Animations</summary></entry><entry><title type="html">Creating The Screens 1</title><link href="http://localhost:4000/2020/09/01/creating-the-screens-1.html" rel="alternate" type="text/html" title="Creating The Screens 1" /><published>2020-09-01T01:00:00+01:00</published><updated>2020-09-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/01/creating-the-screens-1</id><content type="html" xml:base="http://localhost:4000/2020/09/01/creating-the-screens-1.html">&lt;h1 id=&quot;the-screen-object&quot;&gt;The screen object&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;\images\GAM750\calc-isoscelese-triangle.JPG&quot; alt=&quot;Isoscelese triangle calculation&quot; /&gt;&lt;/p&gt;
+
+&lt;p float=&quot;left&quot;&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-6.JPG&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-5.JPG&quot; width=&quot;45%&quot; /&gt; 
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-4.JPG&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-3.JPG&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-2.JPG&quot; width=&quot;45%&quot; /&gt;
+&lt;/p&gt;</content><author><name></name></author><summary type="html">Animations</summary></entry><entry><title type="html">Creating The Screens 1</title><link href="http://localhost:4000/2020/09/01/creating-the-screens-1.html" rel="alternate" type="text/html" title="Creating The Screens 1" /><published>2020-09-01T01:00:00+01:00</published><updated>2020-09-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/01/creating-the-screens-1</id><content type="html" xml:base="http://localhost:4000/2020/09/01/creating-the-screens-1.html">&lt;h1 id=&quot;the-screen-object&quot;&gt;The screen object&lt;/h1&gt;
 
 &lt;p&gt;Initial prototypes were based on simplicity and guess-work. In fact they were too small and not quite the correct dimension. They also had no detail but were, instead, simple slabs.&lt;/p&gt;
 
@@ -213,18 +260,7 @@
 
 &lt;p&gt;At this stage, I felt it important to spend some time working on the visual aspects of the project. The reason for this was that, as much as anything else, I’m sure the &lt;em&gt;Director/Designer&lt;/em&gt; and &lt;em&gt;Technical Director&lt;/em&gt; would appreciate seeing something that is less prototype-like, less of a &lt;em&gt;MVP&lt;/em&gt; (minimal viable product), and with the capacity to provide a little more of a sense of potential, of what the space could look like and how it can be experienced. This would provide food for the imagination, which could only serve to feed the creative and collaborative process across the team as a whole.&lt;/p&gt;
 
-&lt;p&gt;My graphic-creating, shaping, modeling and illustration skills are not something I’ve worked on to any great extent. I have dabbled, particularly with the ShelterBox project, with fairly simple shapes creating the environment, brought to life through animation, thoughful colouring and lighting. But I have not come close to mastering the visual arts of creating something visually unique, interesting stylistically or aesthetically. It’s fair to say I’ve done as much as I have been able to given time restraints and the more pressing need to create something that works well and looks a cut above &lt;em&gt;‘good enough’&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;Two areas that could be disgnated for such attention are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;The screens&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;The selector panels&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">OSC (Open Sound Control)</title><link href="http://localhost:4000/2020/08/19/osc.html" rel="alternate" type="text/html" title="OSC (Open Sound Control)" /><published>2020-08-19T01:00:00+01:00</published><updated>2020-08-19T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/19/osc</id><content type="html" xml:base="http://localhost:4000/2020/08/19/osc.html">&lt;h1 id=&quot;what-is-osc&quot;&gt;What is OSC?&lt;/h1&gt;
+&lt;p&gt;My graphic-creating, shaping, modelling and illustration skills are not something I’ve worked on to any great extent. I have dabbled, particularly with the ShelterBox project, with fairly simple shapes creating the environment, brought to life through animation, thoughful colouring and lighting. But I have not come close to mastering the visual arts of creating something visually unique, interesting stylistically or aesthetically. It’s fair to say I’ve done as much as I have been able to given time restraints and the more pressing need to create something that works well and looks a cut above &lt;em&gt;‘good enough’&lt;/em&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">OSC (Open Sound Control)</title><link href="http://localhost:4000/2020/08/19/osc.html" rel="alternate" type="text/html" title="OSC (Open Sound Control)" /><published>2020-08-19T01:00:00+01:00</published><updated>2020-08-19T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/19/osc</id><content type="html" xml:base="http://localhost:4000/2020/08/19/osc.html">&lt;h1 id=&quot;what-is-osc&quot;&gt;What is OSC?&lt;/h1&gt;
 
 &lt;p&gt;A requirement of the &lt;strong&gt;&lt;em&gt;Not Near Enough&lt;/em&gt;&lt;/strong&gt; brief is to explore the possibility of &lt;em&gt;‘external control of the virtual theatre space’&lt;/em&gt;. &lt;strong&gt;QLab&lt;/strong&gt; is mentioned, as is &lt;strong&gt;OSC&lt;/strong&gt;. Neither of these meant anything to me at the start of this project. I have begun examining OSC, as it appears to be the protocol of choice for theatre equipment interaction.&lt;/p&gt;
 
@@ -341,64 +377,4 @@ I’m seeing problems where one or more of the video feeds is freezing. This doe
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; looks to be the way to go, at least for the time being. I would prefer to be building my own server and exploring the use and potential of some exciting new technologies in a more ‘raw’ form - partly for my own personal curiosity and learning, but also for an increased self-contained, stand-alone stack that does not rely so much on external products. Perhaps this could be a later development of this project once the initial objectives have been met. For now, the precious resource of time is a prime consideration.&lt;/p&gt;</content><author><name></name></author><summary type="html">Early attempts at setting up a server</summary></entry><entry><title type="html">A Little More Light Falling On WebRTC</title><link href="http://localhost:4000/2020/07/28/webrtc-2.html" rel="alternate" type="text/html" title="A Little More Light Falling On WebRTC" /><published>2020-07-28T01:00:00+01:00</published><updated>2020-07-28T01:00:00+01:00</updated><id>http://localhost:4000/2020/07/28/webrtc-2</id><content type="html" xml:base="http://localhost:4000/2020/07/28/webrtc-2.html">&lt;h1 id=&quot;jargon-buster&quot;&gt;Jargon-buster&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;NAT: Network Address Translation&lt;/li&gt;
-  &lt;li&gt;SDP: Session Description Protocol&lt;/li&gt;
-  &lt;li&gt;STUN: Session Traversal Utilities for NAT&lt;/li&gt;
-  &lt;li&gt;TURN: Traversal Using Relay around NAT&lt;/li&gt;
-  &lt;li&gt;ICE: Interactive Connectivity Establishment&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As I’m new to this whole area of sockets and media streaming, it has been a quite a minefield trying to find my way around a territory that appears to offer a lot of rich resources but it tantalisingly sparcely mapped out by those who have explored it before I.&lt;/p&gt;
-
-&lt;p&gt;So it is quite refreshing when coming across moments of lucidity from folks who clearly knows what they are talking about.  They may have been cojoled into a paragraph or two encouraging them to unearth some of the experiencial matter that has accumulated and sedimented within their minds during the time they have been working with this material, but it’s appreciated nonetheless!&lt;/p&gt;
-
-&lt;p&gt;Enter &lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/unitypeerjs-simple-webrtc-support-for-unity-webgl.310166/&quot;&gt;tiggus&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Why WebRTC instead of just normal direct tcp or udp between peers?&lt;/strong&gt;
-WebRTC can be initiated from a web browser specifically thus useful for HTML5. The only sockets that you can initiate from HTML5 apps are plain http, websockets(upgraded http), and WebRTC. Vanilla TCP and UDP is not an option from the browser unless you’re using plugins. You also cannot start a WebSocket listener in a browser, only outbound.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Does it provide any Nat traversal benefits?&lt;/strong&gt;
-It utilizes &lt;strong&gt;STUN&lt;/strong&gt; and &lt;strong&gt;TURN&lt;/strong&gt; for &lt;strong&gt;NAT&lt;/strong&gt; traversal so you need to provide or use someone elses STUN server and also provide some sort of signalling server to do the matchmaking, but after the two peers are connected all data flows peer to peer. The bandwidth/servers required to get STUN information is provided for free by a number of providers, STUN basically just tells you your public ip address and port so you can inform the other peer who to connect to. TURN is a relay server like you would typically do with something like Photon for instance, shuttling data through a middleman server, but is optional for clients that can’t connect with plain STUN/ICE.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Next it’s &lt;strong&gt;&lt;a href=&quot;https://stackoverflow.com/questions/59484802/ice-vs-stun-vs-turn&quot;&gt;hobbs&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;TURN&lt;/strong&gt; is a relay — both clients send data to the TURN server, which forwards it to the other client.
-&lt;strong&gt;STUN&lt;/strong&gt; is not a relay — the STUN server helps to “make the connection” between the clients (by discovering and exchanging their external host:port pairs), after which they send data to each other directly. However, STUN doesn’t work with all NAT/firewall setups, so TURN is used when STUN fails.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;And from &lt;strong&gt;&lt;a href=&quot;https://www.twilio.com/docs/stun-turn/faq&quot;&gt;twilio.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;STUN&lt;/strong&gt;, &lt;strong&gt;TURN&lt;/strong&gt;, and &lt;strong&gt;ICE&lt;/strong&gt; are a set of IETF standard protocols for negotiating traversing NATs when establishing peer-to-peer communication sessions. WebRTC and other VoIP stacks implement support for ICE to improve the reliability of IP communications.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A host uses &lt;strong&gt;Session Traversal Utilities for NAT&lt;/strong&gt; (STUN) to discover its public IP address when it is located behind a NAT/Firewall. When this host wants to receive an incoming connection from another party, it provides this public IP address as a possible location where it can receive a connection. If the NAT/Firewall still won’t allow the two hosts to connect directly, they make a connection to a server implementing Traversal Using Relay around NAT (TURN), which will relay media between the two parties.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Interactive Connectivity Establishment&lt;/strong&gt; (ICE) is a blanket standard that describes how to coordinate STUN and TURN to make a connection between hosts. Twilio’s Network Traversal Service implements STUN and TURN for ICE-compatible clients, such as browsers supporting the WebRTC standard.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Thank you &lt;strong&gt;tiggus&lt;/strong&gt;, &lt;strong&gt;hobbs&lt;/strong&gt; and &lt;strong&gt;twilio.com&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://medium.com/av-transcode/what-is-webrtc-and-how-to-setup-stun-turn-server-for-webrtc-communication-63314728b9d0&quot;&gt;Medium: What is WebRTC and How to Setup STUN/TURN Server for WebRTC Communication?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;ICE&lt;/strong&gt; (Interactive Connectivity Establishment) is a protocol used to generate media traversal candidates that can be used in WebRTC applications, and it can be successfully sent and received through Network Address Translation (NAT)s using STUN and TURN.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;STUN&lt;/strong&gt; (Session Traversal Utilities for NAT) allows applications to discover the presence and types of NATs and firewalls between them and on the public Internet. It can be used by any device to determine the IP address and port allocated to it by a NAT.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;TURN&lt;/strong&gt; (Traversal Using Relays around NAT) Server allows clients to send and receive data through an intermediary server. The TURN protocol is the extension to STUN.&lt;br /&gt;
-TURN is most useful for Web, Mobile and IoT clients on networks masqueraded by symmetric NAT devices. But the TURN server cost is high because of the server utilization and huge bandwidth usage in the case where more client connections are established.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Jargon-buster</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; looks to be the way to go, at least for the time being. I would prefer to be building my own server and exploring the use and potential of some exciting new technologies in a more ‘raw’ form - partly for my own personal curiosity and learning, but also for an increased self-contained, stand-alone stack that does not rely so much on external products. Perhaps this could be a later development of this project once the initial objectives have been met. For now, the precious resource of time is a prime consideration.&lt;/p&gt;</content><author><name></name></author><summary type="html">Early attempts at setting up a server</summary></entry></feed>
