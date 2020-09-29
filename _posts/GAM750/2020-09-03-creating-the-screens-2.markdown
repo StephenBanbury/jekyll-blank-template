@@ -37,9 +37,9 @@ Creating the actual formations involved much laborious moving and positioning of
 
 
 <p float="left">
-  <img style="margin: 5px" src="\images\GAM750\formation-6.JPG" width="45%" />
-  <img style="margin: 5px" src="\images\GAM750\formation-5.JPG" width="45%" /> 
-  <img style="margin: 5px" src="\images\GAM750\formation-4.JPG" width="45%" />
-  <img style="margin: 5px" src="\images\GAM750\formation-3.JPG" width="45%" />
-  <img style="margin: 5px" src="\images\GAM750\formation-2.JPG" width="45%" />
+  <img style="margin: 5px" src="/images/GAM750/formation-6.JPG" width="45%" />
+  <img style="margin: 5px" src="/images/GAM750/formation-5.JPG" width="45%" /> 
+  <img style="margin: 5px" src="/images/GAM750/formation-4.JPG" width="45%" />
+  <img style="margin: 5px" src="/images/GAM750/formation-3.JPG" width="45%" />
+  <img style="margin: 5px" src="/images/GAM750/formation-2.JPG" width="45%" />
 </p>
