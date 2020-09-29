@@ -27,7 +27,7 @@ However, the most immediately straightforward option would also seem to be poten
 <br>
 
 **Performer 'in space'**<br>
-Here the performer is in the space with a single VR player (i.e. audience). This is what it could look like when it's working - however, I am currently having some issues with Normcore allowing this to happen - it sometimes crashes out, loses connection, or freezes for the performer app. It may be that there is not enough separation, somehow, between the player, their Normcore 'realtime' player, their Oculus avatar.. or at least somewhere in there there is an issue - tracking it is proving difficult. But this video at least shows what could be possible!
+Here the performer is in the space with a single VR player (i.e. audience). This is what it could look like when it's working - however, I am currently having some issues with Normcore allowing this to happen - it sometimes crashes out, loses connection, or freezes for the performer app. Sometimes it just does not follow actions from the VR environment. It may be that there is not enough separation, somehow, between the player, their Normcore 'realtime' player, their Oculus avatar.. or at least somewhere in there there is an issue - tracking it is proving difficult. But the video below at least shows what could be possible!
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
@@ -36,7 +36,8 @@ Here the performer is in the space with a single VR player (i.e. audience). This
   </video>
 </figure>
 
- **And here's the 'error'**
+**And here's an example of an 'error'**<br>
+  ..the actions on the left (i.e. VR), are not propergated on the right (non-VR)
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
     <source src="\media\performer-space-err-1.mp4" type="video/mp4">

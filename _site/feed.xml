@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-29T01:23:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">The Performer App</title><link href="http://localhost:4000/2020/09/27/the-performer-app.html" rel="alternate" type="text/html" title="The Performer App" /><published>2020-09-27T01:00:00+01:00</published><updated>2020-09-27T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/27/the-performer-app</id><content type="html" xml:base="http://localhost:4000/2020/09/27/the-performer-app.html">&lt;h1 id=&quot;how-should-the-performer-experience-the-vr-space&quot;&gt;How should the performer experience the VR space?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-29T22:00:28+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">The Performer App</title><link href="http://localhost:4000/2020/09/27/the-performer-app.html" rel="alternate" type="text/html" title="The Performer App" /><published>2020-09-27T01:00:00+01:00</published><updated>2020-09-27T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/27/the-performer-app</id><content type="html" xml:base="http://localhost:4000/2020/09/27/the-performer-app.html">&lt;h1 id=&quot;how-should-the-performer-experience-the-vr-space&quot;&gt;How should the performer experience the VR space?&lt;/h1&gt;
 &lt;p&gt;I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to &lt;strong&gt;also be able to see what is happening within the space&lt;/strong&gt;, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Rendering video via WebRTC&lt;/strong&gt;&lt;br /&gt;
@@ -20,7 +20,7 @@ However, the most immediately straightforward option would also seem to be poten
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Performer ‘in space’&lt;/strong&gt;&lt;br /&gt;
-Here the performer is in the space with a single VR player (i.e. audience). This is what it could look like when it’s working - however, I am currently having some issues with Normcore allowing this to happen - it sometimes crashes out, loses connection, or freezes for the performer app. It may be that there is not enough separation, somehow, between the player, their Normcore ‘realtime’ player, their Oculus avatar.. or at least somewhere in there there is an issue - tracking it is proving difficult. But this video at least shows what could be possible!&lt;/p&gt;
+Here the performer is in the space with a single VR player (i.e. audience). This is what it could look like when it’s working - however, I am currently having some issues with Normcore allowing this to happen - it sometimes crashes out, loses connection, or freezes for the performer app. Sometimes it just does not follow actions from the VR environment. It may be that there is not enough separation, somehow, between the player, their Normcore ‘realtime’ player, their Oculus avatar.. or at least somewhere in there there is an issue - tracking it is proving difficult. But the video below at least shows what could be possible!&lt;/p&gt;
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
@@ -29,7 +29,8 @@ Here the performer is in the space with a single VR player (i.e. audience). This
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;And here’s the ‘error’&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;And here’s an example of an ‘error’&lt;/strong&gt;&lt;br /&gt;
+  ..the actions on the left (i.e. VR), are not propergated on the right (non-VR)&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
     &lt;source src=&quot;\media\performer-space-err-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -198,11 +199,11 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 &lt;p&gt;&lt;img src=&quot;\images\GAM750\calc-isoscelese-triangle.JPG&quot; alt=&quot;Isoscelese triangle calculation&quot; /&gt;&lt;/p&gt;
 
 &lt;p float=&quot;left&quot;&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-6.JPG&quot; width=&quot;45%&quot; /&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-5.JPG&quot; width=&quot;45%&quot; /&gt; 
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-4.JPG&quot; width=&quot;45%&quot; /&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-3.JPG&quot; width=&quot;45%&quot; /&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;\images\GAM750\formation-2.JPG&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-6.jpg&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-5.jpg&quot; width=&quot;45%&quot; /&gt; 
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-4.jpg&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-3.jpg&quot; width=&quot;45%&quot; /&gt;
+  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-2.jpg&quot; width=&quot;45%&quot; /&gt;
 &lt;/p&gt;</content><author><name></name></author><summary type="html">Animations</summary></entry><entry><title type="html">Creating The Screens 1</title><link href="http://localhost:4000/2020/09/01/creating-the-screens-1.html" rel="alternate" type="text/html" title="Creating The Screens 1" /><published>2020-09-01T01:00:00+01:00</published><updated>2020-09-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/01/creating-the-screens-1</id><content type="html" xml:base="http://localhost:4000/2020/09/01/creating-the-screens-1.html">&lt;h1 id=&quot;the-screen-object&quot;&gt;The screen object&lt;/h1&gt;
 
 &lt;p&gt;Initial prototypes were based on simplicity and guess-work. In fact they were too small and not quite the correct dimension. They also had no detail but were, instead, simple slabs.&lt;/p&gt;
