@@ -21,7 +21,7 @@ I am using a simple client app, based on the Agora demo, to provide a portal for
 **Streaming and playing local videos to selected screens**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\streaming-video-to-different-screens-2.mp4" type="video/mp4">
+    <source src="\media\GAM750\streaming-video-to-different-screens-2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -42,7 +42,7 @@ I am using a simple client app, based on the Agora demo, to provide a portal for
 **Streaming and playing local videos in multiplayer mode**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\streaming-video-multiplayer-3.mp4" type="video/mp4">
+    <source src="\media\GAM750\streaming-video-multiplayer-3.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

@@ -15,7 +15,7 @@ I have used it here in order to tween between one set of _Vector3_ and _Rotation
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\screenanimations-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\screenanimations-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -23,7 +23,7 @@ I have used it here in order to tween between one set of _Vector3_ and _Rotation
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\screenanimations-2.mp4" type="video/mp4">
+    <source src="\media\GAM750\screenanimations-2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

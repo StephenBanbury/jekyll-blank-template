@@ -9,7 +9,7 @@ published: true
 **moving body**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\normcore-sync-movement.mp4" type="video/mp4">
+    <source src="\media\GAM750\normcore-sync-movement.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -17,7 +17,7 @@ published: true
 **avatar**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\normcore-sync-avatar.mp4" type="video/mp4">
+    <source src="\media\GAM750\normcore-sync-avatar.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -25,7 +25,7 @@ published: true
 **syncing colour**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\normcore-sync-colour.mp4" type="video/mp4">
+    <source src="\media\GAM750\normcore-sync-colour.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

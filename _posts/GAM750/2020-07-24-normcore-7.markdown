@@ -8,7 +8,7 @@ published: true
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\normcore-3.1.mp4" type="video/mp4">
+    <source src="\media\GAM750\normcore-3.1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -20,7 +20,7 @@ The wonderful thing is that Normcore auto-generates much of the code required to
 **And to celebrate..** we'll throw some objects around. 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\normcore3.2.mp4" type="video/mp4">
+    <source src="\media\GAM750\normcore3.2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -29,7 +29,7 @@ If only I could play with a **real person** rather than myself!
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\normcore3.3.mp4" type="video/mp4">
+    <source src="\media\GAM750\normcore3.3.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Performer App
+title: The Performer App 1
 date: 2020-09-27 01:00
 published: true
 ---
@@ -20,7 +20,7 @@ However, the most immediately straightforward option would also seem to be poten
 **Overhead Camera**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\overhead-camera-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\overhead-camera-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -31,7 +31,7 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\performer-space-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\performer-space-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -40,7 +40,7 @@ Here the performer is in the space with a single VR player (i.e. audience). This
   ..the actions on the left (i.e. VR), are not propergated on the right (non-VR)
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\performer-space-err-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\performer-space-err-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

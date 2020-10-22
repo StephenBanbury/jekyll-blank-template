@@ -53,14 +53,14 @@ Following this, an argument is passed indicating the **ID** of the video, the vi
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\osc-unity-demo-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\osc-unity-demo-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\osc-demo-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\osc-demo-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

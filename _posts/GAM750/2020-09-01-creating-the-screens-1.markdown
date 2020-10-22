@@ -18,7 +18,7 @@ The screen material itself is designed for projections. However, in my case, I n
 **Single screen**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\single-screen-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\single-screen-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -26,7 +26,7 @@ The screen material itself is designed for projections. However, in my case, I n
 **Multiple screens**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\multiple-screens-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\multiple-screens-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -49,7 +49,7 @@ This data is then read and assigned to each screen as it is instantiated into th
 **Simple formations**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\screen-formations-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\screen-formations-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

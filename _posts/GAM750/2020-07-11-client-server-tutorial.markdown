@@ -18,7 +18,7 @@ The question here is, do I need to continue exploring the console server option,
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\networking-tcp-udp-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\networking-tcp-udp-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

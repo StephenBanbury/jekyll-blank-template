@@ -253,7 +253,7 @@ and on connecting to new user add them to the object so they can be removed when
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\webrtc-javascript-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\webrtc-javascript-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

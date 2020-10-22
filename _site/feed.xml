@@ -1,4 +1,158 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-29T22:00:28+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">The Performer App</title><link href="http://localhost:4000/2020/09/27/the-performer-app.html" rel="alternate" type="text/html" title="The Performer App" /><published>2020-09-27T01:00:00+01:00</published><updated>2020-09-27T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/27/the-performer-app</id><content type="html" xml:base="http://localhost:4000/2020/09/27/the-performer-app.html">&lt;h1 id=&quot;how-should-the-performer-experience-the-vr-space&quot;&gt;How should the performer experience the VR space?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-23T00:47:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multi-Space</title><link href="http://localhost:4000/2020/10/23/multi-space.html" rel="alternate" type="text/html" title="Multi-Space" /><published>2020-10-23T00:00:00+01:00</published><updated>2020-10-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/23/multi-space</id><content type="html" xml:base="http://localhost:4000/2020/10/23/multi-space.html">&lt;p&gt;&lt;img src=&quot;\images\GAM750\lightbulb.jpg&quot; alt=&quot;Lightbulb&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;thinking-about-multiple-spaces-or-multiple-universes&quot;&gt;Thinking about multiple spaces (or multiple universes)&lt;/h1&gt;
+
+&lt;p&gt;I’ve just had an interesting thought, as a respone to the problem of creating multiple &lt;em&gt;‘spaces’&lt;/em&gt;, which players can move between, at times that will be decided later.&lt;/p&gt;
+
+&lt;p&gt;If an &lt;em&gt;‘environment’&lt;/em&gt; can be spawned as an object, and accessed through a set of methods and properties etc., then this will greatly ease the way in which a player can be ‘dropped’ into the space and interect with the objects that are present within it.&lt;/p&gt;
+
+&lt;p&gt;In a way, this is similar to creating multiple &lt;em&gt;scenes&lt;/em&gt; in Unity, except that these exist as entities within the same single scene.  In this form, therefore, they can exploit an outward facing &lt;em&gt;interface&lt;/em&gt; in order to interact with a Master Game Controller-type object, that controls the manner of who, what, why, and where a player can exist and function, but only within the specific space that it exists.&lt;/p&gt;
+
+&lt;h1 id=&quot;nice-theory-what-about-the-actualities&quot;&gt;Nice theory, what about the actualities?&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Negative: Could ge difficult at this stage of development, having already put much infrastructure into place.&lt;/li&gt;
+  &lt;li&gt;Positive: It is actually fairly early in development terms given a longer view on the project as a whole and its potential as we move forward&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It would be a task that would include creating an interface for the space, in order to access multiple other interfaces, i.e. per method an property that is part of that space.&lt;/p&gt;
+
+&lt;h1 id=&quot;but-no&quot;&gt;But… no!&lt;/h1&gt;
+
+&lt;p&gt;This idea would not work - I think - because the VR experience is seen from a &lt;strong&gt;first person&lt;/strong&gt; perspective, and all code is run in a similar manner. That is, each individual instance of Unity, running in each headset, will access its own set of game objects and, on each object, a set of components. That individual is &lt;strong&gt;not&lt;/strong&gt; controlling from heaven, but from their own person… on the ground.  The &lt;em&gt;‘God’&lt;/em&gt; concept suggested above, i.e. where control is exerted down on the multispace and controlling eacn individual multiplace, could work as part of a controller interface for the use of &lt;strong&gt;Stage Managers&lt;/strong&gt; and similar roles. But this is looking too complex for this purpose and within the available time frame.&lt;/p&gt;
+
+&lt;p&gt;Therefore, I will maintain this post as a reminder of a possible way to think of this Potential model in the future.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Spatial Audio With Normcore</title><link href="http://localhost:4000/2020/10/18/spatial-audio-with-normcore.html" rel="alternate" type="text/html" title="Spatial Audio With Normcore" /><published>2020-10-18T01:00:00+01:00</published><updated>2020-10-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/10/18/spatial-audio-with-normcore</id><content type="html" xml:base="http://localhost:4000/2020/10/18/spatial-audio-with-normcore.html">&lt;h1 id=&quot;out-of-the-box-audio-appears-to-be-2d&quot;&gt;Out-of-the-box: audio appears to be 2D!&lt;/h1&gt;
+&lt;p&gt;During the first realtime testing with the project’s expert stakeholders, i.e. the director and technical director, I was eager to see if audio between players is 3D / spatialised, i.e. can be used to sense distance and direction. Unfortunately, it appeared to be very much 2D and unspatialised; there was no volume roll-off - no matter how near or far apart we were from each other, the volume of the voice was constant.&lt;/p&gt;
+
+&lt;p&gt;This is a real shame.&lt;/p&gt;
+
+&lt;p&gt;I am now looking into possible solutions for this. I am hoping that is will be as straightforward as a simple setting somewhere, or a case of adding a 3D sound source to the VR player.&lt;/p&gt;
+
+&lt;h1 id=&quot;testing-two-headsets-are-better-than-one&quot;&gt;Testing: two headsets are better than one&lt;/h1&gt;
+&lt;p&gt;Question: How do you test this with only a single headset? 
+Answer: With great difficulty!&lt;/p&gt;
+
+&lt;p&gt;Testing multiplayer environments is not the only reason I bought a new Oculus Quest 2, but it is the main one. Or, at least, it’s a good excuse!&lt;/p&gt;
+
+&lt;p&gt;Not only can I now experience multiplayer applicaitons with family and friends, but I can also test my own developments. Not to mention that the latest model is much faster and has a much better display, at a cheaper price point. Seemed to make sense to me!&lt;/p&gt;
+
+&lt;p&gt;Setting up is a bit of a problem, though, because Facebook now insist that you use a FB account! It is not even possible just to use your old Oculus account - it now must be linked to a FB account, even if you continue to use it only on your current headset. Bad, bad Facebook! This means that, in order to play multiplayer, &lt;strong&gt;I need to sign in on different accounts&lt;/strong&gt;. For this reason, I set up a second FB account attached to a second user on my Android phone. I will have to log into each, separately, and use each account to log into each headset, separately. What a faff!&lt;/p&gt;
+
+&lt;p&gt;Back to the spacial audio issue…&lt;/p&gt;
+
+&lt;h1 id=&quot;first-port-of-call-normcore-discord-server&quot;&gt;First port of call: Normcore Discord server&lt;/h1&gt;
+
+&lt;p&gt;[01-05-2019]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;if you’re using the built-in spatializer, then you can fix easily by changing this line in AudioOutput.cs:&lt;/p&gt;
+
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data[sOut] = !_mute ? audioData[sIn] : 0.0f;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;just change that to this:&lt;/p&gt;
+
+  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data[sOut] *= !_mute ? audioData[sIn] : 0.0f;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the input value to that OnAudioFilterRead() is set up to be 1.0 * whatever attenuation Unity has added to the AudioSource including volume&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[01-09-2020]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I think in V1 I had disabled the built-in spatialization&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;[02-09-2020]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Question: How do I make the player voice 3D? (e.g. how do i make them louder the closer you are to them, and quieter when you are further away? - by default you can hear people constantly)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[02-09-2020]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;take a look at the audio source on your avatar (make sure the “spatial” slider is set to “3d”) and you can muck with the falloff values on there if you want to customize it.
+Unity defaults to 2D, and the falloff range is basically “100% volume up to 5 meters, still audible 100 meters away” or something like that, so it’s definitely tuned for larger spaces.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[02-09-2020]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;if you add an audio source RealtimeAvatarVoice will detect it and use it instead of creating one
+you can use SetActive, but you’ll also need to make a custom RealtimeComponent in order to synchronize the active state. Normcore doesn’t synchronize that part for you&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[04-09-2020]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;I followed your advice to add an audio source to the RealtimeAvatarVoice gameobject in order to allow the spatial blend of the player’s voice to be 3d, however its still behaving like its 2D - any idea on what could be wrong?
+general/04-09-2020&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[04-09-2020]&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;if you’re on V1, try making this change:
+&lt;a href=&quot;if you’re on V1, try making this change:
+https://discord.com/channels/393839515074297858/393841777091543052/573241867185946680&quot;&gt;if you’re on V1, try making this change:
+https://discord.com/channels/393839515074297858/393841777091543052/573241867185946680
+&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Out-of-the-box: audio appears to be 2D! During the first realtime testing with the project’s expert stakeholders, i.e. the director and technical director, I was eager to see if audio between players is 3D / spatialised, i.e. can be used to sense distance and direction. Unfortunately, it appeared to be very much 2D and unspatialised; there was no volume roll-off - no matter how near or far apart we were from each other, the volume of the voice was constant.</summary></entry><entry><title type="html">Building The Apps</title><link href="http://localhost:4000/2020/10/01/building-the-apps.html" rel="alternate" type="text/html" title="Building The Apps" /><published>2020-10-01T03:00:00+01:00</published><updated>2020-10-01T03:00:00+01:00</updated><id>http://localhost:4000/2020/10/01/building-the-apps</id><content type="html" xml:base="http://localhost:4000/2020/10/01/building-the-apps.html">&lt;h1 id=&quot;audience---oculus-quest&quot;&gt;Audience - Oculus Quest&lt;/h1&gt;
+
+&lt;h1 id=&quot;performer-main-room---pcmac&quot;&gt;Performer Main Room - PC/Mac&lt;/h1&gt;
+
+&lt;p&gt;PC build works. 
+Mac build creates exceptions - I believe these can be traced to requirements for the &lt;strong&gt;info.plist&lt;/strong&gt; - i.e. requesting permissions&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Microphone class is used but Microphone Usage Description is empty. App will not work on macOS 10.14+.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Search leads to responses such as &lt;a href=&quot;https://answers.unity.com/questions/1735434/build-error-microphone-class-is-used-but-microphon.html&quot;&gt;You need to add a microphone usage description string in iOS Player Settings (which will be added to your Info.plist)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_macos?language=objc&quot;&gt;Requesting Authorization for Media Capture on macOS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I need the mike, so this is a requirement.&lt;/p&gt;
+
+&lt;p&gt;I found all files named info.plist and added the line, where it was missing:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;key&gt;NSMicrophoneUsageDescription&lt;/key&gt;
+  &lt;string&gt;Yes&lt;/string&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;However, this did not work - I still get the microphone error.&lt;/p&gt;
+
+&lt;h1 id=&quot;performer-video-streaming---pcmac&quot;&gt;Performer Video Streaming - PC/Mac&lt;/h1&gt;
+
+&lt;h1 id=&quot;stage-manager-osc-controller---pcmac&quot;&gt;Stage Manager OSC Controller - PC/Mac&lt;/h1&gt;
+
+&lt;p&gt;The PC apps need to be built for Mac - it seems the world of Theatre runs on Macs!&lt;/p&gt;</content><author><name></name></author><summary type="html">Audience - Oculus Quest</summary></entry><entry><title type="html">Screen Panel Trigger Button</title><link href="http://localhost:4000/2020/10/01/screen-panel-trigger-button.html" rel="alternate" type="text/html" title="Screen Panel Trigger Button" /><published>2020-10-01T02:00:00+01:00</published><updated>2020-10-01T02:00:00+01:00</updated><id>http://localhost:4000/2020/10/01/screen-panel-trigger-button</id><content type="html" xml:base="http://localhost:4000/2020/10/01/screen-panel-trigger-button.html">&lt;h1 id=&quot;the-screen-is-now-a-button&quot;&gt;The screen is now a ‘button’&lt;/h1&gt;
+
+&lt;p&gt;When the player’s hand touches the screen, one of two actions happen, randomly: -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A randomly selected video clip plays&lt;/li&gt;
+  &lt;li&gt;An animation occurs into a new randomly selected screen formation&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This can be fairly startling, particularly the sudden change to screen formation, even more so when uninitiated and unexpected.&lt;/p&gt;
+
+&lt;p&gt;The number and type of different actions can be added to as development continues.&lt;/p&gt;
+
+&lt;p&gt;One idea would be to have some control of which of the actions happens, for example, by specific screen or by specific players. The latter would require identification of individual players, or of &lt;em&gt;‘type’&lt;/em&gt; of player, in the first place - again, something that can be added in a future development.&lt;/p&gt;</content><author><name></name></author><summary type="html">The screen is now a ‘button’</summary></entry><entry><title type="html">The Performer App 2</title><link href="http://localhost:4000/2020/10/01/the-performer-app-2.html" rel="alternate" type="text/html" title="The Performer App 2" /><published>2020-10-01T01:00:00+01:00</published><updated>2020-10-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/10/01/the-performer-app-2</id><content type="html" xml:base="http://localhost:4000/2020/10/01/the-performer-app-2.html">&lt;h1 id=&quot;problem-solved&quot;&gt;Problem solved&lt;/h1&gt;
+
+&lt;p&gt;I created a copy of the main VR scene and reset the UUID of the Normcore Realitime View (Script) attached to the MediaDisplayManager GameObject.&lt;/p&gt;
+
+&lt;p&gt;The MediaDisplayManager exists to house the management classes that control media-related objects and actions, such as the screen panels, e.g. video screen selection and media assignment, the Agora video streaming controller and interface, and other related management tasks - simply, a kind of Game Manager but specifically for controlling media in the widest sense.&lt;/p&gt;
+
+&lt;p&gt;I then replaced the VR player with another, exactly the same but using an ‘invisible’ copy of the OVR player, i.e. I disabled the body and just kept the camera and Realtime components to persist the player in the multiplayer environment. I added a Rigidbody and a script to allow control via the keyboard rather than VR.&lt;/p&gt;
+
+&lt;p&gt;When this scene is built, it must have the VR Plugin Management disabled in Player Settings. This then creates an exact copy of the VR scene, in the multiplayer environment, but the player is invisible and unable to affect any change or force on the space - a ghost. When a PC build is created it runs on another PC - the VR character(s) in the space can be viewed along with the results of their actions, i.e. screen/video/formation selection and assignment changes etc., whilst the invisible player can move around using the keyboard.&lt;/p&gt;</content><author><name></name></author><summary type="html">Problem solved</summary></entry><entry><title type="html">The Performer App 1</title><link href="http://localhost:4000/2020/09/27/the-performer-app-1.html" rel="alternate" type="text/html" title="The Performer App 1" /><published>2020-09-27T01:00:00+01:00</published><updated>2020-09-27T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/27/the-performer-app-1</id><content type="html" xml:base="http://localhost:4000/2020/09/27/the-performer-app-1.html">&lt;h1 id=&quot;how-should-the-performer-experience-the-vr-space&quot;&gt;How should the performer experience the VR space?&lt;/h1&gt;
 &lt;p&gt;I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to &lt;strong&gt;also be able to see what is happening within the space&lt;/strong&gt;, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Rendering video via WebRTC&lt;/strong&gt;&lt;br /&gt;
@@ -13,7 +167,7 @@ However, the most immediately straightforward option would also seem to be poten
 &lt;p&gt;&lt;strong&gt;Overhead Camera&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\overhead-camera-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\overhead-camera-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -24,7 +178,7 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\performer-space-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\performer-space-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -33,7 +187,7 @@ Here the performer is in the space with a single VR player (i.e. audience). This
   ..the actions on the left (i.e. VR), are not propergated on the right (non-VR)&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\performer-space-err-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\performer-space-err-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;</content><author><name></name></author><summary type="html">How should the performer experience the VR space? I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to also be able to see what is happening within the space, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.</summary></entry><entry><title type="html">Sending and Receiveing OSC Data</title><link href="http://localhost:4000/2020/09/14/sending-data.html" rel="alternate" type="text/html" title="Sending and Receiveing OSC Data" /><published>2020-09-14T01:00:00+01:00</published><updated>2020-09-14T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/14/sending-data</id><content type="html" xml:base="http://localhost:4000/2020/09/14/sending-data.html">&lt;p&gt;I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. &lt;strong&gt;Normcore&lt;/strong&gt; for multiplayer functionality and &lt;strong&gt;Agora&lt;/strong&gt; for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.&lt;/p&gt;
@@ -113,14 +267,14 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\osc-unity-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\osc-unity-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\osc-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\osc-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -180,14 +334,14 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\screenanimations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\screenanimations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
 
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\screenanimations-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\screenanimations-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -217,7 +371,7 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 &lt;p&gt;&lt;strong&gt;Single screen&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\single-screen-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\single-screen-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -225,7 +379,7 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 &lt;p&gt;&lt;strong&gt;Multiple screens&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\multiple-screens-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\multiple-screens-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -250,132 +404,11 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 &lt;p&gt;&lt;strong&gt;Simple formations&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\screen-formations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\screen-formations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;Example formation with associated coordinates&lt;/strong&gt;
 &lt;img src=&quot;\images\GAM750\formation-1.jpg&quot; alt=&quot;Screen Formation Image&quot; /&gt;
-&lt;img src=&quot;\images\GAM750\formation-1-coordinates.jpg&quot; alt=&quot;Screen Formation Image Coordinates&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The screen object</summary></entry><entry><title type="html">Visuals</title><link href="http://localhost:4000/2020/08/31/visuals.html" rel="alternate" type="text/html" title="Visuals" /><published>2020-08-31T01:00:00+01:00</published><updated>2020-08-31T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/31/visuals</id><content type="html" xml:base="http://localhost:4000/2020/08/31/visuals.html">&lt;h1 id=&quot;why&quot;&gt;Why?&lt;/h1&gt;
-
-&lt;p&gt;At this stage, I felt it important to spend some time working on the visual aspects of the project. The reason for this was that, as much as anything else, I’m sure the &lt;em&gt;Director/Designer&lt;/em&gt; and &lt;em&gt;Technical Director&lt;/em&gt; would appreciate seeing something that is less prototype-like, less of a &lt;em&gt;MVP&lt;/em&gt; (minimal viable product), and with the capacity to provide a little more of a sense of potential, of what the space could look like and how it can be experienced. This would provide food for the imagination, which could only serve to feed the creative and collaborative process across the team as a whole.&lt;/p&gt;
-
-&lt;p&gt;My graphic-creating, shaping, modelling and illustration skills are not something I’ve worked on to any great extent. I have dabbled, particularly with the ShelterBox project, with fairly simple shapes creating the environment, brought to life through animation, thoughful colouring and lighting. But I have not come close to mastering the visual arts of creating something visually unique, interesting stylistically or aesthetically. It’s fair to say I’ve done as much as I have been able to given time restraints and the more pressing need to create something that works well and looks a cut above &lt;em&gt;‘good enough’&lt;/em&gt;!&lt;/p&gt;</content><author><name></name></author><summary type="html">Why?</summary></entry><entry><title type="html">OSC (Open Sound Control)</title><link href="http://localhost:4000/2020/08/19/osc.html" rel="alternate" type="text/html" title="OSC (Open Sound Control)" /><published>2020-08-19T01:00:00+01:00</published><updated>2020-08-19T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/19/osc</id><content type="html" xml:base="http://localhost:4000/2020/08/19/osc.html">&lt;h1 id=&quot;what-is-osc&quot;&gt;What is OSC?&lt;/h1&gt;
-
-&lt;p&gt;A requirement of the &lt;strong&gt;&lt;em&gt;Not Near Enough&lt;/em&gt;&lt;/strong&gt; brief is to explore the possibility of &lt;em&gt;‘external control of the virtual theatre space’&lt;/em&gt;. &lt;strong&gt;QLab&lt;/strong&gt; is mentioned, as is &lt;strong&gt;OSC&lt;/strong&gt;. Neither of these meant anything to me at the start of this project. I have begun examining OSC, as it appears to be the protocol of choice for theatre equipment interaction.&lt;/p&gt;
-
-&lt;p&gt;A series of blogs by &lt;strong&gt;Sam Smallman&lt;/strong&gt; - a fellow Creative App Developer on the Falmouth MA course - explains OSC: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2017/08/exploring-the-network-osc-part-i/&quot;&gt;Exploring the Network: The Postcard (OSC)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2017/11/exploring-the-network-the-address/&quot;&gt;Exploring the Network: The Address&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2018/01/exploring-the-network-the-postman/&quot;&gt;Exploring the Network: The Postman&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.etcconnect.com/2019/02/exploring-the-network-osc-part-ii/&quot;&gt;Exploring the Network: OSC Connections&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the case of this project, OSC could be used for theatre technical crew to control, for example, the selection of video clips or available video streams, and their subsequent assignment to a particular selection of screens. It could also be used to control lighting, animations, movement of screens and so on. I also imagine it will be able to be used, potentially, in controlling sound, in terms of volume or routing.&lt;/p&gt;
-
-&lt;p&gt;The main question appears to be, how will it work in a distributed, virtual theatre environment? 
-Most theatres would be using a closed network and would not need to access the internet in order for equipment to talk to each other. In our case, the very nature of the virtual theatre space is distributed, by definition. All signals will need to be directed across the internet.&lt;/p&gt;
-
-&lt;p&gt;It also follows that, if a technician is controlling the environment, they would need visual access to it, not least to see how it is being affected by their actions. How this can made to happen is a major question that will need to be thought through.&lt;/p&gt;
-
-&lt;p&gt;My early thoughts on this are that any OSC-outputting equipment would need to connect to a local client, which would, in turn, be connected into the multiplayer space (i.e. via Normcore). Then, any changes detected by the local client would be treated in exactly the same way as changes currently are.  Normcore will facilitate changes to values being passed on to all other clients connected into the multiplayer space.&lt;/p&gt;
-
-&lt;p&gt;This is getting a little more complicated by the day. I feel a diagram coming on!&lt;/p&gt;</content><author><name></name></author><summary type="html">What is OSC?</summary></entry><entry><title type="html">Using Agora</title><link href="http://localhost:4000/2020/08/18/using-agora.html" rel="alternate" type="text/html" title="Using Agora" /><published>2020-08-18T01:00:00+01:00</published><updated>2020-08-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/18/using-agora</id><content type="html" xml:base="http://localhost:4000/2020/08/18/using-agora.html">&lt;h1 id=&quot;progress-update&quot;&gt;Progress update&lt;/h1&gt;
-&lt;p&gt;I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.&lt;/p&gt;
-
-&lt;h1 id=&quot;what-just-streaming&quot;&gt;What?! Just streaming?!&lt;/h1&gt;
-
-&lt;p&gt;I initially set up screens to which I allowed the attaching of Agora’s &lt;em&gt;VideoSurface&lt;/em&gt; component class. Once this was working, I needed to add back in the ability to diplay video clips. To this end I have a general ‘media’ class that covers both (and will cover any new) media types. Each screen object has attached, as a child, the already-existing screen object, that includes a VideoPlayer for video clips, and now, also, a canvas, to which an Agora VideoSurface can be dynamically attached as and when a stream is created and assigned to the display.&lt;/p&gt;
-
-&lt;p&gt;To the Normcore multiplayer model I therefore needed to add another variable representing the selected video stream. I can now select either a pre-loaded video clip or a video stream provided by an external client device’s camera, and then assign it to a specified screen.  Depending on its type, the media will be displayed as a video clip by the video player or a video stream by the Agora video surface. If either a video or a stream is selected, followed by a display screen selection, the Normcore model triggers an event that informs all other clients to also select the same media and assign it to the same display screen.&lt;/p&gt;
-
-&lt;p&gt;Buttons to select specific video streams provided by Agora clients are dynamically created as each client joins the room. As they join, they are added to the client list (of AgoraUsers). Clients are never removed, but if they leave the room they are marked as such by a &lt;em&gt;LeftRoom&lt;/em&gt; property.  Each is assigned an ID that is used to select the specific video stream.&lt;/p&gt;
-
-&lt;p&gt;I am using a simple client app, based on the Agora demo, to provide a portal for external clients to join the room and create a video stream. This app uses the same Agora ID as the VR app (where streams are displayed) so streams are seen by the VR app, along with all other clients.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Streaming and playing local videos to selected screens&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\streaming-video-to-different-screens-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;problems&quot;&gt;Problems&lt;/h1&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Currently, when a new VR app instance is created, this is viewed as a new client by the other clients, including those that are other instances of the VR app. Therefore, an Agora stream is created for each instance and appears as a new client, including a new select button, in the VR environment. I need to find a way to treat each of these as ‘dead’ streams - they should not appear at all. The VR users should only receive streams to be displayed. This may be different when the app is build for Android - I have not tested this yet - but when run as a PC app and tested via &lt;strong&gt;Oculus Link&lt;/strong&gt;, the PC’s camera is added to the stream pool.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;This has been fixed, but I’ll keep the following for the record&lt;/strong&gt;: 
-I’m seeing problems where one or more of the video feeds is freezing. This does not happen straight away, but after adding more and playing with how they are routed to different screen destination. I’m not sure if this is something that is to do with streaming/bandwidth performance, or similar, or something to do with the way the Unity Agora asset works. It could be that only one live stream is allowed at a time, although my observations in a previous post would suggest that this should not be a problem:&lt;/p&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;The Unity asset is for ‘live interactive video streaming’. This is geared towards one single main video channel at a time streamed to multiple locations. There is another option for ‘democratic’ open channels where all can communicate at the same time to all others.&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;p&gt;Of course, it could be that I have misunderstood the documentation, and the difference between &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://docs.agora.io/en/Voice/product_voice?platform=All%20Platforms&quot;&gt;Voice Call&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://docs.agora.io/en/Interactive%20Broadcast/product_live?platform=All%20Platforms&quot;&gt;Live Interactive Video Streaming&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;. I will be examining these descriptions closely! This is something that I very much hope is not the case, because there is no Unity asset for Void Call!&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;.. the issue turned out to be nothing of the sort and has now been fixed. I needed to ensure that any existing Agora video surfaces would be re-used if any new streams were to be displayed on its screen, i.e. replacing the existing stream. Previously, I had been destroying these existing surfaces and then creating a new one.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Streaming and playing local videos in multiplayer mode&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\streaming-video-multiplayer-3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Progress update I have not posted for more than a week now, and this is due to the fact that nearly all my dev time (there has been family time too, or I’ll end up with only dev time in my life - not a great prospect!) has been getting to know Agora and adapting the slightly haphazard demo material for use in my own VR app. There have been frustrating moments where things just do not work as you’d hope, but there has never really been a moment when I’ve thought “this is just never going to work”, or “if this is going to work, then it’s going to be more hassle than it’s worth!”. But I have continually been aware that it may be a laborious process, and this has been the case.</summary></entry><entry><title type="html">Multiplayer Synchronisation</title><link href="http://localhost:4000/2020/08/07/multiplayer-syncing.html" rel="alternate" type="text/html" title="Multiplayer Synchronisation" /><published>2020-08-07T02:00:00+01:00</published><updated>2020-08-07T02:00:00+01:00</updated><id>http://localhost:4000/2020/08/07/multiplayer-syncing</id><content type="html" xml:base="http://localhost:4000/2020/08/07/multiplayer-syncing.html">&lt;h1 id=&quot;using-normcore-for-two-main-objectives&quot;&gt;&lt;strong&gt;Using Normcore for two main objectives&lt;/strong&gt;:&lt;/h1&gt;
-
-&lt;h1 id=&quot;1-syncronising-transforms&quot;&gt;1. Syncronising transforms&lt;/h1&gt;
-
-&lt;p&gt;Normcore includes pre-built scripts that directly synchronise GameObject transforms between clients. Very simpley put, once an object has been designated to have a &lt;em&gt;‘realtime transform’&lt;/em&gt;, it will automatically be kept in sync.&lt;/p&gt;
-
-&lt;p&gt;The same goes for players’ avatars, which allows them to interact within the shared ‘room’.&lt;/p&gt;
-
-&lt;p&gt;Objects can be ‘owned’ by a player, allowing them to manipulate their position or other transforms. If an object is designated to have the ability to transfer ownership, then more players within the room can also interact with it.&lt;/p&gt;
-
-&lt;p&gt;Although this is extremely simplified, it does highlight how these concepts allow rapid development of the multiplayer environment.&lt;/p&gt;
-
-&lt;h1 id=&quot;2-syncronising-abstract-values&quot;&gt;2. Syncronising abstract values&lt;/h1&gt;
-
-&lt;p&gt;Translating values when values change and events are raised. In this case, selecting a video and assigning it to a display screen.&lt;/p&gt;</content><author><name></name></author><summary type="html">Using Normcore for two main objectives:</summary></entry><entry><title type="html">Video Streaming Experiments</title><link href="http://localhost:4000/2020/08/07/video-streaming-experiments.html" rel="alternate" type="text/html" title="Video Streaming Experiments" /><published>2020-08-07T01:00:00+01:00</published><updated>2020-08-07T01:00:00+01:00</updated><id>http://localhost:4000/2020/08/07/video-streaming-experiments</id><content type="html" xml:base="http://localhost:4000/2020/08/07/video-streaming-experiments.html">&lt;h1 id=&quot;early-attempts-at-setting-up-a-server&quot;&gt;Early attempts at setting up a server&lt;/h1&gt;
-
-&lt;p&gt;As can be seen here &lt;strong&gt;&lt;a href=&quot;/2020/07/27/webrtc-web-app.html&quot;&gt;Building A WebRTC Web App&lt;/a&gt;&lt;/strong&gt;, I have build a simple &lt;strong&gt;node.js&lt;/strong&gt; server using Express. I considered hosting this, or something similar - perhaps a .NET server - in AWS or Firebase. Could I still use PeerJS as a STUN/TURN server? I’m still new to this so, even though I’m picking up new stuff contiually and gradually piecing it all together, I’m uncertain how to fit it all together. I know I can learn as I go, but it’s quite a lot to get to grips with in a short space of time - there is little scope for taking the wrong route and backin up.&lt;/p&gt;
-
-&lt;h1 id=&quot;kurento-media-server&quot;&gt;Kurento media server&lt;/h1&gt;
-
-&lt;p&gt;I began looking at setting up a &lt;strong&gt;&lt;a href=&quot;https://www.kurento.org/whats-kurento&quot;&gt;Kurento media server&lt;/a&gt;&lt;/strong&gt;, which could be hosted as an instance in a &lt;strong&gt;&lt;a href=&quot;https://hub.docker.com/r/kurento/kurento-media-server&quot;&gt;Docker container&lt;/a&gt;&lt;/strong&gt;. This is a super idea and is enthusiastically supported by Alcwyn Parker, the Masters Degree course leader and my research tutor on this project. However, time is, again, a major issue - for both of us. We did spend some time working on sett up such a stack, but eventually it seemed sensible to work with an out-of-the-box WebRTC solution we were aware of - &lt;strong&gt;&lt;a href=&quot;https://www.agora.io/en/&quot;&gt;Agora&lt;/a&gt;&lt;/strong&gt; - as long as research showed it to have the right potential.&lt;/p&gt;
-
-&lt;h1 id=&quot;agora&quot;&gt;Agora&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Uses WebRTC&lt;/li&gt;
-  &lt;li&gt;First 10,000 minutes free every month (so likely to remain free for the kind of use we’ll be putting it to)&lt;/li&gt;
-  &lt;li&gt;Pay As You Go &lt;a href=&quot;https://www.agora.io/en/pricing/&quot;&gt;pricing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Cheap&lt;/li&gt;
-  &lt;li&gt;Simple to set up&lt;/li&gt;
-  &lt;li&gt;Can stream voice and video&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Unity asset contains a couple of sample scenes that are fairly easy to set up. I had some problems building the scene in order to spin up multiple instances - necessary so that multiple connections can be made - as the documentation is not 100% idiot proof, but with a bit of &lt;strong&gt;tenacity&lt;/strong&gt; and patience I got something very promising working.&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\agora-test.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The Unity asset is for ‘live interactive video streaming’. This is geared towards one single main video channel at a time streamed to multiple locations. There is another option for ‘democratic’ open channels where all can communicate at the same time to all others. I do not this the latter option will be necessary for us, because we will be streaming single performers into the Unity space.&lt;/p&gt;
-
-&lt;p&gt;It was great to see the video images being displayed directly onto textures in Unity, such as the cube - this should prove useful and time-saving.&lt;/p&gt;
-
-&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; looks to be the way to go, at least for the time being. I would prefer to be building my own server and exploring the use and potential of some exciting new technologies in a more ‘raw’ form - partly for my own personal curiosity and learning, but also for an increased self-contained, stand-alone stack that does not rely so much on external products. Perhaps this could be a later development of this project once the initial objectives have been met. For now, the precious resource of time is a prime consideration.&lt;/p&gt;</content><author><name></name></author><summary type="html">Early attempts at setting up a server</summary></entry></feed>
+&lt;img src=&quot;\images\GAM750\formation-1-coordinates.jpg&quot; alt=&quot;Screen Formation Image Coordinates&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The screen object</summary></entry></feed>

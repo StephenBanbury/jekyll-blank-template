@@ -26,7 +26,7 @@ The Unity asset contains a couple of sample scenes that are fairly easy to set u
 
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\agora-test.mp4" type="video/mp4">
+    <source src="\media\GAM750\agora-test.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

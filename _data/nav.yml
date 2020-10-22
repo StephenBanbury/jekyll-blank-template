@@ -95,18 +95,30 @@ toc:
         date: 2020-08-31
         url: 2020/08/31/visuals.html
         subsubfolderitems:
-        - page: The Screens 1
+        - page: Screens, formations and spawning
           date: 2020-09-01
           url: 2020/09/01/creating-the-screens-1.html
-        - page: The Screens 2
+        - page: Screens - animating screen transformations
           date: 2020-09-03
           url: 2020/09/03/creating-the-screens-2.html
       - page: Sending Data Betwen Clients
         date: 2020-09-14
         url: 2020/09/14/sending-data.html
-      - page: The Performer App
+      - page: The Performer App 1
         date: 2020-09-27
-        url: 2020/09/27/the-performer-app.html
+        url: 2020/09/27/the-performer-app-1.html
+      - page: The Performer App 2
+        date: 2020-10-01
+        url: 2020/10/01/the-performer-app-2.html
+      - page: Testing
+        date: 2020-10-03
+        url: 2020/10/03/testing.html
+      - page: Spatial Audio With Normcore
+        date: 2020-10-18
+        url: 2020/10/18/spatial-audio-with-normcore.html
+      - page: The Multispace
+        date: 2020-10-23
+        url: 2020/10/23/multi-space.html
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:
       - page: Week One - Game Design
