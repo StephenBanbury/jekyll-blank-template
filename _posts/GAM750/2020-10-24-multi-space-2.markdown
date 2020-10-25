@@ -17,6 +17,15 @@ This approach requires a set of definitions for the locations of each scene with
 It is then simply a case of applying this information in order to offset the original formation's positional data. The rotations must remain the same as we do not want the screens to change direction!
 <br><br>
 
+**Transversing the multispace**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
+    <source src="\media\GAM750\transverse-multispace-2.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+<br><br>
+
 **Scene position definitions within the world space**<br><br>
 ![GetScenePosition](\images\GAM750\GetScenePosition-1.JPG)
 <br><br>
@@ -33,14 +42,6 @@ It is then simply a case of applying this information in order to offset the ori
 ![SceneDetailModel](\images\GAM750\ScreenFormationModel.JPG)
 <br><br>
 
-**Transversing the multispace**
-<figure class="video_container">
-  <video style="width:720px;" autoplay loop>
-    <source src="\media\GAM750\transverse-multispace-2.mp4" type="video/mp4">
-    Woops! Your browser does not support the HTML5 video tag.
-  </video>
-</figure>
-<br><br>
 
 **Code behind the multispace**
 <figure class="video_container">
