@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-23T00:47:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multi-Space</title><link href="http://localhost:4000/2020/10/23/multi-space.html" rel="alternate" type="text/html" title="Multi-Space" /><published>2020-10-23T00:00:00+01:00</published><updated>2020-10-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/23/multi-space</id><content type="html" xml:base="http://localhost:4000/2020/10/23/multi-space.html">&lt;p&gt;&lt;img src=&quot;\images\GAM750\lightbulb.jpg&quot; alt=&quot;Lightbulb&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-25T14:59:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
+
+&lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=yt0Hnxz31V0&lt;/p&gt;
+
+&lt;p&gt;Interesting talk about VR, immersion, VR experience&lt;/p&gt;
+
+&lt;p&gt;Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition&lt;/p&gt;
+
+&lt;p&gt;Social platofmr tent to attract social groupins that match other social contexts&lt;/p&gt;
+
+&lt;p&gt;Altspace (19:30)&lt;/p&gt;
+
+&lt;p&gt;Hubs by Mozilla (22.30)
+    no headset required
+    more about creating your own personona
+    more control, build from scratch
+    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Multispace 2</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Multispace 2" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
+
+&lt;p&gt;Having given the concept of mutlple spaces some thought, where each space represents a &lt;em&gt;scene&lt;/em&gt; in the multiplayer theatre environment, it became clear that I could make use of the existing infrastructure I have already put in place (see &lt;strong&gt;&lt;a href=&quot;/2020/09/01/creating-the-screens-1.html&quot;&gt;Creating the screens 1&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;/2020/09/03/creating-the-screens-2.html&quot;&gt;Creating the screens 2&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;This method uses a class model for each screen formation, comprising definitions for the postition and rotation of each of the sixteen screen display panels within the respective formation. This information is then used when instantiating, or &lt;em&gt;spawning&lt;/em&gt;, the formation. Animations are created by &lt;em&gt;tweening&lt;/em&gt; between the previous formation’s positioning data and that of the next formation. This has, thus far, been happening in a single location, i.e. that set in each formation’s respective model.&lt;/p&gt;
+
+&lt;p&gt;Taking this concept and applying it to the creating of a second (or third or fourth etc.) formation, it becomes clear that the existing definitions can be used as a template, with an &lt;em&gt;offset&lt;/em&gt; applied in order to translate the positional information from the original formation to another in another place within the world space.&lt;/p&gt;
+
+&lt;p&gt;This approach requires a set of definitions for the locations of each scene within the world space. If the original scene is set at &lt;em&gt;Vector3(0, 0, 0)&lt;/em&gt;, then the second scene can exist at &lt;em&gt;Vector3(20, 0, 0)&lt;/em&gt;, and the third at &lt;em&gt;Vector3(20, 0, 20)&lt;/em&gt; etc. 
+It is then simply a case of applying this information in order to offset the original formation’s positional data. The rotations must remain the same as we do not want the screens to change direction!
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scene position definitions within the world space&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\GetScenePosition-1.JPG&quot; alt=&quot;GetScenePosition&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Screen formations, showing screen positions offset by selected scene postition&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\ScreenFormationService-1.JPG&quot; alt=&quot;ScreenFormationService&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scene detail model, showing how each scene comprises a scene position in world space, a screen formation definition, and references to the actual screens that have been instantiated&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\SceneDetailModel.JPG&quot; alt=&quot;SceneDetailModel&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Screen position model for each individual screen&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\ScreenFormationModel.JPG&quot; alt=&quot;SceneDetailModel&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Transversing the multispace&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\transverse-multispace-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code behind the multispace&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\multispace-code-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Creating multiple scenes from an orginal template</summary></entry><entry><title type="html">Multispace 1</title><link href="http://localhost:4000/2020/10/23/multi-space-1.html" rel="alternate" type="text/html" title="Multispace 1" /><published>2020-10-23T00:00:00+01:00</published><updated>2020-10-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/23/multi-space-1</id><content type="html" xml:base="http://localhost:4000/2020/10/23/multi-space-1.html">&lt;p&gt;&lt;img src=&quot;\images\GAM750\lightbulb.jpg&quot; alt=&quot;Lightbulb&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;thinking-about-multiple-spaces-or-multiple-universes&quot;&gt;Thinking about multiple spaces (or multiple universes)&lt;/h1&gt;
 
@@ -324,91 +385,4 @@ Here the performer is in the space with a single VR player (i.e. audience). This
 
 &lt;p&gt;So I’m going to have fun with OSC once we’ve nailed down the requirements and in what contexts we think it could be most useful. I think the main difficulty will prove to be finding the best (and, as always, the least time-consuming) way to get the data across the internet. I feel this may best be achieved by including Agora or Normcore in the OSC project and sending the data wrapped in JSON to the main VR app. Once it has arrived, it can then be interpretted and acted upon.&lt;/p&gt;
 
-&lt;p&gt;In a way, this will negate the need for the OSC Simple package, as there will likely be no need to broadcast via http and listen at the other end. However, it could be more flexible in the long run to use as much of the basic OSC broadcasting pattern and the technology behind it as possible, and as little as possible of the mechanism used to send the data occross the &lt;em&gt;World Wide Web&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">OSC Controller</summary></entry><entry><title type="html">Creating The Screens 2</title><link href="http://localhost:4000/2020/09/03/creating-the-screens-2.html" rel="alternate" type="text/html" title="Creating The Screens 2" /><published>2020-09-03T01:00:00+01:00</published><updated>2020-09-03T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/03/creating-the-screens-2</id><content type="html" xml:base="http://localhost:4000/2020/09/03/creating-the-screens-2.html">&lt;h1 id=&quot;animations&quot;&gt;Animations&lt;/h1&gt;
-
-&lt;p&gt;I came across an interesting-looking Unity animation asset - &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/&quot;&gt;DOTween&lt;/a&gt;&lt;/strong&gt; - whilst working on the ShelterBox project. In fact, so interesting it looked I purchased the &lt;strong&gt;&lt;a href=&quot;http://dotween.demigiant.com/pro.php&quot;&gt;‘pro’ version &lt;/a&gt;&lt;/strong&gt; before even using it; I had a feeling it would come in handy in future projects even if I didn’t get to use it at the time. And, sure enough, this has been the case.&lt;/p&gt;
-
-&lt;p&gt;DOTween has many features, but the main attration for me was the way it allows complex tweening and manipulation of animations via code and, as such, can be controlled within the codebase of the project without having to resort to the somewhat ‘clunky’ (in my opinion) animation creation tools available out of Unity the box.&lt;/p&gt;
-
-&lt;p&gt;I have used it here in order to tween between one set of &lt;em&gt;Vector3&lt;/em&gt; and &lt;em&gt;Rotation&lt;/em&gt; data for a formation of screens and another. So it turns out my method of recording the coordinates data for each formation, as outlined in my previous post, was &lt;strong&gt;the correct thing to do!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\screenanimations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\screenanimations-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;creating-the-formations&quot;&gt;Creating the formations&lt;/h1&gt;
-
-&lt;p&gt;Creating the actual formations involved much laborious moving and positioning of screens in the Unity editor, as well as some &lt;strong&gt;calculating&lt;/strong&gt; of coordinates in order to create specific shapes. For example, the &lt;strong&gt;isosceles triangle&lt;/strong&gt; required the three angles to be calculated depending on the lengths of the sides. As there are 16 screens, the triangle ended up having two sides comprising six screens and one side of four. To save me time, I used an &lt;strong&gt;&lt;a href=&quot;https://www.triangle-calculator.com/?what=iso&quot;&gt;online calculation tool&lt;/a&gt;&lt;/strong&gt;. The Angles of the points of the triangle were therefore calculated thus:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\GAM750\calc-isoscelese-triangle.JPG&quot; alt=&quot;Isoscelese triangle calculation&quot; /&gt;&lt;/p&gt;
-
-&lt;p float=&quot;left&quot;&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-6.jpg&quot; width=&quot;45%&quot; /&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-5.jpg&quot; width=&quot;45%&quot; /&gt; 
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-4.jpg&quot; width=&quot;45%&quot; /&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-3.jpg&quot; width=&quot;45%&quot; /&gt;
-  &lt;img style=&quot;margin: 5px&quot; src=&quot;/images/GAM750/formation-2.jpg&quot; width=&quot;45%&quot; /&gt;
-&lt;/p&gt;</content><author><name></name></author><summary type="html">Animations</summary></entry><entry><title type="html">Creating The Screens 1</title><link href="http://localhost:4000/2020/09/01/creating-the-screens-1.html" rel="alternate" type="text/html" title="Creating The Screens 1" /><published>2020-09-01T01:00:00+01:00</published><updated>2020-09-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/01/creating-the-screens-1</id><content type="html" xml:base="http://localhost:4000/2020/09/01/creating-the-screens-1.html">&lt;h1 id=&quot;the-screen-object&quot;&gt;The screen object&lt;/h1&gt;
-
-&lt;p&gt;Initial prototypes were based on simplicity and guess-work. In fact they were too small and not quite the correct dimension. They also had no detail but were, instead, simple slabs.&lt;/p&gt;
-
-&lt;p&gt;Dimensions were later provided for the screen alone and for its frame, along with resourses including model diagrams, sketches and a SketchUp model. The latter I have not been able to import as it is created within a newer version of SketchUp than mine - but I will see if there is a way.&lt;/p&gt;
-
-&lt;p&gt;There is a very specific visual identity for the screen, which the director is keen to use. The physical screens have frames which are connected and hinged, allowing them to be folded and maneouvred, in order to create spaces that can morph into differ in shapes and sizes.&lt;/p&gt;
-
-&lt;p&gt;The screen material itself is designed for projections. However, in my case, I needed to include a video player for local video material and a canvas onto which an Agora Surface can be created. Both of these are attached to the containing screen object as children and can be switched on and off as required.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Single screen&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\single-screen-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Multiple screens&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\multiple-screens-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;screen-formations&quot;&gt;Screen Formations&lt;/h1&gt;
-
-&lt;p&gt;Formations need to be able to morph, from one formation to another. I have been considering how this should best be done: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Unity physics&lt;/strong&gt;: in this scenario each frame would be hinged and when one is physically moved by a virtual presense in the space or other means, then the screens attached will also be affected. This seems a nice-to-have feature, but could be fraught with difficulties, particularly in the short space of time available.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Plotting the locations&lt;/strong&gt; of the screens on the ground, and then moving the points over time, dragging the screens into new positions, creating new formations. This would appear to provide a lot of control over where and how the screens move, but could be time-consuming.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Unity animations&lt;/strong&gt;: this could a relatively straighforward option. Would this be for individual screens - all 16 of them - or for a formation as a whole? This would be a major question when formulating a solution.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Other animation methods&lt;/strong&gt;: using DoTween or similar could be an interesting way forward. However, I have not used the asset yet, although I did pay for the Pro version some months back. DoTween looks a good package, but I’d need to study and experiment with it first.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;spawning-screens&quot;&gt;Spawning screens&lt;/h1&gt;
-
-&lt;p&gt;I created a &lt;strong&gt;class model&lt;/strong&gt; for screen position that holds the &lt;em&gt;Vector3&lt;/em&gt; coordinates and rotation data, in degrees, and a &lt;strong&gt;service&lt;/strong&gt; to provide lists of position data for each screen in a formation.&lt;/p&gt;
-
-&lt;p&gt;This data is then read and assigned to each screen as it is instantiated into the space. Calling the method easily allows each formation to be immediately created. Should I end up using such data to move between two points (e.g. x1 =&amp;gt; x2, y1 =&amp;gt; y2, z1 =&amp;gt; z2) then this will be very useful. Even if this is not the final method I use, it is very useful to hold this data, as a record, in order to recreate formations whenever I need to, whether this is during runtime or during development and editing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Simple formations&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\screen-formations-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;Example formation with associated coordinates&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\formation-1.jpg&quot; alt=&quot;Screen Formation Image&quot; /&gt;
-&lt;img src=&quot;\images\GAM750\formation-1-coordinates.jpg&quot; alt=&quot;Screen Formation Image Coordinates&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The screen object</summary></entry></feed>
+&lt;p&gt;In a way, this will negate the need for the OSC Simple package, as there will likely be no need to broadcast via http and listen at the other end. However, it could be more flexible in the long run to use as much of the basic OSC broadcasting pattern and the technology behind it as possible, and as little as possible of the mechanism used to send the data occross the &lt;em&gt;World Wide Web&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">OSC Controller</summary></entry></feed>
