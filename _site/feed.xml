@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-25T15:40:02+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T15:48:56+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multispace 4</title><link href="http://localhost:4000/2020/10/27/multi-space-4.html" rel="alternate" type="text/html" title="Multispace 4" /><published>2020-10-27T00:00:00+00:00</published><updated>2020-10-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/27/multi-space-4</id><content type="html" xml:base="http://localhost:4000/2020/10/27/multi-space-4.html">&lt;h1 id=&quot;problems-with-teleporting-the-player&quot;&gt;Problems with teleporting the player&lt;/h1&gt;
+
+&lt;p&gt;I have been having great difficulty with the function of teleportation of the VR player from one space/scene to another.&lt;/p&gt;
+
+&lt;p&gt;I would have thought that would be reasonably straightforward, in the same way as it is for spawning inanimate objects, such as screens and selection panels, by simply changing the transform associated with the player. I have set up spawn points and placed these within the individual scenes, then attempted to take their Vector3 positions and applied them to the player’s. However, I end up moving in an outrageous manner, often ending up outside the area of the scenes, or even off the floor panel altogether, leading the player to end up in freefall.&lt;/p&gt;
+
+&lt;p&gt;I have attempted placing the player within an empty GameObject, as well as stand-alone, but the same result ensues.&lt;/p&gt;
+
+&lt;p&gt;This has been immensely frustrating.&lt;/p&gt;
+
+&lt;h1 id=&quot;figured-out-the-issue-to-an-extent-but-do-not-have-a-solution&quot;&gt;Figured out the issue (to an extent) but do not have a solution&lt;/h1&gt;
+
+&lt;p&gt;I set up a marker - a red capsule - and instead of applying the spawn point positions to the Player, I applied them to the marker. The marker moved around the environment perfectly and as should be expected! So the problem is with the player.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spawn the player&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-method1.JPG&quot; alt=&quot;SpawnPlayer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what it looks like in the environment with scenes. You can that sometimes the player is just shifted a few feet, other times the player is moved much further, but nowhere near the spawn point, and even off the floor plane.&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\spawnplayer-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Here you can see quite clearly the layout of the environment with no screens to obscure it&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\spawnplayer-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Spawn the marker&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-method2.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can the marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\spawnmarker-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I experimented with using the Normcore VR Player, which is cloned in the environment during game-play, and the ‘regular’ player, that contains the camera rig (so naturally, that would appear to be one to use). The regular player is the one that moves randomly, while the VR player does nothing.&lt;/p&gt;
+
+&lt;p&gt;It’s difficult to know where to go next with this! I wonder if it would be worth considering attaching the player to another object and using motion to move it to another space - as simple repositioning of a containing object had the same erroneous effect.&lt;/p&gt;
+
+&lt;p&gt;First port of call, though, will be to research, to try to find something about this online - perhaps Normcore-related.&lt;/p&gt;
+
+&lt;p&gt;As The Terminator once famously said, I’ll be back…&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
 
 &lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
 
@@ -16,7 +66,27 @@
     no headset required
     more about creating your own personona
     more control, build from scratch
-    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Multispace 2</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Multispace 2" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
+    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Multispace 3</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Multispace 3" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
+
+&lt;p&gt;Spawning scenes, including screen formations, is just the start. How do you control the screen formations and the video projections and live video feeds for each individiual screen?&lt;/p&gt;
+
+&lt;p&gt;One line of enquiry, and the first option I tried, instantiates the selection control panel into the same starting scene as the player. The idea would then to ensure it is instantiated in the other scenes, with the player, when the player moves into them. 
+This is a method I could end up working with.&lt;/p&gt;
+
+&lt;p&gt;Another option, and the second I am trying, is to instantiate the panel in all of the scenes (along with the audio source and lighting). The panel will probably only be visible to the player - each player can own their very own panel and show and hide it as they please (or it may end up being discarded altogether).&lt;/p&gt;
+
+&lt;p&gt;The difficulty then, with either of these options, is to ensure that: -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;all actions cause an effect on the specific scene in which the player is situated&lt;/li&gt;
+  &lt;li&gt;all effects are permiated through to the multiplayer models and then to each player instance&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;update&quot;&gt;Update&lt;/h1&gt;
+
+&lt;p&gt;I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!&lt;/p&gt;
+
+&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be the next stage of development.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Multispace 2</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Multispace 2" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
 
 &lt;p&gt;Having given the concept of mutlple spaces some thought, where each space represents a &lt;em&gt;scene&lt;/em&gt; in the multiplayer theatre environment, it became clear that I could make use of the existing infrastructure I have already put in place (see &lt;strong&gt;&lt;a href=&quot;/2020/09/01/creating-the-screens-1.html&quot;&gt;Creating the screens 1&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;/2020/09/03/creating-the-screens-2.html&quot;&gt;Creating the screens 2&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
 
@@ -251,138 +321,4 @@ Here the performer is in the space with a single VR player (i.e. audience). This
     &lt;source src=&quot;\media\GAM750\performer-space-err-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">How should the performer experience the VR space? I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to also be able to see what is happening within the space, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.</summary></entry><entry><title type="html">Sending and Receiveing OSC Data</title><link href="http://localhost:4000/2020/09/14/sending-data.html" rel="alternate" type="text/html" title="Sending and Receiveing OSC Data" /><published>2020-09-14T01:00:00+01:00</published><updated>2020-09-14T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/14/sending-data</id><content type="html" xml:base="http://localhost:4000/2020/09/14/sending-data.html">&lt;p&gt;I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. &lt;strong&gt;Normcore&lt;/strong&gt; for multiplayer functionality and &lt;strong&gt;Agora&lt;/strong&gt; for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.&lt;/p&gt;
-
-&lt;h1 id=&quot;osc-addressing&quot;&gt;OSC addressing&lt;/h1&gt;
-&lt;p&gt;The main one here is &lt;strong&gt;OSC&lt;/strong&gt; messages, used to control screen content, formations, lighting, sound, and many other potential uses that could come up as this project continues to be developed. As this data is simply text, it could be passed in form of JSON or raw strings, and then easily interpreted by clients connected in.&lt;/p&gt;
-
-&lt;p&gt;But there could potentially be other uses for such data channels. Perhaps they could be used to send &lt;em&gt;coordinate&lt;/em&gt; data for the screen formations and, more interestingly, the &lt;em&gt;players within the VR space&lt;/em&gt;. These could then be used in mappying out the space in order for the performers to keep tabs on where players are and on their movements.  However, I’m not sure if this will be close enough to &lt;em&gt;realtime&lt;/em&gt; to work sufficiently well.&lt;/p&gt;
-
-&lt;h1 id=&quot;agora&quot;&gt;Agora&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Agora&lt;/strong&gt; provides a simple data channel that can be used for sending text messages from broadcaster to clients. I am currently thinking that this could be very useful for sending data in JSON format.&lt;/p&gt;
-
-&lt;p&gt;I have tested it with simple &lt;em&gt;‘hello’&lt;/em&gt; messages.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Message sent from Video Streaming client and received by VR client&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\agora-data-stream-message-1.JPG&quot; alt=&quot;message 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Message sent from VR client and received by Video Streaming client&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\agora-data-stream-message-2.JPG&quot; alt=&quot;message 2&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;normcore&quot;&gt;Normcore&lt;/h1&gt;
-&lt;p&gt;I am very tempted to hook up both the video streaming and the OSC controller client apps to Normcore and allow data to be pushed around using Normcore data-pooling techniques. This could work in exactly the same as does sending video, screen and screen formation selection currently does between clients that have joined the room. The advantage of this method could be that it would be a relatively simple task to share &lt;strong&gt;all&lt;/strong&gt; data that is being used by &lt;strong&gt;all&lt;/strong&gt; of the client apps involved. It would not require specific extra channels, methodologies and means of sending and receiving data. The way the data is packaged and then interpreted at the receiving end will be the same, but pooling the data via Normcore will allow it to be accessible by any client at any time.&lt;/p&gt;
-
-&lt;h1 id=&quot;decision&quot;&gt;Decision?&lt;/h1&gt;
-&lt;p&gt;The simplicilty of sending text messages using Agora is tempting me in this direction. There is little to set up and it will not require writing methods to keep the data in sync between clients.&lt;/p&gt;
-
-&lt;p&gt;I feel the way forward will be to include both Normcore and Agora in all three apps, so that any can be called upon where necessary. But for the time being, I will explore the use of Agora’s simple messaging ability for sending OSC messages.&lt;/p&gt;
-
-&lt;p&gt;When it comes to finding ways to keep performers (i.e. video streaming clients) informed as to the positioning of audience, it may be that I will turn to Normcore.&lt;/p&gt;</content><author><name></name></author><summary type="html">I’ve been thinking about how to send data between clients. The requirement is to make use of one of the two platforms I have put in place to keep clients connected - i.e. Normcore for multiplayer functionality and Agora for live video and audio streaming - in order to send simple data that can be used and interpreted in a number of ways, with a number of possible functionalities in mind.</summary></entry><entry><title type="html">The Possibilities Of OSC</title><link href="http://localhost:4000/2020/09/13/osc-possibilities.html" rel="alternate" type="text/html" title="The Possibilities Of OSC" /><published>2020-09-13T01:00:00+01:00</published><updated>2020-09-13T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/13/osc-possibilities</id><content type="html" xml:base="http://localhost:4000/2020/09/13/osc-possibilities.html">&lt;h1 id=&quot;osc-controller&quot;&gt;OSC Controller&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\GAM750\osc-interface-2.JPG&quot; alt=&quot;Formation 5&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I created an Unity project for the purpose of developing an &lt;em&gt;OSC controller&lt;/em&gt;. After importing the &lt;strong&gt;OSC Simpl&lt;/strong&gt; Unity package, I studied the example apps and the documentation - which is concise but not rich enough to rely on without a fair bit of code-analysis - and managed to cobble together an OCS controller with buttons that replace the temporary VR interface I have been using to control the environment from within.&lt;/p&gt;
-
-&lt;p&gt;The main app also contains the OSC package and listens for OSC data messages. Once received, the message fires exactly the same actions as the temporary interface. Therefore, the desired effects not only occur, but they sync across &lt;em&gt;Normcore&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Currently, the OSC messages are in the form: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;/select/video&lt;/li&gt;
-  &lt;li&gt;/select/stream&lt;/li&gt;
-  &lt;li&gt;/select/display&lt;/li&gt;
-  &lt;li&gt;/select/formation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The /select/ part indicates that a selection has been made.
-/video/, /stream/ etc. indicates what kind of action we are going to request.&lt;/p&gt;
-
-&lt;p&gt;Following this, an argument is passed indicating the &lt;strong&gt;ID&lt;/strong&gt; of the video, the video stream, the display screen, or the screen formation…&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    const string _videoSelectAddress = &quot;/select/video&quot;;
-    const string _streamSelectAddress = &quot;/select/stream&quot;;
-    const string _displaySelectAddress = &quot;/select/display&quot;;
-    const string _formationSelectAddress = &quot;/select/formation&quot;;
-
-    public void VideoSelect(int videoId)
-    {
-        oscOut.Send(_videoSelectAddress, videoId);
-	    }
-    public void StreamSelect(int streamId)
-    {
-        oscOut.Send(_streamSelectAddress, streamId);
-    }
-	public void DisplaySelect(int displayId)
-    {
-        oscOut.Send(_displaySelectAddress, displayId);
-	    }
-    public void FormationSelect(int formationId)
-    {
-        oscOut.Send(_formationSelectAddress, formationId);
-    }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;… and at the listening end, these patterns are looked for and responces are wired up. Therefore a specific message plus arguments is sent, and this results in a specific method being called at the receiver’s end.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;\images\GAM750\osc-interface-1.JPG&quot; alt=&quot;OSC Interface&quot; /&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\osc-unity-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\osc-demo-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;should-be-fun&quot;&gt;Should be fun&lt;/h1&gt;
-
-&lt;p&gt;Of course, this follows the pattern already in place in the main VR app, i.e. when selecting the video or stream to display, the ID is selected first, followed by the ID of the display on which the respective media is to be shown.&lt;/p&gt;
-
-&lt;p&gt;However, as suggested by my fellow student and resident OSC expert, Sam Smallman, on our Discord server forum, there are other possible ways to provide this information: -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Sam:&lt;/strong&gt; You can use wildcards to help so you would basically receive an OSC message and pattern match for “/fireclown/screen/*/hidden” then you would grab the 3rd part which would be the screen number and then take the argument value and hide unhide the screen from there.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Have you considered stateless commands, so /formation 3 “1 2 3 4 5”, basically set formation to 3(1st argument) to the screens 1 thru 5 (2nd string argument)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;then you could have /screen/1/formation 3, to set indivual screen 1 to formation 3
-.. ah no because formation is a global thing but video feed, /screen/1/video 3, to set indivdual screen 1 to video feed 3. There’s a lot of fun you can have with this&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Me:&lt;/strong&gt; My big issue, though, is how to set it up to send over the internet. Probably have to send it via Agora - which I’m using for the video streaming but also has a data channel - or normcore somehow… I think you’ve mentioned before that theatre is usually done in a closed network.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Sam:&lt;/strong&gt; it might be easier to just send http post requests with a json packet as the arguments, and then you can translate them to osc&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;oh yeah, most theatre wont be online ever. Things are changing at the moment but still there’s massive superstition about putting anything online during a performance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Me:&lt;/strong&gt; As this project is all about remote working, I have no choice in the matter.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Sam:&lt;/strong&gt; you would need to wrap osc anyway to get over the net you may aswell just wrap it in http&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;as a theatre practitioner my next questions would be what control over the screens do i have. Does screen feeds snap from one to another, do i have control of fading it,  do i have control of the formations and how they move from one to another and the time they take, can i indivdually control screen brightness etc. All of that I would want control via OSC arguments etc.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So I’m going to have fun with OSC once we’ve nailed down the requirements and in what contexts we think it could be most useful. I think the main difficulty will prove to be finding the best (and, as always, the least time-consuming) way to get the data across the internet. I feel this may best be achieved by including Agora or Normcore in the OSC project and sending the data wrapped in JSON to the main VR app. Once it has arrived, it can then be interpretted and acted upon.&lt;/p&gt;
-
-&lt;p&gt;In a way, this will negate the need for the OSC Simple package, as there will likely be no need to broadcast via http and listen at the other end. However, it could be more flexible in the long run to use as much of the basic OSC broadcasting pattern and the technology behind it as possible, and as little as possible of the mechanism used to send the data occross the &lt;em&gt;World Wide Web&lt;/em&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">OSC Controller</summary></entry></feed>
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">How should the performer experience the VR space? I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to also be able to see what is happening within the space, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.</summary></entry></feed>

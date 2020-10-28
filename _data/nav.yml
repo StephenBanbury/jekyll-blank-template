@@ -120,12 +120,18 @@ toc:
         date: 2020-10-23
         url: 2020/10/23/multi-space.html
         subsubfolderitems:
-        - page: Multispace 1
+        - page: Multispace 1 - The 'multiverse'
           date: 2020-10-23
           url: 2020/10/23/multi-space-1.html
-        - page: Multispace 2
+        - page: Multispace 2 - Spawning scenes
           date: 2020-10-24
           url: 2020/10/24/multi-space-2.html
+        - page: Multispace 3 - Changing the formations
+          date: 2020-10-25
+          url: 2020/10/25/multi-space-3.html
+        - page: Multispace 4 - Problems with teleportation
+          date: 2020-10-27
+          url: 2020/10/27/multi-space-4.html
 
 
   - title: Individual Design and Development Project (GAM720)
