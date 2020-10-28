@@ -46,7 +46,7 @@ Here you can see quite clearly the layout of the environment with no screens to 
 Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
-    <source src="\media\GAM750\spawnmarker-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\spawnmarker-2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
