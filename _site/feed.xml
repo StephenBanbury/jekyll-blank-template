@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T15:48:56+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multispace 4</title><link href="http://localhost:4000/2020/10/27/multi-space-4.html" rel="alternate" type="text/html" title="Multispace 4" /><published>2020-10-27T00:00:00+00:00</published><updated>2020-10-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/27/multi-space-4</id><content type="html" xml:base="http://localhost:4000/2020/10/27/multi-space-4.html">&lt;h1 id=&quot;problems-with-teleporting-the-player&quot;&gt;Problems with teleporting the player&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T17:13:39+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multispace 4</title><link href="http://localhost:4000/2020/10/27/multi-space-4.html" rel="alternate" type="text/html" title="Multispace 4" /><published>2020-10-27T00:00:00+00:00</published><updated>2020-10-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/27/multi-space-4</id><content type="html" xml:base="http://localhost:4000/2020/10/27/multi-space-4.html">&lt;h1 id=&quot;problems-with-teleporting-the-player&quot;&gt;Problems with teleporting the player&lt;/h1&gt;
 
-&lt;p&gt;I have been having great difficulty with the function of teleportation of the VR player from one space/scene to another.&lt;/p&gt;
+&lt;p&gt;I have been having great difficulty with the function of teleportation of the Oculus PlayerController from one space/scene to another.&lt;/p&gt;
 
 &lt;p&gt;I would have thought that would be reasonably straightforward, in the same way as it is for spawning inanimate objects, such as screens and selection panels, by simply changing the transform associated with the player. I have set up spawn points and placed these within the individual scenes, then attempted to take their Vector3 positions and applied them to the player’s. However, I end up moving in an outrageous manner, often ending up outside the area of the scenes, or even off the floor panel altogether, leading the player to end up in freefall.&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 &lt;p&gt;&lt;strong&gt;Spawn the marker&lt;/strong&gt;&lt;br /&gt;
 &lt;img src=&quot;\images\GAM750\spawnpoint-method2.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Here you can the marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected&lt;/p&gt;
+&lt;p&gt;Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
     &lt;source src=&quot;\media\GAM750\spawnmarker-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -42,13 +42,29 @@
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;I experimented with using the Normcore VR Player, which is cloned in the environment during game-play, and the ‘regular’ player, that contains the camera rig (so naturally, that would appear to be one to use). The regular player is the one that moves randomly, while the VR player does nothing.&lt;/p&gt;
+&lt;p&gt;I experimented with using the Normcore VR Player, which is simply an avatar with the Normcore Realtime components attached to allow it to work in multiplayer, and is cloned during game-play, and the ‘regular’, local player, that contains the camera rig (so naturally, that would appear to be one to use).&lt;/p&gt;
+
+&lt;p&gt;I also deactivated the Normcore-enabled player / avatar set-up altogether, and tried out a simple, basic, vanilla Oculus OVR PlayerController. This had exactly the same effect.&lt;/p&gt;
+
+&lt;p&gt;To illustrate what is going on: -&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The spawnpoint’s location, where the player is supposed to be positioned (0, 1, 20)&lt;/strong&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-2.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The values being applied to the player’s transform (-0.8, 0.4, 20.2) - near enough to the spawnpoint’s exact location&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-error-console-1.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The location the player actually ends up! (39.8, 0, -20.8). Go figure!&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-1.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;The x coordinate is way, way out! How can this be?!!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;It’s difficult to know where to go next with this! I wonder if it would be worth considering attaching the player to another object and using motion to move it to another space - as simple repositioning of a containing object had the same erroneous effect.&lt;/p&gt;
 
-&lt;p&gt;First port of call, though, will be to research, to try to find something about this online - perhaps Normcore-related.&lt;/p&gt;
+&lt;p&gt;First port of call, though, will be to research, to try to find something about this online.&lt;/p&gt;
 
-&lt;p&gt;As The Terminator once famously said, I’ll be back…&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
+&lt;p&gt;As The Terminator once famously said, &lt;strong&gt;I’ll be back…&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
 
 &lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
 
@@ -86,7 +102,7 @@ This is a method I could end up working with.&lt;/p&gt;
 
 &lt;p&gt;I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!&lt;/p&gt;
 
-&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be the next stage of development.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Multispace 2</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Multispace 2" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
+&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Multispace 2</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Multispace 2" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
 
 &lt;p&gt;Having given the concept of mutlple spaces some thought, where each space represents a &lt;em&gt;scene&lt;/em&gt; in the multiplayer theatre environment, it became clear that I could make use of the existing infrastructure I have already put in place (see &lt;strong&gt;&lt;a href=&quot;/2020/09/01/creating-the-screens-1.html&quot;&gt;Creating the screens 1&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;/2020/09/03/creating-the-screens-2.html&quot;&gt;Creating the screens 2&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
 

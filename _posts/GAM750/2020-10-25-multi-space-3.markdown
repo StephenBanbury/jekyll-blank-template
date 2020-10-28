@@ -24,4 +24,4 @@ The difficulty then, with either of these options, is to ensure that: -
 
 I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!
 
-I am now concerned that this may be difficult to translate into the multiplayer environment. This will be the next stage of development.
+I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.

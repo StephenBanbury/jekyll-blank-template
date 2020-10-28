@@ -7,7 +7,7 @@ published: true
 
 # Problems with teleporting the player
 
-I have been having great difficulty with the function of teleportation of the VR player from one space/scene to another.
+I have been having great difficulty with the function of teleportation of the Oculus PlayerController from one space/scene to another.
 
 I would have thought that would be reasonably straightforward, in the same way as it is for spawning inanimate objects, such as screens and selection panels, by simply changing the transform associated with the player. I have set up spawn points and placed these within the individual scenes, then attempted to take their Vector3 positions and applied them to the player's. However, I end up moving in an outrageous manner, often ending up outside the area of the scenes, or even off the floor panel altogether, leading the player to end up in freefall.
 
@@ -43,7 +43,7 @@ Here you can see quite clearly the layout of the environment with no screens to 
 **Spawn the marker**<br>
 ![SpawnMarker](\images\GAM750\spawnpoint-method2.JPG)
 
-Here you can the marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected
+Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
     <source src="\media\GAM750\spawnmarker-1.mp4" type="video/mp4">
@@ -51,10 +51,28 @@ Here you can the marker - which is a simple 3D object with no VR special charact
   </video>
 </figure>
 
-I experimented with using the Normcore VR Player, which is cloned in the environment during game-play, and the 'regular' player, that contains the camera rig (so naturally, that would appear to be one to use). The regular player is the one that moves randomly, while the VR player does nothing.
+I experimented with using the Normcore VR Player, which is simply an avatar with the Normcore Realtime components attached to allow it to work in multiplayer, and is cloned during game-play, and the 'regular', local player, that contains the camera rig (so naturally, that would appear to be one to use). 
+
+I also deactivated the Normcore-enabled player / avatar set-up altogether, and tried out a simple, basic, vanilla Oculus OVR PlayerController. This had exactly the same effect. 
+
+To illustrate what is going on: -
+
+**The spawnpoint's location, where the player is supposed to be positioned (0, 1, 20)**
+![SpawnMarker](\images\GAM750\spawnpoint-error-inspector-2.JPG)
+
+**The values being applied to the player's transform (-0.8, 0.4, 20.2) - near enough to the spawnpoint's exact location**<br>
+![SpawnMarker](\images\GAM750\spawnpoint-error-console-1.JPG)
+
+**The location the player actually ends up! (39.8, 0, -20.8). Go figure!**<br>
+![SpawnMarker](\images\GAM750\spawnpoint-error-inspector-1.JPG)
+
+<br>
+**The x coordinate is way, way out! How can this be?!!**
+
+
 
 It's difficult to know where to go next with this! I wonder if it would be worth considering attaching the player to another object and using motion to move it to another space - as simple repositioning of a containing object had the same erroneous effect.
 
-First port of call, though, will be to research, to try to find something about this online - perhaps Normcore-related.
+First port of call, though, will be to research, to try to find something about this online.
 
-As The Terminator once famously said, I'll be back...
+As The Terminator once famously said, **I'll be back...**
