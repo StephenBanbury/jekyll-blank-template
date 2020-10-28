@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multispace 2
+title: Spawning The Screens
 date: 2020-10-24 00:00
 published: true
 ---

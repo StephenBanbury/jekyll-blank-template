@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Multispace 1
+title: The 'Multiverse'
 date: 2020-10-23 00:00
 published: true
 ---
 
 ![Lightbulb](\images\GAM750\lightbulb.jpg)
 
-# Thinking about multiple spaces (or multiple universes)
+# Thinking about multiple spaces
 
 I've just had an interesting thought, as a respone to the problem of creating multiple _'spaces'_, which players can move between, at times that will be decided later.
 

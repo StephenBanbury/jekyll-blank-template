@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Multispace 4
+title: Problems With Teleportation
 date: 2020-10-27 00:00
 published: true
 ---
@@ -20,7 +20,7 @@ This has been immensely frustrating.
 
 I set up a marker - a red capsule - and instead of applying the spawn point positions to the Player, I applied them to the marker. The marker moved around the environment perfectly and as should be expected! So the problem is with the player.
 
-**Spawn the player**<br>
+**'Spawning' the player**<br>
 ![SpawnPlayer](\images\GAM750\spawnpoint-method1.JPG)
 
 This is what it looks like in the environment with scenes. You can that sometimes the player is just shifted a few feet, other times the player is moved much further, but nowhere near the spawn point, and even off the floor plane.
@@ -40,10 +40,10 @@ Here you can see quite clearly the layout of the environment with no screens to 
 </figure>
 
 
-**Spawn the marker**<br>
+**'Spawning' the marker**<br>
 ![SpawnMarker](\images\GAM750\spawnpoint-method2.JPG)
 
-Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected
+Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected, whereas the VR player gets pushed around in an apparently random fashion.
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
     <source src="\media\GAM750\spawnmarker-2.mp4" type="video/mp4">
@@ -57,7 +57,7 @@ I also deactivated the Normcore-enabled player / avatar set-up altogether, and t
 
 To illustrate what is going on: -
 
-**The spawnpoint's location, where the player is supposed to be positioned (0, 1, 20)**
+**The spawn point's location, where the player is supposed to be positioned (0, 1, 20)**
 ![SpawnMarker](\images\GAM750\spawnpoint-error-inspector-2.JPG)
 
 **The values being applied to the player's transform (-0.8, 0.4, 20.2) - near enough to the spawnpoint's exact location**<br>
