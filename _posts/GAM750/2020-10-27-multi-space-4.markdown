@@ -46,6 +46,14 @@ Here you can see quite clearly the layout of the environment with no screens to 
 Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected, whereas the VR player gets pushed around in an apparently random fashion.
 <figure class="video_container">
   <video style="width:720px;" autoplay loop>
+    <source src="\media\GAM750\spawnmarker-1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
+
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop>
     <source src="\media\GAM750\spawnmarker-2.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
@@ -58,13 +66,13 @@ I also deactivated the Normcore-enabled player / avatar set-up altogether, and t
 To illustrate what is going on: -
 
 **The spawn point's location, where the player is supposed to be positioned (0, 1, 20)**
-![SpawnMarker](\images\GAM750\spawnpoint-error-inspector-2.JPG)
+![Error1](\images\GAM750\spawnpoint-error-inspector-2.JPG)
 
 **The values being applied to the player's transform (-0.8, 0.4, 20.2) - near enough to the spawnpoint's exact location**<br>
-![SpawnMarker](\images\GAM750\spawnpoint-error-console-1.JPG)
+![Error2](\images\GAM750\spawnpoint-error-console-1.JPG)
 
 **The location the player actually ends up! (39.8, 0, -20.8). Go figure!**<br>
-![SpawnMarker](\images\GAM750\spawnpoint-error-inspector-1.JPG)
+![Error3](\images\GAM750\spawnpoint-error-inspector-1.JPG)
 
 <br>
 **The x coordinate is way, way out! How can this be?!!**
