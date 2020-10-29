@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-28T17:13:39+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Multispace 4</title><link href="http://localhost:4000/2020/10/27/multi-space-4.html" rel="alternate" type="text/html" title="Multispace 4" /><published>2020-10-27T00:00:00+00:00</published><updated>2020-10-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/27/multi-space-4</id><content type="html" xml:base="http://localhost:4000/2020/10/27/multi-space-4.html">&lt;h1 id=&quot;problems-with-teleporting-the-player&quot;&gt;Problems with teleporting the player&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-29T01:11:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">To Spawn Or Not To Spawn…</title><link href="http://localhost:4000/2020/10/28/thoughts-on-spawning.html" rel="alternate" type="text/html" title="To Spawn Or Not To Spawn..." /><published>2020-10-28T00:00:00+00:00</published><updated>2020-10-28T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/28/thoughts-on-spawning</id><content type="html" xml:base="http://localhost:4000/2020/10/28/thoughts-on-spawning.html">&lt;p&gt;I has been put to me that usually it is best practice to create all objects that appear within a scene directly in the Unity editor, rather than to &lt;em&gt;instantiate&lt;/em&gt; them at run-time.  A main reason behind this is that it allows collaboration to happen more easily: a model or texture artist, for instance, can do their work directly in the editor, changing, removing and adding objects with ease, whereas instantiated scenes would clearly hinder this process, as they could only work during run-time and would lose any work, unless it were somehow stored and then recreated in the instantiation code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This is a very good point!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In fact, not just the artist, but the developer can benefit from this approach, as it is often simpler to work visually using the Unity tools that it is to work in code or, as I have been doing, some hybrid of the two.&lt;/p&gt;
+
+&lt;p&gt;The temptation, as a coder, is to use code to create everything, but perhaps this instinct should be resisited. Constants, such as scenery, can be created in the editor; players, characters, objects that have ‘life’, can be spawned.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-does-this-affect-what-i-have-done-so-far-and-what-do-i-now-need-to-do&quot;&gt;How does this affect what I have done so far and what do I now need to do?&lt;/h1&gt;
+
+&lt;p&gt;In the current context, this means some re-working. For example,  the advantage of my spawning approach is that I have the data on the objects that have been added to the scene, which is essential, for example, when animating the screens between one formation and another. I need to look at this the &lt;em&gt;other way around&lt;/em&gt;. Instead of creating the screens from the stored data, I now perhaps need to gather the positional data from the physical screens and store that for future reference.&lt;/p&gt;
+
+&lt;p&gt;This means a significant amount of refactoring lies ahead. Pragmatically, it may be best to approach this via a &lt;em&gt;‘half-way-house’&lt;/em&gt;, where the congruence between the physical models and their data is taken for granted, simply due to the fact that their physical existence is purely due to their having been created directly from this data in the first instance! The problems that will start to creep in will be due to any divergance between the stored data and the physical entities that no longer have an inseperable relationship. As such, then, I see this being a gradual process.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-change-at-all&quot;&gt;Why change at all?&lt;/h1&gt;
+
+&lt;p&gt;Good question! If accepted to usually be best practice in the context of working in Unity, particularly with potential collaborators, then moving forward this is something I need to consider for future projects, and this is a good time to get started.&lt;/p&gt;
+
+&lt;h1 id=&quot;are-my-screens-characters&quot;&gt;Are my screens ‘characters’?&lt;/h1&gt;
+
+&lt;p&gt;As I have mentioned above, scenery can be built in the editor. However, objects such as players and characters that come and go can be spawned. The question that is begging is, are my screens more analogous to scenery or player-characters? As &lt;em&gt;actional objects&lt;/em&gt;, they certainly do not remain static and are affected and controlled by the players. Their data and vital statistics are essential to their function and appearance over time.&lt;/p&gt;
+
+&lt;p&gt;I’m going to have to think about this. I am starting to come full circle and beginning to think of these formations as prime candidates for spawning.&lt;/p&gt;
+
+&lt;p&gt;Whatever the outcome in this case, the point still stands that not everything needs to be instantiated, and that only certain, very specific types of objects need the kind of fine controlling that requires a process of spawning into the environment.&lt;/p&gt;</content><author><name></name></author><summary type="html">I has been put to me that usually it is best practice to create all objects that appear within a scene directly in the Unity editor, rather than to instantiate them at run-time. A main reason behind this is that it allows collaboration to happen more easily: a model or texture artist, for instance, can do their work directly in the editor, changing, removing and adding objects with ease, whereas instantiated scenes would clearly hinder this process, as they could only work during run-time and would lose any work, unless it were somehow stored and then recreated in the instantiation code.</summary></entry><entry><title type="html">Problems With Teleportation</title><link href="http://localhost:4000/2020/10/27/multi-space-4.html" rel="alternate" type="text/html" title="Problems With Teleportation" /><published>2020-10-27T00:00:00+00:00</published><updated>2020-10-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/27/multi-space-4</id><content type="html" xml:base="http://localhost:4000/2020/10/27/multi-space-4.html">&lt;h1 id=&quot;problems-with-teleporting-the-player&quot;&gt;Problems with teleporting the player&lt;/h1&gt;
 
 &lt;p&gt;I have been having great difficulty with the function of teleportation of the Oculus PlayerController from one space/scene to another.&lt;/p&gt;
 
@@ -12,7 +36,7 @@
 
 &lt;p&gt;I set up a marker - a red capsule - and instead of applying the spawn point positions to the Player, I applied them to the marker. The marker moved around the environment perfectly and as should be expected! So the problem is with the player.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Spawn the player&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;‘Spawning’ the player&lt;/strong&gt;&lt;br /&gt;
 &lt;img src=&quot;\images\GAM750\spawnpoint-method1.JPG&quot; alt=&quot;SpawnPlayer&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is what it looks like in the environment with scenes. You can that sometimes the player is just shifted a few feet, other times the player is moved much further, but nowhere near the spawn point, and even off the floor plane.&lt;/p&gt;
@@ -31,13 +55,20 @@
   &lt;/video&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;&lt;strong&gt;Spawn the marker&lt;/strong&gt;&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;‘Spawning’ the marker&lt;/strong&gt;&lt;br /&gt;
 &lt;img src=&quot;\images\GAM750\spawnpoint-method2.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected&lt;/p&gt;
+&lt;p&gt;Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected, whereas the VR player gets pushed around in an apparently random fashion.&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
     &lt;source src=&quot;\media\GAM750\spawnmarker-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\spawnmarker-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -48,14 +79,14 @@
 
 &lt;p&gt;To illustrate what is going on: -&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The spawnpoint’s location, where the player is supposed to be positioned (0, 1, 20)&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-2.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The spawn point’s location, where the player is supposed to be positioned (0, 1, 20)&lt;/strong&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-2.JPG&quot; alt=&quot;Error1&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The values being applied to the player’s transform (-0.8, 0.4, 20.2) - near enough to the spawnpoint’s exact location&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-error-console-1.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-error-console-1.JPG&quot; alt=&quot;Error2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;The location the player actually ends up! (39.8, 0, -20.8). Go figure!&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-1.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-1.JPG&quot; alt=&quot;Error3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;The x coordinate is way, way out! How can this be?!!&lt;/strong&gt;&lt;/p&gt;
@@ -82,7 +113,7 @@
     no headset required
     more about creating your own personona
     more control, build from scratch
-    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Multispace 3</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Multispace 3" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
+    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Actions</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Actions" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
 
 &lt;p&gt;Spawning scenes, including screen formations, is just the start. How do you control the screen formations and the video projections and live video feeds for each individiual screen?&lt;/p&gt;
 
@@ -102,7 +133,7 @@ This is a method I could end up working with.&lt;/p&gt;
 
 &lt;p&gt;I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!&lt;/p&gt;
 
-&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Multispace 2</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Multispace 2" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
+&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Spawning The Screens</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Spawning The Screens" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
 
 &lt;p&gt;Having given the concept of mutlple spaces some thought, where each space represents a &lt;em&gt;scene&lt;/em&gt; in the multiplayer theatre environment, it became clear that I could make use of the existing infrastructure I have already put in place (see &lt;strong&gt;&lt;a href=&quot;/2020/09/01/creating-the-screens-1.html&quot;&gt;Creating the screens 1&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;/2020/09/03/creating-the-screens-2.html&quot;&gt;Creating the screens 2&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
 
@@ -145,9 +176,9 @@ It is then simply a case of applying this information in order to offset the ori
     &lt;source src=&quot;\media\GAM750\multispace-code-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Creating multiple scenes from an orginal template</summary></entry><entry><title type="html">Multispace 1</title><link href="http://localhost:4000/2020/10/23/multi-space-1.html" rel="alternate" type="text/html" title="Multispace 1" /><published>2020-10-23T00:00:00+01:00</published><updated>2020-10-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/23/multi-space-1</id><content type="html" xml:base="http://localhost:4000/2020/10/23/multi-space-1.html">&lt;p&gt;&lt;img src=&quot;\images\GAM750\lightbulb.jpg&quot; alt=&quot;Lightbulb&quot; /&gt;&lt;/p&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Creating multiple scenes from an orginal template</summary></entry><entry><title type="html">The ‘Multiverse’</title><link href="http://localhost:4000/2020/10/23/multi-space-1.html" rel="alternate" type="text/html" title="The 'Multiverse'" /><published>2020-10-23T00:00:00+01:00</published><updated>2020-10-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/23/multi-space-1</id><content type="html" xml:base="http://localhost:4000/2020/10/23/multi-space-1.html">&lt;p&gt;&lt;img src=&quot;\images\GAM750\lightbulb.jpg&quot; alt=&quot;Lightbulb&quot; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;thinking-about-multiple-spaces-or-multiple-universes&quot;&gt;Thinking about multiple spaces (or multiple universes)&lt;/h1&gt;
+&lt;h1 id=&quot;thinking-about-multiple-spaces&quot;&gt;Thinking about multiple spaces&lt;/h1&gt;
 
 &lt;p&gt;I’ve just had an interesting thought, as a respone to the problem of creating multiple &lt;em&gt;‘spaces’&lt;/em&gt;, which players can move between, at times that will be decided later.&lt;/p&gt;
 
@@ -299,42 +330,4 @@ Mac build creates exceptions - I believe these can be traced to requirements for
 
 &lt;p&gt;I then replaced the VR player with another, exactly the same but using an ‘invisible’ copy of the OVR player, i.e. I disabled the body and just kept the camera and Realtime components to persist the player in the multiplayer environment. I added a Rigidbody and a script to allow control via the keyboard rather than VR.&lt;/p&gt;
 
-&lt;p&gt;When this scene is built, it must have the VR Plugin Management disabled in Player Settings. This then creates an exact copy of the VR scene, in the multiplayer environment, but the player is invisible and unable to affect any change or force on the space - a ghost. When a PC build is created it runs on another PC - the VR character(s) in the space can be viewed along with the results of their actions, i.e. screen/video/formation selection and assignment changes etc., whilst the invisible player can move around using the keyboard.&lt;/p&gt;</content><author><name></name></author><summary type="html">Problem solved</summary></entry><entry><title type="html">The Performer App 1</title><link href="http://localhost:4000/2020/09/27/the-performer-app-1.html" rel="alternate" type="text/html" title="The Performer App 1" /><published>2020-09-27T01:00:00+01:00</published><updated>2020-09-27T01:00:00+01:00</updated><id>http://localhost:4000/2020/09/27/the-performer-app-1</id><content type="html" xml:base="http://localhost:4000/2020/09/27/the-performer-app-1.html">&lt;h1 id=&quot;how-should-the-performer-experience-the-vr-space&quot;&gt;How should the performer experience the VR space?&lt;/h1&gt;
-&lt;p&gt;I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to &lt;strong&gt;also be able to see what is happening within the space&lt;/strong&gt;, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rendering video via WebRTC&lt;/strong&gt;&lt;br /&gt;
-I had assumed that I would need to stream video, or &lt;em&gt;volumetric capture&lt;/em&gt;, from the environment to be displayed, for example, on a browser or some other display. I imagined this would make use of WebRTC in a similar way as streaming live video of a performer into the VR space. I’m sure it would be possible, but it would be time consuming - not something I would relish after having already spent a significant amount of effort and time on the stack put in place thus far. However, it would certainly be an option for further development if required - Oculus has developed a &lt;strong&gt;&lt;a href=&quot;https://forum.unity.com/threads/unity-render-streaming-introduction-faq.742481/&quot;&gt;streaming solution&lt;/a&gt;&lt;/strong&gt; (the GitHub repository is &lt;strong&gt;&lt;a href=&quot;https://github.com/Unity-Technologies/UnityRenderStreaming&quot;&gt;here&lt;/a&gt;)&lt;/strong&gt;, so it’s not unprecedented.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sending positional data to the performer/client&lt;/strong&gt;&lt;br /&gt;
-Then I began to think of streaming pure location data for performers and screens etc to a separate app, where they could be used to map the space in real time.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Joining the performer into the multiplayer space&lt;/strong&gt;&lt;br /&gt;
-However, the most immediately straightforward option would also seem to be potentially the most useful: to join the performer into the multiplayer space as an invisible player, who can roam around with absolute freedom, but who’s presence cannot be perceived by the audience. The performer would not be experiencing the space through VR, but on a 2D flat screen, and controlling their movements using keyboard or mouse. I did briefly experiment with just having an overhead camera above the space, but this was soon replaced with the more immersive option of being in the space itself.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Overhead Camera&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\overhead-camera-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Performer ‘in space’&lt;/strong&gt;&lt;br /&gt;
-Here the performer is in the space with a single VR player (i.e. audience). This is what it could look like when it’s working - however, I am currently having some issues with Normcore allowing this to happen - it sometimes crashes out, loses connection, or freezes for the performer app. Sometimes it just does not follow actions from the VR environment. It may be that there is not enough separation, somehow, between the player, their Normcore ‘realtime’ player, their Oculus avatar.. or at least somewhere in there there is an issue - tracking it is proving difficult. But the video below at least shows what could be possible!&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\performer-space-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;And here’s an example of an ‘error’&lt;/strong&gt;&lt;br /&gt;
-  ..the actions on the left (i.e. VR), are not propergated on the right (non-VR)&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\performer-space-err-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">How should the performer experience the VR space? I had been wondering for some time how I would approach the issue of enabling the performers, who are streaming live video into the VR space to be projected onto the panel screens, to also be able to see what is happening within the space, where audience members are located, where they are looking, how they are moving; the screen formations and how they morph into different shapes; lighting; other performers and where they are beging displayed etc.</summary></entry></feed>
+&lt;p&gt;When this scene is built, it must have the VR Plugin Management disabled in Player Settings. This then creates an exact copy of the VR scene, in the multiplayer environment, but the player is invisible and unable to affect any change or force on the space - a ghost. When a PC build is created it runs on another PC - the VR character(s) in the space can be viewed along with the results of their actions, i.e. screen/video/formation selection and assignment changes etc., whilst the invisible player can move around using the keyboard.&lt;/p&gt;</content><author><name></name></author><summary type="html">Problem solved</summary></entry></feed>
