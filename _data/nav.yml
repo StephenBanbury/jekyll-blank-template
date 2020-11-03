@@ -135,7 +135,18 @@ toc:
         - page: To spawn or not to spawn...
           date: 2020-10-28
           url: 2020/10/28/thoughts-on-spawning.html
-
+      - page: Social VR
+        date: 2020-10-29
+        url: 2020/10/29/vr-and-social-media.html
+      - page: Streaming Video Content
+        date: 2020-10-31
+        url: 2020/10/31/streaming-video-clips.html
+      - page: Screen Panel Trigger Button Revisited
+        date: 2020-11-01
+        url: 2020/11/01/screen-panel-trigger-button-2.html
+      - page: Agile, Testing And Immediacy
+        date: 2020-11-02
+        url: 2020/11/02/requests-for-immediate-action.html
 
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:

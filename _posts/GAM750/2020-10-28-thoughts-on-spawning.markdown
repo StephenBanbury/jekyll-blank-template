@@ -28,6 +28,8 @@ Good question! If accepted to usually be best practice in the context of working
 
 As I have mentioned above, scenery can be built in the editor. However, objects such as players and characters that come and go can be spawned. The question that is begging is, are my screens more analogous to scenery or player-characters? As _actional objects_, they certainly do not remain static and are affected and controlled by the players. Their data and vital statistics are essential to their function and appearance over time. 
 
+If you were to create a game along the lines of Lillyput, where the players and AI characters were living on the stomach of a massive giant, who wakes up and causes all kinds of mayhem, would the scenary be instantiated or built statically in the editor? A bit of both, I'd suggest. From a developer/creator's point of view, it's a balance that needs to be given serious thought in every scenario.
+
 I'm going to have to think about this. I am starting to come full circle and beginning to think of these formations as prime candidates for spawning. 
 
 Whatever the outcome in this case, the point still stands that not everything needs to be instantiated, and that only certain, very specific types of objects need the kind of fine controlling that requires a process of spawning into the environment.

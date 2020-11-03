@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-29T01:11:29+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">To Spawn Or Not To Spawn…</title><link href="http://localhost:4000/2020/10/28/thoughts-on-spawning.html" rel="alternate" type="text/html" title="To Spawn Or Not To Spawn..." /><published>2020-10-28T00:00:00+00:00</published><updated>2020-10-28T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/28/thoughts-on-spawning</id><content type="html" xml:base="http://localhost:4000/2020/10/28/thoughts-on-spawning.html">&lt;p&gt;I has been put to me that usually it is best practice to create all objects that appear within a scene directly in the Unity editor, rather than to &lt;em&gt;instantiate&lt;/em&gt; them at run-time.  A main reason behind this is that it allows collaboration to happen more easily: a model or texture artist, for instance, can do their work directly in the editor, changing, removing and adding objects with ease, whereas instantiated scenes would clearly hinder this process, as they could only work during run-time and would lose any work, unless it were somehow stored and then recreated in the instantiation code.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-02T00:32:18+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">The Screen Panel Button Revisited</title><link href="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html" rel="alternate" type="text/html" title="The Screen Panel Button Revisited" /><published>2020-11-01T00:00:00+00:00</published><updated>2020-11-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/01/screen-panel-trigger-button-2</id><content type="html" xml:base="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html">&lt;p&gt;I have modified the screen panel’s action as a &lt;em&gt;‘button’&lt;/em&gt;. Further modification, functionality and refinement to come…&lt;/p&gt;
+
+&lt;p&gt;A problem up until this point in time has been the tendency for the screens to react to the present of the players’ hand in its collider when this has not been the desired effect, such as just getting the way of the screens as they move due to animation of formation changes.&lt;/p&gt;
+
+&lt;p&gt;I have now added the need to use specific hands in combination with the controller buttons in order to trigger specific actions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Left hand + left trigger = random screen formation change&lt;/li&gt;
+  &lt;li&gt;Right hand _ right trigger = random video clip selection&lt;/li&gt;
+  &lt;li&gt;Left + right hands + left + right triggers = allow the player to exit the scene through the screen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The latter option raises the screen’s mesh collider, thus allowing the player to pass through. This is written into a coroutine and allows 3 seconds before the ‘door’ is closed again and access is once again denied.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt; raising of the collider is because my initial attempts to disable it did not work, due to this also having the effect of disabling the script itself, thus preventing the completion of the coroutine, leaving the gateway open and rendering any further activity attached to the screen impossible. Raising and lowering the collider simply moves it out of the way temporarily, in the manner of a portcullis!&lt;/p&gt;</content><author><name></name></author><summary type="html">I have modified the screen panel’s action as a ‘button’. Further modification, functionality and refinement to come…</summary></entry><entry><title type="html">Streaming And Displaying Video Clips</title><link href="http://localhost:4000/2020/10/31/streaming-video-clips.html" rel="alternate" type="text/html" title="Streaming And Displaying Video Clips" /><published>2020-10-31T00:00:00+00:00</published><updated>2020-10-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/31/streaming-video-clips</id><content type="html" xml:base="http://localhost:4000/2020/10/31/streaming-video-clips.html">&lt;h1 id=&quot;partial-solution-1&quot;&gt;Partial Solution 1&lt;/h1&gt;
+
+&lt;p&gt;I have discovered that video files can be streamed from &lt;strong&gt;&lt;a href=&quot;https://www.dropbox.com/&quot;&gt;Dropbox&lt;/a&gt;&lt;/strong&gt; if the URL is ameneded slightly. The URL is accessed by using the &lt;strong&gt;dropbox&lt;/strong&gt; ‘share’ function from the right-click on the file.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Change &lt;em&gt;‘www.dropbox.com’&lt;/em&gt; to &lt;em&gt;‘dl.dropbox.com’&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Remove the querystring _‘?dl=0’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt; the URL is automatically modified by dropbox from to &lt;em&gt;dl.dropboxusercontent.com&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have added a service class that reads a locally-stored text file listing the dropbox URLs (they are amended according to the above rules if necessary).&lt;/p&gt;
+
+&lt;p&gt;I would dearly love to place this file in the &lt;strong&gt;dropbox&lt;/strong&gt; folder and read it from there. This will allow the students to add files to the folder and then amend the text file in order for it to be included. However, the &lt;strong&gt;dropbox&lt;/strong&gt; API is not as straightforward as I would have liked. There is a SDK for .&lt;strong&gt;NET&lt;/strong&gt;, but it does not work with Unity (ref).&lt;/p&gt;
+
+&lt;p&gt;It would, of course be possible to spend some time building a bespoke method to access the dropbox API, but I’m concerned about the amount of time this would take.&lt;/p&gt;
+
+&lt;h1 id=&quot;partial-solution-2&quot;&gt;Partial Solution 2&lt;/h1&gt;
+
+&lt;p&gt;Taking the dropbox plan and running with it, I have created a &lt;strong&gt;&lt;em&gt;Firebase&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;Realtime Database&lt;/em&gt; to store the URLs for the videos. I have then implemented a &lt;strong&gt;&lt;em&gt;REST API&lt;/em&gt;&lt;/strong&gt; client in order to access them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt; &lt;em&gt;The reason for the REST is that I have previously had problems getting Firebase’s Unity SDK to work with Android. I believe that, at the time, it was not compatible, but current research, and the SDK’s documentation, seems to suggest that (&lt;a href=&quot;https://firebase.google.com/docs/unity/setup&quot;&gt;Android has now been incorporated&lt;/a&gt;). However, as I know that the Rest API works, for the time being I will use this.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;For the time being, students will need to access the &lt;em&gt;shared link&lt;/em&gt; from Dropbox for each video, pass it on to me and I will place it in the database.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The important and urgent thing&lt;/strong&gt; is that the students can use their own content, so this solution will be very welcome as it enables this. Further development will include provision for the students to upload and to manage the database themselves.&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\create-dropbox-link.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Partial Solution 1</summary></entry><entry><title type="html">VR And Social Media</title><link href="http://localhost:4000/2020/10/29/vr-and-social-media.html" rel="alternate" type="text/html" title="VR And Social Media" /><published>2020-10-29T00:00:00+00:00</published><updated>2020-10-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/29/vr-and-social-media</id><content type="html" xml:base="http://localhost:4000/2020/10/29/vr-and-social-media.html">&lt;h1 id=&quot;i-had-an-interesting-experience-today&quot;&gt;I had an interesting experience today…&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Not for the first time…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I posted on the Discord channel about it:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I went into my VR space today for work, as I do, and the director was in there  having a look around. It’s really interesting - there is a lot of talk of VR social media, but not a lot (I think) of direct 1-to-1 conversation in VR. It felt so natural, and surreal, to find myself in the space I’ve been creating and just randomly bumping into someone who I could see, shake hands with, have a chat with and throw a ball around. It’s the phone of the future. Who needs VR social media and mixing with total strangers? If everyone has a headset then we can all call round for a coffee, a chat and a game of tiddlewinks whenever we like, with our closest mates or just about anyone. I think this is where we’ll all end up - lying in bed while chatting with a mate we’ve never met in the flesh, drinking Earl Grey and playing backgammon while hanging out, equally comfortable in a totally fictitious place as on the top of Everest.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It may be a bit idealistic, and it came out of a frivolous and playful, albeit short and unexpected, moment. But that is also the point! Why not? The internet is the phone of the future. The mobile divice is one means to make the internet the phone of the future. VR takes this a step further.&lt;/p&gt;
+
+&lt;p&gt;Fun though it can be, whereas there is a lot of excitement and movement in the world of social media towards the use of VR for hanging out much as you might do in a party, hoping to meet some stranger, perhaps making friends for life or experiencing a brief and (hopefully) passing acquaintence, there seems to be little catering for what I just experienced - that is, simply the potential for settling down for a chat with someone you know - in real, or virtual, life (in this case, I really have never met them in the flesh).&lt;/p&gt;
+
+&lt;h1 id=&quot;feedback-immediacy&quot;&gt;Feedback Immediacy&lt;/h1&gt;
+
+&lt;p&gt;This was a great way to get some immediate feedback from a primary stakeholder. Watching him use the space, taking in the updates for the first time, and discussing his thoughts with me having had no time to ponder or to frame them. As a supplimentary form of feedback and user-testing, this is very interesting and very useful.&lt;/p&gt;
+
+&lt;p&gt;I had the same experience when accidentally stumbling upon a bunch of around five students experiencing the VR space for the first time. The response was unforgettable - the excitement was palpable, and as a suppliment to the more formal feedback gained from the students, is very interesting and informative.&lt;/p&gt;</content><author><name></name></author><summary type="html">I had an interesting experience today…</summary></entry><entry><title type="html">To Spawn Or Not To Spawn…</title><link href="http://localhost:4000/2020/10/28/thoughts-on-spawning.html" rel="alternate" type="text/html" title="To Spawn Or Not To Spawn..." /><published>2020-10-28T00:00:00+00:00</published><updated>2020-10-28T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/28/thoughts-on-spawning</id><content type="html" xml:base="http://localhost:4000/2020/10/28/thoughts-on-spawning.html">&lt;p&gt;I has been put to me that usually it is best practice to create all objects that appear within a scene directly in the Unity editor, rather than to &lt;em&gt;instantiate&lt;/em&gt; them at run-time.  A main reason behind this is that it allows collaboration to happen more easily: a model or texture artist, for instance, can do their work directly in the editor, changing, removing and adding objects with ease, whereas instantiated scenes would clearly hinder this process, as they could only work during run-time and would lose any work, unless it were somehow stored and then recreated in the instantiation code.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is a very good point!&lt;/em&gt;&lt;/p&gt;
 
@@ -19,6 +83,8 @@
 &lt;h1 id=&quot;are-my-screens-characters&quot;&gt;Are my screens ‘characters’?&lt;/h1&gt;
 
 &lt;p&gt;As I have mentioned above, scenery can be built in the editor. However, objects such as players and characters that come and go can be spawned. The question that is begging is, are my screens more analogous to scenery or player-characters? As &lt;em&gt;actional objects&lt;/em&gt;, they certainly do not remain static and are affected and controlled by the players. Their data and vital statistics are essential to their function and appearance over time.&lt;/p&gt;
+
+&lt;p&gt;If you were to create a game along the lines of Lillyput, where the players and AI characters were living on the stomach of a massive giant, who wakes up and causes all kinds of mayhem, would the scenary be instantiated or built statically in the editor? A bit of both, I’d suggest. From a developer/creator’s point of view, it’s a balance that needs to be given serious thought in every scenario.&lt;/p&gt;
 
 &lt;p&gt;I’m going to have to think about this. I am starting to come full circle and beginning to think of these formations as prime candidates for spawning.&lt;/p&gt;
 
@@ -95,25 +161,7 @@
 
 &lt;p&gt;First port of call, though, will be to research, to try to find something about this online.&lt;/p&gt;
 
-&lt;p&gt;As The Terminator once famously said, &lt;strong&gt;I’ll be back…&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
-
-&lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=yt0Hnxz31V0&lt;/p&gt;
-
-&lt;p&gt;Interesting talk about VR, immersion, VR experience&lt;/p&gt;
-
-&lt;p&gt;Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition&lt;/p&gt;
-
-&lt;p&gt;Social platofmr tent to attract social groupins that match other social contexts&lt;/p&gt;
-
-&lt;p&gt;Altspace (19:30)&lt;/p&gt;
-
-&lt;p&gt;Hubs by Mozilla (22.30)
-    no headset required
-    more about creating your own personona
-    more control, build from scratch
-    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Actions</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Actions" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
+&lt;p&gt;As The Terminator once famously said, &lt;strong&gt;I’ll be back…&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Actions</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Actions" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
 
 &lt;p&gt;Spawning scenes, including screen formations, is just the start. How do you control the screen formations and the video projections and live video feeds for each individiual screen?&lt;/p&gt;
 
@@ -133,7 +181,25 @@ This is a method I could end up working with.&lt;/p&gt;
 
 &lt;p&gt;I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!&lt;/p&gt;
 
-&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Spawning The Screens</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Spawning The Screens" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
+&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
+
+&lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=yt0Hnxz31V0&lt;/p&gt;
+
+&lt;p&gt;Interesting talk about VR, immersion, VR experience&lt;/p&gt;
+
+&lt;p&gt;Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition&lt;/p&gt;
+
+&lt;p&gt;Social platofmr tent to attract social groupins that match other social contexts&lt;/p&gt;
+
+&lt;p&gt;Altspace (19:30)&lt;/p&gt;
+
+&lt;p&gt;Hubs by Mozilla (22.30)
+    no headset required
+    more about creating your own personona
+    more control, build from scratch
+    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Spawning The Screens</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Spawning The Screens" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
 
 &lt;p&gt;Having given the concept of mutlple spaces some thought, where each space represents a &lt;em&gt;scene&lt;/em&gt; in the multiplayer theatre environment, it became clear that I could make use of the existing infrastructure I have already put in place (see &lt;strong&gt;&lt;a href=&quot;/2020/09/01/creating-the-screens-1.html&quot;&gt;Creating the screens 1&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;/2020/09/03/creating-the-screens-2.html&quot;&gt;Creating the screens 2&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
 
@@ -279,55 +345,4 @@ general/04-09-2020&lt;/p&gt;
 https://discord.com/channels/393839515074297858/393841777091543052/573241867185946680&quot;&gt;if you’re on V1, try making this change:
 https://discord.com/channels/393839515074297858/393841777091543052/573241867185946680
 &lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Out-of-the-box: audio appears to be 2D! During the first realtime testing with the project’s expert stakeholders, i.e. the director and technical director, I was eager to see if audio between players is 3D / spatialised, i.e. can be used to sense distance and direction. Unfortunately, it appeared to be very much 2D and unspatialised; there was no volume roll-off - no matter how near or far apart we were from each other, the volume of the voice was constant.</summary></entry><entry><title type="html">Building The Apps</title><link href="http://localhost:4000/2020/10/01/building-the-apps.html" rel="alternate" type="text/html" title="Building The Apps" /><published>2020-10-01T03:00:00+01:00</published><updated>2020-10-01T03:00:00+01:00</updated><id>http://localhost:4000/2020/10/01/building-the-apps</id><content type="html" xml:base="http://localhost:4000/2020/10/01/building-the-apps.html">&lt;h1 id=&quot;audience---oculus-quest&quot;&gt;Audience - Oculus Quest&lt;/h1&gt;
-
-&lt;h1 id=&quot;performer-main-room---pcmac&quot;&gt;Performer Main Room - PC/Mac&lt;/h1&gt;
-
-&lt;p&gt;PC build works. 
-Mac build creates exceptions - I believe these can be traced to requirements for the &lt;strong&gt;info.plist&lt;/strong&gt; - i.e. requesting permissions&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Microphone class is used but Microphone Usage Description is empty. App will not work on macOS 10.14+.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Search leads to responses such as &lt;a href=&quot;https://answers.unity.com/questions/1735434/build-error-microphone-class-is-used-but-microphon.html&quot;&gt;You need to add a microphone usage description string in iOS Player Settings (which will be added to your Info.plist)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/documentation/avfoundation/cameras_and_media_capture/requesting_authorization_for_media_capture_on_macos?language=objc&quot;&gt;Requesting Authorization for Media Capture on macOS&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I need the mike, so this is a requirement.&lt;/p&gt;
-
-&lt;p&gt;I found all files named info.plist and added the line, where it was missing:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;key&gt;NSMicrophoneUsageDescription&lt;/key&gt;
-  &lt;string&gt;Yes&lt;/string&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;However, this did not work - I still get the microphone error.&lt;/p&gt;
-
-&lt;h1 id=&quot;performer-video-streaming---pcmac&quot;&gt;Performer Video Streaming - PC/Mac&lt;/h1&gt;
-
-&lt;h1 id=&quot;stage-manager-osc-controller---pcmac&quot;&gt;Stage Manager OSC Controller - PC/Mac&lt;/h1&gt;
-
-&lt;p&gt;The PC apps need to be built for Mac - it seems the world of Theatre runs on Macs!&lt;/p&gt;</content><author><name></name></author><summary type="html">Audience - Oculus Quest</summary></entry><entry><title type="html">Screen Panel Trigger Button</title><link href="http://localhost:4000/2020/10/01/screen-panel-trigger-button.html" rel="alternate" type="text/html" title="Screen Panel Trigger Button" /><published>2020-10-01T02:00:00+01:00</published><updated>2020-10-01T02:00:00+01:00</updated><id>http://localhost:4000/2020/10/01/screen-panel-trigger-button</id><content type="html" xml:base="http://localhost:4000/2020/10/01/screen-panel-trigger-button.html">&lt;h1 id=&quot;the-screen-is-now-a-button&quot;&gt;The screen is now a ‘button’&lt;/h1&gt;
-
-&lt;p&gt;When the player’s hand touches the screen, one of two actions happen, randomly: -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;A randomly selected video clip plays&lt;/li&gt;
-  &lt;li&gt;An animation occurs into a new randomly selected screen formation&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;This can be fairly startling, particularly the sudden change to screen formation, even more so when uninitiated and unexpected.&lt;/p&gt;
-
-&lt;p&gt;The number and type of different actions can be added to as development continues.&lt;/p&gt;
-
-&lt;p&gt;One idea would be to have some control of which of the actions happens, for example, by specific screen or by specific players. The latter would require identification of individual players, or of &lt;em&gt;‘type’&lt;/em&gt; of player, in the first place - again, something that can be added in a future development.&lt;/p&gt;</content><author><name></name></author><summary type="html">The screen is now a ‘button’</summary></entry><entry><title type="html">The Performer App 2</title><link href="http://localhost:4000/2020/10/01/the-performer-app-2.html" rel="alternate" type="text/html" title="The Performer App 2" /><published>2020-10-01T01:00:00+01:00</published><updated>2020-10-01T01:00:00+01:00</updated><id>http://localhost:4000/2020/10/01/the-performer-app-2</id><content type="html" xml:base="http://localhost:4000/2020/10/01/the-performer-app-2.html">&lt;h1 id=&quot;problem-solved&quot;&gt;Problem solved&lt;/h1&gt;
-
-&lt;p&gt;I created a copy of the main VR scene and reset the UUID of the Normcore Realitime View (Script) attached to the MediaDisplayManager GameObject.&lt;/p&gt;
-
-&lt;p&gt;The MediaDisplayManager exists to house the management classes that control media-related objects and actions, such as the screen panels, e.g. video screen selection and media assignment, the Agora video streaming controller and interface, and other related management tasks - simply, a kind of Game Manager but specifically for controlling media in the widest sense.&lt;/p&gt;
-
-&lt;p&gt;I then replaced the VR player with another, exactly the same but using an ‘invisible’ copy of the OVR player, i.e. I disabled the body and just kept the camera and Realtime components to persist the player in the multiplayer environment. I added a Rigidbody and a script to allow control via the keyboard rather than VR.&lt;/p&gt;
-
-&lt;p&gt;When this scene is built, it must have the VR Plugin Management disabled in Player Settings. This then creates an exact copy of the VR scene, in the multiplayer environment, but the player is invisible and unable to affect any change or force on the space - a ghost. When a PC build is created it runs on another PC - the VR character(s) in the space can be viewed along with the results of their actions, i.e. screen/video/formation selection and assignment changes etc., whilst the invisible player can move around using the keyboard.&lt;/p&gt;</content><author><name></name></author><summary type="html">Problem solved</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Out-of-the-box: audio appears to be 2D! During the first realtime testing with the project’s expert stakeholders, i.e. the director and technical director, I was eager to see if audio between players is 3D / spatialised, i.e. can be used to sense distance and direction. Unfortunately, it appeared to be very much 2D and unspatialised; there was no volume roll-off - no matter how near or far apart we were from each other, the volume of the voice was constant.</summary></entry></feed>
