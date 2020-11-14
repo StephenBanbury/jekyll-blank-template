@@ -5,20 +5,23 @@ date: 2020-10-03 01:00
 published: true
 ---
 
-# First Expert Stakeholder Testing
+# First Stakeholder Testing
 
-
-
+**First time in the space for the students**
 <figure class="video_container">
-  <video style="width:720px;" autoplay loop>
+  <video style="width:720px;" autoplay loop muted>
     <source src="\media\GAM750\students-in-the-space-for-first-time-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
 
+**Meeting my client in the space for the first time**
 <figure class="video_container">
-  <video style="width:720px;" autoplay loop>
+  <video style="width:720px;" autoplay loop muted>
     <source src="\media\GAM750\first-test-in-space-with-client.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
+
+
+* **Note**: audio is muted in order to protect individual identities and privacy
