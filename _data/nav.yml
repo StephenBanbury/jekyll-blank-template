@@ -147,6 +147,12 @@ toc:
       - page: Agile, Testing And Immediacy
         date: 2020-11-02
         url: 2020/11/02/requests-for-immediate-action.html
+      - page: Teleportation Revisited
+        date: 2020-11-09
+        url: 2020/11/09/teleportation.html
+      - page: Multiplayer Persistence
+        date: 2020-11-12
+        url: 2020/11/12/persisting-multiplayer.html
 
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:

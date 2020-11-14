@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-02T00:32:18+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">The Screen Panel Button Revisited</title><link href="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html" rel="alternate" type="text/html" title="The Screen Panel Button Revisited" /><published>2020-11-01T00:00:00+00:00</published><updated>2020-11-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/01/screen-panel-trigger-button-2</id><content type="html" xml:base="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html">&lt;p&gt;I have modified the screen panel’s action as a &lt;em&gt;‘button’&lt;/em&gt;. Further modification, functionality and refinement to come…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-14T17:52:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Persisting Multiplayer State</title><link href="http://localhost:4000/2020/11/12/persisting-multiplayer.html" rel="alternate" type="text/html" title="Persisting Multiplayer State" /><published>2020-11-12T00:00:00+00:00</published><updated>2020-11-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/12/persisting-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/11/12/persisting-multiplayer.html">&lt;h1 id=&quot;when-players-join-late&quot;&gt;When players join late&lt;/h1&gt;
+&lt;p&gt;When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.&lt;/p&gt;
+
+&lt;p&gt;However, what if a player joins late? They will have missed the series of actions that has led to what the other players see in their shared environment. Only the latest action will be stored and ‘known’ about by the multiplayer engine, as only the last action is held in the Normcore datastore. The player will, therefore, only see the latest video to be added.&lt;/p&gt;
+
+&lt;h1 id=&quot;a-standard-solution&quot;&gt;A standard solution&lt;/h1&gt;
+&lt;p&gt;I considered how this could be corrected. The ‘usual’ way to deal with this would be for the joining player to query one of the existing players - without their knowledge, of course - in order to find out what screens have so far been affected. I can see that this approach would could result in certain problems and is not necessarily an ideal solution: which player would you query? Have they all been there since the start? If not, you’d need to find out which had been. Either that, or they’d all have to be updated with the full set of changes, which would be load on resources. Where would this data be stored - locally?&lt;/p&gt;
+
+&lt;h1 id=&quot;realtimearray&quot;&gt;RealtimeArray&lt;/h1&gt;
+
+&lt;p&gt;Normcore has a special model type that holds an &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/reference/serialization-realtimearray.html&quot;&gt;array of realtime models&lt;/a&gt;&lt;/strong&gt;. I’d been using realtime models so far to keep data syncronised between clients. Each model can be seen as a class model comrising a number of primative data types. The &lt;em&gt;RealtimeArray&lt;/em&gt; holds an array of such models. This is &lt;strong&gt;exactly&lt;/strong&gt; what I have been looking for!&lt;/p&gt;
+
+&lt;p&gt;Normcore describes the RealtimeArray thus: -&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is designed to be a sequential list of models that can be modified at runtime.&lt;br /&gt;
+Modifying the array sends the minimal amount of information necessary for other clients to replicate the change. The whole collection is not sent every time.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Normcore tutorial &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/xr-guides/creating-a-multiplayer-drawing-app.html&quot;&gt;Creating a multiplayer drawing app&lt;/a&gt;&lt;/strong&gt; demonstrates the use of a RealtimeArray. It does not use it in exactly the same way, so there is a real to fully understand the concept in order to use it in your own project, but once it had ‘clicked’, it made absolute sense.&lt;/p&gt;
+
+&lt;p&gt;Now, if a player joins in late, they are updated with all the screen video changes that have been made from the start.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\persist-all-screens-for-connecting-player.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There is an issue with a delay while the joining player’s environment is updated - this is not helped by the fact that, for each screen, a video has begin streaming from a remote location accessed from its URL. If the videoes were local this would be a lot quicker.&lt;/p&gt;
+
+&lt;h1 id=&quot;realtimeset&quot;&gt;RealtimeSet&lt;/h1&gt;
+
+&lt;p&gt;Normcore has another special model type called a &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/reference/serialization-realtimeset.html&quot;&gt;RealtimeSet&lt;/a&gt;&lt;/strong&gt;. This may speed up things - I will attempt to replace the RealtimeArray with the RealtimeSet in due course.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RealtimeSet is a special model type that can be used in your own custom models. It represents an unordered collection of models. Internally this is used for things like keeping track of all RealtimeViews in the scene. If order is not important, this collection is the recommended collection to use for storing collections of models.&lt;br /&gt;
+Adding or removing items sends the minimal amount of information to the server in order to perform the update on all clients. The whole collection is not sent every time.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have not yet managed to test this with live video streams from performers’ webcams, so there may be some work to be done here. But the theory is the same, so it should work with, hopefully, the minimum of tweaking.&lt;/p&gt;</content><author><name></name></author><summary type="html">When players join late When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.</summary></entry><entry><title type="html">Teleportation In Action</title><link href="http://localhost:4000/2020/11/09/teleportation.html" rel="alternate" type="text/html" title="Teleportation In Action" /><published>2020-11-09T00:00:00+00:00</published><updated>2020-11-09T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/09/teleportation</id><content type="html" xml:base="http://localhost:4000/2020/11/09/teleportation.html">&lt;h1 id=&quot;finally-teleportation-is-working&quot;&gt;Finally! Teleportation is working&lt;/h1&gt;
+
+&lt;p&gt;It’s taken a bit of time getting here - I estimate I &lt;a href=&quot;/2020/10/27/multi-space-4.html&quot;&gt;&lt;strong&gt;spent the best part of two days&lt;/strong&gt;&lt;/a&gt; trying to get teleportation between ‘scenes’ working - but now it’s finally up and running.&lt;/p&gt;
+
+&lt;p&gt;The solution turned out to be fairly simple:&lt;/p&gt;
+
+&lt;p&gt;disable both the OVRPlayerCharacter and the OVRSampleScene =&amp;gt; Move the player =&amp;gt; re-enable the OVR objects&lt;/p&gt;
+
+&lt;p&gt;I found this only worked if enough time was allowed surrounding the various part of this series - without a delay which the actions take place, the player appears to get stuck and no teleportation happens. For this reason, &lt;strong&gt;I placed the method into a coroutine&lt;/strong&gt;, which adds a short delay after the OVR objecs have been disabled, and then another delay after the teleport itself has occured, but before the re-enabling of the OVR objects.&lt;/p&gt;
+
+&lt;p&gt;I added a sound effect for teleportation to add to the experience. When time allows, I will look at some kind of visual effect too.. perhaps putting a ‘box’ over the player’s head for those seconds during teleportation - I could have fun with the lights and graphics inside the box!&lt;/p&gt;
+
+&lt;h2 id=&quot;stop-press&quot;&gt;STOP PRESS!&lt;/h2&gt;
+
+&lt;p&gt;It’s still not working correctly.&lt;/p&gt;
+
+&lt;p&gt;I can teleport between a few scenes with no apparent problem, but then, suddenly, the next location will be outside the intended scene, i.e. not true to the coordinates given. At its worse, I could find myself some distance away from the main play ares, or even off the groung plane entirely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teleportation issue&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\teleportation-issue-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;fixed&quot;&gt;Fixed!&lt;/h1&gt;
+
+&lt;p&gt;The problem was that the player was nested within a container game object. It was this object that was being teleported to new locations, rather than the player object itself. It seems the relative coordinates of the game object, &lt;strong&gt;local&lt;/strong&gt; to the containing object, were becoming increasingly distorted the more moves that were made. Now, having removed the player from the container and applied the spawn point teleportation coordinates directly, the problem appears to have vanished.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Teleportation working&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\teleportation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Finally! Teleportation is working</summary></entry><entry><title type="html">Testing, Agile And Immediacy</title><link href="http://localhost:4000/2020/11/02/requests-for-immediate-action.html" rel="alternate" type="text/html" title="Testing, Agile And Immediacy" /><published>2020-11-02T00:00:00+00:00</published><updated>2020-11-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/02/requests-for-immediate-action</id><content type="html" xml:base="http://localhost:4000/2020/11/02/requests-for-immediate-action.html">&lt;p&gt;Sometimes, no matter how one tries to adhere to the on-going march of the rolling sprint process, where tasks have been planned and set out for attention in a rational and (hopefully) realistic fashion, a requirement comes in from the client/stakeholder that needs to be given full attention as a matter of urgency or, at least, as something that has been newly added to the backlog with the highest priority possible, meaning it trumps all other tasks in the &lt;em&gt;‘In Progress’&lt;/em&gt; column.&lt;/p&gt;
+
+&lt;h1 id=&quot;continual-testing&quot;&gt;Continual testing&lt;/h1&gt;
+
+&lt;p&gt;One could argue that these should have been thought of earlier in the planning process, and there is probably probably some truth in this. But it is not always practical or allows for the lack of time, patience or experience with Agile practice. In any case, the fact that this pushes the iterative and immediacy of agile, only goes to highlight its true worth as a development management tool! But this also shows one of the benefits of continual &lt;em&gt;testing&lt;/em&gt; during development. Again, normally one would add the results of testing to tasks for the next sprint, but this is not always feasible. In this case, this is because the product is being used in a real and practical sense by the students, and time is against them as much as it is against me, as developer!&lt;/p&gt;
+
+&lt;h1 id=&quot;requests-turned-around-in-no-time&quot;&gt;Requests turned around in no time&lt;/h1&gt;
+
+&lt;p&gt;This morning I received a request for: -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;numbers above the screens to help students with their selections and avoid a sense of randomness&lt;/li&gt;
+  &lt;li&gt;video displays to be turned 90 degrees, in an attempt to prevent the elongation resulting from the video clips being stretched in order to fit the tall screen displays. The idea is that if they are tilted on their side, live and recorded content can be done with the freedom to also tilt cameras and videa can then be ‘projected’ onto the screens with the tilt corrected. I have yet to be convinced this will work!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These two requests were actioned very quickly and added to the release of the latest build, which contains the multispace, video streaming and screen trigger work done over the past week. If nothing else, turning things around this quickly helps with the building of trust between developer and stakeholder.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Multi-space, screen triggers, video streaming, screen numbers and alternative screen orientation&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\multispace-triggers-numbers-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">Sometimes, no matter how one tries to adhere to the on-going march of the rolling sprint process, where tasks have been planned and set out for attention in a rational and (hopefully) realistic fashion, a requirement comes in from the client/stakeholder that needs to be given full attention as a matter of urgency or, at least, as something that has been newly added to the backlog with the highest priority possible, meaning it trumps all other tasks in the ‘In Progress’ column.</summary></entry><entry><title type="html">The Screen Panel Button Revisited</title><link href="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html" rel="alternate" type="text/html" title="The Screen Panel Button Revisited" /><published>2020-11-01T00:00:00+00:00</published><updated>2020-11-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/01/screen-panel-trigger-button-2</id><content type="html" xml:base="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html">&lt;p&gt;I have modified the screen panel’s action as a &lt;em&gt;‘button’&lt;/em&gt;. Further modification, functionality and refinement to come…&lt;/p&gt;
 
 &lt;p&gt;A problem up until this point in time has been the tendency for the screens to react to the present of the players’ hand in its collider when this has not been the desired effect, such as just getting the way of the screens as they move due to animation of formation changes.&lt;/p&gt;
 
@@ -6,8 +107,8 @@
 
 &lt;ul&gt;
   &lt;li&gt;Left hand + left trigger = random screen formation change&lt;/li&gt;
-  &lt;li&gt;Right hand _ right trigger = random video clip selection&lt;/li&gt;
-  &lt;li&gt;Left + right hands + left + right triggers = allow the player to exit the scene through the screen.&lt;/li&gt;
+  &lt;li&gt;Right hand + right trigger = random video clip selection&lt;/li&gt;
+  &lt;li&gt;Left, right or both hands + left + right triggers =  open a portal allowing the player to exit the scene through the screen.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The latter option raises the screen’s mesh collider, thus allowing the player to pass through. This is written into a coroutine and allows 3 seconds before the ‘door’ is closed again and access is once again denied.&lt;/p&gt;
@@ -161,7 +262,25 @@
 
 &lt;p&gt;First port of call, though, will be to research, to try to find something about this online.&lt;/p&gt;
 
-&lt;p&gt;As The Terminator once famously said, &lt;strong&gt;I’ll be back…&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Actions</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Actions" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
+&lt;p&gt;As The Terminator once famously said, &lt;strong&gt;I’ll be back…&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
+
+&lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=yt0Hnxz31V0&lt;/p&gt;
+
+&lt;p&gt;Interesting talk about VR, immersion, VR experience&lt;/p&gt;
+
+&lt;p&gt;Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition&lt;/p&gt;
+
+&lt;p&gt;Social platofmr tent to attract social groupins that match other social contexts&lt;/p&gt;
+
+&lt;p&gt;Altspace (19:30)&lt;/p&gt;
+
+&lt;p&gt;Hubs by Mozilla (22.30)
+    no headset required
+    more about creating your own personona
+    more control, build from scratch
+    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Actions</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Actions" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
 
 &lt;p&gt;Spawning scenes, including screen formations, is just the start. How do you control the screen formations and the video projections and live video feeds for each individiual screen?&lt;/p&gt;
 
@@ -181,168 +300,4 @@ This is a method I could end up working with.&lt;/p&gt;
 
 &lt;p&gt;I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!&lt;/p&gt;
 
-&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
-
-&lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=yt0Hnxz31V0&lt;/p&gt;
-
-&lt;p&gt;Interesting talk about VR, immersion, VR experience&lt;/p&gt;
-
-&lt;p&gt;Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition&lt;/p&gt;
-
-&lt;p&gt;Social platofmr tent to attract social groupins that match other social contexts&lt;/p&gt;
-
-&lt;p&gt;Altspace (19:30)&lt;/p&gt;
-
-&lt;p&gt;Hubs by Mozilla (22.30)
-    no headset required
-    more about creating your own personona
-    more control, build from scratch
-    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Spawning The Screens</title><link href="http://localhost:4000/2020/10/24/multi-space-2.html" rel="alternate" type="text/html" title="Spawning The Screens" /><published>2020-10-24T00:00:00+01:00</published><updated>2020-10-24T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/24/multi-space-2</id><content type="html" xml:base="http://localhost:4000/2020/10/24/multi-space-2.html">&lt;h1 id=&quot;creating-multiple-scenes-from-an-orginal-template&quot;&gt;Creating multiple scenes from an orginal template&lt;/h1&gt;
-
-&lt;p&gt;Having given the concept of mutlple spaces some thought, where each space represents a &lt;em&gt;scene&lt;/em&gt; in the multiplayer theatre environment, it became clear that I could make use of the existing infrastructure I have already put in place (see &lt;strong&gt;&lt;a href=&quot;/2020/09/01/creating-the-screens-1.html&quot;&gt;Creating the screens 1&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&quot;/2020/09/03/creating-the-screens-2.html&quot;&gt;Creating the screens 2&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
-
-&lt;p&gt;This method uses a class model for each screen formation, comprising definitions for the postition and rotation of each of the sixteen screen display panels within the respective formation. This information is then used when instantiating, or &lt;em&gt;spawning&lt;/em&gt;, the formation. Animations are created by &lt;em&gt;tweening&lt;/em&gt; between the previous formation’s positioning data and that of the next formation. This has, thus far, been happening in a single location, i.e. that set in each formation’s respective model.&lt;/p&gt;
-
-&lt;p&gt;Taking this concept and applying it to the creating of a second (or third or fourth etc.) formation, it becomes clear that the existing definitions can be used as a template, with an &lt;em&gt;offset&lt;/em&gt; applied in order to translate the positional information from the original formation to another in another place within the world space.&lt;/p&gt;
-
-&lt;p&gt;This approach requires a set of definitions for the locations of each scene within the world space. If the original scene is set at &lt;em&gt;Vector3(0, 0, 0)&lt;/em&gt;, then the second scene can exist at &lt;em&gt;Vector3(20, 0, 0)&lt;/em&gt;, and the third at &lt;em&gt;Vector3(20, 0, 20)&lt;/em&gt; etc. 
-It is then simply a case of applying this information in order to offset the original formation’s positional data. The rotations must remain the same as we do not want the screens to change direction!
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Transversing the multispace&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\transverse-multispace-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scene position definitions within the world space&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\GetScenePosition-1.JPG&quot; alt=&quot;GetScenePosition&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Screen formations, showing screen positions offset by selected scene postition&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\ScreenFormationService-1.JPG&quot; alt=&quot;ScreenFormationService&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Scene detail model, showing how each scene comprises a scene position in world space, a screen formation definition, and references to the actual screens that have been instantiated&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\SceneDetailModel.JPG&quot; alt=&quot;SceneDetailModel&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Screen position model for each individual screen&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\ScreenFormationModel.JPG&quot; alt=&quot;SceneDetailModel&quot; /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Code behind the multispace&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\multispace-code-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Creating multiple scenes from an orginal template</summary></entry><entry><title type="html">The ‘Multiverse’</title><link href="http://localhost:4000/2020/10/23/multi-space-1.html" rel="alternate" type="text/html" title="The 'Multiverse'" /><published>2020-10-23T00:00:00+01:00</published><updated>2020-10-23T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/23/multi-space-1</id><content type="html" xml:base="http://localhost:4000/2020/10/23/multi-space-1.html">&lt;p&gt;&lt;img src=&quot;\images\GAM750\lightbulb.jpg&quot; alt=&quot;Lightbulb&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;thinking-about-multiple-spaces&quot;&gt;Thinking about multiple spaces&lt;/h1&gt;
-
-&lt;p&gt;I’ve just had an interesting thought, as a respone to the problem of creating multiple &lt;em&gt;‘spaces’&lt;/em&gt;, which players can move between, at times that will be decided later.&lt;/p&gt;
-
-&lt;p&gt;If an &lt;em&gt;‘environment’&lt;/em&gt; can be spawned as an object, and accessed through a set of methods and properties etc., then this will greatly ease the way in which a player can be ‘dropped’ into the space and interect with the objects that are present within it.&lt;/p&gt;
-
-&lt;p&gt;In a way, this is similar to creating multiple &lt;em&gt;scenes&lt;/em&gt; in Unity, except that these exist as entities within the same single scene.  In this form, therefore, they can exploit an outward facing &lt;em&gt;interface&lt;/em&gt; in order to interact with a Master Game Controller-type object, that controls the manner of who, what, why, and where a player can exist and function, but only within the specific space that it exists.&lt;/p&gt;
-
-&lt;h1 id=&quot;nice-theory-what-about-the-actualities&quot;&gt;Nice theory, what about the actualities?&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Negative: Could ge difficult at this stage of development, having already put much infrastructure into place.&lt;/li&gt;
-  &lt;li&gt;Positive: It is actually fairly early in development terms given a longer view on the project as a whole and its potential as we move forward&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It would be a task that would include creating an interface for the space, in order to access multiple other interfaces, i.e. per method an property that is part of that space.&lt;/p&gt;
-
-&lt;h1 id=&quot;but-no&quot;&gt;But… no!&lt;/h1&gt;
-
-&lt;p&gt;This idea would not work - I think - because the VR experience is seen from a &lt;strong&gt;first person&lt;/strong&gt; perspective, and all code is run in a similar manner. That is, each individual instance of Unity, running in each headset, will access its own set of game objects and, on each object, a set of components. That individual is &lt;strong&gt;not&lt;/strong&gt; controlling from heaven, but from their own person… on the ground.  The &lt;em&gt;‘God’&lt;/em&gt; concept suggested above, i.e. where control is exerted down on the multispace and controlling eacn individual multiplace, could work as part of a controller interface for the use of &lt;strong&gt;Stage Managers&lt;/strong&gt; and similar roles. But this is looking too complex for this purpose and within the available time frame.&lt;/p&gt;
-
-&lt;p&gt;Therefore, I will maintain this post as a reminder of a possible way to think of this Potential model in the future.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Spatial Audio With Normcore</title><link href="http://localhost:4000/2020/10/18/spatial-audio-with-normcore.html" rel="alternate" type="text/html" title="Spatial Audio With Normcore" /><published>2020-10-18T01:00:00+01:00</published><updated>2020-10-18T01:00:00+01:00</updated><id>http://localhost:4000/2020/10/18/spatial-audio-with-normcore</id><content type="html" xml:base="http://localhost:4000/2020/10/18/spatial-audio-with-normcore.html">&lt;h1 id=&quot;out-of-the-box-audio-appears-to-be-2d&quot;&gt;Out-of-the-box: audio appears to be 2D!&lt;/h1&gt;
-&lt;p&gt;During the first realtime testing with the project’s expert stakeholders, i.e. the director and technical director, I was eager to see if audio between players is 3D / spatialised, i.e. can be used to sense distance and direction. Unfortunately, it appeared to be very much 2D and unspatialised; there was no volume roll-off - no matter how near or far apart we were from each other, the volume of the voice was constant.&lt;/p&gt;
-
-&lt;p&gt;This is a real shame.&lt;/p&gt;
-
-&lt;p&gt;I am now looking into possible solutions for this. I am hoping that is will be as straightforward as a simple setting somewhere, or a case of adding a 3D sound source to the VR player.&lt;/p&gt;
-
-&lt;h1 id=&quot;testing-two-headsets-are-better-than-one&quot;&gt;Testing: two headsets are better than one&lt;/h1&gt;
-&lt;p&gt;Question: How do you test this with only a single headset? 
-Answer: With great difficulty!&lt;/p&gt;
-
-&lt;p&gt;Testing multiplayer environments is not the only reason I bought a new Oculus Quest 2, but it is the main one. Or, at least, it’s a good excuse!&lt;/p&gt;
-
-&lt;p&gt;Not only can I now experience multiplayer applicaitons with family and friends, but I can also test my own developments. Not to mention that the latest model is much faster and has a much better display, at a cheaper price point. Seemed to make sense to me!&lt;/p&gt;
-
-&lt;p&gt;Setting up is a bit of a problem, though, because Facebook now insist that you use a FB account! It is not even possible just to use your old Oculus account - it now must be linked to a FB account, even if you continue to use it only on your current headset. Bad, bad Facebook! This means that, in order to play multiplayer, &lt;strong&gt;I need to sign in on different accounts&lt;/strong&gt;. For this reason, I set up a second FB account attached to a second user on my Android phone. I will have to log into each, separately, and use each account to log into each headset, separately. What a faff!&lt;/p&gt;
-
-&lt;p&gt;Back to the spacial audio issue…&lt;/p&gt;
-
-&lt;h1 id=&quot;first-port-of-call-normcore-discord-server&quot;&gt;First port of call: Normcore Discord server&lt;/h1&gt;
-
-&lt;p&gt;[01-05-2019]&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;if you’re using the built-in spatializer, then you can fix easily by changing this line in AudioOutput.cs:&lt;/p&gt;
-
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data[sOut] = !_mute ? audioData[sIn] : 0.0f;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;just change that to this:&lt;/p&gt;
-
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;data[sOut] *= !_mute ? audioData[sIn] : 0.0f;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the input value to that OnAudioFilterRead() is set up to be 1.0 * whatever attenuation Unity has added to the AudioSource including volume&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;[01-09-2020]&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;I think in V1 I had disabled the built-in spatialization&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;[02-09-2020]&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Question: How do I make the player voice 3D? (e.g. how do i make them louder the closer you are to them, and quieter when you are further away? - by default you can hear people constantly)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;[02-09-2020]&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;take a look at the audio source on your avatar (make sure the “spatial” slider is set to “3d”) and you can muck with the falloff values on there if you want to customize it.
-Unity defaults to 2D, and the falloff range is basically “100% volume up to 5 meters, still audible 100 meters away” or something like that, so it’s definitely tuned for larger spaces.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;[02-09-2020]&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;if you add an audio source RealtimeAvatarVoice will detect it and use it instead of creating one
-you can use SetActive, but you’ll also need to make a custom RealtimeComponent in order to synchronize the active state. Normcore doesn’t synchronize that part for you&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;[04-09-2020]&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;I followed your advice to add an audio source to the RealtimeAvatarVoice gameobject in order to allow the spatial blend of the player’s voice to be 3d, however its still behaving like its 2D - any idea on what could be wrong?
-general/04-09-2020&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;[04-09-2020]&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;if you’re on V1, try making this change:
-&lt;a href=&quot;if you’re on V1, try making this change:
-https://discord.com/channels/393839515074297858/393841777091543052/573241867185946680&quot;&gt;if you’re on V1, try making this change:
-https://discord.com/channels/393839515074297858/393841777091543052/573241867185946680
-&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Out-of-the-box: audio appears to be 2D! During the first realtime testing with the project’s expert stakeholders, i.e. the director and technical director, I was eager to see if audio between players is 3D / spatialised, i.e. can be used to sense distance and direction. Unfortunately, it appeared to be very much 2D and unspatialised; there was no volume roll-off - no matter how near or far apart we were from each other, the volume of the voice was constant.</summary></entry></feed>
+&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry></feed>
