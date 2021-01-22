@@ -1,4 +1,454 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-14T17:52:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Persisting Multiplayer State</title><link href="http://localhost:4000/2020/11/12/persisting-multiplayer.html" rel="alternate" type="text/html" title="Persisting Multiplayer State" /><published>2020-11-12T00:00:00+00:00</published><updated>2020-11-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/12/persisting-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/11/12/persisting-multiplayer.html">&lt;h1 id=&quot;when-players-join-late&quot;&gt;When players join late&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-20T11:52:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Creativity And Virtual Reality</title><link href="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html" rel="alternate" type="text/html" title="Creativity And Virtual Reality" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/creativity-and-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html">&lt;h2 id=&quot;virtual-reality-and-the-enhancement-of-creativity-and-innovation&quot;&gt;Virtual reality and the enhancement of creativity and innovation&lt;/h2&gt;
+
+&lt;p&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/p&gt;
+
+&lt;p&gt;https://connect.springerpub.com/content/sgrjcep/15/1/102&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“perhaps the safest, most fully developed of the emerging technologies of cognitive enhancement”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“an underused tool for the enhancement of creativity”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“researchers, educators, trainers, designers, managers, and others concerned with innovation should be more informed about virtual reality technologies (VRTs) both because of their widespread and growing accessibility and because of the significant, synergistic contributions they can make to human performance and understanding”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“VRTs offer a cost-effective means of implementing and optimizing nearly all conventional individual and collaborative creativity enhancement techniques while also offering potent new possibilities and combinations not available by other means”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“five ways VR can be used to enhance creativity and problem solving: (a) by changing aspects of the self and self-perception; (b) by optimizing interactions and collaboration with others; (c) by optimizing environmental conditions and influences; (d) by facilitating guidance or gamification of the problem-solving process; and (e) by offering an arena for the integration of other technologies of creativity enhancement such as pharmacological enhancement, brain stimulation, and neurofeedback.”&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Virtual reality and the enhancement of creativity and innovation</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
+
+&lt;p&gt;Controller app:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;‘base 10’ video selection buttons&lt;/li&gt;
+  &lt;li&gt;teleport every player to final scene - mutliplayer wire-up&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Final scene:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;360 degree video,&lt;/li&gt;
+  &lt;li&gt;skybox,&lt;/li&gt;
+  &lt;li&gt;teleport to new spawn point some distance away,&lt;/li&gt;
+  &lt;li&gt;remove floor,&lt;/li&gt;
+  &lt;li&gt;move overhead camera with players.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Problem with sound from screen videos - not noticed before as no sound included on videos.&lt;/p&gt;
+
+&lt;p&gt;An annoying problem as there appears to have been a number of changes over the years regarding how to set up audio on video clips. Eventually, a forum thread led to the answer, which is specific for clips playing from URL sources&lt;/p&gt;
+
+&lt;p&gt;https://forum.unity.com/threads/video-player-is-not-playing-audio.486924/&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Audio settings seem to work differently when playing from a clip and from a URL. For playing from a URL, in 2018.1.2f1, the correct sequence to set up the player is this. First, set up the player; player must be stopped for this, and not been Prepare()d yet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// We want to play from a URL.
+// Set the source mode FIRST, before changing audio settings;
+// as setting the source mode will reset those.
+videoPlayer.source = VideoSource.Url;
+
+// Set mode to Audio Source.
+videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
+
+// We want to control one audio track with the video player
+videoPlayer.controlledAudioTrackCount = 1;
+
+// We enable the first track, which has the id zero
+videoPlayer.EnableAudioTrack(0, true);
+
+// ...and we set the audio source for this track
+videoPlayer.SetTargetAudioSource(0, audioSource);
+
+// now set an url to play
+videoPlayer.url = &quot;...some url...&quot;
+Aftwards, in a coroutine, prepare and play:
+
+Code (CSharp):
+videoPlayer.Prepare();
+
+while (!videoPlayer.isPrepared) {
+    yield return new WaitForEndOfFrame();
+}
+
+videoPlayer.Play();
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Out of time for:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;names above players&lt;/li&gt;
+  &lt;li&gt;360 video capture in scenes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Perhaps I’ll find time to add these during the week.&lt;/p&gt;
+
+&lt;p&gt;The 360 videos, in particular, would be helpful for the students to document the work.&lt;/p&gt;</content><author><name></name></author><summary type="html">Last minute changes, fixed etc.</summary></entry><entry><title type="html">Embodiment in Virtual Reality</title><link href="http://localhost:4000/2020/12/05/embodiment-in-virtual-reality.html" rel="alternate" type="text/html" title="Embodiment in Virtual Reality" /><published>2020-12-05T00:00:00+00:00</published><updated>2020-12-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/05/embodiment-in-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/05/embodiment-in-virtual-reality.html">&lt;h2 id=&quot;some-choice-references-and-worthwhile-reading&quot;&gt;Some choice references and worthwhile reading&lt;/h2&gt;
+
+&lt;p&gt;Including the occasional response/thought of my own&lt;/p&gt;
+
+&lt;h1 id=&quot;are-we-already-living-in-virtual-reality&quot;&gt;Are We Already Living in Virtual Reality?&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;A new technology — virtual embodiment — challenges our understanding of who and what we are.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Rothman, J., 2018. Are we already living in virtual reality. The New Yorker.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.newyorker.com/magazine/2018/04/02/are-we-already-living-in-virtual-reality&quot;&gt;https://www.newyorker.com/magazine/2018/04/02/are-we-already-living-in-virtual-reality&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a very interesting read.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“On some level, the brain doesn’t know the difference between real reality and virtual reality. And a character on a 2-D screen is completely different from one that’s your height and looks you in the eye.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With a team of various collaborators, Slater and Sanchez-Vives have created many other-body simulations; they show how inhabiting a new virtual body can produce meaningful psychological shifts. In one study, participants are re-embodied as a little girl. Surrounded by a stuffed bear, a rocking horse, and other toys, they watch as their mother sternly demands a cleaner room. Afterward, on psychological tests, they associate themselves with more childlike characteristics. (When I tried it, under the supervision of the V.R. researcher Domna Banakou, I was astonished by my small size, and by the intimidating, Olympian height from which the mother addressed me.) In another, white participants spend around ten minutes in the body of a virtual black person, learning Tai Chi. Afterward, their scores on a test designed to reveal unconscious racial bias shift significantly. “These effects happen fast, and seem to last,” Slater said. A week later, the white participants still had less racist attitudes. (The racial-bias results have been replicated several times in Barcelona, and also by a second team, in London.) Embodied simulations seem to slip beneath the cognitive threshold, affecting the associative, unconscious parts of the mind. “It’s directly experiential,” Slater said. “It’s not ‘I know.’ It’s ‘I am.’ ”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-we-experience-immersive-virtual-environments-the-concept-of-presence-and-its-measurement&quot;&gt;How we experience immersive virtual environments: the concept of presence and its measurement&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Slater, M., Lotto, B., Arnold, M.M. and Sanchez-Vives, M.V., 2009. How we experience immersive virtual environments: the concept of presence and its measurement. Anuario de psicología, 40(2), pp.193-210.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Slater and Sanchez-Vives&lt;/strong&gt; - these two researchers (who happen to be married) have produced a number of papers that are worth, at the very least, a cursory reading.&lt;/p&gt;
+
+&lt;p&gt;Terms to be researched: out-of-body experiences, body ownership, body transfer illusion.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt;: Emphasis my own&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In a review of the concept of presence in virtual environments and associated literature (Sanchez-Vives &amp;amp; Slater, 2005) it was reported that experimental studies have found that &lt;strong&gt;factors that contribute to high reported presence are mainly concerned with the form of how data is displayed to participants and how they are able to interact, rather than with the level of realism of the displays&lt;/strong&gt;. For example, wide field of view, low latency, high frame-rate, surround sound, haptic feedback, stereo rather than mono displays, head-tracking all seem to contribute to higher reported presence. In addition the ability to interact with the environment making use of whole body interaction in a natural way appears to favour higher reported presence in comparison with “button-press” types of interaction more suited to two-dimensional displays. &lt;strong&gt;What does not seem to be important is high fidelity visual realism&lt;/strong&gt;. For example, a person giving a talk in an immersive virtual environment to an audience of virtual characters who appear to be responding to the talk is likely to react to the behaviour of the virtual characters as if they were real –in spite of the absolute knowledge that there is no audience there, and in spite of the low level of realism of the characters (Pertaub et al., 2002).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Sanchez-Vives, M.V. and Slater, M., 2005. From presence to consciousness through virtual reality. Nature Reviews Neuroscience, 6(4), pp.332-339.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pertaub, D.P., Slater, M. and Barker, C., 2002. An experiment on public speaking anxiety in response to three different types of virtual audience. Presence: Teleoperators &amp;amp; Virtual Environments, 11(1), pp.68-78.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-sense-of-embodiment-in-virtual-reality&quot;&gt;The Sense of Embodiment in Virtual Reality&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mitpressjournals.org/doi/abs/10.1162/PRES_a_00124&quot;&gt;https://www.mitpressjournals.org/doi/abs/10.1162/PRES_a_00124&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Kilteni, K., Groten, R. and Slater, M., 2012. The sense of embodiment in virtual reality. Presence: Teleoperators and Virtual Environments, 21(4), pp.373-387.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What does it feel like to own, to control, and to be inside a body? The multidimensional nature of this experience together with the continuous presence of one’s biological body, render both theoretical and experimental approaches problematic. Nevertheless, exploitation of immersive virtual reality has allowed a reframing of this question to whether it is possible to experience the same sensations towards a virtual body inside an immersive virtual environment as toward the biological body, and if so, to what extent. The current paper addresses these issues by referring to the Sense of Embodiment (SoE). Due to the conceptual confusion around this sense, we provide a working definition which states that SoE consists of three subcomponents: the sense of self-location, the sense of agency, and the sense of body ownership. Under this proposed structure, measures and experimental manipulations reported in the literature are reviewed and related challenges are outlined. Finally, future experimental studies are proposed to overcome those challenges, toward deepening the concept of SoE and enhancing it in virtual applications.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is not accessible without payment, but the three main ‘subcomponents’ are worth considering and exploring: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;the sense of self-location&lt;/li&gt;
+  &lt;li&gt;the sense of agency&lt;/li&gt;
+  &lt;li&gt;the sense of body ownership&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;an-in-the-wild-experiment-on-presence-and-embodiment-using-consumer-virtual-reality-equipment&quot;&gt;An ‘In the Wild’ Experiment on Presence and Embodiment using Consumer Virtual Reality Equipment&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/7383331&quot;&gt;https://ieeexplore.ieee.org/abstract/document/7383331&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Steed, A., Frlston, S., Lopez, M.M., Drummond, J., Pan, Y. and Swapp, D., 2016. An ‘in the wild’experiment on presence and embodiment using consumer virtual reality equipment. IEEE transactions on visualization and computer graphics, 22(4), pp.1406-1414.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“a study on presence and embodiment within virtual reality”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“a self-avatar had a positive effect on self-report of presence and embodiment”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;connected-to-my-avatar&quot;&gt;Connected to my avatar&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Biocca, F., 2014, June. Connected to my avatar. In International Conference on Social Computing and Social Media (pp. 421-429). Springer, Cham.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We review some of psychological effects of avatar identification and embodiment including evidence of the effects of avatar identification and embodiment on changes in behavior, arousal, learning, and self-construal. Furthermore, some avatar based changes in perception, cognition, and behavior may carry over and extend into changes into user’s real world perception and behavior&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-immersive-is-enough-a-meta-analysis-of-the-effect-of-immersive-technology-on-user-presence&quot;&gt;How Immersive Is Enough? A Meta-analysis of the Effect of Immersive Technology on User Presence&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Cummings, J.J. and Bailenson, J.N., 2016. How immersive is enough? A meta-analysis of the effect of immersive technology on user presence. Media Psychology, 19(2), pp.272-309.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The concept of presence, or “being there” is a frequently emphasized factor in immersive mediated environments. It is often assumed that greater levels of immersive quality elicit higher levels of presence, in turn enhancing the effectiveness of a mediated experience…
+results show that increased levels of user-tracking, the use of stereoscopic visuals, and wider fields of view of visual displays are significantly more impactful than improvements to most other immersive system features, including quality of visual and auditory content&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;paint-with-me-stimulating-creativity-and-empathy-while-painting-with-a-painter-in-virtual-reality&quot;&gt;Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“On March 25, 2014, Facebook CEO and Founder Mark Zuckerberg announced that Facebook had purchased Oculus VR, the leader in virtual reality technology. In his announcement, Zuckerberg suggests that virtual reality will be the new platform for social media, enabling a more personal and immersive exchange of experiences. Marc Andreessen, an Oculus VR angel investor, proclaims that the Oculus will “redefine fundamental human experiences.” (Oculus Blog, December 13, 2013) “&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Termed “embodied experiences” (Ahn, Le, &amp;amp; Bailenson, 2015) or “embodied simulations (Bertrand, Franco, Pointeau, &amp;amp; Cherene, 2014), immersive virtual environment technology (IVET) can allow users to embody the first-person point-of-view of another person while seeing and hearing sounds from the experiential locus of another person, as though the viewer can wear another person’s sensory apparatus. This simulation allows for the illusion of being in another person’s shoes and embodying their perspective, a situation perhaps best represented by Spike Jonze’s 2006 film Being John Malkovich, wherein characters enter a portal that allows them to see, feel, and hear through John Malkovich’s body. Because this new communication medium allows people to share a new mode of access one another’s experiences, this study hypothesizes that it can facilitate greater intimacy, understanding, and empathy.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the opening quote, David Foster Wallace summarizes one of the greatest obstacles of human communication: the attempt to translate the felt immediacy of first-person experience to someone else, and to moreover understand someone else’s experience. Wallace states that all of our experiences are rendered through an embodied point of view, and that this orientation places the subject at the center of his or her experiences. However, recent advances in filmed, streamed, and simulated virtual reality environments allow subjects to see first-personally from the point-of-view of another person, character, or avatar. Thus, in this sense, it could be argued that through this technology it is now possible to have exactly the type of experience that Wallace suggests our day-to-day mode of being occludes: an experience in which a person is not the absolute center of their own experience. Instead, through this technology the individual is placed in the center of someone else’s experience. This inductive study explores how this virtual simulation can transform our ability to relate to and learn from one another.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;My thoughts: -&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“one of the greatest obstacles of human communication: the attempt to translate the felt immediacy of first-person experience to someone else, and to moreover understand someone else’s experience”… “all of our experiences are rendered through an embodied point of view, and that this orientation places the subject at the center of his or her experiences”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The experience of the ‘player’ in the mutlplayer environment can not be completely replicated and expererienced in exactly the same way, but it is important to at least replicate the environment as near to exactly for all participants. It is then possible to share the player-manipulations of this environment, so as to share in the experience, and some form of common language in order to describe the experience. This became a hugely important factor when ensuring that, not only each player within the space experienced everything exactly the same as any other, but also, those who are responsible for manipulating the space and, therefore, the experience of those within the space, should not be removed any degree more than is absolutely necessary. The controller, as designed, therefore, is an attempt to allow exertion of control and manipulation, but at the same time, removing, or at least reducing, the distance and potential separation, between stage management, performer, and audience.&lt;/p&gt;
+
+&lt;p&gt;Here, we are not ‘just’ experiencing someone else’s experience,  this is our own experience, experienced for ourselves. Yet, perhaps, it is the inexcapable distance held between the player and their avatar, within the virtual space, that allows a degree of consideration and contemplation of the particular cicumstances of that ‘other’ entity, which would otherwise be difficult to separate from first-person experience, that allows a degree of objectivity to come into play in an area where the subjectivity of the first person would normally cloud any potential, deep understanding of a potential connection between the player and their environment.&lt;/p&gt;
+
+&lt;p&gt;I don’t know, perhaps this is over-thought and overblown. But we are certainly finding ourselves in a place where worlds can be created and experienced at first-hand, as an individual inseperably part of them, able to interact and affect them, but yet also emphasising one’s removal from the real physical world that allows us to breath, eat, flurish and also to fall ill, starve, suffocate and die. Evocations of empathy and a creative, collaborative response to these virtual surroundings, is not difficult to imagine. In fact, imagination is all but provided for and stiumulated, in much the same way that it would be in any ‘immersive’ environment. Perhaps the main difference here is that of ‘agency’, the ability to make changes and to be involved in the creation, to varying levels, of the environment itself.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The distance between the placement and experience of the user’s avatar and the somewhat contrived and artificial situation in which they find themselves, unexpectedly provides a sense of hightened reality; perhaps this is because the limited control afforded and the resulting sense of helplessness combine to emphasise feelings of vulnerability; and vulnerability makes one somehow feel ‘alive’.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Virtual social media has recently placed emphasis on the individuality of the avatar, but perhaps this aspect gets in the way of experiencing the performance itself, as the main attraction.  I have certainly felt this to be the case when attending viewings of performances in such social media platforms as AltspaceVr and VRChat.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reflecting-on-the-shelterbox-project&quot;&gt;Reflecting on the ShelterBox project&lt;/h1&gt;
+
+&lt;p&gt;Empathy is a condition that I explored in my previous project - a gamified simulation of preparing and deploying overseas disaster-releaf aid for the charity, ShelterBox. The idea of seeing something from someone else’s perspective, experiencing and sharing problems they encounter in their own specific situation, can invoke and enhance feelings of empathy.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;communication-applications-of-virtual-reality&quot;&gt;Communication Applications of Virtual Reality&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;F. Biocca and M. R. Levy, “Communication Applications of Virtual Reality”, Communication in the age of virtual reality, pp. 127-157, 1995.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Some choice references and worthwhile reading</summary></entry><entry><title type="html">The Controller App</title><link href="http://localhost:4000/2020/12/03/controller-app-coming-together.html" rel="alternate" type="text/html" title="The Controller App" /><published>2020-12-03T00:00:00+00:00</published><updated>2020-12-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/03/controller-app-coming-together</id><content type="html" xml:base="http://localhost:4000/2020/12/03/controller-app-coming-together.html">&lt;p&gt;It’s starting to come together.&lt;/p&gt;
+
+&lt;p&gt;More efficient: -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;not attempting to update screens if they already are showing the correct video&lt;/li&gt;
+  &lt;li&gt;not updating individual screens and then adding to realtime array - now only realtime array is updated, which fires the event in the other clients and updates their arrays.&lt;/li&gt;
+  &lt;li&gt;Use local ‘buffer’ for screen media, which is synced locally with RealtimeArray. If an item exists in the RealtimeArray and in the buffer, there is no need to process it at all when a model is added by a remote client. If a player joins late, their local buffer is compared to see what is missing.&lt;/li&gt;
+  &lt;li&gt;Added screen portal - also uses a buffer. Portal can be set to on for any screen in any scene. Setting it to ‘off’ is a problem at the moment, as RealtimeArray does not have a ‘didChange’ event. There must be a way, but for now I’m having to set it to off locally, and it updates remotely only when another portal is added because a new model is added to the array.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All in all, things are much quicker, with little lag, and screens no longer go blank before having video assigned.&lt;/p&gt;
+
+&lt;p&gt;Also: -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added ability to move and rotate overhead camera.&lt;/li&gt;
+  &lt;li&gt;Added VR player, which connects to the VR player’s room and thus is instantiated by remote VR clients and shown in the controller app. This is really very interesting, giving a feeling of &lt;strong&gt;‘god-like’&lt;/strong&gt; control over the VR players’ world!&lt;/li&gt;
+  &lt;li&gt;Made players emissive yellow for clarity&lt;/li&gt;
+  &lt;li&gt;Instantiating buttons - started with Agora video stream channels as they are created and destroyed.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">It’s starting to come together.</summary></entry><entry><title type="html">Simulator Sickness</title><link href="http://localhost:4000/2020/12/01/simulator-sickness.html" rel="alternate" type="text/html" title="Simulator Sickness" /><published>2020-12-01T00:00:00+00:00</published><updated>2020-12-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/01/simulator-sickness</id><content type="html" xml:base="http://localhost:4000/2020/12/01/simulator-sickness.html">&lt;h1 id=&quot;keywords&quot;&gt;Keywords:&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simulator sickness&lt;/li&gt;
+  &lt;li&gt;Cybersickness&lt;/li&gt;
+  &lt;li&gt;Vergence accommodation conflict&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;beyond-feeling-sick-the-visual-and-cognitive-aftereffects-of-virtual-reality&quot;&gt;Beyond Feeling Sick: The Visual and Cognitive Aftereffects of Virtual Reality&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Szpak, A., Michalski, S.C., Saredakis, D., Chen, C.S. and Loetscher, T., 2019. Beyond feeling sick: The visual and cognitive aftereffects of virtual reality. IEEE Access, 7, pp.130883-130892.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/8827502&quot;&gt;https://ieeexplore.ieee.org/abstract/document/8827502&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The authors of this study investigate &lt;em&gt;‘visual and cognitive aftereffects of using HMDs and their relationship to the reporting of sickness’&lt;/em&gt;, concentrating on two areas: &lt;em&gt;‘Visual (accommodation and vergence) and cognitive (reaction time and rapid visual processing)’&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Despite continued improvements in virtual reality (VR) technologies, many people still experience adverse symptoms from using head-mounted displays (HMDs)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It has been noted by this study that there are discernable aftereffects from engagin in a VR experience:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cognitive effects include changes in decision times that may be related to alertness and attention&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is aslo noted that this is a relatively recent area of study. Personally, I am slightly surprised that the authors are surprised, seeing that VR itself is a relatively new development - in particular, as a popular form of entertainment. Most work until recently has been concentrated on the development of the technology, rather than its potential limitations. It may be that the warnings that have been placed by manufacturers on commercial VR devices are there to ‘cover’ themselves - perhaps they know that there may be some kind of effect, but do not yet understand what that effect is.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Despite the recent popularity of HMDs, it is surprising that little is known about the visual and cognitive aftereffects of using VR in HMDs. Particularly, given that most if not all commercial VR devices come with safety warnings and list of visual and cognitive symptoms a user may experience during or post-exposure to VR content&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;vergenceaccommodation-conflicts-hinder-visual-performance-and-cause-visual-fatigue&quot;&gt;Vergence–accommodation conflicts hinder visual performance and cause visual fatigue&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Hoffman, D.M., Girshick, A.R., Akeley, K. and Banks, M.S., 2008. Vergence–accommodation conflicts hinder visual performance and cause visual fatigue. Journal of vision, 8(3), pp.33-33.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jov.arvojournals.org/article.aspx?articleid=2122611&quot;&gt;https://jov.arvojournals.org/article.aspx?articleid=2122611&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The title of this paper probably says it all!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unfortunately, 3D displays often yield distortions in perceived 3D structure compared with the percepts of the real scenes the displays depict. A likely cause of such distortions is the fact that computer displays present images on one surface. Thus, focus cues—accommodation and blur in the retinal image—specify the depth of the display rather than the depths in the depicted scene. Additionally, the uncoupling of vergence and accommodation required by 3D displays frequently reduces one’s ability to fuse the binocular stimulus and causes discomfort and fatigue for the viewer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;virtual-reality-games-on-accommodation-and-convergence&quot;&gt;Virtual reality games on accommodation and convergence&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Elias, Z.M., Batumalai, U.M. and Azmi, A.N.H., 2019. Virtual reality games on accommodation and convergence. Applied ergonomics, 81, p.102879.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Increasing popularity of virtual reality (VR) gaming is causing increased concern, as prolonged use induces visual adaptation effects which disturbs normal vision. Effects of VR gaming on accommodation and convergence of young adults by measuring accommodative response and phoria before and after experiencing virtual reality were measured. An increase in accommodative response and a decrease in convergence was observed after immersion in VR games. It was found that visual symptoms were apparent among the subjects post VR exposure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;developing-visual-systems-and-exposure-to-virtual-reality-and-stereo-displays-some-concerns-and-speculations-about-the-demands-on-accommodation-and-vergence&quot;&gt;Developing visual systems and exposure to virtual reality and stereo displays: some concerns and speculations about the demands on accommodation and vergence&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Rushton, S.K. and Riddell, P.M., 1999. Developing visual systems and exposure to virtual reality and stereo displays: some concerns and speculations about the demands on accommodation and vergence. Applied Ergonomics, 30(1), pp.69-78.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There is, however, some indication that long-term VR viewing
+in adults can lead to visual problems. It seems important to determine the safety of these systems for the developing human visual
+system before they come into common use&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;… this was 1998!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;resolving-the-vergence-accommodation-conflict-in-head-mounted-displays&quot;&gt;Resolving the Vergence-Accommodation Conflict in Head-Mounted Displays&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Kramida, G., 2015. Resolving the vergence-accommodation conflict in head-mounted displays. IEEE transactions on visualization and computer graphics, 22(7), pp.1912-1931.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The vergence-accommodation conflict (VAC) remains a major problem in head-mounted displays for virtual and augmented reality (VR and AR).&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Keywords: Simulator sickness Cybersickness Vergence accommodation conflict</summary></entry><entry><title type="html">The Controller App - Problems, Issues, Headaches</title><link href="http://localhost:4000/2020/11/30/problems-with-controller-app.html" rel="alternate" type="text/html" title="The Controller App - Problems, Issues, Headaches" /><published>2020-11-30T00:00:00+00:00</published><updated>2020-11-30T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/30/problems-with-controller-app</id><content type="html" xml:base="http://localhost:4000/2020/11/30/problems-with-controller-app.html">&lt;p&gt;This is the non-OSC version. Should I have stuck with OSC? The fact that it did not appear to work for the testers in the studio made me a bit queezy about perservering for too long. The Idea of hooking it up with Normcore was quite appealing, as I imagined ‘simply’ adapting the existing VR controller panels to work as a stand-alone app, controlling the whole virtual space.&lt;/p&gt;
+
+&lt;p&gt;Original UI-only app was not firing updates to other clients.&lt;/p&gt;
+
+&lt;p&gt;I copied the code-base from the VR app into a new project, brought in the original 2D controller UI scene, and wired it all up. This is very promising. Events are firing in the other clients - although a lot of work will need to be done to make this work seemlessly and slickly - and, probably best of all, I can superimpose the 2D UI on top of a scene created by an overhead camera displaying the whole space. It would be nice to be able to control the camera too - this is for another day!&lt;/p&gt;
+
+&lt;p&gt;Problems with delay - the delay on the VR client is unacceptable.&lt;/p&gt;
+
+&lt;p&gt;Some duplication was removed - originally, when a video clip or stream was assigned to a screen, the action would take place and the realtime datastore was updated for that specific individual action, meaning that the clients would also be updated with the specific individual action.&lt;/p&gt;
+
+&lt;p&gt;As I am now using RealtimeArray for the full set of screen states, this is no longer necessary. Any changes that occur within the array are automatically updated by all clients. So, there has been a duplication of effort. The change I have no made does away with the individual actions, and only the RealtimeArray is used. It should be possible to further free up resources by removing entirely the old Realtime models for selecting individual video clips/streams and screens on which to display them. I will also seek to do this with teleport portal selections. Scene formations can remain for now.&lt;/p&gt;
+
+&lt;p&gt;This does appear to have sped things up, but screens are still going blank before updating with the entire RealtimeArray. I will need to work out why this is happening and how it can be prevented. Also, thinkgs to seem to slow down over time, suggesting perhaps a memory leak or lack of disposing / recycling of objects.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the non-OSC version. Should I have stuck with OSC? The fact that it did not appear to work for the testers in the studio made me a bit queezy about perservering for too long. The Idea of hooking it up with Normcore was quite appealing, as I imagined ‘simply’ adapting the existing VR controller panels to work as a stand-alone app, controlling the whole virtual space.</summary></entry><entry><title type="html">The Controller</title><link href="http://localhost:4000/2020/11/26/building-the-controller.html" rel="alternate" type="text/html" title="The Controller" /><published>2020-11-26T00:00:00+00:00</published><updated>2020-11-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/26/building-the-controller</id><content type="html" xml:base="http://localhost:4000/2020/11/26/building-the-controller.html">&lt;h1 id=&quot;the-controller-app-&quot;&gt;The controller app-&lt;/h1&gt;
+
+&lt;p&gt;This should be fairly straightfoward but it is proving to be far from that!&lt;/p&gt;
+
+&lt;p&gt;I had built the original demo to use &lt;strong&gt;OSC messaging over HTTP&lt;/strong&gt;. However, I decided to move away from this idea and to turn it into a &lt;strong&gt;Normcore project&lt;/strong&gt;, where Realtime models are used to update the VR client environments directly. However, they are currently not updating. The Realtime models are updating and firing events that are recognised by the local client and any other controller app clients, but the events are not being picked up by the VR client listeners and, therefore, nothing is happening.&lt;/p&gt;
+
+&lt;p&gt;I have asked for help on the &lt;strong&gt;Normcore Discord&lt;/strong&gt; channel and, after the first response on a slightly different issue, pointing out the need to enter different rooms in order to prevent the controller app attempting to instantiate the VR prefabs, none has been forthcoming. The fact that the controller app is trying to copy the VR app’s environment when the room names are the same, suggests there is a connection, but the custom Realtime models are not on the same page, so it seems.&lt;/p&gt;
+
+&lt;p&gt;I will continue building the UI and hope that I can wire it up at some point. If necessary, I could always go back to OSC and hope that I can get the OSC clients to communicate over the local network, or I could send text messages via Agora. Both these options could be made to work, I feel, but are not the ideal solution.&lt;/p&gt;
+
+&lt;h1 id=&quot;its-all-about-rooms&quot;&gt;It’s all about rooms&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;NB&lt;/strong&gt; With help from Max (a Normcore founder) and another poster, I discovered that it is all about &lt;strong&gt;Rooms&lt;/strong&gt;. The solution is to have a single App ID and then a room for the VR players and a room for the controller app, whilst maintaining and sharing the same Realtime data-stores for components that are shared between both, used by both VR players and the controller app. Seems simple once the penny has dropped!&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The controller app-</summary></entry><entry><title type="html">Screen Actions</title><link href="http://localhost:4000/2020/11/19/screen-actions.html" rel="alternate" type="text/html" title="Screen Actions" /><published>2020-11-19T00:00:00+00:00</published><updated>2020-11-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/19/screen-actions</id><content type="html" xml:base="http://localhost:4000/2020/11/19/screen-actions.html">&lt;h1 id=&quot;final-sprint-requirement-doors-working-as-portals-for-teleporting&quot;&gt;Final sprint requirement: Doors working as portals for teleporting&lt;/h1&gt;
+
+&lt;p&gt;.. with visual representation to indicate a screen is a portal&lt;/p&gt;
+
+&lt;p&gt;At the moment, different combinations of specific hands + contrller-triggers, have a different action - see &lt;strong&gt;&lt;a href=&quot;/2020/11/01/screen-panel-trigger-button-2.html&quot;&gt;this post&lt;/a&gt;&lt;/strong&gt; on the subject.&lt;/p&gt;
+
+&lt;p&gt;I have now discussed a change, where there is one touch - different hands have no seperate effect - &lt;strong&gt;keep it simple&lt;/strong&gt;. Will keep using the trigger in conjunction with hand entering the collider.&lt;/p&gt;
+
+&lt;p&gt;A simple question to consider: when adding a screen display state - should I actually be updating an existing one instead? i..e StoreScreenDisplayState only adds to the array. Should I remove old ones - i.e. use RealtimeSet instead of array? This could, of course be done with a Realtime Array, but instead of actually removing elements, they can be set to on or off.&lt;/p&gt;
+
+&lt;p&gt;Probably just allow IsPortal to be part of the realtimeSet/Array state - this can then be set by the Stage Manager.&lt;/p&gt;
+
+&lt;p&gt;So, ultimately, the &lt;strong&gt;stage mangager role&lt;/strong&gt; will be to&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;select a video clip and assign it to a screen in any scene&lt;/li&gt;
+  &lt;li&gt;select a live video feed and assign it to a screen in any scene&lt;/li&gt;
+  &lt;li&gt;select a screen in any scene and make it a portal to another scene&lt;/li&gt;
+  &lt;li&gt;set into motion an animation to transform a screen formation in any scene&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Final sprint requirement: Doors working as portals for teleporting</summary></entry><entry><title type="html">Final Sprint</title><link href="http://localhost:4000/2020/11/18/final-sprint.html" rel="alternate" type="text/html" title="Final Sprint" /><published>2020-11-18T00:00:00+00:00</published><updated>2020-11-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/18/final-sprint</id><content type="html" xml:base="http://localhost:4000/2020/11/18/final-sprint.html">&lt;h1 id=&quot;approaching-the-final-straight&quot;&gt;Approaching the final straight&lt;/h1&gt;
+
+&lt;p&gt;It seems very recently that this project began, but we are now coming close to the point where the students will be rehearsing for their final performances.&lt;/p&gt;
+
+&lt;p&gt;Confirmed during meeting with stakeholders 17/11/2020: -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rehearsals begin &lt;strong&gt;7 December 2020&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Performances &lt;strong&gt;11 December 2020&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My own personal deadline for &lt;strong&gt;Final Summative Project Submission&lt;/strong&gt; for the Masters Degree is &lt;strong&gt;14 December 2020&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This equates to just less than three weeks to start of rehearsals. Before this point, the main items to do are: -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Turn off ability to transform each scene apart from &lt;em&gt;Scene 1&lt;/em&gt;. I suggested abiltiy to enable this ability and to default to only &lt;em&gt;Scene 1&lt;/em&gt;. This was agreed.&lt;/li&gt;
+  &lt;li&gt;Identify each joining stream on the instantiated select button, to prevent ambiguity when selecting.&lt;/li&gt;
+  &lt;li&gt;Separate controller for Stage Manager. This can be a development of the OSC controller I created earlier, and will allow fine control of all aspects of the environment.&lt;/li&gt;
+  &lt;li&gt;A &lt;em&gt;Final Scene&lt;/em&gt;, which will be a single video projected all around the audience - so probably a 360degree video space.&lt;/li&gt;
+  &lt;li&gt;Finish of the video download capability&lt;/li&gt;
+  &lt;li&gt;Doors working as portals for teleporting, with visual representation to indicate a screen is a portal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The most demanding, or potentially problematic, will probably be identification of joining streams (2), followed by the controller (3), then the final scene (4) and the simple can-transform toggle is quite straighforward.&lt;/p&gt;
+
+&lt;p&gt;I intend to do (1) first as it is very simple, before looking at identifying incomimg video streams (2). I will then add the ability for screens to act as portals for teleporting (6), before turing my attention to building the OSC (or equivalent) controller (3). I will finish off with the final scene (4). Concurrent to all of this, I will be working on the lobby (5), which is primarily a space to wait while assets are downloaded etc.&lt;/p&gt;
+
+&lt;p&gt;I have no doubt that there will be some technical issues along the way to deal with -  I am particularly concerned about ensuring the video streaming is working correctly.&lt;/p&gt;
+
+&lt;p&gt;I also hope to build the performer video-streaming app for &lt;em&gt;Apple Mac&lt;/em&gt; and for &lt;em&gt;Android&lt;/em&gt; phone - this has been requested.&lt;/p&gt;</content><author><name></name></author><summary type="html">Approaching the final straight</summary></entry><entry><title type="html">Persisting Multiplayer State</title><link href="http://localhost:4000/2020/11/12/persisting-multiplayer.html" rel="alternate" type="text/html" title="Persisting Multiplayer State" /><published>2020-11-12T00:00:00+00:00</published><updated>2020-11-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/12/persisting-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/11/12/persisting-multiplayer.html">&lt;h1 id=&quot;when-players-join-late&quot;&gt;When players join late&lt;/h1&gt;
 &lt;p&gt;When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.&lt;/p&gt;
 
 &lt;p&gt;However, what if a player joins late? They will have missed the series of actions that has led to what the other players see in their shared environment. Only the latest action will be stored and ‘known’ about by the multiplayer engine, as only the last action is held in the Normcore datastore. The player will, therefore, only see the latest video to be added.&lt;/p&gt;
@@ -17,13 +467,13 @@
 Modifying the array sends the minimal amount of information necessary for other clients to replicate the change. The whole collection is not sent every time.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The Normcore tutorial &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/xr-guides/creating-a-multiplayer-drawing-app.html&quot;&gt;Creating a multiplayer drawing app&lt;/a&gt;&lt;/strong&gt; demonstrates the use of a RealtimeArray. It does not use it in exactly the same way, so there is a real to fully understand the concept in order to use it in your own project, but once it had ‘clicked’, it made absolute sense.&lt;/p&gt;
+&lt;p&gt;The Normcore tutorial &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/xr-guides/creating-a-multiplayer-drawing-app.html&quot;&gt;Creating a multiplayer drawing app&lt;/a&gt;&lt;/strong&gt; demonstrates the use of a RealtimeArray. It does not use it in exactly the same way, so there is a real need to fully understand the concept in order to use it in your own project, but once it had ‘clicked’, it made absolute sense.&lt;/p&gt;
 
 &lt;p&gt;Now, if a player joins in late, they are updated with all the screen video changes that have been made from the start.
 &lt;br /&gt;&lt;/p&gt;
 
 &lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
+  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
     &lt;source src=&quot;\media\GAM750\persist-all-screens-for-connecting-player.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
@@ -40,264 +490,4 @@ Modifying the array sends the minimal amount of information necessary for other 
 Adding or removing items sends the minimal amount of information to the server in order to perform the update on all clients. The whole collection is not sent every time.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I have not yet managed to test this with live video streams from performers’ webcams, so there may be some work to be done here. But the theory is the same, so it should work with, hopefully, the minimum of tweaking.&lt;/p&gt;</content><author><name></name></author><summary type="html">When players join late When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.</summary></entry><entry><title type="html">Teleportation In Action</title><link href="http://localhost:4000/2020/11/09/teleportation.html" rel="alternate" type="text/html" title="Teleportation In Action" /><published>2020-11-09T00:00:00+00:00</published><updated>2020-11-09T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/09/teleportation</id><content type="html" xml:base="http://localhost:4000/2020/11/09/teleportation.html">&lt;h1 id=&quot;finally-teleportation-is-working&quot;&gt;Finally! Teleportation is working&lt;/h1&gt;
-
-&lt;p&gt;It’s taken a bit of time getting here - I estimate I &lt;a href=&quot;/2020/10/27/multi-space-4.html&quot;&gt;&lt;strong&gt;spent the best part of two days&lt;/strong&gt;&lt;/a&gt; trying to get teleportation between ‘scenes’ working - but now it’s finally up and running.&lt;/p&gt;
-
-&lt;p&gt;The solution turned out to be fairly simple:&lt;/p&gt;
-
-&lt;p&gt;disable both the OVRPlayerCharacter and the OVRSampleScene =&amp;gt; Move the player =&amp;gt; re-enable the OVR objects&lt;/p&gt;
-
-&lt;p&gt;I found this only worked if enough time was allowed surrounding the various part of this series - without a delay which the actions take place, the player appears to get stuck and no teleportation happens. For this reason, &lt;strong&gt;I placed the method into a coroutine&lt;/strong&gt;, which adds a short delay after the OVR objecs have been disabled, and then another delay after the teleport itself has occured, but before the re-enabling of the OVR objects.&lt;/p&gt;
-
-&lt;p&gt;I added a sound effect for teleportation to add to the experience. When time allows, I will look at some kind of visual effect too.. perhaps putting a ‘box’ over the player’s head for those seconds during teleportation - I could have fun with the lights and graphics inside the box!&lt;/p&gt;
-
-&lt;h2 id=&quot;stop-press&quot;&gt;STOP PRESS!&lt;/h2&gt;
-
-&lt;p&gt;It’s still not working correctly.&lt;/p&gt;
-
-&lt;p&gt;I can teleport between a few scenes with no apparent problem, but then, suddenly, the next location will be outside the intended scene, i.e. not true to the coordinates given. At its worse, I could find myself some distance away from the main play ares, or even off the groung plane entirely.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Teleportation issue&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\teleportation-issue-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;fixed&quot;&gt;Fixed!&lt;/h1&gt;
-
-&lt;p&gt;The problem was that the player was nested within a container game object. It was this object that was being teleported to new locations, rather than the player object itself. It seems the relative coordinates of the game object, &lt;strong&gt;local&lt;/strong&gt; to the containing object, were becoming increasingly distorted the more moves that were made. Now, having removed the player from the container and applied the spawn point teleportation coordinates directly, the problem appears to have vanished.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Teleportation working&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\teleportation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Finally! Teleportation is working</summary></entry><entry><title type="html">Testing, Agile And Immediacy</title><link href="http://localhost:4000/2020/11/02/requests-for-immediate-action.html" rel="alternate" type="text/html" title="Testing, Agile And Immediacy" /><published>2020-11-02T00:00:00+00:00</published><updated>2020-11-02T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/02/requests-for-immediate-action</id><content type="html" xml:base="http://localhost:4000/2020/11/02/requests-for-immediate-action.html">&lt;p&gt;Sometimes, no matter how one tries to adhere to the on-going march of the rolling sprint process, where tasks have been planned and set out for attention in a rational and (hopefully) realistic fashion, a requirement comes in from the client/stakeholder that needs to be given full attention as a matter of urgency or, at least, as something that has been newly added to the backlog with the highest priority possible, meaning it trumps all other tasks in the &lt;em&gt;‘In Progress’&lt;/em&gt; column.&lt;/p&gt;
-
-&lt;h1 id=&quot;continual-testing&quot;&gt;Continual testing&lt;/h1&gt;
-
-&lt;p&gt;One could argue that these should have been thought of earlier in the planning process, and there is probably probably some truth in this. But it is not always practical or allows for the lack of time, patience or experience with Agile practice. In any case, the fact that this pushes the iterative and immediacy of agile, only goes to highlight its true worth as a development management tool! But this also shows one of the benefits of continual &lt;em&gt;testing&lt;/em&gt; during development. Again, normally one would add the results of testing to tasks for the next sprint, but this is not always feasible. In this case, this is because the product is being used in a real and practical sense by the students, and time is against them as much as it is against me, as developer!&lt;/p&gt;
-
-&lt;h1 id=&quot;requests-turned-around-in-no-time&quot;&gt;Requests turned around in no time&lt;/h1&gt;
-
-&lt;p&gt;This morning I received a request for: -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;numbers above the screens to help students with their selections and avoid a sense of randomness&lt;/li&gt;
-  &lt;li&gt;video displays to be turned 90 degrees, in an attempt to prevent the elongation resulting from the video clips being stretched in order to fit the tall screen displays. The idea is that if they are tilted on their side, live and recorded content can be done with the freedom to also tilt cameras and videa can then be ‘projected’ onto the screens with the tilt corrected. I have yet to be convinced this will work!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;These two requests were actioned very quickly and added to the release of the latest build, which contains the multispace, video streaming and screen trigger work done over the past week. If nothing else, turning things around this quickly helps with the building of trust between developer and stakeholder.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Multi-space, screen triggers, video streaming, screen numbers and alternative screen orientation&lt;/strong&gt;&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\multispace-triggers-numbers-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Sometimes, no matter how one tries to adhere to the on-going march of the rolling sprint process, where tasks have been planned and set out for attention in a rational and (hopefully) realistic fashion, a requirement comes in from the client/stakeholder that needs to be given full attention as a matter of urgency or, at least, as something that has been newly added to the backlog with the highest priority possible, meaning it trumps all other tasks in the ‘In Progress’ column.</summary></entry><entry><title type="html">The Screen Panel Button Revisited</title><link href="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html" rel="alternate" type="text/html" title="The Screen Panel Button Revisited" /><published>2020-11-01T00:00:00+00:00</published><updated>2020-11-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/01/screen-panel-trigger-button-2</id><content type="html" xml:base="http://localhost:4000/2020/11/01/screen-panel-trigger-button-2.html">&lt;p&gt;I have modified the screen panel’s action as a &lt;em&gt;‘button’&lt;/em&gt;. Further modification, functionality and refinement to come…&lt;/p&gt;
-
-&lt;p&gt;A problem up until this point in time has been the tendency for the screens to react to the present of the players’ hand in its collider when this has not been the desired effect, such as just getting the way of the screens as they move due to animation of formation changes.&lt;/p&gt;
-
-&lt;p&gt;I have now added the need to use specific hands in combination with the controller buttons in order to trigger specific actions.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Left hand + left trigger = random screen formation change&lt;/li&gt;
-  &lt;li&gt;Right hand + right trigger = random video clip selection&lt;/li&gt;
-  &lt;li&gt;Left, right or both hands + left + right triggers =  open a portal allowing the player to exit the scene through the screen.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The latter option raises the screen’s mesh collider, thus allowing the player to pass through. This is written into a coroutine and allows 3 seconds before the ‘door’ is closed again and access is once again denied.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt; raising of the collider is because my initial attempts to disable it did not work, due to this also having the effect of disabling the script itself, thus preventing the completion of the coroutine, leaving the gateway open and rendering any further activity attached to the screen impossible. Raising and lowering the collider simply moves it out of the way temporarily, in the manner of a portcullis!&lt;/p&gt;</content><author><name></name></author><summary type="html">I have modified the screen panel’s action as a ‘button’. Further modification, functionality and refinement to come…</summary></entry><entry><title type="html">Streaming And Displaying Video Clips</title><link href="http://localhost:4000/2020/10/31/streaming-video-clips.html" rel="alternate" type="text/html" title="Streaming And Displaying Video Clips" /><published>2020-10-31T00:00:00+00:00</published><updated>2020-10-31T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/31/streaming-video-clips</id><content type="html" xml:base="http://localhost:4000/2020/10/31/streaming-video-clips.html">&lt;h1 id=&quot;partial-solution-1&quot;&gt;Partial Solution 1&lt;/h1&gt;
-
-&lt;p&gt;I have discovered that video files can be streamed from &lt;strong&gt;&lt;a href=&quot;https://www.dropbox.com/&quot;&gt;Dropbox&lt;/a&gt;&lt;/strong&gt; if the URL is ameneded slightly. The URL is accessed by using the &lt;strong&gt;dropbox&lt;/strong&gt; ‘share’ function from the right-click on the file.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Change &lt;em&gt;‘www.dropbox.com’&lt;/em&gt; to &lt;em&gt;‘dl.dropbox.com’&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;Remove the querystring _‘?dl=0’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt; the URL is automatically modified by dropbox from to &lt;em&gt;dl.dropboxusercontent.com&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;I have added a service class that reads a locally-stored text file listing the dropbox URLs (they are amended according to the above rules if necessary).&lt;/p&gt;
-
-&lt;p&gt;I would dearly love to place this file in the &lt;strong&gt;dropbox&lt;/strong&gt; folder and read it from there. This will allow the students to add files to the folder and then amend the text file in order for it to be included. However, the &lt;strong&gt;dropbox&lt;/strong&gt; API is not as straightforward as I would have liked. There is a SDK for .&lt;strong&gt;NET&lt;/strong&gt;, but it does not work with Unity (ref).&lt;/p&gt;
-
-&lt;p&gt;It would, of course be possible to spend some time building a bespoke method to access the dropbox API, but I’m concerned about the amount of time this would take.&lt;/p&gt;
-
-&lt;h1 id=&quot;partial-solution-2&quot;&gt;Partial Solution 2&lt;/h1&gt;
-
-&lt;p&gt;Taking the dropbox plan and running with it, I have created a &lt;strong&gt;&lt;em&gt;Firebase&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;Realtime Database&lt;/em&gt; to store the URLs for the videos. I have then implemented a &lt;strong&gt;&lt;em&gt;REST API&lt;/em&gt;&lt;/strong&gt; client in order to access them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;NB&lt;/strong&gt; &lt;em&gt;The reason for the REST is that I have previously had problems getting Firebase’s Unity SDK to work with Android. I believe that, at the time, it was not compatible, but current research, and the SDK’s documentation, seems to suggest that (&lt;a href=&quot;https://firebase.google.com/docs/unity/setup&quot;&gt;Android has now been incorporated&lt;/a&gt;). However, as I know that the Rest API works, for the time being I will use this.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;For the time being, students will need to access the &lt;em&gt;shared link&lt;/em&gt; from Dropbox for each video, pass it on to me and I will place it in the database.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The important and urgent thing&lt;/strong&gt; is that the students can use their own content, so this solution will be very welcome as it enables this. Further development will include provision for the students to upload and to manage the database themselves.&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\create-dropbox-link.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;</content><author><name></name></author><summary type="html">Partial Solution 1</summary></entry><entry><title type="html">VR And Social Media</title><link href="http://localhost:4000/2020/10/29/vr-and-social-media.html" rel="alternate" type="text/html" title="VR And Social Media" /><published>2020-10-29T00:00:00+00:00</published><updated>2020-10-29T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/29/vr-and-social-media</id><content type="html" xml:base="http://localhost:4000/2020/10/29/vr-and-social-media.html">&lt;h1 id=&quot;i-had-an-interesting-experience-today&quot;&gt;I had an interesting experience today…&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;Not for the first time…&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I posted on the Discord channel about it:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I went into my VR space today for work, as I do, and the director was in there  having a look around. It’s really interesting - there is a lot of talk of VR social media, but not a lot (I think) of direct 1-to-1 conversation in VR. It felt so natural, and surreal, to find myself in the space I’ve been creating and just randomly bumping into someone who I could see, shake hands with, have a chat with and throw a ball around. It’s the phone of the future. Who needs VR social media and mixing with total strangers? If everyone has a headset then we can all call round for a coffee, a chat and a game of tiddlewinks whenever we like, with our closest mates or just about anyone. I think this is where we’ll all end up - lying in bed while chatting with a mate we’ve never met in the flesh, drinking Earl Grey and playing backgammon while hanging out, equally comfortable in a totally fictitious place as on the top of Everest.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It may be a bit idealistic, and it came out of a frivolous and playful, albeit short and unexpected, moment. But that is also the point! Why not? The internet is the phone of the future. The mobile divice is one means to make the internet the phone of the future. VR takes this a step further.&lt;/p&gt;
-
-&lt;p&gt;Fun though it can be, whereas there is a lot of excitement and movement in the world of social media towards the use of VR for hanging out much as you might do in a party, hoping to meet some stranger, perhaps making friends for life or experiencing a brief and (hopefully) passing acquaintence, there seems to be little catering for what I just experienced - that is, simply the potential for settling down for a chat with someone you know - in real, or virtual, life (in this case, I really have never met them in the flesh).&lt;/p&gt;
-
-&lt;h1 id=&quot;feedback-immediacy&quot;&gt;Feedback Immediacy&lt;/h1&gt;
-
-&lt;p&gt;This was a great way to get some immediate feedback from a primary stakeholder. Watching him use the space, taking in the updates for the first time, and discussing his thoughts with me having had no time to ponder or to frame them. As a supplimentary form of feedback and user-testing, this is very interesting and very useful.&lt;/p&gt;
-
-&lt;p&gt;I had the same experience when accidentally stumbling upon a bunch of around five students experiencing the VR space for the first time. The response was unforgettable - the excitement was palpable, and as a suppliment to the more formal feedback gained from the students, is very interesting and informative.&lt;/p&gt;</content><author><name></name></author><summary type="html">I had an interesting experience today…</summary></entry><entry><title type="html">To Spawn Or Not To Spawn…</title><link href="http://localhost:4000/2020/10/28/thoughts-on-spawning.html" rel="alternate" type="text/html" title="To Spawn Or Not To Spawn..." /><published>2020-10-28T00:00:00+00:00</published><updated>2020-10-28T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/28/thoughts-on-spawning</id><content type="html" xml:base="http://localhost:4000/2020/10/28/thoughts-on-spawning.html">&lt;p&gt;I has been put to me that usually it is best practice to create all objects that appear within a scene directly in the Unity editor, rather than to &lt;em&gt;instantiate&lt;/em&gt; them at run-time.  A main reason behind this is that it allows collaboration to happen more easily: a model or texture artist, for instance, can do their work directly in the editor, changing, removing and adding objects with ease, whereas instantiated scenes would clearly hinder this process, as they could only work during run-time and would lose any work, unless it were somehow stored and then recreated in the instantiation code.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is a very good point!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;In fact, not just the artist, but the developer can benefit from this approach, as it is often simpler to work visually using the Unity tools that it is to work in code or, as I have been doing, some hybrid of the two.&lt;/p&gt;
-
-&lt;p&gt;The temptation, as a coder, is to use code to create everything, but perhaps this instinct should be resisited. Constants, such as scenery, can be created in the editor; players, characters, objects that have ‘life’, can be spawned.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-does-this-affect-what-i-have-done-so-far-and-what-do-i-now-need-to-do&quot;&gt;How does this affect what I have done so far and what do I now need to do?&lt;/h1&gt;
-
-&lt;p&gt;In the current context, this means some re-working. For example,  the advantage of my spawning approach is that I have the data on the objects that have been added to the scene, which is essential, for example, when animating the screens between one formation and another. I need to look at this the &lt;em&gt;other way around&lt;/em&gt;. Instead of creating the screens from the stored data, I now perhaps need to gather the positional data from the physical screens and store that for future reference.&lt;/p&gt;
-
-&lt;p&gt;This means a significant amount of refactoring lies ahead. Pragmatically, it may be best to approach this via a &lt;em&gt;‘half-way-house’&lt;/em&gt;, where the congruence between the physical models and their data is taken for granted, simply due to the fact that their physical existence is purely due to their having been created directly from this data in the first instance! The problems that will start to creep in will be due to any divergance between the stored data and the physical entities that no longer have an inseperable relationship. As such, then, I see this being a gradual process.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-change-at-all&quot;&gt;Why change at all?&lt;/h1&gt;
-
-&lt;p&gt;Good question! If accepted to usually be best practice in the context of working in Unity, particularly with potential collaborators, then moving forward this is something I need to consider for future projects, and this is a good time to get started.&lt;/p&gt;
-
-&lt;h1 id=&quot;are-my-screens-characters&quot;&gt;Are my screens ‘characters’?&lt;/h1&gt;
-
-&lt;p&gt;As I have mentioned above, scenery can be built in the editor. However, objects such as players and characters that come and go can be spawned. The question that is begging is, are my screens more analogous to scenery or player-characters? As &lt;em&gt;actional objects&lt;/em&gt;, they certainly do not remain static and are affected and controlled by the players. Their data and vital statistics are essential to their function and appearance over time.&lt;/p&gt;
-
-&lt;p&gt;If you were to create a game along the lines of Lillyput, where the players and AI characters were living on the stomach of a massive giant, who wakes up and causes all kinds of mayhem, would the scenary be instantiated or built statically in the editor? A bit of both, I’d suggest. From a developer/creator’s point of view, it’s a balance that needs to be given serious thought in every scenario.&lt;/p&gt;
-
-&lt;p&gt;I’m going to have to think about this. I am starting to come full circle and beginning to think of these formations as prime candidates for spawning.&lt;/p&gt;
-
-&lt;p&gt;Whatever the outcome in this case, the point still stands that not everything needs to be instantiated, and that only certain, very specific types of objects need the kind of fine controlling that requires a process of spawning into the environment.&lt;/p&gt;</content><author><name></name></author><summary type="html">I has been put to me that usually it is best practice to create all objects that appear within a scene directly in the Unity editor, rather than to instantiate them at run-time. A main reason behind this is that it allows collaboration to happen more easily: a model or texture artist, for instance, can do their work directly in the editor, changing, removing and adding objects with ease, whereas instantiated scenes would clearly hinder this process, as they could only work during run-time and would lose any work, unless it were somehow stored and then recreated in the instantiation code.</summary></entry><entry><title type="html">Problems With Teleportation</title><link href="http://localhost:4000/2020/10/27/multi-space-4.html" rel="alternate" type="text/html" title="Problems With Teleportation" /><published>2020-10-27T00:00:00+00:00</published><updated>2020-10-27T00:00:00+00:00</updated><id>http://localhost:4000/2020/10/27/multi-space-4</id><content type="html" xml:base="http://localhost:4000/2020/10/27/multi-space-4.html">&lt;h1 id=&quot;problems-with-teleporting-the-player&quot;&gt;Problems with teleporting the player&lt;/h1&gt;
-
-&lt;p&gt;I have been having great difficulty with the function of teleportation of the Oculus PlayerController from one space/scene to another.&lt;/p&gt;
-
-&lt;p&gt;I would have thought that would be reasonably straightforward, in the same way as it is for spawning inanimate objects, such as screens and selection panels, by simply changing the transform associated with the player. I have set up spawn points and placed these within the individual scenes, then attempted to take their Vector3 positions and applied them to the player’s. However, I end up moving in an outrageous manner, often ending up outside the area of the scenes, or even off the floor panel altogether, leading the player to end up in freefall.&lt;/p&gt;
-
-&lt;p&gt;I have attempted placing the player within an empty GameObject, as well as stand-alone, but the same result ensues.&lt;/p&gt;
-
-&lt;p&gt;This has been immensely frustrating.&lt;/p&gt;
-
-&lt;h1 id=&quot;figured-out-the-issue-to-an-extent-but-do-not-have-a-solution&quot;&gt;Figured out the issue (to an extent) but do not have a solution&lt;/h1&gt;
-
-&lt;p&gt;I set up a marker - a red capsule - and instead of applying the spawn point positions to the Player, I applied them to the marker. The marker moved around the environment perfectly and as should be expected! So the problem is with the player.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;‘Spawning’ the player&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-method1.JPG&quot; alt=&quot;SpawnPlayer&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is what it looks like in the environment with scenes. You can that sometimes the player is just shifted a few feet, other times the player is moved much further, but nowhere near the spawn point, and even off the floor plane.&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\spawnplayer-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Here you can see quite clearly the layout of the environment with no screens to obscure it&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\spawnplayer-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;strong&gt;‘Spawning’ the marker&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-method2.JPG&quot; alt=&quot;SpawnMarker&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Here you can the red marker - which is a simple 3D object with no VR special characteristics - move and spawn as expected, whereas the VR player gets pushed around in an apparently random fashion.&lt;/p&gt;
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\spawnmarker-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\spawnmarker-2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;I experimented with using the Normcore VR Player, which is simply an avatar with the Normcore Realtime components attached to allow it to work in multiplayer, and is cloned during game-play, and the ‘regular’, local player, that contains the camera rig (so naturally, that would appear to be one to use).&lt;/p&gt;
-
-&lt;p&gt;I also deactivated the Normcore-enabled player / avatar set-up altogether, and tried out a simple, basic, vanilla Oculus OVR PlayerController. This had exactly the same effect.&lt;/p&gt;
-
-&lt;p&gt;To illustrate what is going on: -&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The spawn point’s location, where the player is supposed to be positioned (0, 1, 20)&lt;/strong&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-2.JPG&quot; alt=&quot;Error1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The values being applied to the player’s transform (-0.8, 0.4, 20.2) - near enough to the spawnpoint’s exact location&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-error-console-1.JPG&quot; alt=&quot;Error2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The location the player actually ends up! (39.8, 0, -20.8). Go figure!&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;\images\GAM750\spawnpoint-error-inspector-1.JPG&quot; alt=&quot;Error3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;The x coordinate is way, way out! How can this be?!!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It’s difficult to know where to go next with this! I wonder if it would be worth considering attaching the player to another object and using motion to move it to another space - as simple repositioning of a containing object had the same erroneous effect.&lt;/p&gt;
-
-&lt;p&gt;First port of call, though, will be to research, to try to find something about this online.&lt;/p&gt;
-
-&lt;p&gt;As The Terminator once famously said, &lt;strong&gt;I’ll be back…&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Problems with teleporting the player</summary></entry><entry><title type="html">Meet Me On The Other Side</title><link href="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html" rel="alternate" type="text/html" title="Meet Me On The Other Side" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/meet-me-on-the-other-side</id><content type="html" xml:base="http://localhost:4000/2020/10/25/meet-me-on-the-other-side.html">&lt;h1 id=&quot;pervasive-media-studio&quot;&gt;Pervasive Media Studio&lt;/h1&gt;
-
-&lt;p&gt;The Pervasive Media Studio is a partnership between Watershed, UWE Bristol and University of Bristol.&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=yt0Hnxz31V0&lt;/p&gt;
-
-&lt;p&gt;Interesting talk about VR, immersion, VR experience&lt;/p&gt;
-
-&lt;p&gt;Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition&lt;/p&gt;
-
-&lt;p&gt;Social platofmr tent to attract social groupins that match other social contexts&lt;/p&gt;
-
-&lt;p&gt;Altspace (19:30)&lt;/p&gt;
-
-&lt;p&gt;Hubs by Mozilla (22.30)
-    no headset required
-    more about creating your own personona
-    more control, build from scratch
-    challenging&lt;/p&gt;</content><author><name></name></author><summary type="html">Pervasive Media Studio</summary></entry><entry><title type="html">Actions</title><link href="http://localhost:4000/2020/10/25/multi-space-3.html" rel="alternate" type="text/html" title="Actions" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/2020/10/25/multi-space-3</id><content type="html" xml:base="http://localhost:4000/2020/10/25/multi-space-3.html">&lt;h1 id=&quot;controlling-player-and-actions-within-multiple-scenes&quot;&gt;Controlling player and actions within multiple scenes&lt;/h1&gt;
-
-&lt;p&gt;Spawning scenes, including screen formations, is just the start. How do you control the screen formations and the video projections and live video feeds for each individiual screen?&lt;/p&gt;
-
-&lt;p&gt;One line of enquiry, and the first option I tried, instantiates the selection control panel into the same starting scene as the player. The idea would then to ensure it is instantiated in the other scenes, with the player, when the player moves into them. 
-This is a method I could end up working with.&lt;/p&gt;
-
-&lt;p&gt;Another option, and the second I am trying, is to instantiate the panel in all of the scenes (along with the audio source and lighting). The panel will probably only be visible to the player - each player can own their very own panel and show and hide it as they please (or it may end up being discarded altogether).&lt;/p&gt;
-
-&lt;p&gt;The difficulty then, with either of these options, is to ensure that: -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;all actions cause an effect on the specific scene in which the player is situated&lt;/li&gt;
-  &lt;li&gt;all effects are permiated through to the multiplayer models and then to each player instance&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;update&quot;&gt;Update&lt;/h1&gt;
-
-&lt;p&gt;I have managed to set the screen formation animation to occur for a specific scene when the button for that formation is tapped on the panel associated with that specific scene. This is done by finding the parent scene of the selection panel and sending it to the tweening method. Remember, the tweening, along with spawning, is already able to pinpoint which scene to act upon - this has made further development - and my life - much simpler!&lt;/p&gt;
-
-&lt;p&gt;I am now concerned that this may be difficult to translate into the multiplayer environment. This will be another stage of development in the near future.&lt;/p&gt;</content><author><name></name></author><summary type="html">Controlling player and actions within multiple scenes</summary></entry></feed>
+&lt;p&gt;I have not yet managed to test this with live video streams from performers’ webcams, so there may be some work to be done here. But the theory is the same, so it should work with, hopefully, the minimum of tweaking.&lt;/p&gt;</content><author><name></name></author><summary type="html">When players join late When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.</summary></entry></feed>

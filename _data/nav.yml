@@ -150,9 +150,36 @@ toc:
       - page: Teleportation Revisited
         date: 2020-11-09
         url: 2020/11/09/teleportation.html
-      - page: Multiplayer Persistence
+      - page: Multiplayer Persistence - Joining the room late
         date: 2020-11-12
         url: 2020/11/12/persisting-multiplayer.html
+      - page: The Final Sprint?
+        date: 2020-11-18
+        url: 2020/11/18/final-sprint.html
+      - page: Screen Actions - an element of audience control
+        date: 2020-11-19
+        url: 2020/11/19/screen-actions.html
+      - page: Building The Controller App
+        date: 2020-11-26
+        url: 2020/11/26/building-the-controller.html
+      - page: Problems With The Controller App
+        date: 2020-11-30
+        url: 2020/11/30/problems-with-controller-app.html
+      - page: Simulator Sickness
+        date: 2020-12-01
+        url: 2020/12/01/simulator-sickness.html
+      - page: Resolving Controller App Problems
+        date: 2020-12-03
+        url: 2020/12/03/controller-app-coming-together.html
+      - page: Embodiment In Virtual Reality
+        date: 2020-12-05
+        url: 2020/12/05/embodiment-in-virtual-reality.html
+      - page: Creativity And Virtual Reality
+        date: 2020-12-07
+        url: 2020/12/07/creativity-and-virtual-reality.html
+      - page: Preparing For Deployment
+        date: 2020-12-07
+        url: 2020/12/07/preparing-for-deployment.html
 
   - title: Individual Design and Development Project (GAM720)
     subfolderitems:

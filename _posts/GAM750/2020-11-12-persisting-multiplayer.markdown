@@ -22,13 +22,13 @@ Normcore describes the RealtimeArray thus: -
 >It is designed to be a sequential list of models that can be modified at runtime.<br>
 Modifying the array sends the minimal amount of information necessary for other clients to replicate the change. The whole collection is not sent every time.
 
-The Normcore tutorial **[Creating a multiplayer drawing app](https://normcore.io/documentation/xr-guides/creating-a-multiplayer-drawing-app.html)** demonstrates the use of a RealtimeArray. It does not use it in exactly the same way, so there is a real to fully understand the concept in order to use it in your own project, but once it had 'clicked', it made absolute sense. 
+The Normcore tutorial **[Creating a multiplayer drawing app](https://normcore.io/documentation/xr-guides/creating-a-multiplayer-drawing-app.html)** demonstrates the use of a RealtimeArray. It does not use it in exactly the same way, so there is a real need to fully understand the concept in order to use it in your own project, but once it had 'clicked', it made absolute sense. 
 
 Now, if a player joins in late, they are updated with all the screen video changes that have been made from the start.
 <br>
 
 <figure class="video_container">
-  <video style="width:720px;" autoplay loop>
+  <video style="width:720px;" autoplay loop muted>
     <source src="\media\GAM750\persist-all-screens-for-connecting-player.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
