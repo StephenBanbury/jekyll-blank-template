@@ -15,7 +15,7 @@ Interesting talk about VR, immersion, VR experience
 
 Opposiing concepts: Cartesian Metaphysics (Descart) / Embodied Cognition
 
-Social platofmr tent to attract social groupins that match other social contexts
+Social platform to attract social groupings that match other social contexts
 
 Altspace (19:30)
 

@@ -34,6 +34,8 @@ A well known experiment is known as the *"rubber hand illusion"* (Botvinick and 
 
 <br>
 
+**References**
+
 ---
 
 *Won, A.S., Bailenson, J., Lee, J. and Lanier, J., 2015. Homuncular flexibility in virtual reality. Journal of Computer-Mediated Communication, 20(3), pp.241-259.*
