@@ -23,9 +23,6 @@ The problem here is that I am using Unity 2020.1, which no longer supports the o
 
 Using the Unity package, *Unity Recorder*, in the Unity editor, I have been able to record 360 video footage from the main camera. It is, it seems, possible to select more than one camera, and I will explore this later. However, I used the Controller App to enter into the virtual space and placement was at the centre of one of the scene formations. I cued up a set of videos for a NNE student-created scene, started recording, and set the videos to start. Once I'd recorded a few minutes, I used *Google's 360 video metadata tool* - **[Spatial Media Metadata Injector](https://github.com/google/spatial-media/releases/tag/v2.0)** - to 'inject' the metadata required to represent the video in the correct format for publication, and uploaded it to YouTube and Vimeo.
 
-**Still from raw 360 video**<br>
-![Raw 360 video](\images\GAM750\360-capture-1.JPG)
-
 <br>
 
 **Trial 360 video, pre-metadata-injected**
@@ -41,16 +38,6 @@ The result is a 3D video that can be viewed on a regular flat screen using the m
 It works well. My only concern is the quality of the video - there does appear to be some pixelation that would be nice to avoid if possible. I will be examining the possibilities of enhancing the quality of the video, but for now, this is a good result with excellent potential.
 
 **[View the video on Vimeo](https://vimeo.com/511245233)**
-
-<br><br>
-
-**'Raw' 360 video from the Unity editor, pre-metadata-injected**
-<figure class="video_container">
-  <video style="width:640px;" autoplay loop muted>
-    <source src="\media\GAM750\360-1-compressed.mp4" type="video/mp4">
-    Woops! Your browser does not support the HTML5 video tag.
-  </video>
-</figure>
 
 <br><br>
 
