@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T00:43:44+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T01:03:32+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
 
 &lt;p&gt;An early 2018 &lt;strong&gt;&lt;a href=&quot;https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/&quot;&gt;Unity blog&lt;/a&gt;&lt;/strong&gt; introduces a method to do this.&lt;/p&gt;
 
@@ -26,7 +26,7 @@
 &lt;p&gt;&lt;strong&gt;Trial 360 video&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\360-trial-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\360-trial-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -42,7 +42,7 @@
 &lt;p&gt;&lt;strong&gt;‘Raw’ 360 video from the Unity editor&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\360-1-compressed.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\360-1-compressed.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;
@@ -52,7 +52,7 @@
 &lt;p&gt;&lt;strong&gt;Metadata-injected 360 video&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
   &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\360-1-compressed-_injected.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    &lt;source src=&quot;\media\GAM750\360-1-compressed-_injected.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;</content><author><name></name></author><summary type="html">The intention is for Not Near Enough to be showcased at the 2021 National Student Drama Festival. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.</summary></entry><entry><title type="html">Homuncular Flexibility</title><link href="http://localhost:4000/2021/02/04/homuncular-flexibility.html" rel="alternate" type="text/html" title="Homuncular Flexibility" /><published>2021-02-04T00:00:00+00:00</published><updated>2021-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/04/homuncular-flexibility</id><content type="html" xml:base="http://localhost:4000/2021/02/04/homuncular-flexibility.html">&lt;p&gt;This is connected to the study of &lt;em&gt;‘embodiment’&lt;/em&gt; in virtual reality (see earlier post, &lt;strong&gt;&lt;a href=&quot;/2020/12/05/embodiment-in-virtual-reality.html&quot;&gt;embodiment in virtual reality&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
@@ -60,31 +60,41 @@
 &lt;p&gt;Homuncular flexibility is the idea that one can inhabit and control a body that is different from one’s own, potentially radically so. The term was introduced by Jarad Lanier in 2006, and is derived from Penfield’s &lt;em&gt;“homunculus”&lt;/em&gt;: “in general the homunculus refers to the idea of a map of the body in the brain.” 
 (Won, A.S. et al, 2015).&lt;/p&gt;
 
+&lt;p&gt;This appears to give licence to experiment with the user avatar, to stretch what could be possible when placing players within a virtual environment - playing with ideas of identity of self and others - whilst maintaining a healthy level of grounding and the sense of occupying one’s own ‘body’.&lt;/p&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;The concept of homuncular flexibility (Lanier, 2006) proposes that users can learn to control bodies different from their own by changing the relationship between tracked and rendered motion
-(Won, A.S. et al, 2015).&lt;/p&gt;
+  &lt;p&gt;The concept of homuncular flexibility (Lanier, 2006) proposes that users can learn to control bodies different from their own by changing the relationship between tracked and rendered motion&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Human embodiment is flexible. Injuries like amputation and stroke can change the sense of where bodies begin and end. For example, after amputation, cortical mapping may shift such that areas that previously innervated the hand may shift to other parts of the body. 
-Various experiments have suggested that “people can be led to alter their body schema by sensory input.” 
-(Won, A.S. et al, 2015)&lt;/p&gt;
+  &lt;p&gt;Human embodiment is flexible. Injuries like amputation and stroke can change the sense of where bodies begin and end. For example, after amputation, cortical mapping may shift such that areas that previously innervated the hand may shift to other parts of the body.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Various experiments have suggested that “people can be led to alter their body schema by sensory input.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Won, A.S. et al, 2015)&lt;/p&gt;
 
 &lt;p&gt;A well known experiment is known as the &lt;em&gt;“rubber hand illusion”&lt;/em&gt; (Botvinick and Cohen, 1998), and has been further studied in the more specific context of the reality-virtuality continuum (IJsselsteijn et al, 2006)&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;participants saw a rubber hand on the table in front of them and observed it being stroked by a soft brush while feeling synchronous touch on their real hand hidden under the table. Participants gained a sense of ownership of the hand, such that they flinched when it was threatened. 
-(Won, A.S. et al, 2015)&lt;/p&gt;
+  &lt;p&gt;participants saw a rubber hand on the table in front of them and observed it being stroked by a soft brush while feeling synchronous touch on their real hand hidden under the table. Participants gained a sense of ownership of the hand, such that they flinched when it was threatened.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;These feelings of ownership, or being present in the simulated body, provide clues to how a sense of presence may be created in an avatar body. (Won, A.S. et al, 2015)&lt;/p&gt;
+  &lt;p&gt;These feelings of ownership, or being present in the simulated body, provide clues to how a sense of presence may be created in an avatar body.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;(Won, A.S. et al, 2015)&lt;/p&gt;
+
 &lt;blockquote&gt;
-  &lt;p&gt;research has provided evidence that simply perceiving a virtual body from a first-person perspective can create a sense of identification with an avatar, or “body transfer” (Slater, Spanlang, Sanchez-Vives, &amp;amp; Blanke, 2010).&lt;/p&gt;
+  &lt;p&gt;research has provided evidence that simply perceiving a virtual body from a first-person perspective can create a sense of identification with an avatar, or “body transfer”&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;(Slater, Spanlang, Sanchez-Vives, &amp;amp; Blanke, 2010).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

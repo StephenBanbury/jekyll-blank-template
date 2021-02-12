@@ -31,7 +31,7 @@ Using the Unity package, *Unity Recorder*, in the Unity editor, I have been able
 **Trial 360 video**
 <figure class="video_container">
   <video style="width:1120px;" autoplay loop muted>
-    <source src="\media\360-trial-1.mp4" type="video/mp4">
+    <source src="\media\GAM750\360-trial-1.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -47,7 +47,7 @@ It works well. My only concern is the quality of the video - there does appear t
 **'Raw' 360 video from the Unity editor**
 <figure class="video_container">
   <video style="width:1120px;" autoplay loop muted>
-    <source src="\media\360-1-compressed.mp4" type="video/mp4">
+    <source src="\media\GAM750\360-1-compressed.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>
@@ -57,7 +57,7 @@ It works well. My only concern is the quality of the video - there does appear t
 **Metadata-injected 360 video**
 <figure class="video_container">
   <video style="width:1120px;" autoplay loop muted>
-    <source src="\media\360-1-compressed-_injected.mp4" type="video/mp4">
+    <source src="\media\GAM750\360-1-compressed-_injected.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

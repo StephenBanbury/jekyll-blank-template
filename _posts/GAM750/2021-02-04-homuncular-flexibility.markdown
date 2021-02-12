@@ -10,21 +10,29 @@ This is connected to the study of *'embodiment'* in virtual reality (see earlier
 Homuncular flexibility is the idea that one can inhabit and control a body that is different from one's own, potentially radically so. The term was introduced by Jarad Lanier in 2006, and is derived from Penfield's *"homunculus"*: "in general the homunculus refers to the idea of a map of the body in the brain." 
 (Won, A.S. et al, 2015).
 
+This appears to give licence to experiment with the user avatar, to stretch what could be possible when placing players within a virtual environment - playing with ideas of identity of self and others - whilst maintaining a healthy level of grounding and the sense of occupying one's own 'body'. 
+
 >The concept of homuncular flexibility (Lanier, 2006) proposes that users can learn to control bodies different from their own by changing the relationship between tracked and rendered motion
-(Won, A.S. et al, 2015). 
 
 >Human embodiment is flexible. Injuries like amputation and stroke can change the sense of where bodies begin and end. For example, after amputation, cortical mapping may shift such that areas that previously innervated the hand may shift to other parts of the body. 
+
 >Various experiments have suggested that "people can be led to alter their body schema by sensory input." 
+
 (Won, A.S. et al, 2015)
 
 A well known experiment is known as the *"rubber hand illusion"* (Botvinick and Cohen, 1998), and has been further studied in the more specific context of the reality-virtuality continuum (IJsselsteijn et al, 2006)
 
 >participants saw a rubber hand on the table in front of them and observed it being stroked by a soft brush while feeling synchronous touch on their real hand hidden under the table. Participants gained a sense of ownership of the hand, such that they flinched when it was threatened. 
+
+>These feelings of ownership, or being present in the simulated body, provide clues to how a sense of presence may be created in an avatar body. 
+
 (Won, A.S. et al, 2015)
 
->These feelings of ownership, or being present in the simulated body, provide clues to how a sense of presence may be created in an avatar body. (Won, A.S. et al, 2015)
+>research has provided evidence that simply perceiving a virtual body from a first-person perspective can create a sense of identification with an avatar, or “body transfer” 
 
->research has provided evidence that simply perceiving a virtual body from a first-person perspective can create a sense of identification with an avatar, or “body transfer” (Slater, Spanlang, Sanchez-Vives, & Blanke, 2010).
+(Slater, Spanlang, Sanchez-Vives, & Blanke, 2010).
+
+<br>
 
 ---
 
