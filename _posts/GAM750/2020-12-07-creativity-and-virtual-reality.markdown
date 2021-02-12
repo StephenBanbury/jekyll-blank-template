@@ -29,6 +29,11 @@ published: true
 (see **[embodiment in virtual reality]({% link _posts/GAM750/2020-12-05-embodiment-in-virtual-reality.markdown %})**.)
 <br><br>
 
+
+
 ---
 
-_Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426._
+*Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.*
+
+*Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.*
+

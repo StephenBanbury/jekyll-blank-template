@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T01:03:32+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T01:14:10+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
 
 &lt;p&gt;An early 2018 &lt;strong&gt;&lt;a href=&quot;https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/&quot;&gt;Unity blog&lt;/a&gt;&lt;/strong&gt; introduces a method to do this.&lt;/p&gt;
 
@@ -23,9 +23,9 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Trial 360 video&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Trial 360 video, pre-metadata-injected&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video style=&quot;width:848px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
     &lt;source src=&quot;\media\GAM750\360-trial-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
@@ -39,9 +39,9 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;‘Raw’ 360 video from the Unity editor&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;‘Raw’ 360 video from the Unity editor, pre-metadata-injected&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;video style=&quot;width:848px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
     &lt;source src=&quot;\media\GAM750\360-1-compressed.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
@@ -51,8 +51,8 @@
 
 &lt;p&gt;&lt;strong&gt;Metadata-injected 360 video&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\360-1-compressed-_injected.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;video style=&quot;width:848px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\GAM750\360-1-compressed_injected.mp4&quot; type=&quot;video/mp4&quot; /&gt;
     Woops! Your browser does not support the HTML5 video tag.
   &lt;/video&gt;
 &lt;/figure&gt;</content><author><name></name></author><summary type="html">The intention is for Not Near Enough to be showcased at the 2021 National Student Drama Festival. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.</summary></entry><entry><title type="html">Homuncular Flexibility</title><link href="http://localhost:4000/2021/02/04/homuncular-flexibility.html" rel="alternate" type="text/html" title="Homuncular Flexibility" /><published>2021-02-04T00:00:00+00:00</published><updated>2021-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/04/homuncular-flexibility</id><content type="html" xml:base="http://localhost:4000/2021/02/04/homuncular-flexibility.html">&lt;p&gt;This is connected to the study of &lt;em&gt;‘embodiment’&lt;/em&gt; in virtual reality (see earlier post, &lt;strong&gt;&lt;a href=&quot;/2020/12/05/embodiment-in-virtual-reality.html&quot;&gt;embodiment in virtual reality&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
@@ -191,7 +191,9 @@ Is the idea of embodiment in VR so different to simply getting into character? T
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Virtual reality and the enhancement of creativity and innovation</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Virtual reality and the enhancement of creativity and innovation</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
 
 &lt;p&gt;Controller app:&lt;/p&gt;
 &lt;ul&gt;
