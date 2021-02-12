@@ -1,8 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-20T11:52:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Creativity And Virtual Reality</title><link href="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html" rel="alternate" type="text/html" title="Creativity And Virtual Reality" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/creativity-and-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html">&lt;h2 id=&quot;virtual-reality-and-the-enhancement-of-creativity-and-innovation&quot;&gt;Virtual reality and the enhancement of creativity and innovation&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T00:43:44+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
 
-&lt;p&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/p&gt;
+&lt;p&gt;An early 2018 &lt;strong&gt;&lt;a href=&quot;https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/&quot;&gt;Unity blog&lt;/a&gt;&lt;/strong&gt; introduces a method to do this.&lt;/p&gt;
 
-&lt;p&gt;https://connect.springerpub.com/content/sgrjcep/15/1/102&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We are proud to announce that in 2018.1 creators can now capture stereoscopic 360 images and video in Unity. Whether you’re a VR developer who wants to make a 360 trailer to show off your experience or a director who wants to make an engaging cinematic short film, Unity’s new capture technology empowers you to share your immersive experience with an audience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The solution is based on &lt;strong&gt;&lt;a href=&quot;https://developers.google.com/vr/jump/rendering-ods-content.pdf&quot;&gt;Google’s Omni-directional Stereo (ODS)&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The problem here is that I am using Unity 2020.1, which no longer supports the old XR (Activate the feature: Edit &amp;gt; Project Settings &amp;gt; Player &amp;gt; XR Settings &amp;gt; 360 Stereo Capture). At this stage I am not certain if this technique will work at all with Unity 2020.1. I expect this to involve some trial and error.&lt;/p&gt;
+
+&lt;h1 id=&quot;however&quot;&gt;However…&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Unity Recorder&lt;/strong&gt; is available via Unity’s Package Manager. This allows recording of 360 video (along with other, more regular formats) in the editor. This appears to do the job that is required. I would still like to find a way to record 360 video from a camera (or, even better, multiple cameras) placed within the virtual environment, that captures each scene, including pre-prepared video, streamed video and all player-avatars as they enter and interact with the environment. This would preferably be during ‘game play’, rather than edit mode. Wouldn’t it be nice if you could just select this from the ‘share’ menue in Quest Home, as an option when chosing to record, or to share, live stream/game-play.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-solution&quot;&gt;The Solution&lt;/h1&gt;
+
+&lt;p&gt;Using the Unity package, &lt;em&gt;Unity Recorder&lt;/em&gt;, in the Unity editor, I have been able to record 360 video footage from the main camera. It is, it seems, possible to select more than one camera, and I will explore this later. However, I used the Controller App to enter into the virtual space and placement was at the centre of one of the scene formations. I cued up a set of videos for a NNE student-created scene, started recording, and set the videos to start. Once I’d recorded a few minutes, I used &lt;em&gt;Google’s 360 video metadata tool&lt;/em&gt; - &lt;strong&gt;&lt;a href=&quot;https://github.com/google/spatial-media/releases/tag/v2.0&quot;&gt;Spatial Media Metadata Injector&lt;/a&gt;&lt;/strong&gt; - to ‘inject’ the metadata required to represent the video in the correct format for publication, and uploaded it to YouTube and Vimeo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Still from raw 360 video&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;\images\GAM750\360-capture-1.JPG&quot; alt=&quot;Raw 360 video&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Trial 360 video&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\360-trial-1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The result is a 3D video that can be viewed on a regular flat screen using the mouse to move around, on a mobile device by moving the devices orientation in realtime, or using a phone and Google Cardboard to view a stereo version that reponds to movements of the head.&lt;/p&gt;
+
+&lt;p&gt;It works well. My only concern is the quality of the video - there does appear to be some pixelation that would be nice to avoid if possible. I will be examining the possibilities of enhancing the quality of the video, but for now, this is a good result with excellent potential.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://vimeo.com/511245233&quot;&gt;View the video on Vimeo&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;‘Raw’ 360 video from the Unity editor&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\360-1-compressed.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Metadata-injected 360 video&lt;/strong&gt;&lt;/p&gt;
+&lt;figure class=&quot;video_container&quot;&gt;
+  &lt;video style=&quot;width:1120px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;source src=&quot;\media\360-1-compressed-_injected.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Woops! Your browser does not support the HTML5 video tag.
+  &lt;/video&gt;
+&lt;/figure&gt;</content><author><name></name></author><summary type="html">The intention is for Not Near Enough to be showcased at the 2021 National Student Drama Festival. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.</summary></entry><entry><title type="html">Homuncular Flexibility</title><link href="http://localhost:4000/2021/02/04/homuncular-flexibility.html" rel="alternate" type="text/html" title="Homuncular Flexibility" /><published>2021-02-04T00:00:00+00:00</published><updated>2021-02-04T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/04/homuncular-flexibility</id><content type="html" xml:base="http://localhost:4000/2021/02/04/homuncular-flexibility.html">&lt;p&gt;This is connected to the study of &lt;em&gt;‘embodiment’&lt;/em&gt; in virtual reality (see earlier post, &lt;strong&gt;&lt;a href=&quot;/2020/12/05/embodiment-in-virtual-reality.html&quot;&gt;embodiment in virtual reality&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;Homuncular flexibility is the idea that one can inhabit and control a body that is different from one’s own, potentially radically so. The term was introduced by Jarad Lanier in 2006, and is derived from Penfield’s &lt;em&gt;“homunculus”&lt;/em&gt;: “in general the homunculus refers to the idea of a map of the body in the brain.” 
+(Won, A.S. et al, 2015).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The concept of homuncular flexibility (Lanier, 2006) proposes that users can learn to control bodies different from their own by changing the relationship between tracked and rendered motion
+(Won, A.S. et al, 2015).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Human embodiment is flexible. Injuries like amputation and stroke can change the sense of where bodies begin and end. For example, after amputation, cortical mapping may shift such that areas that previously innervated the hand may shift to other parts of the body. 
+Various experiments have suggested that “people can be led to alter their body schema by sensory input.” 
+(Won, A.S. et al, 2015)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A well known experiment is known as the &lt;em&gt;“rubber hand illusion”&lt;/em&gt; (Botvinick and Cohen, 1998), and has been further studied in the more specific context of the reality-virtuality continuum (IJsselsteijn et al, 2006)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;participants saw a rubber hand on the table in front of them and observed it being stroked by a soft brush while feeling synchronous touch on their real hand hidden under the table. Participants gained a sense of ownership of the hand, such that they flinched when it was threatened. 
+(Won, A.S. et al, 2015)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These feelings of ownership, or being present in the simulated body, provide clues to how a sense of presence may be created in an avatar body. (Won, A.S. et al, 2015)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;research has provided evidence that simply perceiving a virtual body from a first-person perspective can create a sense of identification with an avatar, or “body transfer” (Slater, Spanlang, Sanchez-Vives, &amp;amp; Blanke, 2010).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Won, A.S., Bailenson, J., Lee, J. and Lanier, J., 2015. Homuncular flexibility in virtual reality. Journal of Computer-Mediated Communication, 20(3), pp.241-259.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lanier, J., 2006. Homuncular flexibility. Edge: The World Question Center.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Botvinick, M. and Cohen, J., 1998. Rubber hands ‘feel’touch that eyes see. Nature, 391(6669), pp.756-756.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;IJsselsteijn, W.A., de Kort, Y.A.W. and Haans, A., 2006. Is this my hand I see before me? The rubber hand illusion in reality, virtual reality, and mixed reality. Presence: Teleoperators and Virtual Environments, 15(4), pp.455-464.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Slater, M., Spanlang, B., Sanchez-Vives, M. V. &amp;amp; Blanke, O. (2010). First person experience of body transfer in virtual reality, PLoS One, 5(5), 10564.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is connected to the study of ‘embodiment’ in virtual reality (see earlier post, embodiment in virtual reality).</summary></entry><entry><title type="html">The Reality-Virtuality Continuum</title><link href="http://localhost:4000/2021/02/03/the-reality-virtuality-continuum.html" rel="alternate" type="text/html" title="The Reality-Virtuality Continuum" /><published>2021-02-03T00:00:00+00:00</published><updated>2021-02-03T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/03/the-reality-virtuality-continuum</id><content type="html" xml:base="http://localhost:4000/2021/02/03/the-reality-virtuality-continuum.html">&lt;p&gt;The virtuality continuum is a continuous scale ranging between the completely virtual, a virtuality, and the completely real, reality.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\GAM750\Virtuality_Continuum_2.jpg&quot; alt=&quot;The Reality-Virtuality Continuum&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In 1994 Paul Milgram and Fumio Kishino defined a mixed reality as “…anywhere between the extrema of the virtuality continuum”, where the Virtuality Continuum extends from the completely real through to the completely virtual environment with augmented reality and augmented virtuality ranging between.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This paper focuses on Mixed Reality (MR) visual displays, a particular subset of Virtual Reality (VR) related technologies that involve the merging of real and virtual worlds somewhere along the &lt;em&gt;“virtuality continuum”&lt;/em&gt; which connects completely real environments to completely virtual ones. Probably the best known of these is Augmented Reality (AR), which refers to all cases in which the display of an otherwise real environment is augmented by means of virtual (computer graphic) objects. The converse case on the virtuality continuum is therefore Augmented Virtuality (AV). Six classes of hybrid MR display environments are identified. However, an attempt to distinguish these classes on the basis of whether they are primarily video or computer graphics based, whether the real world is viewed directly or via some electronic display medium, whether the viewer is intended to feel part of the world or on the outside looking in, and whether or not the scale of the display is intended to map orthoscopically onto the real world leads to quite different groupings among the six identified classes, thereby demonstrating the need for an efficient taxonomy, or classification framework, according to which essential differences can be identified. The ‘obvious’ distinction between the terms &lt;em&gt;“real”&lt;/em&gt; and &lt;em&gt;“virtual”&lt;/em&gt; is shown to have a number of different aspects, depending on whether one is dealing with real or virtual objects, real or virtual images, and direct or non-direct viewing of these. An (approximately) three dimensional taxonomy is proposed, comprising the following dimensions: Extent of World Knowledge (&lt;em&gt;“how much do we know about the world being displayed?”&lt;/em&gt;), Reproduction Fidelity (&lt;em&gt;“how ‘realistically’ are we able to display it?”&lt;/em&gt;), and Extent of Presence Metaphor (&lt;em&gt;“what is the extent of the illusion that the observer is present within that world?”&lt;/em&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Milgram, P. and Kishino, F., 1994. A taxonomy of mixed reality visual displays. IEICE TRANSACTIONS on Information and Systems, 77(12), pp.1321-1329.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The conventionally held view of a Virtual Reality (VR) environment is one in which the participant-observer is totally immersed in, and able to interact with, a completely synthetic world. Such a world may mimic the properties of some real-world environments, either existing or fictional; however, it can also exceed the bounds of physical reality by creating a world in which the physical laws ordinarily governing space, time, mechanics, material properties, etc. no longer hold. What may be overlooked in this view, however, is that the VR label is also frequently used in association with a variety of other environments, to which total immersion and complete synthesis do not necessarily pertain, but which fall somewhere along a virtuality continuum. In this paper we focus on a particular subclass of VR related technologies that involve the merging of real and virtual worlds, which we refer to generically as Mixed Reality (MR).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Milgram, P., Takemura, H., Utsumi, A. and Kishino, F., 1995, December. Augmented reality: A class of displays on the reality-virtuality continuum. In Telemanipulator and telepresence technologies (Vol. 2351, pp. 282-292). International Society for Optics and Photonics.&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The approach taken with the Not Near Enough project&lt;/strong&gt; plays with notions and ideas that are expressed within discussions surrounding the concept of a reality-virtuality continuum. This big &lt;em&gt;‘playground’&lt;/em&gt; we have been creating attempts to break down the continuum, or to link up parts of the continuum. We have video streaming and audio streaming coming into the VR. This plays with the boundaries between virtual reality and reality and the ways they connect; the boundaries between &lt;em&gt;our&lt;/em&gt; realities and the &lt;em&gt;‘realities’&lt;/em&gt; of theatre.&lt;/p&gt;
+
+&lt;p&gt;The NNE audience is placed in a space created as virtual reality. Taking Milgram’s idea of the converse case of &lt;em&gt;Augmented Reality (AR)&lt;/em&gt; on the virtuality continuum being &lt;em&gt;Augmented Virtuality (AV)&lt;/em&gt;, there appears to be a correlation with the way in which the NNE virtual theatre space is augmented by live (as well as pre-prepared) video and audio feeds brought in from the world &lt;em&gt;outside&lt;/em&gt; the virtual world.&lt;/p&gt;
+
+&lt;p&gt;The real-time interactions that take place between real and the virtual can be represented by interactions between points on the continuum, as can notions of the different modes of control: &lt;em&gt;internal&lt;/em&gt; and &lt;em&gt;external&lt;/em&gt;, &lt;em&gt;intrinsic&lt;/em&gt; and &lt;em&gt;extrinsic&lt;/em&gt;; control over the mechanics of the virtual objects and over how media is displayed from external sources, can be exerted both from within the virtual space and external to it. The experimentation with OSC takes this further, by providing the potential for standard theatre contol equipment to effect change within the virtual space.&lt;/p&gt;
+
+&lt;p&gt;The relationships between performers, audience and stage managers, in terms of not only their differing roles, but also their positioning and nature of their interactions within and across the continuum, is also interesting.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What motivates the audience compared with what motivates the performers?&lt;/li&gt;
+  &lt;li&gt;How do limitations and affordances affect motivation?&lt;/li&gt;
+  &lt;li&gt;How does witnessing and experiencing other points on the continuum, from the perspective of their own, affect this? Is it a little like being aware of the concept of a fourth dimension, and having the ability to imagine it, when reality dictates that one only has access to three dimentions?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;It is interesting that theatre is already a kind of virtual way of viewing the world&lt;/strong&gt;. It is already about making these crazy virtual worlds where anything can happen.&lt;/p&gt;
+
+&lt;p&gt;Wow – theatre &lt;strong&gt;is&lt;/strong&gt; ‘VR’&lt;/p&gt;
+
+&lt;p&gt;VR is perfect for theatre.&lt;/p&gt;
+
+&lt;h1 id=&quot;theatre-is-perfect-for-virtual-reality&quot;&gt;Theatre is perfect for virtual reality!&lt;/h1&gt;
+
+&lt;p&gt;Perhaps VR is the stage. In a similar way that old wooden stage is, or TV, or Film. But even more-so.
+Is it that, what we have here with VR is, by its very nature, another very natural place for theatre? 
+The concept of the virtual Avatar is relatively new, but could this be analogous to costume and make-up? 
+Is the idea of embodiment in VR so different to simply getting into character? These are natural questions raised by the nature of this project.&lt;/p&gt;
+
+&lt;p&gt;In fact, is it going to far to suggest that &lt;strong&gt;theatre IS virtual reality&lt;/strong&gt;?! When we create theatre, no matter what form it takes, it is a kind of Virtual Reality, in a form of its very own. If this is the case, then, as the human condition appears to need to create theatre, then does VR tap into something very similar? In the same way that video games tap into and immerse us into alternative realities, allowing us to become someone else or to experience something from another person’s perspective, within a situation that is not ‘real’, but is an &lt;em&gt;alternative&lt;/em&gt; to &lt;em&gt;actual&lt;/em&gt; reality?&lt;/p&gt;
+
+&lt;h1 id=&quot;virtual-reality-is-absolutely-made-for-theatre&quot;&gt;Virtual Reality is absolutely made for theatre!&lt;/h1&gt;
+
+&lt;p&gt;So, in this way, the NNE version of the &lt;strong&gt;reality-virtuality continuum&lt;/strong&gt; is the continuum between performers in reality, being realised in virtual reality, where they are consumed, interacted with, affected, before being relayed back into reality (via the controller app).&lt;/p&gt;</content><author><name></name></author><summary type="html">The virtuality continuum is a continuous scale ranging between the completely virtual, a virtuality, and the completely real, reality.</summary></entry><entry><title type="html">Creativity And Virtual Reality</title><link href="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html" rel="alternate" type="text/html" title="Creativity And Virtual Reality" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/creativity-and-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html">&lt;h1 id=&quot;virtual-reality-and-the-enhancement-of-creativity-and-innovation&quot;&gt;Virtual reality and the enhancement of creativity and innovation&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://connect.springerpub.com/content/sgrjcep/15/1/102&quot;&gt;https://connect.springerpub.com/content/sgrjcep/15/1/102&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
 
@@ -24,7 +171,17 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;“five ways VR can be used to enhance creativity and problem solving: (a) by changing aspects of the self and self-perception; (b) by optimizing interactions and collaboration with others; (c) by optimizing environmental conditions and influences; (d) by facilitating guidance or gamification of the problem-solving process; and (e) by offering an arena for the integration of other technologies of creativity enhancement such as pharmacological enhancement, brain stimulation, and neurofeedback.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Virtual reality and the enhancement of creativity and innovation</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality&lt;/em&gt;&lt;/strong&gt; (Gerry, 2017) discusses embodiment and collaboration resutling in empathy and hightened creative potential. These are aspects of VR that I believe are important to the success of NNE’s interactive, creative environment. The abilty to put oneself in someone else’s shoes, and to view the world from outside one’s own reality, gives a different perspective that stimulates the senses and imagination.
+(see &lt;strong&gt;&lt;a href=&quot;/2020/12/05/embodiment-in-virtual-reality.html&quot;&gt;embodiment in virtual reality&lt;/a&gt;&lt;/strong&gt;.)
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Virtual reality and the enhancement of creativity and innovation</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
 
 &lt;p&gt;Controller app:&lt;/p&gt;
 &lt;ul&gt;
@@ -399,95 +556,4 @@ system before they come into common use&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;NB&lt;/strong&gt; With help from Max (a Normcore founder) and another poster, I discovered that it is all about &lt;strong&gt;Rooms&lt;/strong&gt;. The solution is to have a single App ID and then a room for the VR players and a room for the controller app, whilst maintaining and sharing the same Realtime data-stores for components that are shared between both, used by both VR players and the controller app. Seems simple once the penny has dropped!&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">The controller app-</summary></entry><entry><title type="html">Screen Actions</title><link href="http://localhost:4000/2020/11/19/screen-actions.html" rel="alternate" type="text/html" title="Screen Actions" /><published>2020-11-19T00:00:00+00:00</published><updated>2020-11-19T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/19/screen-actions</id><content type="html" xml:base="http://localhost:4000/2020/11/19/screen-actions.html">&lt;h1 id=&quot;final-sprint-requirement-doors-working-as-portals-for-teleporting&quot;&gt;Final sprint requirement: Doors working as portals for teleporting&lt;/h1&gt;
-
-&lt;p&gt;.. with visual representation to indicate a screen is a portal&lt;/p&gt;
-
-&lt;p&gt;At the moment, different combinations of specific hands + contrller-triggers, have a different action - see &lt;strong&gt;&lt;a href=&quot;/2020/11/01/screen-panel-trigger-button-2.html&quot;&gt;this post&lt;/a&gt;&lt;/strong&gt; on the subject.&lt;/p&gt;
-
-&lt;p&gt;I have now discussed a change, where there is one touch - different hands have no seperate effect - &lt;strong&gt;keep it simple&lt;/strong&gt;. Will keep using the trigger in conjunction with hand entering the collider.&lt;/p&gt;
-
-&lt;p&gt;A simple question to consider: when adding a screen display state - should I actually be updating an existing one instead? i..e StoreScreenDisplayState only adds to the array. Should I remove old ones - i.e. use RealtimeSet instead of array? This could, of course be done with a Realtime Array, but instead of actually removing elements, they can be set to on or off.&lt;/p&gt;
-
-&lt;p&gt;Probably just allow IsPortal to be part of the realtimeSet/Array state - this can then be set by the Stage Manager.&lt;/p&gt;
-
-&lt;p&gt;So, ultimately, the &lt;strong&gt;stage mangager role&lt;/strong&gt; will be to&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;select a video clip and assign it to a screen in any scene&lt;/li&gt;
-  &lt;li&gt;select a live video feed and assign it to a screen in any scene&lt;/li&gt;
-  &lt;li&gt;select a screen in any scene and make it a portal to another scene&lt;/li&gt;
-  &lt;li&gt;set into motion an animation to transform a screen formation in any scene&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Final sprint requirement: Doors working as portals for teleporting</summary></entry><entry><title type="html">Final Sprint</title><link href="http://localhost:4000/2020/11/18/final-sprint.html" rel="alternate" type="text/html" title="Final Sprint" /><published>2020-11-18T00:00:00+00:00</published><updated>2020-11-18T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/18/final-sprint</id><content type="html" xml:base="http://localhost:4000/2020/11/18/final-sprint.html">&lt;h1 id=&quot;approaching-the-final-straight&quot;&gt;Approaching the final straight&lt;/h1&gt;
-
-&lt;p&gt;It seems very recently that this project began, but we are now coming close to the point where the students will be rehearsing for their final performances.&lt;/p&gt;
-
-&lt;p&gt;Confirmed during meeting with stakeholders 17/11/2020: -&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Rehearsals begin &lt;strong&gt;7 December 2020&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Performances &lt;strong&gt;11 December 2020&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My own personal deadline for &lt;strong&gt;Final Summative Project Submission&lt;/strong&gt; for the Masters Degree is &lt;strong&gt;14 December 2020&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This equates to just less than three weeks to start of rehearsals. Before this point, the main items to do are: -&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Turn off ability to transform each scene apart from &lt;em&gt;Scene 1&lt;/em&gt;. I suggested abiltiy to enable this ability and to default to only &lt;em&gt;Scene 1&lt;/em&gt;. This was agreed.&lt;/li&gt;
-  &lt;li&gt;Identify each joining stream on the instantiated select button, to prevent ambiguity when selecting.&lt;/li&gt;
-  &lt;li&gt;Separate controller for Stage Manager. This can be a development of the OSC controller I created earlier, and will allow fine control of all aspects of the environment.&lt;/li&gt;
-  &lt;li&gt;A &lt;em&gt;Final Scene&lt;/em&gt;, which will be a single video projected all around the audience - so probably a 360degree video space.&lt;/li&gt;
-  &lt;li&gt;Finish of the video download capability&lt;/li&gt;
-  &lt;li&gt;Doors working as portals for teleporting, with visual representation to indicate a screen is a portal&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The most demanding, or potentially problematic, will probably be identification of joining streams (2), followed by the controller (3), then the final scene (4) and the simple can-transform toggle is quite straighforward.&lt;/p&gt;
-
-&lt;p&gt;I intend to do (1) first as it is very simple, before looking at identifying incomimg video streams (2). I will then add the ability for screens to act as portals for teleporting (6), before turing my attention to building the OSC (or equivalent) controller (3). I will finish off with the final scene (4). Concurrent to all of this, I will be working on the lobby (5), which is primarily a space to wait while assets are downloaded etc.&lt;/p&gt;
-
-&lt;p&gt;I have no doubt that there will be some technical issues along the way to deal with -  I am particularly concerned about ensuring the video streaming is working correctly.&lt;/p&gt;
-
-&lt;p&gt;I also hope to build the performer video-streaming app for &lt;em&gt;Apple Mac&lt;/em&gt; and for &lt;em&gt;Android&lt;/em&gt; phone - this has been requested.&lt;/p&gt;</content><author><name></name></author><summary type="html">Approaching the final straight</summary></entry><entry><title type="html">Persisting Multiplayer State</title><link href="http://localhost:4000/2020/11/12/persisting-multiplayer.html" rel="alternate" type="text/html" title="Persisting Multiplayer State" /><published>2020-11-12T00:00:00+00:00</published><updated>2020-11-12T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/12/persisting-multiplayer</id><content type="html" xml:base="http://localhost:4000/2020/11/12/persisting-multiplayer.html">&lt;h1 id=&quot;when-players-join-late&quot;&gt;When players join late&lt;/h1&gt;
-&lt;p&gt;When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.&lt;/p&gt;
-
-&lt;p&gt;However, what if a player joins late? They will have missed the series of actions that has led to what the other players see in their shared environment. Only the latest action will be stored and ‘known’ about by the multiplayer engine, as only the last action is held in the Normcore datastore. The player will, therefore, only see the latest video to be added.&lt;/p&gt;
-
-&lt;h1 id=&quot;a-standard-solution&quot;&gt;A standard solution&lt;/h1&gt;
-&lt;p&gt;I considered how this could be corrected. The ‘usual’ way to deal with this would be for the joining player to query one of the existing players - without their knowledge, of course - in order to find out what screens have so far been affected. I can see that this approach would could result in certain problems and is not necessarily an ideal solution: which player would you query? Have they all been there since the start? If not, you’d need to find out which had been. Either that, or they’d all have to be updated with the full set of changes, which would be load on resources. Where would this data be stored - locally?&lt;/p&gt;
-
-&lt;h1 id=&quot;realtimearray&quot;&gt;RealtimeArray&lt;/h1&gt;
-
-&lt;p&gt;Normcore has a special model type that holds an &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/reference/serialization-realtimearray.html&quot;&gt;array of realtime models&lt;/a&gt;&lt;/strong&gt;. I’d been using realtime models so far to keep data syncronised between clients. Each model can be seen as a class model comrising a number of primative data types. The &lt;em&gt;RealtimeArray&lt;/em&gt; holds an array of such models. This is &lt;strong&gt;exactly&lt;/strong&gt; what I have been looking for!&lt;/p&gt;
-
-&lt;p&gt;Normcore describes the RealtimeArray thus: -&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is designed to be a sequential list of models that can be modified at runtime.&lt;br /&gt;
-Modifying the array sends the minimal amount of information necessary for other clients to replicate the change. The whole collection is not sent every time.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The Normcore tutorial &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/xr-guides/creating-a-multiplayer-drawing-app.html&quot;&gt;Creating a multiplayer drawing app&lt;/a&gt;&lt;/strong&gt; demonstrates the use of a RealtimeArray. It does not use it in exactly the same way, so there is a real need to fully understand the concept in order to use it in your own project, but once it had ‘clicked’, it made absolute sense.&lt;/p&gt;
-
-&lt;p&gt;Now, if a player joins in late, they are updated with all the screen video changes that have been made from the start.
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;video_container&quot;&gt;
-  &lt;video style=&quot;width:720px;&quot; autoplay=&quot;&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
-    &lt;source src=&quot;\media\GAM750\persist-all-screens-for-connecting-player.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-    Woops! Your browser does not support the HTML5 video tag.
-  &lt;/video&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There is an issue with a delay while the joining player’s environment is updated - this is not helped by the fact that, for each screen, a video has begin streaming from a remote location accessed from its URL. If the videoes were local this would be a lot quicker.&lt;/p&gt;
-
-&lt;h1 id=&quot;realtimeset&quot;&gt;RealtimeSet&lt;/h1&gt;
-
-&lt;p&gt;Normcore has another special model type called a &lt;strong&gt;&lt;a href=&quot;https://normcore.io/documentation/reference/serialization-realtimeset.html&quot;&gt;RealtimeSet&lt;/a&gt;&lt;/strong&gt;. This may speed up things - I will attempt to replace the RealtimeArray with the RealtimeSet in due course.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;RealtimeSet is a special model type that can be used in your own custom models. It represents an unordered collection of models. Internally this is used for things like keeping track of all RealtimeViews in the scene. If order is not important, this collection is the recommended collection to use for storing collections of models.&lt;br /&gt;
-Adding or removing items sends the minimal amount of information to the server in order to perform the update on all clients. The whole collection is not sent every time.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I have not yet managed to test this with live video streams from performers’ webcams, so there may be some work to be done here. But the theory is the same, so it should work with, hopefully, the minimum of tweaking.&lt;/p&gt;</content><author><name></name></author><summary type="html">When players join late When I first put together the multiplayer environment, I imagined that every player would begin at the same time. It did not then occur to me that some players may join later, or leave and then rejoin. Therefore, it seemed reasonable to simply ensure that each change made to the environment by an individual player, such as assigning a video to a screen, could be immediately passed to all other clients and, because all clients had been there from the start, each will experience the same results, from the same chain of successive actions, as every other client in the multiplayer environment.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The controller app-</summary></entry></feed>
