@@ -51,6 +51,7 @@ Specifically relating to journalism, but the similarity and comparison of the re
 <br>
 
 # Reasons to use virtual reality in education and training courses and a model to determine when to use virtual reality
+(Pantelidis, 2010)
 
 This paper discusses a significant number of studies that demonstrate the use and advantages of VR in an education environment. As a tool for learning, VR appears to display many useful traits. 
 
