@@ -5,8 +5,64 @@ date: 2020-12-07 00:00
 published: true
 ---
 
+# Definitions of creativity
+
+For some time, I have been keen to explore the idea of not only providing a virtual environment where creative processes can happen, but as a means for the promotion and enhancement of creativity itself. According to Margaret A. Boden, “Many psychologists define creativity as the novel combination of familiar ideas” (Boden, M.A., 1996). This definition appears to neatly fit the idea of bringing along familiar theatre practice and creative patterns and treating them in order to be parsed through an unfamiliar and novel environment defined by the unique set of affordances provided by virtual reality in general, and this theatre environment in particular. This is reinforced by M. Rhodes, who asked “Isn't creativity, in simple language, the process of reorganizing knowledge (general or specific knowledge), and of articulating that synthesis so that other people can understand the meaning” (Rhodes, M., 1961). Again, the idea is that creativity involves articulating the familiar in unfamiliar terms, such that people are able to understand, to attach themselves to the way the ideas have been put forward, albeit in unfamiliar forms or contexts. 
+
+However, the enhancement of creativity is more tricky: “relatively few empirical studies have directly addressed the question of whether and, if so, how creativity might be enhanced.” (Nickerson, R. S. 1999). However, breaking existing and recognised ‘rules’ appears to be one way (Xinyue Wang et al, 2018). So, the idea of taking something familiar, breaking the accepted rules and norms, and articulating it so that it is understandable to everyday people, could be a way of understanding how VR can enhance creativity.
+
+*Nickerson, R.S., 1999. Enhancing creativity*
+
+*Wang, X., Lu, K., Runco, M.A. and Hao, N., 2018. Break the “wall” and become creative: enacting embodied metaphors in virtual reality. Consciousness and cognition, 62, pp.102-109.*
+
+<br><br>
+
+“Creativity in general is the ability to come up with new ideas that are surprising yet intelligible, and also valuable in some way. This is true for all cases of creativity, whether within science, art, politics, cookery, whatever”
+
+“Three different types of creative thinking: combinational, exploratory and transformations (Boden, 1990; 1994)”
+
+“Combinational creativity produces new ideas by combining (associating) old ideas in unfamiliar ways.”
+
+“Both exploratory and transformational creativity require knowledge of a rather different type. Namely, they arise out of some culturally accepted style of thinking, or structured conceptual space, that the person as learnt – and, to some extent, mastered.”
+
+Exploratory creatively “investigates the possibilities inherent in the space: just what do the rules enable one to do?”
+
+*Boden, M., 2001. Creativity and knowledge. Creativity in education, pp.95-102.*
+
+<br><br>
+
+*Boden, M.A., 1996. Creativity. In Artificial intelligence (pp. 267-291). Academic Press.*
+
+>the definition of creativity is problematic for four reasons. The first problem is that positive evaluation is essential to the concept. An idea counted as creative must be interesting. This judgment often rests on social and historical factors, and no purely psychological theory could explain these evaluations. The second problem concerns the question whether the originator must recognize the value of an idea for it to be called creative. If so, then someone who has a good idea but rejects it as uninteresting is not creative. The third difficulty is the tension between psychological (P) and historical (H) senses. An idea is P-creative if it is creative with respect to the mind of the person concerned, even if others have had that idea already. An idea is H-creative if it is P-creative and no other person has had the idea before. H-creativity is more glamorous, but P-creativity is more fundamental. The fourth problem is that the familiar operational definition fits only some cases. Many psychologists define creativity as the novel combination of familiar ideas. 
+
+<br><br>
+
+*Rhodes, M., 1961. An analysis of creativity. The Phi Delta Kappan, 42(7), pp.305-310.*
+
+>Isn't creativity, in simple language, the process of reorganizing knowledge (general or specific knowledge), and of articulating that synthesis so that other people can understand the meaning.
+
+<br><br>
+
+# Creativity and narrative
+
+“The most ambitious promise of the new narrative medium is its potential for telling stories about whole systems. The format that most fully exploits the properties of digital environments is not the hyper-text or the fighting game but the simulation: the virtual world full of interrelated entities, a world we can enter, manipulate, and observe in process. We might therefore expect the virtuosos of cyber drama to create simulated environments that capture behavioural patterns and patterns of interrelationships with a new clarity.” (Murray, J.Y., 1997: 280)
+
+*Murray, J.H., 1997. Hamlet on the holodeck: The future of narrative in cyberspace. Massachusetts. MIT press.*
+
+
+# Enhancing creativity
+*Fink, A., Grabner, R.H., Gebauer, D., Reishofer, G., Koschutnig, K. and Ebner, F., 2010. Enhancing creativity by means of cognitive stimulation: Evidence from an fMRI study. NeuroImage, 52(4), pp.1687-1695.*
+
+>Cognitive stimulation via the exposure to ideas of other people is an effective tool in stimulating creativity in group-based creativity techniques.
+>Cognitive stimulation was effective in improving originality, and this performance improvement was associated with activation increases in a neural network
+
+<br><br>
+
 # Virtual reality and the enhancement of creativity and innovation
 (Thornhill-Miller and Dupont, 2016)
+
+*Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.*
+
 
 [https://connect.springerpub.com/content/sgrjcep/15/1/102](https://connect.springerpub.com/content/sgrjcep/15/1/102)
 
@@ -77,3 +133,5 @@ This paper discusses a significant number of studies that demonstrate the use an
 *Sundar, S.S., Kang, J. and Oprean, D., 2017. Being there in the midst of the story: How immersive journalism affects our perceptions and cognitions. Cyberpsychology, Behavior, and Social Networking, 20(11), pp.672-682.*
 
 *Pantelidis, V.S., 2010. Reasons to use virtual reality in education and training courses and a model to determine when to use virtual reality. Themes in Science and Technology Education, 2(1-2), pp.59-70.*
+
+

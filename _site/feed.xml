@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-12T17:46:44+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-03-11T14:31:01+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Creative Reflective Journal</title><subtitle>My Creative Reflective Journal towards the Falmouth University Creative App Development Masters Degree.</subtitle><entry><title type="html">Artefact Design Map</title><link href="http://localhost:4000/2021/03/10/artefact-design-map.html" rel="alternate" type="text/html" title="Artefact Design Map" /><published>2021-03-10T00:00:00+00:00</published><updated>2021-03-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/03/10/artefact-design-map</id><content type="html" xml:base="http://localhost:4000/2021/03/10/artefact-design-map.html">&lt;h1 id=&quot;last-updated-march-10th-2021&quot;&gt;Last updated: March 10th 2021&lt;/h1&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;&lt;a href=&quot;/images/GAM750/artefact-design-map.jpg&quot;&gt;Click here to open&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\images\GAM750\artefact-design-map.jpg&quot; alt=&quot;Design Map&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Last updated: March 10th 2021</summary></entry><entry><title type="html">Reflections</title><link href="http://localhost:4000/2021/03/10/reflections.html" rel="alternate" type="text/html" title="Reflections" /><published>2021-03-10T00:00:00+00:00</published><updated>2021-03-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/03/10/reflections</id><content type="html" xml:base="http://localhost:4000/2021/03/10/reflections.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I set out to use the opportunities presented by this project to explore the potential of a multiplayer, virtual environment as a platform for creative endeavour in theatre, whilst building on my own skills as a researcher, developer and artist.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;I have succeeded in my goal of building an environment that meets the stakeholders’ requirements.&lt;/li&gt;
+      &lt;li&gt;I have developed a technical stack to achieve these aims.&lt;/li&gt;
+      &lt;li&gt;I have learned about multiplayer technologies and, in Normcore, found a very useable, cost-effective and forward-thinking solution for future projects.&lt;/li&gt;
+      &lt;li&gt;I have learned about media streaming, and bringing video from outside and into the virtual environment. Furthermore, have built a way for communication to happen between the two.&lt;/li&gt;
+      &lt;li&gt;I have had a great oportunity to work with other artists and to think about the creative process, both in terms of theatre and in a more abstract, general sense. I have begun to understand how an immersive, virtual environment can be used for creative ends, and even maybe enhance creativity. It certainly provides new ways of thinking about creative practice, beyond traditions.&lt;/li&gt;
+      &lt;li&gt;The research I have done is just the start - I have discovered areas that provide fascinating oportunities for further research.&lt;/li&gt;
+      &lt;li&gt;As an artist myself, I have ideas for future projects that will combine what I have learned here with my own creative practice.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The students’ own presentations reveal a variety of creative responses, demonstrating both an ease of engaging with the unfamiliar environment and the environment itself as a tool for exploring new ways of thinking about, and making, theatre.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The work done by the students shows they way the environment has been embraced, and how fears have, apparently, been overcome.&lt;/li&gt;
+      &lt;li&gt;It is impossible to be sure that this is the case, though, until full user-testing has been undertaken, including surveys, discussions and interviews, in order to get the students and the expert stakeholders’ views and opinions.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Preparations are currently underway for the continuing development of Not Near Enough.  Most immediately, it has been confirmed that the work will be presented at the 2021 National Student Drama Festival, and plans are being put in place to publish a peer-reviewed academic paper discussing the project.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The festival submission, due to the pandemic, will involve 360 degree capture from within the audience environment.&lt;/li&gt;
+      &lt;li&gt;Future work will involve developing the artefact to make it more user-friendly for users from non-technical backgrounds to be able to start making work with it, with the flattest learning curve possible.&lt;/li&gt;
+      &lt;li&gt;In this way, it has the potential to become a commercial product. 
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;However, the sense that this is, in fact, just the beginning is enticing me to take forward what has been learned, particularly in relation to the controller app, so as to further progress as a researcher, developer, artist and practitioner, and to drive what I am certain will become a rich source for further research and development, exploring issues of embodiment and identity, whilst investigating collaborative creation within virtual multiplayer settings.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The research I have done is just the start - I have discovered areas that provide fascinating oportunities for further research.&lt;/li&gt;
+      &lt;li&gt;The area around the breaking down of the reality-virtuality continuum is particularly exciting, and my intention is to continue to  create work that explores the combining of different ‘levels’ of virtuality.
+&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An exciting and more immediate prospect, however, is that, as a result of what I have learned from working on Not Near Enough, I have been invited to teach undergraduate theatre students at Falmouth University, as a visiting lecturer, about this area of practice.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;This is an interesting and new area for me, and one which I hope will lead to more of the same.&lt;/li&gt;
+      &lt;li&gt;It will not only allow me to help and enthuse students to explore these areas of creative practice, but will feed into my own research, development and my own creative practice.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I set out to use the opportunities presented by this project to explore the potential of a multiplayer, virtual environment as a platform for creative endeavour in theatre, whilst building on my own skills as a researcher, developer and artist.</summary></entry><entry><title type="html">Stereo 360 Image and Video Capture</title><link href="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html" rel="alternate" type="text/html" title="Stereo 360 Image and Video Capture" /><published>2021-02-10T00:00:00+00:00</published><updated>2021-02-10T00:00:00+00:00</updated><id>http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture</id><content type="html" xml:base="http://localhost:4000/2021/02/10/stereo-360-image-and-video-capture.html">&lt;p&gt;The intention is for &lt;strong&gt;Not Near Enough&lt;/strong&gt; to be showcased at the 2021 &lt;strong&gt;&lt;a href=&quot;https://www.nsdf.org.uk/what-we-do/our-yearly-festival/&quot;&gt;National Student Drama Festival&lt;/a&gt;&lt;/strong&gt;. Clearly, given the pandemic, it will not be possible to present the project in the usual manner, with real equpment and real people together in a real space. However, the intention is to create a 360 degree video capture from inside the virtual space. Here, I will explore possibilities for its creation.&lt;/p&gt;
 
 &lt;p&gt;An early 2018 &lt;strong&gt;&lt;a href=&quot;https://blogs.unity3d.com/2018/01/26/stereo-360-image-and-video-capture/&quot;&gt;Unity blog&lt;/a&gt;&lt;/strong&gt; introduces a method to do this.&lt;/p&gt;
 
@@ -114,6 +171,16 @@
 &lt;p&gt;&lt;em&gt;Milgram, P., Takemura, H., Utsumi, A. and Kishino, F., 1995, December. Augmented reality: A class of displays on the reality-virtuality continuum. In Telemanipulator and telepresence technologies (Vol. 2351, pp. 282-292). International Society for Optics and Photonics.&lt;/em&gt;
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
+&lt;h1 id=&quot;magic-book&quot;&gt;Magic Book&lt;/h1&gt;
+
+&lt;p&gt;This is a mixed reality interface that draws upon Paul Milgram’s “reality-virtuality continuum” taxonomy.  This imagines the reader having the ability to view and enter scenes from different points along the continuum, where “VR users can see other VR users represented as life-sized virtual avatars, while AR users will see VR users as miniature avatars in the scene.”&lt;/p&gt;
+
+&lt;p&gt;Billinghurst, M., Kato, H. and Poupyrev, I., 2001, March. MagicBook: transitioning between reality and virtuality. In &lt;em&gt;CHI’01 extended abstracts on Human factors in computing systems&lt;/em&gt; (pp. 25-26).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-not-near-enough-approach&quot;&gt;The Not Near Enough approach&lt;/h1&gt;
+
 &lt;p&gt;&lt;strong&gt;The approach taken with the Not Near Enough project&lt;/strong&gt; plays with notions and ideas that are expressed within discussions surrounding the concept of a reality-virtuality continuum. This big &lt;em&gt;‘playground’&lt;/em&gt; we have been creating attempts to break down the continuum, or to link up parts of the continuum. We have video streaming and audio streaming coming into the VR. This plays with the boundaries between virtual reality and reality and the ways they connect; the boundaries between &lt;em&gt;our&lt;/em&gt; realities and the &lt;em&gt;‘realities’&lt;/em&gt; of theatre.&lt;/p&gt;
 
 &lt;p&gt;The NNE audience is placed in a space created as virtual reality. Taking Milgram’s idea of the converse case of &lt;em&gt;Augmented Reality (AR)&lt;/em&gt; on the virtuality continuum being &lt;em&gt;Augmented Virtuality (AV)&lt;/em&gt;, there appears to be a correlation with the way in which the NNE virtual theatre space is augmented by live (as well as pre-prepared) video and audio feeds brought in from the world &lt;em&gt;outside&lt;/em&gt; the virtual world.&lt;/p&gt;
@@ -124,7 +191,7 @@
 &lt;ul&gt;
   &lt;li&gt;What motivates the audience compared with what motivates the performers?&lt;/li&gt;
   &lt;li&gt;How do limitations and affordances affect motivation?&lt;/li&gt;
-  &lt;li&gt;How does witnessing and experiencing other points on the continuum, from the perspective of their own, affect this? Is it a little like being aware of the concept of a fourth dimension, and having the ability to imagine it, when reality dictates that one only has access to three dimentions?&lt;/li&gt;
+  &lt;li&gt;How does witnessing and experiencing other points on the continuum, from the perspective of their own, affect this? Is it a little like being aware of the concept of a fourth dimension, and having the ability to imagine it, when reality dictates that one only has access to three dimensions?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;It is interesting that theatre is already a kind of virtual way of viewing the world&lt;/strong&gt;. It is already about making these crazy virtual worlds where anything can happen.&lt;/p&gt;
@@ -140,100 +207,25 @@ Is it that, what we have here with VR is, by its very nature, another very natur
 The concept of the virtual Avatar is relatively new, but could this be analogous to costume and make-up? 
 Is the idea of embodiment in VR so different to simply getting into character? These are natural questions raised by the nature of this project.&lt;/p&gt;
 
-&lt;p&gt;In fact, is it going to far to suggest that &lt;strong&gt;theatre IS virtual reality&lt;/strong&gt;?! When we create theatre, no matter what form it takes, it is a kind of Virtual Reality, in a form of its very own. If this is the case, then, as the human condition appears to need to create theatre, then does VR tap into something very similar? In the same way that video games tap into and immerse us into alternative realities, allowing us to become someone else or to experience something from another person’s perspective, within a situation that is not ‘real’, but is an &lt;em&gt;alternative&lt;/em&gt; to &lt;em&gt;actual&lt;/em&gt; reality?&lt;/p&gt;
+&lt;p&gt;In fact, is it going too far to suggest that &lt;strong&gt;theatre IS virtual reality&lt;/strong&gt;?! When we create theatre, no matter what form it takes, it is a kind of Virtual Reality, in a form of its very own. If this is the case, then, as the human condition appears to need to create theatre, then does VR tap into something very similar? In the same way that video games tap into and immerse us into alternative realities, allowing us to become someone else or to experience something from another person’s perspective, within a situation that is not ‘real’, but is an &lt;em&gt;alternative&lt;/em&gt; to &lt;em&gt;actual&lt;/em&gt; reality?&lt;/p&gt;
 
 &lt;h1 id=&quot;virtual-reality-is-absolutely-made-for-theatre&quot;&gt;Virtual Reality is absolutely made for theatre!&lt;/h1&gt;
 
-&lt;p&gt;So, in this way, the NNE version of the &lt;strong&gt;reality-virtuality continuum&lt;/strong&gt; is the continuum between performers in reality, being realised in virtual reality, where they are consumed, interacted with, affected, before being relayed back into reality (via the controller app).&lt;/p&gt;</content><author><name></name></author><summary type="html">The virtuality continuum is a continuous scale ranging between the completely virtual, a virtuality, and the completely real, reality.</summary></entry><entry><title type="html">Creativity, Collaboration and Learning In Virtual Reality</title><link href="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html" rel="alternate" type="text/html" title="Creativity, Collaboration and Learning In Virtual Reality" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/creativity-and-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html">&lt;h1 id=&quot;virtual-reality-and-the-enhancement-of-creativity-and-innovation&quot;&gt;Virtual reality and the enhancement of creativity and innovation&lt;/h1&gt;
-&lt;p&gt;(Thornhill-Miller and Dupont, 2016)&lt;/p&gt;
+&lt;p&gt;So, in this way, the NNE version of the &lt;strong&gt;reality-virtuality continuum&lt;/strong&gt; is the continuum between performers in reality, being realised in virtual reality, where they are consumed, interacted with, affected, before being relayed back into reality (via the controller app).&lt;/p&gt;</content><author><name></name></author><summary type="html">The virtuality continuum is a continuous scale ranging between the completely virtual, a virtuality, and the completely real, reality.</summary></entry><entry><title type="html">Reflections</title><link href="http://localhost:4000/2021/01/08/reflections.html" rel="alternate" type="text/html" title="Reflections" /><published>2021-01-08T00:00:00+00:00</published><updated>2021-01-08T00:00:00+00:00</updated><id>http://localhost:4000/2021/01/08/reflections</id><content type="html" xml:base="http://localhost:4000/2021/01/08/reflections.html">&lt;h1 id=&quot;the-challenges&quot;&gt;The Challenges&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://connect.springerpub.com/content/sgrjcep/15/1/102&quot;&gt;https://connect.springerpub.com/content/sgrjcep/15/1/102&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a distributed multiplayer system.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Communicate the complexity of the system as a whole.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“perhaps the safest, most fully developed of the emerging technologies of cognitive enhancement”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;This is a complex experiment, where I drop research and practice together.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“an underused tool for the enhancement of creativity”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The outlier, the interest -  for some absurd reason I tried to fit VR around theatre. Attempting to rebuild some of the concepts and models that exist in theatre, in VR.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“researchers, educators, trainers, designers, managers, and others concerned with innovation should be more informed about virtual reality technologies (VRTs) both because of their widespread and growing accessibility and because of the significant, synergistic contributions they can make to human performance and understanding”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;The request was to build something that already exists physically, in VR. It is safer to the theatre makers to do this. But perhaps this will open up opportunities for them to consider bringing the technology to the theatre makers, allowing them to embrace alternative modes of performance and of theatre environmental control. In a sense I have been a guide, showing them the potential. The hope is that they will see the potential of VR environments for what they can bring in their own right.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“VRTs offer a cost-effective means of implementing and optimizing nearly all conventional individual and collaborative creativity enhancement techniques while also offering potent new possibilities and combinations not available by other means”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h1 id=&quot;creativity&quot;&gt;Creativity&lt;/h1&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“five ways VR can be used to enhance creativity and problem solving: (a) by changing aspects of the self and self-perception; (b) by optimizing interactions and collaboration with others; (c) by optimizing environmental conditions and influences; (d) by facilitating guidance or gamification of the problem-solving process; and (e) by offering an arena for the integration of other technologies of creativity enhancement such as pharmacological enhancement, brain stimulation, and neurofeedback.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;paint-with-me-stimulating-creativity-and-empathy-while-painting-with-a-painter-in-virtual-reality&quot;&gt;Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality&lt;/h1&gt;
-&lt;p&gt;(Gerry, 2017)&lt;/p&gt;
-
-&lt;p&gt;Discusses embodiment and collaboration resulting in empathy and hightened creative potential. These are aspects of VR that I believe are important to the success of NNE’s interactive, creative environment. The abilty to put oneself in someone else’s shoes, and to view the world from outside one’s own reality, gives a different perspective that stimulates the senses and imagination. (see &lt;strong&gt;&lt;a href=&quot;/2020/12/05/embodiment-in-virtual-reality.html&quot;&gt;embodiment in virtual reality&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;learning-in-virtual-reality-effects-on-performance-emotion-and-engagement&quot;&gt;Learning in virtual reality: Effects on performance, emotion and engagement&lt;/h1&gt;
-&lt;p&gt;(Allcoat and von Mühlenen, 2018)&lt;/p&gt;
-
-&lt;p&gt;This study appears to show clear advantages of VR over other mediums for learning.&lt;/p&gt;
-
-&lt;p&gt;From abstract:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Recent advances in virtual reality (VR) technology allow for potential learning and education applications. For this study, 99 participants were assigned to one of three learning conditions: traditional (textbook style), VR and video (a passive control). The learning materials used the same text and 3D model for all conditions. Each participant was given a knowledge test before and after learning. Participants in the traditional and VR conditions had &lt;strong&gt;improved overall performance&lt;/strong&gt; (i.e. learning, including knowledge acquisition and understanding) compared to those in the video condition. Participants in the VR condition also showed &lt;strong&gt;better performance for ‘remembering’&lt;/strong&gt; than those in the traditional and the video conditions. Emotion self-ratings before and after the learning phase showed an &lt;strong&gt;increase in positive emotions and a decrease in negative emotions&lt;/strong&gt; for the VR condition. Conversely there was a decrease in positive emotions in both the traditional and video conditions. The Web-based learning tools evaluation scale also found that participants in the VR condition &lt;strong&gt;reported higher engagement&lt;/strong&gt; than those in the other conditions. Overall, VR displayed an &lt;strong&gt;improved learning experience&lt;/strong&gt; when compared to traditional and video learning methods.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;being-there-in-the-midst-of-the-story-how-immersive-journalism-affects-our-perceptions-and-cognitions&quot;&gt;Being There in the Midst of the Story: How Immersive Journalism Affects Our Perceptions and Cognitions&lt;/h1&gt;
-&lt;p&gt;(Sundar et al, 2017)&lt;/p&gt;
-
-&lt;p&gt;Specifically relating to journalism, but the similarity and comparison of the response to theatrical ‘story-telling’ is fairly clear.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Immersive journalism in the form of virtual reality (VR) headsets and 360°-video is becoming more mainstream and is much touted for &lt;strong&gt;inducing greater “presence”&lt;/strong&gt; than traditional text. But, does this presence influence psychological outcomes of reading news, such as memory for story content, perceptions of credibility, and empathy felt toward story characters? We propose that &lt;strong&gt;two key technological affordances of VR (modality and interactivity) are responsible for triggering three presence-related cognitive heuristics (being-there, interaction, and realism), which influence news readers’ memory and their perceptions of credibility, empathy, and story-sharing intentions&lt;/strong&gt;. We report a 3 (storytelling medium: VR vs. 360°-video vs. Text) × 2 (story: “The displaced” and “The click effect”) mixed-factorial experiment, in which participants (N = 129) experienced two New York Times stories (that differed in their emotional intensity) using one of three mediums (VR, 360°-video, Text). Participants who experienced the stories using VR and 360°-video &lt;strong&gt;outperformed those who read the same stories using text with pictures, not only on such presence-related outcomes as being-there, interaction, and realism, but also on perceived source credibility, story-sharing intention, and feelings of empathy&lt;/strong&gt;. Moreover, we found that &lt;strong&gt;senses of being-there, interaction, and realism mediated the relationship between storytelling medium and reader perceptions of credibility, story recall, and story-sharing intention&lt;/strong&gt;. These findings have &lt;strong&gt;theoretical implications for the psychology of virtual reality&lt;/strong&gt;, and practical applications for immersive journalism in particular and interactive media in general.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;reasons-to-use-virtual-reality-in-education-and-training-courses-and-a-model-to-determine-when-to-use-virtual-reality&quot;&gt;Reasons to use virtual reality in education and training courses and a model to determine when to use virtual reality&lt;/h1&gt;
-
-&lt;p&gt;This paper discusses a significant number of studies that demonstrate the use and advantages of VR in an education environment. As a tool for learning, VR appears to display many useful traits.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Studies show that a virtual environment can “stimulate learning and comprehension, because it provides a tight coupling between symbolic and experiential information” (Bowman, Hodges, Allison, &amp;amp; Wineman, 1998)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Numerous studies have focused on how children and young learners interact and learn in a 3D environment&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;potential of spatial and social technologies in a virtual learning environment (VLE) through presence&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Allcoat, D. and von Mühlenen, A., 2018. Learning in virtual reality: Effects on performance, emotion and engagement. Research in Learning Technology, 26.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Sundar, S.S., Kang, J. and Oprean, D., 2017. Being there in the midst of the story: How immersive journalism affects our perceptions and cognitions. Cyberpsychology, Behavior, and Social Networking, 20(11), pp.672-682.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Pantelidis, V.S., 2010. Reasons to use virtual reality in education and training courses and a model to determine when to use virtual reality. Themes in Science and Technology Education, 2(1-2), pp.59-70.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Virtual reality and the enhancement of creativity and innovation (Thornhill-Miller and Dupont, 2016)</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
+&lt;h2 id=&quot;the-performances&quot;&gt;The performances&lt;/h2&gt;</content><author><name></name></author><summary type="html">The Challenges</summary></entry><entry><title type="html">Preparing for deployement</title><link href="http://localhost:4000/2020/12/07/preparing-for-deployment.html" rel="alternate" type="text/html" title="Preparing for deployement" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/preparing-for-deployment</id><content type="html" xml:base="http://localhost:4000/2020/12/07/preparing-for-deployment.html">&lt;p&gt;Last minute changes, fixed etc.&lt;/p&gt;
 
 &lt;p&gt;Controller app:&lt;/p&gt;
 &lt;ul&gt;
@@ -299,7 +291,177 @@ videoPlayer.Play();
 
 &lt;p&gt;Perhaps I’ll find time to add these during the week.&lt;/p&gt;
 
-&lt;p&gt;The 360 videos, in particular, would be helpful for the students to document the work.&lt;/p&gt;</content><author><name></name></author><summary type="html">Last minute changes, fixed etc.</summary></entry><entry><title type="html">Embodiment in Virtual Reality</title><link href="http://localhost:4000/2020/12/05/embodiment-in-virtual-reality.html" rel="alternate" type="text/html" title="Embodiment in Virtual Reality" /><published>2020-12-05T00:00:00+00:00</published><updated>2020-12-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/05/embodiment-in-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/05/embodiment-in-virtual-reality.html">&lt;h2 id=&quot;some-choice-references-and-worthwhile-reading&quot;&gt;Some choice references and worthwhile reading&lt;/h2&gt;
+&lt;p&gt;The 360 videos, in particular, would be helpful for the students to document the work.&lt;/p&gt;</content><author><name></name></author><summary type="html">Last minute changes, fixed etc.</summary></entry><entry><title type="html">Creativity, Collaboration and Learning In Virtual Reality</title><link href="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html" rel="alternate" type="text/html" title="Creativity, Collaboration and Learning In Virtual Reality" /><published>2020-12-07T00:00:00+00:00</published><updated>2020-12-07T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/07/creativity-and-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/07/creativity-and-virtual-reality.html">&lt;h1 id=&quot;definitions-of-creativity&quot;&gt;Definitions of creativity&lt;/h1&gt;
+
+&lt;p&gt;For some time, I have been keen to explore the idea of not only providing a virtual environment where creative processes can happen, but as a means for the promotion and enhancement of creativity itself. According to Margaret A. Boden, “Many psychologists define creativity as the novel combination of familiar ideas” (Boden, M.A., 1996). This definition appears to neatly fit the idea of bringing along familiar theatre practice and creative patterns and treating them in order to be parsed through an unfamiliar and novel environment defined by the unique set of affordances provided by virtual reality in general, and this theatre environment in particular. This is reinforced by M. Rhodes, who asked “Isn’t creativity, in simple language, the process of reorganizing knowledge (general or specific knowledge), and of articulating that synthesis so that other people can understand the meaning” (Rhodes, M., 1961). Again, the idea is that creativity involves articulating the familiar in unfamiliar terms, such that people are able to understand, to attach themselves to the way the ideas have been put forward, albeit in unfamiliar forms or contexts.&lt;/p&gt;
+
+&lt;p&gt;However, the enhancement of creativity is more tricky: “relatively few empirical studies have directly addressed the question of whether and, if so, how creativity might be enhanced.” (Nickerson, R. S. 1999). However, breaking existing and recognised ‘rules’ appears to be one way (Xinyue Wang et al, 2018). So, the idea of taking something familiar, breaking the accepted rules and norms, and articulating it so that it is understandable to everyday people, could be a way of understanding how VR can enhance creativity.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nickerson, R.S., 1999. Enhancing creativity&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Wang, X., Lu, K., Runco, M.A. and Hao, N., 2018. Break the “wall” and become creative: enacting embodied metaphors in virtual reality. Consciousness and cognition, 62, pp.102-109.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Creativity in general is the ability to come up with new ideas that are surprising yet intelligible, and also valuable in some way. This is true for all cases of creativity, whether within science, art, politics, cookery, whatever”&lt;/p&gt;
+
+&lt;p&gt;“Three different types of creative thinking: combinational, exploratory and transformations (Boden, 1990; 1994)”&lt;/p&gt;
+
+&lt;p&gt;“Combinational creativity produces new ideas by combining (associating) old ideas in unfamiliar ways.”&lt;/p&gt;
+
+&lt;p&gt;“Both exploratory and transformational creativity require knowledge of a rather different type. Namely, they arise out of some culturally accepted style of thinking, or structured conceptual space, that the person as learnt – and, to some extent, mastered.”&lt;/p&gt;
+
+&lt;p&gt;Exploratory creatively “investigates the possibilities inherent in the space: just what do the rules enable one to do?”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Boden, M., 2001. Creativity and knowledge. Creativity in education, pp.95-102.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Boden, M.A., 1996. Creativity. In Artificial intelligence (pp. 267-291). Academic Press.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;the definition of creativity is problematic for four reasons. The first problem is that positive evaluation is essential to the concept. An idea counted as creative must be interesting. This judgment often rests on social and historical factors, and no purely psychological theory could explain these evaluations. The second problem concerns the question whether the originator must recognize the value of an idea for it to be called creative. If so, then someone who has a good idea but rejects it as uninteresting is not creative. The third difficulty is the tension between psychological (P) and historical (H) senses. An idea is P-creative if it is creative with respect to the mind of the person concerned, even if others have had that idea already. An idea is H-creative if it is P-creative and no other person has had the idea before. H-creativity is more glamorous, but P-creativity is more fundamental. The fourth problem is that the familiar operational definition fits only some cases. Many psychologists define creativity as the novel combination of familiar ideas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Rhodes, M., 1961. An analysis of creativity. The Phi Delta Kappan, 42(7), pp.305-310.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Isn’t creativity, in simple language, the process of reorganizing knowledge (general or specific knowledge), and of articulating that synthesis so that other people can understand the meaning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;creativity-and-narrative&quot;&gt;Creativity and narrative&lt;/h1&gt;
+
+&lt;p&gt;“The most ambitious promise of the new narrative medium is its potential for telling stories about whole systems. The format that most fully exploits the properties of digital environments is not the hyper-text or the fighting game but the simulation: the virtual world full of interrelated entities, a world we can enter, manipulate, and observe in process. We might therefore expect the virtuosos of cyber drama to create simulated environments that capture behavioural patterns and patterns of interrelationships with a new clarity.” (Murray, J.Y., 1997: 280)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Murray, J.H., 1997. Hamlet on the holodeck: The future of narrative in cyberspace. Massachusetts. MIT press.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;enhancing-creativity&quot;&gt;Enhancing creativity&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Fink, A., Grabner, R.H., Gebauer, D., Reishofer, G., Koschutnig, K. and Ebner, F., 2010. Enhancing creativity by means of cognitive stimulation: Evidence from an fMRI study. NeuroImage, 52(4), pp.1687-1695.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cognitive stimulation via the exposure to ideas of other people is an effective tool in stimulating creativity in group-based creativity techniques.
+Cognitive stimulation was effective in improving originality, and this performance improvement was associated with activation increases in a neural network&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;virtual-reality-and-the-enhancement-of-creativity-and-innovation&quot;&gt;Virtual reality and the enhancement of creativity and innovation&lt;/h1&gt;
+&lt;p&gt;(Thornhill-Miller and Dupont, 2016)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://connect.springerpub.com/content/sgrjcep/15/1/102&quot;&gt;https://connect.springerpub.com/content/sgrjcep/15/1/102&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;from abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“perhaps the safest, most fully developed of the emerging technologies of cognitive enhancement”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“an underused tool for the enhancement of creativity”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“researchers, educators, trainers, designers, managers, and others concerned with innovation should be more informed about virtual reality technologies (VRTs) both because of their widespread and growing accessibility and because of the significant, synergistic contributions they can make to human performance and understanding”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“VRTs offer a cost-effective means of implementing and optimizing nearly all conventional individual and collaborative creativity enhancement techniques while also offering potent new possibilities and combinations not available by other means”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“five ways VR can be used to enhance creativity and problem solving: (a) by changing aspects of the self and self-perception; (b) by optimizing interactions and collaboration with others; (c) by optimizing environmental conditions and influences; (d) by facilitating guidance or gamification of the problem-solving process; and (e) by offering an arena for the integration of other technologies of creativity enhancement such as pharmacological enhancement, brain stimulation, and neurofeedback.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;paint-with-me-stimulating-creativity-and-empathy-while-painting-with-a-painter-in-virtual-reality&quot;&gt;Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality&lt;/h1&gt;
+&lt;p&gt;(Gerry, 2017)&lt;/p&gt;
+
+&lt;p&gt;Discusses embodiment and collaboration resulting in empathy and hightened creative potential. These are aspects of VR that I believe are important to the success of NNE’s interactive, creative environment. The abilty to put oneself in someone else’s shoes, and to view the world from outside one’s own reality, gives a different perspective that stimulates the senses and imagination. (see &lt;strong&gt;&lt;a href=&quot;/2020/12/05/embodiment-in-virtual-reality.html&quot;&gt;embodiment in virtual reality&lt;/a&gt;&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;learning-in-virtual-reality-effects-on-performance-emotion-and-engagement&quot;&gt;Learning in virtual reality: Effects on performance, emotion and engagement&lt;/h1&gt;
+&lt;p&gt;(Allcoat and von Mühlenen, 2018)&lt;/p&gt;
+
+&lt;p&gt;This study appears to show clear advantages of VR over other mediums for learning.&lt;/p&gt;
+
+&lt;p&gt;From abstract:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Recent advances in virtual reality (VR) technology allow for potential learning and education applications. For this study, 99 participants were assigned to one of three learning conditions: traditional (textbook style), VR and video (a passive control). The learning materials used the same text and 3D model for all conditions. Each participant was given a knowledge test before and after learning. Participants in the traditional and VR conditions had &lt;strong&gt;improved overall performance&lt;/strong&gt; (i.e. learning, including knowledge acquisition and understanding) compared to those in the video condition. Participants in the VR condition also showed &lt;strong&gt;better performance for ‘remembering’&lt;/strong&gt; than those in the traditional and the video conditions. Emotion self-ratings before and after the learning phase showed an &lt;strong&gt;increase in positive emotions and a decrease in negative emotions&lt;/strong&gt; for the VR condition. Conversely there was a decrease in positive emotions in both the traditional and video conditions. The Web-based learning tools evaluation scale also found that participants in the VR condition &lt;strong&gt;reported higher engagement&lt;/strong&gt; than those in the other conditions. Overall, VR displayed an &lt;strong&gt;improved learning experience&lt;/strong&gt; when compared to traditional and video learning methods.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;being-there-in-the-midst-of-the-story-how-immersive-journalism-affects-our-perceptions-and-cognitions&quot;&gt;Being There in the Midst of the Story: How Immersive Journalism Affects Our Perceptions and Cognitions&lt;/h1&gt;
+&lt;p&gt;(Sundar et al, 2017)&lt;/p&gt;
+
+&lt;p&gt;Specifically relating to journalism, but the similarity and comparison of the response to theatrical ‘story-telling’ is fairly clear.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Immersive journalism in the form of virtual reality (VR) headsets and 360°-video is becoming more mainstream and is much touted for &lt;strong&gt;inducing greater “presence”&lt;/strong&gt; than traditional text. But, does this presence influence psychological outcomes of reading news, such as memory for story content, perceptions of credibility, and empathy felt toward story characters? We propose that &lt;strong&gt;two key technological affordances of VR (modality and interactivity) are responsible for triggering three presence-related cognitive heuristics (being-there, interaction, and realism), which influence news readers’ memory and their perceptions of credibility, empathy, and story-sharing intentions&lt;/strong&gt;. We report a 3 (storytelling medium: VR vs. 360°-video vs. Text) × 2 (story: “The displaced” and “The click effect”) mixed-factorial experiment, in which participants (N = 129) experienced two New York Times stories (that differed in their emotional intensity) using one of three mediums (VR, 360°-video, Text). Participants who experienced the stories using VR and 360°-video &lt;strong&gt;outperformed those who read the same stories using text with pictures, not only on such presence-related outcomes as being-there, interaction, and realism, but also on perceived source credibility, story-sharing intention, and feelings of empathy&lt;/strong&gt;. Moreover, we found that &lt;strong&gt;senses of being-there, interaction, and realism mediated the relationship between storytelling medium and reader perceptions of credibility, story recall, and story-sharing intention&lt;/strong&gt;. These findings have &lt;strong&gt;theoretical implications for the psychology of virtual reality&lt;/strong&gt;, and practical applications for immersive journalism in particular and interactive media in general.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;reasons-to-use-virtual-reality-in-education-and-training-courses-and-a-model-to-determine-when-to-use-virtual-reality&quot;&gt;Reasons to use virtual reality in education and training courses and a model to determine when to use virtual reality&lt;/h1&gt;
+&lt;p&gt;(Pantelidis, 2010)&lt;/p&gt;
+
+&lt;p&gt;This paper discusses a significant number of studies that demonstrate the use and advantages of VR in an education environment. As a tool for learning, VR appears to display many useful traits.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Studies show that a virtual environment can “stimulate learning and comprehension, because it provides a tight coupling between symbolic and experiential information” (Bowman, Hodges, Allison, &amp;amp; Wineman, 1998)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Numerous studies have focused on how children and young learners interact and learn in a 3D environment&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;potential of spatial and social technologies in a virtual learning environment (VLE) through presence&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while painting with a painter in virtual reality. IEEE transactions on visualization and computer graphics, 23(4), pp.1418-1426.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thornhill-Miller, B. and Dupont, J.M., 2016. Virtual reality and the enhancement of creativity and innovation: Under recognized potential among converging technologies?. Journal of Cognitive Education and Psychology, 15(1), pp.102-121.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Allcoat, D. and von Mühlenen, A., 2018. Learning in virtual reality: Effects on performance, emotion and engagement. Research in Learning Technology, 26.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sundar, S.S., Kang, J. and Oprean, D., 2017. Being there in the midst of the story: How immersive journalism affects our perceptions and cognitions. Cyberpsychology, Behavior, and Social Networking, 20(11), pp.672-682.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Pantelidis, V.S., 2010. Reasons to use virtual reality in education and training courses and a model to determine when to use virtual reality. Themes in Science and Technology Education, 2(1-2), pp.59-70.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Definitions of creativity</summary></entry><entry><title type="html">Embodiment in Virtual Reality</title><link href="http://localhost:4000/2020/12/05/embodiment-in-virtual-reality.html" rel="alternate" type="text/html" title="Embodiment in Virtual Reality" /><published>2020-12-05T00:00:00+00:00</published><updated>2020-12-05T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/05/embodiment-in-virtual-reality</id><content type="html" xml:base="http://localhost:4000/2020/12/05/embodiment-in-virtual-reality.html">&lt;h1 id=&quot;inducing-illusory-ownership-of-a-virtual-body&quot;&gt;Inducing illusory ownership of a virtual body&lt;/h1&gt;
+
+&lt;p&gt;https://www.frontiersin.org/articles/10.3389/neuro.01.029.2009/full&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Slater, M., Pérez Marcos, D., Ehrsson, H. and Sanchez-Vives, M.V., 2009. Inducing illusory ownership of a virtual body. Frontiers in neuroscience, 3, p.29.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Virtual reality additionally provides power to investigate these illusions at the whole body level. In Figure 2 we show an example of what can be seen when someone wears a tracked head-mounted display, &lt;strong&gt;looks down, and sees a virtual body in place of their real one&lt;/strong&gt;. The very act of looking down, changing head orientation in order to gaze in a certain direction, with the visual images changing as they would in reality is already a powerful clue that you are located in the virtual place that you perceive. We argue elsewhere that multisensory contingencies that correspond approximately to those employed to perceive physical reality provide a necessary condition for the illusion of being in the virtual place (Slater 2009 ). Now imagine that you move, and the virtual body moves in correspondence with your movements, or you see something touch your virtual body and you feel the touch in the corresponding location in your real body. These events add significantly to the reality of what is being perceived – &lt;strong&gt;not only are you in the virtual place, but you also have the illusion that the events occurring are real – therefore increasing the likelihood that you would respond realistically to virtual events and situations&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This realisation is important for the development of virtual reality applications because it means that one is not restricted to ultra-realistic simulations and high definition visual displays.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-audience-avatar&quot;&gt;The Audience Avatar&lt;/h1&gt;
+
+&lt;p&gt;The creation of the audience’s avatars did not elicit much developmental time. However, this is a subject area that deserves more thought – and it will do so as the project continues.  Interestingly, this subject was picked up quite early on by the students. Somehow, a sense of individual identity is a property that is desired but currently lacking. Virtual social media has recently placed emphasis on the individuality of the avatar, but perhaps this aspect gets in the way of experiencing the performance itself, as the main attraction.  I have certainly felt this to be the case when attending viewings of performances in such social media platforms as AltspaceVr and VRChat.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-choice-references-and-worthwhile-reading&quot;&gt;Some choice references and worthwhile reading&lt;/h2&gt;
 
 &lt;p&gt;Including the occasional response/thought of my own&lt;/p&gt;
 
@@ -440,7 +602,7 @@ results show that increased levels of user-tracking, the use of stereoscopic vis
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;In the opening quote, David Foster Wallace summarizes one of the greatest obstacles of human communication: the attempt to translate the felt immediacy of first-person experience to someone else, and to moreover understand someone else’s experience. Wallace states that all of our experiences are rendered through an embodied point of view, and that this orientation places the subject at the center of his or her experiences. However, recent advances in filmed, streamed, and simulated virtual reality environments allow subjects to see first-personally from the point-of-view of another person, character, or avatar. Thus, in this sense, it could be argued that through this technology it is now possible to have exactly the type of experience that Wallace suggests our day-to-day mode of being occludes: an experience in which a person is not the absolute center of their own experience. Instead, through this technology the individual is placed in the center of someone else’s experience. This inductive study explores how this virtual simulation can transform our ability to relate to and learn from one another.&lt;/p&gt;
+  &lt;p&gt;In the opening quote, David Foster Wallace summarizes one of the greatest obstacles of human communication: the attempt to translate the felt immediacy of first-person experience to someone else, and to moreover understand someone else’s experience. Wallace states that all of our experiences are rendered through an embodied point of view, and that this orientation places the subject at the center of his or her experiences. However, recent advances in filmed, streamed, and simulated virtual reality environments allow subjects to see &lt;strong&gt;first-personally from the point-of-view of another person, character, or avatar. Thus, in this sense, it could be argued that through this technology it is now possible to have exactly the type of experience that Wallace suggests our day-to-day mode of being occludes: an experience in which a person is not the absolute center of their own experience. Instead, through this technology the individual is placed in the center of someone else’s experience&lt;/strong&gt;. This inductive study explores how this virtual simulation can transform our ability to relate to and learn from one another.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;My thoughts: -&lt;/strong&gt;&lt;/p&gt;
@@ -475,7 +637,7 @@ results show that increased levels of user-tracking, the use of stereoscopic vis
 
 &lt;h1 id=&quot;communication-applications-of-virtual-reality&quot;&gt;Communication Applications of Virtual Reality&lt;/h1&gt;
 
-&lt;p&gt;&lt;em&gt;F. Biocca and M. R. Levy, “Communication Applications of Virtual Reality”, Communication in the age of virtual reality, pp. 127-157, 1995.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Some choice references and worthwhile reading</summary></entry><entry><title type="html">The Controller App</title><link href="http://localhost:4000/2020/12/03/controller-app-coming-together.html" rel="alternate" type="text/html" title="The Controller App" /><published>2020-12-03T00:00:00+00:00</published><updated>2020-12-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/03/controller-app-coming-together</id><content type="html" xml:base="http://localhost:4000/2020/12/03/controller-app-coming-together.html">&lt;p&gt;It’s starting to come together.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;F. Biocca and M. R. Levy, “Communication Applications of Virtual Reality”, Communication in the age of virtual reality, pp. 127-157, 1995.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Inducing illusory ownership of a virtual body</summary></entry><entry><title type="html">The Controller App</title><link href="http://localhost:4000/2020/12/03/controller-app-coming-together.html" rel="alternate" type="text/html" title="The Controller App" /><published>2020-12-03T00:00:00+00:00</published><updated>2020-12-03T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/03/controller-app-coming-together</id><content type="html" xml:base="http://localhost:4000/2020/12/03/controller-app-coming-together.html">&lt;p&gt;It’s starting to come together.&lt;/p&gt;
 
 &lt;p&gt;More efficient: -&lt;/p&gt;
 &lt;ul&gt;
@@ -493,119 +655,4 @@ results show that increased levels of user-tracking, the use of stereoscopic vis
   &lt;li&gt;Added VR player, which connects to the VR player’s room and thus is instantiated by remote VR clients and shown in the controller app. This is really very interesting, giving a feeling of &lt;strong&gt;‘god-like’&lt;/strong&gt; control over the VR players’ world!&lt;/li&gt;
   &lt;li&gt;Made players emissive yellow for clarity&lt;/li&gt;
   &lt;li&gt;Instantiating buttons - started with Agora video stream channels as they are created and destroyed.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">It’s starting to come together.</summary></entry><entry><title type="html">Simulator Sickness</title><link href="http://localhost:4000/2020/12/01/simulator-sickness.html" rel="alternate" type="text/html" title="Simulator Sickness" /><published>2020-12-01T00:00:00+00:00</published><updated>2020-12-01T00:00:00+00:00</updated><id>http://localhost:4000/2020/12/01/simulator-sickness</id><content type="html" xml:base="http://localhost:4000/2020/12/01/simulator-sickness.html">&lt;h1 id=&quot;keywords&quot;&gt;Keywords:&lt;/h1&gt;
-&lt;ul&gt;
-  &lt;li&gt;Simulator sickness&lt;/li&gt;
-  &lt;li&gt;Cybersickness&lt;/li&gt;
-  &lt;li&gt;Vergence accommodation conflict&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;beyond-feeling-sick-the-visual-and-cognitive-aftereffects-of-virtual-reality&quot;&gt;Beyond Feeling Sick: The Visual and Cognitive Aftereffects of Virtual Reality&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Szpak, A., Michalski, S.C., Saredakis, D., Chen, C.S. and Loetscher, T., 2019. Beyond feeling sick: The visual and cognitive aftereffects of virtual reality. IEEE Access, 7, pp.130883-130892.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/8827502&quot;&gt;https://ieeexplore.ieee.org/abstract/document/8827502&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The authors of this study investigate &lt;em&gt;‘visual and cognitive aftereffects of using HMDs and their relationship to the reporting of sickness’&lt;/em&gt;, concentrating on two areas: &lt;em&gt;‘Visual (accommodation and vergence) and cognitive (reaction time and rapid visual processing)’&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Despite continued improvements in virtual reality (VR) technologies, many people still experience adverse symptoms from using head-mounted displays (HMDs)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It has been noted by this study that there are discernable aftereffects from engagin in a VR experience:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Cognitive effects include changes in decision times that may be related to alertness and attention&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It is aslo noted that this is a relatively recent area of study. Personally, I am slightly surprised that the authors are surprised, seeing that VR itself is a relatively new development - in particular, as a popular form of entertainment. Most work until recently has been concentrated on the development of the technology, rather than its potential limitations. It may be that the warnings that have been placed by manufacturers on commercial VR devices are there to ‘cover’ themselves - perhaps they know that there may be some kind of effect, but do not yet understand what that effect is.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Despite the recent popularity of HMDs, it is surprising that little is known about the visual and cognitive aftereffects of using VR in HMDs. Particularly, given that most if not all commercial VR devices come with safety warnings and list of visual and cognitive symptoms a user may experience during or post-exposure to VR content&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;vergenceaccommodation-conflicts-hinder-visual-performance-and-cause-visual-fatigue&quot;&gt;Vergence–accommodation conflicts hinder visual performance and cause visual fatigue&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Hoffman, D.M., Girshick, A.R., Akeley, K. and Banks, M.S., 2008. Vergence–accommodation conflicts hinder visual performance and cause visual fatigue. Journal of vision, 8(3), pp.33-33.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://jov.arvojournals.org/article.aspx?articleid=2122611&quot;&gt;https://jov.arvojournals.org/article.aspx?articleid=2122611&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The title of this paper probably says it all!&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Unfortunately, 3D displays often yield distortions in perceived 3D structure compared with the percepts of the real scenes the displays depict. A likely cause of such distortions is the fact that computer displays present images on one surface. Thus, focus cues—accommodation and blur in the retinal image—specify the depth of the display rather than the depths in the depicted scene. Additionally, the uncoupling of vergence and accommodation required by 3D displays frequently reduces one’s ability to fuse the binocular stimulus and causes discomfort and fatigue for the viewer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;virtual-reality-games-on-accommodation-and-convergence&quot;&gt;Virtual reality games on accommodation and convergence&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Elias, Z.M., Batumalai, U.M. and Azmi, A.N.H., 2019. Virtual reality games on accommodation and convergence. Applied ergonomics, 81, p.102879.&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Increasing popularity of virtual reality (VR) gaming is causing increased concern, as prolonged use induces visual adaptation effects which disturbs normal vision. Effects of VR gaming on accommodation and convergence of young adults by measuring accommodative response and phoria before and after experiencing virtual reality were measured. An increase in accommodative response and a decrease in convergence was observed after immersion in VR games. It was found that visual symptoms were apparent among the subjects post VR exposure.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;developing-visual-systems-and-exposure-to-virtual-reality-and-stereo-displays-some-concerns-and-speculations-about-the-demands-on-accommodation-and-vergence&quot;&gt;Developing visual systems and exposure to virtual reality and stereo displays: some concerns and speculations about the demands on accommodation and vergence&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Rushton, S.K. and Riddell, P.M., 1999. Developing visual systems and exposure to virtual reality and stereo displays: some concerns and speculations about the demands on accommodation and vergence. Applied Ergonomics, 30(1), pp.69-78.&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There is, however, some indication that long-term VR viewing
-in adults can lead to visual problems. It seems important to determine the safety of these systems for the developing human visual
-system before they come into common use&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;… this was 1998!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;resolving-the-vergence-accommodation-conflict-in-head-mounted-displays&quot;&gt;Resolving the Vergence-Accommodation Conflict in Head-Mounted Displays&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Kramida, G., 2015. Resolving the vergence-accommodation conflict in head-mounted displays. IEEE transactions on visualization and computer graphics, 22(7), pp.1912-1931.&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The vergence-accommodation conflict (VAC) remains a major problem in head-mounted displays for virtual and augmented reality (VR and AR).&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Keywords: Simulator sickness Cybersickness Vergence accommodation conflict</summary></entry><entry><title type="html">The Controller App - Problems, Issues, Headaches</title><link href="http://localhost:4000/2020/11/30/problems-with-controller-app.html" rel="alternate" type="text/html" title="The Controller App - Problems, Issues, Headaches" /><published>2020-11-30T00:00:00+00:00</published><updated>2020-11-30T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/30/problems-with-controller-app</id><content type="html" xml:base="http://localhost:4000/2020/11/30/problems-with-controller-app.html">&lt;p&gt;This is the non-OSC version. Should I have stuck with OSC? The fact that it did not appear to work for the testers in the studio made me a bit queezy about perservering for too long. The Idea of hooking it up with Normcore was quite appealing, as I imagined ‘simply’ adapting the existing VR controller panels to work as a stand-alone app, controlling the whole virtual space.&lt;/p&gt;
-
-&lt;p&gt;Original UI-only app was not firing updates to other clients.&lt;/p&gt;
-
-&lt;p&gt;I copied the code-base from the VR app into a new project, brought in the original 2D controller UI scene, and wired it all up. This is very promising. Events are firing in the other clients - although a lot of work will need to be done to make this work seemlessly and slickly - and, probably best of all, I can superimpose the 2D UI on top of a scene created by an overhead camera displaying the whole space. It would be nice to be able to control the camera too - this is for another day!&lt;/p&gt;
-
-&lt;p&gt;Problems with delay - the delay on the VR client is unacceptable.&lt;/p&gt;
-
-&lt;p&gt;Some duplication was removed - originally, when a video clip or stream was assigned to a screen, the action would take place and the realtime datastore was updated for that specific individual action, meaning that the clients would also be updated with the specific individual action.&lt;/p&gt;
-
-&lt;p&gt;As I am now using RealtimeArray for the full set of screen states, this is no longer necessary. Any changes that occur within the array are automatically updated by all clients. So, there has been a duplication of effort. The change I have no made does away with the individual actions, and only the RealtimeArray is used. It should be possible to further free up resources by removing entirely the old Realtime models for selecting individual video clips/streams and screens on which to display them. I will also seek to do this with teleport portal selections. Scene formations can remain for now.&lt;/p&gt;
-
-&lt;p&gt;This does appear to have sped things up, but screens are still going blank before updating with the entire RealtimeArray. I will need to work out why this is happening and how it can be prevented. Also, thinkgs to seem to slow down over time, suggesting perhaps a memory leak or lack of disposing / recycling of objects.&lt;/p&gt;</content><author><name></name></author><summary type="html">This is the non-OSC version. Should I have stuck with OSC? The fact that it did not appear to work for the testers in the studio made me a bit queezy about perservering for too long. The Idea of hooking it up with Normcore was quite appealing, as I imagined ‘simply’ adapting the existing VR controller panels to work as a stand-alone app, controlling the whole virtual space.</summary></entry><entry><title type="html">The Controller</title><link href="http://localhost:4000/2020/11/26/building-the-controller.html" rel="alternate" type="text/html" title="The Controller" /><published>2020-11-26T00:00:00+00:00</published><updated>2020-11-26T00:00:00+00:00</updated><id>http://localhost:4000/2020/11/26/building-the-controller</id><content type="html" xml:base="http://localhost:4000/2020/11/26/building-the-controller.html">&lt;h1 id=&quot;the-controller-app-&quot;&gt;The controller app-&lt;/h1&gt;
-
-&lt;p&gt;This should be fairly straightfoward but it is proving to be far from that!&lt;/p&gt;
-
-&lt;p&gt;I had built the original demo to use &lt;strong&gt;OSC messaging over HTTP&lt;/strong&gt;. However, I decided to move away from this idea and to turn it into a &lt;strong&gt;Normcore project&lt;/strong&gt;, where Realtime models are used to update the VR client environments directly. However, they are currently not updating. The Realtime models are updating and firing events that are recognised by the local client and any other controller app clients, but the events are not being picked up by the VR client listeners and, therefore, nothing is happening.&lt;/p&gt;
-
-&lt;p&gt;I have asked for help on the &lt;strong&gt;Normcore Discord&lt;/strong&gt; channel and, after the first response on a slightly different issue, pointing out the need to enter different rooms in order to prevent the controller app attempting to instantiate the VR prefabs, none has been forthcoming. The fact that the controller app is trying to copy the VR app’s environment when the room names are the same, suggests there is a connection, but the custom Realtime models are not on the same page, so it seems.&lt;/p&gt;
-
-&lt;p&gt;I will continue building the UI and hope that I can wire it up at some point. If necessary, I could always go back to OSC and hope that I can get the OSC clients to communicate over the local network, or I could send text messages via Agora. Both these options could be made to work, I feel, but are not the ideal solution.&lt;/p&gt;
-
-&lt;h1 id=&quot;its-all-about-rooms&quot;&gt;It’s all about rooms&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;NB&lt;/strong&gt; With help from Max (a Normcore founder) and another poster, I discovered that it is all about &lt;strong&gt;Rooms&lt;/strong&gt;. The solution is to have a single App ID and then a room for the VR players and a room for the controller app, whilst maintaining and sharing the same Realtime data-stores for components that are shared between both, used by both VR players and the controller app. Seems simple once the penny has dropped!&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">The controller app-</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">It’s starting to come together.</summary></entry></feed>

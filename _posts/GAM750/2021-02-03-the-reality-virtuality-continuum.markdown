@@ -22,6 +22,16 @@ In 1994 Paul Milgram and Fumio Kishino defined a mixed reality as "...anywhere b
 *Milgram, P., Takemura, H., Utsumi, A. and Kishino, F., 1995, December. Augmented reality: A class of displays on the reality-virtuality continuum. In Telemanipulator and telepresence technologies (Vol. 2351, pp. 282-292). International Society for Optics and Photonics.*
 <br><br>
 
+# Magic Book
+
+This is a mixed reality interface that draws upon Paul Milgram’s “reality-virtuality continuum” taxonomy.  This imagines the reader having the ability to view and enter scenes from different points along the continuum, where “VR users can see other VR users represented as life-sized virtual avatars, while AR users will see VR users as miniature avatars in the scene.”
+
+Billinghurst, M., Kato, H. and Poupyrev, I., 2001, March. MagicBook: transitioning between reality and virtuality. In *CHI'01 extended abstracts on Human factors in computing systems* (pp. 25-26).
+
+<br>
+
+# The Not Near Enough approach
+
 **The approach taken with the Not Near Enough project** plays with notions and ideas that are expressed within discussions surrounding the concept of a reality-virtuality continuum. This big *'playground'* we have been creating attempts to break down the continuum, or to link up parts of the continuum. We have video streaming and audio streaming coming into the VR. This plays with the boundaries between virtual reality and reality and the ways they connect; the boundaries between *our* realities and the *'realities'* of theatre. 
 
 The NNE audience is placed in a space created as virtual reality. Taking Milgram's idea of the converse case of *Augmented Reality (AR)* on the virtuality continuum being *Augmented Virtuality (AV)*, there appears to be a correlation with the way in which the NNE virtual theatre space is augmented by live (as well as pre-prepared) video and audio feeds brought in from the world *outside* the virtual world. 
@@ -31,7 +41,7 @@ The real-time interactions that take place between real and the virtual can be r
 The relationships between performers, audience and stage managers, in terms of not only their differing roles, but also their positioning and nature of their interactions within and across the continuum, is also interesting. 
 * What motivates the audience compared with what motivates the performers? 
 * How do limitations and affordances affect motivation? 
-* How does witnessing and experiencing other points on the continuum, from the perspective of their own, affect this? Is it a little like being aware of the concept of a fourth dimension, and having the ability to imagine it, when reality dictates that one only has access to three dimentions?
+* How does witnessing and experiencing other points on the continuum, from the perspective of their own, affect this? Is it a little like being aware of the concept of a fourth dimension, and having the ability to imagine it, when reality dictates that one only has access to three dimensions?
 
 **It is interesting that theatre is already a kind of virtual way of viewing the world**. It is already about making these crazy virtual worlds where anything can happen. 
 
@@ -46,7 +56,7 @@ Is it that, what we have here with VR is, by its very nature, another very natur
 The concept of the virtual Avatar is relatively new, but could this be analogous to costume and make-up? 
 Is the idea of embodiment in VR so different to simply getting into character? These are natural questions raised by the nature of this project.
 
-In fact, is it going to far to suggest that **theatre IS virtual reality**?! When we create theatre, no matter what form it takes, it is a kind of Virtual Reality, in a form of its very own. If this is the case, then, as the human condition appears to need to create theatre, then does VR tap into something very similar? In the same way that video games tap into and immerse us into alternative realities, allowing us to become someone else or to experience something from another person's perspective, within a situation that is not ‘real’, but is an *alternative* to *actual* reality?
+In fact, is it going too far to suggest that **theatre IS virtual reality**?! When we create theatre, no matter what form it takes, it is a kind of Virtual Reality, in a form of its very own. If this is the case, then, as the human condition appears to need to create theatre, then does VR tap into something very similar? In the same way that video games tap into and immerse us into alternative realities, allowing us to become someone else or to experience something from another person's perspective, within a situation that is not ‘real’, but is an *alternative* to *actual* reality?
 
 # Virtual Reality is absolutely made for theatre!
 

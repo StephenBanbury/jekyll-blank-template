@@ -5,7 +5,11 @@ date: 2020-10-03 01:00
 published: true
 ---
 
-# First Stakeholder Testing
+# User Testing
+
+There will not likely be any formal user testing. In effect, the performances, which will be the first time the students will be showing the performances they have been working on as their virtual audio-visual tools were being developed alongside. Hopefully, the project will continue to run beyond this point, where more structured forms of testing can be implemented.
+
+The following videos show some of the users using the environment.
 
 **First time in the space for the students**
 <figure class="video_container">
@@ -15,10 +19,26 @@ published: true
   </video>
 </figure>
 
+**Working with the expert stakeholders**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop muted>
+    <source src="\media\GAM750\testing1.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
 **Meeting my client in the space for the first time**
 <figure class="video_container">
   <video style="width:720px;" autoplay loop muted>
-    <source src="\media\GAM750\first-test-in-space-with-client.mp4" type="video/mp4">
+    <source src="\media\GAM750\testing2.mp4" type="video/mp4">
+    Woops! Your browser does not support the HTML5 video tag.
+  </video>
+</figure>
+
+**Students working with the developing environment**
+<figure class="video_container">
+  <video style="width:720px;" autoplay loop muted>
+    <source src="\media\GAM750\testing3.mp4" type="video/mp4">
     Woops! Your browser does not support the HTML5 video tag.
   </video>
 </figure>

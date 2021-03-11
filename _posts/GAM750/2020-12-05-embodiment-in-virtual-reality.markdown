@@ -5,6 +5,22 @@ date: 2020-12-05 00:00
 published: true
 ---
 
+# Inducing illusory ownership of a virtual body
+
+https://www.frontiersin.org/articles/10.3389/neuro.01.029.2009/full
+
+*Slater, M., Pérez Marcos, D., Ehrsson, H. and Sanchez-Vives, M.V., 2009. Inducing illusory ownership of a virtual body. Frontiers in neuroscience, 3, p.29.*
+
+>Virtual reality additionally provides power to investigate these illusions at the whole body level. In Figure 2 we show an example of what can be seen when someone wears a tracked head-mounted display, **looks down, and sees a virtual body in place of their real one**. The very act of looking down, changing head orientation in order to gaze in a certain direction, with the visual images changing as they would in reality is already a powerful clue that you are located in the virtual place that you perceive. We argue elsewhere that multisensory contingencies that correspond approximately to those employed to perceive physical reality provide a necessary condition for the illusion of being in the virtual place (Slater 2009 ). Now imagine that you move, and the virtual body moves in correspondence with your movements, or you see something touch your virtual body and you feel the touch in the corresponding location in your real body. These events add significantly to the reality of what is being perceived – **not only are you in the virtual place, but you also have the illusion that the events occurring are real – therefore increasing the likelihood that you would respond realistically to virtual events and situations**.
+
+>This realisation is important for the development of virtual reality applications because it means that one is not restricted to ultra-realistic simulations and high definition visual displays.
+
+<br><br>
+
+# The Audience Avatar
+
+The creation of the audience’s avatars did not elicit much developmental time. However, this is a subject area that deserves more thought – and it will do so as the project continues.  Interestingly, this subject was picked up quite early on by the students. Somehow, a sense of individual identity is a property that is desired but currently lacking. Virtual social media has recently placed emphasis on the individuality of the avatar, but perhaps this aspect gets in the way of experiencing the performance itself, as the main attraction.  I have certainly felt this to be the case when attending viewings of performances in such social media platforms as AltspaceVr and VRChat.
+
 ## Some choice references and worthwhile reading
 
 Including the occasional response/thought of my own
@@ -118,7 +134,7 @@ _Gerry, L.J., 2017. Paint with me: Stimulating creativity and empathy while pain
 
 >"Termed “embodied experiences” (Ahn, Le, & Bailenson, 2015) or “embodied simulations (Bertrand, Franco, Pointeau, & Cherene, 2014), immersive virtual environment technology (IVET) can allow users to embody the first-person point-of-view of another person while seeing and hearing sounds from the experiential locus of another person, as though the viewer can wear another person's sensory apparatus. This simulation allows for the illusion of being in another person's shoes and embodying their perspective, a situation perhaps best represented by Spike Jonze's 2006 film Being John Malkovich, wherein characters enter a portal that allows them to see, feel, and hear through John Malkovich's body. Because this new communication medium allows people to share a new mode of access one another's experiences, this study hypothesizes that it can facilitate greater intimacy, understanding, and empathy."
 
->In the opening quote, David Foster Wallace summarizes one of the greatest obstacles of human communication: the attempt to translate the felt immediacy of first-person experience to someone else, and to moreover understand someone else's experience. Wallace states that all of our experiences are rendered through an embodied point of view, and that this orientation places the subject at the center of his or her experiences. However, recent advances in filmed, streamed, and simulated virtual reality environments allow subjects to see first-personally from the point-of-view of another person, character, or avatar. Thus, in this sense, it could be argued that through this technology it is now possible to have exactly the type of experience that Wallace suggests our day-to-day mode of being occludes: an experience in which a person is not the absolute center of their own experience. Instead, through this technology the individual is placed in the center of someone else's experience. This inductive study explores how this virtual simulation can transform our ability to relate to and learn from one another.
+>In the opening quote, David Foster Wallace summarizes one of the greatest obstacles of human communication: the attempt to translate the felt immediacy of first-person experience to someone else, and to moreover understand someone else's experience. Wallace states that all of our experiences are rendered through an embodied point of view, and that this orientation places the subject at the center of his or her experiences. However, recent advances in filmed, streamed, and simulated virtual reality environments allow subjects to see **first-personally from the point-of-view of another person, character, or avatar. Thus, in this sense, it could be argued that through this technology it is now possible to have exactly the type of experience that Wallace suggests our day-to-day mode of being occludes: an experience in which a person is not the absolute center of their own experience. Instead, through this technology the individual is placed in the center of someone else's experience**. This inductive study explores how this virtual simulation can transform our ability to relate to and learn from one another.
 
 
 **My thoughts: -**
